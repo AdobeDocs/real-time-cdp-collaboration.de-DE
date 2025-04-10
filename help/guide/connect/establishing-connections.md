@@ -51,7 +51,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
->title="Anwendungsszenarien"
+>title="Anwendungsfälle"
 >abstract="Die Anwendungsfälle sind mit allen Optionen vorausgefüllt. Sie können die Anwendungsfälle bearbeiten, bevor Sie Ihre Verbindungseinstellungen übermitteln."
 
 >[!CONTEXTUALHELP]

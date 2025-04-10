@@ -25,15 +25,15 @@ Bevor Sie hier Ihre Datenverbindungen verwalten, sollten Sie sie zunächst währ
 
 >[!IMPORTANT]
 >
->Das Löschen einer Datenverbindung wird derzeit in der Benutzeroberfläche von Real-Time CDP Collaboration nicht unterstützt. Um eine Datenverbindung zu löschen, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter oder [erstellen Sie ein Support-Ticket](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support).
+>Das Löschen einer Datenverbindung wird derzeit in der Benutzeroberfläche von Real-Time CDP Collaboration nicht unterstützt. Um eine Datenverbindung zu löschen, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter oder [erstellen Sie ein Support-Ticket](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Meine Zielgruppen]** und wählen Sie **[!UICONTROL Datenverbindungen verwalten]**.
 
-![Arbeitsbereich „Setup“ mit hervorgehobener Option „Datenverbindungen verwalten“.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+![Arbeitsbereich „Setup“ mit hervorgehobener Option „Datenverbindungen verwalten“.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
 
 Dadurch wird eine Ansicht aller Ihrer derzeit eingerichteten Datenverbindungen mit Informationen zur Anzahl der Zielgruppen in jeder dieser Verbindungen, zur Quelle der Datenverbindung und mehr angezeigt. Wählen Sie **[!UICONTROL Datenverbindung anzeigen]**, um Informationen über die Übereinstimmungsschlüssel, die Planung und die Zielgruppen anzuzeigen, die Teil dieser Datenverbindung sind.
 
-![Arbeitsbereich „Datenverbindungen verwalten“ mit hervorgehobenen Optionen „Verbindungen anzeigen“. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
+![Arbeitsbereich „Datenverbindungen verwalten“ mit hervorgehobenen Optionen „Verbindungen anzeigen“. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
 ### Übereinstimmungsschlüssel {#match-keys}
 
@@ -48,7 +48,7 @@ Dadurch wird eine Ansicht aller Ihrer derzeit eingerichteten Datenverbindungen m
 
 Die in dieser Datenverbindung verwendeten Übereinstimmungsschlüssel können nicht bearbeitet werden.
 
-![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
+![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Planung {#scheduling}
 
@@ -59,13 +59,13 @@ Die in dieser Datenverbindung verwendeten Übereinstimmungsschlüssel können ni
 
 Sie können die Planungsoptionen, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, nicht bearbeiten. Weitere Informationen zu den Planungsoptionen finden Sie [ Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Dokument zum Audience-Import-Workflow.
 
-![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## Verwalten von Zielgruppen {#manage-audiences}
 
 In der Liste der Zielgruppen Ihrer Datenverbindung können Sie auswählen, ob Sie die Zielgruppen anzeigen, ihre Kategorien bearbeiten oder sie aus der Datenverbindung entfernen möchten.
 
-![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenen Zielgruppen.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
+![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenen Zielgruppen.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Nächste Schritte
 

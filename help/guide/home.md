@@ -6,7 +6,7 @@ badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informati
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Publisher und Advertiser können in einer datenschutzsicheren Umgebung zusammena
 
 Publisher können sicher auf Advertiser-Zielgruppen über mehrere Kanäle zugreifen und diese aktivieren, indem sie ihre Reichweite mithilfe von Identitätspartnern und Look-alike-Modellierung (verfügbar in kommenden Versionen) schneller skalieren. Werbetreibende können Zielgruppen durch den Trichter leiten und bereits konvertierte Zielgruppen unterdrücken, um durch einen sicheren Aktivierungs-Workflow die Relevanz von Nachrichten und effiziente Ausgaben sicherzustellen.
 
-## Verstehen Sie Aggregat Kampagnenleistung
+## Die aggregierte Kampagnenleistung verstehen
 
 Verwenden Sie Tools zur partizipativen Messung, um die Wirkung Ihrer Kampagnen zu verfolgen. Publisher können die Kampagnenleistung an Marken berichten und so aktuelle und zukünftige Anzeigen verbessern und die Anzeigenausgaben anpassen. Werbetreibende können datenschutzfreundliche Interaktions- und Konversions-Insights freigeben, Exposition, Kanal- und Konversionsdaten integrieren und bevorzugte Messpartner verwenden, um vollständige Insights zu erhalten. Beachten Sie, dass ein Teil der Messautomatisierung in der ersten Version nicht verfügbar ist.
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Erste Schritte {#get-started}
 
-Um Real-Time CDP Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [ im Handbuch ](/help/guide/permissions/overview.md)Übersicht über die Zugriffskontrolle=_{target„blank“}.
+Um Real-Time CDP Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [ im Handbuch ](/help/guide/permissions/overview.md){target=_"blank"}Übersicht über die Zugriffskontrolle“.
 
 Sobald Sie Zugriff haben, können Sie Ihr Unternehmen einrichten und Ihre Datenquellen mit Adobe Real-Time CDP Collaboration verbinden, um Zielgruppen zu importieren. Lesen Sie den [End-to-End-Workflow von Advertiser und ](/help/guide/end-to-end-workflow.md)), um zu beginnen.
 
@@ -61,7 +61,7 @@ Sobald Sie Zugriff haben, können Sie Ihr Unternehmen einrichten und Ihre Datenq
 
 ## Ressourcen
 
-Im [Glossar](/help/guide/glossary.md) finden Sie detaillierte Informationen zu den im Produkt verwendeten Begriffen. Wenn Sie Support benötigen, rufen Sie die Adobe Systems [Customer Support-Seite](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} auf.
+Im [Glossar](/help/guide/glossary.md) finden Sie ausführliche Informationen zu den im Produkt verwendeten Begriffen. Rufen Sie zur Unterstützung die Seite Adobe [Kunden-Support](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} auf.
 
 ## Kontakt
 

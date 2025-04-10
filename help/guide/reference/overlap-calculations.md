@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# Berechnen von Überschneidungszahlen und Prozentsätzen
+# Berechnung der Überschneidungszahlen und -prozentsätze
 
 In Adobe Real-Time CDP Collaboration ist das Verständnis der Zielgruppenüberschneidung von entscheidender Bedeutung für die Optimierung Ihrer Marketing-Strategien und die Sicherstellung einer effektiven Zusammenarbeit zwischen Werbetreibenden und Publishern. In diesem Dokument wird erläutert, wie Überschneidungszahlen und -prozentsätze in verschiedenen Produktbereichen anhand von Beispieldaten berechnet werden.
 
@@ -22,7 +22,7 @@ In Adobe Real-Time CDP Collaboration ist das Verständnis der Zielgruppenübersc
 Nehmen wir für dieses Beispiel an, dass:
 
 * Der Werbetreibende hat drei Zielgruppen (A1, A2, A3).
-* Die Vermarkter hat drei Zielgruppen (P1, P2, P3).
+* Der Publisher hat drei Zielgruppen (P1, P2, P3).
 * Alle Übereinstimmungsidentitäten schließen sich gegenseitig über alle Zielgruppen hinweg aus.
 
 >[!NOTE]
@@ -33,7 +33,7 @@ Nehmen wir für dieses Beispiel an, dass:
 
 | Advertiser-Zielgruppen | A1 | A2 | A3 | ALLE |
 |----------------------|------|------|------|------|
-| Gehashte E-Mail-Identitäten | 300 K | 450 K | 250 K | 1 Mio. |
+| Hash-E-Mail-Identitäten | 300 K | 450 K | 250 K | 1 Mio. |
 | LiveRamp-ID-Identitäten | 500 K | 200 K | 700 K | 1,4 M |
 | Gesamtzahl der Identitäten | 800 K | 650 K | 950 K | 2,4 M |
 
@@ -61,7 +61,7 @@ Nehmen wir für dieses Beispiel an, dass:
 
 |                     | A1 - P ALLE | A2 - P ALLE | A3 - P ALLE |
 |---------------------|------------|------------|------------|
-| Überschneidung durch gehashte E-Mail | 250 K | 400 K | 200 K |
+| Überschneidung durch Hash-E-Mail | 250 K | 400 K | 200 K |
 | Überschneidung nach LiveRamp-ID | 350 K | 150 K | 230 K |
 | Gesamtüberschneidung | 600 K | 550 K | 430 K |
 
@@ -91,21 +91,21 @@ Nachfolgend finden Sie Beispielberechnungen und Formeln für verschiedene Übers
 
 ### Alle Advertiser-Zielgruppen und alle Publisher-Zielgruppen
 
-| Advertiser-Zielgruppen | Publisher-Zielgruppen | Anzahl der Identitäten (a) | Identitätsüberschneidungen (b) | Überschneidungsprozentsatz | Schlüsselschlüssel-Aufschlüsselung abgleichen | Aufschlüsselung Schlüssel der Übereinstimmung % |
+| Advertiser-Zielgruppen | Publisher-Zielgruppen | Anzahl der Identitäten (a) | Identitätsüberschneidungen (b) | Überschneidungsprozentsatz | Aufschlüsselung des Übereinstimmungsschlüssels | Aufschlüsselung Schlüssel der Übereinstimmung % |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
-| ALLE | ALLE | Gesamtzahl der Identitäten ALLER Advertiser-Zielgruppen <br> Identitätsanzahl = 1 M + 1,4 M = 2,4 M | Gesamtüberschneidung zwischen ALLEN Advertiser-Zielgruppen und ALLEN Publisher-Zielgruppen für alle Übereinstimmungsschlüssel <br> Überschneidung von Identitäten = 1,58 Mio. | Prozentsatz der sich überschneidenden Identitäten über die gesamte Identitätsanzahl ALLER Advertiser-Zielgruppen <br> Überschneidung % = (B / A) * 100 = (1,58 M / 2,4 M) * 100 = 65,83 % <br> Überschneidung Prozent = 65,83 % | Überlappende Identitäten pro Übereinstimmungsschlüssel <br> Überschneidung nach gehashter E-Mail-Adresse = 850K <br> Überschneidung nach Liveramp-ID = 730.000 | Prozentsatz der Überschneidung der Übereinstimmungsschlüssel gegenüber der gesamten Identitätsüberschneidung <br> Übereinstimmungsschlüssel % für Hash-E-Mail = (850K / 1,58M) * 100 = 53,8 % <br> für Liveramp-ID = (730K / 1,58M) * 100 = 46,2 % |
+| ALLE | ALLE | Gesamtzahl der Identitäten ALLER Advertiser-Zielgruppen <br> Identitätsanzahl = 1 M + 1,4 M = 2,4 M | Gesamtüberschneidung zwischen ALLEN Advertiser-Zielgruppen und ALLEN Publisher-Zielgruppen für alle Übereinstimmungsschlüssel <br> Überschneidung von Identitäten = 1,58 Mio. | Prozentsatz der sich überschneidenden Identitäten über die gesamte Identitätsanzahl ALLER Advertiser-Zielgruppen <br> Überschneidung % = (B / A) * 100 = (1,58 M / 2,4 M) * 100 = 65,83 % <br> Überschneidung Prozent = 65,83 % | Überschneidende Identitäten pro Übereinstimmungsschlüssel <br> Überschneidung durch Hash-E-Mail = 850.000 <br> Überschneidung durch LiveRamp-ID = 730.000 | Prozentsatz der Überschneidung der Übereinstimmungsschlüssel gegenüber der gesamten Identitätsüberschneidung <br> Übereinstimmungsschlüssel % für Hash-E-Mail = (850K / 1,58M) * 100 = 53,8 % <br> für Liveramp-ID = (730K / 1,58M) * 100 = 46,2 % |
 
 ### Alle Advertiser-Zielgruppen und eine Publisher-Zielgruppe
 
-| Advertiser-Zielgruppen | Publisher-Zielgruppen | Identitäts Zählen (A) | Überlappende Identitäten (B) | Überlappung Prozent | Schlüsselschlüssel-Aufschlüsselung abgleichen | Aufschlüsselung der Übereinstimmungsschlüssel % |
+| Advertiser-Zielgruppen | Publisher-Zielgruppen | Anzahl der Identitäten (a) | Identitätsüberschneidungen (b) | Überschneidungsprozentsatz | Aufschlüsselung des Übereinstimmungsschlüssels | Aufschlüsselung Schlüssel der Übereinstimmung % |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
 | ALLE | 1 P2 | Gesamtzahl der Identitäten aller Advertiser-Zielgruppen <br> Anzahl der Identitäten = 1 M + 1,4 M = 2,4 M | Gesamtüberschneidung zwischen ALLEN Advertiser-Zielgruppen und der ausgewählten Publisher-Zielgruppe P2 für alle Übereinstimmungsschlüssel <br> Überschneidung von Identitäten = 860.000 | Prozentsatz der sich überschneidenden Identitäten über die gesamte Identitätsanzahl ALLER Advertiser-Zielgruppen <br> Überschneidung % = (B / A) * 100 = (860 K / 2,4 M) * 100 = 35,83 % <br> Überschneidung Prozent = 35,83 % | Überschneidende Identitäten pro Übereinstimmungsschlüssel <br> Überschneidung durch Hash-E-Mail = 530.000 <br> Überschneidung durch LiveRamp-ID = 330.000 | Prozentsatz der Überschneidung des Übereinstimmungsschlüssels gegenüber der gesamten Identitätsüberschneidung <br> Übereinstimmungsschlüssel % für Hash-E-Mail = (530K / 860K) * 100 = 61,62 % <br> für LiveRamp-ID = (330K / 860K) * 100 = 38,38 % |
 
 ### Eine Advertiser-Zielgruppe und alle Publisher-Zielgruppen
 
-| Advertiser-Zielgruppen | Publisher-Zielgruppen | Anzahl der Identitäten (a) | Identitätsüberschneidungen (b) | Überschneidungsprozentsatz | Schlüsselschlüssel-Aufschlüsselung abgleichen | Aufschlüsselung der Übereinstimmungsschlüssel % |
+| Advertiser-Zielgruppen | Publisher-Zielgruppen | Anzahl der Identitäten (a) | Identitätsüberschneidungen (b) | Überschneidungsprozentsatz | Aufschlüsselung des Übereinstimmungsschlüssels | Aufschlüsselung Schlüssel der Übereinstimmung % |
 |----------------------|---------------------|--------------------|----------------------------|-----------------|---------------------|-----------------------|
-| 1 A1 | ALLE | Gesamt Identitätsanzahl von Advertiser ausgewählten Zielgruppe A1 <br> Identitätsanzahl = 300K + 500K = 800K | Gesamtüberschneidung zwischen der Advertiser-Zielgruppe A1 und ALLEN Publisher-Zielgruppen für alle Übereinstimmungsschlüssel <br> Überschneidung von Identitäten = 600.000 | Prozentsatz der sich überschneidenden Identitäten über die Identitätsanzahl der vom Advertiser ausgewählten Zielgruppe (A1) <br> Überschneidung % = (B / A) * 100 = (600 K / 800 K) * 100 = 75 % <br> Überschneidung Prozent = 75 % | Überschneidende Identitäten pro Übereinstimmungsschlüssel <br> Überschneidung durch Hash-E-Mail = 250.000 <br> Überschneidung durch LiveRamp-ID = 350.000 | Prozentsatz der Überschneidung des Übereinstimmungsschlüssels gegenüber der gesamten Identitätsüberschneidung <br> Übereinstimmungsschlüssel % für Hash-E-Mail = (250K / 600K) * 100 = 41,67 % <br> für LiveRamp-ID = (350K / 600K) * 100 = 58,33 % |
+| 1 A1 | ALLE | Gesamtzahl der Identitäten der vom Advertiser ausgewählten Zielgruppe A1 <br> Identitätsanzahl = 300.000 + 500.000 = 800.000 | Gesamtüberschneidung zwischen der Advertiser-Zielgruppe A1 und ALLEN Publisher-Zielgruppen für alle Übereinstimmungsschlüssel <br> Überschneidung von Identitäten = 600.000 | Prozentsatz der sich überschneidenden Identitäten über die Identitätsanzahl der vom Advertiser ausgewählten Zielgruppe (A1) <br> Überschneidung % = (B / A) * 100 = (600 K / 800 K) * 100 = 75 % <br> Überschneidung Prozent = 75 % | Überschneidende Identitäten pro Übereinstimmungsschlüssel <br> Überschneidung durch Hash-E-Mail = 250.000 <br> Überschneidung durch LiveRamp-ID = 350.000 | Prozentsatz der Überschneidung des Übereinstimmungsschlüssels gegenüber der gesamten Identitätsüberschneidung <br> Übereinstimmungsschlüssel % für Hash-E-Mail = (250K / 600K) * 100 = 41,67 % <br> für LiveRamp-ID = (350K / 600K) * 100 = 58,33 % |
 
 ### Eine Advertiser- und eine Publisher-Zielgruppe
 

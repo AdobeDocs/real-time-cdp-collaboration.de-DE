@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtl
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
@@ -13,10 +13,10 @@ ht-degree: 23%
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Real-Time CDP Collaboration - Startseite](./home.md)
-* Überblick {#overview}
+* Übersicht {#overview}
    * [Anwendungsbeispiele und Vorteile](./use-cases-benefits.md)
    * [End-to-End-Workflow](./end-to-end-workflow.md)
-* Setup {#setup}
+* Einrichten von {#setup}
    * [Überblick über den Einrichtungsabschnitt](./setup/setup-overview.md)
    * [Onboarding und Verwalten Ihres Unternehmens](./setup/onboard-organization.md)
    * [Importieren und Verwalten von Audiences](./setup/onboard-audiences.md)
@@ -25,7 +25,7 @@ ht-degree: 23%
    * [Identitäts-Crosswalks](./setup/identity-crosswalk.md)
    * [Hinzufügen und Verwalten von Messdaten](./setup/onboard-measurement-data.md)
    * [Audit-Protokolle](./setup/audit-logs.md)
-* Verbindung mit Herausgeber oder Advertiser herstellen {#connect}
+* Herstellen einer Verbindung mit Publisher- oder Advertiser-{#connect}
    * [Publisher entdecken](./connect/discover-publishers.md)
    * [Werbekunden entdecken](./connect/discover-advertisers.md)
    * [Verbinden mit Werbetreibenden oder Herausgebern](./connect/establishing-connections.md)

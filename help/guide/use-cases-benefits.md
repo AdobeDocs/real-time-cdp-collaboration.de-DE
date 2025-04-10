@@ -1,6 +1,6 @@
 ---
-title: Hauptvorteile und Anwendungsfälle der Adobe Systems Real-Zeit CDP Collaboration
-description: Lernen Sie die wichtigsten Vorteile und Anwendungsfälle Adobe Systems Zusammenarbeit in der Zeit CDP auf Real- kennen
+title: Hauptvorteile und Anwendungsfälle von Adobe Real-Time CDP Collaboration
+description: Die wichtigsten Vorteile und Anwendungsfälle von Adobe Real-Time CDP Collaboration verstehen
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
@@ -11,28 +11,28 @@ ht-degree: 2%
 
 ---
 
-# Hauptvorteile und Anwendungsfälle der Adobe Systems Real-Zeit CDP Collaboration
+# Hauptvorteile und Anwendungsfälle von Adobe Real-Time CDP Collaboration
 
 {{limited-availability-release-note}}
 
-Adobe Systems Real-Zeit CDP Collaboration bietet die wesentlichen Funktionen, um Ihre Zielgruppen effektiv zu entdecken, zu aktivieren und zu messen und sicherzustellen, dass Ihre Marketing-Strategien robust und datengesteuert bleiben, und das alles in einem Bereich, in dem der Datenschutz an erster Stelle steht.
+Adobe Real-Time CDP Collaboration bietet die wesentlichen Funktionen zum effektiven Erkennen, Aktivieren und Messen Ihrer Zielgruppen, sodass Ihre Marketing-Strategien robust und datengesteuert bleiben, und das alles in einem Raum, in dem der Datenschutz an erster Stelle steht.
 
-![Vorteile und Anwendungsfälle der Zusammenarbeit in der Zeit CDP](/help/assets/benefits-use-cases/discover-activate-measure.png)
+![Vorteile und Anwendungsfälle von Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 
 ## Entdecken {#discover}
 
-Verwenden Sie Dashboards und Berichte, um Zielgruppen für Werbetreibender zu Vermarkter Zusammenarbeit zu ermitteln.
-Als Advertiser, der mit Real-Zeit CDP Collaboration zusammenarbeitet, können Sie auf Zielgruppe Überschneidungen zugreifen und diese verstehen, um Retargeting-, Unterdrückungs- und potenzielle Prospecting-Möglichkeiten von einer breiten Warenbestand von Publishern zu erschließen.
+Verwenden Sie Dashboards und Berichte, um Zielgruppen für die Zusammenarbeit zwischen Marken und Herausgebern zu ermitteln.
+Greifen Sie als Werbetreibender, der mit Real-Time CDP Collaboration arbeitet, auf Zielgruppenüberschneidungen zu und verstehen Sie sie, um Retargeting, Unterdrückung und mögliche Interessensmöglichkeiten aus einem breiten Inventar von Publishern zu erschließen.
 
 ## Aktivieren {#activate}
 
-Publisher können Zielgruppen aus Adobe Systems Real-Zeit CDP, Cloud Data Warehouses (zukünftige Version) und anderen Systemen (zukünftige Version) sicher für Kampagnen aktivieren.
-Arbeiten Sie in einer zukünftigen Version mit den Identitätspartnern zusammen, die ausgewählt wurden, um echte Identitäten zu verwenden, und verwenden Sie Identitätsüberwege, um die Reichweite zu erweitern.
+Publisher können Zielgruppen sicher aus Adobe Real-Time CDP, Cloud Data Warehouses (zukünftige Versionen) und anderen Systemen (zukünftige Versionen) für Kampagnen aktivieren.
+Arbeiten Sie in einer zukünftigen Version mit den ausgewählten Identitätspartnern zusammen, um echte Identitäten zu nutzen und Identitätsübergänge zu verwenden, um die Reichweite zu erweitern.
 
 ## Maßnahme {#measure}
 
-Kombinieren und untersuchen Sie bekannte Kunden Interaktion aus verschiedenen Quellen, wie z. B. Webimpressionen und mehr.
-Ansicht Kampagnenleistung in vereinfachten und anpassbaren Berichten.
+Kombinieren und erkunden Sie bekannte Kundeninteraktionen aus verschiedenen Quellen wie Web-Impressions und mehr.
+Zeigen Sie die Kampagnenleistung in vereinfachten und anpassbaren Berichten an.
 
 <!--
 

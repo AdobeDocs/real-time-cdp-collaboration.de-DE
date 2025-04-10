@@ -98,7 +98,7 @@ Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://
 
 Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
 
-* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Datennutzungskennzeichnungen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
 * [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Erforderliche Marketing-Aktionen für die Datenerfassung.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)

@@ -15,6 +15,6 @@ ht-degree: 26%
 
 # Unterdrückung
 
-**In Arbeit**
+**Laufende Arbeiten**
 
-Zu folgen Inhalt
+Inhalt folgt

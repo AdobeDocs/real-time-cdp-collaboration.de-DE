@@ -1,6 +1,6 @@
 ---
-title: Verfolgen Sie Ihren Kreditverbrauch Aktivität
-description: Erfahren Sie, wie Sie die Aktivität des Kreditverbrauchs Ihrer Organisation in Real-Zeit CDP Collaboration verfolgen können.
+title: Verfolgen der Kreditverbrauchsaktivität
+description: Erfahren Sie, wie Sie die Kreditkonsumaktivität Ihres Unternehmens in Real-Time CDP Collaboration verfolgen.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
@@ -27,11 +27,11 @@ Um auf die Aktivität Geschätzte Kreditnutzung zuzugreifen, gehen Sie im Hauptn
 
 >[!TIP]
 >
->Das **[!UICONTROL My Aktivität]** Ansicht enthält keine Informationen über User Aktionen in verschiedenen Teilen der Benutzeroberfläche der Real-Zeit Collaboration CDP User. Verwenden Sie die [Funktionen &quot;Auditprotokolle](/help/guide/setup/audit-logs.md) &quot;, um diese Informationen abzurufen.
+>Die **[!UICONTROL Meine Aktivität]** enthält keine Informationen zu Benutzeraktionen in verschiedenen Bereichen der Benutzeroberfläche von Real-Time Collaboration CDP. Verwenden Sie die [Auditprotokolle](/help/guide/setup/audit-logs.md), um diese Informationen abzurufen.
 
-## Verstehen Sie Ihre Aktivität Dashboard
+## Grundlegendes zum Aktivitäts-Dashboard
 
-Die Aktivität Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden Vorgänge in Ihrer Organisation an. Jede Zeile stellt eine eigene Aktivität dar und stellt wichtige Informationen über die Credit-Nutzung bereit:
+Das Aktivitäts-Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden Vorgänge in Ihrem Unternehmen an. Jede Zeile stellt eine eigene Aktivität dar und enthält wichtige Informationen zur Kreditverwendung:
 
 >[!NOTE]
 >
@@ -40,9 +40,9 @@ Die Aktivität Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden 
 | Spalte | Beschreibung |
 |--------|-------------|
 | **[!UICONTROL Datum]** | Das Datum, an dem die Aktivität stattfand, angezeigt im Format MM/TT/JJJJ. |
-| **[!UICONTROL Verbindungs-ID]** | Eine eindeutige Kennung für jede Verbindung, die einer gutschriftverbrauchenden Aktivität zugeordnet ist, dargestellt als alphanumerische Zeichenfolge. |
-| **[!UICONTROL Verbindung Name]** | Der Name des Mitarbeiters, der mit der Verbindung verbunden ist, und die Aktivität, die das Guthaben verbraucht. |
-| **[!UICONTROL Aktivität]** | Der Typ der ausgeführten Aktivität, z **. B. Activation – Freigabe**, **Activation – Ausgang** oder **Audience Management**. |
+| **[!UICONTROL Verbindungs-ID]** | Eine eindeutige Kennung für jede Verbindung, die mit einer kreditverbrauchenden Aktivität verbunden ist, dargestellt als alphanumerische Zeichenfolge. |
+| **[!UICONTROL Verbindungsname]** | Der Name des Mitarbeiters, der mit der Verbindung und der kreditverbrauchenden Aktivität verknüpft ist. |
+| **[!UICONTROL Aktivität]** | Der Typ der durchgeführten Aktivität, z **B. Aktivierung - Freigabe**, **Aktivierung -** oder **Zielgruppenverwaltung**. |
 | **[!UICONTROL Insgesamt verwendete Guthaben]** | Die Gesamtzahl der von der Aktivität verwendeten Credits. |
 | **[!UICONTROL Meine Kreditaktie]** | Der Anteil Ihres Unternehmens an den für die Aktivität verwendeten Guthaben. |
 
@@ -52,9 +52,9 @@ Die Aktivität Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden 
 
 Die Spalte **[!UICONTROL Aktivität]** zeigt verschiedene Arten von kreditverbrauchenden Vorgängen.
 
-* **[!UICONTROL Audience Management]**: Credits werden verbraucht, wenn Zielgruppen in Real-Zeit CDP Collaboration importiert werden. Die Gutschriften werden als Funktion der Anzahl der in Real-Time CDP Collaboration über alle Zielgruppen hinweg indizierten IDs (in Millionen) und der Häufigkeit dieser Indizierung (täglich, alle drei Tage oder wöchentlich) während des Abrechnungszeitraums genutzt. Lesen Sie mehr über [das Importieren und Verwalten von Zielgruppen](/help/guide/setup/onboard-audiences.md).
-* **[!UICONTROL Activation – Freigabe]** – Credits werden in Abhängigkeit von der Anzahl der IDs verbraucht, die während des Abrechnung Zeitraums von Real-Zeit CDP Collaboration aktiviert wurden. Erfahren Sie mehr über [das Teilen](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in der Zusammenarbeit mit der Real-Zeit CDP.
-* **[!UICONTROL Activation – Ausgehender Traffic]** – Credits werden in Abhängigkeit von der Anzahl der IDs verbraucht, die während des Abrechnung Zeitraums von Real-Zeit CDP Collaboration aktiviert wurden. Erfahren Sie mehr über [das Teilen](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in der Zusammenarbeit mit der Real-Zeit CDP.
+* **[!UICONTROL Zielgruppen-Management]**: Guthaben werden beim Import von Zielgruppen in Real-Time CDP Collaboration verwendet. Die Gutschriften werden als Funktion der Anzahl der in Real-Time CDP Collaboration über alle Zielgruppen hinweg indizierten IDs (in Millionen) und der Häufigkeit dieser Indizierung (täglich, alle drei Tage oder wöchentlich) während des Abrechnungszeitraums genutzt. Weitere Informationen über [Importieren und Verwalten von Audiences](/help/guide/setup/onboard-audiences.md).
+* **[!UICONTROL Aktivierung - Freigabe]** - Guthaben wird in Abhängigkeit von der Anzahl der IDs konsumiert, die von Real-Time CDP Collaboration während des Abrechnungszeitraums aktiviert wurden. Lesen Sie mehr über [Freigeben](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
+* **[!UICONTROL Aktivierung - Ausgang]** - Guthaben wird in Abhängigkeit von der Anzahl der IDs verbraucht, die von Real-Time CDP Collaboration während des Abrechnungszeitraums aktiviert wurden. Lesen Sie mehr über [Freigeben](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
 
 
 <!--
