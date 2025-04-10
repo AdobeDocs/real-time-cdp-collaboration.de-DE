@@ -1,0 +1,83 @@
+---
+title: Verfolgen Sie Ihren Kreditverbrauch Aktivität
+description: Erfahren Sie, wie Sie die Aktivität des Kreditverbrauchs Ihrer Organisation in Real-Zeit CDP Collaboration verfolgen können.
+audience: admin, publisher, advertiser
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
+source-git-commit: 1e8c2fdb3294111562f206ac141cfa39d5193c6c
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 1%
+
+---
+
+# Verfolgen der Kreditverbrauchsaktivität
+
+{{limited-availability-release-note}}
+
+Verwenden Sie die Registerkarte **[!UICONTROL Meine Aktivität]**, um den geschätzten Kreditverbrauch Ihres Unternehmens über alle Kooperationsaktivitäten hinweg zu überwachen und zu verfolgen. Diese Funktion bietet detaillierte Einblicke in die Verwendung von Credits in verschiedenen Verbindungen und Aktivitäten und hilft Ihnen, Ihre Ressourcen effektiv zu verwalten.
+
+>[!IMPORTANT]
+>
+>Die Tabelle des Kreditverbrauchs wird zur Überwachung nach Tagen aufgerundet und aggregiert. Die Zahlen im Dashboard **[!UICONTROL Meine Aktivität]** stellen einen *geschätzten* Kreditverbrauch dar. Der *tatsächliche* Kreditverbrauch für die Abrechnung wird in internen Systemen verfolgt und steht Ihnen auf Anfrage zur Verfügung. Wenden Sie sich an den Adobe-Support, um diese Informationen zu erhalten.
+
+Um auf die Aktivität Geschätzte Kreditnutzung zuzugreifen, gehen Sie im Hauptnavigationsmenü zu **[!UICONTROL Setup]** und wählen Sie dann die Registerkarte **[!UICONTROL Meine Aktivität]** aus.
+
+![Mein Aktivitäts-Dashboard mit Details zum Kreditverbrauch](/help/assets/setup/my-activity-credits/activity-dashboard.png)
+
+>[!TIP]
+>
+>Das **[!UICONTROL My Aktivität]** Ansicht enthält keine Informationen über User Aktionen in verschiedenen Teilen der Benutzeroberfläche der Real-Zeit Collaboration CDP User. Verwenden Sie die [Funktionen &quot;Auditprotokolle](/help/guide/setup/audit-logs.md) &quot;, um diese Informationen abzurufen.
+
+## Verstehen Sie Ihre Aktivität Dashboard
+
+Die Aktivität Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden Vorgänge in Ihrer Organisation an. Jede Zeile stellt eine eigene Aktivität dar und stellt wichtige Informationen über die Credit-Nutzung bereit:
+
+>[!NOTE]
+>
+>**[!UICONTROL Zielgruppen-Management]**-Aktivitäten sind keinem anderen Mitarbeiter zugeordnet. Daher geben die Spalten **[!UICONTROL Verbindungs-ID]** und **[!UICONTROL Verbindungsname]** für diese Aktivitätstypen einen **[!UICONTROL K/A]**-Wert an.
+
+| Spalte | Beschreibung |
+|--------|-------------|
+| **[!UICONTROL Datum]** | Das Datum, an dem die Aktivität stattfand, angezeigt im Format MM/TT/JJJJ. |
+| **[!UICONTROL Verbindungs-ID]** | Eine eindeutige Kennung für jede Verbindung, die einer gutschriftverbrauchenden Aktivität zugeordnet ist, dargestellt als alphanumerische Zeichenfolge. |
+| **[!UICONTROL Verbindung Name]** | Der Name des Mitarbeiters, der mit der Verbindung verbunden ist, und die Aktivität, die das Guthaben verbraucht. |
+| **[!UICONTROL Aktivität]** | Der Typ der ausgeführten Aktivität, z **. B. Activation – Freigabe**, **Activation – Ausgang** oder **Audience Management**. |
+| **[!UICONTROL Insgesamt verwendete Guthaben]** | Die Gesamtzahl der von der Aktivität verwendeten Credits. |
+| **[!UICONTROL Meine Kreditaktie]** | Der Anteil Ihres Unternehmens an den für die Aktivität verwendeten Guthaben. |
+
+{style="table-layout:auto"}
+
+## Aktivitätstypen {#types-of-activities}
+
+Die Spalte **[!UICONTROL Aktivität]** zeigt verschiedene Arten von kreditverbrauchenden Vorgängen.
+
+* **[!UICONTROL Audience Management]**: Credits werden verbraucht, wenn Zielgruppen in Real-Zeit CDP Collaboration importiert werden. Die Gutschriften werden als Funktion der Anzahl der in Real-Time CDP Collaboration über alle Zielgruppen hinweg indizierten IDs (in Millionen) und der Häufigkeit dieser Indizierung (täglich, alle drei Tage oder wöchentlich) während des Abrechnungszeitraums genutzt. Lesen Sie mehr über [das Importieren und Verwalten von Zielgruppen](/help/guide/setup/onboard-audiences.md).
+* **[!UICONTROL Activation – Freigabe]** – Credits werden in Abhängigkeit von der Anzahl der IDs verbraucht, die während des Abrechnung Zeitraums von Real-Zeit CDP Collaboration aktiviert wurden. Erfahren Sie mehr über [das Teilen](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in der Zusammenarbeit mit der Real-Zeit CDP.
+* **[!UICONTROL Activation – Ausgehender Traffic]** – Credits werden in Abhängigkeit von der Anzahl der IDs verbraucht, die während des Abrechnung Zeitraums von Real-Zeit CDP Collaboration aktiviert wurden. Erfahren Sie mehr über [das Teilen](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in der Zusammenarbeit mit der Real-Zeit CDP.
+
+
+<!--
+
+**[!UICONTROL Audience Overlaps]** – Credits are consumed as a function of the number of matched IDs across 2 or more shared audiences throughout the billing period. Read more about [audience overlaps in the discover tab](/help/guide/collaborate/discover.md).
+
+Collaboration Measurement – Credits are consumed as a function of the number of rows existing in campaign reports across all campaigns, and the frequency of that reporting (daily, every three days, or weekly).
+
+-->
+
+
+## Kreditnutzung verwalten {#manage-credit-consumption}
+
+So verwalten Sie Ihren Kreditverbrauch effektiv:
+
+1. **Verstehen** Der mit jeder Aktivität verknüpfte Kreditverbrauch. In der [Real-Time CDP Collaboration-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} finden Sie eine Tabelle mit den für die Zusammenarbeit verwendeten Credits pro Aktivität.
+2. **Regelmäßig überwachen**: Überprüfen Sie Ihr Aktivitäts-Dashboard häufig, um Nutzungsmuster zu verstehen.
+3. **Nach Verbindung verfolgen**: Verwenden Sie den Verbindungsnamen, um zu ermitteln, welche Partnerschaften die meisten Credits verbrauchen.
+
+<!--
+
+## Pagination and navigation
+
+The activity list is paginated to improve performance and readability. Use the navigation controls at the bottom of the table to move between pages and adjust how many records you can view at once.
+
+-->
