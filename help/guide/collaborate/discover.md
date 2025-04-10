@@ -1,6 +1,6 @@
 ---
-title: Discover Überschneidungen und Vergleichen von Zielgruppen
-description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Zielgruppen für Ihre Kampagnen finden.
+title: Überschneidungen erkennen und Zielgruppen vergleichen
+description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
@@ -11,19 +11,19 @@ ht-degree: 1%
 
 ---
 
-# Discover Überschneidungen und Vergleichen von Zielgruppen
+# Überschneidungen erkennen und Zielgruppen vergleichen
 
 {{limited-availability-release-note}}
 
 >[!IMPORTANT]
 >
->Die **[!UICONTROL Discover]** Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall für die **Audience Ermittlung** während des Verbindungsvorgangs](../connect/establishing-connections.md#connection-settings) aktiviert [wurde. Weitere Informationen zu Anwendungsfällen finden Sie im [Leitfaden zu managen Projekten](./manage-projects.md#project-use-cases) .
+>Der **[!UICONTROL Entdecken]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenerkennung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
-Nachdem [Sie ein Projekt](/help/guide/collaborate/manage-projects.md) in einem Zusammenarbeit Bereich zwischen einem Advertiser und einem Vermarkter erstellt haben, können Sie nun Ihre Zielgruppen mit den Zielgruppen Ihres Mitarbeiters vergleichen. Auf diese Weise können Sie Überschneidungen zwischen Zielgruppen aufdecken und Erkenntnisse erhalten, die nach Übereinstimmungsschlüsseln oder Identitäten aufgeschlüsselt sind. Dies erleichtert Werbetreibenden die Entscheidung, welche Zielgruppen sie Aktivierung mit Publishern teilen möchten.
+Nachdem Sie [Projekt erstellt](/help/guide/collaborate/manage-projects.md) innerhalb eines Kooperationsbereichs zwischen einem Advertiser und einem Publisher erstellt haben, können Sie jetzt Ihre Zielgruppen mit den Zielgruppen Ihres Mitarbeiters vergleichen. Auf diese Weise können Sie Überschneidungen zwischen Zielgruppen erkennen und Einblicke erhalten, die nach Übereinstimmungsschlüsseln oder Identitäten aufgeschlüsselt sind. Dies hilft Advertisern bei der Entscheidung, welche Zielgruppen für die Aktivierung mit Publishern freigegeben werden sollen.
 
 >[!IMPORTANT]
 >
->Alle [Datenskizzen](/help/guide/glossary.md#sketches) , die nicht aktualisiert oder aktualisiert werden, werden nach 7 Tagen gelöscht. In diesem Fall werden die Zahlen, die in den verschiedenen Überschneidungsberichten zu diesem Seite angezeigt werden, auf Null gesetzt, und Zielgruppe Freigabe ist für diese abgelaufenen Zielgruppen nicht mehr verfügbar. Datenskizzen werden automatisch für Zielgruppen mit einem [aktiven Aktualisierungszeitplan](/help/guide/setup/onboard-audiences.md#schedule) aktualisiert.
+>Alle [Datenskizzen](/help/guide/glossary.md#sketches) die nicht aktualisiert oder aktualisiert wurden, werden nach 7 Tagen gelöscht. In diesem Fall werden die Zahlen, die in den verschiedenen Überschneidungsberichten auf dieser Seite angezeigt werden, auf null gesetzt, und die Freigabe einer Zielgruppe ist für diese abgelaufenen Zielgruppen nicht mehr verfügbar. Datenskizzen werden automatisch für Zielgruppen mit einem [aktiven Aktualisierungszeitplan](/help/guide/setup/onboard-audiences.md#schedule) aktualisiert.
 
 ![Entdecken Sie Überschneidungen](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
@@ -46,7 +46,7 @@ Sobald die oben genannten Voraussetzungen erfüllt sind, können Sie die Übersc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="Zielgruppen vergleichen"
->abstract="Entdecken Sie Überschneidungen zwischen Ihren und den Zielgruppen Ihrer Mitwirkenden. Sie können die Einstellungen in der Dropdown-Selektor anpassen, um Überschneidungen zwischen einer oder mehreren Ihrer Zielgruppen und einer oder mehreren Zielgruppen Ihres Mitarbeiters zu ermitteln."
+>abstract="Entdecken Sie Überschneidungen zwischen Ihren und den Zielgruppen Ihrer Mitwirkenden. Sie können die Einstellungen im Dropdown-Selektor anpassen, um Überschneidungen zwischen einer oder mehreren Ihrer Zielgruppen mit einer oder mehreren der Zielgruppen Ihres Mitarbeiters zu ermitteln."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
@@ -55,18 +55,18 @@ Sobald die oben genannten Voraussetzungen erfüllt sind, können Sie die Übersc
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="Anzahl der Mitarbeiteridentitäten"
+>title="Anzahl der Mitarbeiter-Identitäten"
 >abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die Teil der ausgewählten Zielgruppe Ihres Mitarbeiters sind"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="Anzahl überlappender Identitäten"
->abstract="Die Anzahl der Profile mit der ausgewählten Identität, die in Ihrem Zielgruppe und dem Ihres Mitarbeiters vorhanden sind"
+>title="Anzahl sich überschneidender Identitäten"
+>abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die sowohl in Ihrer als auch in der Zielgruppe Ihres Mitarbeiters vorhanden sind"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="Überlappende Identitäten in Prozent"
->abstract="Der Prozentsatz der Profile, die sich zwischen Ihrer ausgewählten Zielgruppe und der des ausgewählten Mitarbeiters überschneiden."
+>title="Prozentsatz der Identitäten mit Überschneidungen"
+>abstract="Der Prozentsatz der Profile, die sich zwischen Ihrer und der ausgewählten Zielgruppe Ihres Mitarbeiters überschneiden."
 
 Mit der Karte „Zielgruppen vergleichen“ erhalten Sie ausführliche Informationen über die Überschneidung zwischen Ihren und den Zielgruppen Ihrer Mitarbeiter. Sie können auswählen, ob Sie eine der folgenden Zielgruppenkombinationen vergleichen möchten:
 
@@ -80,7 +80,7 @@ Die angezeigten Informationen beziehen sich auf:
 | Metrik | Beschreibung |
 |---------|----------|
 | **[!UICONTROL Anzahl der Identitäten]** (Ihres) | Die Anzahl der Profile mit einer ausgewählten Identität, die Teil Ihrer ausgewählten Zielgruppe sind. |
-| **[!UICONTROL Anzahl der identifizierten]** Personen (Ihr Mitarbeiter) | Die Anzahl der Profile mit einer ausgewählten Identität, die Teil der ausgewählten Zielgruppe Ihres Mitarbeiters sind. |
+| **[!UICONTROL Anzahl der Identitäten]** (Ihr Mitarbeiter) | Die Anzahl der Profile mit einer ausgewählten Identität, die Teil der ausgewählten Zielgruppe Ihres Mitarbeiters sind. |
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der Profile mit einer ausgewählten Identität, die sowohl in Ihrer Audience als auch in der Audience Ihres Mitarbeiters vorhanden sind. |
 | **[!UICONTROL Überschneidungsprozentsatz]** | Der Prozentsatz der Profile, die sich zwischen Ihrer und der ausgewählten Zielgruppe Ihres Mitarbeiters überschneiden. |
 | **[!UICONTROL Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel]** | Zeigen Sie basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben, die Komposition der Identitäten in den Überschneidungsberechnungen nach individuellen Übereinstimmungsschlüsseln an. |
@@ -101,8 +101,8 @@ Die angezeigten Informationen beziehen sich auf:
 Die **[!UICONTROL Relevante Zielgruppen]** im Modul **[!UICONTROL Entdecken]** bietet eine kuratierte Liste der fünf häufigsten Zielgruppen basierend auf dem Überschneidungsprozentsatz. Mit dieser Funktion können Sie die Zielgruppen mit der höchsten Überschneidung mit Ihren aktuellen Daten schnell identifizieren, sodass Sie Ihre Kampagnen effektiver ansprechen können.
 
 * **[!UICONTROL Identitätsanzahl]** ist die Zielgruppengröße des Herausgebers.
-* **[!UICONTROL Überlappende Identitäten]** stellen die Überschneidung zwischen den empfohlenen Vermarkter Zielgruppe und allen Advertiser Zielgruppen dar.
-* **[!UICONTROL Überschneidung in Prozent]** stellt die Anzahl der sich überschneidenden Identitäten geteilt durch die Größe *aller* Advertiser Zielgruppen dar.
+* **[!UICONTROL Überschneidende Identitäten]** stellt die Überschneidung zwischen der empfohlenen Publisher-Zielgruppe und allen Advertiser-Zielgruppen dar.
+* **[!UICONTROL Überschneidung %]** steht für die Anzahl der sich überschneidenden Identitäten dividiert durch die Größe *aller* Advertiser-Zielgruppen.
 
 ![Ansicht „Relevante Zielgruppen“](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
@@ -113,13 +113,13 @@ Die **[!UICONTROL Relevante Zielgruppen]** im Modul **[!UICONTROL Entdecken]** b
 >title="Entdecken Sie Überschneidungen mit einzelnen Audiences"
 >abstract="Erhalten Sie Einblicke in die Population dieser Zielgruppe und ihre Überschneidungen mit dem Universum der Identitäten des Mitarbeiters."
 
-![Discover Überschneidungen mit verschiedenen Zielgruppen Ansicht](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
+![Entdecken Sie Überschneidungen mit verschiedenen Zielgruppenansichten](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 
-Erhalten Sie umfassende Informationen über die Zielgruppen Ihrer Mitarbeiter und Ansicht sich überschneidende Informationen, indem Sie diese Zielgruppen entweder mit Ihrer gesamten Populationszahl für alle Ihre Zielgruppen oder mit bestimmten Zielgruppen von Ihnen vergleichen.
+Erhalten Sie ausführliche Informationen über die Zielgruppen Ihres Mitarbeiters und sehen Sie sich Überschneidungsinformationen an, indem Sie diese Zielgruppen entweder mit der Gesamtpopulation für alle Ihre Zielgruppen oder mit bestimmten Zielgruppen Ihres Mitarbeiters vergleichen.
 
 >[!TIP]
 >
->Einige der in der Screenshot angegebenen Zahlen sind möglicherweise nicht immer für alle Zielgruppen verfügbar. Ihre Sichtbarkeit hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im [Abschnitt](/help/guide/setup/onboard-audiences.md#metadata-visibility) Metadaten Sichtbarkeit ausgewählt hat.
+>Einige der im Screenshot angegebenen Zahlen stehen möglicherweise nicht immer für alle Zielgruppen zur Verfügung. Ihre Sichtbarkeit hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ## Nächste Schritte
 

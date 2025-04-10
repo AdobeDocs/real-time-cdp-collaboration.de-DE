@@ -1,6 +1,6 @@
 ---
 title: Importieren und Verwalten von Audiences
-description: Erfahren Sie, wie Sie Zielgruppen in Adobe Systems Real-Zeit CDP Collaboration importieren und managen
+description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration importieren und verwalten.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
@@ -21,29 +21,29 @@ Verwenden Sie diese Seite als Ausgangspunkt, um alle relevanten Metriken zu vers
 
 >[!TIP]
 >
->Verwenden Sie die Informationen auf diesem Bildschirm, um alle Informationen zu erhalten, die Sie über Ihre Zielgruppen benötigen, und die [Discover- und Überschneidungsbildschirme](/help/guide/collaborate/discover.md) , um Einblicke in die Zielgruppen zu erhalten, die im Vergleich zu Vermarkter Warenbestand für verschiedene Kampagne am besten geeignet sind.
+>Verwenden Sie die Informationen auf diesem Bildschirm, um alle erforderlichen Informationen zu Ihren Zielgruppen sowie die [Erkennen und Überschneidungen](/help/guide/collaborate/discover.md) zu erhalten, um einen Einblick zu erhalten, welche Ihrer Zielgruppen für verschiedene Kampagnentypen im Vergleich zum Publisher-Inventar am besten geeignet ist.
 
 >[!BEGINSHADEBOX]
 
-In dieser Dokumentation finden Sie Seite:
+Was Sie auf dieser Dokumentationsseite finden:
 
-* [Importieren Zielgruppen in die Zusammenarbeit mit der Real-Zeit CDP](#import-audiences)
-* [Ansicht Zielgruppen Dashboard](#view-audiences-dashboard)
-* [Ansicht Kontakt Zielgruppen](#view-individual-audiences)
+* [Importieren von Zielgruppen in Real-Time CDP Collaboration](#import-audiences)
+* [Zielgruppen-Dashboard anzeigen](#view-audiences-dashboard)
+* [Anzeigen einzelner Zielgruppen](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
 
-## Importieren Zielgruppen in die Zusammenarbeit mit der Real-Zeit CDP {#import-audiences}
+## Importieren von Zielgruppen in Real-Time CDP Collaboration {#import-audiences}
 
 >[!IMPORTANT]
 >
->Um Zielgruppen zu importieren, müssen Ihre User einer Rolle zugewiesen werden, die zwei Profilverwaltungsberechtigungen enthält: Ansicht Profile und Ansicht Segmente. Informationen zum Erteilen der erforderlichen Berechtigungen finden Sie im [Zielgruppe Importhandbuch](../permissions/overview.md#audience-importation) .
+>Zum Importieren von Audiences muss Ihrem Benutzer eine Rolle zugewiesen werden, die zwei Profilverwaltungsberechtigungen enthält: „Profile anzeigen“ und „Segmente anzeigen“. Informationen zum Zuweisen der erforderlichen Berechtigungen finden Sie im Handbuch [Audience-Import](../permissions/overview.md#audience-importation).
 
-Bevor Sie Zielgruppen für Mitarbeiter freigeben und Überschneidungsberechnungen durchführen können, müssen die Zielgruppen in Real-Zeit CDP Collaboration importiert werden. Um Zielgruppen zu importieren, folgen Sie die arbeitsablauf Schritte im folgenden Abschnitt.
+Bevor Sie Zielgruppen für Mitwirkende freigeben und Überschneidungsberechnungen durchführen können, müssen die Zielgruppen in Real-Time CDP Collaboration importiert werden. Gehen Sie zum Importieren von Audiences wie im folgenden Abschnitt beschrieben vor.
 
-![Meine Zielgruppen werden angezeigt, bevor Zielgruppen zur Organisation hinzugefügt wurden.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
+![Bildschirm „Meine Zielgruppen“, bevor Zielgruppen zur Organisation hinzugefügt wurden.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
 
-Wählen Sie in der **[!UICONTROL Tab &quot;Meine Zielgruppen]**&quot; das Plus+ **** und dann Audience **aus**.
+Wählen Sie auf **[!UICONTROL Registerkarte]** Meine Zielgruppen“ das Pluszeichen **+** und anschließend **Zielgruppe** aus.
 
 ### Datenverbindung auswählen {#select-data-connection}
 
@@ -83,7 +83,7 @@ Nachdem Sie **Adobe Experience Platform** als Datenquelle ausgewählt haben, mü
 
 ![Sandbox für den Audience-Import auswählen](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
 
-Wählen Sie Weiter ]**aus**[!UICONTROL , nachdem Sie die gewünschte Sandbox ausgewählt haben.
+Wählen Sie **[!UICONTROL Weiter]** aus, nachdem Sie die gewünschte Sandbox ausgewählt haben.
 
 #### Governance-Richtlinie und Durchsetzungsmaßnahmen {#governance-policy-and-enforcement-actions}
 
@@ -120,7 +120,7 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung an, damit Sie diese Da
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Quellfelder"
->abstract="Quelle Felder sind Identitäts-Namespaces und Attribute aus Ihrer vorhandenen Implementierung der Real-Zeit CDP. Sie können diese auf Target-Komponente Felder abbilden, die in Real-Zeit CDP Collaboration definiert sind."
+>abstract="Source-Felder sind Identitäts-Namespaces und -Attribute aus Ihrer bestehenden Implementierung von Real-Time CDP. Sie können diese Zielfeldern zuordnen, die in Real-Time CDP Collaboration definiert sind."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -135,22 +135,22 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung an, damit Sie diese Da
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identity-Namespaces"
->abstract="Wählen Sie eine Identitäts Namespace aus den standardmäßigen und benutzerdefinierten Identitätsnamensräumen aus, die in Ihrer Experience Platform Organisation verfügbar sind."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standardmäßig und Identitäts-Namespaces in Experience Platform"
+>abstract="Wählen Sie einen Identity-Namespace aus den standardmäßigen und benutzerdefinierten Identity-Namespaces aus, die in Ihrer Experience Platform-Organisation verfügbar sind."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard- und Identity-Namespaces in Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribute"
->abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Profilklasse in Experience Platform. In diesem Ansicht werden Attribute angezeigt, die im Vereinigungsschema vorhanden sind und zur Klasse XDM individuellen Profils gehören."
+>abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse Profile in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM Individual Profile“ gehören."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Vereinigungsschema in Experience Platform"
 
-![Der Bildschirm &quot;Felder zuordnen&quot; zeigt Quellfelder an, die Target-Komponente Feldern zugeordnet sind.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
+![Bildschirm „Felder zuordnen“ mit Quellfeldern, die Zielfeldern zugeordnet sind.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
-Im Schritt &quot;Felder zuordnen&quot; können Sie auswählen, wie alle Identitätsfelder für die aus der Datenverbindung importierten Profile den Übereinstimmungsschlüsseln zugeordnet werden sollen, die Sie in Ihrer Organisation ausgewählt haben.
+Im Schritt Felder zuordnen können Sie auswählen, wie alle Identitätsfelder für die Profile, die von der Datenverbindung importiert wurden, den in Ihrer Organisation ausgewählten Übereinstimmungsschlüsseln zugeordnet werden sollen.
 
 >[!TIP]
 >
->Sie können mehrere Quellfelder demselben Target-Komponente Feld zuordnen. Wenn sich z. B. E-Mail-Adressen in zwei separaten Feldern in Experience Platform befinden, können Sie diese beiden **[!UICONTROL dem Feld &quot;Gehashte E-Mail-Target-Komponente]** &quot; als zwei separate Zeilen zuordnen.
+>Sie können demselben Zielfeld mehrere Quellfelder zuordnen. Wenn sich beispielsweise E-Mail-Adressen in zwei separaten Feldern in Experience Platform befinden, können Sie beide dem Zielfeld **[!UICONTROL gehashte E-Mail]** als zwei separate Zeilen zuordnen.
 
 >[!BEGINSHADEBOX]
 
@@ -269,35 +269,35 @@ Klicken Sie auf die Auslassungszeichen und **[!UICONTROL Löschen]**, um die Zie
 Klicken Sie auf die Auslassungszeichen und **[!UICONTROL Kategorien bearbeiten]**, um der Zielgruppe verschiedene Kategorietags hinzuzufügen. Weitere Informationen finden Sie [ folgenden Abschnitt ](/#categories)Kategorien“.
 Wählen Sie den Zielgruppennamen aus, um einzelne Zielgruppen zu überprüfen oder zu bearbeiten.
 
-## Ansicht Kontakt Zielgruppen {#view-individual-audiences}
+## Anzeigen einzelner Zielgruppen {#view-individual-audiences}
 
-In der Zielgruppe Ansicht erhalten Sie weitere Informationen zu Ihrer Zielgruppe.
+Die Zielgruppenansicht enthält weitere Informationen zu Ihrer Zielgruppe.
 
-![Ansicht und inspizieren Sie Kontakt Zielgruppe.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
+![Anzeigen und Überprüfen einzelner Zielgruppen.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
 
-Die Metriken, die Sie in diesem Bildschirm Ansicht können, werden unten beschrieben:
+Im Folgenden werden die Metriken beschrieben, die Sie auf diesem Bildschirm anzeigen können:
 
 | Element | Beschreibung |
 |----------|---------|
 | **[!UICONTROL Status]** | Gibt an, ob die Zielgruppe aktiv ist und in Projekten verwendet werden kann. |
-| **[!UICONTROL Quelle]** | Gibt die Quelle an, aus der diese Zielgruppe importiert wurde. In der aktuellen Version von Real-Zeit CDP Collaboration ist Adobe Experience Platform die einzige unterstützte Quelle. |
+| **[!UICONTROL Quelle]** | Gibt die Quelle an, aus der diese Zielgruppe importiert wurde. In der aktuellen Version von Real-Time CDP Collaboration ist Adobe Experience Platform die einzige unterstützte Quelle. |
 | **[!UICONTROL Datenverbindung]** | Weitere Aufschlüsselungsinformationen darüber, woher diese Zielgruppe importiert wurde. Wenn Sie beispielsweise Zielgruppen aus der Experience Platform-Quelle importieren, werden die einzelnen Sandboxes, auf die Ihr Unternehmen Zugriff hat, als Datenverbindungen betrachtet. |
 | **[!UICONTROL Zuletzt aktualisiert]** | Gibt das letzte Datum und die letzte Uhrzeit an, zu der ein Aspekt dieser Zielgruppe aktualisiert wurde. |
 | **[!UICONTROL Zuletzt aktualisiert von]** | Gibt den Benutzer an, der diese Zielgruppe zuletzt aktualisiert hat. |
-| **[!UICONTROL Erstellt]** | Gibt an, wann diese Zielgruppe in Real-Zeit CDP Collaboration importiert wurde. |
-| **[!UICONTROL Erstellt von]** | Gibt den User an, der die Zielgruppe in Real-Zeit CDP Collaboration importiert hat. |
+| **[!UICONTROL Erstellt]** | Gibt an, wann diese Zielgruppe in Real-Time CDP Collaboration importiert wurde. |
+| **[!UICONTROL Erstellt von]** | Gibt den Benutzer an, der die Zielgruppe in Real-Time CDP Collaboration importiert hat. |
 
 
 Sie können zwei weitere Steuerelemente auf der Seite verwenden, um Zielgruppen zu bearbeiten oder zu entfernen:
 
-* **[!UICONTROL Löschen]**: Entfernen Sie die Zielgruppe aus Ihrem Warenbestand
-* **[!UICONTROL Bearbeiten]**: Bearbeiten Zielgruppe liken seinem Namen oder seiner Beschreibung Metadaten.
+* **[!UICONTROL Löschen]**: Entfernen der Zielgruppe aus dem Inventar
+* **[!UICONTROL Bearbeiten]**: Bearbeiten von Zielgruppen-Metadaten wie Name oder Beschreibung.
 
-![Ansicht und inspizieren Sie Kontakt Zielgruppe.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
+![Anzeigen und Überprüfen einzelner Zielgruppen.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
 
-Weitere Informationen zum Zielgruppe sind in den folgenden Widgets verfügbar und teilweise bearbeitbar:
+Weitere Informationen zur Zielgruppe sind in folgenden Widgets verfügbar und können teilweise bearbeitet werden:
 
-![Ansicht und inspizieren Sie Kontakt Zielgruppe.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
+![Anzeigen und Überprüfen einzelner Zielgruppen.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
 
 * [Identitäten](#identities)
 * [Kategorien](#categories)
@@ -337,7 +337,7 @@ Wählen Sie aus, ob die Zielgruppe privat für Sie sein soll oder in Verbindunge
 
 >[!IMPORTANT]
 >
->Unabhängig vom Zugriffsstatus (öffentlich, privat oder benutzerdefiniert) trägt die Population eines Zielgruppe zur **[!UICONTROL Überschneidung aller Zielgruppen]** in der Audience Discovery-Analyse Ansicht bei. <br> ![Die vom System generierte **** Überschneidung aller Zielgruppen, die in der Audience Discovery Zielgruppe Analyse sind, umfasst Zielgruppen mit allen Verbindungszugriffsstatus (öffentlich, privat, benutzerdefiniert).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "Die vom System generierte Zielgruppe **Alle Zielgruppen** in der Überschneidung **Audience Discovery** Analyse umfasst Zielgruppen mit allen Verbindungszugriffsstatus (öffentlich, privat, benutzerdefiniert)."){width="100" zoomable="yes"}
+>Unabhängig vom Zugriffsstatus (öffentlich, privat oder benutzerdefiniert) trägt die Population einer beliebigen Zielgruppe zur Population **[!UICONTROL Alle Zielgruppen]** in der Ansicht Zielgruppenerkennung - Überschneidung bei. <br> ![Die systemgenerierte Zielgruppe **Alle Zielgruppen** in der Analyse zur Zielgruppenerkennung enthält Zielgruppen mit allen Verbindungszugriffsstatus (öffentlich, privat, benutzerdefiniert).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "Die systemgenerierte Zielgruppe **Alle Zielgruppen** in der **Zielgruppenerkennung**-Überschneidungsanalyse umfasst Zielgruppen mit allen Verbindungszugriffsstatus (öffentlich, privat, benutzerdefiniert)."){width="100" zoomable="yes"}
 
 Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Sie können die Zugriffsberechtigung für die Verbindung immer von privat in öffentlich ändern. Sie können diese Einstellung jedoch nicht mehr ändern, sobald eine Zielgruppe für Mitarbeiter freigegeben wurde.
 
@@ -346,19 +346,19 @@ Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unte
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadatensichtbarkeit"
->abstract="<p>Gibt an, welche der Zielgruppen-Metadateninformationen für andere Organisationen sichtbar sind, bevor sie eine Verbindung zu Ihrer Organisation herstellen. </p> <p> **Identitätsanzahl** Steuert, ob Ihr Partner Identitätszahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Erkennung“ angezeigt werden. **Audience Überschneidungsprozentsatz** steuert, ob Mitwirkende in der Lage sind, Überschneidungsprozentsätze zwischen ihren und Ihren Zielgruppen zu entdecken."
+>abstract="<p>Gibt an, welche der Zielgruppen-Metadateninformationen für andere Organisationen sichtbar sind, bevor sie eine Verbindung zu Ihrer Organisation herstellen. </p> <p> **Identitätsanzahl** Steuert, ob Ihr Partner Identitätszahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Erkennung“ angezeigt werden. **Zielgruppenüberschneidung %** Steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren ermitteln können."
 
 >[!NOTE]
 >
->Wenn Ihr Mitarbeiter alle Zielgruppen auf privat gesetzt hat, ist der **[!UICONTROL Ansicht &quot;Relevante Zielgruppen]** &quot; in Zielgruppe Insights leer. [Weitere Informationen](/help/guide/collaborate/discover.md#relevant-audiences).
+>Wenn für Ihren Mitarbeiter alle Zielgruppen auf „privat“ eingestellt sind, ist die Ansicht **[!UICONTROL Relevante Zielgruppen]** in den Zielgruppeneinblicken leer. [Weitere Informationen](/help/guide/collaborate/discover.md#relevant-audiences).
 
-Gibt an, welche der Zielgruppe Metadaten Informationen für andere Organisationen sichtbar sind, bevor sie eine Verbindung mit Ihrer Organisation herstellen oder in verschiedenen Projektansichten.
+Gibt an, welche der Zielgruppen-Metadateninformationen für andere Organisationen sichtbar sind, bevor sie eine Verbindung zu Ihrer Organisation oder in verschiedenen Projektansichten herstellen.
 
-**[!UICONTROL Anzeigen Identitätsanzahl]**: Mit dieser Einstellung wird gesteuert, ob Ihre Partner beim Anzeigen von Überschneidungsberichten in der Discovery-Tab](/help/guide/collaborate/discover.md#discover-overlaps) die Identitätsanzahl für Ihre Zielgruppen [Ansicht kann.
+**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung wird festgelegt, ob Ihr Partner beim Anzeigen von Überschneidungsberichten auf der Registerkarte [ die Identitätsanzahl für Ihre Zielgruppen anzeigen ](/help/guide/collaborate/discover.md#discover-overlaps).
 
-![Nebeneinander liegende Bilder, wobei die Option &quot;Identitätsanzahl anzeigen&quot; deaktiviert und aktiviert ist.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
+![Seitenbilder mit deaktivierter und ausgewählter Option „Anzahl der Identitäten anzeigen“.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
 
-**[!UICONTROL Anzeigen Zielgruppe Überschneidung %]**: Wenn diese Option auf &quot;true&quot; festgelegt ist, können [Mitwirkende Überschneidungsprozentsätze](/help/guide/collaborate/discover.md#compare-audiences) zwischen ihren Zielgruppen und der Zielgruppe, die Ihnen gehört, erkennen. In der folgenden Aufzeichnung ist für die Zielgruppe `agora-advertiser-aud3` diese Konfiguration z. B. auf &quot;true&quot; festgelegt, und ein Mitarbeiter kann sich Ansicht mit dieser Zielgruppe überschneiden. Für die Zielgruppe `agora-advertiser-aud1` ist diese Einstellung auf &quot;false&quot; gesetzt, sodass sich die Prozentsätze des Mitarbeiters Ansicht überschneiden können.
+**[!UICONTROL Zielgruppenüberschneidung anzeigen %]**: Bei Festlegung auf „true“ können Mitwirkende [Überschneidungsprozentsätze ermitteln](/help/guide/collaborate/discover.md#compare-audiences) zwischen ihren Zielgruppen und der Zielgruppe, die zu Ihnen gehört. In der unten stehenden Aufzeichnung ist diese Konfiguration beispielsweise auf „true“ für die `agora-advertiser-aud3` festgelegt und ein Mitarbeiter kann Überschneidungsprozentsätze mit dieser Zielgruppe anzeigen. Für die Zielgruppe `agora-advertiser-aud1` ist diese Einstellung auf „false“ festgelegt, sodass der Mitarbeiter keine Überschneidungsprozentsätze anzeigen kann.
 
 ![Prozentsatz der Zielgruppenüberschneidung für zwei verschiedene Zielgruppen.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
 

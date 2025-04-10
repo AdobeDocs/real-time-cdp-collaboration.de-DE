@@ -27,7 +27,7 @@ Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, s
 4. Der Advertiser sendet Verbindungseinstellungen einschließlich Übereinstimmungsschlüsseln und anderen. Diese Verbindungseinstellungen stellen die produktinternen Bedingungen der Zusammenarbeit dar.
 5. Der Publisher akzeptiert Verbindungseinstellungen. Falls gewünscht, kann der Publisher die anfänglichen Verbindungseinstellungen ablehnen und den Advertiser auffordern, geänderte Verbindungseinstellungen zu übermitteln.
 
-![Allgemeine Abbildung des Verbindungsprozesses zwischen Advertiser und Publisher.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png)
+![Allgemeine Abbildung des Verbindungsprozesses zwischen Advertiser und Publisher.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
 Sobald die oben genannten Elemente abgeschlossen sind, können die Mitwirkenden mit dem [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md#create-project) fortfahren, [Überschneidungsberichte auszuführen](/help/guide/collaborate/discover.md) und Werbekampagnen zu starten.
 
@@ -39,11 +39,11 @@ Sobald die oben genannten Elemente abgeschlossen sind, können die Mitwirkenden 
 
 Um eine Verbindung einzurichten, wählen Sie **[!UICONTROL Verbinden]** beim Durchsuchen des Publisher-Inventars im Bildschirm „Publisher erkennen“ aus.
 
-![Verbindungsauswahl](/help/assets/connect/establish-connection/connect-selection.png)
+![Verbindungsauswahl](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 An dieser Stelle ist die Einladung deaktiviert und Sie können die Verbindungseinstellungen in der Vorschau anzeigen, sie jedoch nicht bearbeiten. Sie können die ausstehende Einladung auf der Registerkarte **[!UICONTROL Meine Verbindungen]** anzeigen. Der Status der Verbindung lautet &quot;**[!UICONTROL gesendet]**.
 
-![Ausstehende Einladung an Herausgeber gesendet, in der Ansicht „Meine Verbindungen“ angezeigt.](/help/assets/connect/establish-connection/pending-invite-sent.png)
+![Ausstehende Einladung an Herausgeber gesendet, in der Ansicht „Meine Verbindungen“ angezeigt.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
 Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseinstellungen konfigurieren und an den Mitarbeiter senden, um sie zu überprüfen und zu akzeptieren.
 
@@ -76,23 +76,23 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 
 Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
 
-![Die Ansicht mit den Verbindungseinstellungen im Vorschaustatus.](/help/assets/connect/establish-connection/preview-connection-settings.png)
+![Die Ansicht mit den Verbindungseinstellungen im Vorschaustatus.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
 Sobald die Verbindung von Ihrem Mitarbeiter akzeptiert wurde, können Sie mit dem Einrichten der Verbindungseinstellungen für die Verbindung beginnen. Die Verbindungseinstellungen definieren die Bedingungen für Ihre Zusammenarbeit, z. B. die Anwendungsfälle, die Sie gemeinsam ausführen, die Übereinstimmungsschlüssel, die Sie in Projekten verwenden werden, und mehr.
 
 Um Verbindungseinstellungen für Ihren Mitarbeiter einzurichten und freizugeben, navigieren Sie zu **[!UICONTROL Meine Verbindungen]**. Für alle Verbindungen mit dem Status **[!UICONTROL Ausstehend]** können Sie **[!UICONTROL Verbindung einrichten]** auswählen, um die Verbindungseinstellungen zu konfigurieren.
 
-![Die Ansicht „Meine Verbindungen“ mit einer hervorgehobenen Option „Ausstehende Verbindung“ und „Verbindung einrichten“.](/help/assets/connect/establish-connection/pending-connection.png)
+![Die Ansicht „Meine Verbindungen“ mit einer hervorgehobenen Option „Ausstehende Verbindung“ und „Verbindung einrichten“.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 Sie können die folgenden Felder bearbeiten und definieren:
 
-![Einrichten der Verbindungsansicht](/help/assets/connect/establish-connection/connection-view.png)
+![Einrichten der Verbindungsansicht](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Anwendungsfälle
 
 Anwendungsfälle sind mit allen verfügbaren Anwendungsfällen vorausgefüllt. Sie können auswählen, welche Anwendungsfälle Ihre Verbindung verwenden soll, indem Sie **[!UICONTROL Bearbeiten]** auswählen und alle Anwendungsfälle deaktivieren, die Sie nicht möchten. Ausgewählte Anwendungsfälle wirken sich darauf aus, welche Ansichten und Optionen in [ Projekten verfügbar ](../collaborate/manage-projects.md#project-use-cases).
 
-![Anwendungsbeispiele](/help/assets/connect/establish-connection/view-use-cases.png)
+![Anwendungsbeispiele](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
@@ -131,9 +131,9 @@ Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter 
 1. Navigieren Sie zu **[!UICONTROL Verbinden]** > **[!UICONTROL Meine Verbindungen]**.
 2. Wählen **[!UICONTROL auf der]** „Verbindung anzeigen“ aus, um auf die zu löschende Verbindung zuzugreifen.
 3. Wählen Sie das Löschsymbol ![Löschsymbol](/help/assets/common/delete.svg), um das Bestätigungsdialogfeld für das Löschen der Verbindung aufzurufen.
-   ![Symbol „Verbindung löschen“ hervorgehoben.](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+   ![Symbol „Verbindung löschen“ hervorgehoben.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
 4. Bestätigen Sie den Löschvorgang, indem Sie **[!UICONTROL Löschen]** auswählen.
-   ![Dialogfeld zum Bestätigen des Löschens einer Verbindung. ](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+   ![Dialogfeld zum Bestätigen des Löschens einer Verbindung. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

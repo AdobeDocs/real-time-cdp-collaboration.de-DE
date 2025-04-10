@@ -1,6 +1,6 @@
 ---
 title: Zielgruppen freigeben
-description: Erfahren Sie, wie Sie Zielgruppen für Werbekampagnen mit Ihren Mitarbeitern teilen.
+description: Erfahren Sie, wie Sie Audiences für Werbekampagnen mit Ihren Mitwirkenden teilen können.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Die **[!UICONTROL Arbeitsbereich freigeben]** ist nur verfügbar, wenn die **Audience Freigabe und Aktivierung** Anwendungsfall während des Verbindungsvorgangs](../connect/establishing-connections.md#connection-settings) aktiviert [wurde. Weitere Informationen zu Anwendungsfällen finden Sie im [Leitfaden zu managen Projekten](./manage-projects.md#project-use-cases) .
+>Der **[!UICONTROL Freigabe]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenfreigabe und -aktivierung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
-Erfahren Sie als Advertiser, wie Sie Zielgruppen mit Ihren Publishern teilen, damit diese Kampagnen durchführen können. Wenn Ihr Zusammenarbeit das Anwendungsbeispiel für Discover **Zielgruppen** aktiviert hat, Beginn Sie, indem Sie Überschneidungsberichte in der Discover Tab](/help/guide/collaborate/discover.md) ausführen, um die besten Zielgruppen für die [Freigabe zu ermitteln.
+Erfahren Sie, wie Sie als Advertiser Zielgruppen mit Ihren Publishern teilen können, damit diese Kampagnen ausführen können. Wenn Ihre Zusammenarbeit den Anwendungsfall **Zielgruppen entdecken** aktiviert hat, führen Sie zunächst Überschneidungsberichte auf der Registerkarte [Entdecken](/help/guide/collaborate/discover.md) aus, um die besten Zielgruppen für die Freigabe zu ermitteln.
 
 ## Freigeben neuer Zielgruppen
 
-Um die Freigabe von Zielgruppen zu Beginn, navigieren Sie zur **** Tab freigeben in Ihrem Projekt Arbeitsbereich. Nur **Advertiser Organisationen** können Zielgruppen für Kampagnen freigeben. Auf dieser Registerkarte können Sie freigegebene Audiences überprüfen und verwalten.
+Um mit der Freigabe von Audiences zu beginnen, navigieren Sie **[!UICONTROL Registerkarte]** Freigeben“ in Ihrem Projektarbeitsbereich. Nur **Advertiser-Organisationen** können Zielgruppen für Kampagnen freigeben. Auf dieser Registerkarte können Sie freigegebene Audiences überprüfen und verwalten.
 
 Wählen Sie das **Plus-Symbol (+)** oder die Option **[!UICONTROL Zielgruppe freigeben]** aus, wenn keine vorherigen Zielgruppen freigegeben wurden, um den Prozess der Zielgruppenfreigabe zu starten.
 
@@ -45,21 +45,21 @@ Nach Auswahl der gewünschten Zielgruppen, die freigegeben werden sollen, könne
 
 ![Übereinstimmungsschlüssel bearbeiten und Auswahl für Ziel oder Unterdrückung hervorgehoben](/help/assets/collaborate/share/match-keys-and-targeting.png)
 
-Wählen Sie **[!UICONTROL Bearbeiten Übereinstimmungsschlüssel]** aus, um anzugeben, welche Übereinstimmungsschlüssel für die Identitäten in der Zielgruppe verwendet werden sollen. Diese Optionen stammen aus den Einstellungen, die beim erstmaligen Einrichten der Verbindung zwischen Mitwirkenden ausgewählt wurden. Sie können Übereinstimmungsschlüssel entfernen, die zu diesem Zeitpunkt ausgewählt wurden, wenn sie nicht auf diese bestimmte Kampagne zutreffen, aber Sie können zu diesem Zeitpunkt keine neuen Übereinstimmungsschlüssel hinzufügen.
+Wählen Sie **[!UICONTROL Übereinstimmungsschlüssel bearbeiten]**, um anzugeben, welche Übereinstimmungsschlüssel für die Identitäten in der Zielgruppe verwendet werden sollen. Diese Optionen werden von den Einstellungen übernommen, die beim erstmaligen Einrichten der Verbindung zwischen Partnern ausgewählt wurden. Sie können die zu diesem Zeitpunkt ausgewählten Übereinstimmungsschlüssel entfernen, wenn sie nicht für diese spezifische Kampagne gelten. Sie können jedoch zu diesem Zeitpunkt keine neuen Übereinstimmungsschlüssel hinzufügen.
 
-![Bearbeiten Übereinstimmungsschlüssel.](/help/assets/collaborate/share/update-match-keys.png)
+![Übereinstimmungsschlüssel bearbeiten.](/help/assets/collaborate/share/update-match-keys.png)
 
 Wählen Sie für jede Zielgruppe aus, ob die Mitglieder dieser Zielgruppe in der Kampagne angesprochen oder unterdrückt werden sollen. Unterdrückte Profile sind ausdrücklich nicht Teil der vom Publisher aktivierten Zielgruppe.
 
 ### Festlegen der Häufigkeit und des Intervalls für die Zielgruppenaktualisierung
 
-Legen Sie abschließend die gewünschte Häufigkeit und Datumsbereich für die Zielgruppe Aktualisierung fest. Derzeit werden **** die Zielgruppe Aktualisierungsmodi einmal und **[!UICONTROL täglich]** unterstützt.
+Legen Sie abschließend die gewünschte Häufigkeit und den gewünschten Datumsbereich für die Zielgruppenaktualisierung fest. Die derzeit unterstützten Modi für die Aktualisierung der Zielgruppe sind **[!UICONTROL Einmal]** und **[!UICONTROL Täglich]**.
 
-Bei Auswahl von **[!UICONTROL &quot;Einmal]**&quot; wird der Zielgruppe Abonnement während der Dauer eines Kampagne nicht aktualisiert. Bei Auswahl von **[!UICONTROL &quot;Täglich]**&quot; wird die Zielgruppe Abonnement während der Dauer eines Kampagne einmal täglich aktualisiert.
+Bei Auswahl **[!UICONTROL Einmal]** wird die Zielgruppenzugehörigkeit nicht über die gesamte Dauer einer Kampagne aktualisiert. Bei Auswahl **[!UICONTROL Täglich]** wird die Zielgruppenzugehörigkeit während der gesamten Dauer einer Kampagne einmal täglich aktualisiert.
 
 ![Häufigkeitsoptionen hervorgehoben.](/help/assets/collaborate/share/audience-refresh-frequency.png)
 
-Wenn Sie mit Ihrer Auswahl zufrieden sind, wählen Sie Freigeben ]**aus**[!UICONTROL , um die arbeitsablauf abzuschließen.
+Wenn Sie mit Ihrer Auswahl zufrieden sind, klicken Sie auf **[!UICONTROL Freigeben]**, um den Workflow abzuschließen.
 
 >[!SUCCESS]
 >
@@ -92,9 +92,9 @@ Innerhalb jeder Aktivität zur Zielgruppenfreigabe können Sie Informationen zu 
 | Metrik | Beschreibung |
 |---------|----------|
 | **[!UICONTROL Anzahl der Identitäten]** | Gibt die Anzahl der Profile in allen mit dieser Zielgruppe verbundenen Identitäten gemäß der neuesten Auswertung der Identitätsanzahl an. Diese Zahlen werden alle 24 Stunden aktualisiert. |
-| **[!UICONTROL Identitäten überschneiden sich]** | Gibt die Anzahl der sich überschneidenden Identitäten zwischen den Mitgliedern dieser Zielgruppe und die Gesamtpopulation der Profile im Warenbestand des Mitarbeiters an. |
-| **[!UICONTROL Schlüssel Aufschlüsselung abgleichen]** | Zeigt den Identitätszähler für jede im Zielgruppe verwendete Identität an. Beispielsweise kann sich eine Gesamtzahl von 500.000 Benutzern aus 400.000 Benutzern zusammensetzen, die von der gehashten E-Mail-Identität abgeschlüsselt wurden, und 100.000 Benutzern, die von einer mobilen ID-Identität eingegeben wurden. Beachten Sie, dass in dem hier beschriebenen Beispiel dieselbe Person möglicherweise zweimal mit ihren E-Mail- und Mobil-ID-Identitäten im Zielgruppe anwesend ist. |
-| **[!UICONTROL Ziel]** | **[!UICONTROL Unterdrücken]** oder **[!UICONTROL Ziel]**. Gibt an, ob die Mitglieder einer Zielgruppe gezielt oder von Kampagnen ausgeschlossen werden sollen. |
+| **[!UICONTROL Identitäten überschneiden sich]** | Gibt die Anzahl der Identitäten an, die sich zwischen den Mitgliedern dieser Zielgruppe und der Gesamtpopulation der Profile im Inventar des Mitarbeiters überschneiden. |
+| **[!UICONTROL Aufschlüsselung des Übereinstimmungsschlüssels]** | Zeigt die Anzahl der Identitäten für jede in der Zielgruppe verwendete Identität an. Eine Gesamtzahl von 500.000 Benutzern kann beispielsweise aus 400.000 Benutzern bestehen, die über die gehashte E-Mail-Identität und 100.000 Benutzern, die über eine Mobile-ID-Identität verschlüsselt wurden, verschlüsselt wurden. Beachten Sie, dass im hier beschriebenen Beispiel dieselbe Person mit ihrer E-Mail- und Mobile-ID-Identität möglicherweise zweimal in der Zielgruppe vorhanden ist. |
+| **[!UICONTROL Ziel]** | **[!UICONTROL Unterdrücken]** oder **[!UICONTROL Ziel]**. Gibt an, ob die Mitglieder einer Zielgruppe angesprochen oder von Kampagnen ausgeschlossen werden sollen. |
 
 Die Seite bietet auch Steuerelemente zum **[!UICONTROL (Freigabe anhalten]** und **[!UICONTROL Zielgruppen bearbeiten]**.
 
