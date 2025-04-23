@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Re
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abgleichen von Mitg
 
 ![Auswahlschritt für Übereinstimmungsschlüssel.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Wählen Sie bis zu fünf Übereinstimmungsschlüssel aus, die Sie verwenden möchten. Bei der späteren Einrichtung von Verbindungen können Sie unerwünschte Übereinstimmungsschlüssel entfernen, jedoch keine neuen hinzufügen. Legen Sie den Schwellenwert für die Identitätsanzahl (Mindestanzahl) für jeden ausgewählten Übereinstimmungsschlüssel fest. Übereinstimmende Schlüssel mit weniger als der minimalen Anzahl werden für einige Anwendungsfälle nicht in den Identitätsaufschlüsselungen angezeigt.
+Wählen Sie bis zu fünf Übereinstimmungsschlüssel aus, die Sie verwenden möchten. Bei der späteren Einrichtung von Verbindungen können Sie unerwünschte Übereinstimmungsschlüssel entfernen, jedoch keine neuen hinzufügen.
 
 Verfügbare Übereinstimmungsschlüssel in Real-Time CDP Collaboration können drei Typen aufweisen:
 
