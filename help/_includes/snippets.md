@@ -1,7 +1,7 @@
 ---
-source-git-commit: d4060779075a46f4fdb7726dd74d4a2f97cfb8ba
+source-git-commit: a5df7cef7cd022ea705bdde3cee76de4c69e9aa4
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '52'
 ht-degree: 1%
 
 ---
@@ -11,6 +11,6 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration ist derzeit für Kunden in den USA verfügbar, die globale Verfügbarkeit wird in Kürze verfügbar sein. Real-Time CDP Collaboration ist derzeit nicht für Kunden mit Anwendungsfällen für Gesundheitsdaten verfügbar. Weitere Informationen erhalten Sie vom Adobe-Support. Erfahren Sie, wie [Sie beginnen](/help/guide/home.md#get-started).
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration ist derzeit für Kunden in den USA verfügbar, die globale Verfügbarkeit wird in Kürze verfügbar sein. Real-Time CDP Collaboration ist derzeit nicht für Kunden mit [Anwendungsfällen für Gesundheitsdaten](https://business.adobe.com/industries/healthcare.html) verfügbar. Weitere Informationen erhalten Sie vom Adobe-Support. Erfahren Sie, wie [Sie beginnen](/help/guide/home.md#get-started).
 
 
