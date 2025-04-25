@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Re
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,11 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 >Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der ](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur [Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
 
 ### Details einrichten {#set-up-details}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="Kontakt-E-Mail"
+>abstract="Bitte eine Team- oder rollenbasierte E-Mail-Adresse angeben, z. B. `collaboration@yourcompany.com`. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
 
 ![Die Schritte Details und Anwendungsfälle zum Einrichten einer Organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
