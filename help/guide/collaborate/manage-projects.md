@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,11 @@ Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestim
 ![Gefilterte Ansicht von Projekten mit einem einzelnen Mitarbeiter.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Projekt erstellen {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_manage_projects_advertiser_name"
+>title="Advertiser-Name"
+>abstract="Wählen Sie den Advertiser-Namen aus dem Dropdown-Menü aus. Die Optionen werden vom Herausgeber in den Verbindungseinstellungen vorkonfiguriert, um die Kompatibilität mit ihren Systemen sicherzustellen."
 
 Um ein Projekt zu erstellen, klicken Sie auf das Pluszeichen **+** in der oberen rechten Ecke. Wenn dies Ihr erstes Projekt ist, navigieren Sie zu **[!UICONTROL Zusammenarbeiten]** > **[!UICONTROL Meine Projekte]** und wählen Sie **[!UICONTROL Projekt erstellen]**.
 

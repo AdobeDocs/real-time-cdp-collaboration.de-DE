@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie die Kreditkonsumaktivität Ihres Unternehmens
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Das Aktivitäts-Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden
 | **[!UICONTROL Verbindungs-ID]** | Eine eindeutige Kennung für jede Verbindung, die mit einer kreditverbrauchenden Aktivität verbunden ist, dargestellt als alphanumerische Zeichenfolge. |
 | **[!UICONTROL Verbindungsname]** | Der Name des Mitarbeiters, der mit der Verbindung und der kreditverbrauchenden Aktivität verknüpft ist. |
 | **[!UICONTROL Aktivität]** | Der Typ der durchgeführten Aktivität, z **B. Aktivierung - Freigabe**, **Aktivierung -** oder **Zielgruppenverwaltung**. |
-| **[!UICONTROL Eingaben verarbeitet]** | Die Gesamtzahl der für die Aktivität verarbeiteten Eingaben (z. B. IDs oder Zeilen), gemessen in Millionen. Auf diese Weise können Sie die Kosten der Aktivität besser verstehen, indem Sie sie mit Ihrer CPM korrelieren (Kosten pro Tausend), um die groben Kosten zu berechnen. |
+| **[!UICONTROL Eingaben verarbeitet]** | Die Gesamtzahl der für die Aktivität verarbeiteten Eingaben (z. B. IDs oder Zeilen). |
 | **[!UICONTROL Insgesamt verwendete Guthaben]** | Die Gesamtzahl der von der Aktivität verwendeten Credits. |
 | **[!UICONTROL Meine Kreditaktie]** | Der Anteil Ihres Unternehmens an den für die Aktivität verwendeten Guthaben. |
 
