@@ -4,7 +4,7 @@ description: Verstehen des End-to-End-Workflows bei der Verwendung von Real-Time
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration ermöglicht es Werbetreibenden und Publishern, Kampagnen in einer Datenschutz-First-Weise gemeinsam zu bearbeiten. Lesen Sie diese Seite, um zu verstehen, wie Sie als Advertiser oder Publisher das Produkt optimal nutzen können.
+Adobe Real-Time Customer Data Platform (CDP) Collaboration ermöglicht es Werbetreibenden und Publishern, an Kampagnen auf datenschutzorientierte Weise zusammenzuarbeiten. Lesen Sie diese Seite, um zu verstehen, wie Sie als Advertiser oder Publisher das Produkt optimal nutzen können.
 
 ## Advertiser-End-to-End-Workflow {#advertiser}
 

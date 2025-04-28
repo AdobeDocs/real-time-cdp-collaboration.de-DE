@@ -4,7 +4,7 @@ description: Die wichtigsten Vorteile und Anwendungsfälle von Adobe Real-Time C
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+source-git-commit: 89a966d6487c309fd29f3183513fc48518b85089
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration bietet die wesentlichen Funktionen zum effektiven Erkennen, Aktivieren und Messen Ihrer Zielgruppen, sodass Ihre Marketing-Strategien robust und datengesteuert bleiben, und das alles in einem Raum, in dem der Datenschutz an erster Stelle steht.
+Adobe Real-Time CDP Collaboration bietet die wesentlichen Funktionen zum effektiven Erkennen, Aktivieren und Messen Ihrer Zielgruppen, sodass Ihre Marketing-Strategien robust und datengesteuert bleiben, und das alles in einem datenschutzorientierten Bereich.
 
 ![Vorteile und Anwendungsfälle von Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 

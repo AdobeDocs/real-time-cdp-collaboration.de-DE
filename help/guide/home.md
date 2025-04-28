@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mit Adobe Real-Time Customer Data Platform (C
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 ## Überblick
 
-Mit Adobe Real-Time Customer Data Platform (CDP) Collaboration können Sie hochwertige Zielgruppen ermitteln, aktivieren und messen, ohne auf Drittanbieter-Cookies angewiesen zu sein. Diese Lösung ermöglicht eine erweiterte Datenzusammenarbeit zwischen Werbetreibenden und Publishern und hilft Ihnen bei der Erstellung personalisierter und wirkungsvoller Kundenerlebnisse in einer datenschutzsicheren, zentralisierten Umgebung.
+Mit Adobe Real-Time Customer Data Platform (CDP) Collaboration können Sie hochwertige Zielgruppen ermitteln, aktivieren und messen, ohne auf Drittanbieter-Cookies angewiesen zu sein. Diese Lösung ermöglicht eine erweiterte Datenzusammenarbeit zwischen Werbetreibenden und Publishern und hilft Ihnen bei der Erstellung personalisierter und wirkungsvoller Kundenerlebnisse in einer datenschutzorientierten, zentralisierten Umgebung.
 
 ![Real-Time CDP Collaboration-Homepage](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## Identifizieren von Audiences über vertrauenswürdige Partner
 
-Publisher und Advertiser können in einer datenschutzsicheren Umgebung zusammenarbeiten, um Zielgruppen abzugleichen, potenzielle neue Kunden zu entdecken und die Anzeigenrendite des verfügbaren Inventars zu maximieren. Die benutzerfreundliche Oberfläche ermöglicht es Ihnen, diese Zielgruppen in einer Nicht-Code-Umgebung anzuzeigen und Premium-Publisher und Werbetreibende für Möglichkeiten der Datenzusammenarbeit zu verbinden.
+Publisher und Advertiser können in einer datenschutzorientierten Umgebung zusammenarbeiten, um Zielgruppen abzugleichen, potenzielle neue Kunden zu entdecken und die Anzeigenrendite des verfügbaren Inventars zu maximieren. Die benutzerfreundliche Oberfläche ermöglicht es Ihnen, diese Zielgruppen in einer Nicht-Code-Umgebung anzuzeigen und Premium-Publisher und Werbetreibende für Möglichkeiten der Datenzusammenarbeit zu verbinden.
 
 ## Skalieren der Reichweite und Bereitstellen von Cross-Channel-Kampagnen
 
@@ -31,9 +31,9 @@ Publisher können sicher auf Advertiser-Zielgruppen über mehrere Kanäle zugrei
 
 ## Die aggregierte Kampagnenleistung verstehen
 
-Verwenden Sie Tools zur partizipativen Messung, um die Wirkung Ihrer Kampagnen zu verfolgen. Publisher können die Kampagnenleistung an Marken berichten und so aktuelle und zukünftige Anzeigen verbessern und die Anzeigenausgaben anpassen. Werbetreibende können datenschutzfreundliche Interaktions- und Konversions-Insights freigeben, Exposition, Kanal- und Konversionsdaten integrieren und bevorzugte Messpartner verwenden, um vollständige Insights zu erhalten. Beachten Sie, dass ein Teil der Messautomatisierung in der ersten Version nicht verfügbar ist.
+Verwenden Sie Tools zur partizipativen Messung, um die Wirkung Ihrer Kampagnen zu verfolgen. Publisher können die Kampagnenleistung an Marken berichten und so aktuelle und zukünftige Anzeigen verbessern und die Anzeigenausgaben anpassen. Werbetreibende können datenschutzorientierte Interaktions- und Konversions-Insights freigeben, Exposition, Kanal- und Konversionsdaten integrieren und bevorzugte Messpartner verwenden, um vollständige Insights zu erhalten. Beachten Sie, dass ein Teil der Messautomatisierung in der ersten Version nicht verfügbar ist.
 
-## Auf Datenschutz ausgerichtet
+## datenschutzorientiert
 
 Eingebettete Steuerelemente stellen sicher, dass die Governance- und Datenschutzanforderungen erfüllt werden. So wird die verantwortungsvolle Verwendung von Zielgruppendaten bei jedem Schritt der Workflows gesteuert.
 
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Erste Schritte {#get-started}
 
-Um Real-Time CDP Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [ im Handbuch ](/help/guide/permissions/overview.md){target=_"blank"}Übersicht über die Zugriffskontrolle“.
+Um Real-Time CDP Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [ im Handbuch ](/help/guide/permissions/overview.md)Übersicht über die Zugriffskontrolle=_{target„blank“}.
 
 Sobald Sie Zugriff haben, können Sie Ihr Unternehmen einrichten und Ihre Datenquellen mit Adobe Real-Time CDP Collaboration verbinden, um Zielgruppen zu importieren. Lesen Sie den [End-to-End-Workflow von Advertiser und ](/help/guide/end-to-end-workflow.md)), um zu beginnen.
 

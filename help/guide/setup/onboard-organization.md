@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Re
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**
 >title="Unterstützte Partner-IDs"
 >abstract="Mit Profilen verknüpfte Partner-IDs erweitern die Reichweite auf ein bestimmtes Profil."
 
-Übereinstimmungsschlüssel wie E-Mail-Adressen, Geräte-IDs oder Kunden-IDs helfen Advertisern und Publishern bei der Zusammenarbeit, indem sie eine genaue und datenschutzkonforme Datensynchronisation ermöglichen, was eine präzisere Zielgruppen-Zielgruppenbestimmung und -messung ermöglicht.
+Übereinstimmungsschlüssel wie E-Mail-Adressen, Geräte-IDs oder Kunden-IDs helfen Advertisern und Publishern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppen-Zielgruppenbestimmung und -messung ermöglicht.
 
 ![Folie mit den verfügbaren Kennungen für die erste Version von Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
