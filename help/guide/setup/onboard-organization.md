@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Re
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 1%
+source-wordcount: '853'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
->title="Kontakt-E-Mail"
+>title="Kontakt-E-Mail-Adresse"
 >abstract="Bitte eine Team- oder rollenbasierte E-Mail-Adresse angeben, z. B. `collaboration@yourcompany.com`. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
 
 ![Die Schritte Details und Anwendungsfälle zum Einrichten einer Organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
@@ -52,10 +52,11 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 3. Wählen Sie Ihre **[!UICONTROL Unternehmensrolle]** aus. Sie können zwischen **[!UICONTROL Advertiser]** und **[!UICONTROL Publisher]** wählen. Lesen Sie das [End-to-End](/help/guide/end-to-end-workflow.md)Workflow-Dokument, um Ähnlichkeiten und leichte Unterschiede im Workflow zwischen den beiden Rollentypen der Organisation zu sehen.
 4. Wählen Sie die **[!UICONTROL Branche]** für Ihr Unternehmen aus. Einige Beispiele sind **[!UICONTROL Einzelhandel]**, **[!UICONTROL Telekommunikation]** oder **[!UICONTROL Finanzdienstleistungen]**.
 5. Wählen Sie die **[!UICONTROL Region]** für Ihre Organisation aus. In der aktuellen Version des Produkts ist **[!UICONTROL Nordamerika]** die voreingestellte Standardauswahl.
-6. <span class="preview"> Nur Publisher</span>: Beim Einrichten einer Publisher-Organisation müssen Sie lesen und bestätigen, dass Sie von Werbetreibenden im Publisher-Katalog gefunden werden können.
+6. Fügen Sie eine **[!UICONTROL Kontakt-E-Mail]** für Ihre Organisation hinzu. Dies sollte eine Team- oder rollenbasierte E-Mail-Adresse sein. Persönliche E-Mail-Adressen sollten nicht angegeben werden.
+7. <span class="preview"> Nur Publisher</span>: Beim Einrichten einer Publisher-Organisation müssen Sie lesen und bestätigen, dass Sie von Werbetreibenden im Publisher-Katalog gefunden werden können.
    ![Publisher-spezifische Opt-in-Nachricht.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. Laden Sie ein **[!UICONTROL Logo]** für Ihr Unternehmen hoch. Derzeit werden Bilder vom Typ SVG unterstützt.
-8. Wählen Sie ein Bild für die Kopfzeile Ihres Unternehmens aus.
+8. Laden Sie ein **[!UICONTROL Logo]** für Ihr Unternehmen hoch. Derzeit werden Bilder vom Typ SVG unterstützt.
+9. Wählen Sie ein Bild für die Kopfzeile Ihres Unternehmens aus.
 
 Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**, um mit der nächsten Seite fortzufahren, und wählen Sie die gewünschten Übereinstimmungsschlüssel aus, die Ihre Organisation verwenden soll.
 
