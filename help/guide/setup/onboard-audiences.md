@@ -2,7 +2,7 @@
 title: Importieren und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration importieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 2c835ce72f09c450aa3467dc72980c9c627a0ab8
 workflow-type: tm+mt
@@ -91,15 +91,15 @@ Als Nächstes müssen Sie sicherstellen, dass für die importierten Daten die ri
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion **Data Collaboration** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **Datenwissenschaft** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen *aktiviert* ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und *nicht* in Real-Time CDP Collaboration übertragen.
 * Wenn das Kontrollkästchen *deaktiviert* ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.
 
 Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
 
-* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Erforderliche Marketing-Aktionen für die Datenerfassung.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -257,7 +257,7 @@ Sie können die folgenden relevanten Informationen zu jeder Zielgruppe anzeigen:
 | Element | Beschreibung |
 |----------|---------|
 | **[!UICONTROL Identitäten]** | Gibt die Anzahl der in dieser Zielgruppe vorhandenen Identitäten an. Beachten Sie Folgendes: Wenn dasselbe Profil zwei oder mehr Identitäten hat und diese Identitäten als Übereinstimmungsschlüssel im Projekt verwendet werden, wird das Profil zweimal in der Zählung angezeigt. |
-| **[!UICONTROL Status]** | Gibt an, ob die Zielgruppe aktiv ist und in Projekten verwendet werden kann. Der Status Ausstehend gibt an, dass die Zielgruppe gerade erst importiert wurde und die Zielgruppenmitglieder noch ausgefüllt werden müssen. The imported audiences will populate with profiles after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up                                         . |
+| **[!UICONTROL Status]** | Gibt an, ob die Zielgruppe aktiv ist und in Projekten verwendet werden kann. Der Status Ausstehend gibt an, dass die Zielgruppe gerade erst importiert wurde und die Zielgruppenmitglieder noch ausgefüllt werden müssen. Die importierten Zielgruppen werden nach der nächsten Aktualisierung der Datenverbindung gemäß dem konfigurierten Zeitplan mit Profilen gefüllt. Die erste Aktualisierung erfolgt normalerweise innerhalb von 24 Stunden nach der Einrichtung der Datenverbindung                                         . |
 | **[!UICONTROL Quelle]** | Gibt die Quelle an, aus der diese Zielgruppe importiert wurde. In der aktuellen Version von Real-Time CDP Collaboration ist Adobe Experience Platform die einzige unterstützte Quelle. |
 | **[!UICONTROL Datenverbindung]** | Weitere Aufschlüsselungsinformationen darüber, woher diese Zielgruppe importiert wurde. Wenn Sie beispielsweise Zielgruppen aus der Experience Platform-Quelle importieren, werden die einzelnen Sandboxes, auf die Ihr Unternehmen Zugriff hat, als Datenverbindungen betrachtet. |
 | **[!UICONTROL Verbindungszugriff]** | Definiert, ob diese Zielgruppe privat oder öffentlich ist. Öffentliche Zielgruppen sind in Überschneidungsberichten zu finden und können für Mitwirkende freigegeben werden. |
