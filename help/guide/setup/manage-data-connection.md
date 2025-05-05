@@ -2,7 +2,7 @@
 title: Datenverbindungen verwalten
 description: Erfahren Sie, wie Sie in Real-Time CDP Collaboration Datenverbindungen verwalten, einschließlich Übereinstimmungsschlüsseln, Planung, Anwendungsfällen und Zielgruppenfilterung
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Bevor Sie hier Ihre Datenverbindungen verwalten, sollten Sie sie zunächst währ
 
 >[!IMPORTANT]
 >
->Das Löschen einer Datenverbindung wird derzeit in der Benutzeroberfläche von Real-Time CDP Collaboration nicht unterstützt. Um eine Datenverbindung zu löschen, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter oder [erstellen Sie ein Support-Ticket](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>Das Löschen einer Datenverbindung wird derzeit in der Benutzeroberfläche von Real-Time CDP Collaboration nicht unterstützt. Um eine Datenverbindung zu löschen, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter oder [erstellen Sie ein Support-Ticket](https://experienceleague.adobe.com/home?lang=de&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Meine Zielgruppen]** und wählen Sie **[!UICONTROL Datenverbindungen verwalten]**.
 
