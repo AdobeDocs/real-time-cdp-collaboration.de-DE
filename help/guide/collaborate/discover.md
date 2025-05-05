@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -41,32 +41,32 @@ Um die Funktion auf der Registerkarte **[!UICONTROL Entdecken]** des Workflows *
 
 Sobald die oben genannten Voraussetzungen erfüllt sind, können Sie die Überschneidung zwischen Ihren Zielgruppen und denen Ihrer Mitarbeiter untersuchen und vergleichen.
 
-## Zielgruppen vergleichen {#compare-audiences}
+## Vergleichen von Zielgruppen {#compare-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
->title="Zielgruppen vergleichen"
->abstract="Entdecken Sie Überschneidungen zwischen Ihren und den Zielgruppen Ihrer Mitwirkenden. Sie können die Einstellungen im Dropdown-Selektor anpassen, um Überschneidungen zwischen einer oder mehreren Ihrer Zielgruppen mit einer oder mehreren der Zielgruppen Ihres Mitarbeiters zu ermitteln."
+>title="Vergleichen von Zielgruppen"
+>abstract="Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und den Zielgruppen Ihrer oder Ihres Mitwirkenden. Sie können die Einstellungen in der Dropdown-Auswahl anpassen, um Überschneidungen zwischen einer oder mehreren Ihrer Zielgruppen mit einer oder mehreren der Zielgruppen Ihrer oder Ihres Mitwirkenden zu ermitteln."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="Anzahl Ihrer Identitäten"
+>title="Ihre Identitätsanzahl"
 >abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die Teil Ihrer ausgewählten Zielgruppe sind"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="Anzahl der Mitarbeiter-Identitäten"
->abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die Teil der ausgewählten Zielgruppe Ihres Mitarbeiters sind"
+>title="Identitätsanzahl von Mitwirkenden"
+>abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die Teil der ausgewählten Zielgruppe Ihrer oder Ihres Mitwirkenden sind"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Anzahl sich überschneidender Identitäten"
->abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die sowohl in Ihrer als auch in der Zielgruppe Ihres Mitarbeiters vorhanden sind"
+>abstract="Die Anzahl der Profile mit dieser ausgewählten Identität, die sowohl in Ihrer Zielgruppe als auch in der Zielgruppe Ihrer oder Ihres Mitwirkenden vorhanden sind"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="Prozentsatz der Identitäten mit Überschneidungen"
->abstract="Der Prozentsatz der Profile, die sich zwischen Ihrer und der ausgewählten Zielgruppe Ihres Mitarbeiters überschneiden."
+>title="Prozentsatz sich überschneidender Identitäten"
+>abstract="Der Prozentsatz der Profile, die sich zwischen Ihrer ausgewählten Zielgruppe und der ausgewählten Zielgruppe Ihrer oder Ihres Mitwirkenden überschneiden."
 
 Mit der Karte „Zielgruppen vergleichen“ erhalten Sie ausführliche Informationen über die Überschneidung zwischen Ihren und den Zielgruppen Ihrer Mitarbeiter. Sie können auswählen, ob Sie eine der folgenden Zielgruppenkombinationen vergleichen möchten:
 
@@ -82,7 +82,7 @@ Die angezeigten Informationen beziehen sich auf:
 | **[!UICONTROL Anzahl der Identitäten]** (Ihres) | Die Anzahl der Profile mit einer ausgewählten Identität, die Teil Ihrer ausgewählten Zielgruppe sind. |
 | **[!UICONTROL Anzahl der Identitäten]** (Ihr Mitarbeiter) | Die Anzahl der Profile mit einer ausgewählten Identität, die Teil der ausgewählten Zielgruppe Ihres Mitarbeiters sind. |
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der Profile mit einer ausgewählten Identität, die sowohl in Ihrer Audience als auch in der Audience Ihres Mitarbeiters vorhanden sind. |
-| **[!UICONTROL Überschneidungsprozentsatz]** | Der Prozentsatz der Profile, die sich zwischen Ihrer und der ausgewählten Zielgruppe Ihres Mitarbeiters überschneiden. |
+| **[!UICONTROL Überschneidungsprozentsatz]** | Der Prozentsatz der Profile, die sich zwischen Ihrer ausgewählten Zielgruppe und der ausgewählten Zielgruppe Ihrer oder Ihres Mitwirkenden überschneiden. |
 | **[!UICONTROL Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel]** | Zeigen Sie basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben, die Komposition der Identitäten in den Überschneidungsberechnungen nach individuellen Übereinstimmungsschlüsseln an. |
 
 {style="table-layout:auto"}
@@ -96,7 +96,7 @@ Die angezeigten Informationen beziehen sich auf:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Relevante Zielgruppen"
->abstract="Basierend auf den Überschneidungsprozentsätzen könnten diese Publisher-Zielgruppen gut zu Ihrer Kampagne passen. <br><br> Die <b>Identitätsanzahl</b> ist die Zielgruppengröße des Herausgebers. <br><br> <b>Überschneidende Identitäten</b> stellt die Überschneidung zwischen der empfohlenen Publisher-Zielgruppe und allen Advertiser-Zielgruppen dar. <br><br> Die <b>Überschneidung %</b> stellt die Anzahl der sich überschneidenden Identitäten dividiert durch die Größe <i>aller</i> Advertiser-Zielgruppen dar."
+>abstract="Basierend auf den Prozentsätzen für die Überschneidungen könnten diese Publisher-Zielgruppen gut zu Ihrer Kampagne passen. <br><br> Die <b>Identitätsanzahl</b> ist die Zielgruppengröße des Publishers. <br><br> <b>Sich überschneidende Identitäten</b> stellt die Überschneidung zwischen der empfohlenen Publisher-Zielgruppe und allen Advertiser-Zielgruppen dar. <br><br> Die <b>Überschneidung in %</b> stellt die Anzahl der sich überschneidenden Identitäten dividiert durch die Größe <i>aller</i> Advertiser-Zielgruppen dar."
 
 Die **[!UICONTROL Relevante Zielgruppen]** im Modul **[!UICONTROL Entdecken]** bietet eine kuratierte Liste der fünf häufigsten Zielgruppen basierend auf dem Überschneidungsprozentsatz. Mit dieser Funktion können Sie die Zielgruppen mit der höchsten Überschneidung mit Ihren aktuellen Daten schnell identifizieren, sodass Sie Ihre Kampagnen effektiver ansprechen können.
 
@@ -106,12 +106,12 @@ Die **[!UICONTROL Relevante Zielgruppen]** im Modul **[!UICONTROL Entdecken]** b
 
 ![Ansicht „Relevante Zielgruppen“](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## Entdecken Sie Überschneidungen {#discover-overlaps}
+## Entdecken von Überschneidungen {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="Entdecken Sie Überschneidungen mit einzelnen Audiences"
->abstract="Erhalten Sie Einblicke in die Population dieser Zielgruppe und ihre Überschneidungen mit dem Universum der Identitäten des Mitarbeiters."
+>title="Entdecken von Überschneidungen mit einzelnen Zielgruppen"
+>abstract="Erhalten Sie Erkenntnisse bezüglich der Population dieser Zielgruppe und ihrer Überschneidungen mit der Gesamtheit der Identitäten der oder des Mitwirkenden."
 
 ![Entdecken Sie Überschneidungen mit verschiedenen Zielgruppenansichten](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

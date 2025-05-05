@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -55,9 +55,9 @@ Die Seitenansicht oben auf der Registerkarte „Messung“ zeigt eine Kampagnen�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="Metriken im Zeitverlauf"
->abstract="Verwenden Sie die Ansicht Metriken im Zeitverlauf, um die Gesamtanzahl der Impressionen zu verstehen, die für Ihre Kreativen während des Kampagnenzeitraums angezeigt wurden. Sie können maximal zwei Dimensionen auswählen, die im Bericht angezeigt werden sollen."
+>abstract="Verwenden Sie die Ansicht der Metriken im Zeitverlauf, um Informationen zur Gesamtanzahl der Impressionen zu erhalten, die während des Kampagnenzeitraums für Ihre Kreativen angezeigt wurden. Sie können maximal zwei Dimensionen auswählen, die im Bericht angezeigt werden sollen."
 
-Verwenden Sie die Ansicht Metriken im Zeitverlauf, um die Gesamtanzahl der Impressionen zu verstehen, die für Ihre Kreativen während des Kampagnenzeitraums angezeigt wurden. Beachten Sie, dass Sie maximal zwei Metriken auswählen können, die im Bericht angezeigt und analysiert werden sollen.
+Verwenden Sie die Ansicht der Metriken im Zeitverlauf, um Informationen zur Gesamtanzahl der Impressionen zu erhalten, die während des Kampagnenzeitraums für Ihre Kreativen angezeigt wurden. Beachten Sie, dass Sie maximal zwei Metriken auswählen können, die im Bericht angezeigt und analysiert werden sollen.
 
 ![Ansicht der Metriken im Zeitverlauf.](/help/assets/collaborate/measure/metrics-over-time.png)
 

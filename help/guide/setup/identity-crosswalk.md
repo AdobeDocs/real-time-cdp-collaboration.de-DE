@@ -9,7 +9,7 @@ exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 4%
+ht-degree: 22%
 
 ---
 
@@ -58,16 +58,16 @@ Nachdem Sie Experience Platform als Quelle für Ihre Überleitungen ausgewählt 
 
 Geben Sie einen Namen und eine Beschreibung für den Identity Crosswalk an, den Sie in das Produkt importieren.
 
-### Join-Schlüssel auswählen {#select-join-key}
+### Auswählen des Zusammenführungsschlüssels {#select-join-key}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
->title="Join-Schlüssel"
->abstract="Ein Join-Schlüssel ist eine eindeutige Kennung, die verwendet wird, um Datensätze über verschiedene Datensätze hinweg abzugleichen und zu verknüpfen. Dadurch wird sichergestellt, dass Daten aus verschiedenen Quellen genau mit derselben Person oder Entität verknüpft werden können. Jede der Spaltenüberschriften aus dem ausgewählten Crosswalk kann als Join-Schlüssel dienen."
+>title="Zusammenführungsschlüssel"
+>abstract="Ein Zusammenführungsschlüssel ist eine eindeutige Kennung, die zum Abgleichen und Verknüpfen von Einträgen in verschiedenen Datensätzen verwendet wird. Dadurch wird sichergestellt, dass Daten aus verschiedenen Quellen präzise mit derselben Person oder Entität verknüpft werden können. Jede der Spaltenüberschriften aus dem ausgewählten Crosswalk kann als Zusammenführungsschlüssel dienen."
 
-Ein Join-Schlüssel ist eine eindeutige Kennung, die verwendet wird, um Datensätze über verschiedene Datensätze hinweg abzugleichen und zu verknüpfen. Dadurch wird sichergestellt, dass Daten aus verschiedenen Quellen genau mit derselben Person oder Entität verknüpft werden können. Durch Auswahl des entsprechenden Join-Schlüssels können Sie Daten effektiv zusammenführen und abstimmen und so die Genauigkeit und Vollständigkeit Ihrer Kampagnen verbessern.
+Ein Zusammenführungsschlüssel ist eine eindeutige Kennung, die zum Abgleichen und Verknüpfen von Einträgen in verschiedenen Datensätzen verwendet wird. Dadurch wird sichergestellt, dass Daten aus verschiedenen Quellen präzise mit derselben Person oder Entität verknüpft werden können. Durch Auswahl des entsprechenden Join-Schlüssels können Sie Daten effektiv zusammenführen und abstimmen und so die Genauigkeit und Vollständigkeit Ihrer Kampagnen verbessern.
 
-Jede der Spaltenüberschriften aus dem ausgewählten Crosswalk kann als Join-Schlüssel dienen.
+Jede der Spaltenüberschriften aus dem ausgewählten Crosswalk kann als Zusammenführungsschlüssel dienen.
 
 Wählen Sie den gewünschten Join-Schlüssel für die Crosswalk-Tabelle aus und klicken Sie **[!UICONTROL Weiter]**, um mit dem nächsten Schritt fortzufahren.
 

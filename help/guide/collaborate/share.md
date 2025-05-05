@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -98,12 +98,12 @@ Innerhalb jeder Aktivität zur Zielgruppenfreigabe können Sie Informationen zu 
 
 Die Seite bietet auch Steuerelemente zum **[!UICONTROL (Freigabe anhalten]** und **[!UICONTROL Zielgruppen bearbeiten]**.
 
-## Zielgruppen bearbeiten {#edit-audiences}
+## Bearbeiten von Zielgruppen {#edit-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="Anwendungsfall anvisieren oder unterdrücken"
->abstract="<p>Wählen Sie **Target** aus, wenn die Profile in der Audience in der Kampagne Anzeigen angezeigt werden sollen.</p> <p>Wählen Sie **Unterdrücken** aus, wenn Sie die Profile in der Audience vom Kampagnennachrichtenversand ausschließen möchten.</p>"
+>title="Anwendungsfall „Ziel“ oder „Unterdrücken“"
+>abstract="<p>Wählen Sie **Ziel** aus, wenn den Profilen in der Zielgruppe in der Kampagne Anzeigen angezeigt werden sollen.</p> <p>Wählen Sie **Unterdrücken** aus, wenn Sie die Profile in der Zielgruppe vom Kampagnen-Messaging ausschließen möchten.</p>"
 
 Wählen Sie **[!UICONTROL Zielgruppen bearbeiten]**, um zu ändern, welche Zielgruppen in einem Modul zur Freigabe von Zielgruppen freigegeben sind. Sie können auch mehrere Konfigurationen ändern, die sich auf die Freigabe von Zielgruppen beziehen.
 

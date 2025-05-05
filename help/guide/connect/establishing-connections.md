@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -47,32 +47,32 @@ An dieser Stelle ist die Einladung deaktiviert und Sie können die Verbindungsei
 
 Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseinstellungen konfigurieren und an den Mitarbeiter senden, um sie zu überprüfen und zu akzeptieren.
 
-## Verbindungsparameter {#connection-settings}
+## Verbindungseinstellungen {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="Anwendungsfälle"
->abstract="Die Anwendungsfälle sind mit allen Optionen vorausgefüllt. Sie können die Anwendungsfälle bearbeiten, bevor Sie Ihre Verbindungseinstellungen übermitteln."
+>abstract="Die Anwendungsszenarien sind mit allen Optionen vorausgefüllt. Sie können die Anwendungsszenarien bearbeiten, bevor Sie Ihre Verbindungseinstellungen übermitteln."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie auf Organisationsebene ausgewählt haben. Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie in dieser Verbindung nicht verwenden möchten."
+>abstract="Übereinstimmungsschlüssel werden mit den Schlüsseln vorausgefüllt, die Sie auf Organisationsebene ausgewählt haben. Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie in dieser Verbindung nicht verwenden möchten."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit-Aufspaltung"
->abstract="In diesem Abschnitt wird festgelegt, wer für die entsprechenden Aktivitäten in Real-Time CDP Collaboration bezahlt. Derzeit ist nur der Anwendungsfall für die Freigabe von Audiences konfigurierbar."
+>abstract="In diesem Abschnitt wird festgelegt, wer die Kosten für die entsprechenden Aktivitäten in Real-Time CDP Collaboration trägt. Derzeit ist nur der Anwendungsfall für die Freigabe von Zielgruppen konfigurierbar."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="Zielgruppenfreigabe"
->abstract="Die Zielgruppenfreigabe ist die Aktivität, die eine Partei ausführt, wenn sie die Aktivierung ihrer abgeglichenen Daten durch ihren Kooperationspartner anfordert."
+>title="Freigabe von Zielgruppen"
+>abstract="Die Freigabe von Zielgruppen ist die Aktivität, die eine Partei ausführt, wenn sie die Aktivierung ihrer abgeglichenen Daten durch ihren Kooperationspartner anfordert."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Rechtsvereinbarung"
->abstract="Überprüfen Sie, ob eine Vereinbarung zwischen den beiden Parteien über die gemeinsame Nutzung von Daten besteht."
+>title="Rechtlicher Vertrag"
+>abstract="Stellen Sie sicher, dass ein Vertrag über die Datenfreigabe zwischen den beiden Parteien besteht."
 
 Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
 

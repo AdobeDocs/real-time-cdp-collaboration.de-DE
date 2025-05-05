@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ Verwenden Sie diese Seite als Ausgangspunkt, um alle relevanten Metriken zu vers
 Was Sie auf dieser Dokumentationsseite finden:
 
 * [Importieren von Zielgruppen in Real-Time CDP Collaboration](#import-audiences)
-* [Zielgruppen-Dashboard anzeigen](#view-audiences-dashboard)
+* [Anzeigen des Dashboards „Zielgruppen“](#view-audiences-dashboard)
 * [Anzeigen einzelner Zielgruppen](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
@@ -45,12 +45,12 @@ Bevor Sie Zielgruppen für Mitwirkende freigeben und Überschneidungsberechnunge
 
 Wählen Sie auf **[!UICONTROL Registerkarte]** Meine Zielgruppen“ das Pluszeichen **+** und anschließend **Zielgruppe** aus.
 
-### Datenverbindung auswählen {#select-data-connection}
+### Auswählen der Datenverbindung {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing-Aktionen"
->abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die <strong>Data Collaboration</strong>-Marketing-Aktion unterstützt Datennutzungsbeschriftungen mit C4, C5 und C9. Die <strong>Datenwissenschaft</strong> Marketing-Aktion unterstützt die Datennutzungskennzeichnung C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> aktiviert ist, werden alle Daten, die mit den oben genannten Kennzeichnungen in Experience Platform markiert sind, ausgeschlossen und <strong> Real-Time CDP Collaboration </strong>.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> aktiviert ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
+>abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion <strong>Data Collaboration</strong> unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de" text="Datennutzungskennzeichnungen – Übersicht"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de" text="Glossar der Datennutzungskennzeichnungen"
 
@@ -89,16 +89,16 @@ Wählen Sie **[!UICONTROL Weiter]** aus, nachdem Sie die gewünschte Sandbox aus
 
 Als Nächstes müssen Sie sicherstellen, dass für die importierten Daten die richtigen Marketing-Aktionen festgelegt sind. Außerdem müssen Sie für aus Real-Time CDP importierte Daten die Zustimmung zur Verwendung für die Datenerfassung erteilen.
 
-Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die **Data Collaboration**-Marketing-Aktion unterstützt Datennutzungsbeschriftungen mit C4, C5 und C9. Die **Datenwissenschaft** Marketing-Aktion unterstützt die Datennutzungskennzeichnung C9.
+Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion **Data Collaboration** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **Datenwissenschaft** unterstützt das Datennutzungs-Label vom Typ C9.
 
 Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Wenn das Kontrollkästchen *aktiviert* aktiviert ist, werden alle Daten, die mit den oben genannten Kennzeichnungen in Experience Platform markiert sind, ausgeschlossen und *Real-Time CDP Collaboration*.
-* Wenn das Kontrollkästchen *deaktiviert* aktiviert ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.
+* Wenn das Kontrollkästchen *aktiviert* ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und *nicht* in Real-Time CDP Collaboration übertragen.
+* Wenn das Kontrollkästchen *deaktiviert* ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.
 
 Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
 
-* [Datennutzungskennzeichnungen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
 * [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Erforderliche Marketing-Aktionen für die Datenerfassung.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
@@ -115,12 +115,12 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung an, damit Sie diese Da
 
 -->
 
-### Felder zuordnen {#map-fields}
+### Zuordnen von Feldern {#map-fields}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Quellfelder"
->abstract="Source-Felder sind Identitäts-Namespaces und -Attribute aus Ihrer bestehenden Implementierung von Real-Time CDP. Sie können diese Zielfeldern zuordnen, die in Real-Time CDP Collaboration definiert sind."
+>abstract="Quellfelder sind Identity-Namespaces und Attribute aus Ihrer bestehenden Implementierung von Real-Time CDP. Sie können diese Zielfeldern zuordnen, die in Real-Time CDP Collaboration definiert sind."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -130,19 +130,19 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung an, damit Sie diese Da
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Transformation anwenden"
->abstract="Verwenden Sie beim Importieren *(nicht gehashten* Felder aus Ihrer Quelle diese Option, damit Real-Time CDP Collaboration den Hash anwendet und die einfachen Felder in Hash-Felder umwandelt."
+>abstract="Verwenden Sie beim Importieren von anderen Feldern als *Hash-Feldern* aus Ihrer Quelle diese Option, damit Real-Time CDP Collaboration den Hash anwendet und die einfachen Felder in Hash-Felder umwandelt."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identity-Namespaces"
 >abstract="Wählen Sie einen Identity-Namespace aus den standardmäßigen und benutzerdefinierten Identity-Namespaces aus, die in Ihrer Experience Platform-Organisation verfügbar sind."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard- und Identity-Namespaces in Experience Platform"
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard" text="Standardmäßige und Identity-Namespaces in Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribute"
->abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse Profile in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM Individual Profile“ gehören."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Vereinigungsschema in Experience Platform"
+>abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
 
 ![Bildschirm „Felder zuordnen“ mit Quellfeldern, die Zielfeldern zugeordnet sind.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -241,12 +241,12 @@ Nach Auswahl der Zielgruppenquelle wählen Sie bestimmte Zielgruppen aus, die ei
 
 Überprüfen Sie alle Konfigurationen und Einstellungen, bevor Sie das Hinzufügen der Zielgruppe abschließen. Stellen Sie sicher, dass alle Details korrekt sind, und wählen Sie **[!UICONTROL Abschließen]** aus, um den Prozess abzuschließen.
 
-## Zielgruppen-Dashboard anzeigen {#view-audiences-dashboard}
+## Anzeigen des Dashboards „Zielgruppen“ {#view-audiences-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Fehlende Identitäten"
->abstract="Die Anzahl der Identitäten zeigt eine `-` für etwa die ersten 24 Stunden nach dem Import einer Zielgruppe in Real-Time CDP Collaboration an. Nach diesem Zeitraum wird die Anzahl der Identitäten mit der Anzahl der in der Zielgruppe vorhandenen Profile aktualisiert."
+>abstract="Als Anzahl der Identitäten wird für etwa die ersten 24 Stunden nach dem Import einer Zielgruppe in Real-Time CDP Collaboration ein `-` angezeigt. Nach diesem Zeitraum wird die Anzahl der Identitäten mit der Anzahl der in der Zielgruppe vorhandenen Profile aktualisiert."
 
 Nach dem Import von Audiences in Real-Time CDP Collaboration können Sie Informationen dazu in einer Dashboard-Ansicht abrufen. Die Standardansicht auf der Seite **[!UICONTROL Meine Zielgruppen]** zeigt alle Zielgruppen an, die derzeit von Ihrem Unternehmen in Real-Time CDP Collaboration importiert wurden.
 
@@ -301,8 +301,8 @@ Weitere Informationen zur Zielgruppe sind in folgenden Widgets verfügbar und k�
 
 * [Identitäten](#identities)
 * [Kategorien](#categories)
-* [Verbindungszugriff](#connection-access)
-* [Metadatensichtbarkeit](#metadata-visibility)
+* [Zugriff auf Verbindungen](#connection-access)
+* [Sichtbarkeit von Metadaten](#metadata-visibility)
 
 ### Identitäten {#identities}
 
@@ -318,16 +318,16 @@ In diesem Abschnitt wird die Anzahl der in der Zielgruppe vorhandenen Profile mi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Kategorien"
->abstract="Tagging Ihrer Zielgruppen für einfache Organisation, Filterung und Abruf. Sie können eine Zielgruppe mit mehreren Kategorien taggen und dann diese Kategorie-Tags verwenden, um Ihre gewünschten Zielgruppen in anderen Bereichen des Produkts zu filtern."
+>abstract="Versehen Sie Ihre Zielgruppen mit Tags, um sie einfach zu organisieren, zu filtern und abzurufen. Sie können eine Zielgruppe mit Tags mehrerer Kategorien versehen und diese Kategorie-Tags anschließend verwenden, um Ihre gewünschten Zielgruppen in anderen Bereichen des Produkts zu filtern."
 
 Um die Organisation, Filterung und den Abruf von Audiences zu vereinfachen, können Sie Ihre Audiences mit Tags versehen. Sie können eine Zielgruppe mit mehreren Kategorien taggen. Anschließend können Sie diese Kategorietags verwenden, um Ihre gewünschten Zielgruppen im Produktbereich [Entdecken](/help/guide/collaborate/discover.md) zu filtern, wenn Sie Berichte zur Zielgruppenüberschneidung ausführen.
 
-### Verbindungszugriff {#connection-access}
+### Zugriff auf Verbindungen {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
->title="Verbindungszugriff"
->abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Sie können die Zugriffsberechtigung für die Verbindung immer von privat in öffentlich ändern. Sie können diese Einstellung jedoch nicht mehr ändern, sobald eine Zielgruppe für Mitarbeiter freigegeben wurde.</p>"
+>title="Zugriff auf Verbindungen"
+>abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff. Sie können den Verbindungszugriff immer von privat in öffentlich ändern. Sobald jedoch eine Zielgruppe für Mitwirkende freigegeben wurde, können Sie diese Einstellung nicht mehr rückgängig machen.</p>"
 
 Wählen Sie aus, ob die Zielgruppe privat für Sie sein soll oder in Verbindungen verwendbar und auffindbar sein soll. Die drei verfügbaren Optionen sind:
 
@@ -339,14 +339,14 @@ Wählen Sie aus, ob die Zielgruppe privat für Sie sein soll oder in Verbindunge
 >
 >Unabhängig vom Zugriffsstatus (öffentlich, privat oder benutzerdefiniert) trägt die Population einer beliebigen Zielgruppe zur Population **[!UICONTROL Alle Zielgruppen]** in der Ansicht Zielgruppenerkennung - Überschneidung bei. <br> ![Die systemgenerierte Zielgruppe **Alle Zielgruppen** in der Analyse zur Zielgruppenerkennung enthält Zielgruppen mit allen Verbindungszugriffsstatus (öffentlich, privat, benutzerdefiniert).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "Die systemgenerierte Zielgruppe **Alle Zielgruppen** in der **Zielgruppenerkennung**-Überschneidungsanalyse umfasst Zielgruppen mit allen Verbindungszugriffsstatus (öffentlich, privat, benutzerdefiniert)."){width="100" zoomable="yes"}
 
-Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Sie können die Zugriffsberechtigung für die Verbindung immer von privat in öffentlich ändern. Sie können diese Einstellung jedoch nicht mehr ändern, sobald eine Zielgruppe für Mitarbeiter freigegeben wurde.
+Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Sie können den Verbindungszugriff immer von privat in öffentlich ändern. Sobald jedoch eine Zielgruppe für Mitwirkende freigegeben wurde, können Sie diese Einstellung nicht mehr rückgängig machen.
 
-### Metadatensichtbarkeit {#metadata-visibility}
+### Sichtbarkeit von Metadaten {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
->title="Metadatensichtbarkeit"
->abstract="<p>Gibt an, welche der Zielgruppen-Metadateninformationen für andere Organisationen sichtbar sind, bevor sie eine Verbindung zu Ihrer Organisation herstellen. </p> <p> **Identitätsanzahl** Steuert, ob Ihr Partner Identitätszahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Erkennung“ angezeigt werden. **Zielgruppenüberschneidung %** Steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren ermitteln können."
+>title="Sichtbarkeit von Metadaten"
+>abstract="<p>Gibt an, welche der Metadateninformationen von Zielgruppen für andere Organisationen sichtbar sind, bevor sie eine Verbindung zu Ihrer Organisation herstellen. </p> <p> Die **Identitätsanzahl** steuert, ob Ihre Partnerin oder Ihr Partner Identitätsanzahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Entdeckung“ angezeigt werden. Die **Zielgruppenüberschneidung in %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können."
 
 >[!NOTE]
 >

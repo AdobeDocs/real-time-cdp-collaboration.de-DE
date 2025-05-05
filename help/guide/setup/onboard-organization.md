@@ -7,7 +7,7 @@ exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -60,22 +60,22 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 
 Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**, um mit der nächsten Seite fortzufahren, und wählen Sie die gewünschten Übereinstimmungsschlüssel aus, die Ihre Organisation verwenden soll.
 
-### Übereinstimmungsschlüssel einrichten {#set-up-match-keys}
+### Einrichten von Übereinstimmungsschlüsseln {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel sind Kennungen, die zum Abgleichen von Mitgliedern über Zielgruppen hinweg aus verschiedenen Datenquellen hinweg verwendet werden. Schließen Sie alle Übereinstimmungsschlüssel ein, mit denen Ihre Firma arbeiten kann."
+>abstract="Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Schließen Sie alle Übereinstimmungsschlüssel ein, mit denen Ihr Unternehmen arbeiten kann."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="First-Party-Personen-IDs"
->abstract="First-Party-Personen-IDs wie Hash-E-Mail-Adressen oder Telefonnummern sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstützte IDs sind gehashte E-Mails und Telefonnummern."
+>title="Personenbezogene IDs von Erstanbietern"
+>abstract="Personenbezogene IDs von Erstanbietern wie Hash-E-Mail-Adressen oder Telefonnummern sind direkt mit einem einzelnen Profil verbunden. Die derzeit unterstützten IDs sind Hash-E-Mails und Telefonnummern."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="IDs von Erstanbieter-Geräten"
->abstract="Erstanbieter-Geräte-IDs wie ECID- oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können. IPv4 ist die einzige derzeit unterstützte First-Party-Geräte-ID."
+>abstract="Geräte-IDs von Erstanbietern wie ECIDs oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können. IPv4 ist die einzige derzeit unterstützte Erstanbieter-Geräte-ID."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -94,7 +94,7 @@ Wählen Sie bis zu fünf Übereinstimmungsschlüssel aus, die Sie verwenden möc
 
 Verfügbare Übereinstimmungsschlüssel in Real-Time CDP Collaboration können drei Typen aufweisen:
 
-* First-Party-Personen-IDs
+* Personenbezogene IDs von Erstanbietern
 * IDs von Erstanbieter-Geräten
 * Partner-IDs
 
