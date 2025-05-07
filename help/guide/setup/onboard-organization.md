@@ -2,11 +2,11 @@
 title: Onboarding und Verwalten von Organisationen
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Real-Time CDP Collaboration integrieren und verwalten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
+source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '827'
 ht-degree: 14%
 
 ---
@@ -36,7 +36,7 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 
 >[!IMPORTANT]
 >
->Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der [&#128279;](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
+>Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der ](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur [Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
 
 ### Details einrichten {#set-up-details}
 
@@ -53,10 +53,8 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 4. Wählen Sie die **[!UICONTROL Branche]** für Ihr Unternehmen aus. Einige Beispiele sind **[!UICONTROL Einzelhandel]**, **[!UICONTROL Telekommunikation]** oder **[!UICONTROL Finanzdienstleistungen]**.
 5. Wählen Sie die **[!UICONTROL Region]** für Ihre Organisation aus. In der aktuellen Version des Produkts ist **[!UICONTROL Nordamerika]** die voreingestellte Standardauswahl.
 6. Fügen Sie eine **[!UICONTROL Kontakt-E-Mail]** für Ihre Organisation hinzu. Dies sollte eine Team- oder rollenbasierte E-Mail-Adresse sein. Persönliche E-Mail-Adressen sollten nicht angegeben werden.
-7. <span class="preview"> Nur Publisher</span>: Beim Einrichten einer Publisher-Organisation müssen Sie lesen und bestätigen, dass Sie von Werbetreibenden im Publisher-Katalog gefunden werden können.
-   ![Publisher-spezifische Opt-in-Nachricht.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-8. Laden Sie ein **[!UICONTROL Logo]** für Ihr Unternehmen hoch. Derzeit werden Bilder vom Typ SVG unterstützt.
-9. Wählen Sie ein Bild für die Kopfzeile Ihres Unternehmens aus.
+7. Laden Sie ein **[!UICONTROL Logo]** für Ihr Unternehmen hoch. Derzeit werden Bilder vom Typ SVG unterstützt.
+8. Wählen Sie ein Bild für die Kopfzeile Ihres Unternehmens aus.
 
 Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**, um mit der nächsten Seite fortzufahren, und wählen Sie die gewünschten Übereinstimmungsschlüssel aus, die Ihre Organisation verwenden soll.
 
