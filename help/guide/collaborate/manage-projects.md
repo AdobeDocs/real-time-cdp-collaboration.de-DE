@@ -2,9 +2,9 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
+source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 3%
@@ -30,9 +30,9 @@ Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestim
 ## Projekt erstellen {#create-project}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_manage_projects_advertiser_name"
+>id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Advertiser-Name"
->abstract="Wählen Sie den Advertiser-Namen aus dem Dropdown-Menü aus. Die Optionen werden vom Herausgeber in den Verbindungseinstellungen vorkonfiguriert, um die Kompatibilität mit ihren Systemen sicherzustellen."
+>abstract="Wählen Sie den Advertiser-Namen aus dem Dropdown-Menü aus. Die Optionen werden vom Advertiser in den Verbindungseinstellungen vorkonfiguriert, um die Kompatibilität mit Publisher-Systemen sicherzustellen."
 
 Um ein Projekt zu erstellen, klicken Sie auf das Pluszeichen **+** in der oberen rechten Ecke. Wenn dies Ihr erstes Projekt ist, navigieren Sie zu **[!UICONTROL Zusammenarbeiten]** > **[!UICONTROL Meine Projekte]** und wählen Sie **[!UICONTROL Projekt erstellen]**.
 
