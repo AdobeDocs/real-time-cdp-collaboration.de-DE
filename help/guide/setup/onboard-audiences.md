@@ -2,11 +2,11 @@
 title: Importieren und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration importieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: d2ab8e0814d3228e85e03f0e2c1636a6d7167b88
+source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2685'
 ht-degree: 22%
 
 ---
@@ -91,15 +91,15 @@ Als Nächstes müssen Sie sicherstellen, dass für die importierten Daten die ri
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion **Data Collaboration** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **Datenwissenschaft** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen *aktiviert* ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und *nicht* in Real-Time CDP Collaboration übertragen.
 * Wenn das Kontrollkästchen *deaktiviert* ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.
 
 Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
 
-* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Erforderliche Marketing-Aktionen für die Datenerfassung.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -143,6 +143,11 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung an, damit Sie diese Da
 >title="Profilattribute"
 >abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_target_namespaces"
+>title="Ziel-Namespaces"
+>abstract="Dies wird mit einer entsprechenden Beschreibung ausgefüllt."
 
 ![Bildschirm „Felder zuordnen“ mit Quellfeldern, die Zielfeldern zugeordnet sind.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
