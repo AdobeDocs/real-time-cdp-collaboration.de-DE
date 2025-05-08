@@ -36,7 +36,7 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 
 >[!IMPORTANT]
 >
->Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der ](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur [Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
+>Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der [&#128279;](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
 
 ### Details einrichten {#set-up-details}
 
