@@ -2,12 +2,12 @@
 title: Onboarding und Verwalten von Organisationen
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Real-Time CDP Collaboration integrieren und verwalten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -31,19 +31,19 @@ Zunächst müssen Sie die Details Ihrer Organisation und Organisation einrichten
 
 Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seiten:
 
-* [Details einrichten](#set-up-details)
+* [Einrichten von Details](#set-up-details)
 * [Einrichten von Übereinstimmungsschlüsseln](#set-up-match-keys)
 
 >[!IMPORTANT]
 >
->Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der [&#128279;](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
+>Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der ](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur [Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
 
-### Details einrichten {#set-up-details}
+### Einrichten von Details {#set-up-details}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
->title="Kontakt-E-Mail-Adresse"
->abstract="Bitte eine Team- oder rollenbasierte E-Mail-Adresse angeben, z. B. `collaboration@yourcompany.com`. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
+>title="Kontakt-E-Mail"
+>abstract="Geben Sie eine Team- oder rollenbasierte E-Mail-Adresse an, z. B. `collaboration@yourcompany.com`. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
 
 ![Die Schritte Details und Anwendungsfälle zum Einrichten einer Organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
@@ -82,7 +82,7 @@ Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Übereinstimmungsschlüssel der Aktivierung"
+>title="Übereinstimmungsschlüssel für Aktivierung"
 >abstract="Aktivierungs-Übereinstimmungsschlüssel werden basierend auf den ausgewählten Übereinstimmungsschlüsseln Ihrer Organisation angezeigt."
 
 Übereinstimmungsschlüssel wie E-Mail-Adressen, Geräte-IDs oder Kunden-IDs helfen Advertisern und Publishern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppen-Zielgruppenbestimmung und -messung ermöglicht.
