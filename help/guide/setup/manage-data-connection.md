@@ -2,12 +2,12 @@
 title: Datenverbindungen verwalten
 description: Erfahren Sie, wie Sie in Real-Time CDP Collaboration Datenverbindungen verwalten, einschließlich Übereinstimmungsschlüsseln, Planung, Anwendungsfällen und Zielgruppenfilterung
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 8d620828bb0fb0bf116396f884b1bbd35d7c5d69
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 18%
 
 ---
 
@@ -19,21 +19,11 @@ ht-degree: 4%
 
 Verwenden Sie Datenverbindungen in Real-Time CDP Collaboration, um Zielgruppen aus verschiedenen Quellen zu importieren. Erfahren Sie, wie Sie Übereinstimmungsschlüssel verwalten und Datenimporte für Ihre vorhandenen Datenverbindungen planen. Darüber hinaus können Sie Zielgruppen nach verschiedenen Attributen filtern, um detailliertere Einblicke zu erhalten.
 
-Bevor Sie hier Ihre Datenverbindungen verwalten, sollten Sie sie zunächst während des Workflows [Zielgruppen-Onboarding](./onboard-audiences.md) einrichten. Dadurch wird sichergestellt, dass die richtigen Datenquellen für die Verwendung in Real-Time CDP Collaboration verbunden sind.
-
 ## Datenverbindungen anzeigen
 
->[!IMPORTANT]
->
->Das Löschen einer Datenverbindung wird derzeit in der Benutzeroberfläche von Real-Time CDP Collaboration nicht unterstützt. Um eine Datenverbindung zu löschen, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter oder [erstellen Sie ein Support-Ticket](https://experienceleague.adobe.com/home?lang=de&amp;support-tab=open-ticket#support){target="_blank"}.
+Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setup]** und wählen Sie dann die Registerkarte **[!UICONTROL Meine Datenverbindungen]** aus. Es werden alle Ihre aktuellen Verbindungsdaten angezeigt, die jeweils eine kurze Übersicht enthalten. Um eine vollständige Ansicht der Informationen einer Datenverbindung zu erhalten, einschließlich der Übereinstimmungsschlüssel, Zeitplandetails und Zielgruppen, wählen Sie **[!UICONTROL Datenverbindung anzeigen]** für die entsprechende Verbindung aus.
 
-Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL Meine Zielgruppen]** und wählen Sie **[!UICONTROL Datenverbindungen verwalten]**.
-
-![Arbeitsbereich „Setup“ mit hervorgehobener Option „Datenverbindungen verwalten“.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
-
-Dadurch wird eine Ansicht aller Ihrer derzeit eingerichteten Datenverbindungen mit Informationen zur Anzahl der Zielgruppen in jeder dieser Verbindungen, zur Quelle der Datenverbindung und mehr angezeigt. Wählen Sie **[!UICONTROL Datenverbindung anzeigen]**, um Informationen über die Übereinstimmungsschlüssel, die Planung und die Zielgruppen anzuzeigen, die Teil dieser Datenverbindung sind.
-
-![Arbeitsbereich „Datenverbindungen verwalten“ mit hervorgehobenen Optionen „Verbindungen anzeigen“. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
+![Arbeitsbereich einrichten, auf dem die Registerkarte „Meine Datenverbindungen“ angezeigt und hervorgehoben wird.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### Übereinstimmungsschlüssel {#match-keys}
 
@@ -42,11 +32,11 @@ Dadurch wird eine Ansicht aller Ihrer derzeit eingerichteten Datenverbindungen m
 >title="Übereinstimmungsschlüssel"
 >abstract="Übereinstimmungsschlüssel bestimmen, wie Daten aus verschiedenen Quellen zugeordnet werden. Wählen Sie die Übereinstimmungsschlüssel aus, die für Ihre Anwendungsfälle und Datenschutzrichtlinien am relevantesten sind."
 
-Übereinstimmungsschlüssel sind Kennungen, die zum Abgleichen von Mitgliedern über Zielgruppen hinweg aus verschiedenen Datenquellen hinweg verwendet werden. Zu den verfügbaren Übereinstimmungsschlüsseln gehören:
+Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Die Übereinstimmungsschlüssel, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, können nicht bearbeitet werden.
+
+Zu den verfügbaren Übereinstimmungsschlüsseln gehören:
 
 - **Hash-E-Mail**
-
-Die in dieser Datenverbindung verwendeten Übereinstimmungsschlüssel können nicht bearbeitet werden.
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -61,9 +51,21 @@ Sie können die Planungsoptionen, die Sie ursprünglich für Ihre Datenverbindun
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
+## Datenverbindung löschen
+
+Durch das Löschen einer Datenverbindung werden alle zugrunde liegenden Zielgruppen, zugehörigen Einstellungen und die Nutzung in der gesamten Plattform entfernt. Diese Aktion kann nicht rückgängig gemacht werden.
+
+Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) ](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
+
+![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobener Löschoption.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+
+Ein Bestätigungsdialogfeld wird angezeigt. Wählen Sie **[!UICONTROL Löschen]** aus, um das Löschen der Datenverbindung abzuschließen.
+
+![Das Dialogfeld „Datenverbindung löschen“ mit hervorgehobener Option „Löschen“.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+
 ## Verwalten von Zielgruppen {#manage-audiences}
 
-In der Liste der Zielgruppen Ihrer Datenverbindung können Sie auswählen, ob Sie die Zielgruppen anzeigen, ihre Kategorien bearbeiten oder sie aus der Datenverbindung entfernen möchten.
+Unten im Arbeitsbereich wird eine Liste von Audiences angezeigt, die mit der Datenverbindung verbunden sind. Die Liste zeigt eine kurze Übersicht über jede Zielgruppe an, einschließlich ihres Status, ihrer Quelle und ihres Verbindungszugriffs. Um die Kategorien, den Verbindungszugriff oder die Sichtbarkeit der Metadaten einer Zielgruppe zu bearbeiten, wählen Sie den Namen der Zielgruppe aus. Eine vollständige Anleitung zum Verwalten einer Zielgruppe finden Sie im [Anzeigen einzelner Zielgruppen](./onboard-audiences.md#view-individual-audiences).
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenen Zielgruppen.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
