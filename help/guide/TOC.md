@@ -2,10 +2,10 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und erleichtert so Einblicke in Zielgruppen in Echtzeit und personalisierte Marketing-Strategien.
-source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
+source-git-commit: c2a20aad386314f654d5451126390da4228f5572
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 20%
+source-wordcount: '122'
+ht-degree: 21%
 
 ---
 
@@ -13,10 +13,10 @@ ht-degree: 20%
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Real-Time CDP Collaboration - Startseite](./home.md)
-* Übersicht {#overview}
+* Überblick {#overview}
    * [Anwendungsbeispiele und Vorteile](./use-cases-benefits.md)
    * [End-to-End-Workflow](./end-to-end-workflow.md)
-* Einrichten von {#setup}
+* Setup {#setup}
    * [Überblick über den Einrichtungsabschnitt](./setup/setup-overview.md)
    * [Onboarding und Verwalten Ihres Unternehmens](./setup/onboard-organization.md)
    * [Importieren und Verwalten von Audiences](./setup/onboard-audiences.md)
@@ -25,7 +25,7 @@ ht-degree: 20%
    * [Identitäts-Crosswalks](./setup/identity-crosswalk.md)
    * [Hinzufügen und Verwalten von Messdaten](./setup/onboard-measurement-data.md)
    * [Audit-Protokolle](./setup/audit-logs.md)
-* Herstellen einer Verbindung mit Publisher- oder Advertiser-{#connect}
+* Verbindung mit Herausgeber oder Advertiser herstellen {#connect}
    * [Publisher entdecken](./connect/discover-publishers.md)
    * [Werbekunden entdecken](./connect/discover-advertisers.md)
    * [Verbinden mit Werbetreibenden oder Herausgebern](./connect/establishing-connections.md)
@@ -39,11 +39,6 @@ ht-degree: 20%
    * [Überblick](/help/guide/permissions/overview.md)
    * [Verwalten des Benutzerzugriffs](/help/guide/permissions/manage-user-access.md)
    * [Verwalten von Rollen](/help/guide/permissions/manage-roles.md)
-* Beispiele für Anwendungsfälle {#use-cases}
-   * [Kampagnenmessung](./use-cases/campaign-measurement.md)
-   * [Prospektion](./use-cases/prospecting.md)
-   * [Retargeting](./use-cases/retargeting.md)
-   * [Unterdrückung](./use-cases/suppression.md)
 * Referenz {#reference}
    * [Häufige Fragen und Tipps zur Fehlerbehebung](./faqs/common-questions.md)
    * [Glossar](./glossary.md)
