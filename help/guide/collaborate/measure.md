@@ -2,11 +2,11 @@
 title: Leistung messen
 description: Messen Sie die Leistung Ihrer Kampagnen über verschiedene Kanäle hinweg. Erfahren Sie, wie Sie verschiedene Berichte verwenden und interpretieren.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '636'
 ht-degree: 13%
 
 ---
@@ -28,7 +28,27 @@ Bevor Sie auf die Messberichte in Real-Time CDP Collaboration zugreifen können,
 * [Verbunden](/help/guide/connect/establishing-connections.md) mit einem gewünschten Advertiser oder Publisher, für den der **Kampagnenmessung**-Anwendungsfall aktiviert ist, und begann mit der Zusammenarbeit an [Projekten](/help/guide/collaborate/manage-projects.md)
 * Führen Sie eine Kampagne aus und [hochgeladene Messdaten](/help/guide/setup/onboard-measurement-data.md) in Real-Time CDP Collaboration.
 
-## Berichte anzeigen
+<!--
+
+## Create a report {#create-report}
+
+Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
+
+The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
+
+-->
+
+## Berichte anzeigen {#view-reports}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report_campaignID"
+>title="Kampagnen-IDs"
+>abstract="Platzhalter, um in der Benutzeroberfläche relevante Informationen über die Kampagnen-IDs hinzuzufügen."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report"
+>title="Kampagnen-IDs"
+>abstract="Platzhalter, um in der Benutzeroberfläche relevante Informationen über die Kampagnen-IDs hinzuzufügen."
 
 So zeigen Sie die auf der Registerkarte „Kennzahlen“ verfügbaren Berichte an:
 
