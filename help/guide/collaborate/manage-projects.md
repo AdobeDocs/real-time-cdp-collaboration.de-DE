@@ -2,12 +2,12 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 6%
+source-wordcount: '452'
+ht-degree: 9%
 
 ---
 
@@ -32,13 +32,18 @@ Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestim
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Advertiser-Name"
->abstract="Wählen Sie den Advertiser-Namen aus dem Dropdown-Menü aus. Die Optionen werden vom Advertiser in den Verbindungseinstellungen vorkonfiguriert, um die Kompatibilität mit Publisher-Systemen sicherzustellen."
+>abstract="Wählen Sie den Advertiser-Namen aus dem Dropdown-Menü aus. Die Optionen werden vom Publisher in den Verbindungseinstellungen vorkonfiguriert, um die Kompatibilität mit den Systemen sicherzustellen."
 
 Um ein Projekt zu erstellen, klicken Sie auf das Pluszeichen **+** in der oberen rechten Ecke. Wenn dies Ihr erstes Projekt ist, navigieren Sie zu **[!UICONTROL Zusammenarbeiten]** > **[!UICONTROL Meine Projekte]** und wählen Sie **[!UICONTROL Projekt erstellen]**.
 
 ![Wählen Sie ein Pluszeichen oder Erstellen Sie ein Projekt, um ein neues Projekt einzurichten.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Wählen Sie anschließend den Partner aus, mit dem Sie das Projekt erstellen. Geben Sie einen **[!UICONTROL Projektnamen]** und **[!UICONTROL Beschreibung]** für Ihr Projekt ein, wählen Sie eine Bildkopfzeile aus, um das Projekt einfach zu unterscheiden, und bestätigen Sie Ihre Auswahl.
+Wählen Sie anschließend die folgenden Einstellungen aus:
+
+* Der Mitarbeiter, mit dem Sie das Projekt erstellen
+* Wählen Sie einen Advertiser-Namen aus, wenn der Publisher mehrere Advertiser-Namen in den Verbindungseinstellungen konfiguriert hat. Andernfalls wird der Name des Advertisers als Advertiser-Name vorausgewählt. Oder wenn der Publisher in den Verbindungseinstellungen einen einzelnen Advertiser-Namen konfiguriert hat, ist dieser Name in dieser Auswahl vorbelegt. [Weitere Informationen](/help/guide/connect/establishing-connections.md#connection-settings) über Werbenamen.
+* Geben Sie einen **[!UICONTROL Projektnamen]** und eine **[!UICONTROL Beschreibung]** für Ihr Projekt an
+* Wählen Sie eine Bildkopfzeile aus, um das Projekt leicht unterscheiden zu können, und bestätigen Sie Ihre Auswahl.
 
 ![Erforderliche Optionen zum Einrichten eines neuen Projekts](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 

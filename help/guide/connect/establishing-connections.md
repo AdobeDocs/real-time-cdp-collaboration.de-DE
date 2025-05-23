@@ -2,12 +2,12 @@
 title: Verbinden mit Werbetreibenden oder Herausgebern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 13%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -72,7 +72,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Messung"
->abstract="In diesem Anwendungsbeispiel können Sie Aktivitäten in Real-Time CDP Collaboration ausführen, um Leistungsberichte und Einblicke für Kampagnen zu generieren."
+>abstract="In diesem Anwendungsbeispiel können Sie Aktivitäten in Real-Time CDP Collaboration ausführen, um Leistungsberichte und Erkenntnisse für Kampagnen zu generieren."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -82,7 +82,8 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-Namen"
->abstract="Gibt die Aliase an, unter denen der Advertiser dem Publisher bekannt ist. "
+>abstract="<p>Optionale Einstellung. Gibt den Namen und die ID an, mit denen der Advertiser dem Publisher bekannt ist.</p><p>Der hier hinzugefügte Advertiser-Name wird im Schritt Projekt erstellen vorbefüllt.</p><ul><li>Wenn der Publisher mehrere Namen konfiguriert hat, wählen Sie einen aus der Liste aus.</li><li>Wenn nur ein Name konfiguriert ist, wird er automatisch vorausgewählt.</li><li>Wenn keine Namen konfiguriert sind, wird das Feld mit dem Advertiser-Kontonamen aus Real-Time CDP Collaboration vorausgefüllt.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Projekt erstellen"
 
 Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
 
@@ -127,6 +128,22 @@ Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der 
 Bevor Sie mit dieser Verbindung fortfahren können, müssen Sie anerkennen, dass eine Datenfreigabevereinbarung zwischen den beiden Parteien besteht.
 
 ![Rechtliche Vereinbarungen.](/help/assets/connect/establish-connection/legal-agreement.png)
+
++++
+
++++Advertiser-Namen
+
+Als Herausgeber, der mit den Verbindungseinstellungen arbeitet, können Sie alle Advertiser-Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist. Als Publisher können Sie einer Verbindung mehrere Advertiser-Namen hinzufügen, z. B. wenn der Advertiser, mit dem Sie arbeiten, in mehreren Regionen präsent ist. Wenn Sie später im Prozess [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md#create-project) an dem Sie zusammenarbeiten möchten, können Sie oder Ihr Mitarbeiter den Advertiser-Namen auswählen, der mit dem Projekt verknüpft werden soll.
+
+![Hinzufügen von Advertiser-Namen modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+So funktioniert die Auswahl des Advertiser-Namens beim Erstellen eines Projekts:
+
+1. **Kein Advertiser-Name festgelegt**: Wenn keine Advertiser-Namen hinzugefügt werden, verwendet Real-Time CDP Collaboration standardmäßig den Namen des Advertisers als Advertiser-Namen.
+2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Real-Time CDP Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
+3. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
+
+![Advertiser-Namen.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
