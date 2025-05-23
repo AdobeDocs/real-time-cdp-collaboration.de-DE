@@ -2,7 +2,7 @@
 title: Verbinden mit Werbetreibenden oder Herausgebern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
@@ -83,7 +83,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-Namen"
 >abstract="<p>Optionale Einstellung. Gibt den Namen und die ID an, mit denen der Advertiser dem Publisher bekannt ist.</p><p>Der hier hinzugefügte Advertiser-Name wird im Schritt Projekt erstellen vorbefüllt.</p><ul><li>Wenn der Publisher mehrere Namen konfiguriert hat, wählen Sie einen aus der Liste aus.</li><li>Wenn nur ein Name konfiguriert ist, wird er automatisch vorausgewählt.</li><li>Wenn keine Namen konfiguriert sind, wird das Feld mit dem Advertiser-Kontonamen aus Real-Time CDP Collaboration vorausgefüllt.</li></ul>"
->additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Projekt erstellen"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Projekt erstellen"
 
 Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
 

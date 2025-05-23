@@ -2,7 +2,7 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
