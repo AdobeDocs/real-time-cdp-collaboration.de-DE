@@ -2,12 +2,12 @@
 title: Verbinden mit Werbetreibenden oder Herausgebern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-Namen"
 >abstract="<p>Optionale Einstellung. Gibt den Namen und die ID an, mit denen der Advertiser dem Publisher bekannt ist.</p><p>Der hier hinzugefügte Advertiser-Name wird im Schritt Projekt erstellen vorbefüllt.</p><ul><li>Wenn der Publisher mehrere Namen konfiguriert hat, wählen Sie einen aus der Liste aus.</li><li>Wenn nur ein Name konfiguriert ist, wird er automatisch vorausgewählt.</li><li>Wenn keine Namen konfiguriert sind, wird das Feld mit dem Advertiser-Kontonamen aus Real-Time CDP Collaboration vorausgefüllt.</li></ul>"
->additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Projekt erstellen"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Projekt erstellen"
 
 Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
 
@@ -111,23 +111,26 @@ Anwendungsfälle sind mit allen verfügbaren Anwendungsfällen vorausgefüllt. S
 
 Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie [auf Organisationsebene ausgewählt](/help/guide/setup/onboard-organization.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die in dieser Verbindung nicht verwendet werden sollen. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die beim Einrichten der Organisation nicht ausgewählt wurden.
 
-![Übereinstimmungsschlüssel](/help/assets/connect/establish-connection/match-keys.png)
+![Übereinstimmungsschlüssel](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++Kreditaufteilung
 
-Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt.
+Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der Anwendungsfall **[!UICONTROL Zielgruppenaktivierung]** eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von ](/help/guide/setup/my-activity.md#types-of-activities)).
 
-![Kreditaufteilung](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>Zielgruppe - Der Ausgang wird immer von dem Mitarbeiter abgedeckt, der die Zielgruppe erhält. Daher ist keine Auswahl erforderlich.
 
+![Das Dialogfeld „Kreditaufteilung“ mit Optionen im Arbeitsbereich „Verbindung“.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++Vereinbarungen
 
 Bevor Sie mit dieser Verbindung fortfahren können, müssen Sie anerkennen, dass eine Datenfreigabevereinbarung zwischen den beiden Parteien besteht.
 
-![Rechtliche Vereinbarungen.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Rechtliche Vereinbarungen.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
