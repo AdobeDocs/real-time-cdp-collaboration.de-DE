@@ -2,12 +2,12 @@
 title: Verfolgen der Kreditverbrauchsaktivität
 description: Erfahren Sie, wie Sie die Kreditkonsumaktivität Ihres Unternehmens in Real-Time CDP Collaboration verfolgen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
+source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 0%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -53,27 +53,16 @@ Das Aktivitäts-Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden
 
 Die Spalte **[!UICONTROL Aktivität]** zeigt verschiedene Arten von kreditverbrauchenden Vorgängen.
 
-* **[!UICONTROL Zielgruppen-Management]**: Guthaben werden beim Import von Zielgruppen in Real-Time CDP Collaboration verwendet. Die Gutschriften werden als Funktion der Anzahl der in Real-Time CDP Collaboration über alle Zielgruppen hinweg indizierten IDs (in Millionen) und der Häufigkeit dieser Indizierung (täglich, alle drei Tage oder wöchentlich) während des Abrechnungszeitraums genutzt. Weitere Informationen über [Importieren und Verwalten von Audiences](/help/guide/setup/onboard-audiences.md).
-* **[!UICONTROL Aktivierung - Freigabe]** - Guthaben wird in Abhängigkeit von der Anzahl der IDs konsumiert, die von Real-Time CDP Collaboration während des Abrechnungszeitraums aktiviert wurden. Lesen Sie mehr über [Freigeben](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
-* **[!UICONTROL Aktivierung - Ausgang]** - Guthaben wird in Abhängigkeit von der Anzahl der IDs verbraucht, die von Real-Time CDP Collaboration während des Abrechnungszeitraums aktiviert wurden. Lesen Sie mehr über [Freigeben](/help/guide/collaborate/share.md) und [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
-* **[!UICONTROL Zielgruppenüberschneidungen]** - Credits werden bei der Analyse von Zielgruppenüberschneidungen mithilfe von Datenskizzen verwendet. Datenskizzen sind vereinfachte Zusammenfassungen von Zielgruppendaten, mit denen festgestellt werden kann, wie ähnlich zwei Zielgruppen sind, während der Datenschutz gewahrt bleibt. Weitere Informationen zu [Zielgruppenüberschneidungen“ finden Sie auf der Registerkarte „Entdecken“](/help/guide/collaborate/discover.md).
+* **[!UICONTROL Zielgruppen-Management]**: Guthaben werden genutzt, wenn Zielgruppen in Real-Time CDP Collaboration bezogen werden. Die Credits werden als Funktion der Anzahl der in Real-Time CDP Collaboration über alle Zielgruppen hinweg indizierten IDs (in Millionen) und der Häufigkeit dieser Indizierung (täglich, alle drei Tage oder wöchentlich) genutzt. Weitere Informationen finden Sie im Handbuch [Importieren und Verwalten ](/help/guide/setup/onboard-audiences.md) Zielgruppen“.
+* **[!UICONTROL Aktivierung - Abgleich]** - Gutschriften werden in Abhängigkeit von der Anzahl der übereinstimmenden und für die Aktivierung vorbereiteten IDs genutzt. Weitere Informationen finden Sie im Handbuch [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
+* **[!UICONTROL Aktivierung - Ausgang]** - Guthaben wird in Abhängigkeit von der Anzahl der IDs genutzt, die an ein Ziel gesendet werden. Dies wird immer dem Mitarbeiter berechnet, der die Zielgruppe erhält. Weitere Informationen finden Sie im Handbuch [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
 * **[!UICONTROL Zielgruppenmessung]** Führen Sie Aktivitäten in Real-Time CDP Collaboration aus, um Leistungsberichte und Einblicke für Kampagnen zu generieren. Die Credits werden basierend auf der Anzahl der Zeilen in Kampagnenberichten über alle Kampagnen hinweg und der Häufigkeit der Berichterstellung (täglich, alle drei Tage oder wöchentlich) genutzt.
-
-
-<!--
-
-**[!UICONTROL Audience Overlaps]** – Credits are consumed as a function of the number of matched IDs across 2 or more shared audiences throughout the billing period. Read more about [audience overlaps in the discover tab](/help/guide/collaborate/discover.md).
-
-Collaboration Measurement – Credits are consumed as a function of the number of rows existing in campaign reports across all campaigns, and the frequency of that reporting (daily, every three days, or weekly).
-
--->
-
 
 ## Kreditnutzung verwalten {#manage-credit-consumption}
 
 So verwalten Sie Ihren Kreditverbrauch effektiv:
 
-1. **Verstehen** Der mit jeder Aktivität verknüpfte Kreditverbrauch. In der [Real-Time CDP Collaboration-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} finden Sie eine Tabelle mit den für die Zusammenarbeit verwendeten Credits pro Aktivität.
+1. **Verstehen** Der mit jeder Aktivität verknüpfte Kreditverbrauch. In der [Real-Time CDP Collaboration-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} finden Sie eine Tabelle mit den für die Zusammenarbeit verwendeten Credits pro Aktivität.
 2. **Regelmäßig überwachen**: Überprüfen Sie Ihr Aktivitäts-Dashboard häufig, um Nutzungsmuster zu verstehen.
 3. **Nach Verbindung verfolgen**: Verwenden Sie den Verbindungsnamen, um zu ermitteln, welche Partnerschaften die meisten Credits verbrauchen.
 
