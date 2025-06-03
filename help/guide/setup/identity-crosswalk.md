@@ -2,11 +2,11 @@
 title: Identitäts-Crosswalks
 description: Erfahren Sie alles über Identitätsübergänge in Real-Time CDP Collaboration, einschließlich der Einbindung von Identitätsübergängen aus verschiedenen Quellen und der Verwaltung von Identitätsübergängen
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 22%

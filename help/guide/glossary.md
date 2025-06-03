@@ -2,9 +2,9 @@
 title: Glossar
 description: Wichtige Begriffe für Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b929cf9d75b4fc844ba03799f07a5e372b8f9052
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 3%
@@ -33,7 +33,7 @@ Cloud-Speicher ist eine Cloud-Computing-Lösung, die die Speicherung von Daten u
 
 Eine Verbindungsanfrage ist eine formale Anfrage, die von einer Organisation an eine andere gesendet wird, um eine Verbindung mit gemeinsamer Datennutzung herzustellen. Nach der Annahme können beide Parteien auf sichere Weise zusammenarbeiten und Zielgruppendaten freigeben.
 
-### Verbindungsparameter
+### Verbindungseinstellungen
 
 Nachdem eine Verbindungsanfrage akzeptiert wurde, sendet der Initiator dieser Anfrage die Verbindungseinstellungen zur Genehmigung an den Mitarbeiter. Diese Verbindungseinstellungen regeln die Art und Weise, wie die Mitarbeiter an Projekten zusammenarbeiten, und enthalten Übereinstimmungsschlüssel, die verwendet werden sollen, Abrechnungseigentum und mehr.
 
