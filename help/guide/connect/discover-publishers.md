@@ -2,7 +2,7 @@
 title: Publisher entdecken
 description: Erfahren Sie, wie Sie als Advertiser potenzielle Publisher finden, mit denen Sie bei der Verwendung von Adobe Real-Time CDP Collaboration zusammenarbeiten können
 audience: admin, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
