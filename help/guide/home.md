@@ -2,7 +2,7 @@
 title: Überblick
 description: Erfahren Sie, wie Sie mit Adobe Real-Time Customer Data Platform (CDP) Collaboration hochwertige Zielgruppen ermitteln, aktivieren und messen können, ohne auf Drittanbieter-Cookies angewiesen zu sein.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
@@ -47,7 +47,7 @@ Sobald Sie Zugriff haben, können Sie Ihr Unternehmen einrichten und Ihre Datenq
 
 ## Ressourcen
 
-Im [Glossar](/help/guide/glossary.md) finden Sie ausführliche Informationen zu den im Produkt verwendeten Begriffen. Rufen Sie zur Unterstützung die Seite Adobe [Kunden-Support](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"} auf.
+Im [Glossar](/help/guide/glossary.md) finden Sie ausführliche Informationen zu den im Produkt verwendeten Begriffen. Rufen Sie zur Unterstützung die Seite Adobe [Kunden-Support](https://experienceleague.adobe.com/home?lang=de&amp;support-tab=open-ticket#support){target="_blank"} auf.
 
 ## Kontakt
 

@@ -2,7 +2,7 @@
 title: Werbekunden entdecken
 description: Entdecken Sie potenzielle Werbetreibende, mit denen Sie bei der Verwendung von Adobe Real-Time CDP Collaboration zusammenarbeiten können
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: caee65fa-63bf-4cb1-80c7-6fdc38c4285b

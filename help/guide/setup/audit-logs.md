@@ -2,7 +2,7 @@
 title: Auditprotokolle
 description: Erfahren Sie, wie Sie mit der Auditprotokollfunktion in Real-Time CDP Collaboration Benutzeraktivitäten und -änderungen verfolgen können.
 audience: admin
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Verwenden Sie die Auditprotokollfunktion in Real-Time CDP Collaboration, um Benu
 
 ![Übersichtsbildschirm auf hoher Ebene über die Funktionalität der Auditprotokolle](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Weitere Informationen zu Auditprotokollen finden Sie in der Dokumentation zu [Adobe Experience Platform-Auditprotokollen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Weitere Informationen zu Auditprotokollen finden Sie in der Dokumentation zu [Adobe Experience Platform-Auditprotokollen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Zugriff auf Auditprotokolle
 
@@ -61,7 +61,7 @@ Audit-Protokolle erfassen detaillierte Informationen zu Benutzeraktivitäten, da
 * **Ressource**: Die Ressource, die geändert oder erstellt wurde.
 * **Zeitstempel**: Der Zeitpunkt, zu dem die Aktion ausgeführt wurde.
 
-Diese Protokolle erstellen ein umfassendes Protokoll aller Aktivitäten in Ihrer Real-Time CDP Collaboration-Instanz, das für Data Governance und die Einhaltung gesetzlicher Vorschriften nützlich ist. Weitere Informationen [Verwalten von Auditprotokollen in der Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Diese Protokolle erstellen ein umfassendes Protokoll aller Aktivitäten in Ihrer Real-Time CDP Collaboration-Instanz, das für Data Governance und die Einhaltung gesetzlicher Vorschriften nützlich ist. Weitere Informationen [Verwalten von Auditprotokollen in der Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Auditprotokolle filtern
 
@@ -74,7 +74,7 @@ Die Benutzeroberfläche für Auditprotokolle bietet mehrere Filter, mit denen Si
 * **Status**: Der Status der Aktion (z. B.: zulässig, verweigert).
 * **Datumsbereich**: Der Datumsbereich, für den Sie Protokolle anzeigen möchten.
 
-Weitere Informationen [Filtern von Auditprotokollen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Weitere Informationen [Filtern von Auditprotokollen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ### Anwendungsbeispiel
 
