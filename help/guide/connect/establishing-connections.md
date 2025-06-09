@@ -2,12 +2,12 @@
 title: Verbinden mit Werbetreibenden oder Herausgebern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 17%
+source-wordcount: '1387'
+ht-degree: 11%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 17%
 
 {{limited-availability-release-note}}
 
-Die Herstellung einer Verbindung zwischen zwei Parteien einer Kollaboration (meistens ein Advertiser und ein Publisher) ist die Voraussetzung in Real-Time CDP Collaboration für Unternehmen, die an Kampagnen zusammenarbeiten. Sowohl Publisher als auch Advertiser können Verbindungen einrichten. Der Teilnehmer, der die Verbindung herstellt, ist anschließend der *Verbindungseigentümer*.
+Bevor Mitarbeiter (normalerweise ein Advertiser und ein Publisher) gemeinsam an Kampagnen arbeiten können, müssen sie eine Verbindung herstellen. Diese Verbindung ermöglicht es ihnen, Zielgruppen zu aktivieren, Projekte zu erstellen und Berichte über die Kampagnenleistung zu erstellen.
 
 ## Workflow auf hoher Ebene
 
-Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, sieht der Workflow auf allgemeiner Ebene wie folgt aus:
+Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, sind die folgenden Schritte erforderlich:
 
-1. Der Werbetreibende [durchsucht Verlage und entdeckt](/help/guide/connect/discover-publishers.md) einen, mit dem er arbeiten möchte
+1. Der Werbetreibende [durchsucht Verlage und entdeckt](/help/guide/connect/discover-publishers.md) einen, mit dem er arbeiten möchte.
 2. Der Advertiser sendet eine Einladung zur Verbindung.
 3. Der Herausgeber nimmt die Einladung an.
 4. Der Advertiser sendet Verbindungseinstellungen einschließlich Übereinstimmungsschlüsseln und anderen. Diese Verbindungseinstellungen stellen die produktinternen Bedingungen der Zusammenarbeit dar.
@@ -39,9 +39,9 @@ Sobald die oben genannten Elemente abgeschlossen sind, können die Mitwirkenden 
 
 Um eine Verbindung einzurichten, wählen Sie **[!UICONTROL Verbinden]** beim Durchsuchen des Publisher-Inventars im Bildschirm „Publisher erkennen“ aus.
 
-![Verbindungsauswahl](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![Das Dashboard „Verbinden“ mit hervorgehobener Option „Verbinden“ für einen bestimmten Herausgeber.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-An dieser Stelle ist die Einladung deaktiviert und Sie können die Verbindungseinstellungen in der Vorschau anzeigen, sie jedoch nicht bearbeiten. Sie können die ausstehende Einladung auf der Registerkarte **[!UICONTROL Meine Verbindungen]** anzeigen. Der Status der Verbindung lautet &quot;**[!UICONTROL gesendet]**.
+Nachdem die Einladung gesendet wurde, können Sie die Verbindungseinstellungen in der Vorschau anzeigen (aber nicht bearbeiten). Ausstehende Einladungen auf der Registerkarte **[!UICONTROL Meine Verbindungen]** anzeigen. Der Verbindungsstatus wird als &quot;**[!UICONTROL gesendet“]**.
 
 ![Ausstehende Einladung an Herausgeber gesendet, in der Ansicht „Meine Verbindungen“ angezeigt.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,17 +62,17 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit-Aufspaltung"
->abstract="In diesem Abschnitt wird festgelegt, wer die Kosten für die entsprechenden Aktivitäten in Real-Time CDP Collaboration trägt. Derzeit ist nur der Anwendungsfall für die Freigabe von Zielgruppen konfigurierbar."
+>abstract="In diesem Abschnitt wird festgelegt, wer für die entsprechenden Aktivitäten in Real-Time CDP Collaboration bezahlt."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Freigabe von Zielgruppen"
->abstract="Die Freigabe von Zielgruppen ist die Aktivität, die eine Partei ausführt, wenn sie die Aktivierung ihrer abgeglichenen Daten durch ihren Kooperationspartner anfordert."
+>abstract="Zielgruppen-Aktivierungsguthaben werden basierend auf der Anzahl der übereinstimmenden IDs, die für die Aktivierung vorbereitet wurden, genutzt."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Messung"
->abstract="In diesem Anwendungsbeispiel können Sie Aktivitäten in Real-Time CDP Collaboration ausführen, um Leistungsberichte und Erkenntnisse für Kampagnen zu generieren."
+>abstract="Ausführen von Aktivitäten zum Generieren von Leistungsberichten und Einblicken für Kampagnen Die Credits werden basierend auf der Anzahl der Zeilen in Kampagnenberichten über alle Kampagnen hinweg und der Häufigkeit der Berichterstellung (täglich, alle drei Tage oder wöchentlich) genutzt."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -89,29 +89,31 @@ Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungse
 
 ![Die Ansicht mit den Verbindungseinstellungen im Vorschaustatus.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
-Sobald die Verbindung von Ihrem Mitarbeiter akzeptiert wurde, können Sie mit dem Einrichten der Verbindungseinstellungen für die Verbindung beginnen. Die Verbindungseinstellungen definieren die Bedingungen für Ihre Zusammenarbeit, z. B. die Anwendungsfälle, die Sie gemeinsam ausführen, die Übereinstimmungsschlüssel, die Sie in Projekten verwenden werden, und mehr.
+### Advertiser-Verbindungseinstellungen {#advertiser-connection-settings}
 
-Um Verbindungseinstellungen für Ihren Mitarbeiter einzurichten und freizugeben, navigieren Sie zu **[!UICONTROL Meine Verbindungen]**. Für alle Verbindungen mit dem Status **[!UICONTROL Ausstehend]** können Sie **[!UICONTROL Verbindung einrichten]** auswählen, um die Verbindungseinstellungen zu konfigurieren.
+Nachdem Ihr Mitarbeiter die Verbindung akzeptiert hat, richten Sie die Verbindungseinstellungen ein. Diese Einstellungen definieren Ihre Kooperationsbedingungen, einschließlich der Anwendungsfälle, an denen Sie arbeiten werden, der Übereinstimmungsschlüssel für Projekte und anderer Konfigurationen.
 
-![Die Ansicht „Meine Verbindungen“ mit einer hervorgehobenen Option „Ausstehende Verbindung“ und „Verbindung einrichten“.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+Navigieren Sie zunächst zu **[!UICONTROL Meine Verbindungen]**. Für alle Verbindungen mit dem Status **[!UICONTROL Ausstehend]** können Sie **[!UICONTROL Verbindung einrichten]** auswählen, um die Verbindungseinstellungen zu konfigurieren.
+
+![Der Arbeitsbereich „Meine Verbindungen“ mit einer ausstehenden Verbindung und der hervorgehobenen Option „Verbindung einrichten“.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 Sie können die folgenden Felder bearbeiten und definieren:
 
-![Einrichten der Verbindungsansicht](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
+![Der Arbeitsbereich „Verbindungseinstellungen“, bevor er ausgefüllt wird.](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Anwendungsfälle
 
-Anwendungsfälle sind mit allen verfügbaren Anwendungsfällen vorausgefüllt. Sie können auswählen, welche Anwendungsfälle Ihre Verbindung verwenden soll, indem Sie **[!UICONTROL Bearbeiten]** auswählen und alle Anwendungsfälle deaktivieren, die Sie nicht möchten. Ausgewählte Anwendungsfälle wirken sich darauf aus, welche Ansichten und Optionen in [ Projekten verfügbar ](../collaborate/manage-projects.md#project-use-cases).
+Anwendungsfälle sind mit allen verfügbaren Optionen vorausgefüllt. Um sie anzupassen, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Anwendungsfälle]** aus und deaktivieren Sie alle nicht gewünschten. Ausgewählte Anwendungsfälle bestimmen, welche Ansichten und Optionen in [ Projekten verfügbar ](../collaborate/manage-projects.md#project-use-cases).
 
-![Anwendungsbeispiele](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![Die Einstellungen für Anwendungsfälle im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
 +++Übereinstimmungsschlüssel
 
-Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie [auf Organisationsebene ausgewählt](/help/guide/setup/onboard-organization.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die in dieser Verbindung nicht verwendet werden sollen. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die beim Einrichten der Organisation nicht ausgewählt wurden.
+Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie beim [Einrichten Ihrer Organisation“ ausgewählt ](/help/guide/setup/onboard-organization.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie nicht verwenden möchten. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die bei der Einrichtung der Organisation nicht ausgewählt wurden.
 
-![Übereinstimmungsschlüssel](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Die Einstellungen für Übereinstimmungsschlüssel im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
@@ -130,15 +132,27 @@ Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der 
 
 Bevor Sie mit dieser Verbindung fortfahren können, müssen Sie anerkennen, dass eine Datenfreigabevereinbarung zwischen den beiden Parteien besteht.
 
-![Rechtliche Vereinbarungen.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
+![Der Abschnitt „Rechtliche Vereinbarung“ wird im Arbeitsbereich „Verbindung“ hervorgehoben und bestätigt.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
+
+Nachdem Sie Ihre Auswahl getroffen haben, wählen Sie **[!UICONTROL Senden]** aus, um die vorgeschlagenen Einstellungen zur Überprüfung an Ihren Mitarbeiter zu senden.
+
+### Publisher-Verbindungseinstellungen {#publisher-connection-settings}
+
+Der Herausgeber muss dann die Verbindungseinstellungen überprüfen und sie entweder akzeptieren oder ablehnen. Um die Verbindungseinstellungen zu überprüfen, navigieren Sie zu **[!UICONTROL Meine Verbindungen]** und wählen Sie **[!UICONTROL Verbindungseinstellungen überprüfen]** auf der Verbindungskarte aus.
+
+![Die hervorgehobene Option „Verbindungseinstellungen überprüfen“ in der Ansicht „Meine Verbindungen“.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
+
+Überprüfen Sie die Einstellungen, die der Mitarbeiter vorgeschlagen hat. Bevor Sie die Verbindungseinstellungen akzeptieren, müssen Sie bestätigen, dass eine rechtliche Vereinbarung zwischen Ihnen und dem Mitarbeiter besteht. Darüber hinaus können Sie alle Advertiser-Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist.
+
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit den vorgeschlagenen Einstellungen aus den Abschnitten „Mitarbeiter“ und „Advertiser-Namen und -Vereinbarungen“ sind hervorgehoben.](/help/assets/connect/establish-connection/publisher-connection-settings.png){zoomable="yes"}
 
 +++Advertiser-Namen
 
 Als Herausgeber, der mit den Verbindungseinstellungen arbeitet, können Sie alle Advertiser-Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist. Als Publisher können Sie einer Verbindung mehrere Advertiser-Namen hinzufügen, z. B. wenn der Advertiser, mit dem Sie arbeiten, in mehreren Regionen präsent ist. Wenn Sie später im Prozess [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md#create-project) an dem Sie zusammenarbeiten möchten, können Sie oder Ihr Mitarbeiter den Advertiser-Namen auswählen, der mit dem Projekt verknüpft werden soll.
 
-![Hinzufügen von Advertiser-Namen modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+![Das Dialogfeld „Advertiser-Namen“ im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
 
 So funktioniert die Auswahl des Advertiser-Namens beim Erstellen eines Projekts:
 
@@ -146,24 +160,29 @@ So funktioniert die Auswahl des Advertiser-Namens beim Erstellen eines Projekts:
 2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Real-Time CDP Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
 3. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
 
-![Advertiser-Namen.](/help/assets/connect/establish-connection/advertiser-names.png)
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit ausgefülltem Abschnitt „Advertiser-Namen“.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
-Nachdem Sie Ihre Auswahl getroffen haben, klicken Sie auf **[!UICONTROL Senden]**, um die vorgeschlagenen Einstellungen zur Überprüfung an Ihren Mitarbeiter zu senden.
+>[!NOTE]
+>
+> Nachdem Sie die Verbindungseinstellungen akzeptiert haben, können Sie keine Advertiser-Namen mehr hinzufügen oder bearbeiten.
 
-Wenn Sie vorgeschlagene Verbindungseinstellungen von Ihrem Mitarbeiter erhalten, können Sie diese Einstellungen entweder **[!UICONTROL Akzeptieren]** oder **[!UICONTROL Ablehnen]**. Bevor Sie die Verbindungseinstellungen akzeptieren, müssen Sie bestätigen und bestätigen, dass eine rechtliche Vereinbarung zwischen Ihnen und dem Mitarbeiter besteht. Wenn Sie Verbindungseinstellungen ablehnen, wenden Sie sich an einen Mitarbeiter außerhalb des Produkts und besprechen Sie, wie die Verbindungseinstellungen überarbeitet werden sollten, damit Sie sie akzeptieren können.
+Wenn Sie mit den vorgeschlagenen Verbindungseinstellungen zufrieden sind, wählen Sie **[!UICONTROL Akzeptieren]** aus, um die Verbindung herzustellen. Wenn Sie Änderungen an den Verbindungseinstellungen anfordern möchten, wählen Sie **[!UICONTROL Ablehnen]**. Der Mitarbeiter kann dann die Verbindungseinstellungen überarbeiten und zur Überprüfung erneut senden.
 
 ## Verbindungen löschen {#delete-connections}
 
-Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. So löschen Sie bestehende Verbindungen:
+Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um vorhandene Verbindungen zu löschen, navigieren Sie zu **[!UICONTROL Verbinden]**. Werbetreibende sollten dann zu &quot;**[!UICONTROL Verbindungen“]**. Wählen **[!UICONTROL auf]** Verbindungskarte die Option „Verbindung anzeigen“ aus, um die zu löschende Verbindung zu öffnen.
 
-1. Navigieren Sie zu **[!UICONTROL Verbinden]** > **[!UICONTROL Meine Verbindungen]**.
-2. Wählen **[!UICONTROL auf der]** „Verbindung anzeigen“ aus, um auf die zu löschende Verbindung zuzugreifen.
-3. Wählen Sie das Löschsymbol ![Löschsymbol](/help/assets/common/delete.svg), um das Bestätigungsdialogfeld für das Löschen der Verbindung aufzurufen.
-   ![Symbol „Verbindung löschen“ hervorgehoben.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. Bestätigen Sie den Löschvorgang, indem Sie **[!UICONTROL Löschen]** auswählen.
-   ![Dialogfeld zum Bestätigen des Löschens einer Verbindung. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
+![Die Option „Verbindung anzeigen“, die in der Ansicht „Meine Verbindungen“ hervorgehoben ist.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
+
+Wählen Sie das Löschsymbol ![Löschsymbol](/help/assets/common/delete.svg) im Arbeitsbereich „Verbindung“ aus, um die Verbindung zu löschen.
+
+![Das hervorgehobene Löschsymbol im Arbeitsbereich „Verbindung“.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
+
+Es wird ein Bestätigungsdialogfeld angezeigt, in dem Sie aufgefordert werden, das Löschen der Verbindung zu bestätigen. Wählen Sie **[!UICONTROL Löschen]** aus, um den Löschvorgang zu bestätigen.
+
+![Das Bestätigungsdialogfeld zum Löschen einer Verbindung.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >
