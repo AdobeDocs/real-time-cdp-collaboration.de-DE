@@ -55,7 +55,7 @@ Sobald diese Voraussetzungen erfüllt sind, können Sie die Überschneidung zwis
 >title="Ihre Identitätsanzahl"
 >abstract="Die Anzahl der eindeutigen IDs innerhalb Ihrer ausgewählten Zielgruppe, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben."
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Identitätsanzahl von Mitwirkenden"
 >abstract="Die Anzahl der eindeutigen IDs innerhalb der Zielgruppe Ihres Mitarbeiters, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben."
