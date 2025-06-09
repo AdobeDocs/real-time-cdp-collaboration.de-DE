@@ -2,11 +2,11 @@
 title: End-to-End-Workflow
 description: Verstehen des End-to-End-Workflows bei der Verwendung von Real-Time CDP Collaboration als Advertiser oder Publisher
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration ermöglicht es Werbet
 
 Beginnen Sie als Werbetreibender damit, [ Sie Ihr Unternehmen ](/help/guide/setup/onboard-organization.md) Real-Time CDP Collaboration einbinden. Verwenden Sie die [Einrichtungsseite](/help/guide/setup/setup-overview.md) zum Senden und Bearbeiten Ihrer Unternehmenseinstellungen, fügen Sie Ihre bevorzugten Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten werden, und entscheiden Sie, welche Daten einbezogen werden sollen. In der ersten Version ermöglicht Ihnen das Produkt nur [Import von Zielgruppen](/help/guide/setup/onboard-audiences.md) aus Adobe Experience Platform.
 
-![Entdecken, teilen, messen für Werbetreibende.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![Entdecken, aktivieren, messen für Werbetreibende.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 Verwenden Sie die [Entdecken“, um Herausgeber zu finden](/help/guide/connect/discover-publishers.md) mit denen Sie für Kampagnen arbeiten möchten. Kontaktieren Sie den Herausgeber und besprechen Sie die Bedingungen für die Zusammenarbeit außerhalb des Produkts. Sobald Sie sich auf einen Satz von Bedingungen geeinigt haben, können Sie [eine Verbindungseinladung senden](/help/guide/connect/establishing-connections.md) und Kooperationseinstellungen vorschlagen, um eine Verbindung mit dem Herausgeber herzustellen.
 
 Nachdem der Herausgeber Ihre Verbindungsanfrage akzeptiert hat, ist es an der Zeit, die sich überschneidenden Zielgruppen zwischen Ihrer Organisation und ihren zu untersuchen. Richten Sie ein Projekt für eine Kampagne ein [ führen Sie Überschneidungsberichte ](/help/guide/collaborate/discover.md), um je nach Anwendungsfall der Zusammenarbeit die besten Zielgruppen für Ihre nächste Werbekampagne zu ermitteln - Zielgruppenbestimmung, Unterdrückung und andere.
 
-Sobald Sie die idealen Zielgruppen entdeckt haben, ist es an der Zeit, sie [für den Publisher freizugeben](/help/guide/collaborate/share.md) damit er die Zielgruppen aktiviert und damit die Kampagne startet.
+Sobald Sie die idealen Zielgruppen entdeckt haben, ist es an der Zeit, sie zu [aktivieren](/help/guide/collaborate/activate.md).
 
 Der letzte Schritt in der Kollaborationsschleife ist [Messung](/help/guide/collaborate/measure.md). Um Ihre Geschäftsergebnisse zu messen oder zu kennen, laden Sie Messdaten wie Anzeigenprotokolle hoch und führen Sie dann die im Programm bereitgestellten Berichte aus, um zu verstehen, wie Ihre Zielgruppen funktioniert haben.
 
 ## End-to-End-Workflow von Publisher {#publisher}
 
-Als Publisher starten Sie mit dem Onboarding [ Unternehmens ](/help/guide/setup/onboard-organization.md) Real-Time CDP Collaboration. Auf der [Setup-Seite](/help/guide/setup/setup-overview.md) können verschiedene Unternehmenseinstellungen bearbeitet werden. Stellen Sie beispielsweise sicher, dass Sie die Identitäten einschließen, mit denen Ihr Unternehmen arbeitet.
+Als Publisher starten Sie mit dem Onboarding [ Unternehmens ](/help/guide/setup/onboard-organization.md) Real-Time CDP Collaboration. Auf der [Setup-Seite](/help/guide/setup/setup-overview.md) können verschiedene Unternehmenseinstellungen bearbeitet werden.
 
 Entscheiden Sie, welche Zielgruppendaten importiert werden sollen und welche Zielgruppen für die Werbetreibenden, die eine Verbindung zu Ihnen herstellen möchten, im Bereich **[!UICONTROL Verbinden]** des Produkts erkennbar und sichtbar gemacht werden sollen.
 
@@ -43,7 +43,7 @@ Entscheiden Sie, mit welchen Werbetreibenden Sie arbeiten möchten, und wenden S
 
 Nachdem Sie die Verbindungsanfrage akzeptiert haben, ist es an der Zeit, die sich überschneidenden Zielgruppen zwischen Ihnen und Ihrem Mitarbeiter zu untersuchen. Der Werbetreibende richtet ein Projekt für eine Kampagne ein und erstellt Überschneidungsberichte zwischen seinen Zielgruppen und denen Ihres Unternehmens, die auf den gewünschten Zielen basieren: Kundenakquise, Unterdrückung und mehr.
 
-Sobald der Werbetreibende die idealen Zielgruppen für eine Kampagne entdeckt und diese mit Ihnen teilt, können Sie sie aktivieren und damit die Kampagne starten.
+Sobald der Advertiser die idealen Zielgruppen für eine Kampagne gefunden hat und diese an Sie sendet, können Sie sie aktivieren und die Kampagne starten.
 
 Der letzte Schritt in der Kollaborationsschleife ist das Messen. Um zu erfahren, wie Ihre Kampagnen abgeschnitten haben, laden Sie als letzten Schritt Messdaten wie Anzeigenprotokolle hoch und führen Sie dann die im Programm bereitgestellten Berichte aus, um zu verstehen, wie die Zielgruppen abgeschnitten haben.
 

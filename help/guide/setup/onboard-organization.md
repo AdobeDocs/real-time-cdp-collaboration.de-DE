@@ -2,41 +2,30 @@
 title: Onboarding und Verwalten von Organisationen
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Unternehmens in Real-Time CDP Collaboration integrieren und verwalten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 19%
+source-wordcount: '861'
+ht-degree: 16%
 
 ---
 
-# Onboarding und Verwalten von Organisationen
+# Onboarding und Verwalten Ihres Unternehmens
 
 {{limited-availability-release-note}}
 
 Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren und verschiedene Aspekte Ihres Unternehmens verwalten können. Auf dieser Seite werden die Schritte zum Onboarding eines Unternehmens in Adobe Real-Time CDP Collaboration beschrieben, einschließlich der Festlegung der Übereinstimmungsschlüssel, bevorzugten Identitäten und mehr Optionen.
 
-![Setup-Seite](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![Der Einrichtungsarbeitsbereich des Unternehmens, in dem die aktuellen Einstellungen angezeigt werden.](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Erstmaliges Einrichten der Organisation
 
-Zunächst müssen Sie die Details Ihrer Organisation und Organisation einrichten. Navigieren Sie **[!UICONTROL Setup]** in der linken Leiste, klicken Sie auf das Symbol **+** in der oberen rechten Ecke und wählen Sie **[!UICONTROL Konto]**.
+Zunächst müssen Sie die Details Ihrer Organisation und Organisation einrichten. Wenn dies Ihre erste Organisation ist, werden Sie sofort durch den Onboarding-Prozess geleitet, beginnend mit der Einrichtung Ihrer [Kontodetails](#set-up-details).
 
->[!TIP]
->
->Nachdem Sie ein anfängliches Konto eingerichtet haben, mit dem Sie arbeiten können, können Sie denselben Workflow verwenden, um zusätzliche Konten innerhalb derselben Organisation einzurichten.
+Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!UICONTROL Setup]** und wählen Sie das Symbol Hinzufügen (Symbol ![Hinzufügen) aus.](/help/assets/icons/plus.png)) in der oberen rechten Ecke. Wählen Sie anschließend **[!UICONTROL Konto]** aus.
 
-![Konto auswählen, um Real-Time CDP Collaboration eine neue Organisation hinzuzufügen](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
-
-Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seiten:
-
-* [Einrichten von Details](#set-up-details)
-* [Einrichten von Übereinstimmungsschlüsseln](#set-up-match-keys)
-
->[!IMPORTANT]
->
->Alle *Übereinstimmungsschlüssel* die Sie auf Organisationsebene auswählen, sickern dann in der [&#128279;](/help/guide/collaborate/manage-projects.md) zwischen Werbetreibenden und Publishern bis zur Projektebene) durch. Auf Projektebene können Sie dann alle Übereinstimmungsschlüssel entfernen, aber Sie können *nicht* zusätzliche Schlüssel hinzufügen, die auf Organisationsebene in diesem Bildschirm nicht ausgewählt wurden.
+![Der Arbeitsbereich „Setup“ mit hervorgehobener Option „Konto“.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 ### Einrichten von Details {#set-up-details}
 
@@ -45,18 +34,24 @@ Der Workflow zum Einrichten Ihrer Organisation umfasst die beiden folgenden Seit
 >title="Kontakt-E-Mail"
 >abstract="Geben Sie eine Team- oder rollenbasierte E-Mail-Adresse an, z. B. `collaboration@yourcompany.com`. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
 
-![Die Schritte Details und Anwendungsfälle zum Einrichten einer Organisation](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+Um mit dem Onboarding Ihrer Organisation zu beginnen, müssen Sie zunächst die Organisationsdetails einrichten. Dazu müssen Sie die folgenden Informationen hinzufügen:
 
-1. Fügen Sie einen **[!UICONTROL Organisationsnamen]** für Ihr Unternehmen hinzu.
-2. Fügen Sie eine **[!UICONTROL Beschreibung]** über Ihr Unternehmen hinzu.
-3. Wählen Sie Ihre **[!UICONTROL Unternehmensrolle]** aus. Sie können zwischen **[!UICONTROL Advertiser]** und **[!UICONTROL Publisher]** wählen. Lesen Sie das [End-to-End](/help/guide/end-to-end-workflow.md)Workflow-Dokument, um Ähnlichkeiten und leichte Unterschiede im Workflow zwischen den beiden Rollentypen der Organisation zu sehen.
-4. Wählen Sie die **[!UICONTROL Branche]** für Ihr Unternehmen aus. Einige Beispiele sind **[!UICONTROL Einzelhandel]**, **[!UICONTROL Telekommunikation]** oder **[!UICONTROL Finanzdienstleistungen]**.
-5. Wählen Sie die **[!UICONTROL Region]** für Ihre Organisation aus. In der aktuellen Version des Produkts ist **[!UICONTROL Nordamerika]** die voreingestellte Standardauswahl.
-6. Fügen Sie eine **[!UICONTROL Kontakt-E-Mail]** für Ihre Organisation hinzu. Dies sollte eine Team- oder rollenbasierte E-Mail-Adresse sein. Persönliche E-Mail-Adressen sollten nicht angegeben werden.
-7. Laden Sie ein **[!UICONTROL Logo]** für Ihr Unternehmen hoch. Derzeit werden Bilder vom Typ SVG unterstützt.
-8. Wählen Sie ein Bild für die Kopfzeile Ihres Unternehmens aus.
+* Fügen Sie einen **[!UICONTROL Organisationsnamen]** für Ihr Unternehmen hinzu.
+* Fügen Sie eine **[!UICONTROL Beschreibung]** über Ihr Unternehmen hinzu.
+* Wählen Sie Ihre **[!UICONTROL Unternehmensrolle]** aus. Sie können zwischen **[!UICONTROL Advertiser]** und **[!UICONTROL Publisher]** wählen. Lesen Sie das [End-to-End](/help/guide/end-to-end-workflow.md)Workflow-Dokument, um Ähnlichkeiten und leichte Unterschiede im Workflow zwischen den beiden Rollentypen der Organisation zu sehen.
+* Wählen Sie die **[!UICONTROL Branche]** für Ihr Unternehmen aus. Einige Beispiele sind **[!UICONTROL Einzelhandel]**, **[!UICONTROL Telekommunikation]** oder **[!UICONTROL Finanzdienstleistungen]**.
+* Wählen Sie die **[!UICONTROL Region]** für Ihre Organisation aus. In der aktuellen Version des Produkts ist **[!UICONTROL Nordamerika]** die voreingestellte Standardauswahl.
+* Fügen Sie eine **[!UICONTROL Kontakt-E-Mail]** für Ihre Organisation hinzu. Dies sollte eine Team- oder rollenbasierte E-Mail-Adresse sein. Persönliche E-Mail-Adressen sollten nicht angegeben werden.
+* Laden Sie ein **[!UICONTROL Logo]** für Ihr Unternehmen hoch. Derzeit werden Bilder vom Typ SVG unterstützt.
+* Wählen Sie ein Bild für die Kopfzeile Ihres Unternehmens aus.
 
-Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**, um mit der nächsten Seite fortzufahren, und wählen Sie die gewünschten Übereinstimmungsschlüssel aus, die Ihre Organisation verwenden soll.
+>[!NOTE]
+>
+>Die meisten dieser Details können zwar jederzeit bearbeitet werden, aber **[!UICONTROL Rolle]** und **[!UICONTROL Region]** können nach der Ersteinrichtung nicht mehr bearbeitet werden.
+
+![Der Arbeitsbereich Organisation einrichten , wobei der Abschnitt Details angezeigt wird.](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+
+Wenn Sie fertig sind, verwenden Sie **[!UICONTROL Weiter]**, um mit der nächsten Seite fortzufahren und die gewünschten Übereinstimmungsschlüssel auszuwählen, die Ihr Unternehmen verwenden wird.
 
 ### Einrichten von Übereinstimmungsschlüsseln {#set-up-match-keys}
 
@@ -80,10 +75,9 @@ Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**
 >title="Unterstützte Partner-IDs"
 >abstract="Mit Profilen verknüpfte Partner-IDs erweitern die Reichweite auf ein bestimmtes Profil."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Aktivierungs-Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel der Aktivierung werden basierend auf den ausgewählten Übereinstimmungsschlüsseln Ihrer Organisation angezeigt."
+>[!IMPORTANT]
+>
+>Die Übereinstimmungsschlüssel, die Sie bei der Einrichtung der Organisation auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel für die Verbindungen, die Sie mit anderen Organisationen erstellen. Während Sie Übereinstimmungsschlüssel während der Verbindungseinrichtung entfernen können, können Sie später keine neuen Übereinstimmungsschlüssel hinzufügen. Es ist wichtig, alle Übereinstimmungsschlüssel auszuwählen, die Sie in zukünftigen Kampagnen während der Einrichtung der Organisation verwenden möchten.
 
 Übereinstimmungsschlüssel wie E-Mail-Adressen, Geräte-IDs oder Kunden-IDs helfen Advertisern und Publishern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppen-Zielgruppenbestimmung und -messung ermöglicht.
 
@@ -91,7 +85,7 @@ Wenn Sie mit Ihrer Auswahl zufrieden sind, verwenden Sie **[!UICONTROL Weiter]**
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abgleichen von Mitgliedern der Publisher- und Advertiser-Zielgruppen verwenden möchten. Schließen Sie alle Übereinstimmungsschlüssel ein, mit denen Ihre Firma arbeiten kann. Planen Sie für die Zukunft und wählen Sie die Übereinstimmungsschlüssel aus, die Sie in zukünftigen Publisher-Advertiser-Kampagnen voraussichtlich verwenden werden. Wenn Sie zusätzliche Übereinstimmungsschlüssel für Ihre Organisation auswählen müssen, können Sie dies auch zu einem späteren Zeitpunkt im Workflow [Organisation bearbeiten](#edit-organization) tun.
 
-![Auswahlschritt für Übereinstimmungsschlüssel.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![Der Arbeitsbereich Organisation einrichten , wobei der Abschnitt Übereinstimmungsschlüssel angezeigt wird.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Wählen Sie bis zu fünf Übereinstimmungsschlüssel aus, die Sie verwenden möchten. Bei der späteren Einrichtung von Verbindungen können Sie unerwünschte Übereinstimmungsschlüssel entfernen, jedoch keine neuen hinzufügen.
 
@@ -105,30 +99,21 @@ Die verfügbaren Übereinstimmungsschlüssel für die erste Version von Real-Tim
 
 * Gehashte E-Mail
 
-<!--
-
-not available in the Limited GA release
-
-* Hashed phone
-* IPv4
-
--->
-
 Wenn Sie bereit sind **[!UICONTROL wählen Sie &quot;]**&quot; aus, um den Einrichtungs-Workflow für die Organisation abzuschließen.
 
 ## Organisation bearbeiten {#edit-organization}
 
-Nach der erstmaligen Einrichtung Ihrer Organisation können Sie jederzeit bestimmte Aspekte und Details der Organisation bearbeiten. Um Ihre Organisation zu bearbeiten, wählen Sie **[!UICONTROL Bearbeiten]** in der Ansicht **[!UICONTROL Meine Organisation]** aus.
+Nach der erstmaligen Einrichtung Ihrer Organisation können Sie jederzeit bestimmte Aspekte und Details der Organisation bearbeiten. Um Ihre Organisation zu bearbeiten, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Meine Organisation]** des Arbeitsbereichs **[!UICONTROL Setup] aus**.
 
-![Organisationssteuerung bearbeiten hervorgehoben.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![Der Arbeitsbereich „Setup“ mit hervorgehobener Registerkarte „Meine Organisation“ und hervorgehobener Option „Bearbeiten“.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
-An dieser Stelle können Sie den Organisationsnamen, die Beschreibung, das Logo und das Profilbild der Organisation aktualisieren.
+Sie können jetzt die Details Ihrer Organisation bearbeiten, mit Ausnahme von **[!UICONTROL Rolle]** und **[!UICONTROL Region]**.
 
-![Bearbeitbare Optionen für Organisationen.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![Der Dialog Organisationsdetails bearbeiten.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
-Sie können auch die Übereinstimmungsschlüssel aktualisieren, die Sie ursprünglich beim Onboarding in Ihrer Organisation ausgewählt haben, sowie den Mindestschwellenwert für Identitäten, die Übereinstimmungsschlüsseln entsprechen, damit sie in Zielgruppenüberschneidungen und anderen Produktbereichen sichtbar und verwendbar sind. Wählen Sie **[!UICONTROL Bearbeiten]** auf der Registerkarte **[!UICONTROL Übereinstimmungsschlüssel]** aus, um weitere gewünschte Übereinstimmungsschlüssel hinzuzufügen oder die Identitätsschwellenwerte zu aktualisieren.
+Sie können auch die Übereinstimmungsschlüssel aktualisieren, die Sie ursprünglich beim Onboarding in Ihrer Organisation ausgewählt haben. Wählen Sie **[!UICONTROL Abschnitt]**&#x200B;Übereinstimmungsschlüssel **[!UICONTROL aus,]** weitere gewünschte Übereinstimmungsschlüssel hinzuzufügen.
 
-![Übereinstimmungsschlüssel bearbeiten](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![Der Arbeitsbereich „Setup“ mit hervorgehobener Option „Bearbeiten“ im Abschnitt „Übereinstimmungsschlüssel“ des Unternehmens.](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Nächste Schritte
 

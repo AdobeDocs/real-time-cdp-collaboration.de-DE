@@ -2,9 +2,9 @@
 title: Verfolgen der Kreditverbrauchsaktivität
 description: Erfahren Sie, wie Sie die Kreditkonsumaktivität Ihres Unternehmens in Real-Time CDP Collaboration verfolgen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Das Aktivitäts-Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden
 | **[!UICONTROL Datum]** | Das Datum, an dem die Aktivität stattfand, angezeigt im Format MM/TT/JJJJ. |
 | **[!UICONTROL Verbindungs-ID]** | Eine eindeutige Kennung für jede Verbindung, die mit einer kreditverbrauchenden Aktivität verbunden ist, dargestellt als alphanumerische Zeichenfolge. |
 | **[!UICONTROL Verbindungsname]** | Der Name des Mitarbeiters, der mit der Verbindung und der kreditverbrauchenden Aktivität verknüpft ist. |
-| **[!UICONTROL Aktivität]** | Der Typ der durchgeführten Aktivität, z **B. Aktivierung - Freigabe**, **Aktivierung -** oder **Zielgruppenverwaltung**. |
+| **[!UICONTROL Aktivität]** | Der Typ der durchgeführten Aktivität, z. B **„Aktivierung - Abgleich**, **Aktivierung -**&quot; oder **Zielgruppenverwaltung**. |
 | **[!UICONTROL Eingaben verarbeitet]** | Die Gesamtzahl der für die Aktivität verarbeiteten Eingaben (z. B. IDs oder Zeilen). |
 | **[!UICONTROL Insgesamt verwendete Guthaben]** | Die Gesamtzahl der von der Aktivität verwendeten Credits. |
 | **[!UICONTROL Meine Kreditaktie]** | Der Anteil Ihres Unternehmens an den für die Aktivität verwendeten Guthaben. |
@@ -66,7 +66,7 @@ Die Spalte **[!UICONTROL Aktivität]** zeigt verschiedene Arten von kreditverbra
 
 So verwalten Sie Ihren Kreditverbrauch effektiv:
 
-1. **Verstehen** Der mit jeder Aktivität verknüpfte Kreditverbrauch. In der [Real-Time CDP Collaboration-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} finden Sie eine Tabelle mit den für die Zusammenarbeit verwendeten Credits pro Aktivität.
+1. **Verstehen** Der mit jeder Aktivität verknüpfte Kreditverbrauch. In der [Real-Time CDP Collaboration-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} finden Sie eine Tabelle mit den für die Zusammenarbeit verwendeten Credits pro Aktivität.
 2. **Regelmäßig überwachen**: Überprüfen Sie Ihr Aktivitäts-Dashboard häufig, um Nutzungsmuster zu verstehen.
 3. **Nach Verbindung verfolgen**: Verwenden Sie den Verbindungsnamen, um zu ermitteln, welche Partnerschaften die meisten Credits verbrauchen.
 

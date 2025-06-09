@@ -2,13 +2,13 @@
 title: Identitäts-Crosswalks
 description: Erfahren Sie alles über Identitätsübergänge in Real-Time CDP Collaboration, einschließlich der Einbindung von Identitätsübergängen aus verschiedenen Quellen und der Verwaltung von Identitätsübergängen
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 22%
 
 ---
@@ -34,7 +34,7 @@ Als ersten Schritt müssen Sie Identity Crosswalks in Real-Time CDP Collaboratio
 
 ## Importieren von Identity Crosswalks in Real-Time CDP Collaboration {#import-crosswalk}
 
-Navigieren Sie zur Registerkarte **[!UICONTROL Setup]** > **[!UICONTROL Identity-]**), wählen Sie das Pluszeichen **+** aus und klicken Sie auf **[!UICONTROL Identity-Crosswalk]**
+Navigieren Sie zur Registerkarte **[!UICONTROL Setup]** > **[!UICONTROL Identity Crosswalks]** und wählen Sie das Symbol hinzufügen (Symbol ![Hinzufügen) aus.](/help/assets/icons/plus.png)), und wählen Sie **[!UICONTROL Identity Crosswalk]**
 
 ![Aufzeichnung, wie Sie zum Bildschirm gelangen, um Identitäts-Crosswalks hinzuzufügen](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 

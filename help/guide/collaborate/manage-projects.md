@@ -2,11 +2,11 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '401'
 ht-degree: 9%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-Projekte sind das Herzstück Ihres Workflows in Real-Time CDP Collaboration. Nachdem Sie die Mitarbeiter entdeckt und sich mit ihnen verbunden haben, mit denen Sie arbeiten möchten, ist es an der Zeit, ein Projekt zu erstellen. Verwenden Sie den Projektbereich, um Überschneidungsberechnungen durchzuführen, um Ihre Zielgruppen mit den Zielgruppen Ihres Mitarbeiters zu vergleichen und relevante Zielgruppen zu finden, die Sie in Kampagnen verwenden können. Zielgruppen werden dann von Publishern aktiviert und von Mitarbeitern gemeinsam genutzt. Beide Parteien können dann Messberichte zur Zielgruppenleistung anzeigen.
+Projekte sind das Herzstück Ihres Workflows in Real-Time CDP Collaboration. Erstellen Sie nach der Verbindung mit Mitarbeitern ein Projekt, um Berechnungen der Zielgruppenüberschneidung durchzuführen und relevante Zielgruppen für Kampagnen zu ermitteln.
 
 >[!TIP]
 >
 >Projekte sollten im Allgemeinen mit einer einzelnen Kampagne verknüpft werden.
 
-![Ansicht aller Projekte, ungefiltert.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![Das Dashboard „Zusammenarbeit“ zeigt alle aktuellen Projekte an.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestimmten Partnern begonnen haben, wie unten dargestellt:
 
@@ -34,29 +34,32 @@ Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestim
 >title="Advertiser-Name"
 >abstract="Wählen Sie den Advertiser-Namen aus dem Dropdown-Menü aus. Die Optionen werden vom Publisher in den Verbindungseinstellungen vorkonfiguriert, um die Kompatibilität mit den Systemen sicherzustellen."
 
-Um ein Projekt zu erstellen, klicken Sie auf das Pluszeichen **+** in der oberen rechten Ecke. Wenn dies Ihr erstes Projekt ist, navigieren Sie zu **[!UICONTROL Zusammenarbeiten]** > **[!UICONTROL Meine Projekte]** und wählen Sie **[!UICONTROL Projekt erstellen]**.
+Navigieren Sie zu **[!UICONTROL Zusammenarbeiten]** und dann **[!UICONTROL Meine Projekte]**. Wenn dies Ihr erstes Projekt ist, können Sie **[!UICONTROL Projekt erstellen]** auswählen. Andernfalls können Sie das Symbol Hinzufügen (![Symbol Hinzufügen) auswählen.](/help/assets/icons/plus.png)), um jederzeit ein neues Projekt zu erstellen.
 
 ![Wählen Sie ein Pluszeichen oder Erstellen Sie ein Projekt, um ein neues Projekt einzurichten.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Wählen Sie anschließend die folgenden Einstellungen aus:
+Das **[!UICONTROL Projekt erstellen]** wird angezeigt. Wählen Sie **[!UICONTROL Dropdown]** Menü aus, mit dem Sie das Projekt erstellen möchten. Wenn Sie Publisher sind und bei der Einrichtung Ihrer Verbindung Advertiser-Namen festlegen, können Sie den **[!UICONTROL Advertiser-Name]** auswählen.
 
-* Der Mitarbeiter, mit dem Sie das Projekt erstellen
-* Wählen Sie einen Advertiser-Namen aus, wenn der Publisher mehrere Advertiser-Namen in den Verbindungseinstellungen konfiguriert hat. Andernfalls wird der Name des Advertisers als Advertiser-Name vorausgewählt. Oder wenn der Publisher in den Verbindungseinstellungen einen einzelnen Advertiser-Namen konfiguriert hat, ist dieser Name in dieser Auswahl vorbelegt. [Weitere Informationen](/help/guide/connect/establishing-connections.md#connection-settings) über Werbenamen.
-* Geben Sie einen **[!UICONTROL Projektnamen]** und eine **[!UICONTROL Beschreibung]** für Ihr Projekt an
-* Wählen Sie eine Bildkopfzeile aus, um das Projekt leicht unterscheiden zu können, und bestätigen Sie Ihre Auswahl.
+>[!NOTE]
+>
+> Wenn Sie in den Verbindungseinstellungen einen einzelnen Advertiser-Namen konfiguriert haben, wird er standardmäßig angezeigt. Wenn kein Werbekunden-Name eingerichtet wurde, wird der **[!UICONTROL Name]** des Werbekunden als **[!UICONTROL Werbekunden-Name]** vorausgewählt.
+
+![Dialogfeld „Projekt erstellen“ mit ausgewähltem Mitarbeiter und hervorgehobenem Advertiser-Namen.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
+
+Fügen Sie anschließend einen **[!UICONTROL Projektnamen]** und **[!UICONTROL Beschreibung]** für Ihr Projekt hinzu. Wählen Sie dann ein Bild für das Projekt aus. Dieses Bild hilft, das Projekt auf der Seite „Projektübersicht“ zu unterscheiden. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Erstellen]** aus, um das Projekt zu erstellen.
 
 ![Erforderliche Optionen zum Einrichten eines neuen Projekts](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
-Jetzt können Sie Ihr neues Projekt und dessen Details anzeigen.
+Jetzt können Sie Ihr neues Projekt, seine Details und verfügbaren Abschnitte basierend auf den Anwendungsfällen anzeigen, die bei der Einrichtung der Verbindung ausgewählt wurden.
+
+![Der Arbeitsbereich „Projektübersicht“.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
 ## Anwendungsfälle für Projekte {#project-use-cases}
 
-Aufschlüsselung einzelner Projekte zur Ausführung von Überschneidungsberichten, Ermittlung und Freigabe von Zielgruppen für Ihren Mitarbeiter und Anzeige von Messdaten. Um ausführliche Informationen zu diesen Bereichen anzuzeigen, die ein einzelnes Projekt bilden, wählen Sie **[!UICONTROL Anzeigen]**. Die Projektoberfläche besteht aus bis zu vier Abschnitten, die jeweils eine Vielzahl von Optionen und Steuerelementen bieten. Die verfügbaren Projektabschnitte hängen wie folgt von den im Verbindungsprozess ausgewählten Anwendungsfällen ab:
+In der Projektübersicht werden die bei der Verbindungseinrichtung ausgewählten Anwendungsfälle angezeigt. Diese Anwendungsfälle definieren die im Projekt verfügbaren Funktionen. Die Anwendungsfälle sind:
 
 | Anwendungsfall | Projektabteilung |
 | --- | --- |
 | Kampagnenmessung | In diesem Anwendungsbeispiel wird Zugriff auf den Abschnitt [Kennzahlen](/help/guide/collaborate/measure.md) und alle verfügbaren Funktionen gewährt. |
 | Zielgruppenerkennung | In diesem Anwendungsbeispiel wird Zugriff auf den Abschnitt [Entdecken](/help/guide/collaborate/discover.md) und alle verfügbaren Funktionen gewährt. |
-| Freigabe und Aktivierung von Zielgruppen | Dieses Anwendungsbeispiel gewährt Zugriff auf die Abschnitte [Freigeben](/help/guide/collaborate/share.md) und [Aktivieren](/help/guide/collaborate/activate.md) (nur Publisher) und alle verfügbaren Funktionen. |
-
-![Die Projektansicht mit hervorgehobenen verfügbaren Abschnitten.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
+| Zielgruppenaktivierung | In diesem Anwendungsbeispiel wird Zugriff auf den Abschnitt [Aktivieren](/help/guide/collaborate/activate.md) und alle verfügbaren Funktionen gewährt. |
