@@ -2,10 +2,10 @@
 title: Konfigurieren von Adobe Experience Platform als Ziel
 description: Erfahren Sie, wie Sie Adobe Experience Platform as a -Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: f777b8249e31282f234d9d9798379c35ea8431ea
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -88,3 +88,9 @@ Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie m
 Experience Platform Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in ](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
 
 ### Zielgruppen-Portal {#audience-portal}
+
+Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie die aktivierten Zielgruppen im Zielgruppenportal anzeigen. Audience Portal ist ein zentraler Knotenpunkt in Adobe Experience Platform, über den Sie Ihre Zielgruppen anzeigen und verwalten können. Zielgruppenportal bietet jetzt Real-Time CDP Collaboration als Herkunft beim Filtern Ihrer Zielgruppen.
+
+![Das Zielgruppenportal mit Real-Time CDP Collaboration als Ursprung in den Filteroptionen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
+
+Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
