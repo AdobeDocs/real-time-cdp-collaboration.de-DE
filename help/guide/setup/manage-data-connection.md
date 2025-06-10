@@ -2,12 +2,12 @@
 title: Datenverbindungen verwalten
 description: Erfahren Sie, wie Sie in Real-Time CDP Collaboration Datenverbindungen verwalten, einschließlich Übereinstimmungsschlüsseln, Planung, Anwendungsfällen und Zielgruppenfilterung
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 18%
+source-wordcount: '598'
+ht-degree: 11%
 
 ---
 
@@ -34,6 +34,10 @@ Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setu
 
 Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Die Übereinstimmungsschlüssel, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, können nicht bearbeitet werden.
 
+>[!IMPORTANT]
+> 
+>Übereinstimmungsschlüssel können nach der Erstellung der Datenverbindung nicht mehr bearbeitet werden. Um Übereinstimmungsschlüssel zu aktualisieren, müssen Sie eine neue Datenverbindung erstellen.
+
 Zu den verfügbaren Übereinstimmungsschlüsseln gehören:
 
 - **Hash-E-Mail**
@@ -45,11 +49,27 @@ Zu den verfügbaren Übereinstimmungsschlüsseln gehören:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Planung"
->abstract="Diese Ansicht zeigt die Planungsoptionen an, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben."
+>abstract="Zeigen Sie die Planungsdetails für Ihre Datenverbindung an und bearbeiten Sie bei Bedarf die Aktualisierungshäufigkeit."
 
-Sie können die Planungsoptionen, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, nicht bearbeiten. Weitere Informationen zu den Planungsoptionen finden Sie [ Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Dokument zum Audience-Import-Workflow.
+Zeigen Sie die Zeitplaneinstellungen für Ihre Datenverbindungen an und verwalten Sie sie. Die Planung bestimmt, wie oft die Zielgruppe aktualisiert wird.
 
-![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+Nachdem eine Datenverbindung erstellt wurde, können Sie ihre Aktualisierungshäufigkeit direkt im Abschnitt **[!UICONTROL Planung]** des Arbeitsbereichs für die Datenverbindung aktualisieren.
+
+>[!NOTE]
+>
+>Beim Bezug von Zielgruppen aus Adobe Experience Platform werden Zielgruppen innerhalb von 24 Stunden nach Herstellung der Datenverbindung verfügbar. Nach dem ersten Import werden die Zielgruppendaten entsprechend der definierten Häufigkeit aktualisiert.
+
+Weitere Informationen zur Planung finden Sie [ Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Handbuch zum Onboarding von Zielgruppen.
+
+![Der Arbeitsbereich einer Datenverbindung mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### Zeitplan bearbeiten {#edit-scheduling}
+
+Sie können die Häufigkeit einer vorhandenen Datenverbindung bearbeiten, um besser steuern zu können, wie oft Zielgruppen aktualisiert werden. Um den Zeitplan zu bearbeiten, wählen Sie **[!UICONTROL Bearbeiten]** in der Datenverbindung auf der Planungskarte aus.
+
+Wählen Sie **[!UICONTROL Dialogfeld &quot;]**&quot; das Dropdown-Menü aus, um die **[!UICONTROL Häufigkeit]** zu aktualisieren. Stellen Sie die Aktualisierungshäufigkeit so ein, dass sie täglich oder alle zwei bis sechs Tage ausgeführt wird. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
+
+![Das Dialogfeld Planung mit Optionen zum Festlegen von Häufigkeit und Datumsbereich.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## Datenverbindung löschen
 
