@@ -2,7 +2,7 @@
 title: Zielgruppen aktivieren
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration aktivieren.
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 source-git-commit: 691161cdc1f9338a470373988fbc0dee9a5be6db
 workflow-type: tm+mt
