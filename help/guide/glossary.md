@@ -2,13 +2,13 @@
 title: Glossar
 description: Wichtige Begriffe für Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
@@ -128,4 +128,4 @@ Wenn Zeichnungen nicht regelmäßig aktualisiert werden, zeigen Berichte zur Zie
 
 ### Anwendungsfall
 
-Ein Anwendungsfall definiert ein bestimmtes Geschäftsszenario oder Problem, das mit Adobe Real-Time CDP Collaboration behoben werden kann. In Real-Time CDP Collaboration stehen Beispiele für Anwendungsfälle wie Zielgruppenerkennung oder Kampagnenmessung zur Verfügung, die dazu beitragen, ein bestimmtes Ziel zu erreichen.
+Ein Anwendungsfall definiert ein bestimmtes Geschäftsszenario oder Problem, das mit Adobe Real-Time CDP Collaboration behoben werden kann. In Real-Time CDP Collaboration stehen Beispiele für Anwendungsfälle wie Zielgruppenerkennung oder -messung zur Verfügung, die dazu beitragen, ein bestimmtes Ziel zu erreichen.

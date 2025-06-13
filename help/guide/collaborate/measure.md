@@ -2,12 +2,12 @@
 title: Leistung messen
 description: Messen Sie die Leistung Ihrer Kampagnen über verschiedene Kanäle hinweg. Erfahren Sie, wie Sie verschiedene Berichte verwenden und interpretieren.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 13%
+source-wordcount: '634'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->Der Arbeitsbereich **[!UICONTROL Messen]** ist nur verfügbar, wenn der Anwendungsfall **Kampagnenmessung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **Measurement**-Anwendungsfall [während des Verbindungsprozesses) ](../connect/establishing-connections.md#connection-settings) wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
 Erfahren Sie mehr über die verfügbaren Berichte in Real-Time CDP Collaboration und lernen Sie, wie Sie die Leistung Ihrer Marketing-Kampagnen kanalübergreifend messen und analysieren können.
 
@@ -25,7 +25,7 @@ Erfahren Sie mehr über die verfügbaren Berichte in Real-Time CDP Collaboration
 
 Bevor Sie auf die Messberichte in Real-Time CDP Collaboration zugreifen können, haben Sie bereits Folgendes getan:
 
-* [Verbunden](/help/guide/connect/establishing-connections.md) mit einem gewünschten Advertiser oder Publisher, für den der **Kampagnenmessung**-Anwendungsfall aktiviert ist, und begann mit der Zusammenarbeit an [Projekten](/help/guide/collaborate/manage-projects.md)
+* [Verbunden](/help/guide/connect/establishing-connections.md) mit einem gewünschten Advertiser oder Publisher, für den der **Measurement**-Anwendungsfall aktiviert ist und der mit der Zusammenarbeit an [Projekten](/help/guide/collaborate/manage-projects.md)
 * Führen Sie eine Kampagne aus und [hochgeladene Messdaten](/help/guide/setup/onboard-measurement-data.md) in Real-Time CDP Collaboration.
 
 <!--
@@ -38,7 +38,7 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 -->
 
-## Berichte anzeigen {#view-reports}
+## Anzeigen von Berichten {#view-reports}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
