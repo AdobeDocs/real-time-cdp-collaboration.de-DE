@@ -2,9 +2,9 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 11%
@@ -54,7 +54,7 @@ Sobald diese Voraussetzungen erfüllt sind, können Sie die Überschneidung zwis
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Ihre Identitätsanzahl"
 >abstract="Die Anzahl der eindeutigen IDs innerhalb Ihrer ausgewählten Zielgruppe, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben."
->
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Identitätsanzahl von Mitwirkenden"
