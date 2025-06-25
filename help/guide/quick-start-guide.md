@@ -134,7 +134,7 @@ Eine vollständige exemplarische Vorgehensweise zum Referenzieren von Zielgruppe
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternativ finden Sie weitere Informationen im Dokument [Verfügbarmachen von Zielgruppen in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Alternativ finden Sie weitere Informationen im Dokument [Verfügbarmachen von Zielgruppen in Real-Time CDP Collaboration](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Schritt 4: Aktivieren von Zielgruppen (für Experience Platform oder ein Cloud-Ziel) {#activate-audiences}
 
@@ -146,7 +146,7 @@ Verwenden Sie die Collaboration-Benutzeroberfläche, um Zielgruppen für Ihre Ex
 
 ### Option A: Für Experience Platform aktivieren
 
-Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) beschrieben sind.
+Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/destinations/experience-platform) beschrieben sind.
 
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
