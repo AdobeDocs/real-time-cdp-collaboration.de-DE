@@ -357,4 +357,4 @@ Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sicht
 
 ## Nächste Schritte
 
-Nach dem Import von Audiences ist es an der Zeit, Publisher zu finden, mit denen [](/help/guide/connect/establishing-connections.md) verbinden) können und mit der Zusammenarbeit an Projekten zu beginnen.
+Nach dem Import von Audiences ist es an der Zeit, Publisher zu finden, mit denen [&#128279;](/help/guide/connect/establishing-connections.md) verbinden) können und mit der Zusammenarbeit an Projekten zu beginnen.
