@@ -2,12 +2,12 @@
 title: Importieren und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration importieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '2961'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die importierten Daten die ri
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion **Data Collaboration** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **Datenwissenschaft** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen *aktiviert* ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und *nicht* in Real-Time CDP Collaboration übertragen.
 * Wenn das Kontrollkästchen *deaktiviert* ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.
@@ -103,7 +103,7 @@ Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://
 Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
 
 * [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Darüber hinaus sollten Sie Ihre Einverständnisregeln auswählen, die auf in Real-Time CDP Collaboration importierte Daten angewendet werden sollen.
 
@@ -280,7 +280,7 @@ Als Nächstes können Sie die folgenden Abschnitte im Arbeitsbereich der Zielgru
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identitäten"
->abstract="Eine Aufschlüsselungsansicht der Identitäten, aus denen diese Zielgruppe besteht, sowie die Gesamtzahl der Profile mit den entsprechenden Identitäten."
+>abstract="Eine Aufschlüsselungsansicht der Identitäten, aus denen diese Zielgruppe besteht, sowie eine Gesamtanzahl der Profile mit den entsprechenden Identitäten."
 
 Im Abschnitt **[!UICONTROL Identitäten]** wird die Anzahl der in der Zielgruppe vorhandenen Profile mit einer der Identitäten angegeben, die Sie beim Importieren der Zielgruppe ausgewählt haben. Der Abschnitt enthält auch eine Aufschlüsselung der Identität, sodass Sie feststellen können, welche Identitäten den größten Teil der Zielgruppen-Population ausmachen.
 
@@ -308,7 +308,7 @@ Das **[!UICONTROL Kategorien]** wird angezeigt, in dem Sie die Kategorien auswä
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Zugriff auf Verbindungen"
->abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff. Sie können die Zugriffsberechtigung für die Verbindung immer von der privaten in die öffentliche ändern. Sie können diese Einstellung jedoch nicht ändern, sobald eine Zielgruppe mit Partnern aktiviert wurde.</p>"
+>abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff. Sie können den Verbindungszugriff immer von privat in öffentlich ändern. Sobald jedoch eine Zielgruppe mit Mitwirkenden aktiviert wurde, können Sie diese Einstellung nicht mehr rückgängig machen.</p>"
 
 Die Verfügbarkeit einer Zielgruppe zur Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Im Abschnitt **[!UICONTROL Verbindungszugriff]** können Sie auswählen, ob die Zielgruppe privat oder in Verbindungen verwendbar und auffindbar sein soll.
 
@@ -337,7 +337,7 @@ Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unte
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Sichtbarkeit von Metadaten"
->abstract="<p>Gibt an, welche Metadaten der Zielgruppe für andere Organisationen sichtbar sind, bevor sie mit Ihrer Organisation verbunden werden. </p> <p> Die **Identitätsanzahl** steuert, ob Ihre Partnerin oder Ihr Partner Identitätsanzahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Entdeckung“ angezeigt werden. Die **Zielgruppenüberschneidung in %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können."
+>abstract="<p>Gibt an, welche der Metadaten einer Zielgruppe für andere Organisationen sichtbar sind, bevor sie eine Verbindung zu Ihrer Organisation herstellen. </p> <p> Die **Identitätsanzahl** steuert, ob Ihre Partnerin oder Ihr Partner Identitätsanzahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Entdeckung“ angezeigt werden. Die **Zielgruppenüberschneidung in %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können."
 
 >[!NOTE]
 >
@@ -357,4 +357,4 @@ Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sicht
 
 ## Nächste Schritte
 
-Nach dem Import von Audiences ist es an der Zeit, Publisher zu finden, mit denen [&#128279;](/help/guide/connect/establishing-connections.md) verbinden) können und mit der Zusammenarbeit an Projekten zu beginnen.
+Nach dem Import von Audiences ist es an der Zeit, Publisher zu finden, mit denen [](/help/guide/connect/establishing-connections.md) verbinden) können und mit der Zusammenarbeit an Projekten zu beginnen.

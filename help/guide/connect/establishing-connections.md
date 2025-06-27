@@ -2,12 +2,12 @@
 title: Verbinden mit Werbetreibenden oder Herausgebern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit-Aufspaltung"
->abstract="In diesem Abschnitt wird festgelegt, wer für die entsprechenden Aktivitäten in Real-Time CDP Collaboration bezahlt."
+>abstract="In diesem Abschnitt wird festgelegt, wer die Kosten für die entsprechenden Aktivitäten in Real-Time CDP Collaboration trägt. "
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Freigabe von Zielgruppen"
->abstract="Zielgruppen-Aktivierungsguthaben werden basierend auf der Anzahl der übereinstimmenden IDs, die für die Aktivierung vorbereitet wurden, genutzt."
+>abstract="Credits für die Zielgruppenaktivierung werden basierend auf der Anzahl der übereinstimmenden IDs verwendet, die für die Aktivierung vorbereitet wurden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Messung"
->abstract="Ausführen von Aktivitäten zum Generieren von Leistungsberichten und Einblicken für Kampagnen Die Credits werden basierend auf der Anzahl der Zeilen in Kampagnenberichten über alle Kampagnen hinweg und der Häufigkeit der Berichterstellung (täglich, alle drei Tage oder wöchentlich) genutzt."
+>abstract="Ausführen von Aktivitäten zum Generieren von Leistungsberichten und Erkenntnissen für Kampagnen. Die Credits werden basierend auf der Anzahl der Zeilen in allen Kampagnenberichten und der Reporting-Häufigkeit (täglich, alle drei Tage oder wöchentlich) verwendet."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -88,7 +88,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
 >title="Zielgruppenaktivierung"
->abstract="Mit der Zielgruppenaktivierung können Sie auswählen, welcher Mitarbeiter die Zielgruppenaktivierung initiieren kann."
+>abstract="Mit der Zielgruppenaktivierung können Sie auswählen, welche mitwirkende Person die Zielgruppenaktivierung initiieren kann."
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

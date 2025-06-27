@@ -2,12 +2,12 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -53,22 +53,22 @@ Sobald diese Voraussetzungen erfüllt sind, können Sie die Überschneidung zwis
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Ihre Identitätsanzahl"
->abstract="Die Anzahl der eindeutigen IDs innerhalb Ihrer ausgewählten Zielgruppe, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben."
+>abstract="Die Anzahl der eindeutigen IDs innerhalb Ihrer ausgewählten Zielgruppe, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihre mitwirkende Person für das Projekt vereinbart haben."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Identitätsanzahl von Mitwirkenden"
->abstract="Die Anzahl der eindeutigen IDs innerhalb der Zielgruppe Ihres Mitarbeiters, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben."
+>abstract="Die Anzahl der eindeutigen IDs innerhalb der Zielgruppe Ihrer mitwirkenden Person, basierend auf den Übereinstimmungsschlüsseln, die Sie und die Person für das Projekt vereinbart haben."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Anzahl sich überschneidender Identitäten"
->abstract="Die Anzahl der eindeutigen IDs, die sowohl in Ihren Zielgruppen als auch in denen Ihres Mitarbeiters vorhanden sind, basierend auf den Übereinstimmungsschlüsseln, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben."
+>abstract="Die Anzahl der eindeutigen IDs, die sowohl in Ihren Zielgruppen als auch in denen Ihrer mitwirkenden Person vorhanden sind, basierend auf den Übereinstimmungsschlüsseln, die Sie und die Person für das Projekt vereinbart haben."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Prozentsatz sich überschneidender Identitäten"
->abstract="Der Prozentsatz der sich überschneidenden Identitäten zwischen Ihnen und der ausgewählten Zielgruppe Ihres Mitarbeiters."
+>abstract="Der Prozentsatz der Identitäten, die sich zwischen Ihrer ausgewählten Zielgruppe und der ausgewählten Zielgruppe Ihrer mitwirkenden Person überschneiden."
 
 Im Abschnitt „Zielgruppen vergleichen“ erhalten Sie ausführliche Informationen über die Überschneidung zwischen Ihren und den Zielgruppen Ihrer Mitwirkenden. Um die Zielgruppenauswahl zu ändern, verwenden Sie die Dropdown-Auswahl oben im Abschnitt **[!UICONTROL Zielgruppen vergleichen]**. Sie können eine oder alle Zielgruppen Ihres Mitarbeiters und eine oder alle Zielgruppen Ihres Mitarbeiters auswählen, um sie miteinander zu vergleichen.
 
@@ -126,7 +126,7 @@ Im Abschnitt **[!UICONTROL Relevante Zielgruppen]** werden die folgenden Informa
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Entdecken von Überschneidungen mit einzelnen Zielgruppen"
->abstract="Gewinnen Sie Einblicke in Überschneidungen zwischen Ihren Zielgruppen und den Zielgruppen Ihrer Mitwirkenden."
+>abstract="Gewinnen Sie Erkenntnisse zu Überschneidungen zwischen Ihren Zielgruppen und den Zielgruppen Ihrer mitwirkenden Person."
 
 Entdecken Sie Überschneidungen, um Einblicke in den Vergleich Ihrer Zielgruppen mit den Zielgruppen Ihrer Mitwirkenden zu erhalten. In diesem Abschnitt werden standardmäßig alle Zielgruppen Ihrer Mitarbeiter mit den Zielgruppen Ihrer Mitarbeiter verglichen. Verwenden Sie das Paginierungssteuerelement am unteren Rand des Abschnitts, um durch die verfügbaren Zielgruppen zu navigieren.
 
