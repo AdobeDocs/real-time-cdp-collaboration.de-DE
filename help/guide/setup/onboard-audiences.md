@@ -2,7 +2,7 @@
 title: Importieren und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration importieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
@@ -95,7 +95,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die importierten Daten die ri
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion **Data Collaboration** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **Datenwissenschaft** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen *aktiviert* ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und *nicht* in Real-Time CDP Collaboration übertragen.
 * Wenn das Kontrollkästchen *deaktiviert* ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.
@@ -103,7 +103,7 @@ Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://
 Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
 
 * [Datennutzungsbezeichnungen – Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glossar zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Darüber hinaus sollten Sie Ihre Einverständnisregeln auswählen, die auf in Real-Time CDP Collaboration importierte Daten angewendet werden sollen.
 
