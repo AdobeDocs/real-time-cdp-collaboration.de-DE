@@ -1,17 +1,18 @@
 ---
 title: Schnellstart für das Real-Time CDP Collaboration-Onboarding
-description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Bereitstellung, Aktivierung und Messung von Audiences. Dieses Handbuch hilft Werbetreibenden und Publishern, die Einstellungen für die Zusammenarbeit zu konfigurieren und mit der sicheren und effizienten Verwendung freigegebener Zielgruppen zu beginnen.
+description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieses Handbuch hilft Werbetreibenden und Publishern, die Einstellungen für die Zusammenarbeit zu konfigurieren und mit der sicheren und effizienten Verwendung freigegebener Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Schnellstart für das Real-Time CDP Collaboration-Onboarding
 
-Beginnen Sie mit Real-Time Customer Data Platform (CDP) Collaboration, indem Sie Ihre Organisation konfigurieren, Zielgruppen bereitstellen und eine datenschutzorientierte Aktivierung und Messung aktivieren.
+Beginnen Sie mit Real-Time CDP Collaboration, indem Sie Ihr Unternehmen konfigurieren, Zielgruppen finden und eine datenschutzorientierte Aktivierung und Messung aktivieren.
 
 ## Voraussetzungen
 
@@ -41,7 +42,7 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Real-Time CDP
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration über die Benutzeroberfläche von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten der Real-Time CDP Collaboration-Organisation {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Definieren Sie die Rolle Ihres Unternehmens in Collaboration, stellen Sie Brandi
 
 - **Übereinstimmungsschlüssel konfigurieren** - Wählen Sie die Kennungen aus, die für den Zielgruppen-Abgleich verwendet werden (derzeit ist die gehashte E-Mail der einzige unterstützte Übereinstimmungsschlüssel).
 
-Sobald Ihre Organisation erstellt und Ihre Branding- und Übereinstimmungsschlüssel konfiguriert sind, kann Ihre Organisation mit der Bereitstellung von Zielgruppen und der Aktivierung von Daten beginnen.
+Sobald Ihre Organisation erstellt und Ihre Branding- und Übereinstimmungsschlüssel konfiguriert sind, kann Ihre Organisation mit der Beschaffung von Zielgruppen und der Aktivierung von Daten beginnen.
 
 Weitere Informationen zur Ersteinrichtung der Organisation, einschließlich der Definition von Rollen, dem Hochladen von Branding-Assets und der Konfiguration von Übereinstimmungsschlüsseln, finden Sie im Dokument [Ersteinrichtung der Organisation](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -83,7 +84,7 @@ Sehen Sie sich eine schrittweise Anleitung zur Einrichtung von Advertisern an, e
 
 ## Schritt 3: Source-Zielgruppen (aus Experience Platform oder einer Cloud-Quelle) {#source-audiences}
 
-Wählen Sie einen oder beide der folgenden Datenspeicher aus, um Zielgruppen zu beziehen. Verwenden Sie entweder die Collaboration-Benutzeroberfläche oder stimmen Sie sich mit Adobe ab, um Zielgruppen in einem datenschutzkonformen Format bereitzustellen.
+Wählen Sie einen oder beide der folgenden Datenspeicher aus, um Zielgruppen zu beziehen. Verwenden Sie entweder die Collaboration-Benutzeroberfläche oder stimmen Sie sich mit Adobe ab, um Zielgruppen in einem datenschutzkonformen Format zu beschaffen.
 
 ### Option A: Source aus Experience Platform
 
@@ -99,7 +100,7 @@ Um eine Cloud-Quelle zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]
 >
 >Alle Zielgruppen in der hochgeladenen Datei werden zu diesem Zeitpunkt vollständig bezogen. Der Zugriff auf bestimmte Partnerorganisationen wird separat über die Collaboration-Benutzeroberfläche bereitgestellt.
 
-### Bereitstellen von Audiences
+### Audiences konfigurieren
 
 Konfigurieren Sie, wie Zielgruppen für die Verwendung in Verbindungen vorbereitet, abgeglichen und gesteuert werden.
 
@@ -117,8 +118,8 @@ Konfigurieren Sie, wie Zielgruppen für die Verwendung in Verbindungen vorbereit
 >
 >**Maximale Anzahl von Zielgruppen pro Rolle des Mitarbeiters:**
 >
->- **Werbetreibende** können bis zu 25 Zielgruppen bereitstellen.
->- **Publisher** können bis zu 250 Zielgruppen bereitstellen (jede mit mindestens 5.000 IDs).
+>- **Werbetreibende** können bis zu 25 Zielgruppen beziehen.
+>- **Publisher** können bis zu 250 Zielgruppen (mit jeweils mindestens 5.000 IDs) beschaffen.
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Eine vollständige exemplarische Vorgehensweise zum Referenzieren von Zielgruppe
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternativ finden Sie weitere Informationen im Dokument [Verfügbarmachen von Zielgruppen in Real-Time CDP Collaboration](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Alternativ finden Sie weitere Informationen im Dokument [Verfügbarmachen von Zielgruppen in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Schritt 4: Aktivieren von Zielgruppen (für Experience Platform oder ein Cloud-Ziel) {#activate-audiences}
 
@@ -146,12 +147,12 @@ Verwenden Sie die Collaboration-Benutzeroberfläche, um Zielgruppen für Ihre Ex
 
 ### Option A: Für Experience Platform aktivieren
 
-Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/destinations/experience-platform) beschrieben sind.
+Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) beschrieben sind.
 
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 
@@ -237,11 +238,17 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Nach Abschluss der Einrichtung und der Datenbereitstellung kann Ihr Unternehmen nun mit Partnern in Kontakt treten, indem Einladungen gesendet oder angenommen und Projekteinstellungen zur Genehmigung eingereicht werden. Dieser Verbindungsprozess umfasst das Senden oder Empfangen von Einladungen, das Überprüfen und Senden von Verbindungseinstellungen (z. B. Anwendungsfälle und Kreditverbrauch) und das Bestätigen der Beziehung.
 
-Verwenden Sie den **[!UICONTROL Verbinden]**-Arbeitsbereich über das linke Navigationsmenü in der Collaboration-Benutzeroberfläche, um verfügbare Publisher zu durchsuchen (Advertiser können derzeit nicht durchsucht werden). Einen Überblick über diesen Fluss finden Sie im [Handbuch Verbinden mit Werbetreibenden oder Herausgebern](./connect/establishing-connections.md){target="_blank"}. Eine visuelle Anleitung zum Verbindungsprozess, einschließlich dem Durchsuchen von Partnern und dem Verwalten von Verbindungseinstellungen, finden Sie im Video [Einrichten von Advertiser-Konten](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Verwenden Sie als Advertiser den **[!UICONTROL Verbinden]** Arbeitsbereich im linken Navigationsmenü in der Collaboration-Benutzeroberfläche, um verfügbare Publisher zu durchsuchen.
+
+>[!NOTE]
+>
+>Derzeit können nur Werbetreibende Herausgeber durchsuchen. Publisher können keine Verbindungen zu Advertisern suchen oder initiieren.
+
+Einen Überblick über diesen Fluss finden Sie im [Handbuch Verbinden mit Werbetreibenden oder Herausgebern](./connect/establishing-connections.md){target="_blank"}. Eine visuelle Anleitung zum Verbindungsprozess, einschließlich dem Durchsuchen von Partnern und dem Verwalten von Verbindungseinstellungen, finden Sie im Video [Einrichten von Advertiser-Konten](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Nächste Schritte
 
-Sie haben jetzt das Onboarding abgeschlossen und Ihr Unternehmen für eine sichere Zusammenarbeit konfiguriert. Erkunden Sie als Nächstes die folgenden Ressourcen, um Ihr Verständnis von Aktivierung, Messung und Data Governance zu vertiefen:
+Sie haben jetzt die Ersteinrichtung abgeschlossen und Ihr Unternehmen für eine sichere Zusammenarbeit konfiguriert. Erkunden Sie als Nächstes die folgenden Ressourcen, um Ihr Verständnis von Aktivierung, Messung und Data Governance zu vertiefen:
 
 - [Dokumentation zum Workflow für die Zielgruppenaktivierung](./collaborate/activate.md)
 - [Anwendungsfälle für Messungen](./collaborate/measure.md)
