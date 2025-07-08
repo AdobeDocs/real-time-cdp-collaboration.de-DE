@@ -3,9 +3,9 @@ title: Schnellstart für das Real-Time CDP Collaboration-Onboarding
 description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieses Handbuch hilft Werbetreibenden und Publishern, die Einstellungen für die Zusammenarbeit zu konfigurieren und mit der sicheren und effizienten Verwendung freigegebener Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 - [Für Ihr Unternehmen erstellte und Benutzern zugewiesene Rollen](./permissions/manage-roles.md).
 - Zugriff auf Branding-Assets, z. B. Name, Logo und Banner Ihres Unternehmens.
 - Eine [definierte Strategie für Übereinstimmungsschlüssel](./setup/onboard-organization.md#set-up-match-keys) (derzeit ist die Hash-E-Mail der einzige unterstützte Übereinstimmungsschlüssel).
-- (Optional) Zugriff auf eine unterstützte Cloud-Quelle (Amazon S3 oder Snowflake), wenn Sie Experience Platform nicht als Ziel verwenden.
+- (Optional) Zugriff auf eine unterstützte Cloud-Quelle (Amazon S3 oder Snowflake), wenn Sie Experience Platform nicht für die Zielgruppenverwaltung verwenden.
 
 ## Schritt 1: Rollenbasierte Einrichtung abschließen {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Real-Time CDP
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration über die Benutzeroberfläche von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten der Real-Time CDP Collaboration-Organisation {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berec
 
 Bevor Sie Zielgruppen hinzufügen können, müssen Sie Ihr Unternehmen in Collaboration konfigurieren. Dies bestimmt, wie Ihre Organisation in der Benutzeroberfläche angezeigt wird und sich verhält.
 
-Wenn Sie keinen Administratorzugriff auf Experience Platform haben, wenden Sie sich an den Administrator Ihres Unternehmens, um Hilfe beim Durchführen dieser Einrichtung zu erhalten.
+Wenn Sie nicht über den erforderlichen Zugriff verfügen, gehen Sie zurück zu Schritt 1 oder wenden Sie sich an den Administrator Ihrer Organisation, um Hilfe beim Durchführen dieser Einrichtung zu erhalten.
 
-Definieren Sie die Rolle Ihres Unternehmens in Collaboration, stellen Sie Branding-Assets bereit und konfigurieren Sie Übereinstimmungsschlüssel, um Zielgruppen über Verbindungen hinweg auszurichten. Führen Sie dann die folgenden Schritte aus, um die Einrichtung abzuschließen und Ihr Unternehmen für die Interaktion mit Ihren Verbindungen vorzubereiten.
+Definieren Sie die Rolle Ihres Unternehmens in Collaboration, stellen Sie Branding-Assets bereit und konfigurieren Sie Übereinstimmungsschlüssel, um Zielgruppen über Verbindungen hinweg auszurichten.
 
 >[!NOTE]
 >
->Sie können während der Einrichtung einen oder mehrere Mitarbeiter erstellen (z. B. Advertiser- oder Publisher-Profile). Bestimmte Felder wie Branding-Assets und Kontakt-E-Mails können später im Arbeitsbereich **[!UICONTROL Einstellungen]** aktualisiert werden. Übereinstimmungsschlüssel können auf Projektebene entfernt, aber nicht hinzugefügt werden. Daher sollten sie sorgfältig geplant werden.
+>Sie können während der Einrichtung einen oder mehrere Mitarbeiter erstellen (z. B. Advertiser- oder Publisher-Profile). Bestimmte Felder wie Branding-Assets und Kontakt-E-Mails können später im Arbeitsbereich **[!UICONTROL Einstellungen]** aktualisiert werden.
 
 - **Rolle zuweisen** - Legt fest, ob Ihr Unternehmen als Advertiser, Publisher oder beides fungiert. Ihre Rolle definiert, welche Kooperationsfunktionen Sie haben, z. B. die Freigabe von Zielgruppen (Advertiser) initiieren oder Zielgruppen verfügbar machen (Publisher). Weitere Informationen dazu, wie sich Rollen auf den Workflow für die Zusammenarbeit auswirken, finden [ im Handbuch zum End-to-End-Workflow ](./end-to-end-workflow.md).
 - **Branding-**: Fügen Sie Ihrem Konto Folgendes hinzu:
    - Markenname (max. 100 Zeichen)
    - Markenbezeichnung (max. 1.000 Zeichen)
    - Markenlogo (SVG &lt;20 KB, idealerweise quadratisch)
-   - Markenbanner (JPG 2688x1536 oder ähnlich)
-- **Kontakt-E** - Geben Sie eine Geschäfts-E-Mail an, die Mitarbeiter nach der Herstellung einer Verbindung verwenden können.
 
   >[!NOTE]
   >
   >Wenn Sie ein Herausgeberkonto erstellen und im Verbindungskatalog von Collaboration öffentlich sichtbar sein möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer. Für Publisher-Konten ist ein benutzerdefiniertes Markenbanner erforderlich (JPG 2688x1536). Diese Datei kann direkt mit Ihrem Kundenbetreuer geteilt werden.
 
+- **Kontakt-E** - Geben Sie eine Geschäfts-E-Mail an, die Mitarbeiter nach der Herstellung einer Verbindung verwenden können.
 - **Übereinstimmungsschlüssel konfigurieren** - Wählen Sie die Kennungen aus, die für den Zielgruppen-Abgleich verwendet werden (derzeit ist die gehashte E-Mail der einzige unterstützte Übereinstimmungsschlüssel).
-
-Sobald Ihre Organisation erstellt und Ihre Branding- und Übereinstimmungsschlüssel konfiguriert sind, kann Ihre Organisation mit der Beschaffung von Zielgruppen und der Aktivierung von Daten beginnen.
 
 Weitere Informationen zur Ersteinrichtung der Organisation, einschließlich der Definition von Rollen, dem Hochladen von Branding-Assets und der Konfiguration von Übereinstimmungsschlüsseln, finden Sie im Dokument [Ersteinrichtung der Organisation](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -84,23 +81,13 @@ Sehen Sie sich eine schrittweise Anleitung zur Einrichtung von Advertisern an, e
 
 ## Schritt 3: Source-Zielgruppen (aus Experience Platform oder einer Cloud-Quelle) {#source-audiences}
 
-Wählen Sie einen oder beide der folgenden Datenspeicher aus, um Zielgruppen zu beziehen. Verwenden Sie entweder die Collaboration-Benutzeroberfläche oder stimmen Sie sich mit Adobe ab, um Zielgruppen in einem datenschutzkonformen Format zu beschaffen.
+Sobald Ihre Organisation erstellt und Ihre Branding- und Übereinstimmungsschlüssel konfiguriert sind, können Sie mit der Beschaffung von Zielgruppen beginnen. Wählen Sie je nach Datenspeicher und Geschäftsanforderungen eine der folgenden Beschaffungsmethoden.
 
 ### Option A: Source aus Experience Platform
 
-[Verwenden Sie die Benutzeroberfläche der Collaboration-Ziele, um eine Sandbox zu verknüpfen, die Zielgruppen enthält](./setup/onboard-audiences.md). Verwenden Sie diese Self-Service-Methode, um auf vorhandene Zielgruppensegmente in Ihrer Experience Platform-Instanz zu verweisen.
+[Verwenden Sie die Collaboration-Benutzeroberfläche, um eine Sandbox mit Zielgruppen zu verknüpfen](./setup/onboard-audiences.md). Verwenden Sie diese Self-Service-Methode, um auf vorhandene Zielgruppensegmente in Ihrer Experience Platform-Instanz zu verweisen.
 
-### Option B: Source von Snowflake oder Amazon S3
-
-Um eine Cloud-Quelle zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), bereiten Sie Ihre Zielgruppendaten mit der folgenden [Zielgruppenspezifikations-PDF&quot; ](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Wenden Sie sich nach Abschluss des Vorgangs oder bei Fragen an Ihren Adobe-Kundenbetreuer, um die Einrichtung abzuschließen. Diese Methode ist kein Self-Service und erfordert die Unterstützung von Adobe.
-
->[!IMPORTANT]
->
->Cloud-basierte Zielgruppendateien müssen dem erforderlichen Schema entsprechen, das in der PDF für Zielgruppenspezifikationen beschrieben ist. Dateien müssen Hash-Kennungen (kleinbuchstabierte SHA256), erforderliche Metadatenfelder wie `segment_name` und `activation_id` enthalten und unterstützte Formate wie CSV oder Parquet verwenden. Adobe normalisiert Daten nicht vor der Aktivierung. TTL wird basierend auf der Lebensdauer der Zielgruppe erzwungen.
->
->Alle Zielgruppen in der hochgeladenen Datei werden zu diesem Zeitpunkt vollständig bezogen. Der Zugriff auf bestimmte Partnerorganisationen wird separat über die Collaboration-Benutzeroberfläche bereitgestellt.
-
-### Audiences konfigurieren
+#### Audiences konfigurieren
 
 Konfigurieren Sie, wie Zielgruppen für die Verwendung in Verbindungen vorbereitet, abgeglichen und gesteuert werden.
 
@@ -135,7 +122,17 @@ Eine vollständige exemplarische Vorgehensweise zum Referenzieren von Zielgruppe
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternativ finden Sie weitere Informationen im Dokument [Verfügbarmachen von Zielgruppen in Real-Time CDP Collaboration](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Alternativ finden Sie weitere Informationen im Dokument [Verfügbarmachen von Zielgruppen in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+
+### Option B: Source von Snowflake oder Amazon S3
+
+Um eine Cloud-Quelle zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), bereiten Sie Ihre Zielgruppendaten mit der folgenden [Zielgruppenspezifikations-PDF&quot; ](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Wenden Sie sich nach Abschluss des Vorgangs oder bei Fragen an Ihren Adobe-Kundenbetreuer, um die Einrichtung abzuschließen. Diese Methode ist kein Self-Service und erfordert die Unterstützung von Adobe.
+
+>[!IMPORTANT]
+>
+>Cloud-basierte Zielgruppendateien müssen dem erforderlichen Schema entsprechen, das in der PDF für Zielgruppenspezifikationen beschrieben ist. Dateien müssen Hash-Kennungen (kleinbuchstabierte SHA256), erforderliche Metadatenfelder wie `segment_name` und `activation_id` enthalten und unterstützte Formate wie CSV oder Parquet verwenden. Adobe normalisiert Daten nicht vor der Aktivierung. TTL wird basierend auf der Lebensdauer der Zielgruppe erzwungen.
+>
+>Alle Zielgruppen in der hochgeladenen Datei werden zu diesem Zeitpunkt vollständig bezogen. Der Zugriff auf bestimmte Partnerorganisationen wird separat über die Collaboration-Benutzeroberfläche bereitgestellt.
 
 ## Schritt 4: Aktivieren von Zielgruppen (für Experience Platform oder ein Cloud-Ziel) {#activate-audiences}
 
@@ -147,25 +144,18 @@ Verwenden Sie die Collaboration-Benutzeroberfläche, um Zielgruppen für Ihre Ex
 
 ### Option A: Für Experience Platform aktivieren
 
-Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/destinations/experience-platform) beschrieben sind.
+Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) beschrieben sind.
 
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 
-Um Zielgruppen für ein Cloud-Ziel zu aktivieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), wenden Sie sich an Ihren Adobe-Kundenbetreuer, um den Einrichtungsprozess zu starten. Sie müssen Zieldetails wie Dateipfad, Anmeldeinformationen und das erwartete Dateiformat angeben. Während des Setups müssen Sie auch einen Übereinstimmungsschlüssel angeben (z. B. `hashedEmail`) und die gewünschte TTL und Aktualisierungskadenz definieren. Sobald die Konfiguration abgeschlossen ist, stellt Adobe das Ziel bereit und stellt sicher, dass die Daten korrekt bereitgestellt werden.
+Um ein Cloud-Ziel zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), wenden Sie sich an Ihren Adobe-Kundenbetreuer, um den Einrichtungsprozess zu starten. Je nach Cloud-Ziel müssen Sie Cloud-Zieldetails wie Dateipfad, Anmeldeinformationen, Konto-Locators usw. angeben. Sobald die erforderlichen Informationen bereitgestellt wurden, konfiguriert Adobe das Cloud-Ziel-Setup.
 
 Zielgruppendaten, die an ein Cloud-Ziel gesendet werden, folgen einem vordefinierten Schema. Eine ausführliche Beschreibung der erforderlichen Felder und des Formats finden Sie im [Collaboration Audience Activation-Handbuch](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
-
-### Die wichtigsten Unterschiede
-
-In der folgenden Liste sind die Unterschiede zwischen Experience Platform- und Cloud-Aktivierungsoptionen aufgeführt:
-
-- Aktivierungen für Experience Platform erfolgen vollständig im Selbstbedienungsmodus und sind im Zielgruppenportal sichtbar.
-- Cloud-Ziele erfordern eine Adobe-Koordinierung und werden nicht in der Benutzeroberfläche angezeigt.
 
 ## Schritt 5: Einrichten der Messung (optional) {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## Verifizierung
-
-Überprüfen Sie nach der Aktivierung, ob Zielgruppen im entsprechenden Ziel erfolgreich bereitgestellt oder bereitgestellt wurden.
-
-- Stellen Sie sicher, dass Ihre Zielgruppen im Zielgruppen-Portal angezeigt werden (für die Experience Platform-Aktivierung).
-- Bestätigen Sie die erfolgreiche Cloud-Bereitstellung über externe Zielprotokolle oder eine Bestätigung.
 
 ## Schritt 6: Vernetzung mit Partnern {#connect-with-collaborators}
 
