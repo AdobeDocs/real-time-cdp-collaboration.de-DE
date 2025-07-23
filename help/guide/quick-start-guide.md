@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration-Schnellstartanleitung
 description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieses Handbuch hilft Werbetreibenden und Publishern, die Einstellungen für die Zusammenarbeit zu konfigurieren und mit der sicheren und effizienten Verwendung freigegebener Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -125,7 +125,7 @@ Sehen Sie sich das folgende Video an, um eine vollständige exemplarische Vorgeh
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppen in Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppen in Collaboration](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ### Option B: Source von Snowflake oder Amazon S3
 
