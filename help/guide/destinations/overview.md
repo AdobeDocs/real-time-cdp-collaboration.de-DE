@@ -2,11 +2,12 @@
 title: Ziele - Übersicht
 description: Erfahren Sie mehr über Ziele in Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 Ziele sind Integrationen, die zum Senden zielgerichteter Zielgruppen an externe Plattformen verwendet werden. Mit diesen Integrationen können Sie Zielgruppen über verschiedene Marketing-Kanäle und Plattformen hinweg aktivieren, um sie in Kampagnen und bei der Kundeninteraktion zu verwenden.
 
-Derzeit sind Ziele nur für Publisher in Real-Time CDP Collaboration verfügbar. Herausgeber können Ziele konfigurieren, um Zielgruppen zur Verwendung in Kampagnen an externe Plattformen wie Adobe Experience Platform zu senden. Werbetreibende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel des Herausgebers gesendet werden.
+Derzeit sind Ziele nur für Publisher in Adobe Real-Time CDP Collaboration verfügbar. Herausgeber können Ziele konfigurieren, um Zielgruppen zur Verwendung in Kampagnen an externe Plattformen wie Adobe Experience Platform zu senden. Werbetreibende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel des Herausgebers gesendet werden.
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ Um ein Ziel zu konfigurieren, navigieren Sie zu **[!UICONTROL Setup]** und wähl
 
 >[!NOTE]
 >
-> Derzeit ist in Real-Time CDP Collaboration nur Adobe Experience Platform als Self-Service-Ziel verfügbar. Wenn Sie an der Konfiguration eines Ziels wie Amazon S3 oder Snowflake interessiert sind, wenden Sie sich bitte an Ihren Adobe-Support-Mitarbeiter.
+> Derzeit ist in Collaboration nur Adobe Experience Platform als Self-Service-Ziel verfügbar. Wenn Sie an der Konfiguration eines Ziels wie Amazon S3 oder Snowflake interessiert sind, wenden Sie sich bitte an Ihren Adobe-Support-Mitarbeiter.
 
 ![Auf der Registerkarte „Meine Ziele“ im Setup-Arbeitsbereich werden die verfügbaren Ziele angezeigt.](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ Um mit der Konfiguration eines Ziels zu beginnen **[!UICONTROL wählen Sie die O
 
 ### Verfügbare Ziele {#available-destinations}
 
-Die folgenden Ziele sind für die Konfiguration in Real-Time CDP Collaboration verfügbar. Um das Konfigurationshandbuch für dieses Ziel anzuzeigen, wählen Sie den Zielnamen in der folgenden Tabelle aus. Wenn Sie an der Konfiguration eines Ziels interessiert sind, das derzeit nicht verfügbar ist, wenden Sie sich an den Adobe-Support.
+Die folgenden Ziele sind für die Konfiguration in Collaboration verfügbar. Um das Konfigurationshandbuch für dieses Ziel anzuzeigen, wählen Sie den Zielnamen in der folgenden Tabelle aus. Wenn Sie an der Konfiguration eines Ziels interessiert sind, das derzeit nicht verfügbar ist, wenden Sie sich an den Adobe-Support.
 
 | Ziel | Verfügbarkeit |
 | --- | --- |

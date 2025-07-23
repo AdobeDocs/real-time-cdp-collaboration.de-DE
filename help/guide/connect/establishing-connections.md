@@ -2,12 +2,12 @@
 title: Verbinden mit Werbetreibenden oder Herausgebern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-Bevor Mitarbeiter (normalerweise ein Advertiser und ein Publisher) gemeinsam an Kampagnen arbeiten können, müssen sie eine Verbindung herstellen. Diese Verbindung ermöglicht es ihnen, Zielgruppen zu aktivieren, Projekte zu erstellen und Berichte über die Kampagnenleistung zu erstellen.
+Bevor Mitwirkende an Kampagnen zusammenarbeiten können, müssen sie eine Verbindung herstellen. Diese Verbindung ermöglicht es ihnen, Zielgruppen zu aktivieren, Projekte zu erstellen und Berichte über die Kampagnenleistung zu erstellen.
 
 ## Workflow auf hoher Ebene
 
@@ -37,11 +37,11 @@ Sobald die oben genannten Elemente abgeschlossen sind, können die Mitwirkenden 
 
 ## Einladung senden {#send-invite}
 
-Um eine Verbindung einzurichten, wählen Sie **[!UICONTROL Verbinden]** beim Durchsuchen des Publisher-Inventars im Bildschirm „Publisher erkennen“ aus.
+Um eine Verbindung einzurichten, wählen Sie **[!UICONTROL Verbinden]** beim Durchsuchen des Publisher-Inventars im Arbeitsbereich **[!UICONTROL Publisher]**.
 
 ![Das Dashboard „Verbinden“ mit hervorgehobener Option „Verbinden“ für einen bestimmten Herausgeber.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-Nachdem die Einladung gesendet wurde, können Sie die Verbindungseinstellungen in der Vorschau anzeigen (aber nicht bearbeiten). Ausstehende Einladungen auf der Registerkarte **[!UICONTROL Meine Verbindungen]** anzeigen. Der Verbindungsstatus wird als &quot;**[!UICONTROL gesendet“]**.
+Nachdem die Einladung gesendet wurde, können Sie die Verbindungseinstellungen in der Vorschau anzeigen (aber nicht bearbeiten). Die ausstehende Einladung anzeigen wird auf der Registerkarte &quot;**[!UICONTROL Verbindungen“]**. Der Verbindungsstatus wird als &quot;**[!UICONTROL gesendet“]**.
 
 ![Ausstehende Einladung an Herausgeber gesendet, in der Ansicht „Meine Verbindungen“ angezeigt.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit-Aufspaltung"
->abstract="In diesem Abschnitt wird festgelegt, wer die Kosten für die entsprechenden Aktivitäten in Real-Time CDP Collaboration trägt. "
+>abstract="In diesem Abschnitt wird festgelegt, wer für die entsprechenden Aktivitäten in Collaboration bezahlt."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser-Namen"
->abstract="<p>Optionale Einstellung. Gibt den Namen und die ID an, unter denen der Advertiser dem Publisher bekannt ist.</p><p>Der hier hinzugefügte Advertiser-Name wird im Schritt „Projekt erstellen“ vorausgefüllt.</p><ul><li>Wenn der Publisher mehrere Namen konfiguriert hat, wählen Sie einen aus der Liste aus.</li><li>Wenn nur ein Name konfiguriert ist, wird er automatisch vorausgewählt.</li><li>Wenn keine Namen konfiguriert sind, wird das Feld mit dem Advertiser-Kontonamen aus Real-Time CDP Collaboration vorausgefüllt.</li></ul>"
+>abstract="<p>Optionale Einstellung. Gibt den Namen und die ID an, unter denen der Advertiser dem Publisher bekannt ist.</p><p>Der hier hinzugefügte Advertiser-Name wird im Schritt „Projekt erstellen“ vorausgefüllt.</p><ul><li>Wenn der Publisher mehrere Namen konfiguriert hat, wählen Sie einen aus der Liste aus.</li><li>Wenn nur ein Name konfiguriert ist, wird er automatisch vorausgewählt.</li><li>Wenn keine Namen konfiguriert sind, wird das Feld mit dem Advertiser-Kontonamen aus Collaboration vorausgefüllt.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Erstellen eines Projekts"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
 
 ![Die Ansicht mit den Verbindungseinstellungen im Vorschaustatus.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### Advertiser-Verbindungseinstellungen {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ Anwendungsfälle sind mit allen verfügbaren Optionen vorausgefüllt. Um sie anz
 
 +++Übereinstimmungsschlüssel
 
-Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie beim [Einrichten Ihrer Organisation“ ausgewählt ](/help/guide/setup/onboard-organization.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie nicht verwenden möchten. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die bei der Einrichtung der Organisation nicht ausgewählt wurden.
+Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie beim [Einrichten Ihrer Organisation“ ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie nicht verwenden möchten. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die bei der Einrichtung der Organisation nicht ausgewählt wurden.
 
 ![Die Einstellungen für Übereinstimmungsschlüssel im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ So funktioniert die Auswahl des Advertiser-Namens beim Erstellen eines Projekts:
 
 Wenn Sie mit den vorgeschlagenen Verbindungseinstellungen zufrieden sind, wählen Sie **[!UICONTROL Akzeptieren]** aus, um die Verbindung herzustellen. Wenn Sie Änderungen an den Verbindungseinstellungen anfordern möchten, wählen Sie **[!UICONTROL Ablehnen]**. Der Mitarbeiter kann dann die Verbindungseinstellungen überarbeiten und zur Überprüfung erneut senden.
 
+<!-- The end of the sections needing updates still. -->
+
 ## Verbindungen löschen {#delete-connections}
 
-Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um vorhandene Verbindungen zu löschen, navigieren Sie zu **[!UICONTROL Verbinden]**. Werbetreibende sollten dann zu &quot;**[!UICONTROL Verbindungen“]**. Wählen **[!UICONTROL auf]** Verbindungskarte die Option „Verbindung anzeigen“ aus, um die zu löschende Verbindung zu öffnen.
+Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um vorhandene Verbindungen zu löschen, navigieren Sie zu **[!UICONTROL Verbinden]**. Als Herausgeber wird Ihre bestehende Verbindung angezeigt. Als Werbetreibender sollten Sie dann zu &quot;**[!UICONTROL Verbindungen“]**.
+
+Wählen **[!UICONTROL auf]** Verbindungskarte, die Sie löschen möchten, die Option „Verbindung anzeigen“ aus.
 
 ![Die Option „Verbindung anzeigen“, die in der Ansicht „Meine Verbindungen“ hervorgehoben ist.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

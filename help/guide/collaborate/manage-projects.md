@@ -2,11 +2,11 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-Projekte sind das Herzstück Ihres Workflows in Real-Time CDP Collaboration. Erstellen Sie nach der Verbindung mit Mitarbeitern ein Projekt, um Berechnungen der Zielgruppenüberschneidung durchzuführen und relevante Zielgruppen für Kampagnen zu ermitteln.
+Projekte sind das Herzstück Ihres Workflows in Adobe Real-Time CDP Collaboration. Erstellen Sie nach der Verbindung mit Mitarbeitern ein Projekt, um Berechnungen der Zielgruppenüberschneidung durchzuführen und relevante Zielgruppen für Kampagnen zu ermitteln.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestim
 ![Gefilterte Ansicht von Projekten mit einem einzelnen Mitarbeiter.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Erstellen eines Projekts {#create-project}
+
+Um ein Projekt zu erstellen, müssen Sie zunächst [Verbindung herstellen](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter herstellen. Sobald die Verbindung hergestellt ist, können Sie mit diesem Partner ein Projekt erstellen.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"

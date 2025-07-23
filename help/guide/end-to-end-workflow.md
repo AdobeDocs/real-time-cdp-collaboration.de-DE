@@ -2,9 +2,9 @@
 title: End-to-End-Workflow
 description: Verstehen des End-to-End-Workflows bei der Verwendung von Real-Time CDP Collaboration als Advertiser oder Publisher
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration ermöglicht es Werbet
 
 ## Advertiser-End-to-End-Workflow {#advertiser}
 
-Beginnen Sie als Werbetreibender damit, [ Sie Ihr Unternehmen ](/help/guide/setup/onboard-organization.md) Real-Time CDP Collaboration einbinden. Verwenden Sie die [Einrichtungsseite](/help/guide/setup/setup-overview.md) zum Senden und Bearbeiten Ihrer Unternehmenseinstellungen, fügen Sie Ihre bevorzugten Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten werden, und entscheiden Sie, welche Daten einbezogen werden sollen. In der ersten Version ermöglicht Ihnen das Produkt nur [Import von Zielgruppen](/help/guide/setup/onboard-audiences.md) aus Adobe Experience Platform.
+Beginnen Sie als Werbetreibender damit, [ Sie Ihr Unternehmen ](/help/guide/setup/onboard-account.md) Real-Time CDP Collaboration einbinden. Verwenden Sie die [Einrichtungsseite](/help/guide/setup/setup-overview.md) zum Senden und Bearbeiten Ihrer Unternehmenseinstellungen, fügen Sie Ihre bevorzugten Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten werden, und entscheiden Sie, welche Daten einbezogen werden sollen. In der ersten Version ermöglicht Ihnen das Produkt nur [Import von Zielgruppen](/help/guide/setup/onboard-audiences.md) aus Adobe Experience Platform.
 
 ![Entdecken, aktivieren, messen für Werbetreibende.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ Der letzte Schritt in der Kollaborationsschleife ist [Messung](/help/guide/colla
 
 ## End-to-End-Workflow von Publisher {#publisher}
 
-Als Publisher starten Sie mit dem Onboarding [ Unternehmens ](/help/guide/setup/onboard-organization.md) Real-Time CDP Collaboration. Auf der [Setup-Seite](/help/guide/setup/setup-overview.md) können verschiedene Unternehmenseinstellungen bearbeitet werden.
+Als Publisher starten Sie mit dem Onboarding [ Unternehmens ](/help/guide/setup/onboard-account.md) Real-Time CDP Collaboration. Auf der [Setup-Seite](/help/guide/setup/setup-overview.md) können verschiedene Unternehmenseinstellungen bearbeitet werden.
 
 Entscheiden Sie, welche Zielgruppendaten importiert werden sollen und welche Zielgruppen für die Werbetreibenden, die eine Verbindung zu Ihnen herstellen möchten, im Bereich **[!UICONTROL Verbinden]** des Produkts erkennbar und sichtbar gemacht werden sollen.
 

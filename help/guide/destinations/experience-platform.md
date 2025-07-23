@@ -2,11 +2,11 @@
 title: Konfigurieren von Adobe Experience Platform als Ziel
 description: Erfahren Sie, wie Sie Adobe Experience Platform as a -Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: b79fad9257cfe2aafd27b81346ca45a00fcfdf76
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '877'
 ht-degree: 11%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
->Derzeit können nur Herausgeber Ziele in Real-Time CDP Collaboration konfigurieren.
+>Derzeit können nur Herausgeber Ziele in Adobe Real-Time CDP Collaboration konfigurieren.
 
 ## Konfigurieren des Ziels {#configure-destination}
 
@@ -40,9 +40,9 @@ Der **[!UICONTROL Ziel erstellen]** wird angezeigt.
 
 Zunächst müssen Sie die Sandbox auswählen, an die Ihre Zielgruppendaten gesendet werden.
 
+>[!IMPORTANT]
 >
->
->Sie können nur eine Sandbox auswählen, auf die Ihre Benutzerin oder Ihr Benutzer Zugriff hat. Standardmäßig haben alle Real-Time CDP Collaboration-Benutzer Zugriff auf die **Prod**-Sandbox. Um Zugriff auf zusätzliche Sandboxes zu erhalten, muss ein Administrator zusätzliche Sandboxes zu einer Rolle hinzufügen, die Ihrem Benutzer zugewiesen ist. Weitere Informationen zur Verwaltung von Rollen finden Sie im [Rollen verwalten](../permissions/manage-roles.md).
+>Sie können nur eine Sandbox auswählen, auf die Ihre Benutzerin oder Ihr Benutzer Zugriff hat. Standardmäßig haben alle Collaboration-Benutzer Zugriff auf die **Prod**-Sandbox. Um Zugriff auf zusätzliche Sandboxes zu erhalten, muss ein Administrator zusätzliche Sandboxes zu einer Rolle hinzufügen, die Ihrem Benutzer zugewiesen ist. Weitere Informationen zur Verwaltung von Rollen finden Sie im [Rollen verwalten](../permissions/manage-roles.md).
 
 Wählen **[!UICONTROL Abschnitt Sandbox konfigurieren]** die Dropdown-Liste **[!UICONTROL Sandbox]** aus oder geben Sie den Namen einer Sandbox ein.
 
@@ -66,9 +66,9 @@ Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Sta
 >title="Zielgruppen-Namespaces"
 >abstract="Zielgruppen-Namespaces geben an, welchem Identity-Namespace der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird. Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt."
 
-Als Nächstes müssen Sie ein Aktivierungszuordnung erstellen, um zu definieren, wie die Zielgruppendaten an Adobe Experience Platform gesendet werden. Sie können jeden [Übereinstimmungsschlüssel](../setup/onboard-organization.md#set-up-match-keys) den Sie beim Erstellen Ihrer Organisation ausgewählt haben, einem Ziel-Namespace zuordnen. Die Ziel-Namespaces geben an[ welchem ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}Identitäts-Namespace) der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird.
+Als Nächstes müssen Sie ein Aktivierungszuordnung erstellen, um zu definieren, wie die Zielgruppendaten an Adobe Experience Platform gesendet werden. Sie können jeden [Übereinstimmungsschlüssel](../setup/onboard-account.md#set-up-match-keys) den Sie beim Erstellen Ihrer Organisation ausgewählt haben, einem Ziel-Namespace zuordnen. Die Ziel-Namespaces geben an[ welchem ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}Identitäts-Namespace) der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird.
 
->
+>[!IMPORTANT]
 >
 >Hash-Übereinstimmungsschlüssel müssen einem Ziel-Namespace zugeordnet werden, der Hash-Werte unterstützt. Beispielsweise muss der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** dem Identity-Namespace **[!UICONTROL E-Mail(SHA256, in Kleinbuchstaben)]** in Adobe Experience Platform zugeordnet werden. Der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** kann nicht dem Identity-Namespace **[!UICONTROL E-Mail]** zugeordnet werden, da dieser Namespace keine Hash-Werte unterstützt.
 
@@ -98,4 +98,4 @@ Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie d
 
 ![Das Zielgruppenportal mit Real-Time CDP Collaboration als Ursprung in den Filteroptionen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
+Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .

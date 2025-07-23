@@ -2,11 +2,11 @@
 title: Leistung messen
 description: Messen Sie die Leistung Ihrer Kampagnen über verschiedene Kanäle hinweg. Erfahren Sie, wie Sie verschiedene Berichte verwenden und interpretieren.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 18%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 18%
 >
 >Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **Measurement**-Anwendungsfall [während des Verbindungsprozesses) ](../connect/establishing-connections.md#connection-settings) wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
-Erfahren Sie mehr über die verfügbaren Berichte in Real-Time CDP Collaboration und lernen Sie, wie Sie die Leistung Ihrer Marketing-Kampagnen kanalübergreifend messen und analysieren können.
+Erfahren Sie mehr über die verfügbaren Berichte in Adobe Real-Time CDP Collaboration und lernen Sie, wie Sie die Leistung Ihrer Marketing-Kampagnen kanalübergreifend messen und analysieren können.
 
 ## Voraussetzungen
 
-Bevor Sie auf die Messberichte in Real-Time CDP Collaboration zugreifen können, haben Sie bereits Folgendes getan:
+Bevor Sie auf die Messberichte in Collaboration zugreifen können, haben Sie bereits Folgendes getan:
 
 * [Verbunden](/help/guide/connect/establishing-connections.md) mit einem gewünschten Advertiser oder Publisher, für den der **Measurement**-Anwendungsfall aktiviert ist und der mit der Zusammenarbeit an [Projekten](/help/guide/collaborate/manage-projects.md)
-* Führen Sie eine Kampagne aus und [hochgeladene Messdaten](/help/guide/setup/onboard-measurement-data.md) in Real-Time CDP Collaboration.
+* Führen Sie eine Kampagne aus und [hochgeladene Messdaten](/help/guide/setup/onboard-measurement-data.md) in Collaboration.
 
 <!--
 
@@ -99,7 +99,7 @@ Im Verlauf der Kampagne und der steigenden Anzahl von Impressionen wissen Sie, o
 
 ![Kumulative Reichweitenkurve.](/help/assets/collaborate/measure/cumulative-reach-curve.png)
 
-### Impressionen nach Platzierung {#impressions-by-placement}
+### Impressions nach Platzierung {#impressions-by-placement}
 
 Erfahren Sie, welches Medium Eindrücke für Ihre Kreativen hervorruft. Dies kann Ihnen bei der Entscheidung helfen, wo Sie Ihre Werbeausgaben in zukünftige Kampagnen investieren sollten.
 
