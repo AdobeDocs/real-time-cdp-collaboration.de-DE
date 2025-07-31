@@ -1,53 +1,192 @@
 ---
-title: Verbinden mit Werbetreibenden oder Herausgebern
+title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 16%
+source-wordcount: '3213'
+ht-degree: 7%
 
 ---
 
-# Verbinden mit Werbetreibenden oder Herausgebern
+# Herstellen von Verbindungen
 
 {{limited-availability-release-note}}
 
 Bevor Mitwirkende an Kampagnen zusammenarbeiten können, müssen sie eine Verbindung herstellen. Diese Verbindung ermöglicht es ihnen, Zielgruppen zu aktivieren, Projekte zu erstellen und Berichte über die Kampagnenleistung zu erstellen.
 
-## Workflow auf hoher Ebene
+Verbindungen werden basierend auf Ihrem ausgewählten Kooperationsmuster hergestellt. Collaboration unterstützt zwei wichtige Kooperationsmuster: „Advertiser-to-Publisher“ und „Brand-to-Brand“. Weitere Informationen zu diesen Mustern finden Sie im Handbuch [Anwendungsfälle](/help/guide/overview/use-cases.md) .
+
+<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
+
+Um zu erfahren, wie Sie eine Verbindung herstellen, lesen Sie den folgenden Abschnitt, der Ihrem Kooperationsmuster entspricht:
+
+- [Verbindung zwischen Advertiser und Publisher](#advertiser-to-publisher-connection)
+- [Marke-zu-Marke-Verbindung](#brand-to-brand-connection)
+
+## Verbindung zwischen Advertiser und Publisher {#advertiser-to-publisher-connection}
+
+![Allgemeine Abbildung des Verbindungsprozesses zwischen Advertiser und Publisher.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
+
+Im Muster von Advertiser zu Publisher erkennt ein Advertiser einen Publisher, mit dem er arbeiten möchte, über den Arbeitsbereich **[!UICONTROL Discover Publishers]** und sendet eine Verbindungseinladung. Der Publisher prüft dann die Einladung und akzeptiert sie, sodass der Advertiser Verbindungseinstellungen vorschlagen kann. Sobald der Herausgeber die Verbindungseinstellungen akzeptiert, wird die Verbindung hergestellt und beide Mitarbeiter können mit der Arbeit an Projekten beginnen.
+
+### Allgemeine Übersicht
 
 Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, sind die folgenden Schritte erforderlich:
 
-1. Der Werbetreibende [durchsucht Verlage und entdeckt](/help/guide/connect/discover-publishers.md) einen, mit dem er arbeiten möchte.
-2. Der Advertiser sendet eine Einladung zur Verbindung.
-3. Der Herausgeber nimmt die Einladung an.
-4. Der Advertiser sendet Verbindungseinstellungen einschließlich Übereinstimmungsschlüsseln und anderen. Diese Verbindungseinstellungen stellen die produktinternen Bedingungen der Zusammenarbeit dar.
-5. Der Publisher akzeptiert Verbindungseinstellungen. Falls gewünscht, kann der Publisher die anfänglichen Verbindungseinstellungen ablehnen und den Advertiser auffordern, geänderte Verbindungseinstellungen zu übermitteln.
+1. [Publisher entdecken](#discover-publishers): Der Advertiser identifiziert potenzielle Publisher, mit denen er zusammenarbeiten soll.
+2. [Einladung senden](#send-invite): Der Advertiser sendet eine Einladung zur Verbindung an den ausgewählten Publisher.
+3. [Einladung annehmen](#accept-invite): Der Herausgeber prüft und akzeptiert die Einladung.
+4. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
+5. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
 
-![Allgemeine Abbildung des Verbindungsprozesses zwischen Advertiser und Publisher.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
-Sobald die oben genannten Elemente abgeschlossen sind, können die Mitwirkenden mit dem [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md#create-project) fortfahren, [Überschneidungsberichte auszuführen](/help/guide/collaborate/discover.md) und Werbekampagnen zu starten.
+## Marke-zu-Marke-Verbindung {#brand-to-brand-connection}
+
+![Allgemeine Abbildung des Verbindungsprozesses zwischen Marken.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
+
+>[!TIP]
+>
+>Der Begriff **Marke** wird verwendet, um ein Unternehmen oder eine Marke außerhalb von Collaboration zu bezeichnen. Der Begriff **Mitarbeiter** bezieht sich auf jedes Konto, das in Collaboration eine Verbindung herstellen kann, unabhängig davon, ob es sich um einen Advertiser oder einen Publisher handelt.
+
+Im Marken-zu-Marken-Muster können sich zwei Marken, die außerhalb des Produkts kommuniziert haben, direkt in Collaboration über eine (private [) ](#private-connection-invite) verbinden. Eine Marke kann entweder ein Advertiser oder ein Publisher sein. Dieses Muster ist besonders für Marken nützlich, die nicht zum herkömmlichen Advertiser-Publisher-Modell passen, z. B. zwei Advertiser oder zwei Publisher.
+
+Zunächst sendet ein Mitarbeiter eine private Verbindungseinladung an einen anderen Mitarbeiter. Der Empfänger prüft die Einladung und akzeptiert sie, sodass der Besitzer Verbindungseinstellungen vorschlagen kann. Sobald der Empfänger die Verbindungseinstellungen akzeptiert, wird die Verbindung hergestellt und beide Mitarbeiter können mit der Arbeit an Projekten beginnen.
+
+### Allgemeine Übersicht
+
+>[!TIP]
+>
+>Bei der Erörterung des Verbindungsprozesses wird zwischen dem **Eigentümer** und dem **Empfänger** unterschieden. Der Eigentümer ist der Mitarbeiter, der die Verbindung initiiert, indem er die Einladung sendet, während der Empfänger der Mitarbeiter ist, der die Einladung empfängt und überprüft.
+
+Der Verbindungsprozess zwischen zwei Marken umfasst mehrere Schritte. Bevor der Verbindungsprozess beginnt, müssen einige Voraussetzungen erfüllt sein:
+
+1. Zwei Marken kommunizieren außerhalb des Produkts, um die potenzielle Verbindung zu besprechen.
+2. Die Marken [erstellen ](/help/guide/setup/onboard-account.md) in Collaboration, falls noch nicht geschehen, und achten darauf, den entsprechenden Rollentyp (Advertiser oder Publisher) auszuwählen.
+
+Sobald die Voraussetzungen erfüllt sind, kann der Verbindungsprozess gestartet werden. Die folgenden Schritte beschreiben den Prozess:
+
+1. [Einladung zur privaten Verbindung senden](#send-private-connection-invite): Ein Mitarbeiter sendet eine Einladung zur privaten Verbindung an einen anderen Mitarbeiter.
+2. [Einladung zur privaten Verbindung akzeptieren](#accept-private-connection-invite): Der Empfänger prüft und akzeptiert die Einladung zur privaten Verbindung.
+3. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Eigentümer konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung und Annahme an den Empfänger.
+4. [Verbindungseinstellungen bestätigen](#establish-connection): Der Empfänger prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab.
+
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+
+## Verbinden {#connect}
+
+Im **[!UICONTROL Connect]**-Arbeitsbereich können Sie Ihre Verbindungen mit Mitarbeitern verwalten, Verbindungseinladungen senden und Werbetreibende das Herausgeberverzeichnis durchsuchen. Der Arbeitsbereich ist in zwei Hauptregisterkarten unterteilt:
+
+### Publisher entdecken {#discover-publishers}
 
 >[!IMPORTANT]
 >
->Nachdem die Verbindung zwischen zwei Partnern hergestellt wurde, können die Verbindungseinstellungen nicht mehr geändert werden.
+>Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Discover Publishers]** finden. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
 
-## Einladung senden {#send-invite}
+Um Herausgeber zu finden, navigieren Sie auf der Registerkarte **[!UICONTROL Verbinden]** zum Arbeitsbereich **[!UICONTROL Herausgeber]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Publishers]** finden Sie im Handbuch [Discover Publishers](/help/guide/connect/discover-publishers.md) .
 
-Um eine Verbindung einzurichten, wählen Sie **[!UICONTROL Verbinden]** beim Durchsuchen des Publisher-Inventars im Arbeitsbereich **[!UICONTROL Publisher]**.
+![Der Arbeitsbereich „Publisher suchen“ mit einer Liste der verfügbaren Publisher.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
 
-![Das Dashboard „Verbinden“ mit hervorgehobener Option „Verbinden“ für einen bestimmten Herausgeber.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+### Einladung senden {#send-invite}
 
-Nachdem die Einladung gesendet wurde, können Sie die Verbindungseinstellungen in der Vorschau anzeigen (aber nicht bearbeiten). Die ausstehende Einladung anzeigen wird auf der Registerkarte &quot;**[!UICONTROL Verbindungen“]**. Der Verbindungsstatus wird als &quot;**[!UICONTROL gesendet“]**.
+>[!IMPORTANT]
+>
+>In diesem Abschnitt wird der Prozess beschrieben, bei dem Advertiser über den Arbeitsbereich **[!UICONTROL Discover Publishers“ Verbindungseinladungen an]** senden. Um mehr über die Bildung von Verbindungen zwischen Marken zu erfahren, unabhängig von deren Rollen, lesen Sie den Abschnitt [Marke-zu-Marke-Verbindung](#brand-to-brand-connection) oder besuchen Sie den Abschnitt [Einladung zur privaten Verbindung](#private-connection-invite).
 
-![Ausstehende Einladung an Herausgeber gesendet, in der Ansicht „Meine Verbindungen“ angezeigt.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
+Nachdem Sie einen Herausgeber identifiziert haben, mit dem Sie zusammenarbeiten möchten, wählen Sie die **[!UICONTROL Verbinden]** auf der Herausgeberkarte. Diese Aktion initiiert den Verbindungsprozess.
 
-Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseinstellungen konfigurieren und an den Mitarbeiter senden, um sie zu überprüfen und zu akzeptieren.
+![Die hervorgehobene Option „Verbinden“ für einen bestimmten Herausgeber im Arbeitsbereich „Herausgeber suchen“.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-## Verbindungseinstellungen {#connection-settings}
+Es wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, eine Einladung zur Verbindung an den Herausgeber zu senden. Wählen Sie **[!UICONTROL Einladung senden]** um fortzufahren.
+
+![Das Dialogfeld „Einladung für Verbindung senden“ mit hervorgehobener Schaltfläche „Einladung senden“.](/help/assets/connect/establish-connection/send-connection-invite-dialog.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Wenn Sie eine Verbindung zu einem Herausgeber herstellen möchten, mit dem Sie außerhalb des Produkts kommuniziert haben, können Sie die Option Einladung zur privaten Verbindung verwenden. Weitere Informationen finden Sie im Abschnitt [Einladung zur privaten Verbindung](#private-connection-invite).
+
+Die ausstehende Einladung wird auf der Registerkarte **[!UICONTROL Meine Verbindungen]** im Abschnitt **[!UICONTROL Aktion erforderlich]** angezeigt. Der Verbindungsstatus wird als &quot;**[!UICONTROL gesendet“]**. Sie können die Verbindungseinstellungen in der Vorschau anzeigen, indem Sie **[!UICONTROL Verbindung in der Vorschau anzeigen]** auswählen. Sie können sie jedoch erst bearbeiten, wenn der Publisher die Einladung akzeptiert.
+
+![Die ausstehende Verbindung wird im Arbeitsbereich Meine Verbindungen im Abschnitt Erforderliche Aktion angezeigt.](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
+
+### Private Verbindungseinladung {#private-connection-invite}
+
+Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit denen Sie außerhalb des Produkts kommuniziert haben, über einen &quot;**[!UICONTROL -Code“]** verbinden. Um eine private Verbindung zu erstellen, müssen Sie den **[!UICONTROL Connect-Code]** von dem Mitarbeiter abrufen, mit dem Sie außerhalb des Produkts eine Verbindung herstellen möchten. Sie können diesen Code dann verwenden, um eine Einladung zur privaten Verbindung an den Mitarbeiter im Arbeitsbereich **[!UICONTROL Verbinden]** zu senden.
+
+#### Verbindungs-Code {#connect-code}
+
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+
+![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
+
+Wählen Sie das Kopiersymbol (![Kopiersymbol](/help/assets/icons/copy.png)) neben dem **[!UICONTROL Code verbinden]**, um ihn in die Zwischenablage zu kopieren. Sie können diesen Code dann außerhalb des Produkts für Ihren Mitwirkenden freigeben.
+
+![Der Code „Verbinden“ mit hervorgehobenem Kopiersymbol.](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
+
+##### Verbindungscode wird aktualisiert {#refresh-connect-code}
+
+Sie können Ihren **[!UICONTROL Connect-Code]** jederzeit aktualisieren. Durch Aktualisieren des Codes wird ein neuer eindeutiger Code generiert, den Sie für Mitwirkende freigeben können. Dies ist nützlich, wenn Sie den vorherigen Code aus Sicherheitsgründen ungültig machen möchten. Alle Verbindungen, die mit dem alten Code hergestellt wurden, bleiben aktiv, aber neue Mitarbeiter müssen den neuen Code verwenden, um eine Verbindung mit Ihnen herzustellen.
+
+>[!IMPORTANT]
+>
+>Wenn Sie Ihren **[!UICONTROL Connect-Code]** während einer ausstehenden Einladung aktualisieren, kann dies verhindern, dass die Einladung angenommen wird. Wenn Sie Ihren Code aktualisieren, muss Ihr Mitarbeiter möglicherweise die private Verbindungseinladung erneut mit dem neuen Code senden.
+
+Um Ihren **[!UICONTROL Verbindungs-Code]** zu aktualisieren, klicken Sie auf das Aktualisierungssymbol (![Aktualisierungssymbol](/help/assets/icons/refresh.png)) neben dem **[!UICONTROL Verbindungs-Code]**.
+
+![Der Code „Verbinden“ mit hervorgehobenem Aktualisierungssymbol.](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Konten, die vor der Einführung der Funktion **[!UICONTROL Code verbinden]** erstellt wurden, haben keinen generierten Verbindungscode und das Feld „Verbinden“ wird als &quot;**[!UICONTROL verfügbar“]**. Verwenden Sie die Aktualisierungsoption, um einen neuen Verbindungs-Code zu generieren.
+
+#### Einladung zur privaten Verbindung senden {#send-private-connection-invite}
+
+Sobald Sie den **[!UICONTROL Connect-Code]** von Ihrem Mitarbeiter haben, können Sie eine Einladung für eine private Verbindung senden. Navigieren Sie dazu zum Arbeitsbereich **[!UICONTROL Verbinden]** und wählen Sie das Pluszeichen (![Pluszeichen](/help/assets/icons/plus.png)) oben rechts aus.
+
+![Das Pluszeichen, das im Arbeitsbereich „Verbinden“ hervorgehoben ist.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
+
+Das **[!UICONTROL Verbinden]**-Dialogfeld erscheint, in dem Sie aufgefordert werden, den **[!UICONTROL Verbinden-Code]** des Mitarbeiters einzugeben, mit dem Sie eine Verbindung herstellen möchten. Fügen Sie den Code in das Textfeld ein und wählen Sie **[!UICONTROL Weiter]**, um fortzufahren.
+
+![Das Dialogfeld „Verbinden“ mit ausgefülltem Feld „Code verbinden“ und hervorgehobener Option „Weiter“.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
+
+Im **[!UICONTROL Verbinden]**-Dialogfeld wird dann der Mitarbeiter angezeigt, mit dem der Code verknüpft ist, sodass Sie bestätigen können, dass Sie eine Verbindung mit dem richtigen Mitarbeiter herstellen. Wenn der Mitarbeiter korrekt ist, wählen Sie **[!UICONTROL Verbinden]** aus, um die Einladung zur privaten Verbindung zu senden.
+
+![Das Dialogfeld „Verbinden“ mit den angezeigten Mitarbeiterdetails und der hervorgehobenen Option „Verbinden“.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
+
+### Einladung annehmen {#accept-invite}
+
+>[!TIP]
+>
+>Bei der Erörterung des Verbindungsprozesses wird zwischen dem **Eigentümer** und dem **Empfänger** unterschieden. Der Eigentümer ist der Mitarbeiter, der die Verbindung initiiert, indem er die Einladung sendet, während der Empfänger der Mitarbeiter ist, der die Einladung empfängt und überprüft.
+
+Bevor der Eigentümer die Verbindungseinstellungen konfigurieren kann, muss der Empfänger die Verbindungseinladung annehmen. Navigieren Sie dazu zum Arbeitsbereich **[!UICONTROL Verbinden]** und suchen Sie im Abschnitt **[!UICONTROL Aktion erforderlich]** nach der ausstehenden Verbindung. Der Verbindungsstatus wird als &quot;**[!UICONTROL empfangen“]**. Wählen **[!UICONTROL Akzeptieren]** aus, um die Einladung anzunehmen.
+
+![Die ausstehende Verbindung wird im Abschnitt Aktion erforderlich des Arbeitsbereichs „Verbinden“ angezeigt, wobei die Option Akzeptieren hervorgehoben ist.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
+
+Das Dialogfeld erscheint, in dem Sie aufgefordert werden, die Einladung anzunehmen. Wählen Sie **[!UICONTROL Einladung annehmen]** um fortzufahren.
+
+![Das Dialogfeld „Einladung zur Verbindung annehmen“ mit hervorgehobener Option „Einladung annehmen“.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+
+Der Status der Verbindung ändert sich in **[!UICONTROL Ausstehend]**. Der Inhaber kann jetzt die Verbindungseinstellungen konfigurieren.
+
+### Konfigurieren der Verbindungseinstellungen {#configure-connection-settings}
+
+Die Verbindungseinstellungen definieren die Begriffe zwischen zwei Mitwirkenden. Zu diesen Einstellungen gehören Anwendungsfälle, Übereinstimmungsschlüssel, Kreditaufteilung und rechtliche Vereinbarungen. Mitarbeiter, die eine Verbindung zu Werbetreibenden herstellen, können auch Werbekunden-Namen zu den Verbindungseinstellungen hinzufügen, die beim Erstellen von Projekten verwendet werden.
+
+Nachdem der Empfänger die Einladung akzeptiert hat, kann der Besitzer die Verbindungseinstellungen konfigurieren. Navigieren Sie dazu zu &quot;**[!UICONTROL Verbindungen“]** suchen Sie die ausstehende Verbindung im Abschnitt **[!UICONTROL Aktion erforderlich]** . Wählen Sie **[!UICONTROL Verbindung einrichten]** aus, um die Verbindungseinstellungen zu konfigurieren.
+
+![Der Arbeitsbereich „Verbinden“ mit der hervorgehobenen Option „Verbindung einrichten“ im Abschnitt Erforderliche Aktion.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+
+Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die verschiedenen Einstellungen für die Verbindung konfigurieren können.
+
+![Der Arbeitsbereich „Verbindungseinstellungen“](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
+
+<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
+
+#### Verbindungseinstellungen {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
@@ -90,29 +229,31 @@ Sobald der Mitarbeiter die Einladung akzeptiert, können Sie die Verbindungseins
 >title="Zielgruppenaktivierung"
 >abstract="Mit der Zielgruppenaktivierung können Sie auswählen, welche mitwirkende Person die Zielgruppenaktivierung initiieren kann."
 
-<!-- Move and update the above popover when bidirectional is active. -->
+Sie können die folgenden Verbindungseinstellungen konfigurieren:
 
-Nachdem die Einladung gesendet wurde, können Sie eine Vorschau der Verbindungseinstellungen anzeigen. Die Einladung muss angenommen werden, bevor Sie die Einrichtung der Verbindung abschließen können.
++++Zielgruppenaktivierung
 
-![Die Ansicht mit den Verbindungseinstellungen im Vorschaustatus.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+>[!IMPORTANT]
+>
+>Für alle Verbindungen, die vor der Einführung **[!UICONTROL Funktion]** Zielgruppenaktivierung“ erstellt wurden, ist die Einstellung für die Zielgruppenaktivierung automatisch auf den Verbindungsbesitzer festgelegt. Wenn Sie beiden Mitarbeitern erlauben möchten, Zielgruppen zu aktivieren, müssen Sie [Ihre aktuelle Verbindung löschen](#delete-connections) und eine neue mit den aktualisierten Einstellungen erstellen.
 
-<!-- The sections below will be updated in B2B and have not been addressed yet. -->
+Mit der Zielgruppenaktivierung können Sie auswählen, welcher Mitarbeiter Zielgruppen in der Verbindung aktivieren kann. Die Zielgruppenaktivierung ist nur eine Option, wenn der Anwendungsfall **[!UICONTROL Zielgruppenaktivierung]** ausgewählt ist. Wenn Sie sich dafür entscheiden, den Anwendungsfall während des Verbindungsprozesses zu entfernen, wird die Zielgruppen-Aktivierungseinstellung aus den Verbindungseinstellungen entfernt. Weitere Informationen zur Aktivierung von Zielgruppen finden Sie im [aktivieren](/help/guide/collaborate/activate.md)-Handbuch.
 
-### Advertiser-Verbindungseinstellungen {#advertiser-connection-settings}
+Um die Zielgruppenaktivierung einzurichten, wählen Sie **[!UICONTROL Einrichten]** im Abschnitt **[!UICONTROL Zielgruppenaktivierung]** aus. Verwenden Sie das Dropdown-Menü, um festzulegen, welcher Mitarbeiter Zielgruppen aktivieren kann. Sie können einen einzelnen Mitarbeiter auswählen oder beiden Mitarbeitern erlauben, Zielgruppen zu aktivieren.
 
-Nachdem Ihr Mitarbeiter die Verbindung akzeptiert hat, richten Sie die Verbindungseinstellungen ein. Diese Einstellungen definieren Ihre Kooperationsbedingungen, einschließlich der Anwendungsfälle, an denen Sie arbeiten werden, der Übereinstimmungsschlüssel für Projekte und anderer Konfigurationen.
+![Das Dialogfeld für die Zielgruppenaktivierung mit Optionen im Arbeitsbereich „Verbindungseinstellungen“](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
 
-Navigieren Sie zunächst zu **[!UICONTROL Meine Verbindungen]**. Für alle Verbindungen mit dem Status **[!UICONTROL Ausstehend]** können Sie **[!UICONTROL Verbindung einrichten]** auswählen, um die Verbindungseinstellungen zu konfigurieren.
+Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-![Der Arbeitsbereich „Meine Verbindungen“ mit einer ausstehenden Verbindung und der hervorgehobenen Option „Verbindung einrichten“.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![Das Dialogfeld für die Zielgruppenaktivierung mit der Option Speichern im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-Sie können die folgenden Felder bearbeiten und definieren:
-
-![Der Arbeitsbereich „Verbindungseinstellungen“, bevor er ausgefüllt wird.](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
++++
 
 +++Anwendungsfälle
 
-Anwendungsfälle sind mit allen verfügbaren Optionen vorausgefüllt. Um sie anzupassen, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Anwendungsfälle]** aus und deaktivieren Sie alle nicht gewünschten. Ausgewählte Anwendungsfälle bestimmen, welche Ansichten und Optionen in [ Projekten verfügbar ](../collaborate/manage-projects.md#project-use-cases).
+Anwendungsfälle werden automatisch mit allen verfügbaren Optionen ausgefüllt. Ausgewählte Anwendungsfälle bestimmen, welche Ansichten und Optionen in Ihren Projekten verfügbar sind. Weitere Informationen finden Sie im [Projekt-Anwendungsfälle](/help/guide/collaborate/manage-projects.md#project-use-cases)Handbuch.
+
+Um Ihre Anwendungsfälle anzupassen, wählen Sie **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Anwendungsfälle]** und deaktivieren Sie alle, die Sie nicht in Projekte mit Ihrem Mitarbeiter aufnehmen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
 ![Die Einstellungen für Anwendungsfälle im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
@@ -120,7 +261,9 @@ Anwendungsfälle sind mit allen verfügbaren Optionen vorausgefüllt. Um sie anz
 
 +++Übereinstimmungsschlüssel
 
-Übereinstimmungsschlüssel werden mit den Schlüsseln vorbefüllt, die Sie beim [Einrichten Ihrer Organisation“ ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie nicht verwenden möchten. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die bei der Einrichtung der Organisation nicht ausgewählt wurden.
+Übereinstimmungsschlüssel werden automatisch mit den Schlüsseln gefüllt, die Sie beim [ Ihres Kontos ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie nicht verwenden möchten. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die während der Kontoeinrichtung nicht ausgewählt wurden.
+
+Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Übereinstimmungsschlüssel]** und schalten Sie alle Übereinstimmungsschlüssel aus, die Sie in dieser Verbindung nicht verwenden möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
 ![Die Einstellungen für Übereinstimmungsschlüssel im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -134,52 +277,71 @@ Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der 
 >
 >Zielgruppe - Der Ausgang wird immer von dem Mitarbeiter abgedeckt, der die Zielgruppe erhält. Daher ist keine Auswahl erforderlich.
 
-![Das Dialogfeld „Kreditaufteilung“ mit Optionen im Arbeitsbereich „Verbindung“.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+Um die Kreditaufteilung einzurichten, wählen Sie **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Kreditaufteilung]** aus. Anschließend können Sie für jeden Anwendungsfall die entsprechenden Optionen auswählen. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+
+![Das Dialogfeld „Kreditaufteilung“ mit Optionen im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+
 +++
 
 +++Vereinbarungen
 
-Bevor Sie mit dieser Verbindung fortfahren können, müssen Sie anerkennen, dass eine Datenfreigabevereinbarung zwischen den beiden Parteien besteht.
+Sie müssen anerkennen, dass eine rechtliche Vereinbarung zwischen Ihnen und Ihrem Mitarbeiter besteht. In dieser Vereinbarung werden die Bedingungen für die gemeinsame Nutzung und Zusammenarbeit von Daten festgelegt. Sie können das Kontrollkästchen **[!UICONTROL Bestätigen und bestätigen]** aktivieren, um zu bestätigen, dass eine solche Vereinbarung besteht.
 
 ![Der Abschnitt „Rechtliche Vereinbarung“ wird im Arbeitsbereich „Verbindung“ hervorgehoben und bestätigt.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
-Nachdem Sie Ihre Auswahl getroffen haben, wählen Sie **[!UICONTROL Senden]** aus, um die vorgeschlagenen Einstellungen zur Überprüfung an Ihren Mitarbeiter zu senden.
-
-### Publisher-Verbindungseinstellungen {#publisher-connection-settings}
-
-Der Herausgeber muss dann die Verbindungseinstellungen überprüfen und sie entweder akzeptieren oder ablehnen. Um die Verbindungseinstellungen zu überprüfen, navigieren Sie zu **[!UICONTROL Meine Verbindungen]** und wählen Sie **[!UICONTROL Verbindungseinstellungen überprüfen]** auf der Verbindungskarte aus.
-
-![Die hervorgehobene Option „Verbindungseinstellungen überprüfen“ in der Ansicht „Meine Verbindungen“.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
-
-Überprüfen Sie die Einstellungen, die der Mitarbeiter vorgeschlagen hat. Bevor Sie die Verbindungseinstellungen akzeptieren, müssen Sie bestätigen, dass eine rechtliche Vereinbarung zwischen Ihnen und dem Mitarbeiter besteht. Darüber hinaus können Sie alle Advertiser-Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist.
-
-![Der Arbeitsbereich „Verbindungseinstellungen“ mit den vorgeschlagenen Einstellungen aus den Abschnitten „Mitarbeiter“ und „Advertiser-Namen und -Vereinbarungen“ sind hervorgehoben.](/help/assets/connect/establish-connection/publisher-connection-settings.png){zoomable="yes"}
-
 +++Advertiser-Namen
 
-Als Herausgeber, der mit den Verbindungseinstellungen arbeitet, können Sie alle Advertiser-Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist. Als Publisher können Sie einer Verbindung mehrere Advertiser-Namen hinzufügen, z. B. wenn der Advertiser, mit dem Sie arbeiten, in mehreren Regionen präsent ist. Wenn Sie später im Prozess [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md#create-project) an dem Sie zusammenarbeiten möchten, können Sie oder Ihr Mitarbeiter den Advertiser-Namen auswählen, der mit dem Projekt verknüpft werden soll.
+>[!NOTE]
+>
+>Je nachdem, wer die Verbindung initiiert, kann diese Option während der Konfiguration der Verbindungseinstellungen oder der Überprüfung der Verbindungseinstellungen angezeigt werden.
 
-![Das Dialogfeld „Advertiser-Namen“ im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+Wenn Sie ein Publisher sind und eine Verbindung mit einem Advertiser herstellen, können Sie in den Verbindungseinstellungen Advertiser-Namen hinzufügen. Auf diese Weise können Sie mehrere Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist. Dies ist besonders nützlich, wenn der Werbetreibende in mehreren Regionen präsent ist oder wenn er unter verschiedenen Namen in verschiedenen Kontexten bekannt ist. Wenn Sie später ein Projekt erstellen, können Sie den entsprechenden Advertiser-Namen aus der Liste der in den Verbindungseinstellungen konfigurierten Namen auswählen.
 
-So funktioniert die Auswahl des Advertiser-Namens beim Erstellen eines Projekts:
+![Die Advertiser-Namen im Arbeitsbereich „Verbindungseinstellungen“](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
-1. **Kein Advertiser-Name festgelegt**: Wenn keine Advertiser-Namen hinzugefügt werden, verwendet Real-Time CDP Collaboration standardmäßig den Namen des Advertisers als Advertiser-Namen.
-2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Real-Time CDP Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
+Um Advertiser-Namen hinzuzufügen, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Advertiser-Namen]** aus. Sie können dann die **[!UICONTROL Advertiser-ID]**, die Ihnen der Advertiser in Ihrem System genannt wird, und einen **[!UICONTROL Advertiser-Namen]** eingeben, der mit dieser ID in Collaboration verknüpft werden soll. Sie können mehrere Advertiser-Namen hinzufügen, indem Sie die Option **[!UICONTROL Hinzufügen]** auswählen.
+
+![Das Dialogfeld „Advertiser-Namen“ mit Optionen im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
+
+Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+
+Beim Erstellen eines Projekts wird der Advertiser-Name basierend auf den folgenden Einstellungen, die während der Verbindung festgelegt wurden, vorbefüllt    :
+
+1. **Kein Advertiser-Name festgelegt**: Wenn keine Advertiser-Namen hinzugefügt werden, verwendet Collaboration standardmäßig den Namen des Advertisers als Advertiser-Namen.
+2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
 3. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
 
-![Der Arbeitsbereich „Verbindungseinstellungen“ mit ausgefülltem Abschnitt „Advertiser-Namen“.](/help/assets/connect/establish-connection/advertiser-names.png)
+>[!NOTE]
+>
+> Nachdem Sie die Verbindungseinstellungen gesendet haben, können Sie keine Advertiser-Namen mehr hinzufügen oder bearbeiten.
+
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit ausgefülltem Abschnitt „Advertiser-Namen“.](/help/assets/connect/establish-connection/add-advertiser-names.png)
 
 +++
+
+Nachdem Sie Ihre Auswahl getroffen haben, wählen Sie **[!UICONTROL Senden]** aus, um die vorgeschlagenen Einstellungen zur Überprüfung an den Empfänger zu senden.
+
+### Verbindungseinstellungen überprüfen {#review-connection-settings}
+
+Als Nächstes muss der Empfänger die vom Eigentümer vorgeschlagenen Verbindungseinstellungen überprüfen. Der Empfänger kann dies tun, indem er zur Registerkarte **[!UICONTROL Meine Verbindungen]** im Arbeitsbereich **[!UICONTROL Verbinden]** navigiert. Die Verbindung wird im Abschnitt **[!UICONTROL Aktion erforderlich]** angezeigt. Wählen Sie **[!UICONTROL Verbindungseinstellungen überprüfen]** aus, um die vorgeschlagenen Verbindungseinstellungen zu überprüfen.
+
+![Der Arbeitsbereich „Meine Verbindungen“ mit hervorgehobener Option „Verbindungseinstellungen überprüfen“.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
+
+Überprüfen Sie die Einstellungen, die der Mitarbeiter vorgeschlagen hat. Sie können die Verbindungseinstellungen entweder akzeptieren oder ablehnen. Wenn Sie die Verbindungseinstellungen ablehnen, müssen Sie mit dem Mitarbeiter über die Änderungen kommunizieren, die Sie außerhalb des Produkts vornehmen möchten. Die Kontaktinformationen des Mitarbeiters werden im Abschnitt **[!UICONTROL Kontakt]** des Arbeitsbereichs Verbindungseinstellungen angezeigt. Der Besitzer kann dann die Verbindungseinstellungen überarbeiten und zur Überprüfung erneut senden.
+
+Wenn Sie mit den vorgeschlagenen Verbindungseinstellungen zufrieden sind, müssen Sie anerkennen, dass eine rechtliche Vereinbarung zwischen Ihnen und dem Mitarbeiter besteht. Aktivieren Sie das **[!UICONTROL Bestätigen und bestätigen]**, um zu bestätigen, dass eine solche Vereinbarung besteht.
+
+![Der hervorgehobene Abschnitt „Rechtliche Vereinbarung“ im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+
+Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [ Abschnitt &quot;](#connection-settings)&quot;.
 
 >[!NOTE]
 >
 > Nachdem Sie die Verbindungseinstellungen akzeptiert haben, können Sie keine Advertiser-Namen mehr hinzufügen oder bearbeiten.
 
-Wenn Sie mit den vorgeschlagenen Verbindungseinstellungen zufrieden sind, wählen Sie **[!UICONTROL Akzeptieren]** aus, um die Verbindung herzustellen. Wenn Sie Änderungen an den Verbindungseinstellungen anfordern möchten, wählen Sie **[!UICONTROL Ablehnen]**. Der Mitarbeiter kann dann die Verbindungseinstellungen überarbeiten und zur Überprüfung erneut senden.
-
-<!-- The end of the sections needing updates still. -->
+Wählen Sie als Nächstes **[!UICONTROL Akzeptieren]** aus, um mit der Verbindung fortzufahren. Der Verbindungsstatus ändert sich in **[!UICONTROL Aktiv]** und Sie können jetzt mit der Zusammenarbeit an Projekten beginnen.
 
 ## Verbindungen löschen {#delete-connections}
 
@@ -199,7 +361,7 @@ Es wird ein Bestätigungsdialogfeld angezeigt, in dem Sie aufgefordert werden, d
 
 >[!WARNING]
 >
->Nachdem die Verbindung gelöscht wurde, sind Sie nicht mehr mit dem Mitarbeiter verbunden und alle vorhandenen Projekte, die Teil der Zusammenarbeit sind, werden dauerhaft gelöscht und können nicht wiederhergestellt werden.
+>Sobald die Verbindung gelöscht ist, werden alle vorhandenen Projekte in der Zusammenarbeit dauerhaft gelöscht und können nicht wiederhergestellt werden. Die Verbindungsanfrage verbleibt in einem ausstehenden Status, aber die Verbindung und ihre Konfigurationen sind nicht mehr aktiv. Sie müssen die Verbindung wiederherstellen, wenn Sie erneut eine Verbindung mit dem Mitarbeiter herstellen möchten.
 
 ## Nächste Schritte
 

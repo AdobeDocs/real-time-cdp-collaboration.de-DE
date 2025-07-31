@@ -2,11 +2,11 @@
 title: Publisher entdecken
 description: Erfahren Sie, wie Sie als Advertiser potenzielle Publisher finden, mit denen Sie bei der Verwendung von Adobe Real-Time CDP Collaboration zusammenarbeiten können
 audience: admin, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 2%
 {{limited-availability-release-note}}
 
 Entdecken Sie potenzielle Herausgeber in Adobe Real-Time CDP Collaboration und stellen Sie Verbindungen zu ihnen her. Dieses Handbuch bietet Einblicke in die Identifizierung idealer Mitarbeiter und die Verwendung ihrer Zielgruppen zur Verbesserung Ihrer Marketing-Kampagnen.
+
+>[!NOTE]
+>
+>Derzeit ist der Arbeitsbereich **[!UICONTROL Discover Publishers]** nur für Werbetreibende verfügbar.
 
 Um Publisher zu finden, gehen Sie zur Registerkarte **[!UICONTROL Verbinden]** > **[!UICONTROL Publisher]**.
 

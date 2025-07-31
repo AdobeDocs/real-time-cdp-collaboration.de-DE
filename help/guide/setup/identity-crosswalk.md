@@ -2,11 +2,11 @@
 title: Identitäts-Crosswalks
 description: Erfahren Sie alles über Identitätsübergänge in Real-Time CDP Collaboration, einschließlich der Einbindung von Identitätsübergängen aus verschiedenen Quellen und der Verwaltung von Identitätsübergängen
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 Erfahren Sie alles über Identitätsübergänge in Real-Time CDP Collaboration, einschließlich der Einbindung von Identitätsübergängen aus verschiedenen Quellen und der Verwaltung von Identitätsübergängen.
 
 Identitäts-Crosswalks erleichtern die sichere und datenschutzkonforme Verknüpfung von Kundenidentitäten über mehrere Datensätze und Plattformen hinweg. Durch die Verwendung von Hash-Kennungen stellt Real-Time CDP Collaboration sicher, dass Benutzende Identitäten synchronisieren und abgleichen können, ohne personenbezogene Daten (PII) verfügbar zu machen. Dies ermöglicht eine einheitliche Sicht auf den Kunden für eine bessere Zusammenarbeit und zielgerichtete Marketing-Maßnahmen.
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 Als ersten Schritt müssen Sie Identity Crosswalks in Real-Time CDP Collaboration importieren. Informationen zum Importieren von Identity Crosswalks in Real-Time CDP Collaboration finden Sie im folgenden Abschnitt:
 

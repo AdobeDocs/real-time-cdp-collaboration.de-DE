@@ -2,12 +2,12 @@
 title: Leistung messen
 description: Messen Sie die Leistung Ihrer Kampagnen über verschiedene Kanäle hinweg. Erfahren Sie, wie Sie verschiedene Berichte verwenden und interpretieren.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Erfahren Sie mehr über die verfügbaren Berichte in Adobe Real-Time CDP Collabo
 
 Bevor Sie auf die Messberichte in Collaboration zugreifen können, haben Sie bereits Folgendes getan:
 
-* [Verbunden](/help/guide/connect/establishing-connections.md) mit einem gewünschten Advertiser oder Publisher, für den der **Measurement**-Anwendungsfall aktiviert ist und der mit der Zusammenarbeit an [Projekten](/help/guide/collaborate/manage-projects.md)
+* [Verbunden](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter mit aktiviertem **Measurement**-Anwendungsfall und begann mit der Zusammenarbeit an [Projekten](/help/guide/collaborate/manage-projects.md)
 * Führen Sie eine Kampagne aus und [hochgeladene Messdaten](/help/guide/setup/onboard-measurement-data.md) in Collaboration.
 
 <!--
@@ -104,9 +104,3 @@ Im Verlauf der Kampagne und der steigenden Anzahl von Impressionen wissen Sie, o
 Erfahren Sie, welches Medium Eindrücke für Ihre Kreativen hervorruft. Dies kann Ihnen bei der Entscheidung helfen, wo Sie Ihre Werbeausgaben in zukünftige Kampagnen investieren sollten.
 
 ![Impressions nach Platzierung.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## Nächste Schritte
-
-![Entdecken, aktivieren, messen für Werbetreibende.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-Nutzen Sie im Sinne der oben gezeigten Zyklizität bei der Planung Ihrer nächsten Kampagne die Einblicke, die Sie durch die Anzeige der Berichte erhalten haben. Wenn Sie als Werbetreibender erforderlich sind, gehen Sie zurück, um verschiedene Herausgeber zu entdecken, und führen Sie Überschneidungen aus, um verschiedene Zielgruppen für Ihre nächsten Kampagnen zu entdecken.

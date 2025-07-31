@@ -2,9 +2,9 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 20%
@@ -19,7 +19,7 @@ ht-degree: 20%
 >
 >Der **[!UICONTROL Entdecken]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenerkennung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
-Nach [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md) können Sie Ihre Zielgruppen mit Ihren Mitwirkenden vergleichen. Auf diese Weise können Sie relevante Zielgruppen für Kampagnen identifizieren und entscheiden, welche zur Aktivierung an Publisher gesendet werden sollen.
+Nach [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md) können Sie Ihre Zielgruppen mit Ihren Mitwirkenden vergleichen. Auf diese Weise können Sie relevante Zielgruppen für Kampagnen identifizieren und entscheiden, welche zur Aktivierung an Mitwirkende gesendet werden sollen.
 
 >[!IMPORTANT]
 >

@@ -2,11 +2,11 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 18%
 
 ---
@@ -39,13 +39,11 @@ Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!U
 >title="Verbindungs-Code"
 >abstract="Der Verbindungs-Code ist eine eindeutige Kennung für Ihr Konto. Er wird verwendet, um in Real-Time CDP Collaboration Verbindungen zu anderen Mitwirkenden herzustellen."
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kontodetails einrichten. Dazu müssen Sie die folgenden Informationen hinzufügen:
 
 * Fügen Sie einen **[!UICONTROL Kontonamen]** hinzu, der Ihre Marke deutlich darstellt.
 * Fügen Sie eine **[!UICONTROL Beschreibung]** über Ihre Marke hinzu. Dies ist optional, hilft anderen Mitwirkenden jedoch, Ihre Marke besser zu verstehen.
-* Wählen Sie Ihre **[!UICONTROL Rolle]** aus. Sie können zwischen **[!UICONTROL Advertiser]** und **[!UICONTROL Publisher]** wählen. Lesen Sie das [End-to-End](/help/guide/end-to-end-workflow.md)Workflow-Dokument, um Ähnlichkeiten und leichte Unterschiede im Workflow zwischen den beiden Rollentypen der Organisation zu sehen.
+* Wählen Sie Ihre **[!UICONTROL Rolle]** aus. Sie können zwischen **[!UICONTROL Advertiser]** und **[!UICONTROL Publisher]** wählen. Lesen Sie das [Rollen](/help/guide/overview/roles.md)-Handbuch, um Ähnlichkeiten und leichte Unterschiede im Workflow zwischen den beiden Kontorollentypen zu sehen.
 <!-- The above will need to be updated when I update things for B2B -->
 * Wählen Sie die **[!UICONTROL Branche]** für Ihr Konto aus. Einige Beispiele sind **[!UICONTROL Einzelhandel]**, **[!UICONTROL Telekommunikation]** oder **[!UICONTROL Finanzdienstleistungen]**.
 * Die **[!UICONTROL Region]** wird automatisch anhand Ihres Adobe Experience Cloud-Kontos festgelegt. Dies kann nicht jederzeit geändert werden.

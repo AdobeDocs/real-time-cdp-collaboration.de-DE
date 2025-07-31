@@ -1,19 +1,19 @@
 ---
 title: Real-Time CDP Collaboration-Schnellstartanleitung
-description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieses Handbuch hilft Werbetreibenden und Publishern, die Einstellungen für die Zusammenarbeit zu konfigurieren und mit der sicheren und effizienten Verwendung freigegebener Zielgruppen zu beginnen.
+description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieser Leitfaden hilft Mitarbeitern bei der Konfiguration von Verbindungseinstellungen, um mit der sicheren und effizienten Nutzung ihrer Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration-Schnellstartanleitung
 
-
+{{limited-availability-release-note}}
 
 Beginnen Sie mit Real-Time CDP Collaboration, indem Sie Ihr Unternehmen konfigurieren, Zielgruppen finden und eine datenschutzorientierte Aktivierung und Messung aktivieren.
 
@@ -31,10 +31,6 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
 ## Schritt 1: Rollenbasierte Einrichtung abschließen {#complete-role-based-setup}
 
->[!NOTE]
->
->Dieser Schritt gilt sowohl für Werbetreibende als auch für Herausgeber.
-
 Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration sehen und tun können. Bevor Sie fortfahren, stellen Sie sicher, dass rollenbasierte Berechtigungen korrekt eingerichtet sind, um den entsprechenden Zugriff und die Sichtbarkeit in der Plattform sicherzustellen.
 
 **Ressourcen:**
@@ -45,13 +41,9 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration mithilfe von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten des Collaboration-Kontos {#set-up-your-account}
-
->[!NOTE]
->
->Dieser Schritt gilt sowohl für Werbetreibende als auch für Herausgeber.
 
 Bevor Sie Zielgruppen beziehen können, müssen Sie Ihr -Konto in Collaboration konfigurieren. Dies legt fest, wie Sie in der Benutzeroberfläche angezeigt werden und worauf Sie Zugriff haben.
 
@@ -63,7 +55,7 @@ Definieren Sie die Rolle Ihres Kontos in Collaboration, stellen Sie Branding-Ass
 >
 >Sie können während der Einrichtung ein oder mehrere Konten erstellen (z. B. einen Advertiser und einen Publisher). Bestimmte Felder wie Branding-Assets und Kontakt-E-Mails können später im Arbeitsbereich **[!UICONTROL Einstellungen]** aktualisiert werden.
 
-- **Rolle zuweisen** - Bestimmt, ob Ihr Konto als Advertiser oder Publisher fungiert. Ihre Rolle definiert, welche Funktionen Sie in Collaboration haben. Weitere Informationen dazu, wie sich Rollen auf den Workflow für die Zusammenarbeit auswirken, finden [ im Handbuch zum End-to-End-Workflow ](./end-to-end-workflow.md).
+- **Rolle zuweisen** - Bestimmt, ob Ihr Konto ein Advertiser oder ein Publisher ist. Ihre Rolle definiert, welche Funktionen Sie in Collaboration haben. Weitere Informationen dazu, wie sich Rollen auf den Workflow für die Zusammenarbeit auswirken, finden Sie im Handbuch [Rollen](./overview/roles.md) .
 - **Branding-**: Fügen Sie Ihrem Konto Folgendes hinzu:
    - Kontoname (max. 100 Zeichen)
    - Beschreibung (max. 1.000 Zeichen)
@@ -125,7 +117,7 @@ Sehen Sie sich das folgende Video an, um eine vollständige exemplarische Vorgeh
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppen in Collaboration](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppen in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
 ### Option B: Source von Snowflake oder Amazon S3
 
@@ -139,10 +131,6 @@ Um eine Cloud-Quelle zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]
 
 ## Schritt 4: Aktivieren von Zielgruppen (für Experience Platform oder ein Cloud-Ziel) {#activate-audiences}
 
->[!NOTE]
->
->Dieser Schritt gilt sowohl für Werbetreibende als auch für Herausgeber.
-
 Aktivieren Sie als Nächstes Zielgruppen entweder für Ihre Experience Platform-Instanz oder für ein Cloud-Ziel.
 
 ### Option A: Für Experience Platform aktivieren
@@ -152,7 +140,7 @@ Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Nach Abschluss des Setups ist Ihr Unternehmen nun bereit, sich mit Partnern zu verbinden, indem Einladungen gesendet oder angenommen und Projekteinstellungen zur Genehmigung eingereicht werden. Dieser Verbindungsprozess umfasst das Senden oder Empfangen von Einladungen, das Überprüfen und Senden von Verbindungseinstellungen (z. B. Anwendungsfälle und Kreditverbrauch) und das Bestätigen der Verbindung.
 
-Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen.
+Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen. Alternativ können sich Mitarbeiter über (private [) direkt miteinander ](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
 >Derzeit können nur Werbetreibende Herausgeber durchsuchen. Publisher können keine Verbindungen zu Advertisern suchen oder initiieren.
 
-Einen Überblick über diesen Fluss finden Sie im Handbuch [Verbinden mit Werbetreibenden oder Herausgebern](./connect/establishing-connections.md){target="_blank"}. Eine visuelle Anleitung zum Verbindungsprozess, einschließlich dem Durchsuchen von Partnern und dem Verwalten von Verbindungseinstellungen, finden Sie im Video [Einrichten von Advertiser-Konten](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Einen Überblick über diesen Fluss finden Sie im [Handbuch zum Herstellen von Verbindungen](./connect/establishing-connections.md){target="_blank"}. Eine visuelle Anleitung zum Verbindungsprozess, einschließlich dem Durchsuchen von Partnern und dem Verwalten von Verbindungseinstellungen, finden Sie im Video [Einrichten von Advertiser-Konten](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Nächste Schritte
 

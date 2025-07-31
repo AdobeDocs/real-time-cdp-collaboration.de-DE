@@ -2,11 +2,11 @@
 title: Konfigurieren und Verwalten von Zielen
 description: Erfahren Sie, wie Sie Ziele in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Ziele sind Integrationen, die zum Senden zielgerichteter Zielgruppen an externe Plattformen verwendet werden. Mit diesen Integrationen können Sie Zielgruppen über verschiedene Marketing-Kanäle und Plattformen hinweg aktivieren, um sie in Kampagnen und bei der Kundeninteraktion zu verwenden.
 
-Derzeit sind Ziele nur für Publisher in Real-Time CDP Collaboration verfügbar. Herausgeber können Ziele konfigurieren, um Zielgruppen auf externen Plattformen wie Adobe Experience Platform für die Verwendung in Kampagnen zu aktivieren. Werbetreibende können dann [Zielgruppen innerhalb eines Projekts senden](../collaborate/activate.md) die an das konfigurierte Ziel des Herausgebers gesendet werden.
+Mitwirkende können Ziele konfigurieren, um Zielgruppen zur Verwendung in Kampagnen an externe Plattformen wie Adobe Experience Platform zu senden. Mitwirkende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel ihrer Verbindung gesendet werden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [ Mitarbeiter ](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 ![Auf der Registerkarte „Meine Ziele“ im Setup-Arbeitsbereich werden aktive Adobe Experience Platform-Ziele angezeigt.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ Der Einrichtungsprozess für Ziele hängt vom Ziel ab, das Sie konfigurieren. Si
 
 ## Löschen von Zielen {#delete-destinations}
 
-Wenn Sie ein Ziel löschen, wird es aus Ihrer Organisation entfernt, alle zuvor gesendeten Zielgruppen werden aus dem Ziel entfernt und es wird verhindert, dass zukünftige Zielgruppen an dieses Ziel gesendet werden.
+Wenn Sie ein Ziel löschen, wird es aus Ihrem Konto entfernt, alle zuvor gesendeten Zielgruppen werden aus dem Ziel entfernt und es wird verhindert, dass zukünftige Zielgruppen an dieses Ziel gesendet werden.
 
 Um ein Ziel zu löschen, navigieren Sie zur Registerkarte **[!UICONTROL Meine Ziele]** im Abschnitt **[!UICONTROL Setup]**. Wählen Sie die **[!UICONTROL Löschen]** für das Ziel aus, das Sie entfernen möchten.
 
@@ -53,4 +53,4 @@ Es wird ein Bestätigungsdialogfeld angezeigt, in dem Sie bestätigen können, d
 
 ## Nächste Schritte
 
-Nachdem Sie Ihr Ziel konfiguriert haben, können Sie mit Ihren Advertisern zusammenarbeiten, um [ Zielgruppen in ](../collaborate/activate.md) Projekten zu aktivieren.
+Nachdem Sie Ihr Ziel konfiguriert haben, können Sie innerhalb Ihrer Verbindungen zusammenarbeiten, um Zielgruppen in [ Projekten ](../collaborate/activate.md) aktivieren.
