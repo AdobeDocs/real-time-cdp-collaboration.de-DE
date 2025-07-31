@@ -2,12 +2,12 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -32,12 +32,12 @@ Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!U
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="Kontakt-E-Mail"
->abstract="Bitte geben Sie eine Team- oder rollenbasierte E-Mail an, z. B. **collaboration@yourcompany.com**. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
+>abstract="Geben Sie eine Team- oder rollenbasierte E-Mail-Adresse an, z. B. **collaboration@ihrunternehmen.com**. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="Verbindungs-Code"
->abstract="Der Verbindungs-Code ist eine eindeutige Kennung für Ihr Konto. Es wird verwendet, um Verbindungen zu anderen Mitwirkenden in Real-Time CDP Collaboration herzustellen."
+>abstract="Der Verbindungs-Code ist eine eindeutige Kennung für Ihr Konto. Er wird verwendet, um in Real-Time CDP Collaboration Verbindungen zu anderen Mitwirkenden herzustellen."
 
 <!-- Move the above popover to new section for invite on this page when its created -->
 
@@ -64,7 +64,7 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Ihre Marke arbeiten kann."
+>abstract="Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Schließen Sie alle Übereinstimmungsschlüssel ein, mit denen Ihre Marke arbeiten kann."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"

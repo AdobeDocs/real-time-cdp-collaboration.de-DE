@@ -2,12 +2,12 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Im Abschnitt Vergleichen von Zielgruppen werden die folgenden Metriken angezeigt
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Relevante Zielgruppen"
->abstract="Basierend auf den Überschneidungsprozentsätzen könnten diese Zielgruppen gut zu Ihrer Kampagne passen. <br><br> Die <b>Identitätsanzahl</b> ist die Zielgruppengröße des Mitarbeiters. <br><br> <b>Identitäten überschneiden</b> stellt die Überschneidung zwischen der empfohlenen Zielgruppe und allen Ihren Zielgruppen dar. <br><br> Die <b>Überschneidung %</b> stellt die Anzahl der sich überschneidenden Identitäten dividiert durch die Größe <i>aller</i> Ihrer Zielgruppen dar."
+>abstract="Basierend auf den Prozentsätzen der Überschneidungen könnten diese Zielgruppen gut zu Ihrer Kampagne passen. <br><br> Die <b>Anzahl der Identitäten</b> ist die Größe der Zielgruppe der bzw. des Mitwirkenden. <br><br> <b>Überlappende Identitäten</b> stellt die Überschneidung zwischen der empfohlenen Zielgruppe und allen Ihren Zielgruppen dar. <br><br><b>Überschneidung %</b> stellt die Anzahl der sich überschneidenden Identitäten geteilt durch die Größe <i>aller</i> Ihrer Zielgruppen dar."
 
 Der Abschnitt **[!UICONTROL Relevante Zielgruppen]** auf der Registerkarte **[!UICONTROL Entdecken]** enthält eine kuratierte Liste der fünf häufigsten Zielgruppen, basierend auf dem Prozentsatz der Überschneidung zwischen der Zielgruppe Ihres Mitarbeiters und allen Ihren Zielgruppen. Mit dieser Funktion können Sie die Zielgruppen mit der höchsten Überschneidung schnell identifizieren, sodass Sie Ihre Kampagnen effektiver ansprechen können. Wechseln Sie mithilfe der Seitenauswahl oben rechts im Abschnitt zwischen den relevanten Zielgruppen.
 
