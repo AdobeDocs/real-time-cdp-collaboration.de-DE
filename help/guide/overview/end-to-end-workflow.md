@@ -1,12 +1,12 @@
 ---
 title: End-to-End-Workflow
-description: Verstehen des End-to-End-Workflows bei der Verwendung von Real-Time CDP Collaboration als Advertiser oder Publisher
+description: Machen Sie sich mit dem End-to-End-Workflow der Verwendung von Real-Time CDP Collaboration auf der Grundlage Ihres Kooperationsmusters vertraut.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,48 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration ermöglicht es Werbetreibenden und Publishern, an Kampagnen auf datenschutzorientierte Weise zusammenzuarbeiten. Lesen Sie diese Seite, um zu verstehen, wie Sie als Advertiser oder Publisher das Produkt optimal nutzen können.
+In Adobe Real-Time CDP Collaboration variiert der End-to-End-Workflow je nach ausgewähltem Zusammenarbeitsmuster. Der Workflow beschreibt die Schritte, die bei der Einrichtung und Ausführung eines Collaboration-Projekts erforderlich sind, von der Erstellung von Konten und der Beschaffung von Zielgruppen bis hin zur Herstellung von Verbindungen und zur Erstellung von Projekten. Das Verständnis dieses Workflows ist von entscheidender Bedeutung, um die Funktionen der Plattform effektiv nutzen zu können, um Ihre Marketing-Ziele zu erreichen.
 
-## Advertiser-End-to-End-Workflow {#advertiser}
+## Erste Schritte
 
-Beginnen Sie als Werbetreibender damit, [ Sie Ihr Unternehmen ](/help/guide/setup/onboard-account.md) Real-Time CDP Collaboration einbinden. Verwenden Sie die [Einrichtungsseite](/help/guide/setup/setup-overview.md) zum Senden und Bearbeiten Ihrer Unternehmenseinstellungen, fügen Sie Ihre bevorzugten Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten werden, und entscheiden Sie, welche Daten einbezogen werden sollen. In der ersten Version ermöglicht Ihnen das Produkt nur [Import von Zielgruppen](/help/guide/setup/onboard-audiences.md) aus Adobe Experience Platform.
+Bevor Sie beginnen, stellen Sie sicher, dass Sie über ein solides Verständnis dieser Schlüsselkonzepte verfügen:
 
-![Entdecken, aktivieren, messen für Werbetreibende.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+- **Collaboration-Muster**: Diese Muster definieren, wie Kollaborateure zusammenarbeiten. Es gibt zwei verschiedene Muster[ „Advertiser-](./collaboration-patterns.md#advertiser-to-publisher)&quot; und [Marke-zu-Marke](./collaboration-patterns.md#brand-to-brand).
+- **Kontorollen**: Kontorollen bestimmen Ihre Funktionen innerhalb der Plattform. Sie sollten mit den Zielen, der Marke und den Zielen Ihres Unternehmens übereinstimmen. Es gibt zwei Kontorollen: [Advertiser](./roles.md#advertiser) und [Publisher](./roles.md#publisher).
+- **Anwendungsfälle**: Anwendungsfälle definieren, wie Sie Collaboration zum Erreichen Ihrer Marketing-Ziele nutzen können. Es gibt drei Anwendungsfälle für die Zusammenarbeit: [Entdecken](./use-cases.md#discover), [Aktivieren](./use-cases.md#activate) und [Messen](./use-cases.md#measure).
 
-Verwenden Sie die [Entdecken“, um Herausgeber zu finden](/help/guide/connect/discover-publishers.md) mit denen Sie für Kampagnen arbeiten möchten. Kontaktieren Sie den Herausgeber und besprechen Sie die Bedingungen für die Zusammenarbeit außerhalb des Produkts. Sobald Sie sich auf einen Satz von Bedingungen geeinigt haben, können Sie [eine Verbindungseinladung senden](/help/guide/connect/establishing-connections.md) und Kooperationseinstellungen vorschlagen, um eine Verbindung mit dem Herausgeber herzustellen.
+In diesem Handbuch werden drei Pseudo-Kollaborateure verwendet, um den End-to-End-Workflow zu veranschaulichen:
 
-Nachdem der Herausgeber Ihre Verbindungsanfrage akzeptiert hat, ist es an der Zeit, die sich überschneidenden Zielgruppen zwischen Ihrer Organisation und ihren zu untersuchen. Richten Sie ein Projekt für eine Kampagne ein [ führen Sie Überschneidungsberichte ](/help/guide/collaborate/discover.md), um je nach Anwendungsfall der Zusammenarbeit die besten Zielgruppen für Ihre nächste Werbekampagne zu ermitteln - Zielgruppenbestimmung, Unterdrückung und andere.
+- **[!UICONTROL Luma]**: Eine Sportbekleidungsmarke. Sie sind ein Advertiser, der durch zielgerichtete Marketing-Kampagnen bestimmte Zielgruppen erreichen möchte.
+- **[!UICONTROL TV Tube]**: Ein digitaler Streaming-Anbieter. Sie sind ein Publisher, der Zielgruppendaten für die Verwendung durch Advertiser bereitstellt.
+- **[!UICONTROL Fit Apparel]**: Eine weitere Sportbekleidungsmarke. Sie sind ein zweiter Werbetreibender, der zusammenarbeiten möchte, um Zielgruppendaten und Einblicke für verbesserte Marketing-Maßnahmen zu teilen.
 
-Sobald Sie die idealen Zielgruppen entdeckt haben, ist es an der Zeit, sie zu [aktivieren](/help/guide/collaborate/activate.md).
+## Workflow von Advertiser zu Publisher {#advertiser-to-publisher-workflow}
 
-Der letzte Schritt in der Kollaborationsschleife ist [Messung](/help/guide/collaborate/measure.md). Um Ihre Geschäftsergebnisse zu messen oder zu kennen, laden Sie Messdaten wie Anzeigenprotokolle hoch und führen Sie dann die im Programm bereitgestellten Berichte aus, um zu verstehen, wie Ihre Zielgruppen funktioniert haben.
+[!UICONTROL Luma], ein Sporteinzelhandelsunternehmen, möchte eine Verbindung mit [!UICONTROL TV Tube], einem digitalen Streaming-Anbieter, herstellen, um bestimmte Zielgruppen durch zielgerichtete Marketing-Kampagnen zu erreichen.
 
-## End-to-End-Workflow von Publisher {#publisher}
+Zunächst muss [!UICONTROL Luma] mit der Advertiser[Rolle ](../setup/onboard-account.md)Konto erstellen, während [!UICONTROL TV Tube] ein Konto mit der Publisher-Rolle erstellt.
 
-Als Publisher starten Sie mit dem Onboarding [ Unternehmens ](/help/guide/setup/onboard-account.md) Real-Time CDP Collaboration. Auf der [Setup-Seite](/help/guide/setup/setup-overview.md) können verschiedene Unternehmenseinstellungen bearbeitet werden.
+Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Luma] als auch [!UICONTROL TV Tube] eine [Datenverbindung und Quell-Zielgruppen) ](../setup/onboard-audiences.md). Nur [!UICONTROL TV Tube] aktiviert Zielgruppen für Marketing-Kampagnen. Daher müssen sie [ein Ziel konfigurieren](../setup/manage-destinations.md).
 
-Entscheiden Sie, welche Zielgruppendaten importiert werden sollen und welche Zielgruppen für die Werbetreibenden, die eine Verbindung zu Ihnen herstellen möchten, im Bereich **[!UICONTROL Verbinden]** des Produkts erkennbar und sichtbar gemacht werden sollen.
+Sobald die Konten beider Mitarbeiter eingerichtet sind, können sie innerhalb der Plattform [eine Verbindung ](../connect/establishing-connections.md). [!UICONTROL Luma] verwendet die [Discover Publishers](../connect/discover-publishers.md)-Funktion, um [!UICONTROL TV Tube] zu finden und eine Verbindungsanfrage zu initiieren. Nachdem [!UICONTROL TV Tube] die Verbindungsanfrage akzeptiert hat, konfiguriert [!UICONTROL Luma] die Verbindungseinstellungen, um zu definieren, wie die Zusammenarbeit funktioniert. [!UICONTROL TV Tube] akzeptiert die Verbindungsanfrage, um eine sichere Verbindung zwischen den beiden Marken herzustellen.
 
-Stellen Sie beim Importieren von Zielgruppen in Real-Time CDP Collaboration sicher, dass Sie die Zielgruppen taggen und kategorisieren. Real-Time CDP Collaboration verwendet für die Kategorisierung von Zielgruppen die [IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}Taxonomie.
+Nachdem die Verbindung hergestellt wurde, [!UICONTROL Luma] [erstellt ein Projekt](../collaborate/manage-projects.md) um ihre Zusammenarbeit mit [!UICONTROL TV Tube] zu starten. Während der Projekteinrichtung wählen sie die Anwendungsfälle für die Zusammenarbeit aus, die ihren Zielen am besten entsprechen: [Entdecken](../collaborate/discover.md), [Aktivieren](../collaborate/activate.md) und [Messen](../collaborate/measure.md).
 
-Entscheiden Sie, mit welchen Werbetreibenden Sie arbeiten möchten, und wenden Sie sich an den Werbetreibenden, um Kooperationsbedingungen außerhalb des Produkts zu besprechen. Warten Sie nach der Vereinbarung einer Reihe von Bedingungen, bis der Advertiser eine formelle Einladung zur Verbindung mit Ihnen verlängert hat. Im Allgemeinen sollten Sie auch ausstehende Verbindungsanfragen von Advertiser-Marken überwachen, die mit Ihnen an Kampagnen arbeiten möchten. Überprüfen Sie die von Ihrem potenziellen Mitwirkenden vorgeschlagenen Verbindungseinstellungen und stimmen Sie diese zu oder ändern Sie sie, bevor Sie mit der Zusammenarbeit beginnen.
+[!UICONTROL Luma] nutzt das [Entdecken](../collaborate/discover.md)-Anwendungsbeispiel, um Einblicke in die Zielgruppendaten [!UICONTROL TV Tube] zu erhalten. Nachdem [!UICONTROL Luma] die Zielgruppensegmente identifiziert hat, [ sie diese Zielgruppen ](../collaborate/activate.md).
 
-Nachdem Sie die Verbindungsanfrage akzeptiert haben, ist es an der Zeit, die sich überschneidenden Zielgruppen zwischen Ihnen und Ihrem Mitarbeiter zu untersuchen. Der Werbetreibende richtet ein Projekt für eine Kampagne ein und erstellt Überschneidungsberichte zwischen seinen Zielgruppen und denen Ihres Unternehmens, die auf den gewünschten Zielen basieren: Kundenakquise, Unterdrückung und mehr.
+Nach der Aktivierung der Zielgruppen führt [!UICONTROL TV Tube] zielgerichtete Marketing-Kampagnen durch und lädt Daten in [Measure](../collaborate/measure.md) hoch, um die Effektivität der Kampagne zu bewerten.
 
-Sobald der Advertiser die idealen Zielgruppen für eine Kampagne gefunden hat und diese an Sie sendet, können Sie sie aktivieren und die Kampagne starten.
+## Marken-zu-Marken-Workflow {#brand-to-brand-workflow}
 
-Der letzte Schritt in der Kollaborationsschleife ist das Messen. Um zu erfahren, wie Ihre Kampagnen abgeschnitten haben, laden Sie als letzten Schritt Messdaten wie Anzeigenprotokolle hoch und führen Sie dann die im Programm bereitgestellten Berichte aus, um zu verstehen, wie die Zielgruppen abgeschnitten haben.
+[!UICONTROL Fit Apparel], eine Sportbekleidungsmarke, möchte mit [!UICONTROL Luma], einer anderen Sportbekleidungsmarke, zusammenarbeiten, um Zielgruppendaten und Einblicke für verbesserte Marketing-Maßnahmen zu teilen.
 
-## Nächste Schritte
+Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Fit Apparel] als [!UICONTROL Luma] eine [ und eine Quellzielgruppe ](../setup/onboard-audiences.md). Sowohl [!UICONTROL Fit Apparel] als [!UICONTROL Luma] werden Zielgruppen für Marketing-Kampagnen aktivieren, sodass beide [Ziel konfigurieren](../setup/manage-destinations.md).
 
-Lesen Sie nach einem Verständnis des allgemeinen End-to-End-Workflows basierend auf der Rolle des Unternehmens [Anwendungsbeispiele](/help/guide/overview/use-cases.md), die im Produkt unterstützt werden.
+Nachdem sie ihre Zielgruppen abgerufen haben, [!UICONTROL Fit Apparel] und [!UICONTROL Luma] [eine Verbindung ](../connect/establishing-connections.md) der Plattform, um Zielgruppendaten sicher freizugeben. Dazu müssen sie die Funktion „Einladung zur privaten [&quot; ](../connect/establishing-connections.md#private-connection-invite). [!UICONTROL Luma] gibt ihren Verbindungs-Code an [!UICONTROL Fit Apparel] weiter, der ihn dann verwendet, um eine Verbindungsanfrage zu initiieren. Nachdem [!UICONTROL Luma] die Verbindungsanfrage akzeptiert hat, konfiguriert [!UICONTROL Fit Apparel] die Verbindungseinstellungen, um zu definieren, wie sie zusammenarbeiten werden. In der Konfiguration gibt [!UICONTROL Bekleidung anpassen] an, dass beide Mitarbeiter Zielgruppen für Marketing-Kampagnen aktivieren können. Um die Verbindung abzuschließen, [!UICONTROL Luma] akzeptiert die Anfrage, eine sichere Verbindung zwischen den beiden Marken herzustellen.
+
+Nachdem die Verbindung hergestellt wurde, [!UICONTROL Fit Apparel] [erstellt ein Projekt](../collaborate/manage-projects.md) um ihre Zusammenarbeit mit [!UICONTROL Luma] zu starten. Während der Projekteinrichtung wählen sie die Anwendungsfälle für die Zusammenarbeit aus, die ihren Zielen am besten entsprechen: [Entdecken](../collaborate/discover.md), [Aktivieren](../collaborate/activate.md) und [Messen](../collaborate/measure.md).
+
+[!UICONTROL Fit Apparel] und [!UICONTROL Luma] können beide den Anwendungsfall [Entdecken](../collaborate/discover.md) verwenden, um Einblicke in die Zielgruppendaten des anderen zu erhalten. Nachdem sie wertvolle Zielgruppensegmente identifiziert haben, [ sie ihre ](../collaborate/activate.md) Zielgruppen für Marketing-Kampagnen (aktivieren).
+
+Schließlich laden beide Marken nach der Durchführung ihrer Kampagnen Daten in [Measure](../collaborate/measure.md) hoch und bewerten die Effektivität ihrer Zusammenarbeit.
