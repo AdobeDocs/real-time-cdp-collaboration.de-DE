@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration-Schnellstartanleitung
 description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieser Leitfaden hilft Mitarbeitern bei der Konfiguration von Verbindungseinstellungen, um mit der sicheren und effizienten Nutzung ihrer Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration mithilfe von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten des Collaboration-Kontos {#set-up-your-account}
 
@@ -140,7 +140,7 @@ Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 
@@ -162,7 +162,9 @@ Collaboration bietet eine Vielzahl von Berichten zur Analyse der Reichweite, Hä
 
 Informationen zum Anzeigen und Interpretieren von Messberichten finden Sie im [Messhandbuch](./collaborate/measure.md). Es behandelt Attribution, zusammengefasste Kampagnenmetriken und Dashboards wie Reichweitenkurven und Häufigkeitsverteilung.
 
-<!-- Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+<!-- 
+Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
+
 ### Configure measurement workflow
 
 Collaboration supports two measurement workflows:
@@ -206,7 +208,8 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Navigate to the **[!UICONTROL Measure]** workspace within the project.
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
-   - Submit the report. It will run on the selected date and populate within 24 hours. -->
+   - Submit the report. It will run on the selected date and populate within 24 hours. 
+-->
 
 ## Schritt 6: Vernetzung mit Partnern {#connect-with-collaborators}
 

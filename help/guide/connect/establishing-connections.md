@@ -2,9 +2,9 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ Im Muster von Advertiser zu Publisher erkennt ein Advertiser einen Publisher, mi
 Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, sind die folgenden Schritte erforderlich:
 
 1. [Publisher entdecken](#discover-publishers): Der Advertiser identifiziert potenzielle Publisher, mit denen er zusammenarbeiten soll.
-2. [Einladung senden](#send-invite): Der Advertiser sendet eine Einladung zur Verbindung an den ausgewählten Publisher.
-3. [Einladung annehmen](#accept-invite): Der Herausgeber prüft und akzeptiert die Einladung.
-4. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
-5. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
+1. [Einladung senden](#send-invite): Der Advertiser sendet eine Einladung zur Verbindung an den ausgewählten Publisher.
+1. [Einladung annehmen](#accept-invite): Der Herausgeber prüft und akzeptiert die Einladung.
+1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
+1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
 
 Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
@@ -65,14 +65,14 @@ Zunächst sendet ein Mitarbeiter eine private Verbindungseinladung an einen ande
 Der Verbindungsprozess zwischen zwei Marken umfasst mehrere Schritte. Bevor der Verbindungsprozess beginnt, müssen einige Voraussetzungen erfüllt sein:
 
 1. Zwei Marken kommunizieren außerhalb des Produkts, um die potenzielle Verbindung zu besprechen.
-2. Die Marken [erstellen ](/help/guide/setup/onboard-account.md) in Collaboration, falls noch nicht geschehen, und achten darauf, den entsprechenden Rollentyp (Advertiser oder Publisher) auszuwählen.
+1. Die Marken [erstellen ](/help/guide/setup/onboard-account.md) in Collaboration, falls noch nicht geschehen, und achten darauf, den entsprechenden Rollentyp (Advertiser oder Publisher) auszuwählen.
 
-Sobald die Voraussetzungen erfüllt sind, kann der Verbindungsprozess gestartet werden. Die folgenden Schritte beschreiben den Prozess:
+   Sobald die Voraussetzungen erfüllt sind, kann der Verbindungsprozess gestartet werden. Die folgenden Schritte beschreiben den Prozess:
 
 1. [Einladung zur privaten Verbindung senden](#send-private-connection-invite): Ein Mitarbeiter sendet eine Einladung zur privaten Verbindung an einen anderen Mitarbeiter.
-2. [Einladung zur privaten Verbindung akzeptieren](#accept-private-connection-invite): Der Empfänger prüft und akzeptiert die Einladung zur privaten Verbindung.
-3. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Eigentümer konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung und Annahme an den Empfänger.
-4. [Verbindungseinstellungen bestätigen](#establish-connection): Der Empfänger prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab.
+1. [Einladung zur privaten Verbindung akzeptieren](#accept-private-connection-invite): Der Empfänger prüft und akzeptiert die Einladung zur privaten Verbindung.
+1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Eigentümer konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung und Annahme an den Empfänger.
+1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Empfänger prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab.
 
 Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
@@ -118,7 +118,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -310,8 +310,8 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änder
 Beim Erstellen eines Projekts wird der Advertiser-Name basierend auf den folgenden Einstellungen, die während der Verbindung festgelegt wurden, vorbefüllt    :
 
 1. **Kein Advertiser-Name festgelegt**: Wenn keine Advertiser-Namen hinzugefügt werden, verwendet Collaboration standardmäßig den Namen des Advertisers als Advertiser-Namen.
-2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
-3. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
+1. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
+1. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
 
 >[!NOTE]
 >
