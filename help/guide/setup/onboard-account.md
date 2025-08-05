@@ -2,7 +2,7 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!U
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="Kontakt-E-Mail"
->abstract="Geben Sie eine Team- oder rollenbasierte E-Mail-Adresse an, z. B. **collaboration@ihrunternehmen.com**. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
+>abstract="Bitte eine Team- oder rollenbasierte E-Mail-Adresse angeben, z. B. **collaboration@yourcompany.com**. Persönliche oder individuelle E-Mail-Adressen sollten nicht verwendet werden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"

@@ -2,7 +2,7 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
@@ -90,7 +90,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Data Collaboration]** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -285,7 +285,7 @@ Im Abschnitt **[!UICONTROL Identitäten]** wird die Anzahl der Profile angegeben
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Kategorien"
->abstract="Versehen Sie Ihre Zielgruppen mit Tags, um sie einfach zu organisieren, zu filtern und abzurufen. Sie können eine Zielgruppe mit Tags mehrerer Kategorien versehen und diese Kategorie-Tags anschließend verwenden, um Ihre gewünschten Zielgruppen in anderen Bereichen des Produkts zu filtern."
+>abstract="Zielgruppen können mit Tags versehen werden, um sie einfach zu organisieren, zu filtern und abzurufen. Eine Zielgruppe kann mit Tags mehrerer Kategorien versehen werden und diese Kategorie-Tags können anschließend verwendet werden, um die gewünschten Zielgruppen in anderen Bereichen des Produkts zu filtern."
 
 Um die Organisation, Filterung und den Abruf von Audiences zu vereinfachen, können Sie Ihre Audiences mit Tags versehen. Sie können eine Zielgruppe mit mehreren Kategorien taggen. Anschließend können Sie diese Kategorietags verwenden, um Ihre gewünschten Zielgruppen im Produktbereich [Entdecken](/help/guide/collaborate/discover.md) zu filtern, wenn Sie Berichte zur Zielgruppenüberschneidung ausführen.
 
@@ -302,7 +302,7 @@ Das **[!UICONTROL Kategorien]** wird angezeigt, in dem Sie die Kategorien auswä
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Zugriff auf Verbindungen"
->abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff. Sie können den Verbindungszugriff immer von privat in öffentlich ändern. Sobald jedoch eine Zielgruppe mit Mitwirkenden aktiviert wurde, können Sie diese Einstellung nicht mehr rückgängig machen.</p>"
+>abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff. Die Zugriffsberechtigung für die Verbindung kann immer von der privaten in die öffentliche geändert werden. Diese Einstellung kann jedoch nicht geändert werden, sobald eine Zielgruppe mit Partnern aktiviert wurde.</p>"
 
 Die Verfügbarkeit einer Zielgruppe zur Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Im Abschnitt **[!UICONTROL Verbindungszugriff]** können Sie auswählen, ob die Zielgruppe privat oder öffentlich sein soll. Öffentliche Zielgruppen sind in Verbindungen verwendbar und auffindbar.
 

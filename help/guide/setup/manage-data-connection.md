@@ -2,7 +2,7 @@
 title: Datenverbindungen verwalten
 description: Erfahren Sie, wie Sie in Real-Time CDP Collaboration Datenverbindungen verwalten, einschließlich Übereinstimmungsschlüsseln, Planung, Anwendungsfällen und Zielgruppenfilterung
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -30,7 +30,7 @@ Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel bestimmen, wie Daten aus verschiedenen Quellen zugeordnet werden. Wählen Sie die Übereinstimmungsschlüssel aus, die für Ihre Anwendungsfälle und Datenschutzrichtlinien am relevantesten sind."
+>abstract="Übereinstimmungsschlüssel bestimmen, wie Daten aus verschiedenen Quellen zugeordnet werden. Die Übereinstimmungsschlüssel auswählen, die für die Anwendungsfälle und Datenschutzrichtlinien am relevantesten sind."
 
 Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Die Übereinstimmungsschlüssel, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, können nicht bearbeitet werden.
 
@@ -49,7 +49,7 @@ Zu den verfügbaren Übereinstimmungsschlüsseln gehören:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Planung"
->abstract="Zeigen Sie die Planungsdetails für Ihre Datenverbindung an und bearbeiten Sie bei Bedarf die Aktualisierungshäufigkeit."
+>abstract="Diese Ansicht zeigt die Zeitplanungsoptionen an, die ursprünglich für die Datenverbindung ausgewählt wurden."
 
 Zeigen Sie die Zeitplaneinstellungen für Ihre Datenverbindungen an und verwalten Sie sie. Die Planung bestimmt, wie oft die Zielgruppe aktualisiert wird.
 

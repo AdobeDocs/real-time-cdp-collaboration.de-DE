@@ -2,7 +2,7 @@
 title: Konfigurieren von Adobe Experience Platform als Ziel
 description: Erfahren Sie, wie Sie Adobe Experience Platform as a -Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 ## Konfigurieren des Ziels {#configure-destination}
 
@@ -32,7 +32,7 @@ Der **[!UICONTROL Ziel erstellen]** wird angezeigt.
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
 >title="Zielgruppen-Gültigkeit"
->abstract="Der Zeitraum, nach dem die Zielgruppe in Adobe Experience Platform nicht mehr verfügbar ist. Die Standardgültigkeit beträgt 30 Tage, Sie können sie jedoch auf einen beliebigen Wert zwischen einem Tag und 30 Tagen festlegen."
+>abstract="Der Zeitraum, nach dem die Zielgruppe in Adobe Experience Platform nicht mehr verfügbar ist. Die Standardgültigkeit beträgt 30 Tage, Sie kann jedoch auf einen beliebigen Wert zwischen 1 und 30 Tagen festgelegt werden."
 
 Zunächst müssen Sie die Sandbox auswählen, an die Ihre Zielgruppendaten gesendet werden.
 
@@ -55,11 +55,11 @@ Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Sta
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="Aktivierungs-Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel für die Aktivierung werden basierend auf den Übereinstimmungsschlüsseln angezeigt, die Sie beim Erstellen Ihrer Organisation ausgewählt haben."
+>abstract="Übereinstimmungsschlüssel für die Aktivierung werden basierend auf den Übereinstimmungsschlüsseln angezeigt, die beim Erstellen der Organisation ausgewählt wurden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
->title="Zielgruppen-Namespaces"
+>title="Ziel-Namespaces"
 >abstract="Zielgruppen-Namespaces geben an, welchem Identity-Namespace der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird. Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt."
 
 Als Nächstes müssen Sie ein Aktivierungszuordnung erstellen, um zu definieren, wie die Zielgruppendaten an Adobe Experience Platform gesendet werden. Sie können jeden [Übereinstimmungsschlüssel](../setup/onboard-account.md#set-up-match-keys) den Sie beim Erstellen Ihrer Organisation ausgewählt haben, einem Ziel-Namespace zuordnen. Die Ziel-Namespaces geben an[ welchem ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}Identitäts-Namespace) der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird.
@@ -94,4 +94,4 @@ Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie d
 
 ![Das Zielgruppenportal mit Real-Time CDP Collaboration als Ursprung in den Filteroptionen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
+Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
