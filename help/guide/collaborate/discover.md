@@ -2,12 +2,12 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 20%
+source-wordcount: '2068'
+ht-degree: 12%
 
 ---
 
@@ -82,13 +82,16 @@ Im Abschnitt Vergleichen von Zielgruppen werden die folgenden Metriken angezeigt
 | **[!UICONTROL Anzahl der Identitäten]** (Ihr Mitarbeiter) | Die Anzahl der eindeutigen IDs innerhalb der Zielgruppe(n) Ihres Mitarbeiters. |
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der eindeutigen IDs, die sowohl in Ihren als auch in den Zielgruppen Ihres Mitarbeiters vorhanden sind. |
 | **[!UICONTROL Überschneidung %]** | Der Prozentsatz der Profile, die sich zwischen Ihrer ausgewählten Zielgruppe und der ausgewählten Zielgruppe Ihrer oder Ihres Mitwirkenden überschneiden. |
+| **[!UICONTROL Zielgruppenindex]** | Ein Score, der basierend auf der Anzahl und Überschneidung der zugrunde liegenden Zielgruppen angibt, wie stark sich eine Zielgruppe auf eine andere bezieht. Weitere Informationen zur Bedeutung der Bewertungen finden Sie im Abschnitt [Audience-Index](#audience-index-score). Die Zielgruppenindexwerte sind beim Vergleich mit der Grundlinie Ihres Mitarbeiters (alle Zielgruppen) nicht verfügbar. |
 | **[!UICONTROL Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel]** | Die Aufschlüsselung der Identitäten für jeden im Projekt ausgewählten Übereinstimmungsschlüssel, basierend auf den für jeden Mitarbeiter ausgewählten Zielgruppen. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Der Überschneidungsprozentsatz ist möglicherweise nicht immer für alle Zielgruppen verfügbar. Die Sichtbarkeit des Indikators für den Überschneidungsprozentsatz hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>Die Prozentzahl der Überschneidung und der Zielgruppenindex-Wert sind möglicherweise nicht immer für alle Zielgruppen verfügbar. Die Sichtbarkeit des Überschneidungsprozentsatzes und des Zielgruppenindex-Scores hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+Wenn Ihr Mitarbeiter weder den Zielgruppenindex noch den Überschneidungsprozentsatz aktiviert hat, sind für die Zielgruppe keine Vergleichsdaten verfügbar.
 
 ## Relevante Zielgruppen {#relevant-audiences}
 
@@ -103,19 +106,22 @@ Der Abschnitt **[!UICONTROL Relevante Zielgruppen]** auf der Registerkarte **[!U
 
 >[!NOTE]
 >
->Die Sichtbarkeit der Zielgruppen Ihres Mitarbeiters hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt &quot;[&quot; ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility). Wenn Ihr Mitarbeiter alle Zielgruppen auf „privat“ gesetzt hat, werden in diesem Abschnitt keine Zielgruppen angezeigt.
+>Die Sichtbarkeit der Zielgruppen Ihres Mitarbeiters hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Verbindungszugriff](/help/guide/setup/onboard-audiences.md#connection-access) und im Abschnitt [Metadatensichtbarkeit](/help/guide/setup/onboard-audiences.md#metadata-visibility) ausgewählt hat. Wenn Ihr Mitarbeiter alle Zielgruppen auf „privat“ gesetzt hat, werden in diesem Abschnitt keine Zielgruppen angezeigt.
 
 Im Abschnitt **[!UICONTROL Relevante Zielgruppen]** werden die folgenden Informationen für jede empfohlene Zielgruppe angezeigt:
 
 | Metrik | Beschreibung |
 |---------|----------|
-| **[!UICONTROL Anzahl der Identitäten]** | Der Name der eindeutigen IDs innerhalb der Zielgruppe. |
+| **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der eindeutigen IDs innerhalb der Zielgruppe. |
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der eindeutigen IDs, die sich zwischen der empfohlenen Zielgruppe und allen Ihren Zielgruppen überschneiden. |
 | **[!UICONTROL Überschneidung %]** | Der Prozentsatz der Identitäten mit Überschneidungen zwischen der empfohlenen Zielgruppe und allen Ihren Zielgruppen. |
+| **[!UICONTROL Zielgruppenindex]** | Ein Score, der basierend auf der Anzahl und Überschneidung der zugrunde liegenden Zielgruppen angibt, wie stark sich eine Zielgruppe auf eine andere bezieht. Weitere Informationen zur Bedeutung der Bewertungen finden Sie im Abschnitt [Audience-Index](#audience-index-score). |
 | **[!UICONTROL Zielgruppenkategorien]** | Die Kategorien, die Ihr Mitarbeiter der Zielgruppe zugewiesen hat. |
 | **[!UICONTROL Übereinstimmungsschlüssel]** | Die Übereinstimmungsschlüssel, die Ihr Mitarbeiter für die Zielgruppe ausgewählt hat. |
 
 {style="table-layout:auto"}
+
+Wenn der Zielgruppenindex-Score für eine der Zielgruppen Ihres Mitarbeiters aktiviert ist, basieren die relevanten Zielgruppen auf dem Zielgruppenindex-Score, und Zielgruppen, für die der Zielgruppenindex nicht aktiviert wurde, werden nicht einbezogen. Relevante Zielgruppen basierend auf dem Audience-Index-Score werden so sortiert, dass zuerst der höchste Index-Score angezeigt wird. Wenn der Zielgruppenindex für keine der Zielgruppen Ihres Mitarbeiters aktiviert ist, basieren die relevanten Zielgruppen auf dem Überschneidungsprozentsatz.
 
 ## Entdecken von Überschneidungen {#discover-overlaps}
 
@@ -130,7 +136,9 @@ Entdecken Sie Überschneidungen, um Einblicke in den Vergleich Ihrer Zielgruppen
 
 >[!NOTE]
 >
->Die Sichtbarkeit der Zielgruppen Ihres Mitarbeiters hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt &quot;[&quot; ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility). Wenn Ihr Mitarbeiter alle Zielgruppen auf „privat“ gesetzt hat, werden in diesem Abschnitt keine Zielgruppen angezeigt.
+>Die Sichtbarkeit der Zielgruppen Ihres Mitarbeiters hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Verbindungszugriff](/help/guide/setup/onboard-audiences.md#connection-access) und im Abschnitt [Metadatensichtbarkeit](/help/guide/setup/onboard-audiences.md#metadata-visibility) ausgewählt hat. Wenn Ihr Mitarbeiter alle Zielgruppen auf „privat“ gesetzt hat, werden in diesem Abschnitt keine Zielgruppen angezeigt.
+
+Wenn Ihr Mitarbeiter weder den Zielgruppenindex noch den Überschneidungsprozentsatz aktiviert hat, wird die Zielgruppe nicht angezeigt.
 
 Um Ihre Zielgruppenauswahl zu ändern, wählen Sie **[!UICONTROL Zielgruppe ändern]** aus.
 
@@ -147,10 +155,54 @@ Nach Auswahl der gewünschten Zielgruppen werden im Abschnitt **[!UICONTROL Übe
 | **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der eindeutigen IDs innerhalb der Zielgruppe. |
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der eindeutigen IDs, die sich zwischen der empfohlenen Zielgruppe und allen Ihren Zielgruppen überschneiden. |
 | **[!UICONTROL Überschneidung %]** | Der Prozentsatz der Identitäten mit Überschneidungen zwischen der empfohlenen Zielgruppe und allen Ihren Zielgruppen. |
+| **[!UICONTROL Zielgruppenindex]** | Ein Score, der basierend auf der Anzahl und Überschneidung der zugrunde liegenden Zielgruppen angibt, wie stark sich eine Zielgruppe auf eine andere bezieht. Weitere Informationen zur Bedeutung der Bewertungen finden Sie im Abschnitt [Audience-Index](#audience-index-score). |
 | **[!UICONTROL Zielgruppenkategorien]** | Die Kategorien, die Ihr Mitarbeiter der Zielgruppe zugewiesen hat. |
 | **[!UICONTROL Übereinstimmungsschlüssel]** | Die Übereinstimmungsschlüssel, die Ihr Mitarbeiter für die Zielgruppe ausgewählt hat. |
 
 {style="table-layout:auto"}
+
+## Audience-Index-Wert {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Audience-Index-Wert"
+>abstract="Audience-Indexwerte sind eine nuancierte Metrik, die anhand der zugrunde liegenden Anzahl und Überschneidungen der Zielgruppen anzeigt, wie stark sich eine Zielgruppe auf eine andere bezieht. Der Rohindex-Score wird in Relevanzbänder übersetzt, die die Audience-Indexwerte von sehr niedrig bis sehr hoch kategorisieren. Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Audience und der Audience Ihres Mitarbeiters schnell bewerten."
+
+Audience-Indexwerte sind eine nuancierte Metrik, die anhand der zugrunde liegenden Anzahl und Überschneidungen der Zielgruppen anzeigt, wie stark sich eine Zielgruppe auf eine andere bezieht. Auf diese Weise können Sie Zielgruppeneinblicke kontextualisieren und Zielgruppen mit hohem Potenzial für Interessenten- und Kampagnen-Targeting identifizieren.
+
+Der Index-Score wird anhand der folgenden Formel berechnet:
+
+![Die Formel zur Berechnung der Indexbewertung.](/help/assets/collaborate/discover/index-score-formula.png)
+
+Stellen Sie sich vor, ein Automobilhersteller möchte eine Werbekampagne mit einem großen Fernsehverlag für ein neues SUV-Modell durchführen. Der Fahrzeughersteller hat Daten darüber, wem derzeit ein ähnliches Modell gehört und möchte dieses verwenden, um zusätzliche potenzielle Kunden zu finden, die es in Kunden umwandeln könnten. Der Automobilhersteller betrachtet die Zielgruppen des CTV-Verlags, um eine relevante Zielgruppe zu finden, die den aktuellen SUV-Besitzern sehr nahe kommt.
+
+![Der Autowerber im Vergleich zum Publikum des CTV-Verlags.](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+Die Indexwerte werden berechnet und können verwendet werden, um den wahrscheinlichen Erfolg der Kampagne zu bestimmen:
+
+| CTV Publisher-Zielgruppe | Formel | Index-Bewertung (i) | Interpretation |
+|------------------------|-------------|----------------|----------------|
+| Baseline (alle Zielgruppen) | ((1,3 M / 1,3 M) / (50 M / 50 M)) * 100 | 100 | Dies dient als Grundlinie, mit der die anderen Zielgruppen Ihres Mitarbeiters verglichen werden. |
+| Binge Watchers | ((500 K / 1,3 M) / (20 M / 50 M)) * 100 | 96 | Wenn Sie diese Zielgruppe ansprechen, ist die Wahrscheinlichkeit, SUV-Besitzer zu erreichen, im Vergleich zur Grundlinie um 4 % geringer. |
+| Comedy-Liebhaber | ((200 K / 1,3 M) / (6 M / 50 M)) * 100 | 128 | Wenn Sie diese Zielgruppe ansprechen, erreichen Sie mit 28 % höherer Wahrscheinlichkeit SUV-Besitzer im Vergleich zur Baseline. |
+| Männer 25-34 | ((700 K / 1,3 M) / (12 M / 50 M)) * 100 | 224 | Wenn Sie diese Zielgruppe ansprechen, erreichen Sie mit 124 % höherer Wahrscheinlichkeit SUV-Besitzer im Vergleich zur Grundlinie. |
+| Technikbegeisterte | ((500 K / 1,3 M) / (8 M / 50 M)) * 100 | 240 | Wenn Sie diese Zielgruppe ansprechen, erreichen Sie mit 140 % höherer Wahrscheinlichkeit SUV-Besitzer im Vergleich zur Grundlinie. |
+
+Um besser verstehen zu können, wie sich die Indexbewertungen auf Ihre Kampagne auswirken, werden Relevanzbänder zusammen mit den Bewertungen bereitgestellt.
+
+### Relevanzbereiche {#audience-index-relevance-bands}
+
+Um einen einfachen Vergleich über verschiedene Zielgruppen und Kampagnen hinweg zu ermöglichen, übersetzt Collaboration die Indexwerte in Relevanzbänder (sehr niedrig bis sehr hoch). Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Audience und der Audience Ihres Mitarbeiters schnell bewerten.
+
+| Index-Bewertung (i) | Relevanzbereich | Beschreibung |
+|---------|----------|-----------|
+| i &lt; 60 | Sehr niedrig | Die Überschneidung ist bei der Zielgruppe im Vergleich zu Ihrer Zielgruppe viel geringer, was auf eine sehr schwache Beziehung hinweist. Kunden, die diese Zielgruppe verwenden, erreichen ihre Zielgruppe mit deutlich geringerer Wahrscheinlichkeit. |
+| 60 &lt; i &lt; 80 | Niedrig | Die Überschneidung ist bei der Zielgruppe im Vergleich zu Ihrer Zielgruppe etwas geringer, was auf eine schwache Beziehung hindeutet. Kunden, die diese Zielgruppe verwenden, erreichen ihre Zielgruppe mit geringerer Wahrscheinlichkeit. |
+| 80 &lt; i &lt; 120 | Mittel | Die Überschneidung ist in der Zielgruppe genauso verbreitet wie in Ihrer Zielgruppe, was auf eine typische Beziehung hinweist. Kunden, die diese Zielgruppe verwenden, haben eine durchschnittliche Wahrscheinlichkeit, ihre Zielgruppe zu erreichen. |
+| 120 &lt; i &lt; 140 | Hoch | Die Überschneidung ist bei der Zielgruppe häufiger als bei Ihrer Zielgruppe und zeigt eine starke Beziehung. Kunden, die diese Zielgruppe verwenden, erreichen mit höherer Wahrscheinlichkeit ihre Zielgruppe. |
+| I > 140 | Sehr hoch | Die Überschneidung ist bei der Zielgruppe im Vergleich zu Ihrer Zielgruppe viel häufiger, was eine sehr starke Beziehung widerspiegelt. Kunden, die diese Zielgruppe verwenden, erreichen ihre Zielgruppe mit viel höherer Wahrscheinlichkeit. |
+
+Innerhalb des Abschnitts „Überschneidungen erkennen“ zeigt der Zielgruppenindex-Score die Relevanzspanne neben dem Score an. Der Score wird farbcodiert, um das Relevanzband anzugeben, sodass die Stärke der Beziehung auf einen Blick leicht erkannt werden kann. Sehr niedere und niedere Relevanzbänder werden in orangefarbenen, mittlere Relevanzbänder in Schwarz und Bänder mit hoher und sehr hoher Relevanz in Grün angezeigt.
 
 ## Nächste Schritte
 

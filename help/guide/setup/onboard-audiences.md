@@ -2,12 +2,12 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
-source-wordcount: '2897'
-ht-degree: 18%
+source-wordcount: '2985'
+ht-degree: 17%
 
 ---
 
@@ -90,7 +90,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Data Collaboration]** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -331,7 +331,7 @@ Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unte
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Sichtbarkeit von Metadaten"
->abstract="<p>Gibt an, welche der Metadaten einer Zielgruppe für andere Mitwirkende sichtbar sind, bevor diese eine Verbindung zu Ihnen oder in Projektansichten herstellen.</p> <p> Die **Anzahl der Identitäten** steuert, ob Ihre Mitwirkende bzw. Ihr Mitwirkender Identitätsanzahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Entdeckung“ angezeigt werden. **Zielgruppenüberschneidung %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können."
+>abstract="<p>Gibt an, welche der Metadaten einer Zielgruppe für andere Mitwirkende sichtbar sind, bevor diese eine Verbindung zu Ihnen oder in Projektansichten herstellen.</p> <p> **Identitätsanzahl** Steuert, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte „Erkennung“ Identitätszahlen für Ihre Zielgruppen anzeigen kann.</p><p> **Zielgruppenüberschneidung %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können.</p><p> **[!UICONTROL Zielgruppenindex]** Steuert, ob Mitwirkende den Zielgruppenindex in einem Projekt anzeigen können. Diese Funktion ist nur verfügbar, wenn mindestens drei aktive Zielgruppen vorhanden sind.</p> <br> Damit die Einstellungen für die Metadatensichtbarkeit wirksam werden, muss die Zielgruppe auf „Öffentlich“ oder „Benutzerdefiniert“ eingestellt sein."
 
 >[!NOTE]
 >
@@ -346,6 +346,12 @@ Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sicht
 **[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb ](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
 
 **[!UICONTROL Zielgruppenüberschneidung anzeigen %]**: Diese Einstellung steuert, ob Mitwirkende in der Lage sind, [Überschneidungsprozentsätze zu ermitteln](/help/guide/collaborate/discover.md#compare-audiences) zwischen ihren Zielgruppen und Ihren Zielgruppen.
+
+**[!UICONTROL Zielgruppenindex]**: Bei Festlegung auf „true“ können Ihre Mitarbeiter den [Zielgruppenindex](/help/guide/collaborate/discover.md#audience-index-score) innerhalb eines Projekts anzeigen. Diese Funktion ist nur verfügbar, wenn mindestens drei aktive Zielgruppen vorhanden sind.
+
+>[!NOTE]
+>
+>Damit die Einstellungen für die Metadatensichtbarkeit wirksam werden, muss die Zielgruppe auf „Öffentlich“ oder „Benutzerdefiniert“ eingestellt sein.
 
 ![Das Dialogfeld „Metadatensichtbarkeit“ mit den verfügbaren Optionen wird angezeigt.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
