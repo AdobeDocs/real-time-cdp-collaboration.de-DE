@@ -2,9 +2,9 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ Die Indexwerte werden berechnet und können verwendet werden, um den wahrscheinl
 | Männer 25-34 | ((700 K / 1,3 M) / (12 M / 50 M)) * 100 | 224 | Wenn Sie diese Zielgruppe ansprechen, erreichen Sie mit 124 % höherer Wahrscheinlichkeit SUV-Besitzer im Vergleich zur Grundlinie. |
 | Technikbegeisterte | ((500 K / 1,3 M) / (8 M / 50 M)) * 100 | 240 | Wenn Sie diese Zielgruppe ansprechen, erreichen Sie mit 140 % höherer Wahrscheinlichkeit SUV-Besitzer im Vergleich zur Grundlinie. |
 
+{style="table-layout:auto"}
+
 Um besser verstehen zu können, wie sich die Indexbewertungen auf Ihre Kampagne auswirken, werden Relevanzbänder zusammen mit den Bewertungen bereitgestellt.
 
 ### Relevanzbereiche {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ Um einen einfachen Vergleich über verschiedene Zielgruppen und Kampagnen hinweg
 | 80 &lt; i &lt; 120 | Mittel | Die Überschneidung ist in der Zielgruppe genauso verbreitet wie in Ihrer Zielgruppe, was auf eine typische Beziehung hinweist. Kunden, die diese Zielgruppe verwenden, haben eine durchschnittliche Wahrscheinlichkeit, ihre Zielgruppe zu erreichen. |
 | 120 &lt; i &lt; 140 | Hoch | Die Überschneidung ist bei der Zielgruppe häufiger als bei Ihrer Zielgruppe und zeigt eine starke Beziehung. Kunden, die diese Zielgruppe verwenden, erreichen mit höherer Wahrscheinlichkeit ihre Zielgruppe. |
 | I > 140 | Sehr hoch | Die Überschneidung ist bei der Zielgruppe im Vergleich zu Ihrer Zielgruppe viel häufiger, was eine sehr starke Beziehung widerspiegelt. Kunden, die diese Zielgruppe verwenden, erreichen ihre Zielgruppe mit viel höherer Wahrscheinlichkeit. |
+
+{style="table-layout:auto"}
 
 Innerhalb des Abschnitts „Überschneidungen erkennen“ zeigt der Zielgruppenindex-Score die Relevanzspanne neben dem Score an. Der Score wird farbcodiert, um das Relevanzband anzugeben, sodass die Stärke der Beziehung auf einen Blick leicht erkannt werden kann. Sehr niedere und niedere Relevanzbänder werden in orangefarbenen, mittlere Relevanzbänder in Schwarz und Bänder mit hoher und sehr hoher Relevanz in Grün angezeigt.
 
