@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration-Schnellstartanleitung
 description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieser Leitfaden hilft Mitarbeitern bei der Konfiguration von Verbindungseinstellungen, um mit der sicheren und effizienten Nutzung ihrer Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration mithilfe von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten des Collaboration-Kontos {#set-up-your-account}
 
@@ -101,7 +101,7 @@ Konfigurieren Sie, wie Zielgruppen für die Verwendung in Verbindungen vorbereit
 >**Maximale Anzahl von Zielgruppen pro Rolle des Mitarbeiters:**
 >
 >- **Werbetreibende** können bis zu 25 Zielgruppen beziehen.
->- **Publisher** können bis zu 250 Zielgruppen (mit jeweils mindestens 5.000 IDs) beschaffen.
+>- **Publisher** können bis zu 250 Zielgruppen (mit jeweils mindestens 1.000 IDs) beschaffen.
 
 >[!IMPORTANT]
 >
@@ -140,7 +140,7 @@ Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 
