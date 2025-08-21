@@ -2,12 +2,12 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -161,14 +161,14 @@ Nach Auswahl der gewünschten Zielgruppen werden im Abschnitt **[!UICONTROL Übe
 
 {style="table-layout:auto"}
 
-## Audience-Index-Wert {#audience-index-score}
+## Zielgruppenindexwert {#audience-index-score}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
->title="Audience-Index-Wert"
->abstract="Audience-Indexwerte sind eine nuancierte Metrik, die anhand der zugrunde liegenden Anzahl und Überschneidungen der Zielgruppen anzeigt, wie stark sich eine Zielgruppe auf eine andere bezieht. Der Rohindex-Score wird in Relevanzbänder übersetzt, die die Audience-Indexwerte von sehr niedrig bis sehr hoch kategorisieren. Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Audience und der Audience Ihres Mitarbeiters schnell bewerten."
+>title="Zielgruppenindexwert"
+>abstract="Zielgruppenindexwerte sind eine differenzierte Metrik, die anhand der zugrunde liegenden Anzahl und Überschneidungen der Zielgruppen anzeigt, wie stark eine Zielgruppe mit einer anderen in Beziehung steht. Der Rohindexwert wird in Relevanzbereiche übertragen, die die Zielgruppenindexwerte von sehr niedrig bis sehr hoch kategorisieren. Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Zielgruppe und der Zielgruppe der mitwirkenden Person schnell bewerten."
 
-Audience-Indexwerte sind eine nuancierte Metrik, die anhand der zugrunde liegenden Anzahl und Überschneidungen der Zielgruppen anzeigt, wie stark sich eine Zielgruppe auf eine andere bezieht. Auf diese Weise können Sie Zielgruppeneinblicke kontextualisieren und Zielgruppen mit hohem Potenzial für Interessenten- und Kampagnen-Targeting identifizieren.
+Zielgruppenindexwerte sind eine differenzierte Metrik, die anhand der zugrunde liegenden Anzahl und Überschneidungen der Zielgruppen anzeigt, wie stark eine Zielgruppe mit einer anderen in Beziehung steht. Auf diese Weise können Sie Zielgruppeneinblicke kontextualisieren und Zielgruppen mit hohem Potenzial für Interessenten- und Kampagnen-Targeting identifizieren.
 
 Der Index-Score wird anhand der folgenden Formel berechnet:
 
@@ -194,7 +194,7 @@ Um besser verstehen zu können, wie sich die Indexbewertungen auf Ihre Kampagne 
 
 ### Relevanzbereiche {#audience-index-relevance-bands}
 
-Um einen einfachen Vergleich über verschiedene Zielgruppen und Kampagnen hinweg zu ermöglichen, übersetzt Collaboration die Indexwerte in Relevanzbänder (sehr niedrig bis sehr hoch). Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Audience und der Audience Ihres Mitarbeiters schnell bewerten.
+Um einen einfachen Vergleich über verschiedene Zielgruppen und Kampagnen hinweg zu ermöglichen, übersetzt Collaboration die Indexwerte in Relevanzbänder (sehr niedrig bis sehr hoch). Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Zielgruppe und der Zielgruppe der mitwirkenden Person schnell bewerten.
 
 | Index-Bewertung (i) | Relevanzbereich | Beschreibung |
 |---------|----------|-----------|
