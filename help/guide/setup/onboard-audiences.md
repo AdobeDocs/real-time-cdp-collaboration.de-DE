@@ -2,12 +2,12 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 20%
+source-wordcount: '3277'
+ht-degree: 16%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 20%
 {{limited-availability-release-note}}
 
 Zielgruppen sind spezifische Benutzergruppen oder Kundinnen bzw. Kunden, die anhand verschiedener Attribute segmentiert werden. Diese ermöglichen es den Mitarbeitern, bei zielgerichteten Marketing- und personalisierten Erlebnissen zusammenzuarbeiten, um effektivere Werbekampagnen zu ermöglichen. In diesem Handbuch wird beschrieben, wie Sie Zielgruppen in Real-Time CDP Collaboration beschaffen, das Zielgruppen-Dashboard anzeigen und einzelne Zielgruppen verwalten.
-
->[!BEGINSHADEBOX]
-
-Was Sie auf dieser Dokumentationsseite finden:
-
-* [Source-Zielgruppen in Collaboration](#source-audiences)
-* [Anzeigen des Dashboards „Zielgruppen“](#view-audiences-dashboard)
-* [Anzeigen einzelner Zielgruppen](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Source-Zielgruppen in Collaboration {#source-audiences}
 
@@ -90,7 +80,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Data Collaboration]** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -214,10 +204,13 @@ Nach Auswahl der Zielgruppenquelle wählen Sie bestimmte Zielgruppen aus, die ei
 
 Nach der Beschaffung von Zielgruppen zeigt der **[!UICONTROL Meine Zielgruppen]** Arbeitsbereich alle Zielgruppen an, die derzeit in Collaboration bezogen werden.
 
+![Der Arbeitsbereich „Meine Zielgruppen“ mit allen aus der Quelle stammenden Zielgruppen.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 Jede Zielgruppe enthält einen Überblick über die folgenden Informationen:
 
 | Element | Beschreibung |
 |----------|---------|
+| **[!UICONTROL Name]** | Der Name der Zielgruppe. |
 | **[!UICONTROL Identitäten]** | Gibt die Anzahl der in dieser Zielgruppe vorhandenen Identitäten an. Beachten Sie Folgendes: Wenn dasselbe Profil zwei oder mehr Identitäten hat und diese Identitäten als Übereinstimmungsschlüssel im Projekt verwendet werden, wird das Profil zweimal in der Zählung angezeigt. |
 | **[!UICONTROL Status]** | Gibt an, ob die Zielgruppe aktiv ist und in Projekten verwendet werden kann. Der Status **[!UICONTROL Ausstehend]** gibt an, dass die Zielgruppe gerade erst abgerufen wurde und Identitäten noch ausgefüllt werden müssen. Die Zielgruppen der Quelle werden nach der ersten Aktualisierung, die in der Regel innerhalb von 24 Stunden nach der Einrichtung der Datenverbindung erfolgt, mit Profilen gefüllt. |
 | **[!UICONTROL Quelle]** | Gibt an, woher die Zielgruppe stammt. In der aktuellen Version von Collaboration ist Experience Platform die einzige unterstützte Quelle. |
@@ -225,8 +218,6 @@ Jede Zielgruppe enthält einen Überblick über die folgenden Informationen:
 | **[!UICONTROL Verbindungszugriff]** | Definiert, ob die Zielgruppe privat oder öffentlich ist. Öffentliche Zielgruppen sind in Überschneidungsberichten auffindbar und können innerhalb eines Projekts aktiviert werden. |
 | **[!UICONTROL Erstellt]** | Gibt an, wann die Zielgruppe ursprünglich in Collaboration aufgenommen wurde. |
 | **[!UICONTROL Zuletzt aktualisiert]** | Gibt das letzte Datum und die letzte Uhrzeit der Aktualisierung der Zielgruppe in Collaboration an. Dies bezieht sich nicht auf den Zeitpunkt der letzten Aktualisierung der Zielgruppe, sondern auf den Zeitpunkt der letzten Änderung der Konfiguration oder der Metadaten der Zielgruppe. |
-
-![Der Arbeitsbereich Meine Zielgruppe mit allen aus der Quelle stammenden Zielgruppen.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 Um Schnellaktionen für eine Zielgruppe durchzuführen, klicken Sie auf die **mit den Auslassungspunkten…** neben dem Namen der Zielgruppe. Die folgenden Optionen sind verfügbar:
 
@@ -237,7 +228,7 @@ Um Schnellaktionen für eine Zielgruppe durchzuführen, klicken Sie auf die **mi
 
 ## Anzeigen einzelner Zielgruppen {#view-individual-audiences}
 
-Um weitere Informationen anzuzeigen und Konfigurationen für eine einzelne Zielgruppe zu bearbeiten, wählen Sie die Zielgruppe im Arbeitsbereich **[!UICONTROL Meine Zielgruppen]** aus. Der Zielgruppen-Arbeitsbereich zeigt detaillierte Informationen zur ausgewählten Zielgruppe an, einschließlich Details, Identitäten, Kategorien, Verbindungszugriff und Einstellungen für die Sichtbarkeit von Metadaten.
+Um Informationen für eine einzelne Zielgruppe anzuzeigen und zu aktualisieren, wählen Sie die Zielgruppe im Arbeitsbereich **[!UICONTROL Meine Zielgruppen]** aus. Der Zielgruppen-Arbeitsbereich zeigt detaillierte Informationen zur ausgewählten Zielgruppe an, einschließlich Details, Identitäten, Kategorien, Verbindungszugriff und Einstellungen für die Sichtbarkeit von Metadaten.
 
 ### Zielgruppendetails
 
@@ -255,32 +246,22 @@ Für jede einzelne Zielgruppe werden die folgenden Informationen angezeigt:
 
 ![Arbeitsbereich einer einzelnen Zielgruppe.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Darüber hinaus sind die folgenden Steuerelemente im Zielgruppen-Arbeitsbereich verfügbar:
-
-* **[!UICONTROL Löschen]**: Entfernen Sie die Zielgruppe aus Ihrer Datenverbindung.
-* **[!UICONTROL Bearbeiten]**: Name oder Beschreibung der Zielgruppe bearbeiten.
-
-![Der Arbeitsbereich einer einzelnen Zielgruppe mit hervorgehobener Option „Bearbeiten“ und „Löschen“.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-Als Nächstes können Sie die folgenden Abschnitte im Arbeitsbereich der Zielgruppe aktualisieren:
-
-* [Identitäten](#identities)
-* [Kategorien](#categories)
-* [Zugriff auf Verbindungen](#connection-access)
-* [Sichtbarkeit von Metadaten](#metadata-visibility)
-
-### Identitäten {#identities}
+#### Identitäten {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identitäten"
->abstract="Eine Aufschlüsselungsansicht der Identitäten, aus denen diese Zielgruppe besteht, sowie eine Gesamtanzahl der Profile mit den entsprechenden Identitäten."
+>abstract="Eine Aufschlüsselungsansicht der Identitäten, aus denen diese Zielgruppe besteht, getrennt nach Übereinstimmungsschlüssel."
 
-Im Abschnitt **[!UICONTROL Identitäten]** wird die Anzahl der Profile angegeben, die in der Zielgruppe mit einer der Identitäten vorhanden sind, die Sie beim Beschaffen der Zielgruppe ausgewählt haben. Der Abschnitt enthält auch eine Aufschlüsselung der Identität, sodass Sie feststellen können, welche Identitäten den größten Teil der Zielgruppen-Population ausmachen.
+Der **[!UICONTROL Identitäten]** gibt die Anzahl der in der Zielgruppe vorhandenen Identitäten an. Der Abschnitt enthält auch eine Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel, anhand derer Sie die Zusammensetzung der Zielgruppe verstehen können.
 
 ![Der Abschnitt „Identitäten“ im Arbeitsbereich einer einzelnen Zielgruppe.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### Kategorien {#categories}
+Wenn Sie den Mauszeiger über die einzelnen Abschnitte der Aufschlüsselung der Übereinstimmungsschlüssel bewegen, erhalten Sie eine genaue Identitätsanzahl für den entsprechenden Schlüssel.
+
+![Der Abschnitt „Identitäten“ im Arbeitsbereich einer einzelnen Zielgruppe mit einer Aufschlüsselung des Übereinstimmungsschlüssels wird angezeigt.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### Kategorien {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ Das **[!UICONTROL Kategorien]** wird angezeigt, in dem Sie die Kategorien auswä
 
 ![Das Dialogfeld Kategorien mit den verfügbaren Kategorien wird angezeigt.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### Zugriff auf Verbindungen {#connection-access}
+#### Zugriff auf Verbindungen {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Zugriff auf Verbindungen"
->abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff. Die Zugriffsberechtigung für die Verbindung kann immer von der privaten in die öffentliche geändert werden. Diese Einstellung kann jedoch nicht geändert werden, sobald eine Zielgruppe mit Partnern aktiviert wurde.</p>"
+>abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung.</p>"
 
-Die Verfügbarkeit einer Zielgruppe zur Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Im Abschnitt **[!UICONTROL Verbindungszugriff]** können Sie auswählen, ob die Zielgruppe privat oder öffentlich sein soll. Öffentliche Zielgruppen sind in Verbindungen verwendbar und auffindbar.
+Die Verfügbarkeit einer Zielgruppe zur Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Im Abschnitt **[!UICONTROL Verbindungszugriff]** können Sie auswählen, ob die Zielgruppe privat, öffentlich oder nur für bestimmte Verbindungen verfügbar sein soll. Öffentliche Zielgruppen sind in Verbindungen verwendbar und auffindbar.
 
 Um den Verbindungszugriff der Zielgruppe zu aktualisieren, wählen Sie die Option **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Verbindungszugriff]** aus.
 
@@ -324,9 +305,9 @@ Wählen Sie die gewünschte Verbindungszugriffsoption aus und klicken Sie dann a
 >
 >Unabhängig vom Zugriffsstatus (öffentlich, privat oder benutzerdefiniert) trägt die Population einer beliebigen Zielgruppe zur Population **[!UICONTROL Alle Zielgruppen]** im Abschnitt **[!UICONTROL Zielgruppen vergleichen]** innerhalb eines Projekts bei.
 
-Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Sie können die Zugriffsberechtigung für die Verbindung immer von privat in öffentlich ändern. Sie können diese Einstellung jedoch nicht mehr ändern, sobald eine Zielgruppe aktiviert wurde.
+Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung.
 
-### Sichtbarkeit von Metadaten {#metadata-visibility}
+#### Sichtbarkeit von Metadaten {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unte
 
 Die Sichtbarkeit von Metadaten gibt die Sichtbarkeit der Metadaten einer Zielgruppe für andere Mitwirkende an, bevor diese eine Verbindung mit Ihnen herstellen oder in verschiedenen Projektansichten. Um die Metadatensichtbarkeit der Zielgruppe zu aktualisieren, wählen Sie die Option **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Metadatensichtbarkeit]** aus.
 
-![Der Abschnitt „Metadaten-Sichtbarkeit“ des Arbeitsbereichs einer einzelnen Zielgruppe.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![Der Abschnitt „Metadaten-Sichtbarkeit“ des Arbeitsbereichs einer einzelnen Zielgruppe.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sichtbarkeitseinstellungen für die Zielgruppe konfigurieren können. Es gibt zwei Einstellungen für die Sichtbarkeit von Metadaten, die Sie für jede Zielgruppe konfigurieren können:
 
@@ -354,6 +335,52 @@ Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sicht
 >Damit die Einstellungen für die Metadatensichtbarkeit wirksam werden, muss die Zielgruppe auf „Öffentlich“ oder „Benutzerdefiniert“ eingestellt sein.
 
 ![Das Dialogfeld „Metadatensichtbarkeit“ mit den verfügbaren Optionen wird angezeigt.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## Mehrere Zielgruppen bearbeiten {#edit-audiences}
+
+Im Zielgruppen-Dashboard können Sie mehrere Zielgruppen gleichzeitig bearbeiten. Wählen Sie dazu die Zielgruppen aus, die Sie bearbeiten möchten, indem Sie die Kästchen neben ihren Namen auswählen. Nach Auswahl der Zielgruppen können Sie Aktionen mit den Optionen im Menü „Bearbeiten“ durchführen.
+
+![Der Arbeitsbereich „Meine Zielgruppen“ mit zwei ausgewählten Zielgruppen und dem hervorgehobenen Menü „Bearbeiten“.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### Sichtbarkeit von Massenbearbeitungs-Metadaten {#bulk-edit-metadata-visibility}
+
+Wenn Ihre Zielgruppen im Zielgruppen-Dashboard ausgewählt sind, wählen Sie **[!UICONTROL Metadaten-Sichtbarkeit bearbeiten]** aus dem Menü „Bearbeiten“ aus.
+
+![Der Arbeitsbereich „Meine Zielgruppen“ mit hervorgehobener Option „Metadaten-Sichtbarkeit bearbeiten“.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sichtbarkeitseinstellungen für die ausgewählten Zielgruppen konfigurieren können. Standardmäßig ist keine der Optionen ausgewählt. Wählen Sie die Optionen aus, die Sie auf alle ausgewählten Zielgruppen anwenden möchten, und wählen Sie dann **[!UICONTROL Speichern]**.
+
+![Das Dialogfeld „Metadatensichtbarkeit“ mit den verfügbaren Optionen wird angezeigt.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### Massenbearbeitung des Verbindungszugriffs {#bulk-edit-connection-access}
+
+Wenn Ihre Zielgruppen im Zielgruppen-Dashboard ausgewählt sind, wählen Sie **[!UICONTROL Verbindungszugriff bearbeiten]** aus dem Menü „Bearbeiten“ aus.
+
+![Der Arbeitsbereich „Meine Zielgruppen“ mit hervorgehobener Option „Verbindungszugriff bearbeiten“.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+Das **[!UICONTROL Verbindungszugriff]** wird angezeigt, in dem Sie die Zugriffseinstellungen für die ausgewählten Zielgruppen konfigurieren können. Standardmäßig ist die Option **[!UICONTROL Private Zielgruppe]** ausgewählt. Wählen Sie die Optionen aus, die Sie auf alle ausgewählten Zielgruppen anwenden möchten, und wählen Sie dann **[!UICONTROL Speichern]**.
+
+![Das Dialogfeld „Verbindungszugriff“ mit den verfügbaren Optionen wird angezeigt.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### Massenbearbeitung von Zielgruppennamen und -beschreibungen {#bulk-edit-audience-names-descriptions}
+
+Wenn Ihre Zielgruppen im Zielgruppen-Dashboard ausgewählt sind, wählen Sie **[!UICONTROL Name und Beschreibung bearbeiten]** aus dem Menü „Bearbeiten“.
+
+![Der Arbeitsbereich „Meine Zielgruppen“ mit hervorgehobener Option „Namen und Beschreibung bearbeiten“.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+Das **[!UICONTROL Name und Beschreibung]** wird angezeigt, in dem Sie den Namen und die Beschreibung für jede ausgewählte Zielgruppe konfigurieren können. Standardmäßig werden die aktuellen Namen und Beschreibungen für jede Zielgruppe angezeigt. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
+
+![Das Dialogfeld „Name und Beschreibung“ mit den verfügbaren Optionen wird angezeigt.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### Massenbearbeitung von Kategorien {#bulk-edit-categories}
+
+Wenn Ihre Zielgruppen im Zielgruppen-Dashboard ausgewählt sind, wählen Sie **[!UICONTROL Kategorien bearbeiten]** aus dem Menü „Bearbeiten“.
+
+![Der Arbeitsbereich „Meine Zielgruppen“ mit hervorgehobener Option „Kategorien bearbeiten“.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+Das **[!UICONTROL Kategorien]** wird angezeigt, in dem Sie die Kategorien für jede ausgewählte Zielgruppe konfigurieren können. Standardmäßig werden keine Kategorien ausgewählt. Um eine Kategorie auszuwählen, wählen Sie zunächst die Hauptkategorie und dann die Unterkategorien aus, die Sie einbeziehen möchten. Nehmen Sie die gewünschten Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
+
+![Das Dialogfeld Kategorien mit den verfügbaren Optionen wird angezeigt.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Nächste Schritte
 
