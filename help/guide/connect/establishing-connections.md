@@ -2,11 +2,11 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -118,7 +118,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -184,8 +184,6 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Verbindungseinstellungen {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -212,11 +210,6 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Messung"
 >abstract="Ausführen von Aktivitäten zum Generieren von Leistungsberichten und Erkenntnissen für Kampagnen. Die Credits werden basierend auf der Anzahl der Zeilen in allen Kampagnenberichten und der Reporting-Häufigkeit (täglich, alle drei Tage oder wöchentlich) verwendet."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Rechtlicher Vertrag"
->abstract="Es ist sicherzustellen, dass ein Vertrag über die Datenfreigabe zwischen den beiden Parteien besteht."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -283,14 +276,6 @@ Um die Kreditaufteilung einzurichten, wählen Sie **[!UICONTROL Bearbeiten]** im
 
 +++
 
-+++Vereinbarungen
-
-Sie müssen anerkennen, dass eine rechtliche Vereinbarung zwischen Ihnen und Ihrem Mitarbeiter besteht. In dieser Vereinbarung werden die Bedingungen für die gemeinsame Nutzung und Zusammenarbeit von Daten festgelegt. Sie können das Kontrollkästchen **[!UICONTROL Bestätigen und bestätigen]** aktivieren, um zu bestätigen, dass eine solche Vereinbarung besteht.
-
-![Der Abschnitt „Rechtliche Vereinbarung“ wird im Arbeitsbereich „Verbindung“ hervorgehoben und bestätigt.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
 +++Advertiser-Namen
 
 >[!NOTE]
@@ -310,8 +295,8 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änder
 Beim Erstellen eines Projekts wird der Advertiser-Name basierend auf den folgenden Einstellungen, die während der Verbindung festgelegt wurden, vorbefüllt    :
 
 1. **Kein Advertiser-Name festgelegt**: Wenn keine Advertiser-Namen hinzugefügt werden, verwendet Collaboration standardmäßig den Namen des Advertisers als Advertiser-Namen.
-1. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
-1. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
+2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
+3. **Mehrere Advertiser-Namen festgelegt**: Wenn mehr als ein Advertiser-Name hinzugefügt wird, können Sie oder Ihr Mitarbeiter beim Erstellen des Projekts einen der angegebenen Namen auswählen.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ Als Nächstes muss der Empfänger die vom Eigentümer vorgeschlagenen Verbindung
 
 Überprüfen Sie die Einstellungen, die der Mitarbeiter vorgeschlagen hat. Sie können die Verbindungseinstellungen entweder akzeptieren oder ablehnen. Wenn Sie die Verbindungseinstellungen ablehnen, müssen Sie mit dem Mitarbeiter über die Änderungen kommunizieren, die Sie außerhalb des Produkts vornehmen möchten. Die Kontaktinformationen des Mitarbeiters werden im Abschnitt **[!UICONTROL Kontakt]** des Arbeitsbereichs Verbindungseinstellungen angezeigt. Der Besitzer kann dann die Verbindungseinstellungen überarbeiten und zur Überprüfung erneut senden.
 
-Wenn Sie mit den vorgeschlagenen Verbindungseinstellungen zufrieden sind, müssen Sie anerkennen, dass eine rechtliche Vereinbarung zwischen Ihnen und dem Mitarbeiter besteht. Aktivieren Sie das **[!UICONTROL Bestätigen und bestätigen]**, um zu bestätigen, dass eine solche Vereinbarung besteht.
-
-![Der hervorgehobene Abschnitt „Rechtliche Vereinbarung“ im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobener Option „Akzeptieren“ und „Ablehnen“.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [ Abschnitt &quot;](#connection-settings)&quot;.
 
