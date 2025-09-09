@@ -2,7 +2,7 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
@@ -195,7 +195,7 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Übereinstimmungsschlüssel"
 >abstract="Übereinstimmungsschlüssel werden mit allgemeinen Übereinstimmungsschlüsseln vorausgefüllt, die Sie und Ihr Mitarbeiter auf Kontoebene ausgewählt haben. Alle Übereinstimmungsschlüssel, die in dieser Verbindung nicht verwendet werden sollen, können deaktiviert werden."
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel des Kontos"
+>additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel des Kontos"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
