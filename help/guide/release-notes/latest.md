@@ -2,12 +2,12 @@
 title: Aktuelle Versionshinweise zu Real-Time CDP Collaboration
 description: Folgen Sie den neuesten Versionen für Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 738c7bc9f3a482a1c7c92c820b364c577e61dd56
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 1%
+source-wordcount: '1207'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,20 @@ In diesen Versionshinweisen werden die in Adobe Real-Time CDP Collaboration ver�
 
 ## August 2025 {#august-2025}
 
+* Collaboration unterstützt jetzt die folgenden [Übereinstimmungsschlüssel](../setup/onboard-account.md#supported-match-keys):
+   * Gehashte E-Mail
+   * Hash-Telefonnummer
+   * CRM-ID
+   * Treue-ID
+   * Gehashtes IPv4
+   * AdFixus-ID
+* In Collaboration sind jetzt mehrere Übereinstimmungsschlüssel verfügbar, mit denen Sie Ihre Zielgruppengröße erweitern und die Übereinstimmungsraten verbessern können. Beim Sourcing von Audiences, Herstellen von Verbindungen und Aktivieren von Audiences können mehrere Übereinstimmungsschlüssel verwendet werden. Weitere Informationen zur Verwendung mehrerer Übereinstimmungsschlüssel finden Sie in den Handbüchern [Einrichten von Übereinstimmungsschlüsseln](../setup/onboard-account.md) und [Sourcing-Zielgruppen](../setup/onboard-audiences.md#map-fields).
+
+>[!IMPORTANT]
+>
+>Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen aufweisen, keine Zielgruppen zählen oder unter den Schwellenwert fallen. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
+
+* Das Adobe Experience Platform-Ziel unterstützt jetzt das Aktivieren von Zielgruppen mit mehreren Übereinstimmungsschlüsseln. Darüber hinaus können Sie jetzt einen verknüpften Schlüssel verwenden, wenn Sie die Zuordnung Ihres Ziels konfigurieren, um anzugeben, welcher Übereinstimmungsschlüssel während der Aktivierung gesendet wird. Weitere Informationen finden Sie im [Experience Platform-Ziel](../destinations/experience-platform.md#linked-keys)-Handbuch.
 * Mitwirkende können jetzt mehrere Zielgruppen gleichzeitig bearbeiten. Mit dem Tool zur Massenbearbeitung können Sie jetzt Zielgruppen-Metadaten, Verbindungszugriff, Namen, Beschreibungen und Kategorien für mehrere Zielgruppen bearbeiten. Weitere Informationen zum Bearbeiten von Zielgruppen finden Sie im Handbuch [Verwalten ](../setup/onboard-audiences.md#edit-audiences) Zielgruppen“.
 
 ## Juli 2025 {#july-2025}
@@ -37,7 +51,7 @@ Real-Time CDP Collaboration unterstützt jetzt die Zusammenarbeit zwischen Marke
 
 * Real-Time CDP Collaboration ist jetzt für Kunden in **Australien** und **Neuseeland** verfügbar. Sie ist für Kunden von Real-Time CDP Prime und Ultimate in diesen Regionen automatisch verfügbar.
 * Real-Time CDP Collaboration bietet jetzt [Selbstbedienungsziele](../setup/manage-destinations.md) über die Registerkarte **[!UICONTROL Meine Ziele]** im Abschnitt **[!UICONTROL Setup]** an. Mit Zielen können Sie Zielgruppen in Drittanbieterplattformen wie Werbenetzwerken oder Datenverwaltungsplattformen aktivieren, um Ihre Kundinnen und Kunden über verschiedene Kanäle zu erreichen. Derzeit werden nur Adobe Experience Platform-Ziele unterstützt. Wenn Sie ein anderes Ziel konfigurieren möchten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter. Weitere Informationen zu Zielen finden Sie im Handbuch [Ziele - Übersicht](../destinations/overview.md) .
-   * Ziele unterstützen auch die Anzeige von Collaboration-Zielgruppen im Zielgruppenportal [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+   * Ziele unterstützen auch die Anzeige von Collaboration-Zielgruppen im Zielgruppenportal [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * Sie können jetzt die Aktualisierungshäufigkeit der Zielgruppe für bestehende Datenverbindungen in Collaboration bearbeiten. Derzeit können Sie Ihre Zielgruppen täglich oder alle zwei bis sechs Tage aktualisieren. Weitere Informationen zum Bearbeiten der Aktualisierungshäufigkeit für Zielgruppen finden Sie im Handbuch [Datenverbindungen verwalten](../setup/manage-data-connection.md#scheduling).
 * Für jeden innerhalb der Verbindung ausgewählten Anwendungsfall werden jetzt Credit-Splits zwischen Partnern festgelegt. Sie können für jeden Anwendungsfall unterschiedliche Regeln für den Kreditverbrauch festlegen, um die Verwendung Ihrer Gutschriften besser steuern zu können. Weitere Informationen zur Funktion der Kreditaufteilung finden Sie im Handbuch [Verbindungseinstellungen](../connect/establishing-connections.md#connection-settings) . Weitere Informationen zum Konsum von Guthaben finden Sie im Handbuch [Typen von ](../setup/my-activity.md#types-of-activities)). <br> ![Bildschirm mit den Verbindungseinstellungen mit der Funktion der Kreditaufteilung.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * Publisher können jetzt Advertiser-Namen und -IDs festlegen, bevor sie die Verbindungseinstellungen von einem Advertiser akzeptieren. Publisher können Namen und IDs festlegen, die mit ihren internen Systemen übereinstimmen, die sich von den Namen und IDs des Advertisers unterscheiden können. Weitere Informationen zum Hinzufügen von Advertiser-Namen und IDs finden Sie im Handbuch [Verbindungseinstellungen](../connect/establishing-connections.md#connection-settings.md) . <br> ![Bildschirm „Verbindungseinstellungen“ mit den Herausgebereinstellungen für Advertiser-Namen und -IDs.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -49,7 +63,7 @@ Real-Time CDP Collaboration unterstützt jetzt die Zusammenarbeit zwischen Marke
 
 ## März 2025 {#march-2025}
 
-* Beim [ von Zielgruppen ](/help/guide/setup/onboard-audiences.md) Collaboration können Sie jetzt eine Aktualisierungshäufigkeit für Zielgruppen von **alle ein bis sechs Tage)**, um die Kreditaktivität [Zielgruppenverwaltung“ besser zu ](/help/guide/setup/my-activity.md#types-of-activities). Weitere Informationen finden Sie im Handbuch [Verwalten ](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) Zielgruppen“. <br> ![Bildschirm „Zeitplan“ mit verschiedenen Häufigkeitsintervallen zur Aktualisierung der Zielgruppenzugehörigkeit.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Bildschirm „Zeitplan“ mit verschiedenen Häufigkeitsintervallen zur Aktualisierung der Zielgruppenzugehörigkeit."){width="250" align="center" zoomable="yes"}
+* Beim [ von Zielgruppen ](/help/guide/setup/onboard-audiences.md) Collaboration können Sie jetzt eine Aktualisierungshäufigkeit für Zielgruppen von **alle ein bis sechs Tage)**, um die Kreditaktivität [Zielgruppenverwaltung“ besser zu ](/help/guide/setup/my-activity.md#types-of-activities). Weitere Informationen finden Sie im Handbuch [Verwalten ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) Zielgruppen“. <br> ![Bildschirm „Zeitplan“ mit verschiedenen Häufigkeitsintervallen zur Aktualisierung der Zielgruppenzugehörigkeit.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Bildschirm „Zeitplan“ mit verschiedenen Häufigkeitsintervallen zur Aktualisierung der Zielgruppenzugehörigkeit."){width="250" align="center" zoomable="yes"}
 * Beim Herstellen einer Verbindung mit einem Mitarbeiter können Sie jetzt aus vordefinierten **Anwendungsfällen** auswählen. Der ausgewählte Anwendungsfall bestimmt, welche Projektabschnitte und Produktfunktionen verfügbar werden. Weitere Informationen finden Sie im Handbuch [Verwalten von Projekten](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *Messung* aktiviert den Projektabschnitt **Messen**.
    * *Zielgruppenerkennung* aktiviert den Projektabschnitt **Entdecken**.
