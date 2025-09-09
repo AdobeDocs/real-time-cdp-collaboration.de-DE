@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration-Schnellstartanleitung
 description: Erfahren Sie, wie Sie Ihr Unternehmen in Real-Time CDP Collaboration integrieren können, einschließlich der Einrichtung von Rollen und Organisationen, der Beschaffung von Zielgruppen, der Aktivierung und Messung. Dieser Leitfaden hilft Mitarbeitern bei der Konfiguration von Verbindungseinstellungen, um mit der sicheren und effizienten Nutzung ihrer Zielgruppen zu beginnen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Bevor Sie beginnen, stellen Sie Folgendes sicher:
 - [Zugriff für Endbenutzer bereitgestellt](./permissions/manage-user-access.md).
 - [Für Ihr Unternehmen erstellte und Benutzern zugewiesene Rollen](./permissions/manage-roles.md).
 - Zugriff auf Branding-Assets, z. B. Name, Logo und Banner Ihres Unternehmens.
-- Eine [definierte Strategie für Übereinstimmungsschlüssel](./setup/onboard-account.md#set-up-match-keys) (derzeit ist die Hash-E-Mail der einzige unterstützte Übereinstimmungsschlüssel).
+- Eine [definierte Schlüsselstrategie für Übereinstimmungen](./setup/onboard-account.md#set-up-match-keys)
 - (Optional) Zugriff auf eine unterstützte Cloud-Quelle (Amazon S3 oder Snowflake), wenn Sie Experience Platform nicht für die Zielgruppenverwaltung verwenden.
 
 ## Schritt 1: Rollenbasierte Einrichtung abschließen {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration mithilfe von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?learn=on&enablevpops&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten des Collaboration-Kontos {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Definieren Sie die Rolle Ihres Kontos in Collaboration, stellen Sie Branding-Ass
 >Wenn Sie ein Publisher-Konto erstellen und im Verbindungskatalog von Collaboration öffentlich angezeigt werden möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer. Für Publisher-Konten ist ein benutzerdefiniertes Markenbanner erforderlich (JPG 2688x1536). Diese Datei kann direkt mit Ihrem Kundenbetreuer geteilt werden.
 
 - **Kontakt-E** - Geben Sie eine Geschäfts-E-Mail an, die Mitarbeiter nach der Herstellung einer Verbindung verwenden können.
-- **Übereinstimmungsschlüssel konfigurieren** - Wählen Sie die Kennungen aus, die für den Zielgruppen-Abgleich verwendet werden (derzeit ist die gehashte E-Mail der einzige unterstützte Übereinstimmungsschlüssel).
+- **Übereinstimmungsschlüssel konfigurieren** - Wählen Sie die Kennungen aus, die für den Zielgruppen-Abgleich verwendet werden.
 
 Weitere Informationen zur Ersteinrichtung von Konten, einschließlich der Definition von Rollen, dem Hochladen von Branding-Assets und dem Konfigurieren von Übereinstimmungsschlüsseln, finden Sie im Handbuch [Ersteinrichtung von Konten](./setup/onboard-account.md#initial-account-setup){target="_blank"} .
 
@@ -107,7 +107,8 @@ Konfigurieren Sie, wie Zielgruppen für die Verwendung in Verbindungen vorbereit
 >
 >**Wesentliche Anforderungen erfüllen:**
 >
->Alle Übereinstimmungsschlüssel müssen **trimmed**, **lowercase** und **SHA256-hashed** sein.\
+>Alle Übereinstimmungsschlüssel müssen **gekürzt**, **kleingeschrieben**
+>>Hash-Übereinstimmungsschlüssel müssen **SHA256-hashed** sein.\
 >Wenn Sie Hash-Werte mit Großbuchstaben angeben, wandelt Collaboration diese automatisch in Kleinbuchstaben um.\
 >Wenn Ihre Quelle (**)** enthält, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]** zum Anwenden von Hashing. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
 >
@@ -140,7 +141,7 @@ Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 

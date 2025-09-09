@@ -2,9 +2,9 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ Um besser verstehen zu können, wie sich die Indexbewertungen auf Ihre Kampagne 
 Um einen einfachen Vergleich über verschiedene Zielgruppen und Kampagnen hinweg zu ermöglichen, übersetzt Collaboration die Indexwerte in Relevanzbänder (sehr niedrig bis sehr hoch). Auf diese Weise können Sie die Stärke der Beziehung zwischen Ihrer Zielgruppe und der Zielgruppe der mitwirkenden Person schnell bewerten.
 
 | Index-Bewertung (i) | Relevanzbereich | Beschreibung |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | Sehr niedrig | Die Überschneidung ist bei der Zielgruppe im Vergleich zu Ihrer Zielgruppe viel geringer, was auf eine sehr schwache Beziehung hinweist. Kunden, die diese Zielgruppe verwenden, erreichen ihre Zielgruppe mit deutlich geringerer Wahrscheinlichkeit. |
 | 60 &lt; i &lt; 80 | Niedrig | Die Überschneidung ist bei der Zielgruppe im Vergleich zu Ihrer Zielgruppe etwas geringer, was auf eine schwache Beziehung hindeutet. Kunden, die diese Zielgruppe verwenden, erreichen ihre Zielgruppe mit geringerer Wahrscheinlichkeit. |
 | 80 &lt; i &lt; 120 | Mittel | Die Überschneidung ist in der Zielgruppe genauso verbreitet wie in Ihrer Zielgruppe, was auf eine typische Beziehung hinweist. Kunden, die diese Zielgruppe verwenden, haben eine durchschnittliche Wahrscheinlichkeit, ihre Zielgruppe zu erreichen. |

@@ -2,12 +2,12 @@
 title: Datenverbindungen verwalten
 description: Erfahren Sie, wie Sie in Real-Time CDP Collaboration Datenverbindungen verwalten, einschließlich Übereinstimmungsschlüsseln, Planung, Anwendungsfällen und Zielgruppenfilterung
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 13%
+source-wordcount: '602'
+ht-degree: 8%
 
 ---
 
@@ -30,17 +30,9 @@ Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel bestimmen, wie Daten aus verschiedenen Quellen zugeordnet werden. Die Übereinstimmungsschlüssel auswählen, die für die Anwendungsfälle und Datenschutzrichtlinien am relevantesten sind."
+>abstract="Übereinstimmungsschlüssel bestimmen, wie Daten aus verschiedenen Quellen zugeordnet werden. Die unten angezeigten Übereinstimmungsschlüssel sind die Zielfelder, denen Sie Ihre Quellfelder zugeordnet haben."
 
-Übereinstimmungsschlüssel sind Kennungen, die zum zielgruppenübergreifenden Abstimmen der Mitglieder von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Die Übereinstimmungsschlüssel, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, können nicht bearbeitet werden.
-
->[!IMPORTANT]
-> 
->Übereinstimmungsschlüssel können nach der Erstellung der Datenverbindung nicht mehr bearbeitet werden. Um Übereinstimmungsschlüssel zu aktualisieren, müssen Sie eine neue Datenverbindung erstellen.
-
-Zu den verfügbaren Übereinstimmungsschlüsseln gehören:
-
-- **Hash-E-Mail**
+Übereinstimmungsschlüssel sind die Zielfelder, denen Sie [Ihre Quellfelder zugeordnet haben](./onboard-audiences.md#map-fields). Die Übereinstimmungsschlüssel, die Sie ursprünglich für Ihre Datenverbindung ausgewählt haben, können nicht bearbeitet werden. Um Übereinstimmungsschlüssel zu aktualisieren, müssen Sie eine neue Datenverbindung erstellen. Weitere Informationen zur Funktionsweise von Übereinstimmungsschlüsseln finden Sie im Handbuch [Übereinstimmungsschlüssel](./onboard-account.md#set-up-match-keys) .
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Nachdem eine Datenverbindung erstellt wurde, können Sie ihre Aktualisierungshä
 
 >[!NOTE]
 >
->Beim Bezug von Zielgruppen aus Adobe Experience Platform werden Zielgruppen innerhalb von 24 Stunden nach Herstellung der Datenverbindung verfügbar. Nach dem ersten Import werden die Zielgruppendaten entsprechend der definierten Häufigkeit aktualisiert.
+>Beim Bezug von Zielgruppen aus Adobe Experience Platform werden Zielgruppen innerhalb von 24 Stunden nach Herstellung der Datenverbindung verfügbar. Nach der ersten Beschaffung werden die Zielgruppendaten entsprechend der definierten Häufigkeit aktualisiert.
 
 Weitere Informationen zur Planung finden Sie [ Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Handbuch zum Konfigurieren von Zielgruppen.
 
@@ -66,6 +58,8 @@ Weitere Informationen zur Planung finden Sie [ Abschnitt „Planung](/help/guide
 #### Zeitplan bearbeiten {#edit-scheduling}
 
 Sie können die Häufigkeit einer vorhandenen Datenverbindung bearbeiten, um besser steuern zu können, wie oft Zielgruppen aktualisiert werden. Um den Zeitplan zu bearbeiten, wählen Sie **[!UICONTROL Bearbeiten]** in der Datenverbindung auf der Planungskarte aus.
+
+Die Planung betrifft alle Zielgruppen, die von der Datenverbindung bezogen werden.
 
 Wählen Sie **[!UICONTROL Dialogfeld &quot;]**&quot; das Dropdown-Menü aus, um die **[!UICONTROL Häufigkeit]** zu aktualisieren. Stellen Sie die Aktualisierungshäufigkeit so ein, dass sie täglich oder alle zwei bis sechs Tage ausgeführt wird. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
 

@@ -2,12 +2,12 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -118,7 +118,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -194,7 +194,8 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel werden mit den Schlüsseln vorausgefüllt, die auf Organisationsebene ausgewählt wurden. Alle Übereinstimmungsschlüssel, die in dieser Verbindung nicht verwendet werden sollen, können deaktiviert werden."
+>abstract="Übereinstimmungsschlüssel werden mit allgemeinen Übereinstimmungsschlüsseln vorausgefüllt, die Sie und Ihr Mitarbeiter auf Kontoebene ausgewählt haben. Alle Übereinstimmungsschlüssel, die in dieser Verbindung nicht verwendet werden sollen, können deaktiviert werden."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel des Kontos"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 
 Sie können die folgenden Verbindungseinstellungen konfigurieren:
 
-+++Zielgruppenaktivierung
+##### Zielgruppenaktivierung {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änder
 
 ![Das Dialogfeld für die Zielgruppenaktivierung mit der Option Speichern im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Anwendungsfälle
+##### Anwendungsfälle {#use-cases}
 
 Anwendungsfälle werden automatisch mit allen verfügbaren Optionen ausgefüllt. Ausgewählte Anwendungsfälle bestimmen, welche Ansichten und Optionen in Ihren Projekten verfügbar sind. Weitere Informationen finden Sie im [Projekt-Anwendungsfälle](/help/guide/collaborate/manage-projects.md#project-use-cases)Handbuch.
 
@@ -250,19 +249,23 @@ Um Ihre Anwendungsfälle anzupassen, wählen Sie **[!UICONTROL Bearbeiten]** im 
 
 ![Die Einstellungen für Anwendungsfälle im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Übereinstimmungsschlüssel {#match-keys}
 
-+++Übereinstimmungsschlüssel
+Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
 
-Übereinstimmungsschlüssel werden automatisch mit den Schlüsseln gefüllt, die Sie beim [ Ihres Kontos ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Sie können alle Übereinstimmungsschlüssel deaktivieren, die Sie nicht verwenden möchten. Sie können jedoch keine Übereinstimmungsschlüssel hinzufügen, die während der Kontoeinrichtung nicht ausgewählt wurden.
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“, in dem die allgemeinen Übereinstimmungsschlüssel angezeigt werden.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+Wenn der Verbindungsbesitzer die Verbindungseinstellungen einrichtet, kann er [seine Konto-Übereinstimmungsschlüssel bearbeiten](../setup/onboard-account.md#edit-match-keys) um zusätzliche Übereinstimmungsschlüssel einzuschließen. Nachdem Sie weitere Übereinstimmungsschlüssel in Ihren Kontoeinstellungen aktiviert haben, können diese Übereinstimmungsschlüssel in den Verbindungseinstellungen aktiviert werden, wenn Ihr Mitarbeiter sie ebenfalls ausgewählt hat. Übereinstimmungsschlüssel, die hinzugefügt wurden, sobald der Verbindungsprozess begonnen hat, werden nicht automatisch ausgefüllt und müssen manuell aktiviert werden.
 
 Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Übereinstimmungsschlüssel]** und schalten Sie alle Übereinstimmungsschlüssel aus, die Sie in dieser Verbindung nicht verwenden möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-![Die Einstellungen für Übereinstimmungsschlüssel im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit dem Abschnitt „Übereinstimmungsschlüssel“ wird geöffnet und zeigt einen umgeschalteten Übereinstimmungsschlüssel an.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>Sobald Ihr Mitarbeiter die Verbindungseinstellungen akzeptiert hat, werden die Übereinstimmungsschlüssel gesperrt und können nicht mehr geändert werden.
 
-+++Credit-Aufspaltung
+##### Credit-Aufspaltung {#credit-split}
 
 Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von ](/help/guide/setup/my-activity.md#types-of-activities)).
 
@@ -274,9 +277,7 @@ Um die Kreditaufteilung einzurichten, wählen Sie **[!UICONTROL Bearbeiten]** im
 
 ![Das Dialogfeld „Kreditaufteilung“ mit Optionen im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Advertiser-Namen
+##### Advertiser-Namen {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Beim Erstellen eines Projekts wird der Advertiser-Name basierend auf den folgend
 > Nachdem Sie die Verbindungseinstellungen gesendet haben, können Sie keine Advertiser-Namen mehr hinzufügen oder bearbeiten.
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit ausgefülltem Abschnitt „Advertiser-Namen“.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 Nachdem Sie Ihre Auswahl getroffen haben, wählen Sie **[!UICONTROL Senden]** aus, um die vorgeschlagenen Einstellungen zur Überprüfung an den Empfänger zu senden.
 
