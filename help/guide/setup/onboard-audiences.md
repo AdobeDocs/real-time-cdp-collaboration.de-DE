@@ -2,12 +2,12 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
 source-wordcount: '3508'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -80,7 +80,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Data Collaboration]** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -147,7 +147,7 @@ Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zuge
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=de#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
+**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
 
 Source-Felder werden den in Collaboration definierten Zielfeldern zugeordnet.
 
@@ -265,7 +265,7 @@ Für jede einzelne Zielgruppe werden die folgenden Informationen angezeigt:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identitäten"
->abstract="Eine Aufschlüsselungsansicht der Identitäten, aus denen diese Zielgruppe besteht, getrennt nach Übereinstimmungsschlüssel."
+>abstract="Eine Aufschlüsselungsansicht der Identitäten, aus denen diese Zielgruppe besteht, getrennt durch Übereinstimmungsschlüssel."
 
 Der **[!UICONTROL Identitäten]** gibt die Anzahl der in der Zielgruppe vorhandenen Identitäten an. Der Abschnitt enthält auch eine Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel, anhand derer Sie die Zusammensetzung der Zielgruppe verstehen können.
 
@@ -297,7 +297,7 @@ Das **[!UICONTROL Kategorien]** wird angezeigt, in dem Sie die Kategorien auswä
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Zugriff auf Verbindungen"
->abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung.</p>"
+>abstract="<p>Zielgruppen können drei Typen aufweisen: öffentlich, privat und benutzerdefiniert.</p><p> Ihre Verfügbarkeit für die Verwendung in Projekten mit Mitwirkenden unterscheidet sich je nach Einstellung für den Verbindungszugriff.</p>"
 
 Die Verfügbarkeit einer Zielgruppe zur Verwendung in Projekten mit Partnern unterscheidet sich je nach Verbindungszugriffseinstellung. Im Abschnitt **[!UICONTROL Verbindungszugriff]** können Sie auswählen, ob die Zielgruppe privat, öffentlich oder nur für bestimmte Verbindungen verfügbar sein soll. Öffentliche Zielgruppen sind in Verbindungen verwendbar und auffindbar.
 
