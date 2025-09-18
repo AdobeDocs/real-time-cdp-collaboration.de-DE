@@ -2,24 +2,52 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 6%
 
 ---
 
-# Herstellen von Verbindungen
+# Herstellen von Verbindungen {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="Vergleichen von Zielgruppen"
+>abstract="Vergleichen Sie Ihre Zielgruppe mit allen Verbrauchern, die Ihre Amazon-Anzeigen erreichen."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="Relevante Zielgruppen"
+>abstract="Zielgruppensegmente in Amazon, bei denen Ihre Zielgruppe die größten Überschneidungen aufweist, wobei nur DSP-Impressions berücksichtigt werden (diese Segmente können nur in der DSP angesprochen werden)."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="Aufgelöste IDs"
+>abstract="Die Anzahl der IDs, die die Identitätsauflösung von Amazon mithilfe Ihrer Zielgruppendaten auflösen konnte."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="Überlappende und offen gelegte IDs"
+>abstract="Dies stellt die Anzahl der „aufgelösten IDs“ aus der hochgeladenen Zielgruppe dar, die auch einer Anzeige über Amazon Ads bereitgestellt wurden."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="Überschneidung %"
+>abstract="Der Anteil der „aufgelösten IDs“, die über Amazon Ads einer Anzeige ausgesetzt wurden."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Aufschlüsselung nach Amazon und Produkt"
+>abstract="Aufschlüsselung der „sich überschneidenden Anzeigen-exponierten IDs“, die entweder von Amazon Ads Sponsored Product und/oder Amazon Ads DSP erreicht wurden."
 
 {{limited-availability-release-note}}
 
 Bevor Mitwirkende an Kampagnen zusammenarbeiten können, müssen sie eine Verbindung herstellen. Diese Verbindung ermöglicht es ihnen, Zielgruppen zu aktivieren, Projekte zu erstellen und Berichte über die Kampagnenleistung zu erstellen.
 
 Verbindungen werden basierend auf Ihrem ausgewählten Kooperationsmuster hergestellt. Collaboration unterstützt zwei wichtige Kooperationsmuster: „Advertiser-to-Publisher“ und „Brand-to-Brand“. Weitere Informationen zu diesen Mustern finden Sie im Handbuch [Anwendungsfälle](/help/guide/overview/use-cases.md) .
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 Um zu erfahren, wie Sie eine Verbindung herstellen, lesen Sie den folgenden Abschnitt, der Ihrem Kooperationsmuster entspricht:
 
@@ -118,7 +146,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -195,7 +223,7 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Übereinstimmungsschlüssel"
 >abstract="Übereinstimmungsschlüssel werden mit allgemeinen Übereinstimmungsschlüsseln vorausgefüllt, die Sie und Ihr Mitarbeiter auf Kontoebene ausgewählt haben. Alle Übereinstimmungsschlüssel, die in dieser Verbindung nicht verwendet werden sollen, können deaktiviert werden."
->additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel des Kontos"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel des Kontos"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
