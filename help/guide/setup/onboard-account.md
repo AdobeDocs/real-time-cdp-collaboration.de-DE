@@ -2,12 +2,12 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel sind Kennungen, die zur Abstimmung von Zielgruppenprofilen aus verschiedenen Datenquellen verwendet werden. Schließen Sie alle Übereinstimmungsschlüssel ein, mit denen Ihre Marke arbeiten kann."
+>abstract="Übereinstimmungsschlüssel sind Kennungen, die zum Abstimmen der Profile von Zielgruppen aus verschiedenen Datenquellen verwendet werden. Schließen Sie alle Übereinstimmungsschlüssel ein, mit denen Ihre Marke arbeiten kann."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Personenbezogene IDs von Erstanbietern"
->abstract="First-Party-Personen-IDs, wie z. B. Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs, sind direkt mit einem einzelnen Profil verbunden."
+>title="Personenbezogene IDs aus erster Hand"
+>abstract="Personenbezogene IDs aus erster Hand wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden. "
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="IDs von Erstanbieter-Geräten"
->abstract="Erstanbieter-Geräte-IDs wie ECID- oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können. IPv4 ist die einzige derzeit unterstützte Erstanbieter-Geräte-ID."
+>abstract="Geräte-IDs aus erster Hand wie ECIDs oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können. IPv4 ist die einzige derzeit unterstützte Erstanbieter-Geräte-ID."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Unterstützte Partner-IDs"
->abstract="Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung der Zielgruppe bereitgestellt werden. Partner-IDs sind nicht direkt mit einem einzelnen Profil verbunden."
+>abstract="Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgruppen bereitgestellt werden. Partner-IDs sind nicht direkt mit einem einzelnen Profil verbunden."
 
 ![Unterstützte Übereinstimmungsschlüssel.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -97,7 +97,7 @@ Collaboration unterstützt drei Arten von Übereinstimmungsschlüsseln: Erstanbi
 * Wenn Sie Hash-Werte mit Großbuchstaben angeben, wandelt Collaboration diese automatisch in Kleinbuchstaben um.
 * Wenn Ihre Quelle **Klartext-IDs** enthält, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]** während Ihrer [Datenverbindungseinrichtung](./manage-data-connection.md#match-keys), um Hashing anzuwenden. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
 
-##### Personenbezogene IDs von Erstanbietern
+##### Personenbezogene IDs aus erster Hand
 
 First-Party-Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstützte IDs sind:
 
@@ -115,7 +115,7 @@ Erstanbieter-Geräte-IDs sind Kennungen, die mit einem bestimmten Gerät verbund
 
 ##### Partner-IDs
 
-Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung der Zielgruppe bereitgestellt werden. Derzeit unterstützte IDs sind:
+Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgruppen bereitgestellt werden. Derzeit unterstützte IDs sind:
 
 * **[!UICONTROL Adfixus-ID]**
 

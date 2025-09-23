@@ -2,12 +2,12 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
 source-wordcount: '3508'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -34,7 +34,7 @@ Wählen Sie im Arbeitsbereich **[!UICONTROL Setup]** **[!UICONTROL auf der Regis
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing-Aktionen"
->abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion <strong>Data Collaboration</strong> unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> aktiviert ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration bezogen werden können.</li></ul></p>"
+>abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion <strong>Data Collaboration</strong> unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de" text="Datennutzungs-Labels – Übersicht"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de" text="Glossar der Datennutzungs-Labels"
 
@@ -80,7 +80,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Data Collaboration]** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -130,7 +130,7 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribute"
->abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse Profile in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM Individual Profile“ gehören."
+>abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
 
 Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der Kontoeinrichtung ausgewählt haben.
@@ -147,7 +147,7 @@ Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zuge
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=de#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
+**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
 
 Source-Felder werden den in Collaboration definierten Zielfeldern zugeordnet.
 

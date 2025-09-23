@@ -2,12 +2,12 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Überlappende und offen gelegte IDs"
+>title="Überschneidende, für Anzeigen offengelegte IDs"
 >abstract="Dies stellt die Anzahl der „aufgelösten IDs“ aus der hochgeladenen Zielgruppe dar, die auch einer Anzeige über Amazon Ads bereitgestellt wurden."
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Aufschlüsselung nach Amazon und Produkt"
+>title="Aufschlüsselung nach Amazon-Anzeigenprodukt"
 >abstract="Aufschlüsselung der „sich überschneidenden Anzeigen-exponierten IDs“, die entweder von Amazon Ads Sponsored Product und/oder Amazon Ads DSP erreicht wurden."
 
 {{limited-availability-release-note}}
@@ -146,7 +146,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -222,12 +222,12 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem Sie die versc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Übereinstimmungsschlüssel"
->abstract="Übereinstimmungsschlüssel werden mit allgemeinen Übereinstimmungsschlüsseln vorausgefüllt, die Sie und Ihr Mitarbeiter auf Kontoebene ausgewählt haben. Alle Übereinstimmungsschlüssel, die in dieser Verbindung nicht verwendet werden sollen, können deaktiviert werden."
->additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel des Kontos"
+>abstract="Übereinstimmungsschlüssel werden mit allgemeinen Übereinstimmungsschlüsseln vorausgefüllt, die Sie und die mitwirkende Person auf Kontoebene ausgewählt haben. Alle Übereinstimmungsschlüssel, die in dieser Verbindung nicht verwendet werden sollen, können deaktiviert werden."
+>additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Übereinstimmungsschlüssel für Konten"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
->title="Credit-Aufspaltung"
+>title="Kostenaufteilung"
 >abstract="In diesem Abschnitt wird festgelegt, wer die Kosten für die entsprechenden Aktivitäten in Collaboration trägt. "
 
 >[!CONTEXTUALHELP]
@@ -297,7 +297,7 @@ Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten
 >
 >Sobald Ihr Mitarbeiter die Verbindungseinstellungen akzeptiert hat, werden die Übereinstimmungsschlüssel gesperrt und können nicht mehr geändert werden.
 
-##### Credit-Aufspaltung {#credit-split}
+##### Kostenaufteilung {#credit-split}
 
 Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von ](/help/guide/setup/my-activity.md#types-of-activities)).
 
