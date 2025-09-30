@@ -2,11 +2,11 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Im Abschnitt Vergleichen von Zielgruppen werden die folgenden Metriken angezeigt
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der eindeutigen IDs, die sowohl in Ihren als auch in den Zielgruppen Ihres Mitarbeiters vorhanden sind. |
 | **[!UICONTROL Überschneidung %]** | Der Prozentsatz der Profile, die sich zwischen Ihrer ausgewählten Zielgruppe und der ausgewählten Zielgruppe Ihrer oder Ihres Mitwirkenden überschneiden. |
 | **[!UICONTROL Zielgruppenindex]** | Ein Score, der basierend auf der Anzahl und Überschneidung der zugrunde liegenden Zielgruppen angibt, wie stark sich eine Zielgruppe auf eine andere bezieht. Weitere Informationen zur Bedeutung der Bewertungen finden Sie im Abschnitt [Audience-Index](#audience-index-score). Die Zielgruppenindexwerte sind beim Vergleich mit der Grundlinie Ihres Mitarbeiters (alle Zielgruppen) nicht verfügbar. |
-| **[!UICONTROL Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel]** | Die Aufschlüsselung der Identitäten für jeden im Projekt ausgewählten Übereinstimmungsschlüssel, basierend auf den für jeden Mitarbeiter ausgewählten Zielgruppen. |
+| **[!UICONTROL Aufschlüsselung der Identitäten nach Übereinstimmungsschlüssel]** | Die Aufschlüsselung der Identitäten, die für jeden im Projekt ausgewählten Übereinstimmungsschlüssel übereinstimmen, basierend auf den für jeden Mitarbeiter ausgewählten Zielgruppen. |
 
 {style="table-layout:auto"}
 

@@ -2,9 +2,9 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ Um zu erfahren, wie Sie eine Verbindung herstellen, lesen Sie den folgenden Absc
 
 ![Allgemeine Abbildung des Verbindungsprozesses zwischen Advertiser und Publisher.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-Im Muster von Advertiser zu Publisher erkennt ein Advertiser einen Publisher, mit dem er arbeiten möchte, über den Arbeitsbereich **[!UICONTROL Discover Publishers]** und sendet eine Verbindungseinladung. Der Publisher prüft dann die Einladung und akzeptiert sie, sodass der Advertiser Verbindungseinstellungen vorschlagen kann. Sobald der Herausgeber die Verbindungseinstellungen akzeptiert, wird die Verbindung hergestellt und beide Mitarbeiter können mit der Arbeit an Projekten beginnen.
+Im Muster zwischen Advertiser und Publisher erkennt ein Advertiser über den Arbeitsbereich &quot;**[!UICONTROL Discover-Mitarbeiter“ einen Publisher, mit dem er arbeiten]**, und sendet eine Verbindungseinladung. Der Publisher prüft dann die Einladung und akzeptiert sie, sodass der Advertiser Verbindungseinstellungen vorschlagen kann. Sobald der Herausgeber die Verbindungseinstellungen akzeptiert, wird die Verbindung hergestellt und beide Mitarbeiter können mit der Arbeit an Projekten beginnen.
 
 ### Allgemeine Übersicht
 
 Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, sind die folgenden Schritte erforderlich:
 
-1. [Publisher entdecken](#discover-publishers): Der Advertiser identifiziert potenzielle Publisher, mit denen er zusammenarbeiten soll.
+1. [Publisher entdecken](#discover-collaborators): Der Advertiser identifiziert potenzielle Mitarbeiter, mit denen er arbeiten kann.
 1. [Einladung senden](#send-invite): Der Advertiser sendet eine Einladung zur Verbindung an den ausgewählten Publisher.
 1. [Einladung annehmen](#accept-invite): Der Herausgeber prüft und akzeptiert die Einladung.
 1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
@@ -108,25 +108,25 @@ Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung herge
 
 Im **[!UICONTROL Connect]**-Arbeitsbereich können Sie Ihre Verbindungen mit Mitarbeitern verwalten, Verbindungseinladungen senden und Werbetreibende das Herausgeberverzeichnis durchsuchen. Der Arbeitsbereich ist in zwei Hauptregisterkarten unterteilt:
 
-### Publisher entdecken {#discover-publishers}
+### Mitwirkende entdecken {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Discover Publishers]** finden. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
+>Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
 
-Um Herausgeber zu finden, navigieren Sie auf der Registerkarte **[!UICONTROL Verbinden]** zum Arbeitsbereich **[!UICONTROL Herausgeber]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Publishers]** finden Sie im Handbuch [Discover Publishers](/help/guide/connect/discover-publishers.md) .
+Um Publisher zu finden, navigieren Sie auf der Registerkarte „Verbinden **[!UICONTROL zum Arbeitsbereich]** Mitarbeiter **[!UICONTROL Entdecken]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Collaborators]** finden Sie im Handbuch [Discover Collaborators](/help/guide/connect/discover-collaborators.md) .
 
-![Der Arbeitsbereich „Publisher suchen“ mit einer Liste der verfügbaren Publisher.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![Der Arbeitsbereich „Mitarbeiter entdecken“ mit einer Liste der verfügbaren Herausgeber.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Einladung senden {#send-invite}
 
 >[!IMPORTANT]
 >
->In diesem Abschnitt wird der Prozess beschrieben, bei dem Advertiser über den Arbeitsbereich **[!UICONTROL Discover Publishers“ Verbindungseinladungen an]** senden. Um mehr über die Bildung von Verbindungen zwischen Marken zu erfahren, unabhängig von deren Rollen, lesen Sie den Abschnitt [Marke-zu-Marke-Verbindung](#brand-to-brand-connection) oder besuchen Sie den Abschnitt [Einladung zur privaten Verbindung](#private-connection-invite).
+>In diesem Abschnitt wird der Prozess beschrieben, bei dem Werbetreibende über den Arbeitsbereich **[!UICONTROL Discover-Mitarbeiter“ Verbindungseinladungen an]** senden. Um mehr über die Bildung von Verbindungen zwischen Marken zu erfahren, unabhängig von deren Rollen, lesen Sie den Abschnitt [Marke-zu-Marke-Verbindung](#brand-to-brand-connection) oder besuchen Sie den Abschnitt [Einladung zur privaten Verbindung](#private-connection-invite).
 
 Nachdem Sie einen Herausgeber identifiziert haben, mit dem Sie zusammenarbeiten möchten, wählen Sie die **[!UICONTROL Verbinden]** auf der Herausgeberkarte. Diese Aktion initiiert den Verbindungsprozess.
 
-![Die hervorgehobene Option „Verbinden“ für einen bestimmten Herausgeber im Arbeitsbereich „Herausgeber suchen“.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![Die hervorgehobene Option „Verbinden“ für einen bestimmten Herausgeber im Arbeitsbereich „Mitarbeiter entdecken“.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Es wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, eine Einladung zur Verbindung an den Herausgeber zu senden. Wählen Sie **[!UICONTROL Einladung senden]** um fortzufahren.
 
@@ -146,7 +146,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
