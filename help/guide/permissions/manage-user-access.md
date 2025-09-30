@@ -33,11 +33,11 @@ Gewähren Sie einem Produktbenutzer oder einer Produktadministratorin Zugriff, u
 >
 >Als System-Admin haben Sie vorkonfigurierten Zugriff auf bestimmte Experience Cloud-Produkte wie Adobe Admin Console. Um jedoch Berechtigungen verwenden zu können, müssen Sie sich selbst Produktadministrator und Benutzer Zugriff auf das Experience Platform-Produkt gewähren. Folgen Sie der unten stehenden schrittweisen Anleitung, um sich als System-Admin Zugriff zu verschaffen.
 
-Melden Sie sich mit Ihren Anmeldeinformationen bei [0}Adobe Experience Cloud&quot; an. ](https://experience.adobe.com/){target="_blank"} Die Startansicht wird mit einer Liste Ihrer verfügbaren Produkte im Bereich **[!UICONTROL Schnellzugriff]** angezeigt. Wählen Sie **[!UICONTROL Admin Console]** aus.
+Melden Sie sich mit Ihren Anmeldeinformationen bei [0&rbrace;Adobe Experience Cloud&quot; an. ](https://experience.adobe.com/){target="_blank"} Die Startansicht wird mit einer Liste Ihrer verfügbaren Produkte im Bereich **[!UICONTROL Schnellzugriff]** angezeigt. Wählen Sie **[!UICONTROL Admin Console]** aus.
 
 Startansicht von ![Experience Cloud mit hervorgehobener Admin Console-Option.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-Das Übersichts-Dashboard [ ](https://adminconsole.adobe.com/)Adobe Admin Console&#39; wird angezeigt. Wählen Sie **[!UICONTROL Adobe Experience Platform]** aus der Liste **[!UICONTROL Produkte]** unter **[!UICONTROL Produkte und Services]** aus.
+Das Übersichts-Dashboard [&#128279;](https://adminconsole.adobe.com/)Adobe Admin Console&#39; wird angezeigt. Wählen Sie **[!UICONTROL Adobe Experience Platform]** aus der Liste **[!UICONTROL Produkte]** unter **[!UICONTROL Produkte und Services]** aus.
 
 Übersichts-Dashboard von ![Admin Console mit hervorgehobenem Adobe Experience Platform-Produkt.](../../assets/permissions/admin-console.png){zoomable="yes"}
 
