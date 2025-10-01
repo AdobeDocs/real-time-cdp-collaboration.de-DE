@@ -71,7 +71,7 @@ Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Sta
 >title="Ziel-Namespaces"
 >abstract="Zielgruppen-Namespaces geben an, welchem Identity-Namespace der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird. Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt."
 
-Alle für Ihr Konto aktivierten Übereinstimmungsschlüssel sind standardmäßig in der Aktivierungszuordnung enthalten. Wenn Sie einen Übereinstimmungsschlüssel nicht direkt einem Ziel-Namespace zuordnen möchten, können Sie die Option Verknüpfter Schlüssel verwenden, um ihn durch einen anderen Übereinstimmungsschlüssel zu ersetzen. Weitere Informationen zu verknüpften Schlüsseln finden Sie [ Abschnitt unten](#linked-keys).
+Alle für Ihr Konto aktivierten Übereinstimmungsschlüssel sind standardmäßig in der Aktivierungszuordnung enthalten. Wenn Sie einen Übereinstimmungsschlüssel nicht direkt einem Ziel-Namespace zuordnen möchten, können Sie die Option Verknüpfter Schlüssel verwenden, um ihn durch einen anderen Übereinstimmungsschlüssel zu ersetzen. Weitere Informationen zu verknüpften Schlüsseln finden Sie [&#x200B; Abschnitt unten](#linked-keys).
 
 #### Zuordnen von Ziel-Namespaces {#map-target-namespaces}
 
@@ -138,7 +138,7 @@ Nachdem Sie Experience Platform als Ziel konfiguriert haben, können Sie mit dem
 >
 >Sie **müssen** Experience Platform als Ziel konfigurieren *bevor* Mitarbeiter eine Zielgruppe aktiviert. Wenn das Ziel nicht konfiguriert ist, wird die Zielgruppe an Sie gesendet und auf der Registerkarte **[!UICONTROL Aktivieren]** innerhalb eines Projekts angezeigt, sie wird jedoch nicht für Experience Platform aktiviert.
 
-Experience Platform Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in ](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
+Experience Platform Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in &#x200B;](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
 
 ### Zielgruppenportal {#audience-portal}
 

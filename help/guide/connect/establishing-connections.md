@@ -70,7 +70,7 @@ Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, s
 1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
 1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
 
-Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [&#x200B; Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
 ## Marke-zu-Marke-Verbindung {#brand-to-brand-connection}
 
@@ -80,7 +80,7 @@ Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung herge
 >
 >Der Begriff **Marke** wird verwendet, um ein Unternehmen oder eine Marke außerhalb von Collaboration zu bezeichnen. Der Begriff **Mitarbeiter** bezieht sich auf jedes Konto, das in Collaboration eine Verbindung herstellen kann, unabhängig davon, ob es sich um einen Advertiser oder einen Publisher handelt.
 
-Im Marken-zu-Marken-Muster können sich zwei Marken, die außerhalb des Produkts kommuniziert haben, direkt in Collaboration über eine (private [) ](#private-connection-invite) verbinden. Eine Marke kann entweder ein Advertiser oder ein Publisher sein. Dieses Muster ist besonders für Marken nützlich, die nicht zum herkömmlichen Advertiser-Publisher-Modell passen, z. B. zwei Advertiser oder zwei Publisher.
+Im Marken-zu-Marken-Muster können sich zwei Marken, die außerhalb des Produkts kommuniziert haben, direkt in Collaboration über eine (private [) &#x200B;](#private-connection-invite) verbinden. Eine Marke kann entweder ein Advertiser oder ein Publisher sein. Dieses Muster ist besonders für Marken nützlich, die nicht zum herkömmlichen Advertiser-Publisher-Modell passen, z. B. zwei Advertiser oder zwei Publisher.
 
 Zunächst sendet ein Mitarbeiter eine private Verbindungseinladung an einen anderen Mitarbeiter. Der Empfänger prüft die Einladung und akzeptiert sie, sodass der Besitzer Verbindungseinstellungen vorschlagen kann. Sobald der Empfänger die Verbindungseinstellungen akzeptiert, wird die Verbindung hergestellt und beide Mitarbeiter können mit der Arbeit an Projekten beginnen.
 
@@ -93,7 +93,7 @@ Zunächst sendet ein Mitarbeiter eine private Verbindungseinladung an einen ande
 Der Verbindungsprozess zwischen zwei Marken umfasst mehrere Schritte. Bevor der Verbindungsprozess beginnt, müssen einige Voraussetzungen erfüllt sein:
 
 1. Zwei Marken kommunizieren außerhalb des Produkts, um die potenzielle Verbindung zu besprechen.
-1. Die Marken [erstellen ](/help/guide/setup/onboard-account.md) in Collaboration, falls noch nicht geschehen, und achten darauf, den entsprechenden Rollentyp (Advertiser oder Publisher) auszuwählen.
+1. Die Marken [erstellen &#x200B;](/help/guide/setup/onboard-account.md) in Collaboration, falls noch nicht geschehen, und achten darauf, den entsprechenden Rollentyp (Advertiser oder Publisher) auszuwählen.
 
    Sobald die Voraussetzungen erfüllt sind, kann der Verbindungsprozess gestartet werden. Die folgenden Schritte beschreiben den Prozess:
 
@@ -102,7 +102,7 @@ Der Verbindungsprozess zwischen zwei Marken umfasst mehrere Schritte. Bevor der 
 1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Eigentümer konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung und Annahme an den Empfänger.
 1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Empfänger prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab.
 
-Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [&#x200B; Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
 ## Verbinden {#connect}
 
@@ -112,7 +112,7 @@ Im **[!UICONTROL Connect]**-Arbeitsbereich können Sie Ihre Verbindungen mit Mit
 
 >[!IMPORTANT]
 >
->Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
+>Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [&#x200B; Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
 
 Um Publisher zu finden, navigieren Sie auf der Registerkarte „Verbinden **[!UICONTROL zum Arbeitsbereich]** Mitarbeiter **[!UICONTROL Entdecken]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Collaborators]** finden Sie im Handbuch [Discover Collaborators](/help/guide/connect/discover-collaborators.md) .
 
@@ -146,7 +146,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -283,7 +283,7 @@ Um Ihre Anwendungsfälle anzupassen, wählen Sie **[!UICONTROL Bearbeiten]** im 
 >
 >Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen aufweisen, keine Zielgruppen zählen oder unter den Schwellenwert fallen. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
 
-Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
+Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt &#x200B;](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“, in dem die allgemeinen Übereinstimmungsschlüssel angezeigt werden.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
@@ -299,7 +299,7 @@ Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten
 
 ##### Kostenaufteilung {#credit-split}
 
-Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von ](/help/guide/setup/my-activity.md#types-of-activities)).
+Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)).
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ Als Nächstes muss der Empfänger die vom Eigentümer vorgeschlagenen Verbindung
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobener Option „Akzeptieren“ und „Ablehnen“.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [ Abschnitt &quot;](#connection-settings)&quot;.
+Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [&#x200B; Abschnitt &quot;](#connection-settings)&quot;.
 
 >[!NOTE]
 >
