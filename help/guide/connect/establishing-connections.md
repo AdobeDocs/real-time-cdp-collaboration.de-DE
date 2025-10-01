@@ -2,12 +2,12 @@
 title: Herstellen von Verbindungen
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_compare_audiences"
 >title="Vergleichen von Zielgruppen"
->abstract="Vergleichen Sie Ihre Zielgruppe mit allen Verbrauchern, die Ihre Amazon-Anzeigen erreichen."
+>abstract="Vergleichen Sie Ihre Zielgruppe mit allen Verbrauchenden, die von Ihren Amazon Ads erreicht werden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_relevant_audiences"
 >title="Relevante Zielgruppen"
->abstract="Zielgruppensegmente in Amazon, bei denen Ihre Zielgruppe die größten Überschneidungen aufweist, wobei nur DSP-Impressions berücksichtigt werden (diese Segmente können nur in der DSP angesprochen werden)."
+>abstract="Targeting-Segmente in Amazon, mit denen Ihre Zielgruppe die größten Überschneidungen aufweist, wobei nur DSP-Impressions berücksichtigt werden (diese Segmente können nur in der DSP angesprochen werden)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
@@ -30,18 +30,18 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Überschneidende, für Anzeigen offengelegte IDs"
->abstract="Dies stellt die Anzahl der „aufgelösten IDs“ aus der hochgeladenen Zielgruppe dar, die auch einer Anzeige über Amazon Ads bereitgestellt wurden."
+>title="Überlappende IDs, die Anzeigen sehen"
+>abstract="Dies stellt die Anzahl der IDs unter „Aufgelöste IDs“ aus der hochgeladenen Zielgruppe dar, die ebenfalls über Amazon Ads eine Anzeige gesehen haben."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="Überschneidung %"
->abstract="Der Anteil der „aufgelösten IDs“, die über Amazon Ads einer Anzeige ausgesetzt wurden."
+>title="Überschneidung in %"
+>abstract="Der Anteil der IDs unter „Aufgelöste IDs“, die über Amazon Ads eine Anzeige gesehen haben."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Aufschlüsselung nach Amazon-Anzeigenprodukt"
->abstract="Aufschlüsselung der „sich überschneidenden Anzeigen-exponierten IDs“, die entweder von Amazon Ads Sponsored Product und/oder Amazon Ads DSP erreicht wurden."
+>title="Aufschlüsselung nach Amazon Ad-Produkt"
+>abstract="Die Aufschlüsselung der IDs unter „Überlappende IDs, die Anzeigen sehen“ erfolgt entweder über Amazon Ads Sponsored Product und/oder über Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
@@ -146,7 +146,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 

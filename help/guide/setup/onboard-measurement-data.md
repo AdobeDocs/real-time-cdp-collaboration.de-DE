@@ -2,14 +2,14 @@
 title: Hinzufügen und Verwalten von Messdaten
 description: Erfahren Sie, wie Sie Messdaten zu Adobe Real-Time CDP Collaboration hinzufügen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 9%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_data_target_fields"
 >title="Zielfelder"
->abstract="Platzhalter für Messzielfelder."
+>abstract="Platzhalter für Zielfelder von Messungen."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_data_source_fields"
