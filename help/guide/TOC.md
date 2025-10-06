@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und erleichtert so Einblicke in Zielgruppen in Echtzeit und personalisierte Marketing-Strategien.
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 36%
+source-wordcount: '139'
+ht-degree: 39%
 
 ---
 
@@ -30,13 +30,22 @@ ht-degree: 36%
    * [Hinzufügen und Verwalten von Messdaten](./setup/onboard-measurement-data.md)
    * [Audit-Protokolle](./setup/audit-logs.md)
 * Herstellen von Verbindungen {#connect}
+   * [Overview.md](./connect/overview.md)
    * [Mitwirkende entdecken](./connect/discover-collaborators.md)
-   * [Herstellen von Verbindungen](./connect/establishing-connections.md)
+   * [Aufbau von Collaborator-Verbindungen](./connect/establishing-connections.md)
+   * [Verwalten von Verbindungen](./connect/manage-connections.md)
+   * Advertising Platform-Verbindungen {#ad-platform-connections}
+      * [Überblick](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Zusammenarbeit {#collaborate}
+   * [Überblick](./collaborate/overview.md)
    * [Verwalten von Projekten](./collaborate/manage-projects.md)
-   * [Entdecken](./collaborate/discover.md)
-   * [Aktivieren](./collaborate/activate.md)
-   * [Maßnahme](./collaborate/measure.md)
+   * Collaborator-Verbindungen {#collaborator-connections}
+      * [Entdecken](./collaborate/discover.md)
+      * [Aktivieren](./collaborate/activate.md)
+      * [Maßnahme](./collaborate/measure.md)
+   * Advertising Platform-Verbindungen {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Ziele {#destinations}
    * [Überblick](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

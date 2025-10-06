@@ -1,47 +1,17 @@
 ---
-title: Herstellen von Verbindungen
+title: Herstellen von Verbindungen zu Partnern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 10%
+source-wordcount: '2812'
+ht-degree: 8%
 
 ---
 
-# Herstellen von Verbindungen {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="Vergleichen von Zielgruppen"
->abstract="Vergleichen Sie Ihre Zielgruppe mit allen Verbrauchenden, die von Ihren Amazon Ads erreicht werden."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="Relevante Zielgruppen"
->abstract="Targeting-Segmente in Amazon, mit denen Ihre Zielgruppe die größten Überschneidungen aufweist, wobei nur DSP-Impressions berücksichtigt werden (diese Segmente können nur in der DSP angesprochen werden)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="Aufgelöste IDs"
->abstract="Die Anzahl der IDs, die die Identitätsauflösung von Amazon mithilfe Ihrer Zielgruppendaten auflösen konnte."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Überlappende IDs, die Anzeigen sehen"
->abstract="Dies stellt die Anzahl der IDs unter „Aufgelöste IDs“ aus der hochgeladenen Zielgruppe dar, die ebenfalls über Amazon Ads eine Anzeige gesehen haben."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="Überschneidung in %"
->abstract="Der Anteil der IDs unter „Aufgelöste IDs“, die über Amazon Ads eine Anzeige gesehen haben."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Aufschlüsselung nach Amazon Ad-Produkt"
->abstract="Die Aufschlüsselung der IDs unter „Überlappende IDs, die Anzeigen sehen“ erfolgt entweder über Amazon Ads Sponsored Product und/oder über Amazon Ads DSP."
+# Herstellen von Verbindungen zu Partnern {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -70,7 +40,7 @@ Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, s
 1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
 1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
 
-Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [&#x200B; Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
 ## Marke-zu-Marke-Verbindung {#brand-to-brand-connection}
 
@@ -78,31 +48,7 @@ Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung herge
 
 >[!TIP]
 >
->Der Begriff **Marke** wird verwendet, um ein Unternehmen oder eine Marke außerhalb von Collaboration zu bezeichnen. Der Begriff **Mitarbeiter** bezieht sich auf jedes Konto, das in Collaboration eine Verbindung herstellen kann, unabhängig davon, ob es sich um einen Advertiser oder einen Publisher handelt.
-
-Im Marken-zu-Marken-Muster können sich zwei Marken, die außerhalb des Produkts kommuniziert haben, direkt in Collaboration über eine (private [) &#x200B;](#private-connection-invite) verbinden. Eine Marke kann entweder ein Advertiser oder ein Publisher sein. Dieses Muster ist besonders für Marken nützlich, die nicht zum herkömmlichen Advertiser-Publisher-Modell passen, z. B. zwei Advertiser oder zwei Publisher.
-
-Zunächst sendet ein Mitarbeiter eine private Verbindungseinladung an einen anderen Mitarbeiter. Der Empfänger prüft die Einladung und akzeptiert sie, sodass der Besitzer Verbindungseinstellungen vorschlagen kann. Sobald der Empfänger die Verbindungseinstellungen akzeptiert, wird die Verbindung hergestellt und beide Mitarbeiter können mit der Arbeit an Projekten beginnen.
-
-### Allgemeine Übersicht
-
->[!TIP]
->
->Bei der Erörterung des Verbindungsprozesses wird zwischen dem **Eigentümer** und dem **Empfänger** unterschieden. Der Eigentümer ist der Mitarbeiter, der die Verbindung initiiert, indem er die Einladung sendet, während der Empfänger der Mitarbeiter ist, der die Einladung empfängt und überprüft.
-
-Der Verbindungsprozess zwischen zwei Marken umfasst mehrere Schritte. Bevor der Verbindungsprozess beginnt, müssen einige Voraussetzungen erfüllt sein:
-
-1. Zwei Marken kommunizieren außerhalb des Produkts, um die potenzielle Verbindung zu besprechen.
-1. Die Marken [erstellen &#x200B;](/help/guide/setup/onboard-account.md) in Collaboration, falls noch nicht geschehen, und achten darauf, den entsprechenden Rollentyp (Advertiser oder Publisher) auszuwählen.
-
-   Sobald die Voraussetzungen erfüllt sind, kann der Verbindungsprozess gestartet werden. Die folgenden Schritte beschreiben den Prozess:
-
-1. [Einladung zur privaten Verbindung senden](#send-private-connection-invite): Ein Mitarbeiter sendet eine Einladung zur privaten Verbindung an einen anderen Mitarbeiter.
-1. [Einladung zur privaten Verbindung akzeptieren](#accept-private-connection-invite): Der Empfänger prüft und akzeptiert die Einladung zur privaten Verbindung.
-1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Eigentümer konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung und Annahme an den Empfänger.
-1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Empfänger prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab.
-
-Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [&#x200B; Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+>In diesem Handbuch wird der Verbindungsprozess für die Kollaborationsmuster zwischen Werbetreibenden und Verlegern sowie zwischen Marken behandelt. Informationen zum Verbinden mit Werbeplattformen finden Sie im Abschnitt [Verbindung zwischen Advertiser und Werbeplattform](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) im Handbuch [Verbindungen - Übersicht](/help/guide/connect/overview.md).
 
 ## Verbinden {#connect}
 
@@ -112,7 +58,7 @@ Im **[!UICONTROL Connect]**-Arbeitsbereich können Sie Ihre Verbindungen mit Mit
 
 >[!IMPORTANT]
 >
->Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [&#x200B; Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
+>Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
 
 Um Publisher zu finden, navigieren Sie auf der Registerkarte „Verbinden **[!UICONTROL zum Arbeitsbereich]** Mitarbeiter **[!UICONTROL Entdecken]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Collaborators]** finden Sie im Handbuch [Discover Collaborators](/help/guide/connect/discover-collaborators.md) .
 
@@ -146,7 +92,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im]**-Arbeitsbereich zur **[!UICONTROL Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -283,7 +229,7 @@ Um Ihre Anwendungsfälle anzupassen, wählen Sie **[!UICONTROL Bearbeiten]** im 
 >
 >Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen aufweisen, keine Zielgruppen zählen oder unter den Schwellenwert fallen. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
 
-Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt &#x200B;](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
+Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“, in dem die allgemeinen Übereinstimmungsschlüssel angezeigt werden.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
@@ -299,7 +245,7 @@ Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten
 
 ##### Kostenaufteilung {#credit-split}
 
-Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)).
+Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von ](/help/guide/setup/my-activity.md#types-of-activities)).
 
 >[!NOTE]
 >
@@ -349,33 +295,13 @@ Als Nächstes muss der Empfänger die vom Eigentümer vorgeschlagenen Verbindung
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobener Option „Akzeptieren“ und „Ablehnen“.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [&#x200B; Abschnitt &quot;](#connection-settings)&quot;.
+Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [ Abschnitt &quot;](#connection-settings)&quot;.
 
 >[!NOTE]
 >
 > Nachdem Sie die Verbindungseinstellungen akzeptiert haben, können Sie keine Advertiser-Namen mehr hinzufügen oder bearbeiten.
 
 Wählen Sie als Nächstes **[!UICONTROL Akzeptieren]** aus, um mit der Verbindung fortzufahren. Der Verbindungsstatus ändert sich in **[!UICONTROL Aktiv]** und Sie können jetzt mit der Zusammenarbeit an Projekten beginnen.
-
-## Verbindungen löschen {#delete-connections}
-
-Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um vorhandene Verbindungen zu löschen, navigieren Sie zu **[!UICONTROL Verbinden]**. Als Herausgeber wird Ihre bestehende Verbindung angezeigt. Als Werbetreibender sollten Sie dann zu &quot;**[!UICONTROL Verbindungen“]**.
-
-Wählen **[!UICONTROL auf]** Verbindungskarte, die Sie löschen möchten, die Option „Verbindung anzeigen“ aus.
-
-![Die Option „Verbindung anzeigen“, die in der Ansicht „Meine Verbindungen“ hervorgehoben ist.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-Wählen Sie das Löschsymbol ![Löschsymbol](/help/assets/common/delete.svg) im Arbeitsbereich „Verbindung“ aus, um die Verbindung zu löschen.
-
-![Das hervorgehobene Löschsymbol im Arbeitsbereich „Verbindung“.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-Es wird ein Bestätigungsdialogfeld angezeigt, in dem Sie aufgefordert werden, das Löschen der Verbindung zu bestätigen. Wählen Sie **[!UICONTROL Löschen]** aus, um den Löschvorgang zu bestätigen.
-
-![Das Bestätigungsdialogfeld zum Löschen einer Verbindung.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->Sobald die Verbindung gelöscht ist, werden alle vorhandenen Projekte in der Zusammenarbeit dauerhaft gelöscht und können nicht wiederhergestellt werden. Die Verbindungsanfrage verbleibt in einem ausstehenden Status, aber die Verbindung und ihre Konfigurationen sind nicht mehr aktiv. Sie müssen die Verbindung wiederherstellen, wenn Sie erneut eine Verbindung mit dem Mitarbeiter herstellen möchten.
 
 ## Nächste Schritte
 

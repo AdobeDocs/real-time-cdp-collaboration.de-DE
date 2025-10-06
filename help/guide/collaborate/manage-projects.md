@@ -2,12 +2,12 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ Fügen Sie anschließend einen **[!UICONTROL Projektnamen]** und **[!UICONTROL B
 Jetzt können Sie Ihr neues Projekt, seine Details und verfügbaren Abschnitte basierend auf den Anwendungsfällen anzeigen, die bei der Einrichtung der Verbindung ausgewählt wurden.
 
 ![Der Arbeitsbereich „Projektübersicht“.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## Anwendungsfälle für Projekte {#project-use-cases}
-
-In der Projektübersicht werden die bei der Verbindungseinrichtung ausgewählten Anwendungsfälle angezeigt. Diese Anwendungsfälle definieren die im Projekt verfügbaren Funktionen. Die Anwendungsfälle sind:
-
-| Anwendungsfall | Projektabteilung |
-| --- | --- |
-| Kampagnenmessung | In diesem Anwendungsbeispiel wird Zugriff auf den Abschnitt [Kennzahlen](/help/guide/collaborate/measure.md) und alle verfügbaren Funktionen gewährt. |
-| Zielgruppenerkennung | In diesem Anwendungsbeispiel wird Zugriff auf den Abschnitt [Entdecken](/help/guide/collaborate/discover.md) und alle verfügbaren Funktionen gewährt. |
-| Zielgruppenaktivierung | In diesem Anwendungsbeispiel wird Zugriff auf den Abschnitt [Aktivieren](/help/guide/collaborate/activate.md) und alle verfügbaren Funktionen gewährt. |
