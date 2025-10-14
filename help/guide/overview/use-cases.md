@@ -29,7 +29,7 @@ Erkunden Sie Zielgruppen für Kampagnen, indem Sie das Dashboard **[!UICONTROL Z
 
 ![Dashboard-Module für Zielgruppen aktivieren.](/help/assets/use-cases/activate.png)
 
-Mitwirkende können Zielgruppen für Experience Platform mithilfe von Self-Service-[ (Ziele](/help/guide/destinations/experience-platform.md) oder Cloud-Data-Warehouses ([!DNL Amazon S3] oder [!DNL Snowflake]) zur Verwendung in Kampagnen aktivieren. Weitere Informationen zum Aktivieren von Zielgruppen finden Sie im [Aktivieren](../collaborate/activate.md).
+Mitwirkende können Zielgruppen für Experience Platform mithilfe von Self-Service-[&#x200B; (Ziele](/help/guide/destinations/experience-platform.md) oder Cloud-Data-Warehouses ([!DNL Amazon S3] oder [!DNL Snowflake]) zur Verwendung in Kampagnen aktivieren. Weitere Informationen zum Aktivieren von Zielgruppen finden Sie im [Aktivieren](../collaborate/activate.md).
 
 >[!NOTE]
 >

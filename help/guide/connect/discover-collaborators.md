@@ -25,7 +25,7 @@ Um Mitarbeiter zu finden, gehen Sie zur Registerkarte **[!UICONTROL Verbinden]**
 
 ![Das Dashboard [!UICONTROL Discover-] im [!UICONTROL Verbinden]-Arbeitsbereich.](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
-Wählen Sie **[!UICONTROL Publisher anzeigen]**, um mehr über den Publisher zu erfahren. Sie können auch alle Zielgruppen anzeigen und überprüfen, die der Herausgeber [als öffentlich festgelegt) ](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+Wählen Sie **[!UICONTROL Publisher anzeigen]**, um mehr über den Publisher zu erfahren. Sie können auch alle Zielgruppen anzeigen und überprüfen, die der Herausgeber [als öffentlich festgelegt) &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Details eines einzelnen Herausgebers](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
 

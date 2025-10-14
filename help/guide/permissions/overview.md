@@ -43,7 +43,7 @@ Weitere Informationen zu Administratorrollen finden Sie im [Adobe Help Center](h
 
 ## Zusätzliche Produkte {#products}
 
-Bevor Sie Zugriff auf Collaboration gewähren, benötigen Sie Zugriff auf mehrere Produkte, je nach [ Anwendungsfall](#use-cases). Die Handbücher zur Zugriffssteuerung können während des Fortschritts mehrere Benutzeroberflächen durchlaufen, die jeweils einem bestimmten Zweck im Zugriffskonfigurationsprozess dienen. Die nachstehende Tabelle gibt einen Überblick darüber, wofür die einzelnen Produkte verwendet werden.
+Bevor Sie Zugriff auf Collaboration gewähren, benötigen Sie Zugriff auf mehrere Produkte, je nach [&#x200B; Anwendungsfall](#use-cases). Die Handbücher zur Zugriffssteuerung können während des Fortschritts mehrere Benutzeroberflächen durchlaufen, die jeweils einem bestimmten Zweck im Zugriffskonfigurationsprozess dienen. Die nachstehende Tabelle gibt einen Überblick darüber, wofür die einzelnen Produkte verwendet werden.
 
 | Produkt | Verwendet |
 | --- | --- |

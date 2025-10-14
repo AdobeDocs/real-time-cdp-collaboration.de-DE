@@ -61,4 +61,4 @@ Nachfolgend finden Sie eine Liste der verfügbaren Berechtigungen innerhalb der 
 
 ## Nächste Schritte
 
-Nachdem Sie Rollen erstellt haben, die den Zugriff auf Collaboration definieren, müssen Sie [die Rollen zuweisen](./manage-user-access.md#assign-a-role) Administratoren und Benutzern zuweisen. Eine vollständige Übersicht über [ Verwaltung von Rollen finden ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions) im Handbuch zum Verwalten von Berechtigungen für eine Rolle .
+Nachdem Sie Rollen erstellt haben, die den Zugriff auf Collaboration definieren, müssen Sie [die Rollen zuweisen](./manage-user-access.md#assign-a-role) Administratoren und Benutzern zuweisen. Eine vollständige Übersicht über [&#x200B; Verwaltung von Rollen finden &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions) im Handbuch zum Verwalten von Berechtigungen für eine Rolle .

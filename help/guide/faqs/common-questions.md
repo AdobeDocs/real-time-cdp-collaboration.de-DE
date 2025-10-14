@@ -27,6 +27,6 @@ Ich sehe diesen Bildschirm, wenn ich versuche, auf Real-Time CDP Collaboration z
 
 Wenn Sie ein Endbenutzer sind, müssen Sie sich an den System- oder Produktadministrator Ihres Unternehmens wenden.
 
-Wenn Sie System- oder Produktadministrator sind, lesen Sie das Handbuch zu Berechtigungen , um zu verstehen, wie Sie sich und Ihren Kollegen die richtigen Berechtigungen für die Verwendung von Collaboration gewähren. Weitere Informationen finden Sie in der Übersicht [ die Zugriffssteuerung](/help/guide/permissions/overview.md).
+Wenn Sie System- oder Produktadministrator sind, lesen Sie das Handbuch zu Berechtigungen , um zu verstehen, wie Sie sich und Ihren Kollegen die richtigen Berechtigungen für die Verwendung von Collaboration gewähren. Weitere Informationen finden Sie in der Übersicht [&#x200B; die Zugriffssteuerung](/help/guide/permissions/overview.md).
 
 +++

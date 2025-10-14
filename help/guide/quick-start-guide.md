@@ -122,7 +122,7 @@ Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppe
 
 ### Option B: Source von Snowflake oder Amazon S3
 
-Um eine Cloud-Quelle zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), bereiten Sie Ihre Zielgruppendaten mit der folgenden [Zielgruppenspezifikations-PDF&quot; ](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Wenden Sie sich nach Abschluss des Vorgangs oder bei Fragen an Ihren Adobe-Kundenbetreuer, um die Einrichtung abzuschließen. Diese Methode ist kein Self-Service und erfordert die Unterstützung von Adobe.
+Um eine Cloud-Quelle zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), bereiten Sie Ihre Zielgruppendaten mit der folgenden [Zielgruppenspezifikations-PDF&quot; &#x200B;](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Wenden Sie sich nach Abschluss des Vorgangs oder bei Fragen an Ihren Adobe-Kundenbetreuer, um die Einrichtung abzuschließen. Diese Methode ist kein Self-Service und erfordert die Unterstützung von Adobe.
 
 >[!IMPORTANT]
 >
@@ -157,7 +157,7 @@ Zielgruppendaten, die an ein Cloud-Ziel gesendet werden, folgen einem vordefinie
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **[!UICONTROL Measurement]**-Anwendungsfall [während des Verbindungsprozesses](./connect/establishing-connections.md#connection-settings) aktiviert wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./collaborate/manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **[!UICONTROL Measurement]**-Anwendungsfall [während des Verbindungsprozesses](./connect/establishing-connections.md#connection-settings) aktiviert wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./collaborate/manage-projects.md#project-use-cases)&quot;.
 
 Collaboration bietet eine Vielzahl von Berichten zur Analyse der Reichweite, Häufigkeit und Effektivität von Kampagnen. Der Arbeitsbereich **[!UICONTROL Kennzahlen]** ist zwar in der Benutzeroberfläche verfügbar, die vollständige Reporting-Funktionalität erfordert jedoch möglicherweise eine Backend-Aktivierung.
 
@@ -216,7 +216,7 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Nach Abschluss des Setups ist Ihr Unternehmen nun bereit, sich mit Partnern zu verbinden, indem Einladungen gesendet oder angenommen und Projekteinstellungen zur Genehmigung eingereicht werden. Dieser Verbindungsprozess umfasst das Senden oder Empfangen von Einladungen, das Überprüfen und Senden von Verbindungseinstellungen (z. B. Anwendungsfälle und Kreditverbrauch) und das Bestätigen der Verbindung.
 
-Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen. Alternativ können sich Mitarbeiter über (private [) direkt miteinander ](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
+Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen. Alternativ können sich Mitarbeiter über (private [) direkt miteinander &#x200B;](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >

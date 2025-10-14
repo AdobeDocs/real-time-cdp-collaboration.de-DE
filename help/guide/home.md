@@ -39,7 +39,7 @@ Eingebettete Steuerelemente stellen sicher, dass die Governance- und Datenschutz
 
 ## Erste Schritte {#get-started}
 
-Um Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [ im Handbuch ](/help/guide/permissions/overview.md){target="_blank"}Übersicht über die Zugriffskontrolle“.
+Um Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [&#x200B; im Handbuch &#x200B;](/help/guide/permissions/overview.md){target="_blank"}Übersicht über die Zugriffskontrolle“.
 
 Sobald Sie Zugriff haben, können Sie Ihr -Konto einrichten und Ihre Datenverbindung herstellen, um Zielgruppen zu beschaffen. Lesen Sie [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md) um loszulegen.
 
