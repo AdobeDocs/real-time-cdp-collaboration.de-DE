@@ -188,7 +188,7 @@ Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
-Weitere Informationen finden [&#x200B; in der &#x200B;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
+Weitere Informationen finden [&#x200B; in der &#x200B;](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
 
 ## Anzeigen der S3-Datenverbindung {#view-s3-connection}
 
