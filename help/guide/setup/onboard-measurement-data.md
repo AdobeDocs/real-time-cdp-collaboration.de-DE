@@ -42,4 +42,4 @@ ht-degree: 25%
 
 {{limited-availability-release-note}}
 
-In diesem Dokument werden die Schritte zum Hinzufügen von Kampagnenmessdaten zu Adobe Real-Time CDP Collaboration beschrieben. Publisher können mit Adobe-Teams zusammenarbeiten, um Campaign-Messdaten hochzuladen. Nach dem Hochladen und Verarbeiten dieser Daten können sowohl Publisher als auch Advertiser umfassende [Kampagnenmessberichte) ](/help/guide/collaborate/measure.md).
+In diesem Dokument werden die Schritte zum Hinzufügen von Kampagnenmessdaten zu Adobe Real-Time CDP Collaboration beschrieben. Publisher können mit Adobe-Teams zusammenarbeiten, um Campaign-Messdaten hochzuladen. Nach dem Hochladen und Verarbeiten dieser Daten können sowohl Publisher als auch Advertiser umfassende [Kampagnenmessberichte) &#x200B;](/help/guide/collaborate/measure.md).
