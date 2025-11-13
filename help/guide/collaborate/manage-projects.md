@@ -2,12 +2,12 @@
 title: Erstellen und Verwalten von Projekten
 description: Erfahren Sie, wie Sie in Adobe Real-Time CDP Collaboration Projekte erstellen und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,11 @@ Sie können Filter verwenden, um nur die Projekte anzuzeigen, die Sie mit bestim
 ![Gefilterte Ansicht von Projekten mit einem einzelnen Mitarbeiter.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Erstellen eines Projekts {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="Advertiser-Name (Amazon Marketing Cloud)"
+>abstract="Für Amazon Marketing Cloud (AMC)-Verbindungen stellt dieses Feld die AMC-Instanz dar, auf die Ihr Amazon Ads-Login Zugriff hat. Es spiegelt keinen Advertiser-Namen wider. Wenn die erforderliche Instanz nicht aufgeführt ist, wenden Sie sich an Ihren Amazon Marketing Cloud-Administrator, um den Zugriff anzufordern."
 
 Um ein Projekt zu erstellen, müssen Sie zunächst [Verbindung herstellen](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter herstellen. Sobald die Verbindung hergestellt ist, können Sie mit diesem Partner ein Projekt erstellen.
 
