@@ -1,10 +1,10 @@
 ---
 title: Konfigurieren  [!DNL Amazon S3]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Ihren - [!DNL Amazon S3]  als Self-Service-Datenquelle konfigurieren und verbinden können, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,12 @@ Wählen Sie **[!UICONTROL Amazon S3]** als Datenverbindung aus, gefolgt von **[!
 
 ### Anforderungen an Zielgruppendateien überprüfen {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="Daten für das Onboarding vorbereiten"
+>abstract="Lesen Sie das Handbuch zur Spezifikation von Audience Sourcing , um zu erfahren, wie Sie Zielgruppendaten aus Amazon S3 für Collaboration formatieren und strukturieren."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
+
 Es wird ein Dialogfeld angezeigt, in dem erläutert wird, wie Ihre Zielgruppendateien strukturiert sein müssen. Verwenden Sie den Link zur **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**, um zu erfahren, wie Sie Zielgruppendaten aus [!DNL Amazon S3] formatieren und strukturieren, damit sie von Collaboration korrekt gelesen werden können.
 
 >[!IMPORTANT]
@@ -87,6 +93,11 @@ Zu den wichtigsten Aspekten gehören:
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Pfadformat des Ordners"
 >abstract="Geben Sie den Ordnerpfad (Präfix) in Ihrem [!DNL Amazon S3] ein, in dem Ihre Zielgruppendateien gespeichert sind.<br><ul><li>Beginnen Sie Pfade nicht mit einem Schrägstrich (/).</li><li>Fügen Sie am Ende des Pfads einen Schrägstrich hinzu.</li><ul><br>Gültiges Beispiel: `base/path/`<br>Ungültiges Beispiel: `/base/path`"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="Zielgruppe für Amazon S3 hinzufügen"
+>abstract="Um Ihren Amazon S3-Speicher zu verbinden, autorisieren Sie den Service-Benutzer von Adobe, Ihre Zielgruppendaten zur Verarbeitung abzurufen. Führen Sie die in Experience League beschriebenen Schritte aus, um Adobe Zugriff auf Ihren Amazon S3-Speicher zu gewähren."
 
 Geben Sie als Nächstes Ihre [!DNL Amazon S3] Anmeldeinformationen ein, um Ihren S3-Bucket mit Collaboration zu verbinden.
 
@@ -186,7 +197,7 @@ Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
-Weitere Informationen finden [&#x200B; in der &#x200B;](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
+Weitere Informationen finden [ in der ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
 
 ## Anzeigen der S3-Datenverbindung {#view-s3-connection}
 
