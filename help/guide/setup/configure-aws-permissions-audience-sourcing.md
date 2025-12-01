@@ -116,7 +116,7 @@ Ein Beispiel für eine Vertrauensrichtlinie:
 
 Überprüfen Sie die Richtlinie und wählen Sie **Weiter**, um fortzufahren.
 
-Suchen Sie [!DNL Step 2] Abschnitt **[!DNL Add permissions]** des [!DNL Create role]-Workflows nach der von Ihnen (zuvor[ erstellten IAM-Richtlinie und fügen Sie sie ](#create-policy). Wählen Sie die Richtlinie und anschließend **[!DNL Next]** aus, um fortzufahren[!DNL Step 3].
+Suchen Sie [!DNL Step 2] Abschnitt **[!DNL Add permissions]** des [!DNL Create role]-Workflows nach der von Ihnen (zuvor[&#x200B; erstellten IAM-Richtlinie und fügen Sie sie &#x200B;](#create-policy). Wählen Sie die Richtlinie und anschließend **[!DNL Next]** aus, um fortzufahren[!DNL Step 3].
 
 Geben Sie im Abschnitt [!DNL Step 3] **[!DNL Name review, and create - Role details]** einen Rollennamen (z. B. `s3-iam-role`) und eine optionale Beschreibung an.
 
@@ -126,7 +126,7 @@ Wählen Sie abschließend **Rolle erstellen** aus, um die Einrichtung zu bestät
 
 >[!IMPORTANT]
 >
->Sie müssen den Amazon-Ressourcennamen (ARN) aufzeichnen, nachdem Sie die Rolle erstellt haben. Sie müssen die IAM-Rollen-ARN während des Schritts **Authentifizieren Ihrer S3-Verbindung** im Workflow [Konfigurieren von AWS S3 für die ](./configure-aws-s3-audience-sourcing.md)&quot; angeben.
+>Sie müssen den Amazon-Ressourcennamen (ARN) aufzeichnen, nachdem Sie die Rolle erstellt haben. Sie müssen die IAM-Rollen-ARN während des Schritts **Authentifizieren Ihrer S3-Verbindung** im Workflow [Konfigurieren von AWS S3 für die &#x200B;](./configure-aws-s3-audience-sourcing.md)&quot; angeben.
 
 ## Nächste Schritte {#next-steps}
 
