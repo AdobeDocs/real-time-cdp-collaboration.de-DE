@@ -2,9 +2,9 @@
 title: Zugriffskontrolle - Übersicht
 description: Erfahren Sie, wie Sie Zugriff auf Adobe Real-Time Customer Data Platform (CDP) Collaboration erhalten.
 audience: admin
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Um die Zugriffssteuerung für Collaboration zu konfigurieren **müssen Sie über
 In diesen Handbüchern wird die Konfiguration des Zugriffs für Systemadministratoren, Produktadministratoren und Endbenutzer beschrieben. Anhand der folgenden Tabelle können Sie den Hauptunterschied zwischen den Rollen verstehen.
 
 | Rolle | Beschreibung |
-| --- | --- | 
+| --- | --- |
 | Systemadministrator | Der Hauptbenutzer für die Organisation. Sie können alle Verwaltungsaufgaben in der Admin Console ausführen und haben die Berechtigung, Verwaltungsfunktionen an andere Benutzer zu delegieren. |
 | Produkt-Administrator | Administriert die ihnen zugewiesenen Produkte und alle zugehörigen Verwaltungsfunktionen, z. B. das Hinzufügen von Benutzern zu Organisationen, das Hinzufügen oder Entfernen von Benutzern aus Produktprofilen und das Hinzufügen oder Entfernen anderer Produktadministratoren aus einem Produkt. |
 | Endbenutzer | Die Benutzer in Ihrer Organisation, die die Produkte verwenden. |
@@ -43,7 +43,7 @@ Weitere Informationen zu Administratorrollen finden Sie im [Adobe Help Center](h
 
 ## Zusätzliche Produkte {#products}
 
-Bevor Sie Zugriff auf Collaboration gewähren, benötigen Sie Zugriff auf mehrere Produkte, je nach [&#x200B; Anwendungsfall](#use-cases). Die Handbücher zur Zugriffssteuerung können während des Fortschritts mehrere Benutzeroberflächen durchlaufen, die jeweils einem bestimmten Zweck im Zugriffskonfigurationsprozess dienen. Die nachstehende Tabelle gibt einen Überblick darüber, wofür die einzelnen Produkte verwendet werden.
+Bevor Sie Zugriff auf Collaboration gewähren, benötigen Sie Zugriff auf mehrere Produkte, je nach [ Anwendungsfall](#use-cases). Die Handbücher zur Zugriffssteuerung können während des Fortschritts mehrere Benutzeroberflächen durchlaufen, die jeweils einem bestimmten Zweck im Zugriffskonfigurationsprozess dienen. Die nachstehende Tabelle gibt einen Überblick darüber, wofür die einzelnen Produkte verwendet werden.
 
 | Produkt | Verwendet |
 | --- | --- |
@@ -65,7 +65,7 @@ Anhand der folgenden Tabelle können Sie ermitteln, wer die Berechtigungen konfi
 > Ein Superuser bezeichnet die höchste Zugriffsebene, die vom Systemadministrator erlangt werden kann. Ein Superuser kann alle administrativen Aufgaben und Benutzerfunktionen ausführen. Ein Systemadministrator verfügt nicht über vorkonfigurierte Produktfunktionen und muss sich selbst den entsprechenden Zugriff gewähren, wie in der folgenden Tabelle dargestellt.
 
 | Anwendungsfall | Erforderliche Rolle | Wo beginnen soll |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Superuser ohne vorhandenen Experience Platform-Produktzugriff. | Einen Systemadministrator. | [Konfigurieren des Produktadministratorzugriffs](./manage-user-access.md#admin-access) |
 | Superuser für einen bestehenden Experience Platform-Systemadministrator **mit** Benutzeroberflächenzugriff für Experience Platform. | Einen Systemadministrator. | [Konfigurieren des Collaboration-Zugriffs](./manage-user-access.md#RTCDP-collab-access) |
 | Superuser für einen bestehenden Experience Platform-Systemadministrator **ohne** auf die Experience Platform-Benutzeroberfläche. | Einen Systemadministrator. | [Konfigurieren des Produktadministratorzugriffs](./manage-user-access.md#admin-access) |
