@@ -2,9 +2,9 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und erleichtert so Einblicke in Zielgruppen in Echtzeit und personalisierte Marketing-Strategien.
-source-git-commit: 23025b0f4cd853f671ac8cc5ef3696cac03d20a4
+source-git-commit: 469c1e650235e15d7b09650d3affa3c8c7563b09
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 33%
 
 ---
@@ -14,11 +14,12 @@ ht-degree: 33%
 
 * [Real-Time CDP Collaboration - Startseite](./home.md)
 * [Schnellstartanleitung](./quick-start-guide.md)
-* Übersicht {#overview}
+* Überblick {#overview}
    * [Anwendungsfälle](./overview/use-cases.md)
    * [Kontorollen](./overview/roles.md)
    * [Collaboration-Muster](./overview/collaboration-patterns.md)
    * [End-to-End-Workflow](./overview/end-to-end-workflow.md)
+   * [Real-Time CDP Collaboration-Starter](./overview/starter-overview.md)
 * Setup {#setup}
    * [Überblick über den Einrichtungsabschnitt](./setup/setup-overview.md)
    * [Onboarding und Verwalten Ihres Kontos](./setup/onboard-account.md)
@@ -39,10 +40,10 @@ ht-degree: 33%
    * [Aufbau von Collaborator-Verbindungen](./connect/establishing-connections.md)
    * [Verwalten von Verbindungen](./connect/manage-connections.md)
    * Advertising Platform-Verbindungen {#ad-platform-connections}
-      * [Übersicht](./connect/advertising-platforms/overview.md)
+      * [Überblick](./connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Zusammenarbeit {#collaborate}
-   * [Übersicht](./collaborate/overview.md)
+   * [Überblick](./collaborate/overview.md)
    * [Verwalten von Projekten](./collaborate/manage-projects.md)
    * Collaborator-Verbindungen {#collaborator-connections}
       * [Entdecken](./collaborate/discover.md)
@@ -51,10 +52,10 @@ ht-degree: 33%
    * Advertising Platform-Verbindungen {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Ziele {#destinations}
-   * [Übersicht](./destinations/overview.md)
+   * [Überblick](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Berechtigungen {#permissions}
-   * [Übersicht](./permissions/overview.md)
+   * [Überblick](./permissions/overview.md)
    * [Verwalten des Benutzerzugriffs](./permissions/manage-user-access.md)
    * [Verwalten von Rollen](./permissions/manage-roles.md)
 * Referenz {#reference}
