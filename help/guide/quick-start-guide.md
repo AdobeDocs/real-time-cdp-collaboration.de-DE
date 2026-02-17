@@ -2,7 +2,7 @@
 title: Schnellstart- und Einrichtungshandbuch für Real-Time CDP Collaboration
 description: Erfahren Sie, wie Sie Real-Time CDP Collaboration einrichten, Rollen und Konten konfigurieren, Zielgruppen auswählen, Daten aktivieren und sicher mit Partnern verbinden.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
 workflow-type: tm+mt
