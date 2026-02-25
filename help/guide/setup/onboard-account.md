@@ -2,11 +2,11 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1359'
 ht-degree: 11%
 
 ---
@@ -89,7 +89,7 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 >
 >Die Übereinstimmungsschlüssel, die Sie während der Kontoeinrichtung auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel innerhalb Ihrer Verbindungen. Während Sie [unerwünschte Übereinstimmungsschlüssel entfernen](../connect/establishing-connections.md#connection-settings) während der Verbindungseinrichtung können Übereinstimmungsschlüssel nicht hinzugefügt werden, nachdem eine Verbindung hergestellt wurde. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
 
-Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [&#x200B; Felder &#x200B;](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
+Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [ Felder ](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abstimmen der Zielgruppenprofile verwenden möchten. Planen Sie für die Zukunft und fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten können und die Sie in zukünftigen Kampagnen voraussichtlich verwenden werden. Wenn Sie zu einem späteren Zeitpunkt zusätzliche Übereinstimmungsschlüssel für Ihr Konto auswählen müssen, können Sie dies im Workflow [Konto bearbeiten](#edit-account) tun. Übereinstimmungsschlüssel, die nach der Ersteinrichtung hinzugefügt wurden, stehen jedoch nicht zur Verwendung in vorhandenen Verbindungen zur Verfügung.
 
@@ -156,23 +156,25 @@ Sie können jetzt Ihre Kontodetails bearbeiten. Aktualisieren Sie alle Felder, d
 
 ### Übereinstimmungsschlüssel bearbeiten {#edit-match-keys}
 
->[!IMPORTANT]
->
->Das Bearbeiten von Übereinstimmungsschlüsseln hat keine Auswirkungen auf bestehende Verbindungen. Nachdem eine Verbindung hergestellt wurde, werden die Übereinstimmungsschlüssel, die Sie während der Verbindungseinrichtung auswählen, korrigiert. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
-
 Sie können auch die Übereinstimmungsschlüssel aktualisieren, die Sie ursprünglich beim Erstellen Ihres Kontos ausgewählt haben. Diese Übereinstimmungsschlüssel bestimmen die Übereinstimmungsschlüssel, die für zukünftige Verbindungen verfügbar sind.
 
 Wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Übereinstimmungsschlüssel]** aus.
 
 ![Der Arbeitsbereich „Setup“ mit hervorgehobener Option „Bearbeiten“ im Abschnitt „Übereinstimmungsschlüssel“ des Kontos.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Das **[!UICONTROL Übereinstimmungsschlüssel]** wird angezeigt. Schalten Sie alle Übereinstimmungsschlüssel ein und aus oder aktualisieren Sie Ihre **[!UICONTROL Konto]** IDs für Ihre [!UICONTROL AdFixus IDs] und klicken Sie dann auf **[!UICONTROL Speichern]**, um die Änderungen zu bestätigen.
+Das **[!UICONTROL Übereinstimmungsschlüssel]** wird angezeigt. Schalten Sie beliebige Übereinstimmungsschlüssel ein oder aktualisieren Sie Ihre **[!UICONTROL Konto-ID]** für Ihre [!UICONTROL AdFixus-IDs] und klicken Sie dann auf **[!UICONTROL Speichern]**, um die Änderungen zu bestätigen.
 
 >[!IMPORTANT]
 >
 >Trigger Durch Ändern Ihrer [!UICONTROL AdFixus ID] wird eine [Datenskizze](../glossary.md#sketches) nicht mit dem Übereinstimmungsschlüssel für Ihre bestehenden Datenverbindungen aktualisiert. Sobald Ihre Daten skizziert wurden, werden alle Änderungen an Ihrer [!UICONTROL AdFixus ID] erst widergespiegelt, wenn Ihre nächste Zielgruppe nach Ihren Einstellungen für [Datenverbindungsplan](./manage-data-connection.md#scheduling) aktualisiert wird. Wenn Sie vor der nächsten Aktualisierung Änderungen benötigen, können Sie Ihre Datenverbindung löschen und neu erstellen.
+>
+>Derzeit können Übereinstimmungsschlüssel nicht entfernt werden, sobald sie Ihrem Konto hinzugefügt wurden.
 
 ![Das Dialogfeld „Schlüssel abgleichen“ mit hervorgehobener Option „Speichern“.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+Ein Erfolgsdialogfeld bestätigt, dass die Übereinstimmungsschlüssel Ihres Kontos erfolgreich aktualisiert wurden.
+
+![Ein Erfolgsdialogfeld, das bestätigt, dass die Übereinstimmungsschlüssel Ihres Kontos erfolgreich aktualisiert wurden.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Nächste Schritte
 
