@@ -2,7 +2,7 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: d554ce3921211bc0d726b88f410410cdccc1a937
 workflow-type: tm+mt
@@ -59,8 +59,8 @@ Um mit dem Hinzufügen Ihrer Datenverbindung zu beginnen, wählen Sie **[!UICONT
 Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügbaren Quellen gehören:
 
 * **Adobe Experience Platform**: Wählen Sie diese Option, um Ihre Zielgruppen aus Adobe Experience Platform einzubringen.
-* **CSV-Datei**: Laden Sie eine CSV-Datei hoch, die Ihre Zielgruppendaten enthält, um Daten schnell und einfach aufzunehmen. Informationen zu den ersten [&#x200B; finden Sie im Handbuch &#x200B;](./upload-csv-audience-sourcing.md) Hochladen einer CSV-Datei für die Zielgruppen-Beschaffung .
-* **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [&#x200B; Anleitung finden Sie &#x200B;](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
+* **CSV-Datei**: Laden Sie eine CSV-Datei hoch, die Ihre Zielgruppendaten enthält, um Daten schnell und einfach aufzunehmen. Informationen zu den ersten [ finden Sie im Handbuch ](./upload-csv-audience-sourcing.md) Hochladen einer CSV-Datei für die Zielgruppen-Beschaffung .
+* **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [ Anleitung finden Sie ](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
 * **Snowflake** (zukünftige Version): Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen.
 * **Google Cloud Platform** (zukünftige Version): Stellen Sie eine Verbindung zu Ihrem Google Cloud-Speicher her, um Zielgruppendaten direkt aus Ihren GCS-Buckets zu beziehen.
 
@@ -80,7 +80,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Data Collaboration]** unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4-, C5- und C9-Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -147,7 +147,7 @@ Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zuge
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=de#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
+**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
 
 Source-Felder werden den in Collaboration definierten Zielfeldern zugeordnet.
 
@@ -342,7 +342,7 @@ Die Sichtbarkeit von Metadaten gibt die Sichtbarkeit der Metadaten einer Zielgru
 
 Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sichtbarkeitseinstellungen für die Zielgruppe konfigurieren können. Es gibt zwei Einstellungen für die Sichtbarkeit von Metadaten, die Sie für jede Zielgruppe konfigurieren können:
 
-**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb &#x200B;](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
+**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb ](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
 
 **[!UICONTROL Zielgruppenüberschneidung anzeigen %]**: Diese Einstellung steuert, ob Mitwirkende in der Lage sind, [Überschneidungsprozentsätze zu ermitteln](/help/guide/collaborate/discover.md#compare-audiences) zwischen ihren Zielgruppen und Ihren Zielgruppen.
 
