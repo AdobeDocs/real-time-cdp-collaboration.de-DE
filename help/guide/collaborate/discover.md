@@ -17,7 +17,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Entdecken]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenerkennung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Entdecken]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenerkennung** während [&#x200B; Verbindungsprozesses aktiviert &#x200B;](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./manage-projects.md#project-use-cases)&quot;.
 
 Nach [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md) können Sie Ihre Zielgruppen mit Ihren Mitwirkenden vergleichen. Auf diese Weise können Sie relevante Zielgruppen für Kampagnen identifizieren und entscheiden, welche zur Aktivierung an Mitwirkende gesendet werden sollen.
 
@@ -93,7 +93,7 @@ Im Abschnitt Vergleichen von Zielgruppen werden die folgenden Metriken angezeigt
 
 >[!NOTE]
 >
->Die Prozentzahl der Überschneidung und der Zielgruppenindex-Wert sind möglicherweise nicht immer für alle Zielgruppen verfügbar. Die Sichtbarkeit des Überschneidungsprozentsatzes und des Zielgruppenindex-Scores hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>Die Prozentzahl der Überschneidung und der Zielgruppenindex-Wert sind möglicherweise nicht immer für alle Zielgruppen verfügbar. Die Sichtbarkeit des Überschneidungsprozentsatzes und des Zielgruppenindex-Scores hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 Wenn Ihr Mitarbeiter weder den Zielgruppenindex noch den Überschneidungsprozentsatz aktiviert hat, sind für die Zielgruppe keine Vergleichsdaten verfügbar.
 
@@ -214,4 +214,4 @@ Innerhalb des Abschnitts „Überschneidungen erkennen“ zeigt der Zielgruppeni
 
 ## Nächste Schritte
 
-Nachdem Sie die gewünschten Zielgruppen untersucht und entdeckt haben, können [ die Zielgruppen ](/help/guide/collaborate/activate.md), die in den Kampagnen verwendet werden sollen.
+Nachdem Sie die gewünschten Zielgruppen untersucht und entdeckt haben, können [&#x200B; die Zielgruppen &#x200B;](/help/guide/collaborate/activate.md), die in den Kampagnen verwendet werden sollen.

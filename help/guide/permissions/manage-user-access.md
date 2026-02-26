@@ -33,11 +33,11 @@ Gewähren Sie einem Produktbenutzer oder einer Produktadministratorin Zugriff, u
 >
 >Als System-Admin haben Sie vorkonfigurierten Zugriff auf bestimmte Experience Cloud-Produkte wie Adobe Admin Console. Um jedoch Berechtigungen verwenden zu können, müssen Sie sich selbst Produktadministrator und Benutzer Zugriff auf das Experience Platform-Produkt gewähren. Folgen Sie der unten stehenden schrittweisen Anleitung, um sich als System-Admin Zugriff zu verschaffen.
 
-Melden Sie sich mit Ihren Anmeldeinformationen bei [0}Adobe Experience Cloud&quot; an. ](https://experience.adobe.com/){target="_blank"} Die Startansicht wird mit einer Liste Ihrer verfügbaren Produkte im Bereich **[!UICONTROL Schnellzugriff]** angezeigt. Wählen Sie **[!UICONTROL Admin Console]** aus.
+Melden Sie sich mit Ihren Anmeldeinformationen bei [0&rbrace;Adobe Experience Cloud&quot; an. &#x200B;](https://experience.adobe.com/){target="_blank"} Die Startansicht wird mit einer Liste Ihrer verfügbaren Produkte im Bereich **[!UICONTROL Schnellzugriff]** angezeigt. Wählen Sie **[!UICONTROL Admin Console]** aus.
 
 Startansicht von ![Experience Cloud mit hervorgehobener Admin Console-Option.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-Das Übersichts-Dashboard [ ](https://adminconsole.adobe.com/)Adobe Admin Console&#39; wird angezeigt. Wählen Sie **[!UICONTROL Adobe Experience Platform]** aus der Liste **[!UICONTROL Produkte]** unter **[!UICONTROL Produkte und Services]** aus.
+Das Übersichts-Dashboard [&#x200B; &#x200B;](https://adminconsole.adobe.com/)Adobe Admin Console&#39; wird angezeigt. Wählen Sie **[!UICONTROL Adobe Experience Platform]** aus der Liste **[!UICONTROL Produkte]** unter **[!UICONTROL Produkte und Services]** aus.
 
 Übersichts-Dashboard von ![Admin Console mit hervorgehobenem Adobe Experience Platform-Produkt.](../../assets/permissions/admin-console.png){zoomable="yes"}
 
@@ -53,7 +53,7 @@ Der Benutzer verfügt jetzt über Produktadministratorrechte und kann administra
 
 ### Administratoren: Konfigurieren des Benutzerzugriffs auf Experience Platform {#user-access}
 
-Nachdem Sie dem Benutzer bzw. der Benutzerin jetzt Produktadministratorzugriff gewährt haben, müssen Sie ihm bzw. ihr Benutzerzugriff auf das Experience Platform-Produkt gewähren. Im Rahmen der Zugriffskonfigurationen weisen Sie den Benutzer spezifische [Produktprofile“ ](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html).
+Nachdem Sie dem Benutzer bzw. der Benutzerin jetzt Produktadministratorzugriff gewährt haben, müssen Sie ihm bzw. ihr Benutzerzugriff auf das Experience Platform-Produkt gewähren. Im Rahmen der Zugriffskonfigurationen weisen Sie den Benutzer spezifische [Produktprofile“ &#x200B;](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html).
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ Die Benutzenden sollten jetzt Produktadministrator- und Produktzugriff auf Exper
 
 ### Administratoren: Konfigurieren des Zugriffs auf die Experience Platform-Benutzeroberfläche {#product-access}
 
-In Real-Time CDP Collaboration arbeiten Administratoren und Endbenutzer mit Daten aus Experience Platform, z. B. Zielgruppen und Auditprotokolle. Diese Daten werden in Instanzen von Experience Platform gespeichert, die als Sandboxes bezeichnet werden. Um sicherzustellen, dass Benutzende mit diesen Daten interagieren können, müssen Sie [ Benutzenden &quot;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} Rollen“ zuweisen.
+In Real-Time CDP Collaboration arbeiten Administratoren und Endbenutzer mit Daten aus Experience Platform, z. B. Zielgruppen und Auditprotokolle. Diese Daten werden in Instanzen von Experience Platform gespeichert, die als Sandboxes bezeichnet werden. Um sicherzustellen, dass Benutzende mit diesen Daten interagieren können, müssen Sie [&#x200B; Benutzenden &quot;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} Rollen“ zuweisen.
 
 Navigieren Sie zunächst zu [Adobe Experience Cloud](https://experience.adobe.com/). Sie sollten jetzt **[!UICONTROL Experience Platform]** und **[!UICONTROL Permissions]** innerhalb von **[!UICONTROL Schnellzugriff]** sehen.
 
@@ -118,7 +118,7 @@ Sie haben jetzt Zugriff auf Experience Platform und Berechtigungen. Im letzten S
 >title="Handbuch zum Verwalten von Benutzerzugriff"
 >abstract=""
 
-Um Benutzenden Zugriff auf Collaboration zu gewähren, verwenden Sie ein Zugriffssteuerungskonzept namens Rollen . Rollen definieren die Zugriffsebene eines Administrators oder Benutzers auf (Ressourcen[ in ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) Organisation.
+Um Benutzenden Zugriff auf Collaboration zu gewähren, verwenden Sie ein Zugriffssteuerungskonzept namens Rollen . Rollen definieren die Zugriffsebene eines Administrators oder Benutzers auf (Ressourcen[&#x200B; in &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) Organisation.
 
 Beim Konfigurieren des individuellen Zugriffs auf Collaboration weisen Sie Benutzerrollen zu, die Berechtigungen aus der Ressource Zusammenarbeit enthalten. Sie können das Handbuch [Rollen verwalten](./manage-roles.md) verwenden, um Informationen zu folgenden Themen zu erhalten:
 
@@ -134,7 +134,7 @@ Nachdem Sie eine Rolle ausgewählt oder erstellt haben, die die Zugriffsebene Ih
 
 #### Zuweisen einer Rolle
 
-Sie können einem einzelnen Benutzer mehrere Rollen zuweisen oder einer Rolle mehrere Benutzer zuweisen. Der erste Fall wurde bereits bei der Zuweisung [ Standardrollen behandelt](#product-access) um einem Benutzer Zugriff auf Experience Platform zu gewähren. In den nächsten Schritten weisen Sie der ausgewählten Rolle Benutzer direkt zu.
+Sie können einem einzelnen Benutzer mehrere Rollen zuweisen oder einer Rolle mehrere Benutzer zuweisen. Der erste Fall wurde bereits bei der Zuweisung [&#x200B; Standardrollen behandelt](#product-access) um einem Benutzer Zugriff auf Experience Platform zu gewähren. In den nächsten Schritten weisen Sie der ausgewählten Rolle Benutzer direkt zu.
 
 Wählen **[!UICONTROL unter]** im linken Bereich die Option **[!UICONTROL Rollen]** und wählen Sie dann Ihre Rolle aus der Liste aus.
 
