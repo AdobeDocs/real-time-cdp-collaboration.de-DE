@@ -342,7 +342,7 @@ Die Sichtbarkeit von Metadaten gibt die Sichtbarkeit der Metadaten einer Zielgru
 
 The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the audience. There are two metadata visibility settings that you can configure for each audience:
 
-**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb ](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
+**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb &#x200B;](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
 
 **[!UICONTROL Show audience overlap %]**: This setting controls whether collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and your audiences.
 
