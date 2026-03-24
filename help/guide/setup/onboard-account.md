@@ -2,12 +2,12 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 11%
+source-wordcount: '1393'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Erfahren Sie, wie Sie Ihr -Konto in Real-Time CDP Collaboration einrichten, um s
 
 Wenn Sie zum ersten Mal auf Collaboration zugreifen, werden Sie aufgefordert, Ihr Konto einzurichten. Dies ist ein einmaliger Prozess, in dem Sie Ihre Kontodetails konfigurieren und Schlüssel abgleichen können. Wenn dies das erste Konto Ihres Unternehmens ist, werden Sie sofort durch den Onboarding-Prozess geleitet, beginnend mit der Einrichtung Ihrer [Kontodetails](#set-up-details).
 
-Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!UICONTROL Setup]** und wählen Sie das Symbol Hinzufügen (Symbol ![Hinzufügen) aus.](/help/assets/icons/plus.png)) in der oberen rechten Ecke. Wählen Sie anschließend **[!UICONTROL Konto]** aus.
+Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!UICONTROL Setup]** und wählen Sie das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) in der oberen rechten Ecke. Wählen Sie anschließend **[!UICONTROL Konto]** aus.
 
 ![Der Arbeitsbereich „Setup“ mit hervorgehobener Registerkarte „Mein Konto“ und hervorgehobener Option „Konto“](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
@@ -71,12 +71,12 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="Personenbezogene IDs aus erster Hand"
->abstract="Personenbezogene IDs aus erster Hand wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden. "
+>abstract="Personenbezogene IDs aus erster Hand wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="IDs von Erstanbieter-Geräten"
->abstract="Erstanbieter-Geräte-IDs wie ECID- oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können."
+>abstract="Geräte-IDs von Erstanbietern wie ECID oder IP-Adressen sind direkt mit Geräten verbunden, die möglicherweise von mehreren Personen gemeinsam genutzt werden können."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -89,7 +89,7 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 >
 >Die Übereinstimmungsschlüssel, die Sie während der Kontoeinrichtung auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel innerhalb Ihrer Verbindungen. Während Sie [unerwünschte Übereinstimmungsschlüssel entfernen](../connect/establishing-connections.md#connection-settings) während der Verbindungseinrichtung können Übereinstimmungsschlüssel nicht hinzugefügt werden, nachdem eine Verbindung hergestellt wurde. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
 
-Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [&#x200B; Felder &#x200B;](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
+Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [ Felder ](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abstimmen der Zielgruppenprofile verwenden möchten. Planen Sie für die Zukunft und fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten können und die Sie in zukünftigen Kampagnen voraussichtlich verwenden werden. Wenn Sie zu einem späteren Zeitpunkt zusätzliche Übereinstimmungsschlüssel für Ihr Konto auswählen müssen, können Sie dies im Workflow [Konto bearbeiten](#edit-account) tun. Übereinstimmungsschlüssel, die nach der Ersteinrichtung hinzugefügt wurden, stehen jedoch nicht zur Verwendung in vorhandenen Verbindungen zur Verfügung.
 
@@ -130,7 +130,7 @@ Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgru
 >
 >Die Integration von Adobe mit [!DNL AdFixus] ordnet die eindeutigen [!UICONTROL AdFixus-IDs] für jedes Konto einem gemeinsamen Adobe-kodierten Format zu. Diese Zuordnungen werden verwendet, um Überschneidungen zwischen Partnern zu identifizieren. Beim Aktivieren von Zielgruppen mit **[!UICONTROL AdFixus ID]** werden die ursprünglichen IDs verwendet. Das Adobe-kodierte Format verlässt Collaboration nie.
 
-Bei Auswahl von **[!UICONTROL AdFixus ID]** müssen Sie im Abschnitt **[!UICONTROL Kontoanmeldeinformationen]** die entsprechende ID von Ihrem externen Partner angeben. Diese Option ist nur nach *Umschalten auf „AdFixus* ID **[!UICONTROL verfügbar]**. Geben Sie Ihre AdFixus-ID in das Feld **[!UICONTROL Konto-ID]** ein. Achten Sie darauf, den Wert auf Genauigkeit zu überprüfen.
+Bei Auswahl von **[!UICONTROL AdFixus ID]** müssen Sie im Abschnitt **[!UICONTROL Kontoanmeldeinformationen]** die entsprechende ID von Ihrem externen Partner angeben. Diese Option ist nur nach *Umschalten auf „AdFixus **[!UICONTROL ID* verfügbar]**. Geben Sie Ihre AdFixus-ID in das Feld **[!UICONTROL Konto-ID]** ein. Achten Sie darauf, den Wert auf Genauigkeit zu überprüfen.
 
 ![Das Dialogfeld „Schlüssel abgleichen“ mit aktivierter AdFixus-ID und hervorgehobenem Abschnitt „Kontoanmeldeinformationen“.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
