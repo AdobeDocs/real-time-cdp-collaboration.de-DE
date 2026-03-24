@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Messberichte für Amazon Marketing Cloud-Kamp
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, Messberichte, Kampagnenübersicht, Attribution, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
