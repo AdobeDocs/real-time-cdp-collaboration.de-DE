@@ -144,7 +144,7 @@ Nach Abschluss der Beschaffung stehen Ihre Zielgruppen auf der Registerkarte **[
 
 ![Registerkarte „Meine Zielgruppen“ zeigt in der Tabellenansicht eine Liste der Zielgruppen der Quelle an.](../../assets/setup/snowflake-audience-sourcing/snowflake-audience-list.png)
 
-Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für **[!UICONTROL Identitäten]**, **[!UICONTROL Kategorien]**, **[!UICONTROL Verbindungszugriff]** und **[!UICONTROL Metadatensichtbarkeit]**. Weitere [ finden Sie unter „Anzeigen einer einzelnen ](./onboard-audiences.md#view-individual-audiences)&quot;.
+Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für **[!UICONTROL Identitäten]**, **[!UICONTROL Kategorien]**, **[!UICONTROL Verbindungszugriff]** und **[!UICONTROL Metadatensichtbarkeit]**. Weitere [&#x200B; finden Sie unter „Anzeigen einer einzelnen &#x200B;](./onboard-audiences.md#view-individual-audiences)&quot;.
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
