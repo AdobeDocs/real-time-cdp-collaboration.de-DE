@@ -2,11 +2,12 @@
 title: Konfigurieren  [!DNL Snowflake]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-a-Self-Service-Datenquelle konfigurieren und verbinden, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 1%
+source-wordcount: '1229'
+ht-degree: 2%
 
 ---
 
@@ -54,6 +55,12 @@ Wählen Sie als Nächstes **[!UICONTROL Snowflake]** als Datenverbindung aus, ge
 ![Der Bildschirm zur Auswahl der Datenverbindung mit [!DNL Snowflake] als auswählbare Option.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### Audience-Datei überprüfen {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="Daten für das Onboarding vorbereiten"
+>abstract="Lesen Sie das Handbuch zur Spezifikation für die Zielgruppenbeschaffung , um zu erfahren, wie Sie Zielgruppendaten aus Snowflake für Collaboration formatieren und strukturieren."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
 Es wird ein Dialogfeld angezeigt, in dem die Anforderungen der [!DNL Snowflake Share] und der [!DNL Snowflake] Zielgruppendatei erläutert werden, bevor Sie mit der Beschaffung beginnen können. Stellen Sie sicher, dass Ihr [!DNL Snowflake Share] mit dem richtigen Freigabenamen, der richtigen Kontokennung, dem richtigen Schema und der richtigen Ansicht erstellt wird. Um sicherzustellen, dass Ihre Zielgruppendaten für die Verwendung in Collaboration korrekt formatiert und strukturiert sind, lesen Sie das Handbuch **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 
@@ -144,7 +151,7 @@ Nach Abschluss der Beschaffung stehen Ihre Zielgruppen auf der Registerkarte **[
 
 ![Registerkarte „Meine Zielgruppen“ zeigt in der Tabellenansicht eine Liste der Zielgruppen der Quelle an.](../../assets/setup/snowflake-audience-sourcing/snowflake-audience-list.png)
 
-Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für **[!UICONTROL Identitäten]**, **[!UICONTROL Kategorien]**, **[!UICONTROL Verbindungszugriff]** und **[!UICONTROL Metadatensichtbarkeit]**. Weitere [&#x200B; finden Sie unter „Anzeigen einer einzelnen &#x200B;](./onboard-audiences.md#view-individual-audiences)&quot;.
+Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für **[!UICONTROL Identitäten]**, **[!UICONTROL Kategorien]**, **[!UICONTROL Verbindungszugriff]** und **[!UICONTROL Metadatensichtbarkeit]**. Weitere [ finden Sie unter „Anzeigen einer einzelnen ](./onboard-audiences.md#view-individual-audiences)&quot;.
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
