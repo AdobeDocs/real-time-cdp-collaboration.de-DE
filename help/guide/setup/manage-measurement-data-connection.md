@@ -45,13 +45,13 @@ In diesem Abschnitt werden die folgenden Details der Datenverbindung angezeigt:
 
 ### Übereinstimmungsschlüssel {#match-keys}
 
-Übereinstimmungsschlüssel sind die Zielfelder, denen Sie Ihre Quellfelder zugeordnet haben, wenn [ Ihre Messdaten beziehen](./onboard-measurement-data.md). Weitere Informationen zur Funktionsweise von Übereinstimmungsschlüsseln finden Sie im Handbuch [Übereinstimmungsschlüssel](./onboard-account.md#set-up-match-keys) .
+Übereinstimmungsschlüssel sind die Zielfelder, denen Sie Ihre Quellfelder zugeordnet haben, wenn [&#x200B; Ihre Messdaten beziehen](./onboard-measurement-data.md). Weitere Informationen zur Funktionsweise von Übereinstimmungsschlüsseln finden Sie im Handbuch [Übereinstimmungsschlüssel](./onboard-account.md#set-up-match-keys) .
 
 ![Ein Arbeitsbereich für die Messdatenverbindung mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“.](/help/assets/setup/manage-measurement-data-connection/view-match-keys.png){zoomable="yes"}
 
 ### Konversionsereignisse {#conversion-events}
 
-Unten im Arbeitsbereich wird eine Liste der Konversionsereignisse angezeigt, die an die Datenverbindung angehängt sind. Die Liste zeigt einen kurzen Überblick über jedes Ereignis an, einschließlich Status, Konvertierungstyp und Quelle. Sie können den Ereignisnamen auswählen, um die Konfigurationen anzuzeigen und zu bearbeiten, oder das Konversionsereignis mit der Löschoption entfernen (![Löschsymbol](/help/assets/common/delete.svg)). Eine vollständige Anleitung zum Verwalten eines Konversionsereignisses finden Sie im Handbuch [Hinzufügen und Verwalten von ](./onboard-measurement-data.md)&quot;.
+Unten im Arbeitsbereich wird eine Liste der Konversionsereignisse angezeigt, die an die Datenverbindung angehängt sind. Die Liste zeigt einen kurzen Überblick über jedes Ereignis an, einschließlich Status, Konvertierungstyp und Quelle. Sie können den Ereignisnamen auswählen, um die Konfigurationen anzuzeigen und zu bearbeiten, oder das Konversionsereignis mit der Löschoption entfernen (![Löschsymbol](/help/assets/common/delete.svg)). Eine vollständige Anleitung zum Verwalten eines Konversionsereignisses finden Sie im Handbuch [Hinzufügen und Verwalten von &#x200B;](./onboard-measurement-data.md)&quot;.
 
 ![Ein Arbeitsbereich für die Messdatenverbindung mit hervorgehobenem Abschnitt „Konversionsereignisse“.](/help/assets/setup/manage-measurement-data-connection/view-conversion-events.png){zoomable="yes"}
 
@@ -94,7 +94,7 @@ Im Dialogfeld **[!UICONTROL Übereinstimmungsschlüssel]** können Sie die Anrei
 
 #### Anreicherung {#enrichment}
 
-Wenn die Anreicherung beim [ Ihrer Messdaten nicht aktiviert ](./onboard-measurement-data.md), haben Sie die Möglichkeit, Ihren Ereignisdatensatz mit Attributen aus dem Echtzeit-Kundenprofil anzureichern. Beachten Sie, dass die Anreicherung für Messdaten nicht mehr deaktiviert werden kann, sobald sie aktiviert wurde. Sie können die Join-Schlüssel der Anreicherung weiterhin nach Bedarf aktualisieren.
+Wenn die Anreicherung beim [&#x200B; Ihrer Messdaten nicht aktiviert &#x200B;](./onboard-measurement-data.md), haben Sie die Möglichkeit, Ihren Ereignisdatensatz mit Attributen aus dem Echtzeit-Kundenprofil anzureichern. Beachten Sie, dass die Anreicherung für Messdaten nicht mehr deaktiviert werden kann, sobald sie aktiviert wurde. Sie können die Join-Schlüssel der Anreicherung weiterhin nach Bedarf aktualisieren.
 
 Wenn Sie die Anreicherung im Dialogfeld **[!UICONTROL Übereinstimmungsschlüssel]** aktivieren, wird die Benutzeroberfläche erweitert, um weitere Konfigurationsoptionen unter dem Abschnitt **[!UICONTROL Anreichern Ihrer Ereignisdaten mit IDs aus Profilen]** anzuzeigen.
 
@@ -138,7 +138,7 @@ Ein Bestätigungsdialogfeld bestätigt, dass die Übereinstimmungsschlüssel erf
 
 Durch das Löschen einer Datenverbindung werden alle zugrunde liegenden Konversionen, zugehörigen Einstellungen und die Verwendung in Collaboration entfernt. Diese Aktion kann nicht rückgängig gemacht werden.
 
-Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) ](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
+Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) &#x200B;](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobener Löschoption.](/help/assets/setup/manage-measurement-data-connection/delete-measurement-data-connection.png){zoomable="yes"}
 
@@ -152,5 +152,5 @@ Ein Bestätigungsdialogfeld bestätigt, dass die Datenverbindung erfolgreich gel
 
 Nach der Verwaltung Ihrer Messdatenverbindungen haben Sie folgende Möglichkeiten:
 
-* Fügen Sie bei Bedarf weitere Konversionsereignisse hinzu, die mit Ihrer Datenverbindung verknüpft sind. Ausführliche Anweisungen finden Sie in der Dokumentation [Hinzufügen und Verwalten von ](./onboard-measurement-data.md)&quot;.
+* Fügen Sie bei Bedarf weitere Konversionsereignisse hinzu, die mit Ihrer Datenverbindung verknüpft sind. Ausführliche Anweisungen finden Sie in der Dokumentation [Hinzufügen und Verwalten von &#x200B;](./onboard-measurement-data.md)&quot;.
 * Erzeugen von Messberichten, um Einblicke in die Leistung und Wirkung Ihrer Kampagne zu erhalten. Weitere Informationen zu den verfügbaren Berichtstypen und deren Erstellung finden Sie im Handbuch [Leistung messen](/help/guide/collaborate/measure.md) .
