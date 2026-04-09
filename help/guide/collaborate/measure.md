@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **Measurement**-Anwendungsfall [während des Verbindungsprozesses) ](../connect/establishing-connections.md#connection-settings) wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **Measurement**-Anwendungsfall [während des Verbindungsprozesses) &#x200B;](../connect/establishing-connections.md#connection-settings) wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./manage-projects.md#project-use-cases)&quot;.
 
 Erfahren Sie mehr über die verfügbaren Berichte in Adobe Real-Time CDP Collaboration und lernen Sie, wie Sie die Leistung Ihrer Marketing-Kampagnen kanalübergreifend messen und analysieren können.
 
@@ -26,11 +26,11 @@ Erfahren Sie mehr über die verfügbaren Berichte in Adobe Real-Time CDP Collabo
 Bevor Sie auf die Messberichte in Collaboration zugreifen können, müssen Sie:
 
 * [Verbinden](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter mit aktiviertem **Measurement**-Anwendungsfall
-* Zusammenarbeit an mindestens einem Projekt mit dem Mitarbeiter. Erfahren Sie, wie [ ein Projekt erstellen ](/help/guide/collaborate/manage-projects.md#create-project).
-* Führen Sie Ihre Kampagne aus und stellen Sie sicher[ dass eine (Kampagnen-ID) für die Kampagne angegeben ](../collaborate/manage-projects.md#manage-campaign-id):
+* Zusammenarbeit an mindestens einem Projekt mit dem Mitarbeiter. Erfahren Sie, wie [&#x200B; ein Projekt erstellen &#x200B;](/help/guide/collaborate/manage-projects.md#create-project).
+* Führen Sie Ihre Kampagne aus und stellen Sie sicher[&#x200B; dass eine (Kampagnen-ID) für die Kampagne angegeben &#x200B;](../collaborate/manage-projects.md#manage-campaign-id):
    * Wenn Sie ein Publisher sind, geben Sie die Kampagnen-ID ein, die mit der Kampagne Ihres Advertisers verknüpft ist.
    * Wenn Sie ein Advertiser sind, bitten Sie Ihren Partner (Publisher), die Kampagnen-ID anzugeben. Dies ist erforderlich, um [Berichte im Messarbeitsbereich zu erstellen](#create-measurement-report).
-* [Laden Sie ](/help/guide/setup/onboard-measurement-data.md) in Collaboration hoch, wenn Sie [Attributionsberichte erstellen](#create-attribution-report).
+* [Laden Sie &#x200B;](/help/guide/setup/onboard-measurement-data.md) in Collaboration hoch, wenn Sie [Attributionsberichte erstellen](#create-attribution-report).
 
 ## Anzeigen von Berichten {#view-reports}
 
@@ -144,11 +144,11 @@ In diesem Abschnitt wird erläutert, wie Gutschriften bei der Erstellung von Mes
 
 #### Kampagnendetails {#campaign-details}
 
-Wählen Sie im **[!UICONTROL Kampagnendetails]** die entsprechende (Advertiser **ID) aus** die mit Ihrem Bericht verknüpft werden soll. Diese Advertiser-Namen oder IDs wurden während der [Verbindungseinrichtung“ ](../connect/establishing-connections.md#advertiser-names). Wenn nur ein Name konfiguriert wurde, wird er standardmäßig angezeigt. Wenn kein Name eingerichtet wurde, wird das Feld **[!UICONTROL Advertiser-ID (Name)]** deaktiviert und mit dem Advertiser-Kontonamen vorausgefüllt.
+Wählen Sie im **[!UICONTROL Kampagnendetails]** die entsprechende (Advertiser **ID) aus** die mit Ihrem Bericht verknüpft werden soll. Diese Advertiser-Namen oder IDs wurden während der [Verbindungseinrichtung“ &#x200B;](../connect/establishing-connections.md#advertiser-names). Wenn nur ein Name konfiguriert wurde, wird er standardmäßig angezeigt. Wenn kein Name eingerichtet wurde, wird das Feld **[!UICONTROL Advertiser-ID (Name)]** deaktiviert und mit dem Advertiser-Kontonamen vorausgefüllt.
 
 ![Der Bildschirm „Messbericht erstellen“ mit deaktivierter Option „Advertiser-ID (Name)“.](/help/assets/collaborate/measure/advertiser-id.png)
 
-Wählen Sie dann die gewünschte Kampagne aus dem Dropdown-Menü **[!UICONTROL Kampagnen-ID]** aus. In diesem Menü werden alle Kampagnen-IDs aufgelistet, die vom Publisher für Ihr Projekt eingegeben wurden. Wenn die benötigte Kampagne nicht verfügbar ist, [ Sie sie in der Benutzeroberfläche ](./manage-projects.md#manage-campaign-id), bevor Sie den Bericht erstellen.
+Wählen Sie dann die gewünschte Kampagne aus dem Dropdown-Menü **[!UICONTROL Kampagnen-ID]** aus. In diesem Menü werden alle Kampagnen-IDs aufgelistet, die vom Publisher für Ihr Projekt eingegeben wurden. Wenn die benötigte Kampagne nicht verfügbar ist, [&#x200B; Sie sie in der Benutzeroberfläche &#x200B;](./manage-projects.md#manage-campaign-id), bevor Sie den Bericht erstellen.
 
 ![Der Bildschirm Messbericht erstellen , der das Dropdown-Menü Kampagnen-ID enthält, wird erweitert.](/help/assets/collaborate/measure/campaign-id.png)
 
@@ -186,8 +186,8 @@ Als Advertiser können Sie **Attribution“-Berichte erstellen** um zu bewerten,
 
 >[!IMPORTANT]
 >
-> Sie müssen [Ihre Messdaten in Collaboration ](../setup/onboard-measurement-data.md#add-measurement-data), bevor Sie Attributionsberichte erstellen können.
->![Die Registerkarte Kennzahl mit den Anforderungen für Messdaten und der deaktivierten Option Kennzahl ](/help/assets/collaborate/measure/require-measurement-data.png)
+> Sie müssen [Ihre Messdaten in Collaboration &#x200B;](../setup/onboard-measurement-data.md#add-measurement-data), bevor Sie Attributionsberichte erstellen können.
+>![Die Registerkarte Kennzahl mit den Anforderungen für Messdaten und der deaktivierten Option Kennzahl &#x200B;](/help/assets/collaborate/measure/require-measurement-data.png)
 
 Um einen **Attributionsbericht** zu generieren, navigieren Sie vom Arbeitsbereich **[!UICONTROL Mitarbeiter]** zum Projektarbeitsbereich. Wählen Sie auf der **[!UICONTROL Kennzahl]** das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Messen]** aus.
 
@@ -224,7 +224,7 @@ Als Advertiser können Sie **[!UICONTROL Attribution]** als Berichtstyp zusätzl
 Wenn Sie **[!UICONTROL Attribution]** als Berichtstyp auswählen, wird ein Konfigurationsabschnitt **[!UICONTROL Attribution]** mit zusätzlichen erforderlichen Einstellungen angezeigt:
 
 * **Lookback-Fenster in Tagen**: Legt fest, wie weit der Bericht vor jeder Konversion Kampagnen-Impressions berücksichtigt. Nur Impressionen innerhalb dieses Zeitraums sind für eine Attributions-Gutschrift geeignet.
-* **Konversionsereignisse**: Gibt an, welche Konversionsaktionen Sie messen möchten, z. B. Käufe oder Anmeldungen. Diese Ereignisse müssen im Voraus eingerichtet werden, wenn Sie [Ihre Messdaten ](../setup/onboard-measurement-data.md#add-conversion-event) Collaboration beziehen.
+* **Konversionsereignisse**: Gibt an, welche Konversionsaktionen Sie messen möchten, z. B. Käufe oder Anmeldungen. Diese Ereignisse müssen im Voraus eingerichtet werden, wenn Sie [Ihre Messdaten &#x200B;](../setup/onboard-measurement-data.md#add-conversion-event) Collaboration beziehen.
 
 Geben Sie zunächst einen Wert für das Feld **[!UICONTROL Lookback-Fenster in Tagen]** ein oder passen Sie ihn mit den Optionen zum Erhöhen/Verringern an.
 
