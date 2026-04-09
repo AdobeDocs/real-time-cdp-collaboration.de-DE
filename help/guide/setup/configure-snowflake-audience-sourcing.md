@@ -2,7 +2,7 @@
 title: Konfigurieren  [!DNL Snowflake]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-a-Self-Service-Datenquelle konfigurieren und verbinden, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
