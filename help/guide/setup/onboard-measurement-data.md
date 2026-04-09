@@ -2,12 +2,12 @@
 title: Hinzufügen und Verwalten von Messdaten
 description: Erfahren Sie, wie Sie Messdaten zu Adobe Real-Time CDP Collaboration hinzufügen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 5%
+source-wordcount: '2720'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-In diesem Dokument werden die Schritte zum Hinzufügen von Kampagnenmessdaten zu Adobe Real-Time CDP Collaboration beschrieben. Publisher können mit Adobe-Teams zusammenarbeiten, um Campaign-Messdaten hochzuladen. Nach dem Hochladen und Verarbeiten dieser Daten können sowohl Publisher als auch Advertiser umfassende [Kampagnenmessberichte) &#x200B;](/help/guide/collaborate/measure.md).
+In diesem Dokument werden die Schritte zum Hinzufügen von Kampagnenmessdaten zu Adobe Real-Time CDP Collaboration beschrieben. Publisher können mit Adobe-Teams zusammenarbeiten, um Campaign-Messdaten hochzuladen. Nach dem Hochladen und Verarbeiten dieser Daten können sowohl Publisher als auch Advertiser umfassende [Kampagnenmessberichte) ](/help/guide/collaborate/measure.md).
 
 ## Messdaten hinzufügen {#add-measurement-data}
 
@@ -156,7 +156,6 @@ Wenn Sie [Profilanreicherung während des Zuordnungsschritts aktivieren](#enrich
 * **Einverständnisregeln**: Wählen Sie die Einverständnisregeln aus, die auf Daten angewendet werden sollen, die aus Collaboration bezogen werden.
 * **Audience**: Verwenden Sie den Zielgruppenfilter, um Zielgruppenprofile zum Einverständnis ein- oder auszuschließen.
 
-
 >[!NOTE]
 >
 >**[!UICONTROL Data Collaboration]** unterstützt Datennutzungsbeschriftungen mit C4, C5 und C9, während **[!UICONTROL Data Science]** nur C9 unterstützt. Weitere Informationen zu Datennutzungskennzeichnungen finden Sie in der Dokumentation zu Experience Platform:
@@ -238,6 +237,100 @@ Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder die
 * **[!UICONTROL Bedingungen]**: Zeigt die auf dieses Konversionsereignis angewendeten Bedingungsregeln an.
 
 ![Der Bildschirm Überblick mit den Details für ein Konversionsereignis.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## Messdaten bearbeiten {#edit-measurement-data}
+
+Nachdem Sie Ihre Messdaten abgerufen haben, können Sie die Details und Bedingungsregeln eines Konversionsereignisses jederzeit bearbeiten.
+
+Wählen Sie auf der **[!UICONTROL Meine Messdaten]** die Option mit den Auslassungspunkten (![Mehr-Symbol](/help/assets/icons/more.png)) auf der entsprechenden Konversionsereigniskarte aus. Wählen Sie dann **[!UICONTROL Konversion anzeigen]** aus dem Dropdown-Menü aus, um die detaillierte Seite für dieses Konversionsereignis zu öffnen.
+
+![Registerkarte „Meine Messdaten“ mit geöffnetem Menü mit Auslassungspunkten und hervorgehobener Option „Konvertierung anzeigen“.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### Name und Beschreibung bearbeiten {#edit-name-and-description}
+
+Um den Namen und die Beschreibung des Ereignisses zu aktualisieren, wählen Sie das Bearbeitungssymbol (![Bearbeitungssymbol](/help/assets/icons/edit.png)) oben rechts auf der Seite aus.
+
+![Die Ereignisseite „Site-Besuch“ mit dem hervorgehobenen Symbol „Bearbeiten“ oben rechts.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+Aktualisieren Sie **[!UICONTROL Dialogfeld Namen und Beschreibung bearbeiten]** die Felder mit den gewünschten Werten und klicken Sie dann auf **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
+
+![Das Dialogfeld „Namen und Beschreibung bearbeiten“ mit hervorgehobener Option „Speichern“.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+Ein Bestätigungsdialogfeld wird angezeigt, um zu bestätigen, dass die Details erfolgreich aktualisiert wurden.
+
+### Konversionsdetails bearbeiten {#edit-conversion-details}
+
+Sie können die folgenden Konversionsdetails des Ereignisses aktualisieren:
+
+| Feld | Beschreibung |
+|-------------------|-------------|
+| Konversionstyp | Die Kategorie des Konversionsereignisses, z. B. Site-Besuch, Kauf oder Anmeldung. |
+| Duplizierungsschlüssel | Kennung für Zeilen im Ereignisdatensatz, die zum selben Konversionsereignis gehören (z. B. derselbe Zeitstempel). Verhindert doppelte Zählungen. |
+| Konversionswert | Der Wert, der jeder Konversion zugeordnet ist. |
+
+{style="table-layout:auto"}
+
+Um mit der Bearbeitung zu beginnen, wählen **[!UICONTROL Bearbeiten]** im Bedienfeld **[!UICONTROL Konvertierungsdetails]** aus.
+
+![Die Ereignisseite für den Site-Besuch, auf der die Option „Bearbeiten“ im Bedienfeld „Konversionsdetails“ hervorgehoben ist.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+Aktualisieren **[!UICONTROL im Dialogfeld &quot;]** bearbeiten“ im Dropdown-Menü den Konvertierungstyp. Sie können einen Wert für die Konversion eingeben oder leer lassen, wenn Sie keinen Wert zuweisen möchten. Um den Duplizierungsschlüssel zu bearbeiten, wählen Sie die Option Vorhandener Schlüssel aus.
+
+![Das Dialogfeld „Konversionsdetails bearbeiten“ mit hervorgehobener Option „Beispiel-Personen-ID“.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+Das Dialogfeld **[!UICONTROL Duplizierungsschlüssel]** zeigt eine Liste der verfügbaren Felder an, die unter Optionen wie **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Ereignisschema]** gruppiert sind. Suchen Sie den gewünschten Schlüssel, wählen Sie ihn aus und klicken Sie dann auf **[!UICONTROL Auswählen]**.
+
+![Das Dialogfeld „Duplizierungsschlüssel“ mit der ausgewählten Taste und der Option „Auswählen“.](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+Überprüfen Sie abschließend die Aktualisierungen und wählen Sie **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
+
+![Das Dialogfeld „Konversionsdetails bearbeiten“ mit hervorgehobener Option „Speichern“.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+Ein Bestätigungsdialogfeld wird angezeigt, um zu bestätigen, dass die Details erfolgreich aktualisiert wurden.
+
+### Bearbeiten von Bedingungen {#edit-conditions}
+
+Bedingungsregeln geben an, welche Datenzeilen aus Ihrem Ereignis-Datensatz als Konversionen einbezogen werden. Aktualisieren Sie diese Regeln nach Bedarf, damit Ihre Messung nur die für Ihre Analyse relevantesten Daten widerspiegelt.
+
+Um Bedingungen zu bearbeiten, wählen Sie **[!UICONTROL Bearbeiten]** im Bedienfeld **[!UICONTROL Bedingungen]** aus.
+
+![Die Ereignisseite für den Site-Besuch, auf der die Option „Bearbeiten“ im Bedienfeld „Bedingungen“ hervorgehoben ist.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+Im Dialogfeld **[!UICONTROL Konversionsregeln bearbeiten]** können Sie die aktuellen Details aller Bedingungen anzeigen. Wählen Sie eine vorhandene Bedingungsoption aus, um ihre Details einschließlich Quellfeld, Logikregel und Wert zu aktualisieren.
+
+![Das Dialogfeld „Konversionsregeln bearbeiten“, in dem die Optionen zum Bearbeiten von Quellfeldern, Logikregeln und Werten einer vorhandenen Bedingung hervorgehoben sind.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+Um zusätzliche Konversionsregeln einzuschließen, wählen Sie **[!UICONTROL Bedingung hinzufügen]** aus. Wählen Sie dann die neue Option Leere Bedingung aus.
+
+![Das Dialogfeld „Konversionsregeln bearbeiten“, das die neue Option Leere Bedingung nach Auswahl der Option Bedingung hinzufügen anzeigt.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+Im Dialogfeld **[!UICONTROL Quellfeld auswählen]** können Sie verfügbare Felder sehen, die unter Optionen wie **[!UICONTROL Identity-Namespace]** und **[!UICONTROL Ereignisschema]** gruppiert sind. Wählen Sie das entsprechende Feld aus, das Sie für Ihre Bedingung verwenden möchten, und wählen Sie dann **[!UICONTROL Auswählen]**. Sie können die Option **[!UICONTROL Suche]** verwenden, um Ihr bevorzugtes Feld schnell zu finden.
+
+![Das Dialogfeld „Quellfeld auswählen“ mit dem ausgewählten Feld und der Option „Auswählen“.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+
+Wählen Sie anschließend im Dropdown-Menü einen logischen Operator aus der verfügbaren Liste aus und geben Sie einen Wert für die Bedingung ein.
+
+![Der Dialog Konversionsregeln bearbeiten , der das Dropdown-Menü für die Logik hervorhebt.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+Verwenden Sie **[!UICONTROL Alle Bedingungen einschließen]** wenn alle angegebenen Bedingungen für jede Konvertierung erforderlich sind, oder verwenden Sie **[!UICONTROL Beliebige Bedingungen einschließen]** um Konvertierungen zuzulassen, die mindestens einer Bedingung entsprechen. Wenn Sie die Aktualisierung abgeschlossen haben, überprüfen Sie und wählen Sie **[!UICONTROL Speichern]** aus, um die Änderungen anzuwenden.
+
+![Das Dialogfeld „Konversionsregeln bearbeiten“ mit hervorgehobener Option „Speichern“.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+Ein Bestätigungsdialogfeld wird angezeigt, um zu bestätigen, dass die Details erfolgreich aktualisiert wurden.
+
+## Messdaten löschen {#delete-measurement-data}
+
+Durch das Löschen von Messdaten werden das zugehörige Konversionsereignis und alle verknüpften Messdetails dauerhaft aus Ihrem Projekt entfernt. Alle Messberichte, die auf dieses Ereignis angewiesen sind, verlieren die entsprechenden Konversionsmetriken und können nicht mehr aktualisiert werden. Diese Aktion kann nicht rückgängig gemacht werden.
+
+Um ein vorhandenes Konversionsereignis zu löschen, navigieren Sie zur Registerkarte **[!UICONTROL Meine Messdaten]** im **[!UICONTROL Setup]**-Arbeitsbereich. Wählen Sie in der Rasteransicht **[!UICONTROL Löschen]** in der entsprechenden Ereigniskarte aus. Klicken Sie in der Tabellenansicht auf das Löschsymbol (![Löschsymbol](/help/assets/common/delete.svg)) neben dem Ereignisnamen.
+
+![Registerkarte „Meine Messdaten“ mit hervorgehobener Option „Löschen“ in einer Zeile mit Konversionsereignissen.](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+Das **[!UICONTROL Messung löschen]** erscheint, in dem Sie aufgefordert werden, das Löschen des Ereignisses zu bestätigen. Wählen Sie **[!UICONTROL Löschen]** aus.
+
+![Das Dialogfeld „Messung löschen“ mit hervorgehobener Option „Löschen“.](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+Es wird ein Bestätigungsdialogfeld angezeigt, das bestätigt, dass das Konversionsereignis erfolgreich gelöscht wurde.
 
 ## Nächste Schritte {#next-steps}
 
