@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Erfahren Sie mehr über die Zusammenarbeit mit Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
@@ -57,7 +57,7 @@ Im Abschnitt **[!UICONTROL Entdecken]** können Sie Ihre AMC-Zielgruppe mit alle
 
 >[!IMPORTANT]
 >
->Zielgruppendaten werden aus den Zielgruppen verarbeitet, die in Ihr [!DNL Amazon Ads]-Konto hochgeladen wurden. Um zu erfahren, wie Sie mit der Funktion „Ziele“ von Experience Platform Ihre Zielgruppen an Ihr [!DNL Amazon Ads]-Konto senden können, lesen Sie das Handbuch [Amazon Ads-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>Zielgruppendaten werden aus den Zielgruppen verarbeitet, die in Ihr [!DNL Amazon Ads]-Konto hochgeladen wurden. Um zu erfahren, wie Sie mit der Funktion „Ziele“ von Experience Platform Ihre Zielgruppen an Ihr [!DNL Amazon Ads]-Konto senden können, lesen Sie das Handbuch [Amazon Ads-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![Der Abschnitt „Entdecken“ in einem Projekt mit Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
