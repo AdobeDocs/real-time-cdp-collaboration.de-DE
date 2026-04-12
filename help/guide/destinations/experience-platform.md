@@ -2,12 +2,12 @@
 title: Konfigurieren von Adobe Experience Platform als Ziel
 description: Erfahren Sie, wie Sie Adobe Experience Platform as a -Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 11%
+source-wordcount: '1534'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -71,7 +71,7 @@ Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Sta
 >title="Ziel-Namespaces"
 >abstract="Zielgruppen-Namespaces geben an, welchem Identity-Namespace der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird. Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt."
 
-Alle für Ihr Konto aktivierten Übereinstimmungsschlüssel sind standardmäßig in der Aktivierungszuordnung enthalten. Wenn Sie einen Übereinstimmungsschlüssel nicht direkt einem Ziel-Namespace zuordnen möchten, können Sie die Option Verknüpfter Schlüssel verwenden, um ihn durch einen anderen Übereinstimmungsschlüssel zu ersetzen. Weitere Informationen zu verknüpften Schlüsseln finden Sie [&#x200B; Abschnitt unten](#linked-keys).
+Alle für Ihr Konto aktivierten Übereinstimmungsschlüssel sind standardmäßig in der Aktivierungszuordnung enthalten. Wenn Sie einen Übereinstimmungsschlüssel nicht direkt einem Ziel-Namespace zuordnen möchten, können Sie die Option Verknüpfter Schlüssel verwenden, um ihn durch einen anderen Übereinstimmungsschlüssel zu ersetzen. Weitere Informationen zu verknüpften Schlüsseln finden Sie [ Abschnitt unten](#linked-keys).
 
 #### Zuordnen von Ziel-Namespaces {#map-target-namespaces}
 
@@ -79,7 +79,7 @@ Um jeden Übereinstimmungsschlüssel einem Ziel-Namespace zuzuordnen, wählen Si
 
 >[!IMPORTANT]
 >
->Hash-Übereinstimmungsschlüssel müssen einem Ziel-Namespace zugeordnet werden, der Hash-Werte unterstützt. Beispielsweise muss der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** dem Identity-Namespace **[!UICONTROL E-Mail(SHA256, in Kleinbuchstaben)]** in Adobe Experience Platform zugeordnet werden. Der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** kann nicht dem Identity-Namespace **[!UICONTROL E-Mail]** zugeordnet werden, da dieser Namespace keine Hash-Werte unterstützt.
+>Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt. Beispielsweise muss der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** dem Identity-Namespace **[!UICONTROL E-Mail(SHA256, in Kleinbuchstaben)]** in Adobe Experience Platform zugeordnet werden. Der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** kann nicht dem Identity-Namespace **[!UICONTROL E-Mail]** zugeordnet werden, da dieser Namespace keine Hash-Werte unterstützt.
 
 ![Das Dialogfeld „Quellfeld auswählen“ mit hervorgehobener Option „Auswählen“..](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
@@ -98,7 +98,7 @@ Ein retailer möchte die aktivierten Daten an Experience Platform an sein CRM-Sy
 
 >[!NOTE]
 >
->Damit ein Profil aktiviert wird, muss es Werte sowohl für den ursprünglichen Übereinstimmungsschlüssel als auch für den verknüpften Übereinstimmungsschlüssel haben. Wenn beispielsweise die Hash-ID mit der CRM-ID verknüpft ist, muss ein Profil Werte sowohl für die Hash-ID als auch für die CRM-ID haben, um aktiviert zu werden. Wenn einer der Werte fehlt, wird das Profil nicht aktiviert.
+>Damit ein Profil aktiviert wird, muss es Werte sowohl für den ursprünglichen Übereinstimmungsschlüssel als auch für den verknüpften Übereinstimmungsschlüssel aufweisen. Wenn beispielsweise die Hash-ID mit der CRM-ID verknüpft ist, muss ein Profil Werte sowohl für die Hash-ID als auch für die CRM-ID haben, um aktiviert zu werden. Wenn einer der Werte fehlt, wird das Profil nicht aktiviert.
 
 Um einen verknüpften Schlüssel zu verwenden, aktivieren Sie die Option **[!UICONTROL Verknüpfter Schlüssel]** neben dem Übereinstimmungsschlüssel, den Sie an seiner Stelle verwenden möchten. Der Abschnitt **[!UICONTROL Verknüpfter Schlüssel]** wird angezeigt und Sie werden aufgefordert, die Zuordnung zu erstellen.
 
@@ -138,7 +138,7 @@ Nachdem Sie Experience Platform als Ziel konfiguriert haben, können Sie mit dem
 >
 >Sie **müssen** Experience Platform als Ziel konfigurieren *bevor* Mitarbeiter eine Zielgruppe aktiviert. Wenn das Ziel nicht konfiguriert ist, wird die Zielgruppe an Sie gesendet und auf der Registerkarte **[!UICONTROL Aktivieren]** innerhalb eines Projekts angezeigt, sie wird jedoch nicht für Experience Platform aktiviert.
 
-Experience Platform Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in &#x200B;](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
+Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in ](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
 
 ### Zielgruppenportal {#audience-portal}
 
@@ -150,4 +150,4 @@ Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie d
 
 ![Das Zielgruppenportal mit Real-Time CDP Collaboration als Ursprung in den Filteroptionen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
+Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
