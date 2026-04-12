@@ -166,7 +166,7 @@ Das **[!UICONTROL Übereinstimmungsschlüssel]** wird angezeigt. Schalten Sie be
 
 >[!IMPORTANT]
 >
->Trigger Durch Ändern Ihrer [!UICONTROL AdFixus ID] wird eine [Datenskizze](../glossary.md#sketches) nicht mit dem Übereinstimmungsschlüssel für Ihre bestehenden Datenverbindungen aktualisiert. Sobald Ihre Daten skizziert wurden, werden alle Änderungen an Ihrer [!UICONTROL AdFixus ID] erst widergespiegelt, wenn Ihre nächste Zielgruppe nach Ihren Einstellungen für [Datenverbindungsplan](./manage-data-connection.md#scheduling) aktualisiert wird. Wenn Sie vor der nächsten Aktualisierung Änderungen benötigen, können Sie Ihre Datenverbindung löschen und neu erstellen.
+>Durch Ändern Ihrer [!UICONTROL AdFixus ID] wird eine [Datenskizze](../glossary.md#sketches) nicht mit dem Übereinstimmungsschlüssel für Ihre bestehenden Datenverbindungen aktualisiert. Sobald Ihre Daten skizziert wurden, werden alle Änderungen an Ihrer [!UICONTROL AdFixus ID] erst widergespiegelt, wenn Ihre nächste Zielgruppe nach Ihren Einstellungen für [Datenverbindungsplan](./manage-data-connection.md#scheduling) aktualisiert wird. Wenn Sie vor der nächsten Aktualisierung Änderungen benötigen, können Sie Ihre Datenverbindung löschen und neu erstellen.
 >
 >Derzeit können Übereinstimmungsschlüssel nicht entfernt werden, sobald sie Ihrem Konto hinzugefügt wurden.
 

@@ -6,8 +6,8 @@ badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informati
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 11%
+source-wordcount: '1534'
+ht-degree: 14%
 
 ---
 
@@ -79,7 +79,7 @@ Um jeden Übereinstimmungsschlüssel einem Ziel-Namespace zuzuordnen, wählen Si
 
 >[!IMPORTANT]
 >
->Hash-Übereinstimmungsschlüssel müssen einem Ziel-Namespace zugeordnet werden, der Hash-Werte unterstützt. Beispielsweise muss der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** dem Identity-Namespace **[!UICONTROL E-Mail(SHA256, in Kleinbuchstaben)]** in Adobe Experience Platform zugeordnet werden. Der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** kann nicht dem Identity-Namespace **[!UICONTROL E-Mail]** zugeordnet werden, da dieser Namespace keine Hash-Werte unterstützt.
+>Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt. Beispielsweise muss der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** dem Identity-Namespace **[!UICONTROL E-Mail(SHA256, in Kleinbuchstaben)]** in Adobe Experience Platform zugeordnet werden. Der Übereinstimmungsschlüssel **[!UICONTROL gehashte E-Mail]** kann nicht dem Identity-Namespace **[!UICONTROL E-Mail]** zugeordnet werden, da dieser Namespace keine Hash-Werte unterstützt.
 
 ![Das Dialogfeld „Quellfeld auswählen“ mit hervorgehobener Option „Auswählen“..](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
@@ -98,7 +98,7 @@ Ein retailer möchte die aktivierten Daten an Experience Platform an sein CRM-Sy
 
 >[!NOTE]
 >
->Damit ein Profil aktiviert wird, muss es Werte sowohl für den ursprünglichen Übereinstimmungsschlüssel als auch für den verknüpften Übereinstimmungsschlüssel haben. Wenn beispielsweise die Hash-ID mit der CRM-ID verknüpft ist, muss ein Profil Werte sowohl für die Hash-ID als auch für die CRM-ID haben, um aktiviert zu werden. Wenn einer der Werte fehlt, wird das Profil nicht aktiviert.
+>Damit ein Profil aktiviert wird, muss es Werte sowohl für den ursprünglichen Übereinstimmungsschlüssel als auch für den verknüpften Übereinstimmungsschlüssel aufweisen. Wenn beispielsweise die Hash-ID mit der CRM-ID verknüpft ist, muss ein Profil Werte sowohl für die Hash-ID als auch für die CRM-ID haben, um aktiviert zu werden. Wenn einer der Werte fehlt, wird das Profil nicht aktiviert.
 
 Um einen verknüpften Schlüssel zu verwenden, aktivieren Sie die Option **[!UICONTROL Verknüpfter Schlüssel]** neben dem Übereinstimmungsschlüssel, den Sie an seiner Stelle verwenden möchten. Der Abschnitt **[!UICONTROL Verknüpfter Schlüssel]** wird angezeigt und Sie werden aufgefordert, die Zuordnung zu erstellen.
 
@@ -138,7 +138,7 @@ Nachdem Sie Experience Platform als Ziel konfiguriert haben, können Sie mit dem
 >
 >Sie **müssen** Experience Platform als Ziel konfigurieren *bevor* Mitarbeiter eine Zielgruppe aktiviert. Wenn das Ziel nicht konfiguriert ist, wird die Zielgruppe an Sie gesendet und auf der Registerkarte **[!UICONTROL Aktivieren]** innerhalb eines Projekts angezeigt, sie wird jedoch nicht für Experience Platform aktiviert.
 
-Experience Platform Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in &#x200B;](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
+Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in &#x200B;](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
 
 ### Zielgruppenportal {#audience-portal}
 

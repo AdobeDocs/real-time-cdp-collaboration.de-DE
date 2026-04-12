@@ -1,6 +1,6 @@
 ---
-title: ' [!DNL Amazon S3]  für Zielgruppen-Sourcing konfigurieren'
-description: Erfahren Sie, wie Sie Ihren  [!DNL Amazon S3] -Speicher als Self-Service-Datenquelle konfigurieren und verbinden können, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
+title: Konfigurieren  [!DNL Amazon S3]  Zielgruppen-Beschaffung
+description: Erfahren Sie, wie Sie Ihren - [!DNL Amazon S3]  als Self-Service-Datenquelle konfigurieren und verbinden können, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
@@ -9,14 +9,14 @@ ht-degree: 8%
 
 ---
 
-# [!DNL Amazon S3] für die Zielgruppen-Beschaffung konfigurieren
+# Konfigurieren von [!DNL Amazon S3] für die Zielgruppen-Beschaffung
 
-Erfahren Sie, wie Sie Ihren [!DNL Amazon S3]-Speicher in der Adobe Real-Time CDP Collaboration-Benutzeroberfläche konfigurieren und verbinden, um Zielgruppendaten für die Aktivierung und Überschneidungsanalyse zu beziehen.
+Erfahren Sie, wie Sie Ihren [!DNL Amazon S3] in der Benutzeroberfläche von Adobe Real-Time CDP Collaboration konfigurieren und verbinden, um Zielgruppendaten für Aktivierungs- und Überschneidungsanalysen zu beziehen.
 
 >[!IMPORTANT]
 >
 >Bevor Sie dieses Handbuch befolgen, müssen Sie die Schritte ausgeführt haben, um die IAM-Rolle von Adobe in Ihrem AWS-Konto zu autorisieren.\
->Eine schrittweise Setup-Anleitung finden Sie im Handbuch **[Konfigurieren von AWS-Berechtigungen für die Zielgruppen-Beschaffung](./configure-aws-permissions-audience-sourcing.md)**.
+>Eine schrittweise Anleitung zur Einrichtung **[finden Sie](./configure-aws-permissions-audience-sourcing.md)** Handbuch Konfigurieren von AWS-Berechtigungen für die Zielgruppen-Beschaffung .
 
 ## Überblick {#overview}
 
@@ -28,8 +28,8 @@ Zielgruppen, die über S3 bezogen werden, folgen denselben Governance- und Daten
 
 Stellen Sie vor dem Konfigurieren Ihrer S3-Datenverbindung Folgendes sicher:
 
-* Sie haben Zugriff auf einen aktiven **[!DNL Amazon S3]-Bucket**, der Zielgruppendateien enthält, die der **[Zielgruppen-Beschaffungsspezifikation (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** entsprechen.
-* Sie haben in AWS eine **IAM-Rolle** erstellt, die Adobe die Berechtigung erteilt, mithilfe der **angenommenen Rolle** auf Ihren Bucket zuzugreifen (keine Zugriffs-/Geheimschlüssel). Detaillierte Anweisungen finden Sie unter **[Konfigurieren von AWS-Berechtigungen für die Zielgruppen-Beschaffung](./configure-aws-permissions-audience-sourcing.md)**. Die IAM-Rolle muss die folgenden Berechtigungen enthalten:
+* Sie haben Zugriff auf einen aktiven **[!DNL Amazon S3]-Bucket** der Zielgruppendateien enthält, die der **[Zielgruppen-Beschaffungsspezifikation (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+* Sie haben eine **IAM-Rolle** in AWS erstellt, die Adobe die Berechtigung zum Zugriff auf Ihren Bucket mithilfe der Methode **Angenommene Rolle** (keine Zugriffs-/Geheimschlüssel) gewährt. Detaillierte **[finden Sie unter „Konfigurieren von AWS](./configure-aws-permissions-audience-sourcing.md)** Berechtigungen für die Zielgruppen-Beschaffung“. Die IAM-Rolle muss die folgenden Berechtigungen enthalten:
 
    * `ListBucket`
    * `GetBucketLocation`
@@ -37,7 +37,7 @@ Stellen Sie vor dem Konfigurieren Ihrer S3-Datenverbindung Folgendes sicher:
 
 * Sie haben die folgenden Werte bereit:
 
-   * **IAM-Rolle Amazon-Ressourcenname (ARN)**
+   * **IAM-Rolle Amazon Resource Name (ARN)**
    * **S3-Bucket-Name**
    * **Ordnerpfad** (das Ordnerpräfix, das Ihre Zielgruppendateien enthält)
 
@@ -45,15 +45,15 @@ Stellen Sie vor dem Konfigurieren Ihrer S3-Datenverbindung Folgendes sicher:
 >
 >Zielgruppendateien müssen sich im **Stammordnerpfad** Ihres autorisierten S3-Buckets befinden. Unterordnerstrukturen werden nicht unterstützt.
 
-## [!DNL Amazon S3] Verbindung konfigurieren {#configure-aws-s3-connection}
+## Konfigurieren der [!DNL Amazon S3] {#configure-aws-s3-connection}
 
-Wählen Sie auf der Registerkarte **[!UICONTROL Meine Zielgruppen]** im Arbeitsbereich **[!UICONTROL Setup]** das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Zielgruppe]** aus.
+Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL Setup]**-Arbeitsbereich das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Audience]** aus.
 
 Wenn dies Ihre erste Zielgruppe ist, können Sie auch die Option **[!UICONTROL Hinzufügen]** auswählen.
 
 ![Die Registerkarte „Meine Zielgruppen“ im Arbeitsbereich „Setup“ mit dem Symbol „Hinzufügen“ und der Option „Zielgruppe hinzufügen“ wird angezeigt.](../../assets/setup/add-manage-audiences/add-audiences.png)
 
-Der Workflow „Zielgruppe hinzufügen“ wird angezeigt. Wählen Sie **[!UICONTROL Neue Datenverbindung hinzufügen]** und wählen Sie **[!UICONTROL Weiter]**.
+Der Workflow „Zielgruppe hinzufügen“ wird angezeigt. Wählen Sie **[!UICONTROL Neue Datenverbindung hinzufügen]** und dann **[!UICONTROL Weiter]** aus.
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
@@ -61,7 +61,7 @@ Der Workflow „Zielgruppe hinzufügen“ wird angezeigt. Wählen Sie **[!UICONT
 
 Wählen Sie **[!UICONTROL Amazon S3]** als Datenverbindung aus, gefolgt von **[!UICONTROL Weiter]**.
 
-![Der Bildschirm zur Auswahl der Datenverbindung, wobei [!DNL Amazon S3] als auswählbare Option verfügbar ist.](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
+![Der Bildschirm zur Auswahl der Datenverbindung mit [!DNL Amazon S3] als auswählbare Option.](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
 
 ### Überprüfen der Anforderungen für Zielgruppendateien {#review-audience-requirements}
 
@@ -71,11 +71,11 @@ Wählen Sie **[!UICONTROL Amazon S3]** als Datenverbindung aus, gefolgt von **[!
 >abstract="Lesen Sie das Handbuch zur Spezifikation der Zielgruppenerfassung, um zu erfahren, wie Sie Zielgruppendaten aus Amazon S3 für Collaboration formatieren und strukturieren."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
-Es wird ein Dialogfeld angezeigt, in dem erläutert wird, wie Ihre Zielgruppendateien strukturiert sein müssen. Verwenden Sie den Link zur **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**, um zu erfahren, wie Sie Zielgruppendaten aus [!DNL Amazon S3] formatieren und strukturieren, damit Collaboration sie korrekt liest.
+Es wird ein Dialogfeld angezeigt, in dem erläutert wird, wie Ihre Zielgruppendateien strukturiert sein müssen. Verwenden Sie den Link zur **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**, um zu erfahren, wie Sie Zielgruppendaten aus [!DNL Amazon S3] formatieren und strukturieren, damit sie von Collaboration korrekt gelesen werden können.
 
 >[!IMPORTANT]
 >
->Sie müssen Adobe als [!DNL Amazon S3]-Benutzer autorisiert haben, damit Adobe Daten aus Ihrem [!DNL Amazon S3]-Speicher zur Verarbeitung abrufen kann.
+>Sie müssen Adobe als [!DNL Amazon S3] Benutzer autorisiert haben, damit Adobe Daten aus Ihrem [!DNL Amazon S3] zur Verarbeitung abrufen kann.
 
 Ihre Zielgruppendateien müssen der Zielgruppen-Beschaffungsspezifikation entsprechen. Die Übereinstimmungsschlüssel werden automatisch auf der Grundlage des erforderlichen Formats zugeordnet.
 
@@ -86,7 +86,7 @@ Zu den wichtigsten Aspekten gehören:
 * Jeder Zielgruppen-Datensatz muss einen `AUDIENCE_ID` und mindestens einen Übereinstimmungsschlüssel enthalten, z. B. `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID` oder `ADFIXUS_ID`.
 * Datenaktualisierungen erfolgen alle 1-6 Tage basierend auf Ihrer Auswahl während der Einrichtung der Beschaffung in Collaboration.
 
-![Der Dialog „Daten für die Beschaffung vorbereiten“ mit einem Link zu den Spezifikationen für die Zielgruppenbeschaffung.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
+![Das Dialogfeld „Daten für die Beschaffung vorbereiten“ mit einem Link zu den Spezifikationen für die Zielgruppenbeschaffung.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
 ### Authentifizieren Ihrer S3-Verbindung {#authenticate-s3-connection}
 
@@ -100,22 +100,22 @@ Zu den wichtigsten Aspekten gehören:
 >title="Hinzufügen einer Zielgruppe für Amazon S3"
 >abstract="Um Ihren Amazon S3-Speicher zu verbinden, autorisieren Sie den Adobe-Dienstbenutzenden, Zielgruppendaten zur Verarbeitung abzurufen. Befolgen Sie die in Experience League beschriebenen Schritte, um Adobe Zugriff auf Ihren Amazon S3-Speicher zu gewähren."
 
-Geben Sie als Nächstes Ihre [!DNL Amazon S3]-Anmeldeinformationen ein, um Ihren S3-Bucket mit Collaboration zu verbinden.
+Geben Sie als Nächstes Ihre [!DNL Amazon S3] Anmeldeinformationen ein, um Ihren S3-Bucket mit Collaboration zu verbinden.
 
-Führen Sie die unter **[Konfigurieren von AWS-Berechtigungen für die Zielgruppen-Beschaffung](./configure-aws-permissions-audience-sourcing.md)** beschriebenen Schritte aus, um Adobe Zugriff auf Ihre zu gewähren.
-[!DNL Amazon S3] Speicher. Geben Sie nach Abschluss des Vorgangs Ihre Werte in die folgenden Benutzeroberflächenfelder ein:
+Führen Sie die unter **[von AWS-Berechtigungen für Zielgruppen-Sourcing beschriebenen Schritte aus](./configure-aws-permissions-audience-sourcing.md)** um Adobe Zugriff auf Ihre zu gewähren.
+[!DNL Amazon S3]. Geben Sie nach Abschluss des Vorgangs Ihre Werte in die folgenden Benutzeroberflächenfelder ein:
 
 * IAM-Rolle
 * S3-Bucketname
 * Ordnerpfad
 
-![Das [!DNL Amazon S3]-Verbindungsformular mit Feldern für IAM-Rolle, S3-Behälternamen und Ordnerpfad.](../../assets/setup/aws-audience-sourcing/s3-authentication-credentials-form.png)
+![Das [!DNL Amazon S3]-Verbindungsformular mit Feldern für die IAM-Rolle, den S3-Behälternamen und den Ordnerpfad.](../../assets/setup/aws-audience-sourcing/s3-authentication-credentials-form.png)
 
 ### Einverständnisbestätigung bestätigen {#confirm-consent}
 
-Sie müssen dann bestätigen, dass die Einverständnis-Opt-outs entfernt wurden, bevor Sie fortfahren. Aktivieren Sie das Bestätigungsfeld und dann **[!UICONTROL OK]** zur Bestätigung.
+Sie müssen dann bestätigen, dass die Einverständnis-Opt-outs entfernt wurden, bevor Sie fortfahren. Markieren Sie zur Bestätigung das Bestätigungsfeld **[!UICONTROL OK]**.
 
-![Das Dialogfeld zur Bestätigung des Einverständnisses, das bestätigt werden muss, bevor der Vorgang fortgesetzt wird.](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
+![Das Dialogfeld zur Bestätigung des Einverständnis-Opt-outs, das vor dem Fortfahren bestätigt werden muss.](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
 
 ### Authentifizierungsergebnisse überprüfen {#validate-authentication}
 
@@ -142,7 +142,7 @@ Geben Sie einen beschreibenden Namen und eine optionale Beschreibung für Ihre S
 
 ### Überprüfen der automatisch zugeordneten Identitätsfelder {#auto-mapped-fields}
 
-Der Bildschirm **[!UICONTROL Zuordnung]** ist schreibgeschützt. Sie können keine Umwandlungen hinzufügen, löschen oder anwenden. Collaboration ordnet Quell-Identitätsfelder aus Ihren Zielgruppendateien basierend auf der Zielgruppen-Beschaffungsspezifikation automatisch Zielfeldern zu.
+Der **[!UICONTROL Zuordnung]** ist schreibgeschützt. Sie können keine Umwandlungen hinzufügen, löschen oder anwenden. Collaboration ordnet Quell-Identitätsfelder aus Ihren Zielgruppendateien basierend auf der Zielgruppen-Beschaffungsspezifikation automatisch Zielfeldern zu.
 
 Bestätigen Sie die zugeordneten Felder visuell und wählen Sie **[!UICONTROL Weiter]** aus, um fortzufahren.
 
@@ -150,7 +150,7 @@ Bestätigen Sie die zugeordneten Felder visuell und wählen Sie **[!UICONTROL We
 
 ### Aktualisierungshäufigkeit und Datumsbereich planen {#schedule-refresh}
 
-Die Ansicht **[!UICONTROL Zeitplan]** wird angezeigt. Wählen Sie im Dropdown-Menü eine Aktualisierungshäufigkeit zwischen einem und sechs Tagen aus und legen Sie dann den aktiven Datumsbereich fest. Verwenden Sie das Kalendersymbol, um Start- und Enddatum anzugeben.
+Die **[!UICONTROL Zeitplan]**-Ansicht wird angezeigt. Wählen Sie im Dropdown-Menü eine Aktualisierungshäufigkeit zwischen einem und sechs Tagen aus und legen Sie dann den aktiven Datumsbereich fest. Verwenden Sie das Kalendersymbol, um Start- und Enddatum anzugeben.
 
 >[!IMPORTANT]
 >
@@ -162,14 +162,14 @@ Die Ansicht **[!UICONTROL Zeitplan]** wird angezeigt. Wählen Sie im Dropdown-Me
 
 Überprüfen Sie abschließend Ihre Konfigurationseinstellungen im Bildschirm Zusammenfassung . Diese Ansicht enthält eine Zusammenfassung der folgenden Abschnitte:
 
-* **[!UICONTROL Datenverbindung]**: Zeigt die IAM-Rolle, den S3-Behälternamen und den Ordnerpfad an, den Sie konfiguriert haben.
-* **[!UICONTROL Details]**: Zeigt den Namen und die optionale Beschreibung Ihrer Datenverbindung an, um deren spätere Identifizierung zu erleichtern.
+* **[!UICONTROL Datenverbindung]**: Zeigt die IAM-Rolle, den S3-Behälternamen und den von Ihnen konfigurierten Ordnerpfad an.
+* **[!UICONTROL Details]**: Zeigt den Namen und die optionale Beschreibung Ihrer Datenverbindung an, damit Sie sie später identifizieren können.
 * **[!UICONTROL Zuordnung]**: Listet auf, wie die Quellfelder aus Ihren hochgeladenen Zielgruppendateien (z. B. `HASHED_EMAIL`) den in Collaboration verwendeten Zielfeldern (z. B. Hash-E-Mails) zugeordnet werden.
 * **[!UICONTROL Zeitplan]**: Fasst zusammen, wie oft die Verbindung Zielgruppendaten aktualisiert, und beschreibt den aktiven Datumsbereich für die Beschaffung.
 
-Wählen Sie das Stiftsymbol aus, wenn Sie einen Abschnitt bearbeiten müssen. Wählen Sie **[!UICONTROL Abschließen]**, um alle Abschnitte zu bestätigen.
+Wählen Sie das Stiftsymbol aus, wenn Sie einen Abschnitt bearbeiten müssen. Klicken Sie **[!UICONTROL Fertig stellen]**, um alle Abschnitte zu bestätigen.
 
-![Der Übersichtsbildschirm mit den Abschnitten „Datenverbindung“, „Details“, „Zuordnung“ und „Zeitplan“.](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
+![Der Übersichtsbildschirm mit den Abschnitten Datenverbindung, Details, Zuordnung und Zeitplan.](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
 Es wird ein Bestätigungsdialogfeld angezeigt, in dem angegeben wird, dass die Datenverbindung erfolgreich erstellt wurde und dass die Zielgruppen-Beschaffung in Bearbeitung ist.
 
@@ -179,30 +179,30 @@ Nach Abschluss der Konfiguration beginnt Collaboration mit der Beschaffung von Z
 
 Wenn die Zielgruppen-Beschaffung bereits läuft, wird oben auf dem Bildschirm ein Banner angezeigt. Einzelne Zielgruppen werden erst nach Abschluss der Beschaffung angezeigt.
 
-![Die Registerkarte „Zielgruppen“, auf der angezeigt wird, dass für [!DNL Amazon S3] Zielgruppen ein Sourcing läuft.](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
+![Die Registerkarte Zielgruppen , auf der angezeigt wird, dass für [!DNL Amazon S3] Zielgruppen gerade ein Sourcing durchgeführt wird.](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
 Sobald die S3-Zielgruppen bezogen wurden, wird Ihre Liste der verfügbaren Zielgruppen in einer tabellarischen oder Kartenansicht bereitgestellt.
 
 >[!TIP]
 >
->Die Zeit für die Zielgruppenbeschaffung hängt von der Größe Ihrer S3-Daten und der konfigurierten Aktualisierungshäufigkeit ab. Es kann länger dauern, bis größere Datensätze oder weniger häufig aktualisierte Zeitpläne im Arbeitsbereich **[!UICONTROL Meine Zielgruppen]** angezeigt werden.
+>Die Zeit für die Zielgruppenbeschaffung hängt von der Größe Ihrer S3-Daten und der konfigurierten Aktualisierungshäufigkeit ab. Größere Datensätze oder weniger häufige Aktualisierungszeitpläne können länger dauern, bis sie im Arbeitsbereich &quot;**[!UICONTROL Zielgruppen“]** werden.
 
-![Die Registerkarte „Zielgruppen“ mit einer tabellarischen Liste von Zielgruppen aus Quellen.](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
+![Die Registerkarte Zielgruppen mit einer tabellarischen Liste von Zielgruppen aus der Quelle.](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
 Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für Folgendes angezeigt:
 
 **[!UICONTROL Identitäten]**: Zeigt die Gesamtzahl der Identitäten und ihre Aufschlüsselung an, sobald Daten verfügbar sind.
 **[!UICONTROL Kategorien]**: Listet alle Tags auf, die zum Organisieren oder Filtern der Zielgruppe verwendet werden.
 **[!UICONTROL Verbindungszugriff]**: Gibt an, ob die Zielgruppe privat, öffentlich oder für bestimmte Mitarbeiter freigegeben ist.
-**[!UICONTROL Metadaten-Sichtbarkeit]**: Definiert, welche Zielgruppeninformationen (wie Identitätsanzahl, Überschneidungsprozentsatz und Index) für Mitwirkende sichtbar sind.
+**[!UICONTROL Metadaten-Sichtbarkeit]**: Definiert, welche Zielgruppeninformationen (z. B. Anzahl der Identitäten, Überschneidungsprozentsatz und Index) für Mitwirkende sichtbar sind.
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
-Weitere Informationen finden Sie in der Dokumentation zum [Dashboard für Zielgruppen anzeigen](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Weitere Informationen finden [&#x200B; in der &#x200B;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
 
 ## Anzeigen der S3-Datenverbindung {#view-s3-connection}
 
-Die neu hinzugefügte [!DNL Amazon S3]-Verbindung ist sofort auf der Registerkarte **[!UICONTROL Meine Datenverbindungen]** verfügbar. Die Zielgruppenquelle wird als [!UICONTROL Amazon S3] angezeigt.
+Die neu hinzugefügte [!DNL Amazon S3] ist sofort auf der Registerkarte **[!UICONTROL Meine Datenverbindungen]** verfügbar. Die Zielgruppenquelle wird als [!UICONTROL Amazon S3] angezeigt.
 
 Ihre S3-Datenverbindung enthält dieselben Funktionen und Details wie andere Zielgruppendaten-Verbindungen, mit dem Unterschied, dass Sie Zielgruppen nicht direkt über diese Ansicht hinzufügen oder bearbeiten können.
 
@@ -210,10 +210,10 @@ Ihre S3-Datenverbindung enthält dieselben Funktionen und Details wie andere Zie
 >
 >[!DNL Amazon S3] Datenverbindungen können nicht bearbeitet werden. Einstellungen wie die Aktualisierungshäufigkeit können nach der Erstellung der Verbindung nicht mehr geändert werden. Um die Konfiguration zu aktualisieren, müssen Sie die vorhandene Verbindung löschen und eine neue erstellen.
 
-![Die Registerkarte „Meine Datenverbindungen“ mit den [!DNL Amazon S3] Datenverbindungen mit Informationen zum Beschaffungsstatus.](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
+![Die Registerkarte „Meine Datenverbindungen“, auf der die [!DNL Amazon S3] Datenverbindung mit Informationen zum Beschaffungsstatus angezeigt wird.](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
 
 ## Nächste Schritte {#next-steps}
 
 Sie haben jetzt Ihren [!DNL Amazon S3]-Speicher erfolgreich als Datenquelle in Collaboration konfiguriert und verbunden. Durch Abschluss dieses Workflows haben Sie die sichere Beschaffung von First-Party-Zielgruppendaten für die Aktivierung und Überschneidungsanalyse aktiviert.
 
-Nach Abschluss der Beschaffung erscheinen Ihre Zielgruppen im Arbeitsbereich **[!UICONTROL Meine Zielgruppen]**, bereit für die Zusammenarbeit und Aktivierung. Detaillierte Verwaltungsoptionen finden Sie in der Dokumentation zu [Quelle und Verwalten von Zielgruppen](./onboard-audiences.md).
+Nach Abschluss des Einkaufs werden Ihre Zielgruppen im Arbeitsbereich **[!UICONTROL Meine Zielgruppen]** angezeigt, wo sie für die Zusammenarbeit und Aktivierung bereit sind. Detaillierte Informationen zu Verwaltungsoptionen finden Sie in der [Dokumentation „Quelle und Zielgruppen verwalten](./onboard-audiences.md).
