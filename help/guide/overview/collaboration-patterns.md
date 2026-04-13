@@ -2,11 +2,11 @@
 title: Die Kooperationsmuster in Adobe Real-Time CDP Collaboration.
 description: Die beiden Kooperationsmuster in Adobe Real-Time CDP Collaboration verstehen
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -46,3 +46,27 @@ Das Collaboration-Muster zwischen Werbetreibenden und Werbeplattformen ermöglic
 ![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Werbeplattform.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 Weitere Informationen dazu, wie Werbetreibende in diesem Muster mit Werbeplattformen zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md)-Handbuch.
+
+## Advertiser-to-Data-Partner {#advertiser-to-data-partner}
+
+Das Advertiser-zu-Daten-Partnermuster ermöglicht es Marken, direkt mit Drittanbietern von Daten zusammenzuarbeiten, um Kundenprofile anzureichern, präzisere Zielgruppen zu erstellen und auf Populationen von Interessenten für die Akquise zuzugreifen. Dieses Muster bringt herkömmliche externe Daten-Workflows in eine einzige, datenschutzsichere Umgebung, in der First-Party- und Third-Party-Daten kombiniert werden können, ohne dass Rohdaten verschoben werden müssen.
+
+![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Datenpartner.](/help/assets/overview/advertiser-to-data-partner.png)
+
+Weitere Informationen dazu, wie Werbetreibende und Datenpartner in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow)-Handbuch.
+
+## Agentur-Verlag {#agency-to-publisher}
+
+Das Agentur-zu-Publisher-Muster ermöglicht es Medienagenturen, direkt mit Publishern zusammenzuarbeiten, um Kampagnen mit freigegebenen Zielgruppeneinblicken zu planen, zu aktivieren und zu messen. Agenturen fungieren als Vermittler und nutzen Advertiser-Daten (mit Erlaubnis), um Überschneidungen zu identifizieren und Medienstrategien mit Publisher-Partnern auszuführen.
+
+![Ein Beispiel für die Zusammenarbeit zwischen Agentur und Verlag.](/help/assets/overview/agency-to-publisher.png)
+
+Weitere Informationen dazu, wie Agenturen und Herausgeber in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow)-Handbuch.
+
+## Advertiser-to-Agency-Plattform {#advertiser-to-agency-platform}
+
+Das Advertiser-zu-Agency-Plattform-Muster ermöglicht es Marken, mit ihren Medienagenturen in einer datenschutzsicheren Umgebung zusammenzuarbeiten, sodass Advertiser Daten mit ihrer Agentur senden und empfangen können, ohne dass direkte Datenübertragungen erforderlich sind. Dieses Muster unterstützt die Kampagnenplanung, die Erstellung von Zielgruppen und die Aktivierung, während Advertiser die Kontrolle über die Datennutzung behalten.
+
+![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Agentur-Plattform.](/help/assets/overview/advertiser-to-agency-platform.png)
+
+Weitere Informationen dazu, wie Werbetreibende und Agenturplattformen in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow)-Handbuch.

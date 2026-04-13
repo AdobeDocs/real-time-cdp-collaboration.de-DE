@@ -2,10 +2,11 @@
 title: Die Rolle des Mitarbeiters in Adobe Real-Time CDP Collaboration.
 description: Die beiden Kontorollen in Adobe Real-Time CDP Collaboration verstehen
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
+source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -23,6 +24,14 @@ Werbetreibende sind Marken, die durch zielgerichtete Marketing-Kampagnen bestimm
 ## Publisher {#publisher}
 
 Herausgeber sind Marken, die Online-Inhalte oder -Dienste besitzen oder betreiben, bei denen personenbezogene Daten mit Zustimmung des Benutzers erfasst werden. Sie stellen diese Daten zur Verwendung durch Werbetreibende für digitale Werbung und Zielgruppenmessung bereit. Mit Collaboration können Publisher ihre Zielgruppendaten an Mitarbeiter senden, um gezielte Marketing-Kampagnen zu ermöglichen und die Effektivität ihrer Werbemaßnahmen zu verbessern.
+
+## Agentur {#agency}
+
+Agenturen sind Unternehmen, die Marketing- und Medienkampagnen für eine oder mehrere Marken planen, verwalten und optimieren. Sie nutzen Daten von Erstanbietern und Drittanbietern, um Zielgruppen kanalübergreifend zu erstellen, zu aktivieren und zu messen. Mithilfe von Collaboration können Agenturen in einer einzigen verwalteten Umgebung auf markengenehmigte Daten zugreifen, sodass sie partnerübergreifende Kampagnen koordinieren, Zielgruppen aktivieren und die Medieneffektivität verbessern können.
+
+## Datenpartner {#data-partner}
+
+Datenpartner sind Organisationen, die von Drittanbietern verwaltete Datensätze und Segmente bereitstellen, mit denen Mitarbeitende ihre eigenen Daten für Zielgruppen-Targeting, Interessentengewinnung und Messung anreichern können. Mithilfe von Collaboration können Datenpartner diese Daten sicher für Mitwirkende für Zielgruppen- und Kampagneneinblicke verfügbar machen, ohne dass Erstanbieterdaten in die Umgebung des Partners übertragen werden müssen.
 
 ## Auswählen der richtigen Rolle {#choosing-the-right-role}
 
