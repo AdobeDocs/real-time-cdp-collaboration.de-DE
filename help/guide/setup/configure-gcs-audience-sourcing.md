@@ -2,10 +2,10 @@
 title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 37297042942a65573a6020bfe39549b26dfdd001
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2501'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Andere verfügbare Quellmethoden sind [Experience Platform](./onboard-audiences.
 
 ## Voraussetzungen {#prerequisites}
 
-Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Unvollständige Voraussetzungen sind der häufigste Grund dafür, dass die Einrichtung fehlschlägt oder Zielgruppen nach der Beschaffung nicht angezeigt werden. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ &#x200B;](./onboard-account.md) haben.
+Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Unvollständige Voraussetzungen sind der häufigste Grund dafür, dass die Einrichtung fehlschlägt oder Zielgruppen nach der Beschaffung nicht angezeigt werden. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ ](./onboard-account.md) haben.
 
 Einige Schritte in diesem Abschnitt erfordern eine Aktion durch einen [!DNL Google Cloud]. Wenn Sie nicht der [!DNL Google Cloud]-Administrator für Ihre Organisation sind, ermitteln Sie die entsprechende Person, bevor Sie beginnen.
 
@@ -80,6 +80,12 @@ Der Workflow „Zielgruppe hinzufügen“ wird angezeigt. Wählen Sie **[!UICONT
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### [!DNL Google Cloud Storage] als Datenquelle auswählen {#select-gcs}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
+>title="Daten für das Onboarding vorbereiten"
+>abstract="Lesen Sie das Handbuch zur Zielgruppen-Beschaffungsspezifikation , um zu erfahren, wie Sie Zielgruppendaten aus dem Google Cloud-Speicher für Collaboration formatieren und strukturieren."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
 Im Bildschirm zur Auswahl der Datenquelle werden alle verfügbaren Verbindungstypen aufgelistet. Wählen Sie **[!UICONTROL Google Cloud Storage]** und dann **[!UICONTROL Weiter]** aus.
 
@@ -141,7 +147,7 @@ Geben Sie einen Datumsbereich in das Eingabefeld ein oder wählen Sie das Kalend
 >
 >Legen Sie die Aktualisierungshäufigkeit fest, um mit der Rate abzugleichen oder die Rate nicht zu überschreiten, mit der Ihre zugrunde liegenden GCS-Zielgruppendaten aktualisiert werden. Das unterstützte Mindestaktualisierungsintervall beträgt einmal alle sechs Tage. Wenn Sie Ihre Daten häufiger aktualisieren, werden Collaboration-Guthaben verbraucht, ohne dass aktualisierte Ergebnisse generiert werden. Informationen zur Überwachung der Kreditnutzung finden Sie unter [Verfolgen der Kreditkonsumaktivität](./my-activity.md).
 
-![&#x200B; Schritt „Zielgruppen-Workflow hinzufügen“ zeigt das Dropdown-Menü „Häufigkeit“ an, das auf ein wiederkehrendes Intervall eingestellt ist, und eine Datumsbereichsauswahl im Kalender mit hervorgehobenen Start- und Enddaten. „Weiter“ wird oben rechts angezeigt.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
+![ Schritt „Zielgruppen-Workflow hinzufügen“ zeigt das Dropdown-Menü „Häufigkeit“ an, das auf ein wiederkehrendes Intervall eingestellt ist, und eine Datumsbereichsauswahl im Kalender mit hervorgehobenen Start- und Enddaten. „Weiter“ wird oben rechts angezeigt.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
 
 Klicken Sie auf **[!UICONTROL Weiter]**, um fortzufahren.
 
@@ -178,7 +184,7 @@ Während Collaboration Ihre Zielgruppendaten abruft, zeigt ein Banner oben im Ar
 
 Nach Abschluss der Beschaffung werden Ihre [!DNL Google Cloud Storage] Zielgruppen auf der Registerkarte **[!UICONTROL Meine Zielgruppen]** neben Zielgruppen angezeigt, die aus anderen Verbindungen bezogen wurden. Wählen Sie ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]** aus, um die Detailansicht für eine bestimmte Zielgruppe zu öffnen.
 
-![&#x200B; Registerkarte „Meine Zielgruppen“ im Setup-Arbeitsbereich mit einer Tabelle von Zielgruppen, einschließlich einer aus dem Google Cloud-Speicher stammenden Zielgruppe, wobei auswählbare Kontrollkästchen und Zeilenaktionen verfügbar sind.](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view.png)
+![ Registerkarte „Meine Zielgruppen“ im Setup-Arbeitsbereich mit einer Tabelle von Zielgruppen, einschließlich einer aus dem Google Cloud-Speicher stammenden Zielgruppe, wobei auswählbare Kontrollkästchen und Zeilenaktionen verfügbar sind.](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view.png)
 
 In der Detailansicht werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit den folgenden Bedienfeldern angezeigt:
 
@@ -206,7 +212,7 @@ Um die Verbindung selbst, einschließlich der Übereinstimmungsschlüssel und de
 Beachten Sie die folgenden Einschränkungen bei der Konfiguration und Verwendung [!DNL Google Cloud Storage] Zielgruppen-Sourcing:
 
 * **Einschränkungen für Übereinstimmungsschlüssel:** Sobald ein Übereinstimmungsschlüssel für eine Datenverbindung aktiviert ist, kann er nicht mehr entfernt werden. Sie können Übereinstimmungsschlüssel zu einer vorhandenen Verbindung hinzufügen, sie jedoch nicht deaktivieren oder löschen. Um die aktiven Übereinstimmungsschlüssel zu ändern, müssen [die Datenverbindung löschen](./manage-data-connection.md#delete-data-connection) und eine neue erstellen.
-* **Eine aktive Datenverbindung pro Quelle:** Es wird jeweils nur eine aktive [!DNL Google Cloud Storage] unterstützt. Wenn Sie Zielgruppen aus einem anderen Bucket beziehen müssen, [&#x200B; Sie (die vorhandene Verbindung löschen](./manage-data-connection.md#delete-data-connection) und erstellen Sie eine neue, die auf den neuen Bucket verweist.
+* **Eine aktive Datenverbindung pro Quelle:** Es wird jeweils nur eine aktive [!DNL Google Cloud Storage] unterstützt. Wenn Sie Zielgruppen aus einem anderen Bucket beziehen müssen, [ Sie (die vorhandene Verbindung löschen](./manage-data-connection.md#delete-data-connection) und erstellen Sie eine neue, die auf den neuen Bucket verweist.
 * **Unterstützung von Unterordnern:** Zielgruppendateien müssen sich direkt im angegebenen Ordnerpfad befinden. Collaboration durchläuft keine Unterordner innerhalb dieses Pfads.
 
 ## Fehlerbehebung {#troubleshooting}
@@ -228,7 +234,7 @@ Verwenden Sie diesen Abschnitt, um Probleme zu beheben, die nach dem Herstellen 
 
 **Bei einer geplanten Aktualisierung treten Fehler im Zielgruppendateiformat auf**
 
-* Vergewissern Sie sich, dass die aktualisierten Dateien im Bucket die Spaltenstruktur und die Feldanforderungen in der [Zielgruppen-Beschaffungsspezifikation) &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* Vergewissern Sie sich, dass die aktualisierten Dateien im Bucket die Spaltenstruktur und die Feldanforderungen in der [Zielgruppen-Beschaffungsspezifikation) ](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
 * Stellen Sie sicher, dass alle Dateien im konfigurierten Ordnerpfad identische Spaltenstrukturen verwenden. Dateien mit gemischten Formaten im selben Pfad können zu partiellen Quellfehlern führen.
 
 ## Nächste Schritte {#next-steps}
