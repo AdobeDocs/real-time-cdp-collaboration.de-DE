@@ -2,12 +2,12 @@
 title: Ziele - Übersicht
 description: Erfahren Sie mehr über Ziele in Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 6%
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Ziele sind Integrationen, die zum Senden zielgerichteter Zielgruppen an externe Plattformen verwendet werden. Mit diesen Integrationen können Sie Zielgruppen über verschiedene Marketing-Kanäle und Plattformen hinweg aktivieren, um sie in Kampagnen und bei der Kundeninteraktion zu verwenden.
 
-Mitwirkende können Ziele konfigurieren, um Zielgruppen zur Verwendung in Kampagnen an externe Plattformen wie Adobe Experience Platform zu senden. Mitwirkende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel ihrer Verbindung gesendet werden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [&#x200B; Mitarbeiter &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings).
+Mitwirkende können Ziele konfigurieren, um Zielgruppen zur Verwendung in Kampagnen an externe Plattformen wie Adobe Experience Platform zu senden. Mitwirkende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel ihrer Verbindung gesendet werden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [ Mitarbeiter ](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
@@ -44,10 +44,14 @@ Die folgenden Ziele sind für die Konfiguration in Collaboration verfügbar. Um 
 | Ziel | Verfügbarkeit |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Verfügbar |
-| Amazon S3 | Bald verfügbar. |
-| Snowflake | Bald verfügbar. |
-| Google Cloud Storage | Bald verfügbar. |
-| Azur Blob Storage | Bald verfügbar. |
+| [!DNL Amazon S3] | Bald verfügbar. |
+| [!DNL Snowflake] | Bald verfügbar. |
+| [!DNL Google Cloud Storage] | Bald verfügbar. |
+| [!DNL Azure Blob Storage] | Bald verfügbar. |
+
+>[!NOTE]
+>
+>**[!DNL Google Cloud Storage]** dieser Tabelle bezieht sich auf **Ziele** (bei denen Collaboration Zielgruppen während der Aktivierung sendet). Informationen **„Beschaffung von Zielgruppen** einem GCS-Bucket im **[!UICONTROL Setup]**-Arbeitsbereich finden Sie unter [Konfigurieren von GCS für die Zielgruppen-Beschaffung](../setup/configure-gcs-audience-sourcing.md).
 
 ## Nächste Schritte
 
