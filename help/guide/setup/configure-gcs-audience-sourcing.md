@@ -2,11 +2,11 @@
 title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1875ac192fc36f62a4f4a4f12163d2a2cf28486f
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 1%
+source-wordcount: '2855'
+ht-degree: 2%
 
 ---
 
@@ -25,21 +25,15 @@ Andere verfügbare Quellmethoden sind [Experience Platform](./onboard-audiences.
 
 ## Voraussetzungen {#prerequisites}
 
-Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Unvollständige Voraussetzungen sind der häufigste Grund dafür, dass die Einrichtung fehlschlägt oder Zielgruppen nach der Beschaffung nicht angezeigt werden. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ &#x200B;](./onboard-account.md) haben.
+Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Unvollständige Voraussetzungen sind der häufigste Grund dafür, dass die Einrichtung fehlschlägt oder Zielgruppen nach der Beschaffung nicht angezeigt werden. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ ](./onboard-account.md) haben.
 
 Einige Schritte in diesem Abschnitt erfordern eine Aktion durch einen [!DNL Google Cloud]. Wenn Sie nicht der [!DNL Google Cloud]-Administrator für Ihre Organisation sind, ermitteln Sie die entsprechende Person, bevor Sie beginnen.
 
 ### GCS-Zugriff und -Berechtigungen {#gcs-access-permissions}
 
-<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
-
->[!NOTE]
->
->Ein dediziertes Handbuch, das die spezifischen [!DNL Google Cloud] IAM-Rollen, die Konfiguration des Service-Kontos und die für diese Integration erforderlichen Berechtigungen auf Bucket-Ebene behandelt, steht zur Veröffentlichung aus. Wenden Sie sich an Ihren [!DNL Google Cloud], um zu bestätigen, dass Adobe über die erforderlichen Berechtigungen zum Authentifizieren bei Ihrem -Bucket und zum Lesen von Zielgruppendateien verfügt, bis dieses Handbuch verfügbar ist.
-
 Bevor Sie fortfahren, bestätigen Sie Folgendes mit Ihrem [!DNL Google Cloud]:
 
-* Adobe erhielt die Berechtigungen, die zum Authentifizieren gegenüber Ihrem GCS-Bucket und zum Lesen von Zielgruppendateien erforderlich sind.
+* Adobe erhielt die Berechtigungen, die zum Authentifizieren gegenüber Ihrem GCS-Bucket und zum Lesen von Zielgruppendateien erforderlich sind. Schrittweise Anweisungen finden Sie im Abschnitt [Einrichten von Berechtigungen](#setup-gcs-permissions).
 * [!DNL Google Cloud Storage] Zielgruppen-Sourcing ist in Ihrer Region verfügbar. Die Verfügbarkeit variiert je nach Region (NA, EMEA, ANZ). Wenn die GCS-Beschaffung in Ihrer Region noch nicht verfügbar ist, wenden Sie sich an Ihren Adobe-Kundenbetreuer, um einen Zeitplan zu bestätigen.
 
 ### Zielgruppendaten vorbereiten {#prepare-audience-data}
@@ -147,7 +141,7 @@ Geben Sie einen Datumsbereich in das Eingabefeld ein oder wählen Sie das Kalend
 >
 >Legen Sie die Aktualisierungshäufigkeit fest, um mit der Rate abzugleichen oder die Rate nicht zu überschreiten, mit der Ihre zugrunde liegenden GCS-Zielgruppendaten aktualisiert werden. Das unterstützte Mindestaktualisierungsintervall beträgt einmal alle sechs Tage. Wenn Sie Ihre Daten häufiger aktualisieren, werden Collaboration-Guthaben verbraucht, ohne dass aktualisierte Ergebnisse generiert werden. Informationen zur Überwachung der Kreditnutzung finden Sie unter [Verfolgen der Kreditkonsumaktivität](./my-activity.md).
 
-![&#x200B; Schritt „Zielgruppen-Workflow hinzufügen“ zeigt das Dropdown-Menü „Häufigkeit“ an, das auf ein wiederkehrendes Intervall eingestellt ist, und eine Datumsbereichsauswahl im Kalender mit hervorgehobenen Start- und Enddaten. „Weiter“ wird oben rechts angezeigt.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
+![ Schritt „Zielgruppen-Workflow hinzufügen“ zeigt das Dropdown-Menü „Häufigkeit“ an, das auf ein wiederkehrendes Intervall eingestellt ist, und eine Datumsbereichsauswahl im Kalender mit hervorgehobenen Start- und Enddaten. „Weiter“ wird oben rechts angezeigt.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
 
 Klicken Sie auf **[!UICONTROL Weiter]**, um fortzufahren.
 
@@ -184,7 +178,7 @@ Während Collaboration Ihre Zielgruppendaten abruft, zeigt ein Banner oben im Ar
 
 Nach Abschluss der Beschaffung werden Ihre [!DNL Google Cloud Storage] Zielgruppen auf der Registerkarte **[!UICONTROL Meine Zielgruppen]** neben Zielgruppen angezeigt, die aus anderen Verbindungen bezogen wurden. Wählen Sie ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]** aus, um die Detailansicht für eine bestimmte Zielgruppe zu öffnen.
 
-![&#x200B; Registerkarte „Meine Zielgruppen“ im Setup-Arbeitsbereich mit einer Tabelle von Zielgruppen, einschließlich einer aus dem Google Cloud-Speicher stammenden Zielgruppe, wobei auswählbare Kontrollkästchen und Zeilenaktionen verfügbar sind.](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view.png)
+![ Registerkarte „Meine Zielgruppen“ im Setup-Arbeitsbereich mit einer Tabelle von Zielgruppen, einschließlich einer aus dem Google Cloud-Speicher stammenden Zielgruppe, wobei auswählbare Kontrollkästchen und Zeilenaktionen verfügbar sind.](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view.png)
 
 In der Detailansicht werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit den folgenden Bedienfeldern angezeigt:
 
@@ -212,7 +206,7 @@ Um die Verbindung selbst, einschließlich der Übereinstimmungsschlüssel und de
 Beachten Sie die folgenden Einschränkungen bei der Konfiguration und Verwendung [!DNL Google Cloud Storage] Zielgruppen-Sourcing:
 
 * **Einschränkungen für Übereinstimmungsschlüssel:** Sobald ein Übereinstimmungsschlüssel für eine Datenverbindung aktiviert ist, kann er nicht mehr entfernt werden. Sie können Übereinstimmungsschlüssel zu einer vorhandenen Verbindung hinzufügen, sie jedoch nicht deaktivieren oder löschen. Um die aktiven Übereinstimmungsschlüssel zu ändern, müssen [die Datenverbindung löschen](./manage-data-connection.md#delete-data-connection) und eine neue erstellen.
-* **Eine aktive Datenverbindung pro Quelle:** Es wird jeweils nur eine aktive [!DNL Google Cloud Storage] unterstützt. Wenn Sie Zielgruppen aus einem anderen Bucket beziehen müssen, [&#x200B; Sie (die vorhandene Verbindung löschen](./manage-data-connection.md#delete-data-connection) und erstellen Sie eine neue, die auf den neuen Bucket verweist.
+* **Eine aktive Datenverbindung pro Quelle:** Es wird jeweils nur eine aktive [!DNL Google Cloud Storage] unterstützt. Wenn Sie Zielgruppen aus einem anderen Bucket beziehen müssen, [ Sie (die vorhandene Verbindung löschen](./manage-data-connection.md#delete-data-connection) und erstellen Sie eine neue, die auf den neuen Bucket verweist.
 * **Unterstützung von Unterordnern:** Zielgruppendateien müssen sich direkt im angegebenen Ordnerpfad befinden. Collaboration durchläuft keine Unterordner innerhalb dieses Pfads.
 
 ## Fehlerbehebung {#troubleshooting}
@@ -234,8 +228,71 @@ Verwenden Sie diesen Abschnitt, um Probleme zu beheben, die nach dem Herstellen 
 
 **Bei einer geplanten Aktualisierung treten Fehler im Zielgruppendateiformat auf**
 
-* Vergewissern Sie sich, dass die aktualisierten Dateien im Bucket die Spaltenstruktur und die Feldanforderungen in der [Zielgruppen-Beschaffungsspezifikation) &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* Vergewissern Sie sich, dass die aktualisierten Dateien im Bucket die Spaltenstruktur und die Feldanforderungen in der [Zielgruppen-Beschaffungsspezifikation) ](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
 * Stellen Sie sicher, dass alle Dateien im konfigurierten Ordnerpfad identische Spaltenstrukturen verwenden. Dateien mit gemischten Formaten im selben Pfad können zu partiellen Quellfehlern führen.
+
+## Einrichten von [!DNL Google Cloud Storage] {#setup-gcs-permissions}
+
+[!DNL Google Cloud Storage] bietet eine sichere, skalierbare Möglichkeit, Ihre Daten in der Cloud zu speichern und darauf zuzugreifen. Damit Adobe aus Ihren GCS-Buckets lesen kann, müssen Sie die entsprechenden IAM-Berechtigungen (Identity and Access Management) und den Zugriff auf Service-Konten in Ihrem [!DNL Google Cloud]-Konto konfigurieren.
+
+### Erfassen der [!DNL Google Service Account] von Adobe {#collect-account-information}
+
+Um zu beginnen, notieren Sie sich die [!DNL Google Service Account] für Adobe, die Ihrer Region entspricht. Sie benötigen diese Informationen, um Adobe in späteren Schritten Zugriff zu gewähren.
+
+| Region | [!DNL Google Service Account] |
+| ------------- | --------------- |
+| Nordamerika | `kk9930000@va3-22da.iam.gserviceaccount.com` |
+| EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |
+| Australien | `knhv20000@sfc-au-1-nla.iam.gserviceaccount.com` |
+
+{style="table-layout:auto"}
+
+### Einrichten der IAM-Rolle {#setup-iam-role}
+
+>[!IMPORTANT]
+>
+>Sie müssen **Konto-Admin** in Ihrem [!DNL Google Cloud]-Konto haben, um diese Einrichtung abzuschließen. Wenn Sie nicht über diese Berechtigungen verfügen, wenden Sie sich an Ihren Administrator, bevor Sie fortfahren.
+
+Gehen Sie wie folgt vor, um eine benutzerdefinierte IAM-Rolle mit den erforderlichen Berechtigungen zu erstellen und sie dem Adobe-Service-Konto zuzuweisen. Dadurch wird sichergestellt, dass Adobe sicheren Zugriff auf Ihre GCS-Zielgruppendaten hat.
+
+#### IAM-Rolle erstellen {#create-iam-role}
+
+Erstellen Sie zunächst eine benutzerdefinierte IAM-Rolle in Ihrem [!DNL Google Cloud]-Projekt mit den erforderlichen Berechtigungen, um sie Adobe zuzuweisen.
+
+Navigieren Sie auf der **[!DNL IAM & Admin]** Seite der [[!DNL Google Cloud] Konsole](https://console.cloud.google.com) zu **[!DNL Roles]** und wählen Sie **[!DNL Create role]** aus. Geben Sie die erforderlichen Informationen wie den Titel und die ID für Ihre neue Rolle ein.
+
+Fügen Sie dann der Rolle die folgenden Berechtigungen hinzu:
+
+| Berechtigung | Zweck |
+| ------------- | --------------- |
+| `storage.buckets.get` | Lesen von Bucket-Metadaten. |
+| `storage.objects.get` | Lesen von Objektdaten und Metadaten. |
+| `storage.objects.list` | Listen Sie Objekte in einem Bucket auf. |
+
+{style="table-layout:auto"}
+
+Weitere Informationen zu Berechtigungen finden Sie unter [GCS IAM-Berechtigungen](https://cloud.google.com/storage/docs/access-control/iam-permissions). Eine schrittweise Anleitung finden Sie unter [Erstellen benutzerdefinierter Rollen](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
+
+#### Zuweisen der IAM-Rolle zu Adobe {#assign-role}
+
+Öffnen Sie als Nächstes die [**[!DNL Buckets]**Seite ](https://console.cloud.google.com/storage/browser) der [!DNL Google Cloud Console] und wählen Sie den Bucket aus, der Ihre Zielgruppendaten enthält.
+
+Navigieren Sie zur Registerkarte **[!DNL Permissions]** , wählen Sie **[!DNL View by principals]** und dann **[!DNL Grant access]** aus.
+
+Fügen Sie im Dialogfeld &quot;**[!DNL Add principals]**&quot; das [Adobe Google-](#collect-account-information) als Prinzipal hinzu und weisen Sie die zuvor erstellte benutzerdefinierte IAM-Rolle zu. Wählen Sie **[!DNL Save]** aus, um die Einrichtung zu bestätigen.
+
+Adobe hat jetzt im ausgewählten GCS-Bucket sicheren Zugriff auf Ihre Zielgruppendaten. Überprüfen Sie alle zusätzlichen [Voraussetzungen](#prerequisites) nach Bedarf oder fahren Sie mit dem [Beschaffen von Zielgruppen aus GCS in Collaboration&quot; ](#configure-gcs-connection).
+
+#### [!DNL Google Cloud Storage] erfassen {#collect-gcs-details}
+
+Sammeln Sie abschließend die Details für Ihren GCS-Bucket, wie in der folgenden Tabelle dargestellt. Sie benötigen diese Informationen, um die Verbindung zwischen Ihrem GCS und Collaboration herzustellen.
+
+| Feld | Beschreibung | Beispiel |
+|------ |------------ |-------- |
+| [!DNL Bucket] | Der genaue Name des [!DNL Google Cloud Storage]-Buckets, der Ihre Zielgruppendateien enthält. | `customer-data-bucket` |
+| [!DNL Path] | Das Pfadpräfix innerhalb des Buckets, in dem Ihre Zielgruppendateien gespeichert werden. Muss mit `/` enden, um alle Dateien zu lesen. | `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## Nächste Schritte {#next-steps}
 
