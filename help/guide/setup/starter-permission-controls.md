@@ -2,7 +2,7 @@
 title: Konfigurieren von Berechtigungskontrollen für Collaboration [!DNL Starter] Onboarding
 description: Erfahren Sie, wie Sie Berechtigungen für Adobe Real-Time CDP Collaboration  [!DNL Starter]  die Berechtigungen in Adobe Experience Cloud konfigurieren.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
 workflow-type: tm+mt
@@ -58,7 +58,7 @@ Das **[!UICONTROL Rollen hinzufügen]** wird mit einer Tabelle der verfügbaren 
 
 {style="table-layout:auto"}
 
-Eine ausführliche Übersicht über eine bestimmte Rolle und die zugehörigen Berechtigungen finden Sie im Handbuch [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) .
+Eine ausführliche Übersicht über eine bestimmte Rolle und die zugehörigen Berechtigungen finden Sie im Handbuch [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions) .
 
 Überprüfen Sie die Informationen und wählen Sie die Rollen aus, die Sie Ihrem Konto zuweisen möchten. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
