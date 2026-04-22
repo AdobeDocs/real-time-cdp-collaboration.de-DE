@@ -40,7 +40,7 @@ Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, s
 1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
 1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
 
-Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [&#x200B; Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
 ## Marke-zu-Marke-Verbindung {#brand-to-brand-connection}
 
@@ -58,7 +58,7 @@ Im **[!UICONTROL Connect]**-Arbeitsbereich können Sie Ihre Verbindungen mit Mit
 
 >[!IMPORTANT]
 >
->Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
+>Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [&#x200B; Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
 
 Um Publisher zu finden, navigieren Sie auf der Registerkarte „Verbinden **[!UICONTROL zum Arbeitsbereich]** Mitarbeiter **[!UICONTROL Entdecken]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Collaborators]** finden Sie im Handbuch [Discover Collaborators](/help/guide/connect/discover-collaborators.md) .
 
@@ -297,7 +297,7 @@ Als Nächstes muss der Empfänger die vom Eigentümer vorgeschlagenen Verbindung
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobener Option „Akzeptieren“ und „Ablehnen“.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [ Abschnitt &quot;](#connection-settings)&quot;.
+Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [&#x200B; Abschnitt &quot;](#connection-settings)&quot;.
 
 >[!NOTE]
 >
