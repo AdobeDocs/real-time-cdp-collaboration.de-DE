@@ -34,6 +34,6 @@ Collaboration erzwingt **nicht** automatisch die Kreditverwendung oder -verfügb
 >
 > Adobe verwaltet und vermittelt keine Credit-Sharing-Vereinbarungen zwischen Organisationen. Alle Nutzungserwartungen sollten direkt zwischen Ihnen und Ihrem einladenden Partner vereinbart werden.
 
-Einzelheiten zur Zuordnung von Guthaben zwischen Organisationen finden Sie im Abschnitt [Einstellungen für die ](../connect/establishing-connections.md#credit-split)-Aufteilung[ im „Handbuch zur Verbindungseinrichtung](../connect/establishing-connections.md).
+Einzelheiten zur Zuordnung von Guthaben zwischen Organisationen finden Sie im Abschnitt [Einstellungen für die &#x200B;](../connect/establishing-connections.md#credit-split)-Aufteilung[&#x200B; im „Handbuch zur Verbindungseinrichtung](../connect/establishing-connections.md).
 
 Weitere Informationen dazu, welche Aktivitäten Kredite verbrauchen und wie die Kreditnutzung verfolgt oder verwaltet werden kann, finden Sie unter [Verfolgen der Kreditnutzungsaktivität](./my-activity.md).
