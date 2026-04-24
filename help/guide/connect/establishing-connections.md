@@ -2,7 +2,7 @@
 title: Herstellen von Verbindungen zu Partnern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
@@ -330,7 +330,7 @@ Bevor Sie den Einladungsprozess starten, erfassen Sie die folgenden Informatione
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Mitwirkende Person einladen"
 >abstract="Füllen Sie dieses Formular aus, um Ihre Partnerorganisation zu Collaboration Starter einzuladen. Der Einladende erhält eine Einladungs-E-Mail und muss die angegebene E-Mail-Adresse verwenden, um die Registrierung abzuschließen."
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Weitere Informationen zu Collaboration Starter"
+>additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Weitere Informationen zu Collaboration Starter"
 
 Laden Sie Ihre Partnerorganisation ein, dem Collaboration-[!DNL Starter] direkt über die Benutzeroberfläche beizutreten.
 
