@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit Adobe Real-Time CDP Collaboration Starter
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 3d29985d88e6370b4a0e8cd3d56358e85bb91e06
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
@@ -30,13 +30,13 @@ Stellen Sie für die ersten Schritte mit Collaboration [!DNL Starter] sicher, da
 
 Geben Sie Ihrem lizenzierten Partner die folgenden Informationen, um die Einladung einzuleiten:
 
-* Contact name
+* Kontaktname
 * Kontakt-E-Mail
 * Firma
 * Rolle (Advertiser/Publisher): Advertiser
 * Branche
 
-Nachdem Sie die Einladung erhalten und angenommen haben, muss Ihr Unternehmen einen kostenlosen Kundenauftrag mit Adobe prüfen und unterzeichnen, um auf Collaboration [!DNL Starter] zugreifen zu können. Weitere Informationen zum Einladungsprozess finden Sie im Handbuch [Einladen eines Mitarbeiters zu Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter).
+Nachdem Sie die Einladung erhalten und angenommen haben, muss Ihr Unternehmen einen kostenlosen Kundenauftrag mit Adobe prüfen und unterzeichnen, um auf Collaboration [!DNL Starter] zugreifen zu können. Weitere Informationen zum Einladungsprozess finden Sie im Handbuch [Einladen eines Mitarbeiters zu Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
 
 ## Leitlinien {#guardrails}
 
@@ -44,7 +44,7 @@ In der folgenden Tabelle finden Sie die wichtigsten Leitplanken für Ihr [!DNL S
 
 | Leitplanke | Beschreibung |
 |----------| ------------|
-| Zielgruppenquelle | Sie können Zielgruppendaten mit **[!DNL Amazon S3]** als Quelle in Collaboration importieren. For step-by-step instructions, see [how to configure [!DNL Amazon S3] for audience sourcing](../setup/configure-aws-s3-audience-sourcing.md). |
+| Zielgruppenquelle | Sie können Zielgruppendaten mit **[!DNL Amazon S3]** als Quelle in Collaboration importieren. Eine schrittweise Anleitung finden Sie unter [Konfigurieren von  [!DNL Amazon S3]  für die Zielgruppen-Beschaffung](../setup/configure-aws-s3-audience-sourcing.md). |
 | Zielgruppe | Ihr [!DNL Starter]-Konto hat maximal Anspruch auf:<ul><li>10 Zielgruppen aus einem [!DNL AWS S3] Bucket</li><li>50 Millionen Identitäten insgesamt (berechnet durch die Anzahl der Zeilen in Ihren Zielgruppendaten)</li><li>1 Aktualisierung pro Zielgruppe alle 6 Tage</li></ul> |
 | Zielgruppenüberschneidungen und Einblicke | Es gibt keine Nutzungsbeschränkung dafür, wie oft Sie Zielgruppenüberschneidungen und Einblicke in Ihren Zielgruppen ausführen können. Erfahren Sie, wie Sie [Überschneidungen erkennen und Zielgruppen vergleichen](../collaborate/discover.md). |
 | Activation | Als [!DNL Starter] können Sie Zielgruppen nur für den Partner aktivieren und freigeben, der Sie eingeladen hat. Die Konfiguration von Zielen für externe Plattformen ist nicht verfügbar. Weitere Informationen über [Aktivieren von Audiences](../collaborate/activate.md). |

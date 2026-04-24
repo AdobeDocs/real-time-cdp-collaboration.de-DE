@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3398'
 ht-degree: 8%
 
 ---
@@ -82,39 +82,39 @@ Es wird ein Dialogfeld angezeigt, in dem Sie aufgefordert werden, eine Einladung
 >
 >Wenn Sie eine Verbindung zu einem Herausgeber herstellen möchten, mit dem Sie außerhalb des Produkts kommuniziert haben, können Sie die Option Einladung zur privaten Verbindung verwenden. Weitere Informationen finden Sie im Abschnitt [Einladung zur privaten Verbindung](#private-connection-invite).
 
-The pending invite is displayed in the **[!UICONTROL My connections]** tab in the **[!UICONTROL Action required]** section. The connection status appears as **[!UICONTROL Invite sent]**. You can preview the connection settings by selecting **[!UICONTROL Preview connection]**, but you cannot edit them until the publisher accepts the invite.
+Die ausstehende Einladung wird auf der Registerkarte **[!UICONTROL Meine Verbindungen]** im Abschnitt **[!UICONTROL Aktion erforderlich]** angezeigt. Der Verbindungsstatus wird als &quot;**[!UICONTROL gesendet“]**. Sie können die Verbindungseinstellungen in der Vorschau anzeigen, indem Sie **[!UICONTROL Verbindung in der Vorschau anzeigen]** auswählen. Sie können sie jedoch erst bearbeiten, wenn der Publisher die Einladung akzeptiert.
 
-![The pending connection is displayed in the My connections workspace in the Action required section.](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
+![Die ausstehende Verbindung wird im Arbeitsbereich Meine Verbindungen im Abschnitt Erforderliche Aktion angezeigt.](/help/assets/connect/establish-connection/preview-connection.png){zoomable="yes"}
 
-### Private connection invite {#private-connection-invite}
+### Private Verbindungseinladung {#private-connection-invite}
 
-Private connection invites allow you to connect with collaborators you&#39;ve communicated with outside of the product using a **[!UICONTROL Connect code]**. To form a private connection, you need to obtain the **[!UICONTROL Connect code]** from the collaborator you want to connect with outside of the product. You can then use this code to send a private connection invite to the collaborator in the **[!UICONTROL Connect]** workspace.
+Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit denen Sie außerhalb des Produkts kommuniziert haben, über einen &quot;**[!UICONTROL -Code“]** verbinden. Um eine private Verbindung zu erstellen, müssen Sie den **[!UICONTROL Connect-Code]** von dem Mitarbeiter abrufen, mit dem Sie außerhalb des Produkts eine Verbindung herstellen möchten. Sie können diesen Code dann verwenden, um eine Einladung zur privaten Verbindung an den Mitarbeiter im Arbeitsbereich **[!UICONTROL Verbinden]** zu senden.
 
 #### Verbindungs-Code {#connect-code}
 
-Before you can send a private connection invite, your desired collaborator must provide you their unique **[!UICONTROL Connect code]**. To find and copy your **[!UICONTROL Connect code]**, navigate to the **[!UICONTROL My account]** tab within in the **[!UICONTROL Setup]** workspace. The **[!UICONTROL Connect code]** is displayed within your account details.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im**&#x200B;[!UICONTROL -Arbeitsbereich zur &#x200B;]&#x200B;**Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
-![The My account tab within the Setup workspace with the Connect code highlighted.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
+![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-Select the copy icon (![copy icon](/help/assets/icons/copy.png)) next to the **[!UICONTROL Connect code]** to copy it to your clipboard. You can then share this code with your collaborator outside of the product.
+Wählen Sie das Kopiersymbol (![Kopiersymbol](/help/assets/icons/copy.png)) neben dem **[!UICONTROL Code verbinden]**, um ihn in die Zwischenablage zu kopieren. Sie können diesen Code dann außerhalb des Produkts für Ihren Mitwirkenden freigeben.
 
-![The Connect code with the copy icon highlighted.](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
+![Der Code „Verbinden“ mit hervorgehobenem Kopiersymbol.](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
-##### Refreshing the connect code {#refresh-connect-code}
+##### Verbindungscode wird aktualisiert {#refresh-connect-code}
 
-You can refresh your **[!UICONTROL Connect code]** at any time. Refreshing the code generates a new unique code that you can share with collaborators. This is useful if you want to invalidate the previous code for security reasons. Any connections established using the old code will remain active, but new collaborators will need to use the new code to connect with you.
-
->[!IMPORTANT]
->
->Refreshing your **[!UICONTROL Connect code]** during a pending invite may prevent the invite from being accepted. If you refresh your code, your collaborator may need to resend the private connection invite using the new code.
-
-To refresh your **[!UICONTROL Connect code]**, select the refresh icon (![refresh icon](/help/assets/icons/refresh.png)) next to the **[!UICONTROL Connect code]**.
-
-![The Connect code with the refresh icon highlighted.](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
+Sie können Ihren **[!UICONTROL Connect-Code]** jederzeit aktualisieren. Durch Aktualisieren des Codes wird ein neuer eindeutiger Code generiert, den Sie für Mitwirkende freigeben können. Dies ist nützlich, wenn Sie den vorherigen Code aus Sicherheitsgründen ungültig machen möchten. Alle Verbindungen, die mit dem alten Code hergestellt wurden, bleiben aktiv, aber neue Mitarbeiter müssen den neuen Code verwenden, um eine Verbindung mit Ihnen herzustellen.
 
 >[!IMPORTANT]
 >
->Any accounts created before the **[!UICONTROL Connect code]** feature was introduced will not have a generated connect code, and the connect field will show as **[!UICONTROL Unavailable]**. Verwenden Sie die Aktualisierungsoption, um einen neuen Verbindungs-Code zu generieren.
+>Wenn Sie Ihren **[!UICONTROL Connect-Code]** während einer ausstehenden Einladung aktualisieren, kann dies verhindern, dass die Einladung angenommen wird. Wenn Sie Ihren Code aktualisieren, muss Ihr Mitarbeiter möglicherweise die private Verbindungseinladung erneut mit dem neuen Code senden.
+
+Um Ihren **[!UICONTROL Verbindungs-Code]** zu aktualisieren, klicken Sie auf das Aktualisierungssymbol (![Aktualisierungssymbol](/help/assets/icons/refresh.png)) neben dem **[!UICONTROL Verbindungs-Code]**.
+
+![Der Code „Verbinden“ mit hervorgehobenem Aktualisierungssymbol.](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Konten, die vor der Einführung der Funktion **[!UICONTROL Code verbinden]** erstellt wurden, haben keinen generierten Verbindungscode und das Feld „Verbinden“ wird als &quot;**[!UICONTROL verfügbar“]**. Verwenden Sie die Aktualisierungsoption, um einen neuen Verbindungs-Code zu generieren.
 
 #### Einladung zur privaten Verbindung senden {#send-private-connection-invite}
 
@@ -221,47 +221,47 @@ Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änder
 
 Anwendungsfälle werden automatisch mit allen verfügbaren Optionen ausgefüllt. Ausgewählte Anwendungsfälle bestimmen, welche Ansichten und Optionen in Ihren Projekten verfügbar sind. Weitere Informationen finden Sie im [Projekt-Anwendungsfälle](/help/guide/collaborate/manage-projects.md#project-use-cases)Handbuch.
 
-To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section and turn off any you don&#39;t wish to include in any projects with your collaborator. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+Um Ihre Anwendungsfälle anzupassen, wählen Sie **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Anwendungsfälle]** und deaktivieren Sie alle, die Sie nicht in Projekte mit Ihrem Mitarbeiter aufnehmen möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![Die Einstellungen für Anwendungsfälle im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### Übereinstimmungsschlüssel {#match-keys}
 
 >[!IMPORTANT]
 >
->When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+>Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen, keine Zielgruppengröße oder einen Schwellenwert unterschreiten. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
 
-Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear.
+Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt &#x200B;](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
 
-![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“, in dem die allgemeinen Übereinstimmungsschlüssel angezeigt werden.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
+Wenn der Verbindungsbesitzer die Verbindungseinstellungen einrichtet, kann er [seine Konto-Übereinstimmungsschlüssel bearbeiten](../setup/onboard-account.md#edit-match-keys) um zusätzliche Übereinstimmungsschlüssel einzuschließen. Nachdem Sie weitere Übereinstimmungsschlüssel in Ihren Kontoeinstellungen aktiviert haben, können diese Übereinstimmungsschlüssel in den Verbindungseinstellungen aktiviert werden, wenn Ihr Mitarbeiter sie ebenfalls ausgewählt hat. Übereinstimmungsschlüssel, die hinzugefügt wurden, sobald der Verbindungsprozess begonnen hat, werden nicht automatisch ausgefüllt und müssen manuell aktiviert werden.
 
-To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don&#39;t want to use in this connection. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Übereinstimmungsschlüssel]** und schalten Sie alle Übereinstimmungsschlüssel aus, die Sie in dieser Verbindung nicht verwenden möchten. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![Der Arbeitsbereich „Verbindungseinstellungen“ mit dem Abschnitt „Übereinstimmungsschlüssel“ wird geöffnet und zeigt einen umgeschalteten Übereinstimmungsschlüssel an.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
+>Sobald Ihr Mitarbeiter die Verbindungseinstellungen akzeptiert hat, werden die Übereinstimmungsschlüssel gesperrt und können nicht mehr geändert werden.
 
 ##### Kostenaufteilung {#credit-split}
 
-Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Activation - Matching]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
+Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)).
 
 >[!NOTE]
 >
->Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
+>Zielgruppe - Der Ausgang wird immer von dem Mitarbeiter abgedeckt, der die Zielgruppe erhält. Daher ist keine Auswahl erforderlich.
 
-To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section. You can then select the appropriate options for each use case. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+Um die Kreditaufteilung einzurichten, wählen Sie **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Kreditaufteilung]** aus. Anschließend können Sie für jeden Anwendungsfall die entsprechenden Optionen auswählen. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![Das Dialogfeld „Kreditaufteilung“ mit Optionen im Arbeitsbereich „Verbindungseinstellungen“.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### Advertiser-Namen {#advertiser-names}
 
 >[!NOTE]
 >
->This option may appear during the connection settings configuration or the review of the connection settings, depending on the who initiates the connection.
+>Je nachdem, wer die Verbindung initiiert, kann diese Option während der Konfiguration der Verbindungseinstellungen oder der Überprüfung der Verbindungseinstellungen angezeigt werden.
 
 Wenn Sie ein Publisher sind und eine Verbindung mit einem Advertiser herstellen, können Sie in den Verbindungseinstellungen Advertiser-Namen hinzufügen. Auf diese Weise können Sie mehrere Namen hinzufügen, mit denen der Advertiser Ihnen in Ihren Systemen bekannt ist. Dies ist besonders nützlich, wenn der Werbetreibende in mehreren Regionen präsent ist oder wenn er unter verschiedenen Namen in verschiedenen Kontexten bekannt ist. Wenn Sie später ein Projekt erstellen, können Sie den entsprechenden Advertiser-Namen aus der Liste der in den Verbindungseinstellungen konfigurierten Namen auswählen.
 
@@ -326,6 +326,12 @@ Bevor Sie den Einladungsprozess starten, erfassen Sie die folgenden Informatione
 
 ### Einladung senden {#send-invitation}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_starter_invite_collaborator"
+>title="Mitwirkende Person einladen"
+>abstract="Füllen Sie dieses Formular aus, um Ihre Partnerorganisation zu Collaboration Starter einzuladen. Der Einladende erhält eine Einladungs-E-Mail und muss die angegebene E-Mail-Adresse verwenden, um die Registrierung abzuschließen."
+>additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Weitere Informationen zu Collaboration Starter"
+
 Laden Sie Ihre Partnerorganisation ein, dem Collaboration-[!DNL Starter] direkt über die Benutzeroberfläche beizutreten.
 
 Navigieren Sie zunächst zum Arbeitsbereich **[!UICONTROL Verbinden]** und wählen Sie oben rechts das Pluszeichen (![Pluszeichen](/help/assets/icons/plus.png)) aus. Wählen Sie dann **[!UICONTROL Mitarbeiter einladen]** aus.
@@ -336,39 +342,39 @@ Das **[!UICONTROL Invite a Collaborator]** wird angezeigt, in dem Sie aufgeforde
 
 >[!IMPORTANT]
 >
->Invitations are **tied to the email address provided**. Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
+>Einladungen sind **an die angegebene E-Mail-Adresse gebunden**. Stellen Sie sicher, dass die E-Mail-Adresse korrekt ist, da der eingeladene Benutzer genau diese E-Mail verwenden muss, um die Einladung anzunehmen und auf das Produkt zuzugreifen.
 
-Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
+Verwenden Sie als Nächstes das Dropdown-Menü, um die entsprechende Rolle für Ihren Partner auszuwählen. Weitere Informationen zu den verfügbaren [&#x200B; in Collaboration finden &#x200B;](../overview/roles.md) in der Dokumentation zu Kontorollen .
 
-![The Invite a collaborator dialog with the Role dropdown highlighted.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+![Das Dialogfeld „Mitarbeiter einladen“ mit hervorgehobenem Dropdown-Menü „Rolle“.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
 
-When finished, review the information and select **[!UICONTROL Send invite]**.
+Überprüfen Sie abschließend die Informationen und wählen Sie **[!UICONTROL Einladung senden]** aus.
 
-![The Invite a collaborator dialog with the Send invite option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+![Das Dialogfeld „Mitarbeiter einladen“ mit hervorgehobener Option „Einladung senden“.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
 
-A confirmation dialog confirms that the invite was successfully sent to your partner organization.
+In einem Bestätigungsdialogfeld wird bestätigt, dass die Einladung erfolgreich an Ihre Partnerorganisation gesendet wurde.
 
-![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+![Das Bestätigungsdialogfeld bestätigt, dass die Einladung erfolgreich gesendet wurde.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
-### Accept the invitation and sign terms {#accept-invitation-sign-terms}
+### Annahme der Einladung und Unterzeichnung der Bedingungen {#accept-invitation-sign-terms}
 
-After you send the invitation, your partner organization receives an email with instructions to review and accept the Real-Time Collaboration terms and conditions. They can also explore the features of Collaboration before accepting.
+Nachdem Sie die Einladung gesendet haben, erhält Ihre Partnerorganisation eine E-Mail mit Anweisungen zum Überprüfen und Akzeptieren der Geschäftsbedingungen von Real-Time Collaboration. Sie können auch die Funktionen von Collaboration erkunden, bevor sie sie akzeptieren.
 
-![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+![Die Einladungs-E-Mail, um Collaboration Starter beizutreten.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
-Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
+Sobald Ihr Partnerunternehmen die Nutzungsbedingungen akzeptiert hat, beginnt Adobe mit der Bereitstellung von Real-Time CDP Collaboration [!DNL Starter] für sein Konto.
 
-### Provisioning confirmation {#provisioning-confirmation}
+### Bestätigung der Bereitstellung {#provisioning-confirmation}
 
-When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to:
+Wenn der Bereitstellungsprozess abgeschlossen ist, wird eine Begrüßungs-E-Mail an die eingeladene Organisation gesendet, in der bestätigt wird, dass Collaboration [!DNL Starter] einsatzbereit ist. Diese E-Mail enthält Anweisungen zu folgenden Themen:
 
-- [Configure administrator and user access](../setup/starter-admin-access.md)
-- [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+- [Konfigurieren des Admin- und Benutzerzugriffs](../setup/starter-admin-access.md)
+- [Einrichten von Berechtigungen für den Zugriff auf Collaboration](../setup/starter-permission-controls.md)
 
-![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+![Die Begrüßungs-E-Mail, die an die eingeladene Organisation gesendet wurde, mit Anweisungen zum Einrichten des erforderlichen Zugriffs und der erforderlichen Berechtigungen.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
-Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
+Sobald Ihr Partner Zugriff auf Collaboration hat, können Sie und das eingeladene Unternehmen [eine Verbindung herstellen](#connect) und [Verbindungseinstellungen einrichten](#configure-connection-settings) um mit der Zusammenarbeit an Projekten zu beginnen.
 
 ## Nächste Schritte
 
-After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
+Nachdem Sie eine Verbindung mit Ihrem Mitarbeiter hergestellt haben, können Sie und Ihr Mitarbeiter jetzt [Projekte erstellen](/help/guide/collaborate/manage-projects.md#create-project).
