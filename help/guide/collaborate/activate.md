@@ -4,9 +4,17 @@ description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaborat
 audience: admin, publisher
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: 1016
 ht-degree: 2%
 
 ---
@@ -31,7 +39,7 @@ Um mit der Aktivierung von Zielgruppen zu beginnen, navigieren Sie **[!UICONTROL
 >
 >![Aktivieren des Arbeitsbereichs, wenn für den Mitwirkenden kein Ziel konfiguriert ist.](/help/assets/collaborate/activate/no-destination-configured.png)
 
-Klicken Sie auf das Symbol Hinzufügen ![Symbol Hinzufügen .](/help/assets/icons/plus.png)) oder die Option **[!UICONTROL Zielgruppe aktivieren]** wenn keine vorherigen Zielgruppen zur Aktivierung gesendet wurden.
+Wählen Sie das Symbol hinzufügen ![Symbol hinzufügen.](/help/assets/icons/plus.png)) oder die Option **[!UICONTROL Zielgruppe aktivieren]** aus, wenn keine vorherigen Zielgruppen zur Aktivierung gesendet wurden.
 
 ![Der Arbeitsbereich „Aktivieren“ in einem Projekt ohne hinzugefügte Zielgruppen.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
@@ -45,7 +53,7 @@ In **[!UICONTROL Zielgruppen durchsuchen]** werden für jede Zielgruppe die **[!
 
 >[!IMPORTANT]
 >
->Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen aufweisen, keine Zielgruppen zählen oder unter den Schwellenwert fallen. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
+>Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen, keine Zielgruppengröße oder einen Schwellenwert unterschreiten. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
 
 Wählen Sie die Zielgruppe aus, die Sie in Kampagnen aktivieren möchten, und klicken Sie auf **[!UICONTROL Speichern]**. Die Zielgruppe wird jetzt angezeigt und Sie können die **[!UICONTROL Identitätsanzahl]**, **[!UICONTROL Überschneidende Identitäten]** und **[!UICONTROL Überschneidung %]** für die ausgewählte Zielgruppe sehen.
 
@@ -111,18 +119,18 @@ Innerhalb jeder aktivierten Zielgruppe können Sie die folgenden Metriken sehen:
 | **[!UICONTROL Ziel]** | Das Ziel, für das die Zielgruppe aktiviert wurde. |
 | **[!UICONTROL Übereinstimmungsschlüssel]** | Gibt den für die Zielgruppe verwendeten Übereinstimmungsschlüssel an. |
 
-## Gesendete Zielgruppen löschen {#delete-sent-audiences}
+## Delete sent audiences {#delete-sent-audiences}
 
-Gesendete Zielgruppen, die nicht mehr aktiviert werden sollen, können gelöscht werden. Wenn Sie eine gesendete Zielgruppe löschen, wird sie aus dem Abschnitt **[!UICONTROL Gesendete Zielgruppen an]** entfernt und nicht mehr für das Ziel Ihres Mitarbeiters aktiviert.
+You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator&#39;s destination.
 
-Um eine gesendete Zielgruppe zu löschen, klicken Sie auf das Symbol **[!UICONTROL Löschen]** (Symbol ![Löschen).](/help/assets/icons/delete.png)) neben der Audience im Abschnitt **[!UICONTROL Gesendete Zielgruppen an]**.
+To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
 
-![Die Option Löschen im Abschnitt Gesendete Zielgruppen an.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![The Delete option in the Sent audiences to section.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-Ein Bestätigungsdialogfeld wird geöffnet, in dem Sie aufgefordert werden, den Löschvorgang zu bestätigen. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
+A confirmation dialog opens, asking you to confirm the deletion. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
 
-![Bestätigungsdialog für das Löschen.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+![The Delete confirmation dialog.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 ## Nächste Schritte {#next-steps}
 
-Arbeiten Sie nach der Aktivierung von Zielgruppen und der Durchführung von Kampagnen mit dem Adobe-Aktivierungs- und -Engineering-Team zusammen, um Messdaten hochzuladen und die entsprechenden [Messberichte“ &#x200B;](/help/guide/collaborate/measure.md).
+After activating audiences and running campaigns, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](/help/guide/collaborate/measure.md).

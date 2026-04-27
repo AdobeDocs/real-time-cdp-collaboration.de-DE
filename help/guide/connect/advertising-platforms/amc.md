@@ -1,11 +1,18 @@
 ---
 title: Amazon Marketing Cloud
-description: Erfahren Sie mehr über die Verbindung  [!DNL Amazon Marketing Cloud]  Real-Time CDP Collaboration mit .
+description: Learn about connecting with [!DNL Amazon Marketing Cloud] in Real-Time CDP Collaboration.
 audience: publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+exl-id: 18169bd5-fe9f-4c39-96d5-2ae2b10578c5
+TQID: https://experienceleague.adobe.com/unC9PV6C3VOQ7OXsqFWSj73JV81uZwE37QeUPKBlO2A
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 271
 ht-degree: 1%
 
 ---
@@ -14,26 +21,26 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-[!DNL Amazon Marketing Cloud] ([!DNL AMC]) ist eine sichere, datenschutzsichere, Cloud-basierte Datenbereinigungslösung, mit der Werbetreibende Analysen ihrer Amazon-Werbedaten durchführen können. Durch die Zusammenarbeit mit [!DNL AMC] über Real-Time CDP Collaboration können Werbetreibende die erweiterten Analysefunktionen von [!DNL AMC] nutzen, um tiefere Einblicke in die Leistung ihrer Zielgruppe zu erhalten und ihre Marketing-Strategien zu optimieren.
+[!DNL Amazon Marketing Cloud] ([!DNL AMC]) is a secure, privacy-safe, cloud-based data clean room solution that enables advertisers to perform analytics on their Amazon advertising data. By collaborating with [!DNL AMC] through Real-Time CDP Collaboration, advertisers can leverage [!DNL AMC]&#39;s advanced analytics capabilities to gain deeper insights into their audience performance and optimize their marketing strategies.
 
-## Herstellen einer Verbindung mit [!DNL Amazon Marketing Cloud] {#connecting-with-amc}
+## Connecting with [!DNL Amazon Marketing Cloud] {#connecting-with-amc}
 
 >[!IMPORTANT]
 >
->Um mit [!DNL AMC] zusammenzuarbeiten, müssen Sie über ein aktives [!DNL Amazon Advertising]-Konto verfügen und für die Verwendung von [!DNL AMC] genehmigt sein. Weitere Informationen zu den ersten Schritten mit [!DNL AMC] finden Sie auf der [Amazon Advertising-Website](https://advertising.amazon.com/en/blog/amazon-marketing-cloud-now-available-in-the-us).
+>To collaborate with [!DNL AMC], you must have an active [!DNL Amazon Advertising] account and be approved to use [!DNL AMC]. For more information on getting started with [!DNL AMC], visit the [Amazon Advertising website](https://advertising.amazon.com/en/blog/amazon-marketing-cloud-now-available-in-the-us).
 
-Um eine Verbindung mit [!DNL AMC] herzustellen, müssen Werbetreibende eine Verbindung zwischen Werbetreibender und Werbeplattform herstellen. Navigieren Sie zunächst zum Arbeitsbereich **[!UICONTROL Mitarbeiter entdecken]**, suchen Sie [!DNL Amazon Marketing Cloud] in der Liste der verfügbaren Herausgeber und wählen Sie **[!UICONTROL Verbinden]** aus.
+To connect with [!DNL AMC], advertisers must establish an advertiser-to-advertising platform connection. To begin, navigate to the **[!UICONTROL Discover collaborators]** workspace and find [!DNL Amazon Marketing Cloud] in the list of available publishers and select **[!UICONTROL Connect]**.
 
-![Der Arbeitsbereich „Mitarbeiter entdecken“ mit [!DNL Amazon Marketing Cloud] aktivierten Option „Verbinden“.](/help/assets/connect/advertising-platforms/amc-discover-collaborators.png){zoomable="yes"}
+![The Discover collaborators workspace with [!DNL Amazon Marketing Cloud] Connect option selected.](/help/assets/connect/advertising-platforms/amc-discover-collaborators.png){zoomable="yes"}
 
-Das **[!UICONTROL Mit Amazon Marketing Cloud verbinden]** wird angezeigt. Überprüfen Sie die nächsten Schritte und Details zur Datenfreigabe und wählen Sie dann **[!UICONTROL Zustimmen und verbinden]** aus.
+The **[!UICONTROL Connect to Amazon Marketing Cloud]** dialog appears. Review the next steps and data sharing details, then select **[!UICONTROL Agree and connect]**.
 
-![Das Dialogfeld „Mit [!DNL Amazon Marketing Cloud] verbinden“ mit der hervorgehobenen Schaltfläche „Zustimmen“ und „Verbinden“.](/help/assets/connect/advertising-platforms/connect-to-amc.png){zoomable="yes"}
+![The Connect to [!DNL Amazon Marketing Cloud] dialog with Agree and connect button highlighted.](/help/assets/connect/advertising-platforms/connect-to-amc.png){zoomable="yes"}
 
-Als Nächstes werden Sie zur Anmeldeseite von [!DNL Amazon] weitergeleitet. Geben Sie Ihre [!DNL Amazon] Anmeldedaten ein, um sich zu authentifizieren und die Verbindung zu autorisieren. Nach erfolgreicher Anmeldung werden Sie zurück zu Real-Time CDP Collaboration weitergeleitet, wo die Verbindung mit [!DNL AMC] jetzt hergestellt ist.
+Next, you&#39;re redirected to the [!DNL Amazon] sign-in page. Enter your [!DNL Amazon] credentials to authenticate and authorize the connection. After successfully signing in, you&#39;re redirected back to Real-Time CDP Collaboration, where the connection with [!DNL AMC] is now established.
 
-![Bestätigungsmeldung über eine erfolgreiche Verbindung mit [!DNL Amazon Marketing Cloud].](/help/assets/connect/advertising-platforms/successful-connection.png){zoomable="yes"}
+![Confirmation message indicating a successful connection with [!DNL Amazon Marketing Cloud].](/help/assets/connect/advertising-platforms/successful-connection.png){zoomable="yes"}
 
 ## Nächste Schritte {#next-steps}
 
-Jetzt, da Sie mit [!DNL AMC] verbunden sind, können Sie ein Projekt erstellen, um mit der Zusammenarbeit zu beginnen. Weiterführende Informationen zum Erstellen von Projekten finden Sie im [Verwalten von Projekten](/help/guide/collaborate/manage-projects.md). Wenn Sie die Verbindungseinstellungen anzeigen oder die Verbindung zu [!DNL AMC] trennen möchten, folgen Sie der Anleitung zum Verwalten von Verbindungen .
+Now that you&#39;re connected with [!DNL AMC], you can create a project to begin collaborating. For more information on creating projects, read the [manage projects](/help/guide/collaborate/manage-projects.md) guide. If you wish to view the connection settings or disconnect from [!DNL AMC], follow the manage connections guide.

@@ -4,9 +4,14 @@ description: Erfahren Sie, wie Sie Ihre Verbindungen in Real-Time CDP Collaborat
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: 1092
 ht-degree: 1%
 
 ---
@@ -62,7 +67,7 @@ Als Verantwortlicher für eine Collaboration-Verbindung können Sie die Verbindu
 >
 >Der **Inhaber** ist der Mitarbeiter, der die Verbindung initiiert, indem er die Einladung an den (Empfänger **sendet**. Weitere Informationen finden Sie in der Dokumentation [Herstellen von Verbindungen mit Partnern](./establishing-connections.md).
 
-Um Verbindungseinstellungen zu bearbeiten, navigieren Sie zum Arbeitsbereich Verbindungseinstellungen . Wählen Sie das Drei-Punkte![Symbol (Drei Punkte) aus.](/help/assets/icons/more.png)), um verfügbare Aktionen anzuzeigen, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
+Um Verbindungseinstellungen zu bearbeiten, navigieren Sie zum Arbeitsbereich Verbindungseinstellungen . Wählen Sie das Drei-Punkte-Symbol ![Drei-Punkte-Symbol.](/help/assets/icons/more.png)) Um verfügbare Aktionen anzuzeigen, klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobener Option „Bearbeiten“.](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 
@@ -122,22 +127,22 @@ Die Einstellungen für die Kreditaufteilung geben an, welcher Mitarbeiter für d
 
 Wählen Sie **[!UICONTROL Dialogfeld]** Kreditaufteilung“ die bevorzugten Einstellungen für [!UICONTROL Activation-Matching] und [!UICONTROL Measurement]. Wählen Sie dann zur Bestätigung **[!UICONTROL Speichern]** aus.
 
-![Das Dialogfeld „Kreditaufteilung“ mit den Einstellungen für die Kreditaufteilung und der Option „Speichern“.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
+![The Credit split dialog showing the credit split settings and the Save option.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
 
-### Änderungen überprüfen und übermitteln {#review-and-submit-changes}
+### Review and submit changes {#review-and-submit-changes}
 
-Wenn Sie die Bearbeitung der Verbindungseinstellungen abgeschlossen haben, überprüfen Sie und wählen Sie **[!UICONTROL Änderungen übermitteln]**. Die Aktualisierungen der Verbindungseinstellungen werden zur Überprüfung an Ihren Mitarbeiter gesendet.
+When you complete editing the connection settings, review and select **[!UICONTROL Submit changes]**. The connection settings updates will be sent to your collaborator for review.
 
-![Der Bildschirm „Verbindungseinstellungen bearbeiten“ mit den Optionen Aktualisierungen und Änderungen übermitteln.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
+![The edit connection settings screen displaying the updates and the Submit changes option.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
 
-#### Änderungen der Verbindungseinstellungen als Entwurf speichern
+#### Save connection settings changes as draft
 
-Sie können die Änderungen an den Verbindungseinstellungen als Entwurf speichern und jederzeit zur Fertigstellung der Aktualisierung der Verbindungseinstellungen zurückkehren.
+You can save the connection settings changes as a draft and return to finish updating the connection settings at any time.
 
-Um die Änderungen als Entwurf zu speichern, klicken Sie auf **[!UICONTROL Abbrechen]** neben **[!UICONTROL Änderungen übermitteln]**. Wählen Sie dann im Dialogfeld **[!UICONTROL Nicht übermittelte Änderungen]** die Option **[!UICONTROL Später fortfahren]** zur Bestätigung aus.
+To save the changes as a draft, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
 
-![Der Bildschirm „Verbindungseinstellungen bearbeiten“](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
+![The edit connection settings screen.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
 
-Ihre Änderungen werden jetzt als Entwurf gespeichert. Im Arbeitsbereich Verbindungseinstellungen wird eine Benachrichtigung angezeigt, die darauf hinweist, dass es nicht übermittelte Änderungen gibt. Um weitere Aktualisierungen vorzunehmen, wählen Sie **[!UICONTROL Bearbeitung fortsetzen]**.
+Your changes are now saved as a draft. In the connection settings workspace, you can see a notification indicating that there are unsubmitted changes. To make further updates, select **[!UICONTROL Continue editing]**.
 
-![Eine Benachrichtigung im Arbeitsbereich „Verbindungseinstellungen“, die anzeigt, dass es nicht gesendete Änderungen gibt, die auf Überprüfung und Übermittlung warten.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
+![A notification in the connection settings workspace showing there are unsubmitted changes pending review and submission.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}

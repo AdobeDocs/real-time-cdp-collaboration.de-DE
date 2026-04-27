@@ -4,9 +4,17 @@ description: Messen Sie die Leistung Ihrer Kampagnen über verschiedene Kanäle 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: 2612
 ht-degree: 5%
 
 ---
@@ -176,20 +184,20 @@ Wählen **[!UICONTROL Abschnitt „Berichtsdetails]** das Datum aus, an dem der 
 
 Überprüfen Sie abschließend Ihre Einstellungen und wählen Sie **[!UICONTROL Erstellen]** aus. Der Kampagnenübersichtsbericht wird sofort generiert, wenn das Ausführungsdatum heute oder früher oder am gewählten Datum in der Zukunft liegt. Sie können den terminierten Bericht vor dem Ausführungsdatum bearbeiten. Eine schrittweise Anleitung hierzu finden Sie im Abschnitt [Messbericht bearbeiten].
 
-Sobald verfügbar, können Sie Ihren Bericht jederzeit auf der Registerkarte **[!UICONTROL Kennzahlen]** in Ihrem Projektarbeitsbereich anzeigen.
+Once available, you can view your report at any time in the **[!UICONTROL Measure]** tab within your project workspace.
 
-![Der Bildschirm „Messbericht erstellen“ mit hervorgehobenen Informationen und der hervorgehobenen Option „Erstellen“.](/help/assets/collaborate/measure/cs-review.png)
+![The Create measurement report screen showing the information and the Create option highlighted.](/help/assets/collaborate/measure/cs-review.png)
 
-### Attributionsbericht erstellen {#create-attribution-report}
+### Create attribution report {#create-attribution-report}
 
-Als Advertiser können Sie **Attribution“-Berichte erstellen** um zu bewerten, wie Ihre Kampagnenrisiken zu wichtigen Ergebnissen wie Anmeldungen oder Käufen beitragen. Verwenden Sie diese Berichte, um Benutzerinteraktionen mit Ihrer Kampagne zu verstehen, zu ermitteln, welche Touchpoints die größte Wirkung erzielen, und um zu effektiveren Marketing-Strategien zu gelangen.
+As an advertiser, you can generate **Attribution** reports to assess how your campaign exposures contribute to key outcomes such as sign-ups or purchases. Use these reports to understand user interactions with your campaign, identify which touchpoints drive the most impact, and inform more effective marketing strategies.
 
 >[!IMPORTANT]
 >
-> Sie müssen [Ihre Messdaten in Collaboration &#x200B;](../setup/onboard-measurement-data.md#add-measurement-data), bevor Sie Attributionsberichte erstellen können.
->![Die Registerkarte Kennzahl mit den Anforderungen für Messdaten und der deaktivierten Option Kennzahl &#x200B;](/help/assets/collaborate/measure/require-measurement-data.png)
+> You must [source your measurement data](../setup/onboard-measurement-data.md#add-measurement-data) into Collaboration before generating Attribution reports.
+>![The Measure tab with the requirements for Measurement data and the disabled Measure option.](/help/assets/collaborate/measure/require-measurement-data.png)
 
-Um einen **Attributionsbericht** zu generieren, navigieren Sie vom Arbeitsbereich **[!UICONTROL Mitarbeiter]** zum Projektarbeitsbereich. Wählen Sie auf der **[!UICONTROL Kennzahl]** das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Messen]** aus.
+To generate an **Attribution** report, navigate to the project workspace from the **[!UICONTROL Collaborator]** workspace. Wählen Sie auf der **[!UICONTROL Kennzahl]** das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Messen]** aus.
 
 Wenn dies Ihr erster Bericht ist, können Sie auch die Option **[!UICONTROL Bericht ausführen]** auswählen.
 
@@ -197,27 +205,27 @@ Wenn dies Ihr erster Bericht ist, können Sie auch die Option **[!UICONTROL Beri
 
 Der Bildschirm **[!UICONTROL Messbericht erstellen]** wird mit Informationen und Eingabefeldern angezeigt, die unter den Abschnitten **[!UICONTROL Abrechnungsdetails]**, **[!UICONTROL Kampagnendetails]** und **[!UICONTROL Berichtsdetails]** gruppiert sind.
 
-Lesen und befolgen Sie die Schritte im [Erstellen eines Kampagnenübersichtsberichts](#create-campaign-summary-report), um die folgenden Einstellungen zu konfigurieren:
+Read and follow steps in the [Create campaign summary report](#create-campaign-summary-report) section to configure the following settings:
 
-* [Rechnungsdetails](#billing-details)
+* [Billing details](#billing-details)
 * [Kampagnendetails](#campaign-details)
 
-#### Berichtsdetails für Attributionsberichte {#report-details-attribution}
+#### Report details for Attribution reports {#report-details-attribution}
 
 **Ausführungsdatum des Berichts**
 
 >[!IMPORTANT]
 >
-> Bei Attributionsberichten muss das Berichtslaufdatum ein künftiges Datum sein und mindestens einen Tag nach dem Enddatum Ihres Berichtsdatumsbereichs plus der vollständigen Dauer des definierten Lookback-Fensters liegen.
-> **Ausführungsdatum ≥ Berichtsenddatum + Lookback-Fenster + 1**
+> For attribution reports, the report run date must be a future date, and must occur at least one day after the end date of your report date range plus the full duration of the defined lookback window.
+> **Report run date ≥ report end date + lookback window + 1**
 > 
-> Wenn Ihr Berichtsdatumsbereich beispielsweise am 15. Juni endet und das Lookback-Fenster 14 Tage beträgt, ist das Ausführungsdatum des Berichts der 30. Juni oder höher.
+> For example, if your report date range ends on June 15 and the lookback window is 14 days, the report run date is June 30 or later.
 
 Wählen **[!UICONTROL Abschnitt „Berichtsdetails]** das Datum aus, an dem der Bericht ausgeführt werden soll. Wählen Sie **[!UICONTROL Ausführungsdatum des Berichts]** und wählen Sie Ihr bevorzugtes Datum aus dem Kalender aus.
 
 **Berichtstyp**
 
-Als Advertiser können Sie **[!UICONTROL Attribution]** als Berichtstyp zusätzlich zur **[!UICONTROL Kampagnenübersicht]** auswählen. Wenn Sie den Attributionsbericht auswählen, enthalten Ihre Ergebnisse sowohl standardmäßige Kampagnenübersichtsmetriken als auch eine detaillierte Attributionsanalyse, die eine umfassende Ansicht der Kampagnenleistung bietet.
+As an advertiser, you can select **[!UICONTROL Attribution]** as a report type in addition to **[!UICONTROL Campaign summary]**. When you choose the Attribution report, your results include both standard Campaign Summary metrics and detailed Attribution analysis, providing a comprehensive view of campaign performance.
 
 ![Der Bildschirm Messbericht erstellen mit den ausgewählten Berichtstypen für Kampagnenübersicht und Attribution.](/help/assets/collaborate/measure/attribution-report-type.png)
 
