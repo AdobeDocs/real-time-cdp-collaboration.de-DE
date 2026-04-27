@@ -3,10 +3,10 @@ title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
-ht-degree: 2%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -79,7 +79,7 @@ Der Workflow „Zielgruppe hinzufügen“ wird angezeigt. Wählen Sie **[!UICONT
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Daten für das Onboarding vorbereiten"
 >abstract="Lesen Sie das Handbuch zur Zielgruppen-Beschaffungsspezifikation , um zu erfahren, wie Sie Zielgruppendaten aus dem Google Cloud-Speicher für Collaboration formatieren und strukturieren."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch zur Zielgruppen-Beschaffung"
 
 Im Bildschirm zur Auswahl der Datenquelle werden alle verfügbaren Verbindungstypen aufgelistet. Wählen Sie **[!UICONTROL Google Cloud Storage]** und dann **[!UICONTROL Weiter]** aus.
 
