@@ -2,7 +2,7 @@
 title: Configure Adobe Experience Platform as a destination
 description: Learn how to configure and manage Adobe Experience Platform as a destination in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
 product_v2:
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 {{limited-availability-release-note}}
 
-Configure this destination to activate audiences from your project to Adobe Experience Platform. Activating audiences to Adobe Experience Platform allows you to leverage the platform&#39;s capabilities for audience segmentation, analysis, and activation across various marketing channels. To learn more about Adobe Experience Platform, refer to the [Experience Platform overview](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
+Configure this destination to activate audiences from your project to Adobe Experience Platform. Activating audiences to Adobe Experience Platform allows you to leverage the platform&#39;s capabilities for audience segmentation, analysis, and activation across various marketing channels. To learn more about Adobe Experience Platform, refer to the [Experience Platform overview](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -158,4 +158,4 @@ Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie d
 
 ![Das Zielgruppenportal mit Real-Time CDP Collaboration als Ursprung in den Filteroptionen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
+Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
