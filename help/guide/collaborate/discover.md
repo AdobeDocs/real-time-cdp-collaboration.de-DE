@@ -2,11 +2,15 @@
 title: Überschneidungen erkennen und Zielgruppen vergleichen
 description: Entdecken Sie Überschneidungen zwischen Ihren Zielgruppen und denen Ihrer Mitwirkenden. Erfahren Sie, wie Sie die besten Audiences für die Verwendung in Ihren Kampagnen ermitteln.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: 2120
 ht-degree: 17%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Entdecken]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenerkennung** während [&#x200B; Verbindungsprozesses aktiviert &#x200B;](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Entdecken]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenerkennung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
 Nach [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md) können Sie Ihre Zielgruppen mit Ihren Mitwirkenden vergleichen. Auf diese Weise können Sie relevante Zielgruppen für Kampagnen identifizieren und entscheiden, welche zur Aktivierung an Mitwirkende gesendet werden sollen.
 
@@ -93,7 +97,7 @@ Im Abschnitt Vergleichen von Zielgruppen werden die folgenden Metriken angezeigt
 
 >[!NOTE]
 >
->Die Prozentzahl der Überschneidung und der Zielgruppenindex-Wert sind möglicherweise nicht immer für alle Zielgruppen verfügbar. Die Sichtbarkeit des Überschneidungsprozentsatzes und des Zielgruppenindex-Scores hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt &#x200B;](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>Die Prozentzahl der Überschneidung und der Zielgruppenindex-Wert sind möglicherweise nicht immer für alle Zielgruppen verfügbar. Die Sichtbarkeit des Überschneidungsprozentsatzes und des Zielgruppenindex-Scores hängt von der Einstellung ab, die Ihr Mitarbeiter für eine Zielgruppe im Abschnitt [Metadatensichtbarkeit“ ausgewählt ](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 Wenn Ihr Mitarbeiter weder den Zielgruppenindex noch den Überschneidungsprozentsatz aktiviert hat, sind für die Zielgruppe keine Vergleichsdaten verfügbar.
 
@@ -214,4 +218,4 @@ Innerhalb des Abschnitts „Überschneidungen erkennen“ zeigt der Zielgruppeni
 
 ## Nächste Schritte
 
-Nachdem Sie die gewünschten Zielgruppen untersucht und entdeckt haben, können [&#x200B; die Zielgruppen &#x200B;](/help/guide/collaborate/activate.md), die in den Kampagnen verwendet werden sollen.
+Nachdem Sie die gewünschten Zielgruppen untersucht und entdeckt haben, können [ die Zielgruppen ](/help/guide/collaborate/activate.md), die in den Kampagnen verwendet werden sollen.

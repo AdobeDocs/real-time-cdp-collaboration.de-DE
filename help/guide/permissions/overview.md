@@ -2,12 +2,16 @@
 title: Zugriffskontrolle - Übersicht
 description: Erfahren Sie, wie Sie Zugriff auf Adobe Real-Time Customer Data Platform (CDP) Collaboration erhalten.
 audience: admin
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/EIm85EKC4-YUePO5CTHQ4hi4KvawwhKXfiQEa7lw-P4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 2%
+source-wordcount: 980
+ht-degree: 3%
 
 ---
 
@@ -43,7 +47,7 @@ Weitere Informationen zu Administratorrollen finden Sie im [Adobe Help Center](h
 
 ## Zusätzliche Produkte {#products}
 
-Bevor Sie Zugriff auf Collaboration gewähren, benötigen Sie Zugriff auf mehrere Produkte, je nach [&#x200B; Anwendungsfall](#use-cases). Die Handbücher zur Zugriffssteuerung können während des Fortschritts mehrere Benutzeroberflächen durchlaufen, die jeweils einem bestimmten Zweck im Zugriffskonfigurationsprozess dienen. Die nachstehende Tabelle gibt einen Überblick darüber, wofür die einzelnen Produkte verwendet werden.
+Bevor Sie Zugriff auf Collaboration gewähren, benötigen Sie Zugriff auf mehrere Produkte, je nach [ Anwendungsfall](#use-cases). Die Handbücher zur Zugriffssteuerung können während des Fortschritts mehrere Benutzeroberflächen durchlaufen, die jeweils einem bestimmten Zweck im Zugriffskonfigurationsprozess dienen. Die nachstehende Tabelle gibt einen Überblick darüber, wofür die einzelnen Produkte verwendet werden.
 
 | Produkt | Verwendet |
 | --- | --- |
@@ -90,14 +94,14 @@ Bevor Sie Zielgruppen an Mitwirkende senden können, müssen Sie Zielgruppen in 
 | [!UICONTROL Anzeigen von Segmenten] | Ermöglicht dem Benutzer, die Liste der verfügbaren Zielgruppen in einer Sandbox anzuzeigen. |
 | [!UICONTROL Anzeigen von Profilen] | Ermöglicht es dem Benutzer, die für die Zuordnung zu Kooperationsfeldern verfügbaren Felder anzuzeigen. |
 
-Unten sehen Sie eine Beispielrolle mit den oben hinzugefügten Berechtigungen. Weiterführende Informationen zum Erstellen oder Zuweisen von Rollen finden Sie im Handbuch [Rollen verwalten](./manage-roles.md).
+Below, you can see an example role with the above permissions added. For more information on creating or assigning roles, refer to the [manage roles](./manage-roles.md) guide.
 
-![Der Arbeitsbereich Ressourcen in Berechtigungen mit den Berechtigungen Segmente anzeigen und Profile anzeigen , die zur Ressource Profil-Management hinzugefügt wurden.](../../assets/permissions/sample-audience-role.png)
+![The resources workspace in Permissions with the View Segments and View Profiles permissions added to the Profile Management resource.](../../assets/permissions/sample-audience-role.png)
 
 >[!NOTE]
 >
->Benutzende können mit Zielgruppen in Collaboration arbeiten, nachdem sie ohne die oben genannten Berechtigungen abgerufen wurden.
+>Users are able to work with audiences within Collaboration after they&#39;ve been sourced without any of the above permissions.
 
 ## Nächste Schritte
 
-Sobald Sie wissen, wo Sie beginnen sollen, folgen Sie dem Link Ihres Anwendungsfalls, um mit der Konfiguration des Zugriffs zu beginnen. Wenn Sie mehr über die Konfiguration des Zugriffs auf Collaboration als Administrator über diese Anwendungsfälle hinaus erfahren möchten, lesen Sie das Handbuch [Benutzerzugriff verwalten](manage-user-access.md). Informationen zu Rollen und ihrem Beitrag beim Konfigurieren des Zugriffs auf verschiedene Komponenten von Collaboration finden Sie im Handbuch [Rollen verwalten](manage-roles.md).
+Once you&#39;ve determined where to begin, follow your use case&#39;s link to get started configuring access. If you&#39;re wanting to learn about configuring access to Collaboration as an administrator beyond those use cases, refer to the [manage user access](manage-user-access.md) guide. To learn about roles and their part in configuring access to various components of Collaboration, refer to the [manage roles](manage-roles.md) guide.

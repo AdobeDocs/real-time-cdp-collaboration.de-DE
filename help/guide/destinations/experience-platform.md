@@ -1,35 +1,38 @@
 ---
-title: Konfigurieren von Adobe Experience Platform als Ziel
-description: Erfahren Sie, wie Sie Adobe Experience Platform as a -Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
+title: Configure Adobe Experience Platform as a destination
+description: Learn how to configure and manage Adobe Experience Platform as a destination in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: 1534
 ht-degree: 14%
 
 ---
 
-# Konfigurieren von Adobe Experience Platform als Ziel
+# Configure Adobe Experience Platform as a destination
 
 {{limited-availability-release-note}}
 
-Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
+Configure this destination to activate audiences from your project to Adobe Experience Platform. Activating audiences to Adobe Experience Platform allows you to leverage the platform&#39;s capabilities for audience segmentation, analysis, and activation across various marketing channels. To learn more about Adobe Experience Platform, refer to the [Experience Platform overview](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
->Sie können ein Ziel nicht aktualisieren, nachdem es erstellt wurde. Wenn Sie Einstellungen ändern müssen, müssen Sie das vorhandene Ziel löschen und ein neues erstellen.
+>You cannot update a destination after it has been created. If you need to change any settings, you must delete the existing destination and create a new one.
 
-## Konfigurieren des Ziels {#configure-destination}
+## Configure destination {#configure-destination}
 
-Um Adobe Experience Platform als Ziel zu konfigurieren, gehen Sie zu **[!UICONTROL Setup]** und wählen Sie dann die Registerkarte **[!UICONTROL Meine Ziele]** aus. Wählen Sie **[!UICONTROL Einrichten]** für Adobe Experience Platform aus.
+To configure Adobe Experience Platform as a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Select **[!UICONTROL Set up]** for Adobe Experience Platform.
 
-![Der Arbeitsbereich „Meine Ziele“ mit der hervorgehobenen Option „Einrichten“ für das Adobe Experience Platform-Ziel.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform destination.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
 
-Der **[!UICONTROL Ziel erstellen]** wird angezeigt.
+The **[!UICONTROL Create destination]** workflow appears.
 
-![Der Ziel-Workflow für Adobe Experience Platform erstellen.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
+![The Create destination workflow for Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### Konfigurieren einer Sandbox {#configure-sandbox}
 
@@ -38,17 +41,17 @@ Der **[!UICONTROL Ziel erstellen]** wird angezeigt.
 >title="Zielgruppen-Gültigkeit"
 >abstract="Der Zeitraum, nach dem die Zielgruppe in Adobe Experience Platform nicht mehr verfügbar ist. Die Standardgültigkeit beträgt 30 Tage, Sie kann jedoch auf einen beliebigen Wert zwischen 1 und 30 Tagen festgelegt werden."
 
-Zunächst müssen Sie die Sandbox auswählen, an die Ihre Zielgruppendaten gesendet werden.
+First, you must select the sandbox where your audience data will be sent.
 
 >[!IMPORTANT]
 >
->Sie können nur eine Sandbox auswählen, auf die Ihre Benutzerin oder Ihr Benutzer Zugriff hat. Standardmäßig haben alle Collaboration-Benutzer Zugriff auf die **Prod**-Sandbox. Um Zugriff auf zusätzliche Sandboxes zu erhalten, muss ein Administrator zusätzliche Sandboxes zu einer Rolle hinzufügen, die Ihrem Benutzer zugewiesen ist. Weitere Informationen zur Verwaltung von Rollen finden Sie im [Rollen verwalten](../permissions/manage-roles.md).
+>You can only select a sandbox that your user has access to. By default, all Collaboration users have access to the **Prod** sandbox. To gain access to additional sandboxes, an administrator must add additional sandboxes to a role assigned to your user. Weitere Informationen zur Verwaltung von Rollen finden Sie im [Rollen verwalten](../permissions/manage-roles.md).
 
-Wählen **[!UICONTROL Abschnitt Sandbox konfigurieren]** die Dropdown-Liste **[!UICONTROL Sandbox]** aus oder geben Sie den Namen einer Sandbox ein.
+In the **[!UICONTROL Configure sandbox]** section, select the **[!UICONTROL Sandbox]** dropdown, or type in the name of a sandbox.
 
-![Das hervorgehobene Dropdown-Menü „Sandbox“ im Workflow „Ziel erstellen“.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
+![The Sandbox dropdown highlighted in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
-Alternativ können Sie auf **[!UICONTROL Sandbox durchsuchen]** klicken, um alle verfügbaren Sandboxes sowie deren **[!UICONTROL Typ]**, **[!UICONTROL Status]** und **[!UICONTROL Region]** anzuzeigen. Wählen Sie die zu verwendende Sandbox und dann **[!UICONTROL Speichern]** aus.
+Alternatively, you can select **[!UICONTROL Browse sandbox]** to view all available sandboxes, as well as their **[!UICONTROL Type]**, **[!UICONTROL Status]**, and **[!UICONTROL Region]**. Wählen Sie die zu verwendende Sandbox und dann **[!UICONTROL Speichern]** aus.
 
 Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Standardmäßig ist der Ablauf der Zielgruppe auf 30 Tage festgelegt. Sie können die Gültigkeit zwischen 1 und 30 Tagen festlegen. Nach dem Ablaufdatum ist die Zielgruppe in Adobe Experience Platform nicht mehr verfügbar.
 
@@ -71,7 +74,7 @@ Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Sta
 >title="Ziel-Namespaces"
 >abstract="Zielgruppen-Namespaces geben an, welchem Identity-Namespace der Übereinstimmungsschlüssel in Adobe Experience Platform zugeordnet wird. Hash-Übereinstimmungsschlüssel müssen einem Zielgruppen-Namespace zugeordnet sein, der Hash-Werte unterstützt."
 
-Alle für Ihr Konto aktivierten Übereinstimmungsschlüssel sind standardmäßig in der Aktivierungszuordnung enthalten. Wenn Sie einen Übereinstimmungsschlüssel nicht direkt einem Ziel-Namespace zuordnen möchten, können Sie die Option Verknüpfter Schlüssel verwenden, um ihn durch einen anderen Übereinstimmungsschlüssel zu ersetzen. Weitere Informationen zu verknüpften Schlüsseln finden Sie [&#x200B; Abschnitt unten](#linked-keys).
+Alle für Ihr Konto aktivierten Übereinstimmungsschlüssel sind standardmäßig in der Aktivierungszuordnung enthalten. Wenn Sie einen Übereinstimmungsschlüssel nicht direkt einem Ziel-Namespace zuordnen möchten, können Sie die Option Verknüpfter Schlüssel verwenden, um ihn durch einen anderen Übereinstimmungsschlüssel zu ersetzen. Weitere Informationen zu verknüpften Schlüsseln finden Sie [ Abschnitt unten](#linked-keys).
 
 #### Zuordnen von Ziel-Namespaces {#map-target-namespaces}
 
@@ -138,7 +141,7 @@ Nachdem Sie Experience Platform als Ziel konfiguriert haben, können Sie mit dem
 >
 >Sie **müssen** Experience Platform als Ziel konfigurieren *bevor* Mitarbeiter eine Zielgruppe aktiviert. Wenn das Ziel nicht konfiguriert ist, wird die Zielgruppe an Sie gesendet und auf der Registerkarte **[!UICONTROL Aktivieren]** innerhalb eines Projekts angezeigt, sie wird jedoch nicht für Experience Platform aktiviert.
 
-Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in &#x200B;](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
+Nachdem die Zielgruppe aktiviert wurde, ist sie im [Zielgruppenportal) in ](#audience-portal) mit Real-Time CDP Collaboration als Ursprung verfügbar.  Diese Zielgruppen können dann in Kampagnen und in der Kundeninteraktion verwendet werden.
 
 ### Zielgruppenportal {#audience-portal}
 
@@ -150,4 +153,4 @@ Nachdem Sie Adobe Experience Platform als Ziel konfiguriert haben, können Sie d
 
 ![Das Zielgruppenportal mit Real-Time CDP Collaboration als Ursprung in den Filteroptionen.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .
+Weitere Informationen zu Audience Portal finden Sie im Handbuch [Audience Portal - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} .

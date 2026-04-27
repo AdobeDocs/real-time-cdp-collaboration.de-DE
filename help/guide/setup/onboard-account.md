@@ -2,11 +2,14 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
+TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: 1393
 ht-degree: 13%
 
 ---
@@ -89,7 +92,7 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 >
 >Die Übereinstimmungsschlüssel, die Sie während der Kontoeinrichtung auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel innerhalb Ihrer Verbindungen. Während Sie [unerwünschte Übereinstimmungsschlüssel entfernen](../connect/establishing-connections.md#connection-settings) während der Verbindungseinrichtung können Übereinstimmungsschlüssel nicht hinzugefügt werden, nachdem eine Verbindung hergestellt wurde. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
 
-Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [&#x200B; Felder &#x200B;](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
+Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [ Felder ](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abstimmen der Zielgruppenprofile verwenden möchten. Planen Sie für die Zukunft und fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten können und die Sie in zukünftigen Kampagnen voraussichtlich verwenden werden. Wenn Sie zu einem späteren Zeitpunkt zusätzliche Übereinstimmungsschlüssel für Ihr Konto auswählen müssen, können Sie dies im Workflow [Konto bearbeiten](#edit-account) tun. Übereinstimmungsschlüssel, die nach der Ersteinrichtung hinzugefügt wurden, stehen jedoch nicht zur Verwendung in vorhandenen Verbindungen zur Verfügung.
 
@@ -132,49 +135,49 @@ Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgru
 
 Bei Auswahl von **[!UICONTROL AdFixus ID]** müssen Sie im Abschnitt **[!UICONTROL Kontoanmeldeinformationen]** die entsprechende ID von Ihrem externen Partner angeben. Diese Option ist nur nach *Umschalten auf „AdFixus **[!UICONTROL ID* verfügbar]**. Geben Sie Ihre AdFixus-ID in das Feld **[!UICONTROL Konto-ID]** ein. Achten Sie darauf, den Wert auf Genauigkeit zu überprüfen.
 
-![Das Dialogfeld „Schlüssel abgleichen“ mit aktivierter AdFixus-ID und hervorgehobenem Abschnitt „Kontoanmeldeinformationen“.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![The Match keys dialog with AdFixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
-Nachdem Sie alle gewünschten Übereinstimmungsschlüssel ausgewählt haben, klicken Sie auf **[!UICONTROL Abschließen]**, um den Workflow zur Kontoeinrichtung abzuschließen.
+After you&#39;ve selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
-![Der Arbeitsbereich Konto einrichten , wobei der Abschnitt Übereinstimmungsschlüssel angezeigt wird.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
-## Konto bearbeiten {#edit-account}
+## Edit account {#edit-account}
 
-Nachdem Sie Ihr Konto eingerichtet haben, können Sie die Details bearbeiten und Schlüssel abgleichen.
+After setting up your account, you can edit the details and match keys at anytime.
 
 ### Details bearbeiten {#edit-details}
 
-Sie können die meisten Details Ihres Kontos jederzeit bearbeiten, mit Ausnahme der **[!UICONTROL Rolle]**. Die Region wird automatisch auf Grundlage Ihres Adobe Experience Cloud-Kontos festgelegt und kann nicht geändert werden.
+You can edit most details of your account at any time, with the exception of the **[!UICONTROL Role]**. The region is automatically set based on your Adobe Experience Cloud account and cannot be changed.
 
-Um Ihr Konto zu bearbeiten, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Mein Konto]** des Arbeitsbereichs **[!UICONTROL Setup]** aus.
+To edit your account, select **[!UICONTROL Edit]** in the **[!UICONTROL My account]** section of the **[!UICONTROL Setup]** workspace.
 
-![Der Arbeitsbereich „Setup“ mit hervorgehobener Registerkarte „Mein Konto“ und hervorgehobener Option „Bearbeiten“.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
+![The Setup workspace with the My account tab and Edit option highlighted.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-Sie können jetzt Ihre Kontodetails bearbeiten. Aktualisieren Sie alle Felder, die Sie ändern möchten, und wählen Sie dann **[!UICONTROL Speichern]** aus, um die Änderungen zu bestätigen.
+You can now edit your account details. Update any fields you want to change and then select **[!UICONTROL Save]** to confirm the changes.
 
-![Der Dialog Kontodetails bearbeiten.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
+![The Edit account details dialog.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
 ### Übereinstimmungsschlüssel bearbeiten {#edit-match-keys}
 
-Sie können auch die Übereinstimmungsschlüssel aktualisieren, die Sie ursprünglich beim Erstellen Ihres Kontos ausgewählt haben. Diese Übereinstimmungsschlüssel bestimmen die Übereinstimmungsschlüssel, die für zukünftige Verbindungen verfügbar sind.
+You can also update the match keys that you initially selected when creating your account. These match keys will determine the match keys available to future connections.
 
-Wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Übereinstimmungsschlüssel]** aus.
+Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section.
 
-![Der Arbeitsbereich „Setup“ mit hervorgehobener Option „Bearbeiten“ im Abschnitt „Übereinstimmungsschlüssel“ des Kontos.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+![The Setup workspace with the Edit option highlighted within the account&#39;s Match keys section.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Das **[!UICONTROL Übereinstimmungsschlüssel]** wird angezeigt. Schalten Sie beliebige Übereinstimmungsschlüssel ein oder aktualisieren Sie Ihre **[!UICONTROL Konto-ID]** für Ihre [!UICONTROL AdFixus-IDs] und klicken Sie dann auf **[!UICONTROL Speichern]**, um die Änderungen zu bestätigen.
+The **[!UICONTROL Match keys]** dialog appears. Toggle on any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL AdFixus ID&#39;s],and then select **[!UICONTROL Save]** to confirm the changes.
 
 >[!IMPORTANT]
 >
->Durch Ändern Ihrer [!UICONTROL AdFixus ID] wird eine [Datenskizze](../glossary.md#sketches) nicht mit dem Übereinstimmungsschlüssel für Ihre bestehenden Datenverbindungen aktualisiert. Sobald Ihre Daten skizziert wurden, werden alle Änderungen an Ihrer [!UICONTROL AdFixus ID] erst widergespiegelt, wenn Ihre nächste Zielgruppe nach Ihren Einstellungen für [Datenverbindungsplan](./manage-data-connection.md#scheduling) aktualisiert wird. Wenn Sie vor der nächsten Aktualisierung Änderungen benötigen, können Sie Ihre Datenverbindung löschen und neu erstellen.
+>Changing your [!UICONTROL AdFixus ID] will not trigger a [data sketch](../glossary.md#sketches) refresh for your existing data connections using the match key. Once your data has been sketched, any changes to your [!UICONTROL AdFixus ID] will not be reflected until your next audience refresh following your [data connection schedule](./manage-data-connection.md#scheduling) settings. If you require changes before your next refresh, you can delete and recreate your data connection.
 >
->Derzeit können Übereinstimmungsschlüssel nicht entfernt werden, sobald sie Ihrem Konto hinzugefügt wurden.
+>At this time, match keys cannot be removed once added to your account.
 
-![Das Dialogfeld „Schlüssel abgleichen“ mit hervorgehobener Option „Speichern“.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
-Ein Erfolgsdialogfeld bestätigt, dass die Übereinstimmungsschlüssel Ihres Kontos erfolgreich aktualisiert wurden.
+A success dialog confirms that your account&#39;s match keys are updated successfully.
 
-![Ein Erfolgsdialogfeld, das bestätigt, dass die Übereinstimmungsschlüssel Ihres Kontos erfolgreich aktualisiert wurden.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
+![A success dialog confirming your account&#39;s match keys are updated successfully.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Nächste Schritte
 

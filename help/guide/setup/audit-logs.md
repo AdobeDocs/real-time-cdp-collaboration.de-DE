@@ -2,12 +2,15 @@
 title: Auditprotokolle
 description: Erfahren Sie, wie Sie mit der Auditprotokollfunktion in Real-Time CDP Collaboration Benutzeraktivitäten und -änderungen verfolgen können.
 audience: admin
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: 950
+ht-degree: 4%
 
 ---
 
@@ -17,13 +20,13 @@ ht-degree: 1%
 
 Um die Transparenz und Sichtbarkeit der im System durchgeführten Aktivitäten zu erhöhen, können Sie die Benutzeraktivität für verschiedene Services und Funktionen in Form von Audit-Protokollen in Adobe Experience Platform überprüfen. Diese Protokolle bilden einen Audit-Trail, der Ihnen bei der Fehlerbehebung in Adobe Real-Time CDP Collaboration helfen kann und Ihrem Unternehmen dabei hilft, die Richtlinien zur Unternehmensdatenverwaltung und die gesetzlichen Anforderungen effektiv zu erfüllen.
 
-In einem Auditprotokoll wird festgehalten *wer* welche *ausgeführt* und *wann*. Jede in einem Protokoll aufgezeichnete Aktion enthält Metadaten, die den Aktionstyp, das Datum und die Uhrzeit, die E-Mail-ID des Benutzers, der die Aktion ausgeführt hat, und zusätzliche Attribute angeben, die für den Aktionstyp relevant sind.
+In einem Auditprotokoll wird festgehalten *wer* welche *ausgeführt* und *wann*. Jede in einem Protokoll aufgezeichnete Aktion enthält Metadaten, die den Aktionstyp, das Datum und die Uhrzeit, die E-Mail-ID der oder des Benutzenden, die oder der die Aktion durchgeführt hat, und weitere für den Aktionstyp relevante Attribute angeben.
 
 Verwenden Sie die Auditprotokollfunktion in Collaboration, um Benutzeraktivitäten und Änderungen innerhalb der Plattform zu verfolgen. Diese Funktion ist in den Experience Platform-Audit-Service integriert und die Benutzeroberfläche für diese Funktion befindet sich in Experience Platform.
 
 ![Übersichtsbildschirm auf hoher Ebene über die Funktionalität von Auditprotokollen.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Weitere Informationen zu Auditprotokollen finden Sie in der Dokumentation zu [Experience Platform-Auditprotokollen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Weitere Informationen zu Auditprotokollen finden Sie in der Dokumentation zu [Experience Platform-Auditprotokollen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Zugriff auf Auditprotokolle
 
@@ -62,7 +65,7 @@ Audit-Protokolle erfassen detaillierte Informationen zu Benutzeraktivitäten, da
 * **Action**: Die spezifische Aktion, die ausgeführt wird, z. B. Erstellen oder Löschen.
 * **Benutzer**: Die E-Mail-Adresse des Benutzers, der die Aktion ausgeführt hat.
 
-Diese Protokolle erstellen ein umfassendes Protokoll aller Aktivitäten in Ihrer Collaboration-Instanz, das für Data Governance und die Einhaltung gesetzlicher Vorschriften nützlich ist. Weitere Informationen [Verwalten von Auditprotokollen in der Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Diese Protokolle erstellen ein umfassendes Protokoll aller Aktivitäten in Ihrer Collaboration-Instanz, das für Data Governance und die Einhaltung gesetzlicher Vorschriften nützlich ist. Weitere Informationen [Verwalten von Auditprotokollen in der Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Auditprotokolle filtern {#filter-audit-logs}
 
@@ -75,7 +78,7 @@ Die Benutzeroberfläche für Auditprotokolle bietet mehrere Filter, mit denen Si
 * **Status**: Der Status der Aktion, z. B. „Zulassen“ oder „Ablehnen“.
 * **Datumsbereich**: Der Datumsbereich, für den Sie Protokolle anzeigen möchten.
 
-Weitere Informationen [Filtern von Auditprotokollen](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Weitere Informationen [Filtern von Auditprotokollen](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Vorteile
 
@@ -97,7 +100,7 @@ Die nachstehende Tabelle enthält eine Referenz aller Kategorien und Aktionen f�
 | **[!UICONTROL Einladung zur Collaboration-Verbindung]** | Erstellen, Aktualisieren, Löschen, Genehmigen, Ablehnen | Verwalten Sie Verbindungseinladungen, einschließlich des Erstellens, Aktualisierens, Löschens, Genehmigens und Ablehnens von Einladungen. Weitere Informationen finden Sie im Handbuch [Herstellen von Verbindungen](/help/guide/connect/establishing-connections.md) . |
 | **[!UICONTROL Collaboration-Verbindung]** | Erstellen, Aktualisieren, Löschen, Genehmigen, Ablehnen, Genehmigung anfordern | Verbindungen verwalten, einschließlich Erstellen, Aktualisieren, Löschen, Genehmigen, Ablehnen und Anfordern von Genehmigungen für Verbindungen. |
 | **[!UICONTROL Collaboration-Datenverbindung]** | Erstellen, Aktualisieren, Löschen | Verwalten Sie die Datenverbindungen, aus denen Sie Zielgruppen beziehen und verwalten, einschließlich Erstellen, Aktualisieren und Löschen von Datenverbindungen. Weitere Informationen finden Sie im [Verwalten von Datenverbindungen](/help/guide/setup/manage-data-connection.md). |
-| **[!UICONTROL Collaboration-Datenentität]** | Erstellen, Aktualisieren, Löschen | Verwalten von Datenentitäten für Collaboration, einschließlich Erstellen, Aktualisieren und Löschen von Datenentitäten. Datenentitäten beziehen sich in diesem Kontext auf Zielgruppen. Weitere Informationen finden Sie im Handbuch [Beschaffung und Verwaltung &#x200B;](/help/guide/setup/onboard-audiences.md) Zielgruppen“. |
+| **[!UICONTROL Collaboration-Datenentität]** | Erstellen, Aktualisieren, Löschen | Verwalten von Datenentitäten für Collaboration, einschließlich Erstellen, Aktualisieren und Löschen von Datenentitäten. Datenentitäten beziehen sich in diesem Kontext auf Zielgruppen. Weitere Informationen finden Sie im Handbuch [Beschaffung und Verwaltung ](/help/guide/setup/onboard-audiences.md) Zielgruppen“. |
 | **[!UICONTROL Collaboration-Projekt]** | Erstellen, Aktualisieren, Löschen | Verwalten Sie Projekte in Collaboration, einschließlich Erstellen, Aktualisieren und Löschen von Projekten. Weitere Informationen finden Sie im Handbuch [Verwalten von Projekten](/help/guide/collaborate/manage-projects.md). |
 | **[!UICONTROL Collaboration-Modul]** | Erstellen, Aktualisieren, Löschen | Verwalten verschiedener Module innerhalb von Projekten, einschließlich Erstellen, Aktualisieren und Löschen verschiedener Module in der Benutzeroberfläche. Beispielsweise die Möglichkeit, [Zielgruppen zu aktivieren](/help/guide/collaborate/activate.md). |
 

@@ -1,12 +1,15 @@
 ---
-title: Die Kooperationsmuster in Adobe Real-Time CDP Collaboration.
-description: Die beiden Kooperationsmuster in Adobe Real-Time CDP Collaboration verstehen
+title: The collaboration patterns in Adobe Real-Time CDP Collaboration.
+description: Understand the two collaboration patterns in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
+TQID: https://experienceleague.adobe.com/Hx4-KRShMbbHjdTdfVmI9HgYHxltzMbBvXayemL5qhY
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: 664
 ht-degree: 0%
 
 ---
@@ -15,58 +18,58 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Collaboration-Muster in Adobe Real-Time CDP Collaboration sind Modelle, die definieren, wie Mitwirkende zusammenarbeiten, um ihre Marketing-Ziele zu erreichen. Es gibt zwei unterschiedliche Muster für die Zusammenarbeit: von Advertiser zu Publisher und von Marke zu Marke. Jedes Muster dient einem bestimmten Zweck und soll eine effektive Zusammenarbeit zwischen Marken erleichtern.
+Collaboration patterns in Adobe Real-Time CDP Collaboration are models that define how collaborators work together to achieve their marketing goals. There are two distinct collaboration patterns: advertiser-to-publisher, and brand-to-brand. Each pattern serves a specific purpose and is designed to facilitate effective collaboration between brands.
 
-Weitere Informationen zu den Unterschieden zwischen Werbetreibenden und Publishern finden Sie im Handbuch [Rollen](/help/guide/overview/roles.md) .
+To learn more about the differences between advertisers and publishers, read the [roles](/help/guide/overview/roles.md) guide.
 
-## Advertiser-zu-Publisher {#advertiser-to-publisher}
+## Advertiser-to-publisher {#advertiser-to-publisher}
 
-Bei dem Muster für die Zusammenarbeit zwischen Advertisern und Publishern zielen Advertiser darauf ab, Zielgruppen in Verbindung mit Publishern anzusprechen und zu messen. Dieses Muster ermöglicht es Werbetreibenden, Publisher-Zielgruppen zu nutzen, um ihre Targeting-Funktionen zu verbessern, während Publisher wertvolle Einblicke in das Zielgruppenverhalten und die Präferenzen bieten können. Werbetreibende können ihre Kampagnen optimieren, indem sie die richtige Zielgruppe zur richtigen Zeit ansprechen, während Herausgeber Zugriff auf Werbedaten erhalten, was ihnen hilft, ihre Zielgruppen besser zu verstehen, um ihr Inhaltsangebot zu verbessern.
+In the advertiser-to-publisher collaboration pattern, advertisers aim to target and measure audiences in connection with publishers. This pattern allows advertisers to leverage publisher audiences to enhance their targeting capabilities, while publishers can provide valuable insights into audience behavior and preferences. Advertisers can optimize their campaigns by reaching the right audience at the right time while publishers gain access to advertiser data, which helps them better understand their audiences to improve their content offerings.
 
-![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Publisher.](/help/assets/overview/advertiser-to-publisher.png)
+![An example of advertiser-to-publisher collaboration.](/help/assets/overview/advertiser-to-publisher.png)
 
-Weitere Informationen dazu, wie Werbetreibende und Herausgeber in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md)-Handbuch.
+To learn more about how advertisers and publishers collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide.
 
-## Marke-zu-Marke {#brand-to-brand}
+## Brand-to-brand {#brand-to-brand}
 
 >[!NOTE]
 >
->Eine Marke ist ein Unternehmen oder eine Organisation, die an Marketing und Werbung beteiligt ist und entweder ein Advertiser oder ein Publisher sein kann.
+>A brand is a company or organization that is involved in marketing and advertising, and can be either an advertiser or a publisher.
 
-Das Muster der Zusammenarbeit zwischen Marken ermöglicht es Marken, direkt miteinander zu kooperieren, um Zielgruppen für gemeinsame Marketing-Maßnahmen zu identifizieren und anzusprechen. Dieses Muster ist für Marken nützlich, die ihre Reichweite erweitern und über Markenpartnerschaften mit neuen Zielgruppen interagieren möchten. Durch die Zusammenarbeit können Marken die Erkenntnisse aus ihren Zielgruppen gegenseitig nutzen, um Co-Marketing- und Treuekampagnen zu erstellen, die sowohl für Kollaborateure als auch für ihre Kunden von Vorteil sind.
+The brand-to-brand collaboration pattern enables brands to collaborate directly with each other to identify and target audiences for joint marketing efforts. This pattern is useful for brands that want to expand their reach and engage with new audiences through brand partnerships. By working together, brands can leverage each other&#39;s audience insights to create co-marketing and loyalty campaigns that benefit both collaborators and their customers.
 
-![Ein Beispiel für die Zusammenarbeit von Marke zu Marke.](/help/assets/overview/brand-to-brand.png)
+![An example of brand-to-brand collaboration.](/help/assets/overview/brand-to-brand.png)
 
-Weitere Informationen dazu, wie Marken in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md)-Handbuch.
+To learn more about how brands collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide.
 
-## Plattform von Werbetreibenden zu Werbetreibenden {#advertiser-to-advertising-platform}
+## Advertiser-to-advertising platform {#advertiser-to-advertising-platform}
 
-Das Collaboration-Muster zwischen Werbetreibenden und Werbeplattformen ermöglicht es Werbetreibenden, eine Verbindung zu Werbeplattformen von Drittanbietern wie [!DNL Amazon Marketing Cloud] ([!DNL AMC]) herzustellen, um ihre Marketing-Funktionen zu verbessern. Dieses Muster ermöglicht es Werbetreibenden, die Identitätsauflösungs- und Targeting-Tools der Plattform zu nutzen, um die Wirkung ihrer Daten zu erweitern. Durch die Integration mit Werbeplattformen können Werbetreibende präzise Leistungseinblicke über Zielgruppen hinweg bieten und es ihnen ermöglichen, Ausgaben zu optimieren, die Relevanz zu verbessern und messbare Geschäftsergebnisse zu erzielen.
+The advertiser-to-advertising platform collaboration pattern allows advertisers to connect with third-party advertising platforms, such as [!DNL Amazon Marketing Cloud] ([!DNL AMC]), to enhance their marketing capabilities. This pattern enables advertisers to leverage the platform&#39;s identity resolution and targeting tools to extend the impact of their data. By integrating with advertising platforms, advertisers can deliver precise performance insights across audiences, empowering them to optimize spend, improve relevance, and drive measurable business outcomes.
 
-![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Werbeplattform.](/help/assets/overview/advertiser-to-advertising-platform.png)
+![An example of advertiser-to-advertising platform collaboration.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
-Weitere Informationen dazu, wie Werbetreibende in diesem Muster mit Werbeplattformen zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md)-Handbuch.
+To learn more about how advertisers collaborate with advertising platforms in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide.
 
-## Advertiser-to-Data-Partner {#advertiser-to-data-partner}
+## Advertiser-to-data partner {#advertiser-to-data-partner}
 
-Das Advertiser-zu-Daten-Partnermuster ermöglicht es Marken, direkt mit Drittanbietern von Daten zusammenzuarbeiten, um Kundenprofile anzureichern, präzisere Zielgruppen zu erstellen und auf Populationen von Interessenten für die Akquise zuzugreifen. Dieses Muster bringt herkömmliche externe Daten-Workflows in eine einzige, datenschutzsichere Umgebung, in der First-Party- und Third-Party-Daten kombiniert werden können, ohne dass Rohdaten verschoben werden müssen.
+The advertiser-to-data partner pattern enables brands to collaborate directly with third-party data providers to enrich customer profiles, build more precise audiences, and access prospect populations for acquisition. This pattern brings traditionally external data workflows into a single, privacy-safe environment where first-party and third-party data can be combined without requiring raw data movement.
 
-![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Datenpartner.](/help/assets/overview/advertiser-to-data-partner.png)
+![An example of advertiser-to-data partner collaboration.](/help/assets/overview/advertiser-to-data-partner.png)
 
-Weitere Informationen dazu, wie Werbetreibende und Datenpartner in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow)-Handbuch.
+To learn more about how advertisers and data partners collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow) guide.
 
-## Agentur-Verlag {#agency-to-publisher}
+## Agency-to-publisher {#agency-to-publisher}
 
-Das Agentur-zu-Publisher-Muster ermöglicht es Medienagenturen, direkt mit Publishern zusammenzuarbeiten, um Kampagnen mit freigegebenen Zielgruppeneinblicken zu planen, zu aktivieren und zu messen. Agenturen fungieren als Vermittler und nutzen Advertiser-Daten (mit Erlaubnis), um Überschneidungen zu identifizieren und Medienstrategien mit Publisher-Partnern auszuführen.
+The agency-to-publisher pattern enables media agencies to collaborate directly with publishers to plan, activate, and measure campaigns using shared audience insights. Agencies act as intermediaries, leveraging advertiser data (with permission) to identify overlaps and execute media strategies with publisher partners.
 
-![Ein Beispiel für die Zusammenarbeit zwischen Agentur und Verlag.](/help/assets/overview/agency-to-publisher.png)
+![An example of agency-to-publisher collaboration.](/help/assets/overview/agency-to-publisher.png)
 
-Weitere Informationen dazu, wie Agenturen und Herausgeber in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow)-Handbuch.
+To learn more about how agencies and publishers collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow) guide.
 
-## Advertiser-to-Agency-Plattform {#advertiser-to-agency-platform}
+## Advertiser-to-agency platform {#advertiser-to-agency-platform}
 
-Das Advertiser-zu-Agency-Plattform-Muster ermöglicht es Marken, mit ihren Medienagenturen in einer datenschutzsicheren Umgebung zusammenzuarbeiten, sodass Advertiser Daten mit ihrer Agentur senden und empfangen können, ohne dass direkte Datenübertragungen erforderlich sind. Dieses Muster unterstützt die Kampagnenplanung, die Erstellung von Zielgruppen und die Aktivierung, während Advertiser die Kontrolle über die Datennutzung behalten.
+The advertiser-to-agency platform pattern enables brands to collaborate with their media agencies in a privacy-safe environment, allowing advertisers to send and receive data with their agency without requiring direct data transfers. This pattern supports campaign planning, audience building, and activation while maintaining advertiser control over data usage.
 
-![Ein Beispiel für die Zusammenarbeit zwischen Advertiser und Agentur-Plattform.](/help/assets/overview/advertiser-to-agency-platform.png)
+![An example of advertiser-to-agency platform collaboration.](/help/assets/overview/advertiser-to-agency-platform.png)
 
-Weitere Informationen dazu, wie Werbetreibende und Agenturplattformen in diesem Muster zusammenarbeiten, finden Sie im [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow)-Handbuch.
+To learn more about how advertisers and agency platforms collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow) guide.

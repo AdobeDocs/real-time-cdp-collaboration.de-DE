@@ -2,11 +2,15 @@
 title: Amazon Marketing Cloud
 description: Erfahren Sie mehr über die Zusammenarbeit mit Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: 665
 ht-degree: 20%
 
 ---
@@ -57,7 +61,7 @@ Im Abschnitt **[!UICONTROL Entdecken]** können Sie Ihre AMC-Zielgruppe mit alle
 
 >[!IMPORTANT]
 >
->Zielgruppendaten werden aus den Zielgruppen verarbeitet, die in Ihr [!DNL Amazon Ads]-Konto hochgeladen wurden. Um zu erfahren, wie Sie mit der Funktion „Ziele“ von Experience Platform Ihre Zielgruppen an Ihr [!DNL Amazon Ads]-Konto senden können, lesen Sie das Handbuch [Amazon Ads-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>Zielgruppendaten werden aus den Zielgruppen verarbeitet, die in Ihr [!DNL Amazon Ads]-Konto hochgeladen wurden. Um zu erfahren, wie Sie mit der Funktion „Ziele“ von Experience Platform Ihre Zielgruppen an Ihr [!DNL Amazon Ads]-Konto senden können, lesen Sie das Handbuch [Amazon Ads-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![Der Abschnitt „Entdecken“ in einem Projekt mit Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
