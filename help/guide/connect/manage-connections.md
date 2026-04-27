@@ -5,8 +5,10 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 1092
@@ -36,7 +38,7 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem die Verbindun
 
 ## Verbindung löschen {#delete-connection}
 
-Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um eine Verbindung zu löschen, navigieren Sie zu der Verbindung, die Sie löschen möchten, und wählen Sie dann im Arbeitsbereich Verbindung das Symbol „Löschen![ (](/help/assets/common/delete.svg)) aus.
+Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um eine Verbindung zu löschen, navigieren Sie zu der Verbindung, die Sie löschen möchten, und wählen Sie dann im Arbeitsbereich Verbindung das Symbol „Löschen![&#x200B; (](/help/assets/common/delete.svg)) aus.
 
 ![Das hervorgehobene Löschsymbol im Arbeitsbereich „Verbindung“.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
 

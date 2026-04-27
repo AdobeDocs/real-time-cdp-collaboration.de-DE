@@ -5,9 +5,15 @@ audience: admin
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
 TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 623
@@ -65,4 +71,4 @@ Nachfolgend finden Sie eine Liste der verfügbaren Berechtigungen innerhalb der 
 
 ## Nächste Schritte
 
-Nachdem Sie Rollen erstellt haben, die den Zugriff auf Collaboration definieren, müssen Sie [die Rollen zuweisen](./manage-user-access.md#assign-a-role) Administratoren und Benutzern zuweisen. Eine vollständige Übersicht über [ Verwaltung von Rollen finden ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) im Handbuch zum Verwalten von Berechtigungen für eine Rolle .
+Nachdem Sie Rollen erstellt haben, die den Zugriff auf Collaboration definieren, müssen Sie [die Rollen zuweisen](./manage-user-access.md#assign-a-role) Administratoren und Benutzern zuweisen. Eine vollständige Übersicht über [&#x200B; Verwaltung von Rollen finden &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) im Handbuch zum Verwalten von Berechtigungen für eine Rolle .

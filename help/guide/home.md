@@ -5,8 +5,14 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 TQID: https://experienceleague.adobe.com/fPHinK-IJUQ0LNel3NRf8wFKFPUejZgeTIXugcDKAOY
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 390
@@ -42,7 +48,7 @@ Eingebettete Steuerelemente stellen sicher, dass die Governance- und Datenschutz
 
 ## Erste Schritte {#get-started}
 
-Um Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [ im Handbuch ](/help/guide/permissions/overview.md){target="_blank"}Übersicht über die Zugriffskontrolle“.
+Um Collaboration verwenden zu können, müssen sich Systemadministratoren selbst, Produktadministratoren und Endbenutzern Zugriff gewähren. Je nach Benutzer und erforderlicher Zugriffsebene sind mehrere Schritte erforderlich. Die ersten Schritte finden [&#x200B; im Handbuch &#x200B;](/help/guide/permissions/overview.md){target="_blank"}Übersicht über die Zugriffskontrolle“.
 
 Sobald Sie Zugriff haben, können Sie Ihr Konto einrichten und Ihre Datenverbindung erstellen, um mit der Beschaffung von Zielgruppen zu beginnen. Lesen Sie [End-to-End-Workflow](/help/guide/overview/end-to-end-workflow.md) um loszulegen.
 
