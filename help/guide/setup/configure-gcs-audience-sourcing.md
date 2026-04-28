@@ -2,7 +2,7 @@
 title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: '2858'
