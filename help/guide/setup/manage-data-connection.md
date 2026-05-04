@@ -2,20 +2,16 @@
 title: Datenverbindungen verwalten
 description: Erfahren Sie, wie Sie in Real-Time CDP Collaboration Datenverbindungen verwalten, einschließlich Übereinstimmungsschlüsseln, Planung, Anwendungsfällen und Zielgruppenfilterung
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 5%
+source-wordcount: 1253
+ht-degree: 7%
 
 ---
 
@@ -53,7 +49,7 @@ Um vorhandene Datenverbindungen anzuzeigen, navigieren Sie zu **[!UICONTROL Setu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Planung"
->abstract="Zeigen Sie die Zeitplandetails für Ihre Datenverbindung an und bearbeiten Sie bei Bedarf die Konfigurationen."
+>abstract="Zeigen Sie die Zeitplanungsdetails für Ihre Datenverbindung an und bearbeiten Sie die Konfigurationen bei Bedarf."
 
 Zeigen Sie die Zeitplaneinstellungen für Ihre Datenverbindungen an und verwalten Sie sie. Die Planung bestimmt, wie oft die Zielgruppe aktualisiert wird.
 
@@ -63,7 +59,7 @@ Nachdem eine Datenverbindung erstellt wurde, können Sie ihre Aktualisierungshä
 >
 >Beim Bezug von Zielgruppen aus Adobe Experience Platform werden Zielgruppen innerhalb von 24 Stunden nach Herstellung der Datenverbindung verfügbar. Nach der ersten Beschaffung werden die Zielgruppendaten entsprechend der definierten Häufigkeit aktualisiert.
 
-Weitere Informationen zur Planung finden Sie [&#x200B; Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Handbuch zum Konfigurieren von Zielgruppen.
+Weitere Informationen zur Planung finden Sie [ Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Handbuch zum Konfigurieren von Zielgruppen.
 
 ![Der Arbeitsbereich einer Datenverbindung mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -77,7 +73,7 @@ Lesen Sie die folgenden Abschnitte, um zu erfahren, wie Sie die Übereinstimmung
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="Anreicherung"
 >abstract="Das Deaktivieren der Anreicherung wird nicht unterstützt. Stattdessen können Sie die Join-Schlüssel der Anreicherung ändern."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Anreicherung"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_de" text="Anreicherung"
 
 >[!IMPORTANT]
 >
@@ -114,47 +110,55 @@ Verwenden **[!UICONTROL im Dialogfeld]**&#x200B;Übereinstimmungsschlüssel“ d
 
 Verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]**, wenn Sie ein nicht gehashtes Feld in ein gehashtes Zielfeld eingeben möchten, z. B. wenn Sie dem Zielfeld **[!UICONTROL gehashte E-Mail]** ein reines Text-E-Mail-Quellfeld zuordnen.
 
-![The dropdown menu displaying all available target fields to map with the new source field.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+![Das Dropdown-Menü mit allen verfügbaren Zielfeldern, die dem neuen Quellfeld zugeordnet werden sollen.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
-After you finish mapping fields, review your updates and select **[!UICONTROL Confirm]** to apply the changes.
+##### [!DNL Demdex ID (ECID)] hinzufügen {#add-demdex-id-ecid}
 
-![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+Wenn Sie [!DNL Demdex ID (ECID)] als Übereinstimmungsschlüssel hinzufügen möchten, stellen Sie zunächst sicher, dass er in [ Kontoeinstellungen aktiviert ](../setup/onboard-account.md#set-up-match-keys). Weitere Informationen zum [!DNL Demdex ID (ECID)] finden Sie unter [Unterstützte Übereinstimmungsschlüssel](../setup/onboard-account.md#supported-match-keys).
 
-A confirmation dialog confirms that the match keys were updated successfully.
+Fügen Sie im **[!UICONTROL Übereinstimmungsschlüssel]** eine neue Zeile für das Zuordnungsfeld hinzu. Wählen Sie dann **[!UICONTROL ECID]** als Quellfeld und **[!UICONTROL Demdex-ID (ECID)]** als Zielfeld aus der Dropdown-Liste aus.
 
-### Edit scheduling {#edit-scheduling}
+![Das Dialogfeld „Übereinstimmungsschlüssel“ mit hervorgehobenem Zuordnungsfeld für den Übereinstimmungsschlüssel der Demdex-ID (ECID).](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
+
+Nachdem Sie die Zuordnungsfelder abgeschlossen haben, überprüfen Sie Ihre Aktualisierungen und wählen Sie **[!UICONTROL Bestätigen]**, um die Änderungen anzuwenden.
+
+![Das Dialogfeld „Übereinstimmungsschlüssel“, das die aktualisierte Feldzuordnung mit hervorgehobener Option „Bestätigen“ anzeigt.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+
+Ein Bestätigungsdialogfeld bestätigt, dass die Übereinstimmungsschlüssel erfolgreich aktualisiert wurden.
+
+### Zeitplan bearbeiten {#edit-scheduling}
 
 Nachdem eine Datenverbindung erstellt wurde, können Sie ihre Aktualisierungshäufigkeit, ihr Start- und Enddatum direkt im Abschnitt **[!UICONTROL Planung]** des Arbeitsbereichs Datenverbindung aktualisieren.
 
-You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card.
+Sie können die Häufigkeit einer vorhandenen Datenverbindung bearbeiten, um besser steuern zu können, wie oft Zielgruppen aktualisiert werden. Um den Zeitplan zu bearbeiten, wählen Sie **[!UICONTROL Bearbeiten]** in der Datenverbindung auf der Planungskarte aus.
 
-![The Scheduling section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
+![Der Planungsabschnitt mit der hervorgehobenen Option „Bearbeiten“.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
+Es wird ein Bestätigungsdialogfeld angezeigt, in dem erklärt wird, dass alle Änderungen an der Datenverbindung für alle verknüpften Zielgruppen gelten. Klicken **[!UICONTROL zur]** auf OK. Sie können diese Bestätigung später überspringen.
 
-![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![Bestätigungsdialogfeld, das anzeigt, dass alle Änderungen an der Datenverbindung für alle verknüpften Zielgruppen gelten.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
-In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days.
+Wählen Sie **[!UICONTROL Dialogfeld &quot;]**&quot; das Dropdown-Menü aus, um die **[!UICONTROL Häufigkeit]** zu aktualisieren. Stellen Sie die Aktualisierungshäufigkeit so ein, dass sie täglich oder alle zwei bis sechs Tage ausgeführt wird.
 
-![The Scheduling dialog with the Frequency dropdown expanded to display audience refresh frequency options.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+![Das Dialogfeld Planung mit dem Dropdown-Menü Häufigkeit wurde erweitert, um die Optionen für die Aktualisierungshäufigkeit der Zielgruppe anzuzeigen.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
 
-Next, select **[!UICONTROL Date range]** if you want to update the period during which audiences are populated and refreshed.
+Wählen Sie als Nächstes **[!UICONTROL Datumsbereich]** aus, wenn Sie den Zeitraum aktualisieren möchten, in dem Zielgruppen aufgefüllt und aktualisiert werden.
 
-![The Scheduling dialog showing the Date range dropdown expanded to edit the start and end dates for audience population and refresh.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+![Das Dialogfeld Planung mit dem Dropdown-Menü Datumsbereich wurde erweitert, um das Start- und Enddatum für die Zielgruppenpopulation zu bearbeiten und zu aktualisieren.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
 
-When you&#39;re done, review the updates and select **[!UICONTROL Save]** to apply your changes.
+Wenn Sie fertig sind, überprüfen Sie die Aktualisierungen und wählen Sie **[!UICONTROL Speichern]** aus, um Ihre Änderungen anzuwenden.
 
-![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![Das Dialogfeld „Planung“ mit hervorgehobenen Optionen „Aktualisierungen und Speichern“.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Datenverbindung löschen
 
-Deleting a data connection will remove all underlying audiences, associated settings, and usage across Collaboration. Diese Aktion kann nicht rückgängig gemacht werden.
+Durch das Löschen einer Datenverbindung werden alle zugrunde liegenden Zielgruppen, zugehörigen Einstellungen und die Verwendung in Collaboration entfernt. Diese Aktion kann nicht rückgängig gemacht werden.
 
-To delete an existing data connection, select the delete icon (![Delete icon](/help/assets/common/delete.svg)) within an individual data connection&#39;s workspace.
+Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) ](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
 
-![A data connections workspace with the delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobener Löschoption.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
-A confirmation dialogue will appear. Select **[!UICONTROL Delete]** to finish deleting the data connection.
+Ein Bestätigungsdialogfeld wird angezeigt. Wählen Sie **[!UICONTROL Löschen]** aus, um das Löschen der Datenverbindung abzuschließen.
 
 ![Das Dialogfeld „Datenverbindung löschen“ mit hervorgehobener Option „Löschen“.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
 

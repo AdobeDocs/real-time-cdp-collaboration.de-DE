@@ -2,19 +2,15 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 13%
+source-wordcount: 1410
+ht-degree: 9%
 
 ---
 
@@ -77,41 +73,50 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Personenbezogene IDs aus erster Hand"
->abstract="Personenbezogene IDs aus erster Hand wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
+>title="Personen-IDs"
+>abstract="Personen-IDs wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="IDs von Erstanbieter-Geräten"
->abstract="Geräte-IDs von Erstanbietern wie ECID oder IP-Adressen sind direkt mit Geräten verbunden, die möglicherweise von mehreren Personen gemeinsam genutzt werden können."
+>title="Geräte-IDs"
+>abstract="Geräte-IDs wie ECID- oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Unterstützte Partner-IDs"
 >abstract="Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgruppen bereitgestellt werden. Partner-IDs sind nicht direkt mit einem einzelnen Profil verbunden."
 
-![Unterstützte Übereinstimmungsschlüssel.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+In der folgenden Tabelle werden die unterstützten Übereinstimmungsschlüssel in Collaboration angezeigt:
+
+| Personen-IDs | Geräte-IDs | Partner-IDs |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
 >Die Übereinstimmungsschlüssel, die Sie während der Kontoeinrichtung auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel innerhalb Ihrer Verbindungen. Während Sie [unerwünschte Übereinstimmungsschlüssel entfernen](../connect/establishing-connections.md#connection-settings) während der Verbindungseinrichtung können Übereinstimmungsschlüssel nicht hinzugefügt werden, nachdem eine Verbindung hergestellt wurde. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
 
-Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [&#x200B; Felder &#x200B;](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
+Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [ Felder ](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abstimmen der Zielgruppenprofile verwenden möchten. Planen Sie für die Zukunft und fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten können und die Sie in zukünftigen Kampagnen voraussichtlich verwenden werden. Wenn Sie zu einem späteren Zeitpunkt zusätzliche Übereinstimmungsschlüssel für Ihr Konto auswählen müssen, können Sie dies im Workflow [Konto bearbeiten](#edit-account) tun. Übereinstimmungsschlüssel, die nach der Ersteinrichtung hinzugefügt wurden, stehen jedoch nicht zur Verwendung in vorhandenen Verbindungen zur Verfügung.
 
 #### Unterstützte Übereinstimmungsschlüssel {#supported-match-keys}
 
-Collaboration unterstützt drei Arten von Übereinstimmungsschlüsseln: Erstanbieter-Personen-IDs, Erstanbieter-Geräte-IDs und Partner-IDs. Alle Übereinstimmungsschlüssel müssen die folgenden Anforderungen erfüllen:
+Collaboration unterstützt drei Arten von Übereinstimmungsschlüsseln: Personen-IDs, Geräte-IDs und Partner-IDs. Alle Übereinstimmungsschlüssel müssen die folgenden Anforderungen erfüllen:
 
 * Übereinstimmungsschlüssel müssen **gekürzt**, **kleingeschrieben**
 * Hash-Übereinstimmungsschlüssel müssen **SHA256-hashed** sein.
 * Wenn Sie Hash-Werte mit Großbuchstaben angeben, wandelt Collaboration diese automatisch in Kleinbuchstaben um.
 * Wenn Ihre Quelle **Klartext-IDs** enthält, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]** während Ihrer [Datenverbindungseinrichtung](./manage-data-connection.md#match-keys), um Hashing anzuwenden. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
 
-##### Personenbezogene IDs aus erster Hand
+##### Personen-IDs
 
-First-Party-Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstützte IDs sind:
+Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstützte IDs sind:
 
 * **[!UICONTROL Hash-E-Mail]**
 * **[!UICONTROL Hash-Telefon]**
@@ -119,13 +124,14 @@ First-Party-Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derze
 * **[!UICONTROL Treue-IDs]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### IDs von Erstanbieter-Geräten
+##### Geräte-IDs
 
-Erstanbieter-Geräte-IDs sind Kennungen, die mit einem bestimmten Gerät verbunden sind. Derzeit unterstützte IDs sind:
+Geräte-IDs sind Kennungen, die mit einem bestimmten Gerät verbunden sind. Derzeit unterstützte IDs sind:
 
-* **[!UICONTROL Hash IPv4]**: Hash-IPv4-Adressen
-* **[!UICONTROL IDFA]**: Die Kennung für Advertiser (IDFA), die in Apple iOS-Geräten verwendet werden
-* **[!UICONTROL GAID]**: Google Advertiser-ID, die auf Android-Geräten verwendet wird
+* **[!UICONTROL Hash-IPv4]**
+* **[!UICONTROL IDFA]**: Die Kennung für Advertiser (IDFA), die in Apple iOS-Geräten verwendet werden.
+* **[!UICONTROL GAID]**: Google Advertiser-ID, die auf Android-Geräten verwendet wird.
+* **[!UICONTROL Demdex-ID (ECID)]**: Wenn Drittanbieter-Cookies aktiviert sind, enthält die ECID das Drittanbieter-Cookie von Adobe, [!DNL Demdex ID]. Die [!DNL Demdex ID] kann verwendet werden, um Cookie-basierte, nicht authentifizierte Besucher abzugleichen.
 
 ##### Partner-IDs
 
@@ -139,49 +145,49 @@ Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgru
 
 Bei Auswahl von **[!UICONTROL AdFixus ID]** müssen Sie im Abschnitt **[!UICONTROL Kontoanmeldeinformationen]** die entsprechende ID von Ihrem externen Partner angeben. Diese Option ist nur nach *Umschalten auf „AdFixus **[!UICONTROL ID* verfügbar]**. Geben Sie Ihre AdFixus-ID in das Feld **[!UICONTROL Konto-ID]** ein. Achten Sie darauf, den Wert auf Genauigkeit zu überprüfen.
 
-![The Match keys dialog with AdFixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![Das Dialogfeld „Schlüssel abgleichen“ mit aktivierter AdFixus-ID und hervorgehobenem Abschnitt „Kontoanmeldeinformationen“.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
-After you&#39;ve selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
+Nachdem Sie alle gewünschten Übereinstimmungsschlüssel ausgewählt haben, klicken Sie auf **[!UICONTROL Abschließen]**, um den Workflow zur Kontoeinrichtung abzuschließen.
 
-![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![Der Arbeitsbereich Konto einrichten , wobei der Abschnitt Übereinstimmungsschlüssel angezeigt wird.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
-## Edit account {#edit-account}
+## Konto bearbeiten {#edit-account}
 
-After setting up your account, you can edit the details and match keys at anytime.
+Nachdem Sie Ihr Konto eingerichtet haben, können Sie die Details bearbeiten und Schlüssel abgleichen.
 
 ### Details bearbeiten {#edit-details}
 
-You can edit most details of your account at any time, with the exception of the **[!UICONTROL Role]**. The region is automatically set based on your Adobe Experience Cloud account and cannot be changed.
+Sie können die meisten Details Ihres Kontos jederzeit bearbeiten, mit Ausnahme der **[!UICONTROL Rolle]**. Die Region wird automatisch auf Grundlage Ihres Adobe Experience Cloud-Kontos festgelegt und kann nicht geändert werden.
 
-To edit your account, select **[!UICONTROL Edit]** in the **[!UICONTROL My account]** section of the **[!UICONTROL Setup]** workspace.
+Um Ihr Konto zu bearbeiten, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Mein Konto]** des Arbeitsbereichs **[!UICONTROL Setup]** aus.
 
-![The Setup workspace with the My account tab and Edit option highlighted.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
+![Der Arbeitsbereich „Setup“ mit hervorgehobener Registerkarte „Mein Konto“ und hervorgehobener Option „Bearbeiten“.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-You can now edit your account details. Update any fields you want to change and then select **[!UICONTROL Save]** to confirm the changes.
+Sie können jetzt Ihre Kontodetails bearbeiten. Aktualisieren Sie alle Felder, die Sie ändern möchten, und wählen Sie dann **[!UICONTROL Speichern]** aus, um die Änderungen zu bestätigen.
 
-![The Edit account details dialog.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
+![Der Dialog Kontodetails bearbeiten.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
 ### Übereinstimmungsschlüssel bearbeiten {#edit-match-keys}
 
-You can also update the match keys that you initially selected when creating your account. These match keys will determine the match keys available to future connections.
+Sie können auch die Übereinstimmungsschlüssel aktualisieren, die Sie ursprünglich beim Erstellen Ihres Kontos ausgewählt haben. Diese Übereinstimmungsschlüssel bestimmen die Übereinstimmungsschlüssel, die für zukünftige Verbindungen verfügbar sind.
 
-Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section.
+Wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Übereinstimmungsschlüssel]** aus.
 
-![The Setup workspace with the Edit option highlighted within the account&#39;s Match keys section.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+![Der Arbeitsbereich „Setup“ mit hervorgehobener Option „Bearbeiten“ im Abschnitt „Übereinstimmungsschlüssel“ des Kontos.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-The **[!UICONTROL Match keys]** dialog appears. Toggle on any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL AdFixus ID&#39;s],and then select **[!UICONTROL Save]** to confirm the changes.
+Das **[!UICONTROL Übereinstimmungsschlüssel]** wird angezeigt. Schalten Sie beliebige Übereinstimmungsschlüssel ein oder aktualisieren Sie Ihre **[!UICONTROL Konto-ID]** für Ihre [!UICONTROL AdFixus-IDs] und klicken Sie dann auf **[!UICONTROL Speichern]**, um die Änderungen zu bestätigen.
 
 >[!IMPORTANT]
 >
->Changing your [!UICONTROL AdFixus ID] will not trigger a [data sketch](../glossary.md#sketches) refresh for your existing data connections using the match key. Once your data has been sketched, any changes to your [!UICONTROL AdFixus ID] will not be reflected until your next audience refresh following your [data connection schedule](./manage-data-connection.md#scheduling) settings. If you require changes before your next refresh, you can delete and recreate your data connection.
+>Durch Ändern Ihrer [!UICONTROL AdFixus ID] wird eine [Datenskizze](../glossary.md#sketches) nicht mit dem Übereinstimmungsschlüssel für Ihre bestehenden Datenverbindungen aktualisiert. Sobald Ihre Daten skizziert wurden, werden alle Änderungen an Ihrer [!UICONTROL AdFixus ID] erst widergespiegelt, wenn Ihre nächste Zielgruppe nach Ihren Einstellungen für [Datenverbindungsplan](./manage-data-connection.md#scheduling) aktualisiert wird. Wenn Sie vor der nächsten Aktualisierung Änderungen benötigen, können Sie Ihre Datenverbindung löschen und neu erstellen.
 >
->At this time, match keys cannot be removed once added to your account.
+>Derzeit können Übereinstimmungsschlüssel nicht entfernt werden, sobald sie Ihrem Konto hinzugefügt wurden.
 
-![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+![Das Dialogfeld „Schlüssel abgleichen“ mit hervorgehobener Option „Speichern“.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
-A success dialog confirms that your account&#39;s match keys are updated successfully.
+Ein Erfolgsdialogfeld bestätigt, dass die Übereinstimmungsschlüssel Ihres Kontos erfolgreich aktualisiert wurden.
 
-![A success dialog confirming your account&#39;s match keys are updated successfully.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
+![Ein Erfolgsdialogfeld, das bestätigt, dass die Übereinstimmungsschlüssel Ihres Kontos erfolgreich aktualisiert wurden.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Nächste Schritte
 
