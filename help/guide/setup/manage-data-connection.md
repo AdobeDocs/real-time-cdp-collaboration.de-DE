@@ -5,9 +5,13 @@ audience: administrator, data engineer
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1253
@@ -59,7 +63,7 @@ Nachdem eine Datenverbindung erstellt wurde, können Sie ihre Aktualisierungshä
 >
 >Beim Bezug von Zielgruppen aus Adobe Experience Platform werden Zielgruppen innerhalb von 24 Stunden nach Herstellung der Datenverbindung verfügbar. Nach der ersten Beschaffung werden die Zielgruppendaten entsprechend der definierten Häufigkeit aktualisiert.
 
-Weitere Informationen zur Planung finden Sie [ Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Handbuch zum Konfigurieren von Zielgruppen.
+Weitere Informationen zur Planung finden Sie [&#x200B; Abschnitt „Planung](/help/guide/setup/onboard-audiences.md#schedule) im Handbuch zum Konfigurieren von Zielgruppen.
 
 ![Der Arbeitsbereich einer Datenverbindung mit hervorgehobenem Abschnitt „Planung“.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -114,7 +118,7 @@ Verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]**, wenn Sie ein nich
 
 ##### [!DNL Demdex ID (ECID)] hinzufügen {#add-demdex-id-ecid}
 
-Wenn Sie [!DNL Demdex ID (ECID)] als Übereinstimmungsschlüssel hinzufügen möchten, stellen Sie zunächst sicher, dass er in [ Kontoeinstellungen aktiviert ](../setup/onboard-account.md#set-up-match-keys). Weitere Informationen zum [!DNL Demdex ID (ECID)] finden Sie unter [Unterstützte Übereinstimmungsschlüssel](../setup/onboard-account.md#supported-match-keys).
+Wenn Sie [!DNL Demdex ID (ECID)] als Übereinstimmungsschlüssel hinzufügen möchten, stellen Sie zunächst sicher, dass er in [&#x200B; Kontoeinstellungen aktiviert &#x200B;](../setup/onboard-account.md#set-up-match-keys). Weitere Informationen zum [!DNL Demdex ID (ECID)] finden Sie unter [Unterstützte Übereinstimmungsschlüssel](../setup/onboard-account.md#supported-match-keys).
 
 Fügen Sie im **[!UICONTROL Übereinstimmungsschlüssel]** eine neue Zeile für das Zuordnungsfeld hinzu. Wählen Sie dann **[!UICONTROL ECID]** als Quellfeld und **[!UICONTROL Demdex-ID (ECID)]** als Zielfeld aus der Dropdown-Liste aus.
 
@@ -154,7 +158,7 @@ Wenn Sie fertig sind, überprüfen Sie die Aktualisierungen und wählen Sie **[!
 
 Durch das Löschen einer Datenverbindung werden alle zugrunde liegenden Zielgruppen, zugehörigen Einstellungen und die Verwendung in Collaboration entfernt. Diese Aktion kann nicht rückgängig gemacht werden.
 
-Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) ](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
+Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) &#x200B;](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobener Löschoption.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
