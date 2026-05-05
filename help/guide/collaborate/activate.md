@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: 997
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Das **[!UICONTROL Bearbeiten von Übereinstimmungsschlüsseln]** wird geöffnet,
 
 >[!NOTE]
 >
->Es muss mindestens ein Übereinstimmungsschlüssel ausgewählt werden. In der aktuellen Version sind nur Übereinstimmungsschlüssel verfügbar (**[!UICONTROL -E-Mail]**, daher können Sie diesen Übereinstimmungsschlüssel nicht entfernen.
+>Es muss mindestens ein Übereinstimmungsschlüssel ausgewählt werden.
 
 ![Das Dialogfeld „Übereinstimmungsschlüssel bearbeiten“ im Zielgruppen-Aktivierungs-Workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
@@ -119,18 +119,18 @@ Innerhalb jeder aktivierten Zielgruppe können Sie die folgenden Metriken sehen:
 | **[!UICONTROL Ziel]** | Das Ziel, für das die Zielgruppe aktiviert wurde. |
 | **[!UICONTROL Übereinstimmungsschlüssel]** | Gibt den für die Zielgruppe verwendeten Übereinstimmungsschlüssel an. |
 
-## Delete sent audiences {#delete-sent-audiences}
+## Gesendete Zielgruppen löschen {#delete-sent-audiences}
 
-You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator&#39;s destination.
+Gesendete Zielgruppen, die nicht mehr aktiviert werden sollen, können gelöscht werden. Wenn Sie eine gesendete Zielgruppe löschen, wird sie aus dem Abschnitt **[!UICONTROL Gesendete Zielgruppen an]** entfernt und nicht mehr für das Ziel Ihres Mitarbeiters aktiviert.
 
-To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
+Um eine gesendete Zielgruppe zu löschen, wählen Sie das Symbol **[!UICONTROL Löschen]** aus (![Löschsymbol.](/help/assets/icons/delete.png)) neben der Audience im Abschnitt **[!UICONTROL Gesendet an]**.
 
-![The Delete option in the Sent audiences to section.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![Die Option Löschen im Abschnitt Gesendete Zielgruppen an.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-A confirmation dialog opens, asking you to confirm the deletion. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
+Ein Bestätigungsdialogfeld wird geöffnet, in dem Sie aufgefordert werden, den Löschvorgang zu bestätigen. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
 
-![The Delete confirmation dialog.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+![Bestätigungsdialog für das Löschen.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 ## Nächste Schritte {#next-steps}
 
-After activating audiences and running campaigns, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](/help/guide/collaborate/measure.md).
+Arbeiten Sie nach der Aktivierung von Zielgruppen und der Durchführung von Kampagnen mit dem Adobe-Aktivierungs- und -Engineering-Team zusammen, um Messdaten hochzuladen und die entsprechenden [Messberichte“ &#x200B;](/help/guide/collaborate/measure.md).

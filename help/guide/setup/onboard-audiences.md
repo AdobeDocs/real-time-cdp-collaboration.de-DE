@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
-ht-degree: 18%
+source-wordcount: 3753
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL 
 >
 >Nachdem Sie Ihre erste Datenverbindung hergestellt und Ihre erste Zielgruppe abgerufen haben, können Sie mehrere Zielgruppen aus der vorhandenen Datenverbindung beziehen. Beim Hinzufügen zusätzlicher Zielgruppen beginnen Sie mit dem Schritt [Zielgruppe auswählen](#select-audiences), da die Datenverbindung bereits hergestellt wurde.
 
-Eine Datenverbindung ist die Quelle, aus der Sie Zielgruppen in Collaboration aufnehmen. Zu den unterstützten Quellen gehören Adobe Experience Platform, CSV-Datei-Upload, [!DNL Amazon S3], [!DNL Snowflake] und [!DNL Google Cloud Storage] mit jeweils einem eigenen Workflow.
+Eine Datenverbindung ist die Quelle, aus der Sie Zielgruppen in Collaboration aufnehmen. Zu den unterstützten Quellen gehören Adobe Experience Platform, CSV-Datei-Upload, [!DNL Amazon S3], [!DNL Snowflake] und [!DNL Google Cloud Storage] mit jeweils einem eigenen Workflow. Adobe Audience Manager wird bald verfügbar sein.
 
 In den folgenden Abschnitten wird beschrieben, wie Sie **Adobe Experience Platform** auswählen und die Experience Platform-spezifischen Schritte (Sandbox, Governance und Einverständnis) ausführen. Wenn Sie CSV, [!DNL Amazon S3], [!DNL Snowflake] oder [!DNL Google Cloud Storage] auswählen, verwenden Sie das unter „Datenquelle auswählen[&#x200B; für &#x200B;](#select-data-source) Option verlinkte Handbuch.
 
@@ -63,7 +63,7 @@ Um mit dem Hinzufügen Ihrer Datenverbindung zu beginnen, wählen Sie **[!UICONT
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Datenquelle auswählen
+#### Datenquelle auswählen {#select-data-source}
 
 Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügbaren Quellen gehören:
 
@@ -72,12 +72,13 @@ Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügba
 * **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [&#x200B; Anleitung finden Sie &#x200B;](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
 * **Snowflake**: Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen. Weitere Informationen finden Sie [&#x200B; Handbuch  [!DNL Snowflake] Konfigurieren für die Zielgruppen-](./configure-snowflake-audience-sourcing.md)).
 * **Google Cloud-Speicher**: Stellen Sie eine Verbindung zu Ihren GCS-Buckets her, um Zielgruppendaten zu beziehen. Eine schrittweise Anleitung finden [&#x200B; im Handbuch &#x200B;](./configure-gcs-audience-sourcing.md) Konfigurieren von GCS für die Zielgruppen-Beschaffung .
+* **Adobe Audience Manager** (_in Kürze verfügbar_: Source erstellt Zielgruppensegmente aus Adobe Audience Manager.
 
 Wählen Sie Ihre Datenquelle und dann **[!UICONTROL Weiter]** aus.
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option &quot;Adobe Experience Platform&quot;.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Sandbox auswählen
+#### Sandbox auswählen {#select-sandbox}
 
 Nachdem Sie Ihre Datenquelle ausgewählt haben, müssen Sie die Sandbox auswählen, die die Zielgruppen enthält, die Sie für Collaboration verwenden möchten. Wählen Sie die Sandbox aus der Liste der verfügbaren Sandboxes aus und klicken Sie dann auf **[!UICONTROL Weiter]**
 
@@ -107,7 +108,7 @@ Nachdem Sie die Marketing-Aktionen und Einverständnisregeln ausgewählt haben, 
 
 ![Das Dialogfeld „Governance-Richtlinie“ und „Durchsetzungsaktionen“ mit hervorgehobenem Kontrollkästchen und hervorgehobener Option „OK“.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Details angeben
+### Details angeben {#provide-details}
 
 Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbindung an. Diese Informationen helfen Ihnen später bei der Identifizierung der Datenverbindung.
 
@@ -142,11 +143,9 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
 
-Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der Kontoeinrichtung ausgewählt haben.
+Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt &#x200B;](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Derzeit können Sie Datenverbindungen nicht bearbeiten, um neue Zuordnungsfelder einzuschließen. Wenn Sie Ihrem Konto neue Übereinstimmungsschlüssel hinzufügen, nachdem Ihre Datenverbindung erstellt wurde, müssen Sie eine neue Datenverbindung erstellen, um sie zuzuordnen.
+Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimmungsschlüssel ausgewählt haben, wird der [!DNL Demdex ID] automatisch aus ECID extrahiert und zugeordnet und Sie müssen keine Maßnahmen ergreifen. Weitere Informationen zu [!DNL Demdex IDs] finden Sie im [[!DNL Demdex ID]](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit der Option, Quellfelder Zielfeldern zuzuordnen.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -177,6 +176,11 @@ Um die Beschaffung eines nicht gehashten Felds in ein gehashtes Zielfeld zu vera
 Fügen Sie für jedes Zielfeld weitere Zuordnungspaare hinzu. Wenn Sie keinen Übereinstimmungsschlüssel verwenden möchten, können Sie ihn mithilfe des Löschsymbols (![Löschsymbol](/help/assets/icons/delete.png)) neben dem Feld entfernen. Wenn der Übereinstimmungsschlüssel entfernt wird, kann er nicht mehr zum Abrufen von Zielgruppen aus der Verbindung verwendet werden.
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Löschen“ neben einem Zielfeld.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+Wenn Sie ein neues Feld hinzufügen und **[!UICONTROL Demdex ID (ECID)]** als Zielfeld auswählen, wird **[!UICONTROL ECID]** automatisch als entsprechendes Quellfeld ausgewählt. Es sind keine weiteren Maßnahmen erforderlich.
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit dem ECID-Quellfeld, das automatisch dem Zielfeld „Demdex-ID (ECID)“ zugeordnet ist.](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 Wenn Sie mit dem Zuordnen von Feldern fertig sind, wählen Sie **[!UICONTROL Weiter]** aus, um fortzufahren.
 
