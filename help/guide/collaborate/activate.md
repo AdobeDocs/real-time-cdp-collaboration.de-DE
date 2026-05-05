@@ -5,9 +5,13 @@ audience: admin, publisher
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 997
@@ -21,9 +25,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Aktivieren]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Aktivieren]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [&#x200B; Verbindungsprozesses aktiviert &#x200B;](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./manage-projects.md#project-use-cases)&quot;.
 
-Mit der Zielgruppenaktivierung können Sie Zielgruppen aktivieren, um sie in Kampagnen zu verwenden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [ Mitarbeiter ](/help/guide/connect/establishing-connections.md#configure-connection-settings). Nachdem Sie [die besten Audiences für Ihre Kampagne entdeckt haben](./discover.md) aktivieren Sie die Audiences, um sie für die Verwendung verfügbar zu machen. Wenn Sie eine Zielgruppe aktivieren, wird sie an das vorkonfigurierte Ziel Ihres Mitarbeiters gesendet, z. B. an Adobe Experience Platform, wo sie für die Verwendung in Kampagnen verfügbar wird. Weitere Informationen zum Einrichten von Zielen finden Sie im Handbuch [Ziele - Übersicht](../destinations/overview.md).
+Mit der Zielgruppenaktivierung können Sie Zielgruppen aktivieren, um sie in Kampagnen zu verwenden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [&#x200B; Mitarbeiter &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings). Nachdem Sie [die besten Audiences für Ihre Kampagne entdeckt haben](./discover.md) aktivieren Sie die Audiences, um sie für die Verwendung verfügbar zu machen. Wenn Sie eine Zielgruppe aktivieren, wird sie an das vorkonfigurierte Ziel Ihres Mitarbeiters gesendet, z. B. an Adobe Experience Platform, wo sie für die Verwendung in Kampagnen verfügbar wird. Weitere Informationen zum Einrichten von Zielen finden Sie im Handbuch [Ziele - Übersicht](../destinations/overview.md).
 
 ## Neue Zielgruppen aktivieren {#activate-new-audiences}
 
@@ -129,4 +133,4 @@ Ein Bestätigungsdialogfeld wird geöffnet, in dem Sie aufgefordert werden, den 
 
 ## Nächste Schritte {#next-steps}
 
-Arbeiten Sie nach der Aktivierung von Zielgruppen und der Durchführung von Kampagnen mit dem Adobe-Aktivierungs- und -Engineering-Team zusammen, um Messdaten hochzuladen und die entsprechenden [Messberichte“ ](/help/guide/collaborate/measure.md).
+Arbeiten Sie nach der Aktivierung von Zielgruppen und der Durchführung von Kampagnen mit dem Adobe-Aktivierungs- und -Engineering-Team zusammen, um Messdaten hochzuladen und die entsprechenden [Messberichte“ &#x200B;](/help/guide/collaborate/measure.md).
