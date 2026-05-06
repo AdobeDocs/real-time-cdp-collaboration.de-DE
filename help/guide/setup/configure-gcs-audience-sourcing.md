@@ -3,9 +3,9 @@ title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 1%
 
 ---
@@ -90,6 +90,11 @@ Ein vorausgesetztes Dialogfeld, in dem die erforderlichen Konfigurationsschritte
 ![Die Voraussetzungen für die modale Auflistung „GCS-Bucket für das Onboarding vorbereiten“, einschließlich der Erstellung eines GCS-Buckets, der Konfiguration des IAM-Zugriffs für Adobe und der Einhaltung der Zielgruppen-Sourcing-Spezifikation mit den Optionen „Abbrechen“ und „Onboarding starten“.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### [!DNL Google Cloud Storage] Verbindungsdetails eingeben {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Zielgruppe aus dem Google Cloud-Speicher hinzufügen"
+>abstract="Um Ihren Google Cloud-Speicher zu verbinden, autorisieren Sie den Service-Benutzer von Adobe, Ihre Zielgruppendaten zur Verarbeitung abzurufen. Führen Sie die in Experience League beschriebenen Schritte aus, um Adobe Zugriff auf Ihren Google Cloud-Speicher zu gewähren."
 
 Geben Sie die Details an, die erforderlich sind, damit Collaboration auf Ihren [!DNL Google Cloud Storage]-Bucket zugreifen kann. Klicken Sie nach Eingabe der erforderlichen Informationen auf **[!UICONTROL Weiter]**.
 

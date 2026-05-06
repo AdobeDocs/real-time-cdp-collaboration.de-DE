@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1586'
 ht-degree: 2%
 
 ---
@@ -153,6 +153,11 @@ Wählen Sie nach Abschluss die Option **[!UICONTROL Onboarding starten]**.
 ![Bereiten Sie Ihre [!DNL Snowflake Share] für das Onboarding-Dialogfeld mit einem Link zu den Spezifikationen für die Zielgruppenbeschaffung vor.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
 ### Authentifizieren [!DNL Snowflake Share] Verbindung {#authenticate-snowflake-share-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_snowflake"
+>title="Zielgruppe aus Snowflake hinzufügen"
+>abstract="Um Ihre Snowflake-Freigabe zu verbinden, autorisieren Sie den Service-Benutzer von Adobe, Ihre Zielgruppendaten zur Verarbeitung abzurufen. Führen Sie die in Experience League beschriebenen Schritte aus, um Adobe Zugriff auf Ihre Snowflake-Freigabe zu gewähren."
 
 In diesem Schritt müssen Sie die erforderlichen [!DNL Snowflake Share]-Anmeldeinformationen angeben, um Ihre [!DNL Snowflake Share] mit Collaboration zu verbinden:
 
