@@ -3,11 +3,8 @@ title: CSV-Datei für Zielgruppen-Sourcing hochladen
 description: Erfahren Sie, wie Sie Ihre CSV-Datei als Self-Service-Datenquelle hochladen, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
@@ -35,7 +32,7 @@ Folgen Sie diesem Workflow, um eine CSV-Datei mit Ihren Zielgruppendaten in Coll
 
 Bevor Sie CSV-Dateien für die Zielgruppen-Beschaffung hochladen können, stellen Sie sicher, dass Sie Folgendes haben:
 
-* Das Onboarding eines Kontos in Real-Time CDP Collaboration wurde abgeschlossen. Eine [&#x200B; Anleitung finden Sie unter &#x200B;](./onboard-account.md) Ihres Kontos .
+* Das Onboarding eines Kontos in Real-Time CDP Collaboration wurde abgeschlossen. Eine [ Anleitung finden Sie unter ](./onboard-account.md) Ihres Kontos .
 * Die erforderlichen Berechtigungen, um Zielgruppen in Ihrer Organisation hinzuzufügen.
 * Eine CSV-Datei mit Ihren Zielgruppendaten mit Identitätsfeldern wie E-Mail oder Telefon.
 
@@ -64,7 +61,7 @@ Wählen **[!UICONTROL CSV-]**) als Datenverbindung aus, gefolgt von **[!UICONTRO
 >title="Zielgruppe aus CSV-Dateien hinzufügen"
 >abstract="Laden Sie eine CSV-Datei von Ihrem Computer hoch, um Ihre Zielgruppen in Real-Time CDP Collaboration zu beziehen."
 
-Wählen Sie **[!UICONTROL Vom Computer auswählen]**, um eine CSV-Datei von Ihrem lokalen System hochzuladen. Alternativ können Sie die CSV-Datei, die Sie hochladen möchten, per Drag-and-Drop in das Bedienfeld [!UICONTROL CSV-Datei per Drag-and-Drop &#x200B;]&quot; ziehen.
+Wählen Sie **[!UICONTROL Vom Computer auswählen]**, um eine CSV-Datei von Ihrem lokalen System hochzuladen. Alternativ können Sie die CSV-Datei, die Sie hochladen möchten, per Drag-and-Drop in das Bedienfeld [!UICONTROL CSV-Datei per Drag-and-Drop ]&quot; ziehen.
 
 >[!IMPORTANT]
 >
