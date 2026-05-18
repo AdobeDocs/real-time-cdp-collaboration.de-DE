@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -282,7 +282,7 @@ Um Advertiser-Namen hinzuzufügen, wählen **[!UICONTROL Bearbeiten]** im Abschn
 
 Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
 
-Beim Erstellen eines Projekts wird der Advertiser-Name basierend auf den folgenden Einstellungen, die während der Verbindung festgelegt wurden, vorbefüllt    :
+Beim Erstellen eines Projekts wird der Advertiser-Name basierend auf den folgenden Einstellungen, die während der Verbindung festgelegt wurden, vorbefüllt:
 
 1. **Kein Advertiser-Name festgelegt**: Wenn keine Advertiser-Namen hinzugefügt werden, verwendet Collaboration standardmäßig den Namen des Advertisers als Advertiser-Namen.
 2. **Ein Werbekunden-Name festgelegt**: Wenn ein einzelner Werbekunden-Name hinzugefügt wird, verwendet Collaboration diesen Namen automatisch als Werbekunden-Name für das Projekt.
@@ -333,12 +333,12 @@ Bevor Sie den Einladungsprozess starten, erfassen Sie die folgenden Informatione
 >
 >Indem Sie einen anderen Mitarbeiter einladen, erkennen Sie an, dass Sie für alle Kosten verantwortlich sind, die durch seine Aktivitäten entstehen. Weitere Informationen über [Kreditverwendung und -nutzung“ finden Sie in Collaboration Starter](../setup/starter-credit-usage.md)
 
-### Einladung senden {#send-invitation}
+### Senden einer Einladung {#send-invitation}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Mitwirkende Person einladen"
->abstract="Füllen Sie dieses Formular aus, um Ihre Partnerorganisation zu Collaboration Starter einzuladen. Der Einladende erhält eine Einladungs-E-Mail und muss die angegebene E-Mail-Adresse verwenden, um die Registrierung abzuschließen."
+>abstract="Füllen Sie dieses Formular aus, um Ihre Partnerorganisation zu Collaboration Starter einzuladen. Die eingeladene Person erhält eine Einladungs-E-Mail und muss die angegebene E-Mail-Adresse verwenden, um die Registrierung abzuschließen."
 >additional-url="https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Weitere Informationen zu Collaboration Starter"
 
 Laden Sie Ihre Partnerorganisation ein, dem Collaboration-[!DNL Starter] direkt über die Benutzeroberfläche beizutreten.

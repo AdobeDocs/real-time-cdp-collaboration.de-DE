@@ -6,7 +6,7 @@ badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informati
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -73,13 +73,13 @@ Der Workflow „Zielgruppe hinzufügen“ wird angezeigt. Wählen Sie **[!UICONT
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### [!DNL Google Cloud Storage] als Datenquelle auswählen {#select-gcs}
+### Auswählen von [!DNL Google Cloud Storage] als Datenquelle {#select-gcs}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Daten für das Onboarding vorbereiten"
->abstract="Lesen Sie das Handbuch zur Zielgruppen-Beschaffungsspezifikation , um zu erfahren, wie Sie Zielgruppendaten aus dem Google Cloud-Speicher für Collaboration formatieren und strukturieren."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch zur Zielgruppen-Beschaffung"
+>abstract="Lesen Sie das Handbuch zur Spezifikation der Zielgruppenerfassung, um zu erfahren, wie Sie Zielgruppendaten aus Google Cloud Storage für Collaboration formatieren und strukturieren."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe das Handbuch zur Spezifikation der Zielgruppenerfassung"
 
 Im Bildschirm zur Auswahl der Datenquelle werden alle verfügbaren Verbindungstypen aufgelistet. Wählen Sie **[!UICONTROL Google Cloud Storage]** und dann **[!UICONTROL Weiter]** aus.
 

@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -138,12 +138,12 @@ Wählen Sie als Nächstes **[!UICONTROL Snowflake]** als Datenverbindung aus, ge
 
 ![Der Bildschirm zur Auswahl der Datenverbindung mit [!DNL Snowflake] als auswählbare Option.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
-### Audience-Datei überprüfen {#review-audience-file}
+### Überprüfen der Zielgruppendatei {#review-audience-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
 >title="Daten für das Onboarding vorbereiten"
->abstract="Lesen Sie das Handbuch zur Spezifikation für die Zielgruppenbeschaffung , um zu erfahren, wie Sie Zielgruppendaten aus Snowflake für Collaboration formatieren und strukturieren."
+>abstract="Lesen Sie das Handbuch zur Spezifikation der Zielgruppenerfassung, um zu erfahren, wie Sie Zielgruppendaten aus Snowflake für Collaboration formatieren und strukturieren."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
 Es wird ein Dialogfeld angezeigt, in dem die Anforderungen der [!DNL Snowflake Share] und der [!DNL Snowflake] Zielgruppendatei erläutert werden, bevor Sie mit der Beschaffung beginnen können. Stellen Sie sicher, dass Ihr [!DNL Snowflake Share] mit dem richtigen Freigabenamen, der richtigen Kontokennung, dem richtigen Schema und der richtigen Ansicht erstellt wird. Um sicherzustellen, dass Ihre Zielgruppendaten für die Verwendung in Collaboration korrekt formatiert und strukturiert sind, lesen Sie das Handbuch **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.

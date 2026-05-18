@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -77,13 +77,13 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Personen-IDs"
->abstract="Personen-IDs wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
+>title="Personenbezogene IDs"
+>abstract="Personenbezogene IDs wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Geräte-IDs"
->abstract="Geräte-IDs wie ECID- oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können."
+>abstract="Geräte-IDs wie ECID oder IP-Adressen sind direkt mit Geräten verbunden, die möglicherweise von mehreren Personen gemeinsam genutzt werden können."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -92,7 +92,7 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 
 In der folgenden Tabelle werden die unterstützten Übereinstimmungsschlüssel in Collaboration angezeigt:
 
-| Personen-IDs | Geräte-IDs | Partner-IDs |
+| Personenbezogene IDs | Geräte-IDs | Partner-IDs |
 | ------------- | ------------- | ------------- |
 | [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
 | [!DNL Hashed phone] | [!DNL IDFA] | |
@@ -118,7 +118,7 @@ Collaboration unterstützt drei Arten von Übereinstimmungsschlüsseln: Personen
 * Wenn Sie Hash-Werte mit Großbuchstaben angeben, wandelt Collaboration diese automatisch in Kleinbuchstaben um.
 * Wenn Ihre Quelle **Klartext-IDs** enthält, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]** während Ihrer [Datenverbindungseinrichtung](./manage-data-connection.md#match-keys), um Hashing anzuwenden. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
 
-##### Personen-IDs
+##### Personenbezogene IDs
 
 Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstützte IDs sind:
 
