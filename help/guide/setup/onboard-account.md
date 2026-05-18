@@ -2,19 +2,15 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -77,13 +73,13 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Personen-IDs"
->abstract="Personen-IDs wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
+>title="Personenbezogene IDs"
+>abstract="Personenbezogene IDs wie Hash-E-Mail-Adressen, Hash-Telefonnummern oder CRM-IDs sind direkt mit einem einzelnen Profil verbunden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Geräte-IDs"
->abstract="Geräte-IDs wie ECID- oder IP-Adressen sind direkt mit Geräten verbunden, die von mehreren Personen gemeinsam genutzt werden können."
+>abstract="Geräte-IDs wie ECID oder IP-Adressen sind direkt mit Geräten verbunden, die möglicherweise von mehreren Personen gemeinsam genutzt werden können."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -92,7 +88,7 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 
 In der folgenden Tabelle werden die unterstützten Übereinstimmungsschlüssel in Collaboration angezeigt:
 
-| Personen-IDs | Geräte-IDs | Partner-IDs |
+| Personenbezogene IDs | Geräte-IDs | Partner-IDs |
 | ------------- | ------------- | ------------- |
 | [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
 | [!DNL Hashed phone] | [!DNL IDFA] | |
@@ -105,7 +101,7 @@ In der folgenden Tabelle werden die unterstützten Übereinstimmungsschlüssel i
 >
 >Die Übereinstimmungsschlüssel, die Sie während der Kontoeinrichtung auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel innerhalb Ihrer Verbindungen. Während Sie [unerwünschte Übereinstimmungsschlüssel entfernen](../connect/establishing-connections.md#connection-settings) während der Verbindungseinrichtung können Übereinstimmungsschlüssel nicht hinzugefügt werden, nachdem eine Verbindung hergestellt wurde. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
 
-Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [&#x200B; Felder &#x200B;](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
+Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [ Felder ](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abstimmen der Zielgruppenprofile verwenden möchten. Planen Sie für die Zukunft und fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten können und die Sie in zukünftigen Kampagnen voraussichtlich verwenden werden. Wenn Sie zu einem späteren Zeitpunkt zusätzliche Übereinstimmungsschlüssel für Ihr Konto auswählen müssen, können Sie dies im Workflow [Konto bearbeiten](#edit-account) tun. Übereinstimmungsschlüssel, die nach der Ersteinrichtung hinzugefügt wurden, stehen jedoch nicht zur Verwendung in vorhandenen Verbindungen zur Verfügung.
 
@@ -118,7 +114,7 @@ Collaboration unterstützt drei Arten von Übereinstimmungsschlüsseln: Personen
 * Wenn Sie Hash-Werte mit Großbuchstaben angeben, wandelt Collaboration diese automatisch in Kleinbuchstaben um.
 * Wenn Ihre Quelle **Klartext-IDs** enthält, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]** während Ihrer [Datenverbindungseinrichtung](./manage-data-connection.md#match-keys), um Hashing anzuwenden. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
 
-##### Personen-IDs
+##### Personenbezogene IDs
 
 Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstützte IDs sind:
 
