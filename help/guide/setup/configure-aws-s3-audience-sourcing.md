@@ -2,7 +2,7 @@
 title: Konfigurieren  [!DNL Amazon S3]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Ihren - [!DNL Amazon S3]  als Self-Service-Datenquelle konfigurieren und verbinden können, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 8%
@@ -28,7 +28,7 @@ Zielgruppen, die über S3 bezogen werden, folgen denselben Governance- und Daten
 
 Stellen Sie vor dem Konfigurieren Ihrer S3-Datenverbindung Folgendes sicher:
 
-* Sie haben Zugriff auf einen aktiven **[!DNL Amazon S3]-Bucket** der Zielgruppendateien enthält, die der **[Zielgruppen-Beschaffungsspezifikation (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+* Sie haben Zugriff auf einen aktiven **[!DNL Amazon S3]-Bucket** der Zielgruppendateien enthält, die der **[Zielgruppen-Beschaffungsspezifikation (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 * Sie haben eine **IAM-Rolle** in AWS erstellt, die Adobe die Berechtigung zum Zugriff auf Ihren Bucket mithilfe der Methode **Angenommene Rolle** (keine Zugriffs-/Geheimschlüssel) gewährt. Detaillierte **[finden Sie unter „Konfigurieren von AWS](./configure-aws-permissions-audience-sourcing.md)** Berechtigungen für die Zielgruppen-Beschaffung“. Die IAM-Rolle muss die folgenden Berechtigungen enthalten:
 
    * `ListBucket`
@@ -71,7 +71,7 @@ Wählen Sie **[!UICONTROL Amazon S3]** als Datenverbindung aus, gefolgt von **[!
 >abstract="Lesen Sie das Handbuch zur Spezifikation der Zielgruppenerfassung, um zu erfahren, wie Sie Zielgruppendaten aus Amazon S3 für Collaboration formatieren und strukturieren."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
-Es wird ein Dialogfeld angezeigt, in dem erläutert wird, wie Ihre Zielgruppendateien strukturiert sein müssen. Verwenden Sie den Link zur **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**, um zu erfahren, wie Sie Zielgruppendaten aus [!DNL Amazon S3] formatieren und strukturieren, damit sie von Collaboration korrekt gelesen werden können.
+Es wird ein Dialogfeld angezeigt, in dem erläutert wird, wie Ihre Zielgruppendateien strukturiert sein müssen. Verwenden Sie den Link zur **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**, um zu erfahren, wie Sie Zielgruppendaten aus [!DNL Amazon S3] formatieren und strukturieren, damit sie von Collaboration korrekt gelesen werden können.
 
 >[!IMPORTANT]
 >
@@ -198,7 +198,7 @@ Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
-Weitere Informationen finden [&#x200B; in der &#x200B;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
+Weitere Informationen finden [ in der ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
 
 ## Anzeigen der S3-Datenverbindung {#view-s3-connection}
 

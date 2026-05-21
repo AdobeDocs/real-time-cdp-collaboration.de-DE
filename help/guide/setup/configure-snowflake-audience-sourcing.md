@@ -2,9 +2,9 @@
 title: Konfigurieren  [!DNL Snowflake]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-a-Self-Service-Datenquelle konfigurieren und verbinden, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Bevor Sie Ihre [!DNL Snowflake]-Verbindung konfigurieren, stellen Sie sicher, da
    * **Schema**
    * **Ansicht**
 
-* Die Zielgruppendaten in Ihrem [!DNL Snowflake Secure Data Share] müssen die Formatanforderungen erfüllen, die im Handbuch [Zielgruppen-Beschaffung (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)beschrieben sind.
+* Die Zielgruppendaten in Ihrem [!DNL Snowflake Secure Data Share] müssen die Formatanforderungen erfüllen, die im Handbuch [Zielgruppen-Beschaffungsspezifikation (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)beschrieben sind.
 * Alle Übereinstimmungsschlüssel in Ihrer [!DNL Snowflake] Zielgruppendatei müssen auch für Ihr Collaboration-Konto aktiviert werden. Erfahren Sie, wie [Übereinstimmungsschlüssel aktivieren](./onboard-account.md#set-up-match-keys) oder [neue Übereinstimmungsschlüssel hinzufügen](./onboard-account.md#edit-match-keys) zu Ihrem Konto hinzufügen.
 
 ## Einrichten von [!DNL Snowflake] {#setup-snowflake-permissions}
@@ -46,7 +46,7 @@ Bevor Sie fortfahren, stellen Sie Folgendes sicher:
 * Ihr [!DNL Snowflake]-Konto hat private Listeneinträge abonniert. Sie benötigen Administratorrechte für Snowflake, um die erforderlichen Berechtigungen zu konfigurieren.
 * Sie kennen den Cloud-Anbieter und die Region Ihres [!DNL Snowflake]-Kontos.
 
-Weitere Informationen zu den [[!DNL Snowflake]  Berechtigungen finden &#x200B;](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing) in der Dokumentation .
+Weitere Informationen zu den [[!DNL Snowflake]  Berechtigungen finden ](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing) in der Dokumentation .
 
 ### Erfassen von [!DNL Snowflake]-Kontoinformationen von Adobe {#collect-account-information}
 
@@ -120,7 +120,7 @@ Sammeln Sie abschließend die Details für Ihre [!DNL Snowflake Share], wie in d
 
 ## Konfigurieren der [!DNL Snowflake] {#configure-snowflake-connection}
 
-Nachdem Sie die [Snowflake-Berechtigungskonfiguration abgeschlossen &#x200B;](#set-up-snowflake-permissions) und sichergestellt haben[&#x200B; dass alle &#x200B;](#prerequisites) erfüllt sind, können Sie Ihre [!DNL Snowflake Secure Data Share] jetzt mit Collaboration verbinden, um mit der Beschaffung Ihrer Zielgruppen zu beginnen.
+Nachdem Sie die [Snowflake-Berechtigungskonfiguration abgeschlossen ](#set-up-snowflake-permissions) und sichergestellt haben[ dass alle ](#prerequisites) erfüllt sind, können Sie Ihre [!DNL Snowflake Secure Data Share] jetzt mit Collaboration verbinden, um mit der Beschaffung Ihrer Zielgruppen zu beginnen.
 
 Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL Setup]**-Arbeitsbereich das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Audience]** aus.
 
@@ -146,7 +146,7 @@ Wählen Sie als Nächstes **[!UICONTROL Snowflake]** als Datenverbindung aus, ge
 >abstract="Lesen Sie das Handbuch zur Spezifikation der Zielgruppenerfassung, um zu erfahren, wie Sie Zielgruppendaten aus Snowflake für Collaboration formatieren und strukturieren."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
-Es wird ein Dialogfeld angezeigt, in dem die Anforderungen der [!DNL Snowflake Share] und der [!DNL Snowflake] Zielgruppendatei erläutert werden, bevor Sie mit der Beschaffung beginnen können. Stellen Sie sicher, dass Ihr [!DNL Snowflake Share] mit dem richtigen Freigabenamen, der richtigen Kontokennung, dem richtigen Schema und der richtigen Ansicht erstellt wird. Um sicherzustellen, dass Ihre Zielgruppendaten für die Verwendung in Collaboration korrekt formatiert und strukturiert sind, lesen Sie das Handbuch **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+Es wird ein Dialogfeld angezeigt, in dem die Anforderungen der [!DNL Snowflake Share] und der [!DNL Snowflake] Zielgruppendatei erläutert werden, bevor Sie mit der Beschaffung beginnen können. Stellen Sie sicher, dass Ihr [!DNL Snowflake Share] mit dem richtigen Freigabenamen, der richtigen Kontokennung, dem richtigen Schema und der richtigen Ansicht erstellt wird. Um sicherzustellen, dass Ihre Zielgruppendaten für die Verwendung in Collaboration korrekt formatiert und strukturiert sind, lesen Sie das Handbuch **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 
 Wählen Sie nach Abschluss die Option **[!UICONTROL Onboarding starten]**.
 
@@ -186,7 +186,7 @@ Geben **[!UICONTROL in der Ansicht]** Details angeben) einen beschreibenden Name
 
 ### Zuordnen von Feldern {#map-fields}
 
-Der **[!UICONTROL Zuordnungsbildschirm]** ist derzeit schreibgeschützt. Sie können keine Umwandlungen hinzufügen, löschen oder anwenden. Collaboration ordnet Quell-Identitätsfelder aus Ihren [!DNL Snowflake Share] automatisch Zielfeldern zu, basierend auf der **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+Der **[!UICONTROL Zuordnungsbildschirm]** ist derzeit schreibgeschützt. Sie können keine Umwandlungen hinzufügen, löschen oder anwenden. Collaboration ordnet Quell-Identitätsfelder aus Ihren [!DNL Snowflake Share] automatisch Zielfeldern zu, basierend auf der **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 
 Bestätigen Sie die zugeordneten Felder visuell und wählen Sie **[!UICONTROL Weiter]** aus, um fortzufahren. Sie können mit der Option **[!UICONTROL Vorschau der Quelldaten“ auch eine Vorschau]** Beispieldaten aus Ihrer [!DNL Snowflake Share] anzeigen.
 
@@ -240,7 +240,7 @@ Nach Abschluss der Beschaffung stehen Ihre Zielgruppen auf der Registerkarte **[
 
 ![Registerkarte „Meine Zielgruppen“ zeigt in der Tabellenansicht eine Liste der Zielgruppen der Quelle an.](../../assets/setup/snowflake-audience-sourcing/snowflake-audience-list.png)
 
-Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für **[!UICONTROL Identitäten]**, **[!UICONTROL Kategorien]**, **[!UICONTROL Verbindungszugriff]** und **[!UICONTROL Metadatensichtbarkeit]**. Weitere [&#x200B; finden Sie unter „Anzeigen einer einzelnen &#x200B;](./onboard-audiences.md#view-individual-audiences)&quot;.
+Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[!UICONTROL Zielgruppe anzeigen]**, um eine Übersicht über eine bestimmte Zielgruppe zu erhalten. Darin werden der Status, die Quelle und der Name der Datenverbindung der Zielgruppe zusammen mit detaillierten Bedienfeldern für **[!UICONTROL Identitäten]**, **[!UICONTROL Kategorien]**, **[!UICONTROL Verbindungszugriff]** und **[!UICONTROL Metadatensichtbarkeit]**. Weitere [ finden Sie unter „Anzeigen einer einzelnen ](./onboard-audiences.md#view-individual-audiences)&quot;.
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
