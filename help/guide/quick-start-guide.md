@@ -1,5 +1,5 @@
 ---
-title: Real-Time CDP Collaboration Quick Start & Setup Guide
+title: Schnellstart- und Einrichtungshandbuch für Real-Time CDP Collaboration
 description: Erfahren Sie, wie Sie Real-Time CDP Collaboration einrichten, Rollen und Konten konfigurieren, Zielgruppen identifizieren, Daten aktivieren und eine sichere Verbindung mit Partnern herstellen können.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
@@ -16,56 +16,56 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 2%
 
 ---
 
-# Real-Time CDP Collaboration quick start guide
+# Real-Time CDP Collaboration-Schnellstartanleitung
 
 {{limited-availability-release-note}}
 
-Get started with Real-Time CDP Collaboration by configuring your organization, sourcing audiences, and enabling privacy-focused activation and measurement.
+Beginnen Sie mit Real-Time CDP Collaboration, indem Sie Ihr Unternehmen konfigurieren, Zielgruppen finden und eine datenschutzorientierte Aktivierung und Messung aktivieren.
 
 ## Voraussetzungen
 
-Before you begin, ensure you have the following:
+Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
-- An active Real-Time CDP Collaboration license.
-- [System or product administrator access to Adobe Experience Platform](./permissions/overview.md).
-- [Access provisioned for end users](./permissions/manage-user-access.md).
-- [Roles created for your organization and assigned to users](./permissions/manage-roles.md).
-- Access to branding assets, such as your organization&#39;s name, logo, and banner.
-- A [defined match key strategy](./setup/onboard-account.md#set-up-match-keys)
-- (Optional) Access to a supported cloud source (Amazon S3, Google Cloud Storage, or Snowflake) if you&#39;re not using Experience Platform for audience management.
+- Eine aktive Real-Time CDP Collaboration-Lizenz.
+- [System- oder Produktadministratorzugriff auf Adobe Experience Platform](./permissions/overview.md).
+- [Zugriff für Endbenutzer bereitgestellt](./permissions/manage-user-access.md).
+- [Für Ihr Unternehmen erstellte und Benutzern zugewiesene Rollen](./permissions/manage-roles.md).
+- Zugriff auf Branding-Assets, z. B. Name, Logo und Banner Ihres Unternehmens.
+- Eine [definierte Schlüsselstrategie für Übereinstimmungen](./setup/onboard-account.md#set-up-match-keys)
+- (Optional) Zugriff auf eine unterstützte Cloud-Quelle (Amazon S3, Google Cloud Storage oder Snowflake), wenn Sie Experience Platform nicht für die Zielgruppenverwaltung verwenden.
 
-## Step 1: Complete role-based setup {#complete-role-based-setup}
+## Schritt 1: Rollenbasierte Einrichtung abschließen {#complete-role-based-setup}
 
-Your organization&#39;s access roles determine what users can see and do in Collaboration. Before proceeding, make sure role-based permissions are set up correctly to ensure appropriate access and visibility in the platform.
+Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration sehen und tun können. Bevor Sie fortfahren, stellen Sie sicher, dass rollenbasierte Berechtigungen korrekt eingerichtet sind, um den entsprechenden Zugriff und die Sichtbarkeit in der Plattform sicherzustellen.
 
-**Resources:**
+**Ressourcen:**
 
-- [User Access Documentation](./permissions/manage-user-access.md)
-- [Role Setup Documentation](./permissions/manage-roles.md)
+- [Dokumentation zum Benutzerzugriff](./permissions/manage-user-access.md)
+- [Dokumentation zur Rolleneinrichtung](./permissions/manage-roles.md)
 
 
-Watch this video to learn how to assign product access and permissions for Collaboration using the Admin Console and Experience Platform.
+Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration mithilfe von Admin Console und Experience Platform zuweisen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452239/?captions=ger&learn=on&enablevpops)
 
-## Step 2: Set up your Collaboration account {#set-up-your-account}
+## Schritt 2: Einrichten des Collaboration-Kontos {#set-up-your-account}
 
-Before you can source audiences, you must configure your account in Collaboration. This governs how you appear and what you have access to in the interface.
+Bevor Sie Zielgruppen beziehen können, müssen Sie Ihr -Konto in Collaboration konfigurieren. Dies legt fest, wie Sie in der Benutzeroberfläche angezeigt werden und worauf Sie Zugriff haben.
 
-If you don&#39;t have the necessary access, please refer back to step 1 or contact your organization&#39;s administrator for help completing this setup.
+Wenn Sie nicht über den erforderlichen Zugriff verfügen, gehen Sie zurück zu Schritt 1 oder wenden Sie sich an den Administrator Ihrer Organisation, um Hilfe beim Durchführen dieser Einrichtung zu erhalten.
 
-Define your account&#39;s role in Collaboration, provide branding assets, and configure match keys to align audiences across connections.
+Definieren Sie die Rolle Ihres Kontos in Collaboration, stellen Sie Branding-Assets bereit und konfigurieren Sie Übereinstimmungsschlüssel, um Zielgruppen über Verbindungen hinweg auszurichten.
 
 >[!NOTE]
 >
->You can create one or more accounts (such as advertiser and a publisher) during setup. Bestimmte Felder wie Branding-Assets und Kontakt-E-Mails können später im Arbeitsbereich **[!UICONTROL Einstellungen]** aktualisiert werden.
+>Sie können während der Einrichtung ein oder mehrere Konten erstellen (z. B. einen Advertiser und einen Publisher). Bestimmte Felder wie Branding-Assets und Kontakt-E-Mails können später im Arbeitsbereich **[!UICONTROL Einstellungen]** aktualisiert werden.
 
 - **Rolle zuweisen** - Bestimmt, ob Ihr Konto ein Advertiser oder ein Publisher ist. Ihre Rolle definiert, welche Funktionen Sie in Collaboration haben. Weitere Informationen dazu, wie sich Rollen auf den Workflow für die Zusammenarbeit auswirken, finden Sie im Handbuch [Rollen](./overview/roles.md) .
 - **Branding-**: Fügen Sie Ihrem Konto Folgendes hinzu:
@@ -101,79 +101,79 @@ Konfigurieren Sie, wie Zielgruppen für die Verwendung in Verbindungen vorbereit
 - **Zielgruppen auswählen** *(nur Experience Platform)* - Zielgruppensegmente mit unterstützten Kennungen auswählen.
 - **Übereinstimmungsschlüssel zuordnen**: Die Zielgruppenfelder werden an den konfigurierten Übereinstimmungsschlüsseln ausgerichtet.
 - **Umwandlungen anwenden** - Nur-Text-Werte (z. B. E-Mail) bei Bedarf hashen.
-- **Schedule refreshes** – Define update frequency (for example, daily).
-- **Configure consent settings** – Determine which profiles are eligible to be included in connections by selecting a consent mode: opt-in, opt-out, or none.
+- **Aktualisierungen planen** - Definieren der Aktualisierungshäufigkeit (z. B. täglich).
+- **Einverständniseinstellungen konfigurieren** - Bestimmen Sie, welche Profile für die Aufnahme in Verbindungen infrage kommen, indem Sie einen Einverständnismodus auswählen: Opt-in, Opt-out oder Ohne.
 
 >[!NOTE]
 >
->You can add or remove audiences and update the refresh schedule directly in Collaboration. To change other settings, such as match keys or consent mode, you must delete and recreate the data connection.
+>Sie können Zielgruppen hinzufügen oder entfernen und den Aktualisierungszeitplan direkt in Collaboration aktualisieren. Um andere Einstellungen wie Übereinstimmungsschlüssel oder Einverständnismodus zu ändern, müssen Sie die Datenverbindung löschen und neu erstellen.
 
 >[!IMPORTANT]
 >
->**Maximum number of audiences per collaborator role:**
+>**Maximale Anzahl von Zielgruppen pro Rolle des Mitarbeiters:**
 >
->- **Advertisers** can source up to 25 audiences.
->- **Publishers** can source up to 250 audiences (each with a minimum of 1,000 IDs).
+>- **Werbetreibende** können bis zu 25 Zielgruppen beziehen.
+>- **Publisher** können bis zu 250 Zielgruppen (mit jeweils mindestens 1.000 IDs) beschaffen.
 
 >[!IMPORTANT]
 >
->**Match key requirements:**
+>**Wesentliche Anforderungen erfüllen:**
 >
->All match keys must be **trimmed**, **lowercased**
+>Alle Übereinstimmungsschlüssel müssen **gekürzt**, **kleingeschrieben) sein**
 >Hash-Übereinstimmungsschlüssel müssen **SHA256-hashed** sein.\
 >Wenn Sie Hash-Werte mit Großbuchstaben angeben, wandelt Collaboration diese automatisch in Kleinbuchstaben um.\
->If your source contains **plaintext identifiers**, use the **[!UICONTROL Apply transformation]** option to apply hashing. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
+>Wenn Ihre Quelle (**)** enthält, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]** zum Anwenden von Hashing. Diese Option ist nur verfügbar, wenn Zielgruppen aus Experience Platform bezogen werden, und wird für Cloud-basierte Quellen nicht unterstützt.
 >
->For more information, see the [map fields](./setup/onboard-audiences.md#map-fields) section of the source and manage audiences guide.
+>Weitere Informationen finden Sie im Abschnitt [Zuordnungsfelder](./setup/onboard-audiences.md#map-fields) des Handbuchs für die Quell- und Zielgruppenverwaltung.
 
-To see a full walkthrough of how to source audiences using Collaboration, watch the video below.
+Sehen Sie sich das folgende Video an, um eine vollständige exemplarische Vorgehensweise zur Quelle von Zielgruppen mit Collaboration anzuzeigen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternatively, see the document on [sourcing audiences in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
+Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppen in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
-### Option B: Source from Snowflake, Amazon S3, or Google Cloud Storage
+### Option B: Source aus Snowflake, Amazon S3 oder Google Cloud-Speicher
 
-To configure a cloud source, such as [!DNL Snowflake], [!DNL Amazon S3], or [!DNL Google Cloud Storage], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
+Um eine Cloud-Quelle wie [!DNL Snowflake], [!DNL Amazon S3] oder [!DNL Google Cloud Storage] zu konfigurieren, bereiten Sie Ihre Zielgruppendaten mit der [Zielgruppenspezifikations-PDF&quot; &#x200B;](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)
 
-You can configure [!DNL Amazon S3], [!DNL Google Cloud Storage], or [!DNL Snowflake] as self-service data sources. For setup instructions, see the [Amazon S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md), the [GCS sourcing guide](./setup/configure-gcs-audience-sourcing.md), or the [Snowflake sourcing guide](./setup/configure-snowflake-audience-sourcing.md).
+Sie können [!DNL Amazon S3], [!DNL Google Cloud Storage] oder [!DNL Snowflake] als Self-Service-Datenquellen konfigurieren. Setup-Anweisungen finden Sie im [Amazon S3-](./setup/configure-aws-s3-audience-sourcing.md), im [GCS-](./setup/configure-gcs-audience-sourcing.md) oder im [Snowflake-Beschaffungshandbuch](./setup/configure-snowflake-audience-sourcing.md).
 
-For other cloud service providers, contact your Adobe account representative to finalize the setup.
-
->[!IMPORTANT]
->
->Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. Files must include hashed identifiers (lowercased SHA256), required metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience&#39;s lifespan.
->
->All audiences in the uploaded file are fully sourced at this stage. The [audience visibility setting](/help/guide/setup/onboard-audiences.md#metadata-visibility) determines whether your collaborators can view your audience and is managed through the Collaboration UI.
-
-## Step 4: Activate audiences (to Experience Platform or a cloud destination) {#activate-audiences}
-
-Next, activate audiences to either your Experience Platform instance or a cloud destination.
-
-### Option A: Activate to Experience Platform
-
-Complete the following steps outlined in the [configure Adobe Experience Platform as a destination](/help/guide/destinations/experience-platform.md) guide.
-
-- **Create a destination** – Use the UI to set up an Experience Platform destination (sandbox-level).
-- **Map match keys** – Select the identifier (e.g., `hashedEmail`).
-- **Define TTL** – Set expiration (1–30 days).
-- **Verify in Audience Portal** – Once a collaborator sends you an audience, verify that it appears in the Audience Portal under the origin &quot;[!UICONTROL Real-Time CDP Collaboration].&quot;
-
-### Option B: Activate to cloud
-
-To configure a cloud destination (for example, [!DNL AWS S3] or [!DNL Snowflake]), contact your Adobe account representative to initiate the setup process. Depending on the cloud destination, you will need to provide cloud destination details such as file path, credentials, account locators etc. Once required information is provided, Adobe will configure the cloud destination setup.
-
-Audience data sent to a cloud destination follows a predefined schema. For a detailed description of the required fields and format, download the [Collaboration Audience Activation Guide](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
-
-## Step 5: Set up measurement (optional) {#set-up-measurement}
+Wenden Sie sich für andere Cloud Service-Anbieter an Ihren Adobe-Kundenbetreuer, um die Einrichtung abzuschließen.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Measure]** workspace is only available if the **[!UICONTROL Measurement]** use case was enabled [during the connection process](./connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./collaborate/manage-projects.md#project-use-cases)&quot;.
+>Cloud-basierte Zielgruppendateien müssen dem erforderlichen Schema entsprechen, das in der PDF für Zielgruppenspezifikationen beschrieben ist. Dateien müssen Hash-Kennungen (kleinbuchstabierte SHA256), erforderliche Metadatenfelder wie `segment_name` und `activation_id` enthalten und unterstützte Formate wie CSV oder Parquet verwenden. Adobe normalisiert Daten nicht vor der Aktivierung. TTL wird basierend auf der Lebensdauer der Zielgruppe erzwungen.
+>
+>Alle Zielgruppen in der hochgeladenen Datei werden zu diesem Zeitpunkt vollständig bezogen. Die [Einstellung für die Zielgruppensichtbarkeit](/help/guide/setup/onboard-audiences.md#metadata-visibility) bestimmt, ob Ihre Mitarbeiter Ihre Zielgruppe anzeigen können, und wird über die Collaboration-Benutzeroberfläche verwaltet.
 
-Collaboration offers a variety of reports to analyze campaign reach, frequency, and effectiveness. While the **[!UICONTROL Measure]** workspace is available in the UI, full reporting functionality may require backend enablement.
+## Schritt 4: Aktivieren von Zielgruppen (für Experience Platform oder ein Cloud-Ziel) {#activate-audiences}
 
-To learn how to view and interpret measurement reports, see the [Measurement guide](./collaborate/measure.md). It covers attribution, campaign summary metrics, and dashboards such as reach curves and frequency distribution.
+Aktivieren Sie als Nächstes Zielgruppen entweder für Ihre Experience Platform-Instanz oder für ein Cloud-Ziel.
+
+### Option A: Für Experience Platform aktivieren
+
+Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe Experience Platform als Ziel](/help/guide/destinations/experience-platform.md) beschrieben sind.
+
+- **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
+- **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
+- **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+
+### Option B: Für Cloud aktivieren
+
+Um ein Cloud-Ziel zu konfigurieren (z. B. [!DNL AWS S3] oder [!DNL Snowflake]), wenden Sie sich an Ihren Adobe-Kundenbetreuer, um den Einrichtungsprozess zu starten. Je nach Cloud-Ziel müssen Sie Cloud-Zieldetails wie Dateipfad, Anmeldeinformationen, Konto-Locators usw. angeben. Sobald die erforderlichen Informationen bereitgestellt wurden, konfiguriert Adobe das Cloud-Ziel-Setup.
+
+Zielgruppendaten, die an ein Cloud-Ziel gesendet werden, folgen einem vordefinierten Schema. Eine ausführliche Beschreibung der erforderlichen Felder und des Formats finden Sie im [Collaboration Audience Activation-Handbuch](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
+
+## Schritt 5: Einrichten der Messung (optional) {#set-up-measurement}
+
+>[!IMPORTANT]
+>
+>Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **[!UICONTROL Measurement]**-Anwendungsfall [während des Verbindungsprozesses](./connect/establishing-connections.md#connection-settings) aktiviert wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./collaborate/manage-projects.md#project-use-cases)&quot;.
+
+Collaboration bietet eine Vielzahl von Berichten zur Analyse der Reichweite, Häufigkeit und Effektivität von Kampagnen. Der Arbeitsbereich **[!UICONTROL Kennzahlen]** ist zwar in der Benutzeroberfläche verfügbar, die vollständige Reporting-Funktionalität erfordert jedoch möglicherweise eine Backend-Aktivierung.
+
+Informationen zum Anzeigen und Interpretieren von Messberichten finden Sie im [Messhandbuch](./collaborate/measure.md). Es behandelt Attribution, zusammengefasste Kampagnenmetriken und Dashboards wie Reichweitenkurven und Häufigkeitsverteilung.
 
 <!-- 
 Commenting out the below information as this workflow is not yet in Beta but will be imminently. A guided measurement configuration workflow will be available in a future release."
@@ -224,9 +224,9 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Submit the report. It will run on the selected date and populate within 24 hours. 
 -->
 
-## Step 6: Connect with collaborators {#connect-with-collaborators}
+## Schritt 6: Vernetzung mit Partnern {#connect-with-collaborators}
 
-With setup complete, your organization is now ready to connect with collaborators by sending or accepting invitations and submitting project settings for approval. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the connection.
+Nach Abschluss des Setups ist Ihr Unternehmen nun bereit, sich mit Partnern zu verbinden, indem Einladungen gesendet oder angenommen und Projekteinstellungen zur Genehmigung eingereicht werden. Dieser Verbindungsprozess umfasst das Senden oder Empfangen von Einladungen, das Überprüfen und Senden von Verbindungseinstellungen (z. B. Anwendungsfälle und Kreditverbrauch) und das Bestätigen der Verbindung.
 
 Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen. Alternativ können sich Mitarbeiter über (private [) direkt miteinander &#x200B;](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 

@@ -3,7 +3,7 @@ title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Bevor Sie fortfahren, bestätigen Sie Folgendes mit Ihrem [!DNL Google Cloud]:
 
 ### Zielgruppendaten vorbereiten {#prepare-audience-data}
 
-Ihre Zielgruppendateien müssen der **[Zielgruppen-Beschaffungsspezifikation (v1.2) entsprechen](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** bevor die Beschaffung beginnt. Die Spezifikation enthält die vollständige Schemadefinition sowie Beispiele auf Feldebene. Zu den wichtigsten Anforderungen gehören:
+Ihre Zielgruppendateien müssen der **[Zielgruppen-Beschaffungsspezifikation (v1.3) entsprechen](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** bevor die Beschaffung beginnt. Die Spezifikation enthält die vollständige Schemadefinition sowie Beispiele auf Feldebene. Zu den wichtigsten Anforderungen gehören:
 
 * **Dateiformat:** CSV, wobei Kommas als Feldtrennzeichen und senkrechte Striche (`|`) als Trennzeichen für mehrere Werte innerhalb eines einzelnen Felds verwendet werden.
 * **Erforderliche Felder** Jeder Datensatz muss eine `AUDIENCE_ID` Spalte und mindestens eine unterstützte Spalte für Übereinstimmungsschlüssel enthalten.
@@ -85,7 +85,7 @@ Im Bildschirm zur Auswahl der Datenquelle werden alle verfügbaren Verbindungsty
 
 ![Der Workflow „Zielgruppe hinzufügen“, der den Bildschirm zur Datenquellenauswahl mit ausgewähltem und hervorgehobenem Google Cloud-Speicher anzeigt.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-Ein vorausgesetztes Dialogfeld, in dem die erforderlichen Konfigurationsschritte (z. B. GCS-Bucket-Einrichtung und IAM-Rollenzuweisung) beschrieben werden, wird angezeigt. Außerdem wird darauf hingewiesen, dass die Daten der **[[!UICONTROL Audience Sourcing Specification) entsprechen]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. Wählen Sie **[!UICONTROL Onboarding starten]**, um die Einhaltung der Vorgaben zu bestätigen, bevor Sie fortfahren.
+Ein vorausgesetztes Dialogfeld, in dem die erforderlichen Konfigurationsschritte (z. B. GCS-Bucket-Einrichtung und IAM-Rollenzuweisung) beschrieben werden, wird angezeigt. Außerdem wird darauf hingewiesen, dass die Daten der **[[!UICONTROL Audience Sourcing Specification) entsprechen]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**. Wählen Sie **[!UICONTROL Onboarding starten]**, um die Einhaltung der Vorgaben zu bestätigen, bevor Sie fortfahren.
 
 ![Die Voraussetzungen für die modale Auflistung „GCS-Bucket für das Onboarding vorbereiten“, einschließlich der Erstellung eines GCS-Buckets, der Konfiguration des IAM-Zugriffs für Adobe und der Einhaltung der Zielgruppen-Sourcing-Spezifikation mit den Optionen „Abbrechen“ und „Onboarding starten“.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -130,7 +130,7 @@ Der **[!UICONTROL Zuordnung]** ist schreibgeschützt. Collaboration ordnet Quell
 
 ![Das Dialogfeld „GCS-Datenvorschau“ mit einer Beispieltabelle mit Zielgruppendaten mit Spalten wie AUDIENCE_ID und HASHED_EMAIL_SHA_256 und einer Schaltfläche Schließen in der rechten unteren Ecke.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-Vergewissern Sie sich, dass die angezeigten Zuordnungen die Felder in Ihren Zielgruppendateien widerspiegeln. Wenn dies nicht der Fall ist, stoppen und korrigieren Sie Ihre Dateien, um die [Audience Sourcing-Spezifikation](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) einzuhalten, bevor Sie fortfahren. Klicken Sie auf **[!UICONTROL Weiter]**, um fortzufahren.
+Vergewissern Sie sich, dass die angezeigten Zuordnungen die Felder in Ihren Zielgruppendateien widerspiegeln. Wenn dies nicht der Fall ist, stoppen und korrigieren Sie Ihre Dateien, um die [Audience Sourcing-Spezifikation](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) einzuhalten, bevor Sie fortfahren. Klicken Sie auf **[!UICONTROL Weiter]**, um fortzufahren.
 
 ![Fügen Sie im Schritt „Felder zuordnen“ einen Zielgruppen-Workflow hinzu, der automatisch zugeordnete Quellfelder (AUDIENCE\_ID und HASHED\_EMAIL\_SHA\_256) zu Ziel-Identitätsfeldern anzeigt, wobei die Option „Vorschau der Quelldaten“ sichtbar ist und die Schaltfläche „Weiter“ oben rechts zu sehen ist.](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -233,7 +233,7 @@ Verwenden Sie diesen Abschnitt, um Probleme zu beheben, die nach dem Herstellen 
 
 **Bei einer geplanten Aktualisierung treten Fehler im Zielgruppendateiformat auf**
 
-* Vergewissern Sie sich, dass die aktualisierten Dateien im Bucket die Spaltenstruktur und die Feldanforderungen in der [Zielgruppen-Beschaffungsspezifikation) &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* Vergewissern Sie sich, dass die aktualisierten Dateien im Bucket die Spaltenstruktur und die Feldanforderungen in der [Zielgruppen-Beschaffungsspezifikation) &#x200B;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf).
 * Stellen Sie sicher, dass alle Dateien im konfigurierten Ordnerpfad identische Spaltenstrukturen verwenden. Dateien mit gemischten Formaten im selben Pfad können zu partiellen Quellfehlern führen.
 
 ## Einrichten von [!DNL Google Cloud Storage] {#setup-gcs-permissions}
