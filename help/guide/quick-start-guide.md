@@ -2,21 +2,13 @@
 title: Schnellstart- und Einrichtungshandbuch für Real-Time CDP Collaboration
 description: Erfahren Sie, wie Sie Real-Time CDP Collaboration einrichten, Rollen und Konten konfigurieren, Zielgruppen identifizieren, Daten aktivieren und eine sichere Verbindung mit Partnern herstellen können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 2%
@@ -53,7 +45,7 @@ Die Zugriffsrollen Ihres Unternehmens bestimmen, was Benutzende in Collaboration
 
 Sehen Sie sich dieses Video an, um zu erfahren, wie Sie Produktzugriff und Berechtigungen für Collaboration mithilfe von Admin Console und Experience Platform zuweisen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452239/?captions=ger&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Schritt 2: Einrichten des Collaboration-Kontos {#set-up-your-account}
 
@@ -134,7 +126,7 @@ Alternativ finden Sie weitere Informationen im Dokument [Sourcing von Zielgruppe
 
 ### Option B: Source aus Snowflake, Amazon S3 oder Google Cloud-Speicher
 
-Um eine Cloud-Quelle wie [!DNL Snowflake], [!DNL Amazon S3] oder [!DNL Google Cloud Storage] zu konfigurieren, bereiten Sie Ihre Zielgruppendaten mit der [Zielgruppenspezifikations-PDF&quot; &#x200B;](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)
+Um eine Cloud-Quelle wie [!DNL Snowflake], [!DNL Amazon S3] oder [!DNL Google Cloud Storage] zu konfigurieren, bereiten Sie Ihre Zielgruppendaten mit der [Zielgruppenspezifikations-PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) vor.
 
 Sie können [!DNL Amazon S3], [!DNL Google Cloud Storage] oder [!DNL Snowflake] als Self-Service-Datenquellen konfigurieren. Setup-Anweisungen finden Sie im [Amazon S3-](./setup/configure-aws-s3-audience-sourcing.md), im [GCS-](./setup/configure-gcs-audience-sourcing.md) oder im [Snowflake-Beschaffungshandbuch](./setup/configure-snowflake-audience-sourcing.md).
 
@@ -157,7 +149,7 @@ Führen Sie die folgenden Schritte aus, die im Handbuch [Konfigurieren von Adobe
 - **Ziel erstellen** - Verwenden Sie die Benutzeroberfläche zum Einrichten eines Experience Platform-Ziels (Sandbox-Ebene).
 - **Map-Übereinstimmungsschlüssel** - Wählen Sie die Kennung aus (z. B. `hashedEmail`).
 - **TTL definieren** - Gültigkeit festlegen (1-30 Tage).
-- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; &#x200B;].
+- **Überprüfen in Zielgruppenportal** - Nachdem ein Mitarbeiter Ihnen eine Zielgruppe gesendet hat, überprüfen Sie, ob sie im Zielgruppenportal unter der Herkunft &quot;[!UICONTROL Real-Time CDP Collaboration&quot; ].
 
 ### Option B: Für Cloud aktivieren
 
@@ -169,7 +161,7 @@ Zielgruppendaten, die an ein Cloud-Ziel gesendet werden, folgen einem vordefinie
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **[!UICONTROL Measurement]**-Anwendungsfall [während des Verbindungsprozesses](./connect/establishing-connections.md#connection-settings) aktiviert wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./collaborate/manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **[!UICONTROL Measurement]**-Anwendungsfall [während des Verbindungsprozesses](./connect/establishing-connections.md#connection-settings) aktiviert wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./collaborate/manage-projects.md#project-use-cases)&quot;.
 
 Collaboration bietet eine Vielzahl von Berichten zur Analyse der Reichweite, Häufigkeit und Effektivität von Kampagnen. Der Arbeitsbereich **[!UICONTROL Kennzahlen]** ist zwar in der Benutzeroberfläche verfügbar, die vollständige Reporting-Funktionalität erfordert jedoch möglicherweise eine Backend-Aktivierung.
 
@@ -228,7 +220,7 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Nach Abschluss des Setups ist Ihr Unternehmen nun bereit, sich mit Partnern zu verbinden, indem Einladungen gesendet oder angenommen und Projekteinstellungen zur Genehmigung eingereicht werden. Dieser Verbindungsprozess umfasst das Senden oder Empfangen von Einladungen, das Überprüfen und Senden von Verbindungseinstellungen (z. B. Anwendungsfälle und Kreditverbrauch) und das Bestätigen der Verbindung.
 
-Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen. Alternativ können sich Mitarbeiter über (private [) direkt miteinander &#x200B;](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
+Verwenden Sie als Advertiser den Arbeitsbereich **[!UICONTROL Verbinden]** im linken Navigationsmenü, um verfügbare Publisher zu durchsuchen. Alternativ können sich Mitarbeiter über (private [) direkt miteinander ](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
