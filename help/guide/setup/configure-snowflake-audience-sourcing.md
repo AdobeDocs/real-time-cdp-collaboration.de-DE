@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 3e8c39de61dc9560b038b994d178e4cc486cf6c7
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Bevor Sie Ihre [!DNL Snowflake]-Verbindung konfigurieren, stellen Sie sicher, da
    * **Schema**
    * **Ansicht**
 
-* Die Zielgruppendaten in Ihrem [!DNL Snowflake Secure Data Share] müssen die Formatanforderungen erfüllen, die im Handbuch [Zielgruppen-Beschaffungsspezifikation (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)beschrieben sind.
+* Die Zielgruppendaten in Ihrem [!DNL Snowflake Secure Data Share] müssen die Formatanforderungen erfüllen, die im Handbuch [Zielgruppen-Beschaffungsspezifikation (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)beschrieben sind.
 * Alle Übereinstimmungsschlüssel in Ihrer [!DNL Snowflake] Zielgruppendatei müssen auch für Ihr Collaboration-Konto aktiviert werden. Erfahren Sie, wie [Übereinstimmungsschlüssel aktivieren](./onboard-account.md#set-up-match-keys) oder [neue Übereinstimmungsschlüssel hinzufügen](./onboard-account.md#edit-match-keys) zu Ihrem Konto hinzufügen.
 
 ## Einrichten von [!DNL Snowflake] {#setup-snowflake-permissions}
@@ -146,7 +146,7 @@ Wählen Sie als Nächstes **[!UICONTROL Snowflake]** als Datenverbindung aus, ge
 >abstract="Lesen Sie das Handbuch zur Spezifikation der Zielgruppenerfassung, um zu erfahren, wie Sie Zielgruppendaten aus Snowflake für Collaboration formatieren und strukturieren."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Siehe Handbuch"
 
-Es wird ein Dialogfeld angezeigt, in dem die Anforderungen der [!DNL Snowflake Share] und der [!DNL Snowflake] Zielgruppendatei erläutert werden, bevor Sie mit der Beschaffung beginnen können. Stellen Sie sicher, dass Ihr [!DNL Snowflake Share] mit dem richtigen Freigabenamen, der richtigen Kontokennung, dem richtigen Schema und der richtigen Ansicht erstellt wird. Um sicherzustellen, dass Ihre Zielgruppendaten für die Verwendung in Collaboration korrekt formatiert und strukturiert sind, lesen Sie das Handbuch **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+Es wird ein Dialogfeld angezeigt, in dem die Anforderungen der [!DNL Snowflake Share] und der [!DNL Snowflake] Zielgruppendatei erläutert werden, bevor Sie mit der Beschaffung beginnen können. Stellen Sie sicher, dass Ihr [!DNL Snowflake Share] mit dem richtigen Freigabenamen, der richtigen Kontokennung, dem richtigen Schema und der richtigen Ansicht erstellt wird. Um sicherzustellen, dass Ihre Zielgruppendaten für die Verwendung in Collaboration korrekt formatiert und strukturiert sind, lesen Sie das Handbuch **[[!UICONTROL Zielgruppen-Beschaffungsspezifikation]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 
 Wählen Sie nach Abschluss die Option **[!UICONTROL Onboarding starten]**.
 
@@ -186,7 +186,7 @@ Geben **[!UICONTROL in der Ansicht]** Details angeben) einen beschreibenden Name
 
 ### Zuordnen von Feldern {#map-fields}
 
-Der **[!UICONTROL Zuordnungsbildschirm]** ist derzeit schreibgeschützt. Sie können keine Umwandlungen hinzufügen, löschen oder anwenden. Collaboration ordnet Quell-Identitätsfelder aus Ihren [!DNL Snowflake Share] automatisch Zielfeldern zu, basierend auf der **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+Der **[!UICONTROL Zuordnungsbildschirm]** ist derzeit schreibgeschützt. Sie können keine Umwandlungen hinzufügen, löschen oder anwenden. Collaboration ordnet Quell-Identitätsfelder aus Ihren [!DNL Snowflake Share] automatisch Zielfeldern zu, basierend auf der **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 
 Bestätigen Sie die zugeordneten Felder visuell und wählen Sie **[!UICONTROL Weiter]** aus, um fortzufahren. Sie können mit der Option **[!UICONTROL Vorschau der Quelldaten“ auch eine Vorschau]** Beispieldaten aus Ihrer [!DNL Snowflake Share] anzeigen.
 
