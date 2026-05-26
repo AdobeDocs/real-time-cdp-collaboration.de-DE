@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,11 +57,11 @@ Wählen **[!UICONTROL CSV-]**) als Datenverbindung aus, gefolgt von **[!UICONTRO
 
 ![Der Bildschirm zur Auswahl der Datenverbindung mit CSV-Datei ist als auswählbare Option verfügbar.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
-### Datei auswählen {#select-file}
+### Auswählen einer Datei {#select-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
->title="Zielgruppe aus CSV-Dateien hinzufügen"
+>title="Hinzufügen einer Zielgruppe aus CSV-Dateien"
 >abstract="Laden Sie eine CSV-Datei von Ihrem Computer hoch, um Ihre Zielgruppen in Real-Time CDP Collaboration zu beziehen."
 
 Wählen Sie **[!UICONTROL Vom Computer auswählen]**, um eine CSV-Datei von Ihrem lokalen System hochzuladen. Alternativ können Sie die CSV-Datei, die Sie hochladen möchten, per Drag-and-Drop in das Bedienfeld [!UICONTROL CSV-Datei per Drag-and-Drop &#x200B;]&quot; ziehen.
