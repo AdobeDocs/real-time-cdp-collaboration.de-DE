@@ -2,7 +2,7 @@
 title: 'Administratorzugriff für Collaboration-Onboarding  [!DNL Starter] '
 description: Erfahren Sie, wie Sie den Administratorzugriff für Adobe Real-Time CDP Collaboration  [!DNL Starter]  die Admin Console in Adobe Experience Cloud konfigurieren.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
 workflow-type: tm+mt
@@ -41,7 +41,7 @@ Lesen Sie diesen Abschnitt, um sich selbst Administratorrechte zu gewähren und 
 
 #### Zugriff auf Admin Console {#access-admin-console}
 
-Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [&#128279;](https://experience.adobe.com/){target="_blank"}0&rbrace;Adobe Experience Cloud&quot; an. Eine Liste Ihrer verfügbaren Produkte finden Sie im Abschnitt **[!UICONTROL Schnellzugriff]** . Wählen Sie **[!UICONTROL Admin Console]** aus.
+Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei ](https://experience.adobe.com/){target="_blank"}0}Adobe Experience Cloud&quot; an. [Eine Liste Ihrer verfügbaren Produkte finden Sie im Abschnitt **[!UICONTROL Schnellzugriff]** . Wählen Sie **[!UICONTROL Admin Console]** aus.
 
 ![Adobe Experience Cloud-Homepage mit hervorgehobener Admin Console-Karte.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
@@ -53,7 +53,7 @@ Der Arbeitsbereich [Admin Console](https://adminconsole.adobe.com/) wird auf ein
 
 #### Produkt-Admin hinzufügen {#add-product-admin}
 
-Navigieren Sie im Produkt **Dashboard von** Adobe Experience Platform zur Registerkarte **[!UICONTROL Admins]**. Wählen Sie dann **[!UICONTROL Admin hinzufügen]** aus.
+Navigieren Sie im Produkt ]**Dashboard von**[!UICONTROL  Adobe Experience Platform zur Registerkarte **[!UICONTROL Admins]**. Wählen Sie dann **[!UICONTROL Admin hinzufügen]** aus.
 
 ![Produkt-Dashboard von Adobe Experience Platform mit hervorgehobener Registerkarte „Administratoren“ und hervorgehobener Option „Administrator hinzufügen“](../../assets/setup/starter/admin-access/add-admin.png){zoomable="yes"}
 
@@ -78,7 +78,7 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration Ihres Benutzerz
 
 #### Benutzer zum Produkt hinzufügen {#add-user}
 
-Sie befinden sich jetzt im Produkt-Dashboard {**}Adobe Experience Platform.** Navigieren Sie zur Registerkarte **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
+Sie befinden sich jetzt im Produkt-Dashboard {]**}Adobe Experience Platform.**[!UICONTROL  Navigieren Sie zur Registerkarte **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
 
 ![Produkt-Dashboard von Adobe Experience Platform mit hervorgehobener Registerkarte „Benutzer“ und hervorgehobener Option „Benutzer hinzufügen“](../../assets/setup/starter/admin-access/add-user.png){zoomable="yes"}
 
