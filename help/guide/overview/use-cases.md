@@ -2,7 +2,7 @@
 title: Anwendungsfälle in Adobe Real-Time CDP Collaboration
 description: Machen Sie sich mit den wichtigsten Vorteilen jedes Anwendungsfalls von Adobe Real-Time CDP Collaboration vertraut.
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 TQID: https://experienceleague.adobe.com/2dJ1AD-ZbnY903-uk8fjAge7AAOnyGfNvLq7iThzZuU
 product_v2:
