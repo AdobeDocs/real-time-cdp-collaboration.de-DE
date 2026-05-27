@@ -1,16 +1,12 @@
 ---
 title: Verfolgen Ihrer Kreditnutzungsaktivität
-description: Learn how to track your organization's credit consumption activity in Real-Time CDP Collaboration.
+description: Erfahren Sie, wie Sie die Kreditkonsumaktivität Ihres Unternehmens in Real-Time CDP Collaboration verfolgen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 585
@@ -29,55 +25,55 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-**90-Day No-Overage Period**: Customers in eligible regions benefit from a 90-day no-overage period starting from the date of availability in their region. During this time, customers do not incur overage fees for exceeding their credit entitlement.
+**90-tägiger No-Overage-Zeitraum**: Kunden in förderfähigen Regionen profitieren von einem 90-tägigen No-Overage-Zeitraum ab dem Datum der Verfügbarkeit in ihrer Region. Während dieser Zeit fallen für die Überschreitung der Kreditberechtigung keine zusätzlichen Gebühren an.
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->The credit consumption table is rounded up and aggregated by day for monitoring. The figures in the **[!UICONTROL My Activity]** dashboard represent an *estimated* credit consumption. The *actual* credit consumption used for billing is tracked in internal systems and is available to you upon request. Contact your Adobe representative to obtain that information.
+>Die Tabelle des Kreditverbrauchs wird zur Überwachung nach Tagen aufgerundet und aggregiert. Die Zahlen im Dashboard **[!UICONTROL Meine Aktivität]** stellen einen *geschätzten* Kreditverbrauch dar. Der *tatsächliche* Kreditverbrauch für die Abrechnung wird in internen Systemen verfolgt und steht Ihnen auf Anfrage zur Verfügung. Wenden Sie sich an den Adobe-Support, um diese Informationen zu erhalten.
 
-To access your estimated credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
+Um auf die Aktivität Geschätzte Kreditnutzung zuzugreifen, gehen Sie im Hauptnavigationsmenü zu **[!UICONTROL Setup]** und wählen Sie dann die Registerkarte **[!UICONTROL Meine Aktivität]** aus.
 
-![My Activity dashboard showing credit consumption details](/help/assets/setup/my-activity-credits/activity-dashboard.png)
+![Mein Aktivitäts-Dashboard mit Details zum Kreditverbrauch](/help/assets/setup/my-activity-credits/activity-dashboard.png)
 
 >[!TIP]
 >
->The **[!UICONTROL My activity]** view does not include information about user actions in different parts of Collaboration user interface. Use the [audit logs](/help/guide/setup/audit-logs.md) functionality to get that information.
+>Die **[!UICONTROL Meine Aktivität]** enthält keine Informationen zu Benutzeraktionen in verschiedenen Teilen der Benutzeroberfläche von Collaboration. Verwenden Sie die [Auditprotokolle](/help/guide/setup/audit-logs.md), um diese Informationen abzurufen.
 
-## Understand your activity dashboard {#understand-dashboard}
+## Grundlegendes zum Aktivitäts-Dashboard {#understand-dashboard}
 
-The activity dashboard displays a comprehensive list of all credit-consuming operations within your account. Each row represents a distinct activity and provides key information about the credit usage:
+Das Aktivitäts-Dashboard zeigt eine umfassende Liste aller kreditverbrauchenden Vorgänge in Ihrem Konto an. Jede Zeile stellt eine eigene Aktivität dar und enthält wichtige Informationen zur Kreditverwendung:
 
 >[!NOTE]
 >
->**[!UICONTROL Audience Management]** activities are not associated with another collaborator, so the **[!UICONTROL Connection ID]** and **[!UICONTROL Connection name]** columns for these activity types indicate a **[!UICONTROL -]** value.
+>**[!UICONTROL Zielgruppen-Management]**-Aktivitäten sind keinem anderen Mitarbeiter zugeordnet. Daher geben die **[!UICONTROL Verbindungs-ID]** und **[!UICONTROL Verbindungsname]** für diese Aktivitätstypen einen **[!UICONTROL -]** an.
 
 | Spalte | Beschreibung |
 |------------|--------------|
-| **[!UICONTROL Datum]** | The date when the activity occurred, displayed in MM/DD/YYYY format. |
-| **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string. |
-| **[!UICONTROL Connection name]** | The name of the collaborator associated with the connection and the credit-consuming activity. |
-| **[!UICONTROL Aktivität]** | The type of activity performed, such as **Activation - Matching**, **Activation - Egress**, or **Audience Management**. |
-| **[!UICONTROL Inputs processed]** | The total number of inputs (for example, IDs or rows) processed for the activity. |
-| **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity. |
-| **[!UICONTROL My credit share]** | Your account&#39;s portion of the credits used for the activity. |
+| **[!UICONTROL Datum]** | Das Datum, an dem die Aktivität stattfand, angezeigt im Format MM/TT/JJJJ. |
+| **[!UICONTROL Verbindungs-ID]** | Eine eindeutige Kennung für jede Verbindung, die mit einer kreditverbrauchenden Aktivität verbunden ist, dargestellt als alphanumerische Zeichenfolge. |
+| **[!UICONTROL Verbindungsname]** | Der Name des Mitarbeiters, der mit der Verbindung und der kreditverbrauchenden Aktivität verknüpft ist. |
+| **[!UICONTROL Aktivität]** | Der Typ der durchgeführten Aktivität, z. B **„Aktivierung - Abgleich**, **Aktivierung -**&quot; oder **Zielgruppenverwaltung**. |
+| **[!UICONTROL Eingaben verarbeitet]** | Die Gesamtzahl der für die Aktivität verarbeiteten Eingaben (z. B. IDs oder Zeilen). |
+| **[!UICONTROL Insgesamt verwendete Guthaben]** | Die Gesamtzahl der von der Aktivität verwendeten Credits. |
+| **[!UICONTROL Meine Kreditaktie]** | Der Anteil Ihres Kontos an den für die Aktivität verwendeten Guthaben. |
 
 {style="table-layout:auto"}
 
-## Types of activities {#types-of-activities}
+## Aktivitätstypen {#types-of-activities}
 
-The **[!UICONTROL Activity]** column shows different types of credit-consuming operations.
+Die Spalte **[!UICONTROL Aktivität]** zeigt verschiedene Arten von kreditverbrauchenden Vorgängen.
 
-* **[!UICONTROL Audience Management]**: Credits are consumed when audiences are sourced into Collaboration. Credits are consumed as a function of the number of IDs (in millions) indexed within Collaboration across all audiences, and the frequency of that indexing (daily, every three days, or weekly). To learn more, read the [sourcing and managing audiences](/help/guide/setup/onboard-audiences.md) guide.
-* **[!UICONTROL Activation - Matching]** – Credits are consumed as a function of the number of IDs matched and prepared for activation. To learn more, read the [activating audiences](/help/guide/collaborate/activate.md) guide.
-* **[!UICONTROL Activation - Egress]** – Credits are consumed as a function of the number of IDs are sent to a destination. This is always charged to the collaborator that receives the audience. To learn more, read the [activating audiences](/help/guide/collaborate/activate.md) guide.
-* **[!UICONTROL Measurement]** – Execute activities in Collaboration to generate campaign performance reports and insights. Die Credits werden basierend auf der Anzahl der Zeilen in allen Kampagnenberichten und der Reporting-Häufigkeit (täglich, alle drei Tage oder wöchentlich) verwendet.
+* **[!UICONTROL Zielgruppen-Management]**: Guthaben werden genutzt, wenn Zielgruppen in Collaboration bezogen werden. Die Credits werden als Funktion der Anzahl der in Collaboration über alle Zielgruppen hinweg indizierten IDs (in Millionen) und der Häufigkeit dieser Indizierung (täglich, alle drei Tage oder wöchentlich) genutzt. Weitere Informationen finden Sie im Handbuch [Beschaffung und Verwaltung ](/help/guide/setup/onboard-audiences.md) Zielgruppen“.
+* **[!UICONTROL Aktivierung - Abgleich]** - Gutschriften werden in Abhängigkeit von der Anzahl der übereinstimmenden und für die Aktivierung vorbereiteten IDs genutzt. Weitere Informationen finden Sie im Handbuch [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
+* **[!UICONTROL Aktivierung - Ausgang]** - Guthaben wird in Abhängigkeit von der Anzahl der IDs genutzt, die an ein Ziel gesendet werden. Dies wird immer dem Mitarbeiter berechnet, der die Zielgruppe erhält. Weitere Informationen finden Sie im Handbuch [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
+* **[!UICONTROL Messung]** - Führen Sie Aktivitäten in Collaboration aus, um Leistungsberichte und Einblicke für Kampagnen zu generieren. Die Credits werden basierend auf der Anzahl der Zeilen in allen Kampagnenberichten und der Reporting-Häufigkeit (täglich, alle drei Tage oder wöchentlich) verwendet.
 
-## Manage your credit consumption {#manage-credit-consumption}
+## Kreditnutzung verwalten {#manage-credit-consumption}
 
-To effectively manage your credit consumption:
+So verwalten Sie Ihren Kreditverbrauch effektiv:
 
-1. **Understand** the credit consumption associated with each activity. Check the [Collaboration product description](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of credits used per activity.
-2. **Monitor regularly**: Check your activity dashboard frequently to understand usage patterns.
-3. **Track by connection**: Use the connection name to identify which connections are consuming the most credits.
+1. **Verstehen** den mit jeder Aktivität verbundenen Kreditverbrauch. Die [Collaboration-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} enthält eine Tabelle mit den Guthaben, die pro Aktivität verwendet werden.
+2. **Regelmäßig überwachen**: Überprüfen Sie Ihr Aktivitäts-Dashboard häufig, um Nutzungsmuster zu verstehen.
+3. **Nach Verbindung verfolgen**: Verwenden Sie den Verbindungsnamen, um zu ermitteln, welche Verbindungen die meisten Credits verbrauchen.
