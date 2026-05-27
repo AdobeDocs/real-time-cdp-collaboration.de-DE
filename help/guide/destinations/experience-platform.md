@@ -1,6 +1,6 @@
 ---
-title: Configure Adobe Experience Platform as a destination
-description: Learn how to configure and manage Adobe Experience Platform as a destination in Real-Time CDP Collaboration.
+title: Konfigurieren von Adobe Experience Platform als Ziel
+description: Erfahren Sie, wie Sie Adobe Experience Platform as a -Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
@@ -19,25 +19,25 @@ ht-degree: 14%
 
 ---
 
-# Configure Adobe Experience Platform as a destination
+# Konfigurieren von Adobe Experience Platform als Ziel
 
 {{limited-availability-release-note}}
 
-Configure this destination to activate audiences from your project to Adobe Experience Platform. Activating audiences to Adobe Experience Platform allows you to leverage the platform&#39;s capabilities for audience segmentation, analysis, and activation across various marketing channels. To learn more about Adobe Experience Platform, refer to the [Experience Platform overview](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
+Konfigurieren Sie dieses Ziel, um Zielgruppen aus Ihrem Projekt für Adobe Experience Platform zu aktivieren. Durch die Aktivierung von Zielgruppen in Adobe Experience Platform können Sie die Funktionen der Plattform für die Zielgruppensegmentierung, -analyse und -aktivierung über verschiedene Marketing-Kanäle hinweg nutzen. Weitere Informationen zu Adobe Experience Platform finden Sie in der [Übersicht über Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
->You cannot update a destination after it has been created. If you need to change any settings, you must delete the existing destination and create a new one.
+>Sie können ein Ziel nicht aktualisieren, nachdem es erstellt wurde. Wenn Sie Einstellungen ändern müssen, müssen Sie das vorhandene Ziel löschen und ein neues erstellen.
 
-## Configure destination {#configure-destination}
+## Konfigurieren des Ziels {#configure-destination}
 
-To configure Adobe Experience Platform as a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Select **[!UICONTROL Set up]** for Adobe Experience Platform.
+Um Adobe Experience Platform als Ziel zu konfigurieren, gehen Sie zu **[!UICONTROL Setup]** und wählen Sie dann die Registerkarte **[!UICONTROL Meine Ziele]** aus. Wählen Sie **[!UICONTROL Einrichten]** für Adobe Experience Platform aus.
 
-![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform destination.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![Der Arbeitsbereich „Meine Ziele“ mit der hervorgehobenen Option „Einrichten“ für das Adobe Experience Platform-Ziel.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
 
-The **[!UICONTROL Create destination]** workflow appears.
+Der **[!UICONTROL Ziel erstellen]** wird angezeigt.
 
-![The Create destination workflow for Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
+![Der Ziel-Workflow für Adobe Experience Platform erstellen.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### Konfigurieren einer Sandbox {#configure-sandbox}
 
@@ -46,17 +46,17 @@ The **[!UICONTROL Create destination]** workflow appears.
 >title="Zielgruppen-Gültigkeit"
 >abstract="Der Zeitraum, nach dem die Zielgruppe in Adobe Experience Platform nicht mehr verfügbar ist. Die Standardgültigkeit beträgt 30 Tage, Sie kann jedoch auf einen beliebigen Wert zwischen 1 und 30 Tagen festgelegt werden."
 
-First, you must select the sandbox where your audience data will be sent.
+Zunächst müssen Sie die Sandbox auswählen, an die Ihre Zielgruppendaten gesendet werden.
 
 >[!IMPORTANT]
 >
->You can only select a sandbox that your user has access to. By default, all Collaboration users have access to the **Prod** sandbox. To gain access to additional sandboxes, an administrator must add additional sandboxes to a role assigned to your user. Weitere Informationen zur Verwaltung von Rollen finden Sie im [Rollen verwalten](../permissions/manage-roles.md).
+>Sie können nur eine Sandbox auswählen, auf die Ihre Benutzerin oder Ihr Benutzer Zugriff hat. Standardmäßig haben alle Collaboration-Benutzer Zugriff auf die **Prod**-Sandbox. Um Zugriff auf zusätzliche Sandboxes zu erhalten, muss ein Administrator zusätzliche Sandboxes zu einer Rolle hinzufügen, die Ihrem Benutzer zugewiesen ist. Weitere Informationen zur Verwaltung von Rollen finden Sie im [Rollen verwalten](../permissions/manage-roles.md).
 
-In the **[!UICONTROL Configure sandbox]** section, select the **[!UICONTROL Sandbox]** dropdown, or type in the name of a sandbox.
+Wählen **[!UICONTROL Abschnitt Sandbox konfigurieren]** die Dropdown-Liste **[!UICONTROL Sandbox]** aus oder geben Sie den Namen einer Sandbox ein.
 
-![The Sandbox dropdown highlighted in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
+![Das hervorgehobene Dropdown-Menü „Sandbox“ im Workflow „Ziel erstellen“.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
-Alternatively, you can select **[!UICONTROL Browse sandbox]** to view all available sandboxes, as well as their **[!UICONTROL Type]**, **[!UICONTROL Status]**, and **[!UICONTROL Region]**. Wählen Sie die zu verwendende Sandbox und dann **[!UICONTROL Speichern]** aus.
+Alternativ können Sie auf **[!UICONTROL Sandbox durchsuchen]** klicken, um alle verfügbaren Sandboxes sowie deren **[!UICONTROL Typ]**, **[!UICONTROL Status]** und **[!UICONTROL Region]** anzuzeigen. Wählen Sie die zu verwendende Sandbox und dann **[!UICONTROL Speichern]** aus.
 
 Konfigurieren Sie anschließend die **[!UICONTROL Zielgruppengültigkeit]**. Standardmäßig ist der Ablauf der Zielgruppe auf 30 Tage festgelegt. Sie können die Gültigkeit zwischen 1 und 30 Tagen festlegen. Nach dem Ablaufdatum ist die Zielgruppe in Adobe Experience Platform nicht mehr verfügbar.
 
