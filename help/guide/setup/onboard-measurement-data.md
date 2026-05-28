@@ -1,15 +1,12 @@
 ---
 title: Hinzufügen und Verwalten von Messdaten
-description: Learn how to add measurement data to Adobe Real-Time CDP Collaboration.
+description: Erfahren Sie, wie Sie Messdaten zu Adobe Real-Time CDP Collaboration hinzufügen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 TQID: https://experienceleague.adobe.com/uJgTdRoA4K-Y-Me287MRvI5-jmuW2glaigB8JMAtME4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 2720
@@ -46,83 +43,83 @@ ht-degree: 4%
 
 {{limited-availability-release-note}}
 
-This document outlines the steps to add campaign measurement data to Adobe Real-Time CDP Collaboration. Publishers can work with Adobe teams to upload campaign measurement data. After that data is uploaded and processed, both publisher and advertiser will be able to view extensive [campaign measurement reports](/help/guide/collaborate/measure.md).
+In diesem Dokument werden die Schritte zum Hinzufügen von Kampagnenmessdaten zu Adobe Real-Time CDP Collaboration beschrieben. Publisher können mit Adobe-Teams zusammenarbeiten, um Campaign-Messdaten hochzuladen. Nach dem Hochladen und Verarbeiten dieser Daten können sowohl Publisher als auch Advertiser umfassende [Kampagnenmessberichte) ](/help/guide/collaborate/measure.md).
 
 ## Messdaten hinzufügen {#add-measurement-data}
 
-As an advertiser, you can upload your measurement data containing conversion events to Collaboration for use in campaign measurement reports. Conversion data typically includes fields such as user identifiers (for example, hashed email or device IDs), timestamp of the conversion event, and specific conversion event details such as purchase or sign-up.
+Als Advertiser können Sie Ihre Messdaten mit Konversionsereignissen zur Verwendung in Kampagnenmessberichten in Collaboration hochladen. Konversionsdaten umfassen in der Regel Felder wie Benutzerkennung (z. B. Hash-E-Mail- oder Geräte-IDs), Zeitstempel des Konversionsereignisses und bestimmte Details des Konversionsereignisses wie Kauf oder Anmeldung.
 
-To source measurement data, navigate to the **[!UICONTROL My measurement data]** tab within the **[!UICONTROL Setup]** workspace. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measurement data]**.
+Um Messdaten zu beziehen, navigieren Sie im Arbeitsbereich **[!UICONTROL Setup]** zur Registerkarte **[!UICONTROL Meine Messdaten]** . Wählen Sie das Symbol zum Hinzufügen aus ![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie **[!UICONTROL Messdaten]**.
 
-If this is your first measurement data, you may also select the **[!UICONTROL Add]** option.
+Wenn dies Ihre ersten Messdaten sind, können Sie auch die Option **[!UICONTROL Hinzufügen]** auswählen.
 
-![My Measurement data tab with the Add option and Measurement data option highlighted.](../../assets/setup/add-manage-measurement-data/add-measurement-data.png){zoomable="yes"}
+![Registerkarte „Meine Messdaten“ mit hervorgehobener Option „Hinzufügen“ und Option „Messdaten“.](../../assets/setup/add-manage-measurement-data/add-measurement-data.png){zoomable="yes"}
 
-The **[!UICONTROL Add measurement data]** screen appears, displaying a summary of steps to source measurement data. Select **[!UICONTROL Start onboarding]**.
+Der Bildschirm **[!UICONTROL Messdaten hinzufügen]** wird angezeigt, der eine Zusammenfassung der Schritte zur Beschaffung der Messdaten enthält. Wählen Sie **[!UICONTROL Onboarding starten]** aus.
 
-![The Add measurement data screen displaying a summary of steps to source measurement data and the Start onboarding option highlighted.](../../assets/setup/add-manage-measurement-data/add-measurement-data-screen.png){zoomable="yes"}
+![Der Bildschirm „Messdaten hinzufügen“ mit einer Zusammenfassung der Schritte zur Quelle der Messdaten und der hervorgehobenen Option „Onboarding starten“.](../../assets/setup/add-manage-measurement-data/add-measurement-data-screen.png){zoomable="yes"}
 
 ### Datenverbindung und Details {#data-connection-and-details}
 
-In this step, you need to configure your data connection and specify the details for your measurement data.
+In diesem Schritt müssen Sie Ihre Datenverbindung konfigurieren und die Details für Ihre Messdaten angeben.
 
-#### Select measurement data type {#select-measurement-data-type}
+#### Messdatentyp auswählen {#select-measurement-data-type}
 
-The measurement data type defines the kind of events you bring in for campaign measurement. Currently, Conversion Data is the supported type.
+Der Messdatentyp definiert die Art der Ereignisse, die für die Kampagnenmessung eingebracht werden. Derzeit ist der unterstützte Typ „Konversionsdaten“.
 
-Select **[!UICONTROL Conversion Data]** as your measurement data type, followed by **[!UICONTROL Next]**.
+Wählen Sie **[!UICONTROL Konversionsdaten]** als Messdatentyp aus, gefolgt von **[!UICONTROL Weiter]**.
 
-![The Data connection and details step highlighting the measurement data type and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}
+![Der Schritt „Datenverbindung und Details“, in dem der Messdatentyp und die Option „Weiter“ hervorgehoben werden.](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}
 
 #### Auswählen der Datenverbindung {#select-data-connection}
 
-A data connection is the source from where you source measurement data into Collaboration. Once you have established your initial data connection and sourced your first set of measurement data, you can continue sourcing additional measurement data using the same data connection.
+Eine Datenverbindung ist die Quelle, aus der Sie Messdaten in Collaboration beziehen. Nachdem Sie Ihre erste Datenverbindung hergestellt und Ihren ersten Satz von Messdaten bezogen haben, können Sie mit derselben Datenverbindung weitere Messdaten beziehen.
 
-To add a data connection, select **[!UICONTROL Add a new data connection]**, then select **[!UICONTROL Next]**.
+Um eine Datenverbindung hinzuzufügen, wählen Sie **[!UICONTROL Neue Datenverbindung hinzufügen]** und dann **[!UICONTROL Weiter]**.
 
-![The Data connection and details step highlighting the Add a new data connection option and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}
+![Der Schritt Datenverbindung und Details , in dem die Option Neue Datenverbindung hinzufügen und die Option Weiter hervorgehoben werden.](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}
 
 #### Datenquelle auswählen {#select-data-source}
 
-Next, choose the source for your data connection. At this time, Adobe Experience Platform is the only supported data source.
+Wählen Sie anschließend die Quelle für Ihre Datenverbindung aus. Derzeit ist Adobe Experience Platform die einzige unterstützte Datenquelle.
 
-Select your data source, then select **[!UICONTROL Next]**.
+Wählen Sie Ihre Datenquelle und dann **[!UICONTROL Weiter]** aus.
 
-![The Data connection and details step highlighting the Adobe Experience Platform option and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-source.png){zoomable="yes"}
+![Der Schritt „Datenverbindung und Details“, in dem die Adobe Experience Platform-Option und die nächste Option hervorgehoben werden.](../../assets/setup/add-manage-measurement-data/select-measurement-data-source.png){zoomable="yes"}
 
 #### Sandbox auswählen {#select-sandbox}
 
-Select the sandbox that includes the measurement data that you want to use for Collaboration campaign measurement reports. Choose the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**.
+Wählen Sie die Sandbox aus, die die Messdaten enthält, die Sie für Collaboration Campaign-Messberichte verwenden möchten. Wählen Sie die Sandbox aus der Liste der verfügbaren Sandboxes und dann **[!UICONTROL Weiter]** aus.
 
-![The Data connection and details step highlighting the Prod sandbox and the Next option.](../../assets/setup/add-manage-measurement-data/select-sandbox.png){zoomable="yes"}
+![Der Schritt „Datenverbindung und Details“, in dem die Produktions-Sandbox und die Option Weiter hervorgehoben sind.](../../assets/setup/add-manage-measurement-data/select-sandbox.png){zoomable="yes"}
 
-#### Select measurement dataset {#select-measurement-dataset}
+#### Messdatensatz auswählen {#select-measurement-dataset}
 
-A list of datasets in the selected sandbox appears. Select a dataset as your measurement data, then select **[!UICONTROL Next]**. You can use the Search option to filter and find the preferred dataset.
+Eine Liste der Datensätze in der ausgewählten Sandbox wird angezeigt. Wählen Sie einen Datensatz als Messdaten aus und klicken Sie dann auf **[!UICONTROL Weiter]**. Sie können die Suchoption verwenden, um den bevorzugten Datensatz zu filtern und zu finden.
 
-![The Data connection and details step highlighting the Search option, the Example Event Data Dataset, and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}
+![Der Schritt Datenverbindung und Details , in dem die Suchoption, der Beispielereignisdatensatz und die Option Weiter hervorgehoben werden.](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}
 
-#### Provide name and details {#provide-name-and-details}
+#### Name und Details angeben {#provide-name-and-details}
 
-Next, provide a name and a description for your data connection. This information will help you identify the data connection later on.
+Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbindung an. Diese Informationen helfen Ihnen später bei der Identifizierung der Datenverbindung.
 
-![The Data connection and details step with the option to provide a name and description.](../../assets/setup/add-manage-measurement-data/data-connection-name-details.png){zoomable="yes"}
+![Der Schritt Datenverbindung und Details mit der Option, einen Namen und eine Beschreibung anzugeben.](../../assets/setup/add-manage-measurement-data/data-connection-name-details.png){zoomable="yes"}
 
 ### Zuordnung {#mapping}
 
-The next step is to map fields from your measurement data to the corresponding target fields used in Collaboration. You can also choose to enrich your event dataset with attributes from Real‑Time Customer Profile by mapping join keys, and use these attributes to break down measurement reports.
+Der nächste Schritt besteht darin, Felder aus Ihren Messdaten den entsprechenden Zielfeldern zuzuordnen, die in Collaboration verwendet werden. Sie können Ihren Ereignisdatensatz auch mit Attributen aus dem Echtzeit-Kundenprofil anreichern, indem Sie Join-Schlüssel zuordnen und diese Attribute zum Aufschlüsseln von Messberichten verwenden.
 
-#### Enrich event data {#enrich-event-data}
+#### Anreichern von Ereignisdaten {#enrich-event-data}
 
-To enrich your event data, select the **[!UICONTROL Source field join key]** option.
+Um Ihre Ereignisdaten anzureichern, wählen Sie die Option **[!UICONTROL Source-Feld-Zusammenführungsschlüssel]** aus.
 
-![The Mapping screen with the Source field join key option highlighted.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
+![Der Bildschirm Zuordnung mit der hervorgehobenen Option &quot;Source-Feldverknüpfungsschlüssel“.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
 
-In the **[!UICONTROL Source field join key]** dialog, choose the source field, followed by **[!UICONTROL Select]**.
+Wählen Sie im Dialogfeld **[!UICONTROL Source-]**-Schlüssel das Quellfeld und dann **[!UICONTROL Auswählen]** aus.
 
-![The Source field join key dialog highlighting the Source field and the Next option.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
+![Das Dialogfeld &quot;Source-Feldverknüpfungsschlüssel“, in dem das Source-Feld hervorgehoben ist, und die Option „Weiter“.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
 
-Next, select the **[!UICONTROL Profile join key]** option. In the **[!UICONTROL Profile join key]** dialog, select the profile field from the list. Sie können die Suchoption verwenden, um das gewünschte Feld zu finden. Wählen Sie dann zur Bestätigung **[!UICONTROL Auswählen]** aus.
+Wählen Sie als Nächstes die Option **[!UICONTROL Profilverbindungsschlüssel]** aus. Wählen Sie **[!UICONTROL Dialogfeld Profilverknüpfungsschlüssel]** das Profilfeld aus der Liste aus. Sie können die Suchoption verwenden, um das gewünschte Feld zu finden. Wählen Sie dann zur Bestätigung **[!UICONTROL Auswählen]** aus.
 
 ![Das Dialogfeld „Profilverknüpfungsschlüssel“, in dem der Suchschlüssel, das ausgewählte Profilfeld und die Option Weiter hervorgehoben sind.](../../assets/setup/add-manage-measurement-data/profile-join-key-dialog.png){zoomable="yes"}
 
