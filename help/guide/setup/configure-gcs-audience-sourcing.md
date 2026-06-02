@@ -3,9 +3,9 @@ title: Konfigurieren  [!DNL Google Cloud Storage]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie  [!DNL Google Cloud Storage]  Real-Time CDP Collaboration einen Bucket als Self-Service-Zielgruppenquelle verbinden, einschließlich Voraussetzungen, Authentifizierung, Feldzuordnung, Planung und Validierung.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2910'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ In diesem Handbuch wird der End-to-End-Konfigurations-Workflow behandelt: Vorber
 
 Zielgruppen, die von [!DNL Google Cloud Storage] bezogen werden, folgen denselben Governance- und Datenverarbeitungsregeln wie Zielgruppen, die von Adobe Experience Platform bezogen werden.
 
-Andere verfügbare Quellmethoden sind [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) und [CSV-Datei-Upload](./upload-csv-audience-sourcing.md).
+Andere verfügbare Quellmethoden sind [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) und [CSV-Datei-Upload](./upload-csv-audience-sourcing.md). Weitere Informationen zu allen verfügbaren Quellen in Collaboration finden Sie unter [Quellen - Übersicht](./source-overview.md).
 
 ## Voraussetzungen {#prerequisites}
 

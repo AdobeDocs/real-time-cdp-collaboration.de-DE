@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Erfahren Sie, wie Sie Ihre [!DNL Snowflake Secure Data Share] in der Adobe Real-
 
 ## Überblick {#overview}
 
-[!DNL Snowflake] ist eine der unterstützten Optionen für die Beschaffung von First-Party-Zielgruppendaten in Collaboration. Andere verfügbare Methoden umfassen die Beschaffung von Zielgruppen aus [Experience Platform](./onboard-audiences.md), das Verbinden eines [[!DNL AWS S3] Buckets](./configure-aws-s3-audience-sourcing.md) oder das Hochladen einer [CSV-Datei](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] ist eine der unterstützten Optionen für die Beschaffung von First-Party-Zielgruppendaten in Collaboration. Andere verfügbare Methoden umfassen die Beschaffung von Zielgruppen aus [Experience Platform](./onboard-audiences.md), das Verbinden eines [[!DNL AWS S3] Buckets](./configure-aws-s3-audience-sourcing.md) oder das Hochladen einer [CSV-Datei](./upload-csv-audience-sourcing.md). Weitere Informationen zu allen verfügbaren Quellen in Collaboration finden Sie unter [Quellen - Übersicht](./source-overview.md).
 
 Gehen Sie wie folgt vor, um Ihre [!DNL Snowflake Secure Data Share] zu verbinden und Ihre Zielgruppendaten in Collaboration zu beziehen. Nach Abschluss des Setups können Sie Ihre Zielgruppen aus der Quelle für Ihre Kooperationsprojekte überprüfen, aktivieren und verwalten.
 

@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 17%
 
 ---
@@ -41,7 +41,7 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing-Aktionen"
->abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion <strong>Data Collaboration</strong> unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels markierten Daten in Experience Platform ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
+>abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion <strong>Data Collaboration</strong> unterstützt Datennutzungs-Labels vom Typ C4, C5 und C9. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de" text="Datennutzungs-Labels – Übersicht"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de" text="Glossar der Datennutzungs-Labels"
 
@@ -49,7 +49,7 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL 
 >
 >Nachdem Sie Ihre erste Datenverbindung hergestellt und Ihre erste Zielgruppe abgerufen haben, können Sie mehrere Zielgruppen aus der vorhandenen Datenverbindung beziehen. Beim Hinzufügen zusätzlicher Zielgruppen beginnen Sie mit dem Schritt [Zielgruppe auswählen](#select-audiences), da die Datenverbindung bereits hergestellt wurde.
 
-Eine Datenverbindung ist die Quelle, aus der Sie Zielgruppen in Collaboration aufnehmen. Zu den unterstützten Quellen gehören Adobe Experience Platform, CSV-Datei-Upload, [!DNL Amazon S3], [!DNL Snowflake] und [!DNL Google Cloud Storage] mit jeweils einem eigenen Workflow. Adobe Audience Manager wird bald verfügbar sein.
+Eine Datenverbindung ist die Quelle, aus der Sie Zielgruppen in Collaboration aufnehmen. Weitere Informationen zu allen verfügbaren Quellen finden Sie unter [Quellen - Übersicht](./source-overview.md).
 
 In den folgenden Abschnitten wird beschrieben, wie Sie **Adobe Experience Platform** auswählen und die Experience Platform-spezifischen Schritte (Sandbox, Governance und Einverständnis) ausführen. Wenn Sie CSV, [!DNL Amazon S3], [!DNL Snowflake] oder [!DNL Google Cloud Storage] auswählen, verwenden Sie das unter „Datenquelle auswählen[&#x200B; für &#x200B;](#select-data-source) Option verlinkte Handbuch.
 
@@ -343,7 +343,7 @@ Die Zielgruppenverfügbarkeit für die Verwendung in Projekten mit Partnern unte
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Sichtbarkeit von Metadaten"
->abstract="<p>Gibt an, welche der Metadaten einer Zielgruppe für andere Mitwirkende sichtbar sind, bevor diese eine Verbindung zu Ihnen oder in Projektansichten herstellen.</p> <p> **Anzahl der Identitäten** steuert, ob Ihre Mitwirkende bzw. Ihr Mitwirkender Identitätsanzahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Entdeckung“ angezeigt werden.</p><p> **Zielgruppenüberschneidung %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können.</p><p> **[!UICONTROL Zielgruppenindex]** steuert, ob Mitwirkende den Zielgruppenindex in einem Projekt anzeigen können. Diese Funktion ist nur verfügbar, wenn mindestens drei aktive Zielgruppen vorhanden sind.</p> <br> Damit die Einstellungen für die Metadatensichtbarkeit wirksam werden, muss die Zielgruppe auf „Öffentlich“ oder „Benutzerdefiniert“ festgelegt sein."
+>abstract="<p>Gibt an, welche der Metadaten einer Zielgruppe für andere Mitwirkende sichtbar sind, bevor diese eine Verbindung zu Ihnen oder in Projektansichten herstellen.</p> <p> Die **Anzahl der Identitäten** steuert, ob Ihre Mitwirkende bzw. Ihr Mitwirkender Identitätsanzahlen für Ihre Zielgruppen anzeigen kann, wenn Überschneidungsberichte auf der Registerkarte „Entdeckung“ angezeigt werden.</p><p> Die **Zielgruppenüberschneidung in %** steuert, ob Mitwirkende Überschneidungsprozentsätze zwischen ihren Zielgruppen und Ihren Zielgruppen ermitteln können.</p><p> **[!UICONTROL Zielgruppenindex]** steuert, ob Mitwirkende den Zielgruppenindex in einem Projekt anzeigen können. Diese Funktion ist nur verfügbar, wenn mindestens drei aktive Zielgruppen vorhanden sind.</p> <br> Damit die Einstellungen für die Metadatensichtbarkeit wirksam werden, muss die Zielgruppe auf „Öffentlich“ oder „Benutzerdefiniert“ festgelegt sein."
 
 >[!NOTE]
 >
