@@ -2,9 +2,9 @@
 title: Konfigurieren  [!DNL Amazon S3]  Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Ihren - [!DNL Amazon S3]  als Self-Service-Datenquelle konfigurieren und verbinden können, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1606'
 ht-degree: 8%
 
 ---
@@ -198,7 +198,7 @@ Wählen Sie in der Rasteransicht oder Tabellenansicht ein Zeilenelement oder **[
 
 Verwenden Sie diese Ansicht, um die Einstellungen für die Zielgruppenkonfiguration und Sichtbarkeit zu bestätigen, bevor Sie die Zielgruppe in Kooperationsprojekten verwenden.
 
-Weitere Informationen finden [&#x200B; in der &#x200B;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
+Weitere Informationen finden [ in der ](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) zum Anzeigen von Zielgruppen-Dashboards .
 
 ## Anzeigen der S3-Datenverbindung {#view-s3-connection}
 
@@ -216,6 +216,6 @@ Ihre S3-Datenverbindung enthält dieselben Funktionen und Details wie andere Zie
 
 Sie haben jetzt Ihren [!DNL Amazon S3]-Speicher erfolgreich als Datenquelle in Collaboration konfiguriert und verbunden. Durch Abschluss dieses Workflows haben Sie die sichere Beschaffung von First-Party-Zielgruppendaten für die Aktivierung und Überschneidungsanalyse aktiviert.
 
-Informationen zur Verwendung von [!DNL Google Cloud Storage] finden Sie unter [Konfigurieren von GCS für die Zielgruppen-Beschaffung](./configure-gcs-audience-sourcing.md).
-
 Nach Abschluss des Einkaufs werden Ihre Zielgruppen im Arbeitsbereich **[!UICONTROL Meine Zielgruppen]** angezeigt, wo sie für die Zusammenarbeit und Aktivierung bereit sind. Detaillierte Informationen zu Verwaltungsoptionen finden Sie in der [Dokumentation „Quelle und Zielgruppen verwalten](./onboard-audiences.md).
+
+Weitere Informationen zu allen verfügbaren Quellen in Collaboration finden Sie unter [Quellen - Übersicht](./source-overview.md).

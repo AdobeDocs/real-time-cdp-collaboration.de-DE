@@ -3,15 +3,12 @@ title: CSV-Datei für Zielgruppen-Sourcing hochladen
 description: Erfahren Sie, wie Sie Ihre CSV-Datei als Self-Service-Datenquelle hochladen, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 2%
+source-wordcount: 1070
+ht-degree: 3%
 
 ---
 
@@ -35,7 +32,7 @@ Folgen Sie diesem Workflow, um eine CSV-Datei mit Ihren Zielgruppendaten in Coll
 
 Bevor Sie CSV-Dateien für die Zielgruppen-Beschaffung hochladen können, stellen Sie sicher, dass Sie Folgendes haben:
 
-* Das Onboarding eines Kontos in Real-Time CDP Collaboration wurde abgeschlossen. Eine [&#x200B; Anleitung finden Sie unter &#x200B;](./onboard-account.md) Ihres Kontos .
+* Das Onboarding eines Kontos in Real-Time CDP Collaboration wurde abgeschlossen. Eine [ Anleitung finden Sie unter ](./onboard-account.md) Ihres Kontos .
 * Die erforderlichen Berechtigungen, um Zielgruppen in Ihrer Organisation hinzuzufügen.
 * Eine CSV-Datei mit Ihren Zielgruppendaten mit Identitätsfeldern wie E-Mail oder Telefon.
 
@@ -64,7 +61,7 @@ Wählen **[!UICONTROL CSV-]**) als Datenverbindung aus, gefolgt von **[!UICONTRO
 >title="Hinzufügen einer Zielgruppe aus CSV-Dateien"
 >abstract="Laden Sie eine CSV-Datei von Ihrem Computer hoch, um Ihre Zielgruppen in Real-Time CDP Collaboration zu beziehen."
 
-Wählen Sie **[!UICONTROL Vom Computer auswählen]**, um eine CSV-Datei von Ihrem lokalen System hochzuladen. Alternativ können Sie die CSV-Datei, die Sie hochladen möchten, per Drag-and-Drop in das Bedienfeld [!UICONTROL CSV-Datei per Drag-and-Drop &#x200B;]&quot; ziehen.
+Wählen Sie **[!UICONTROL Vom Computer auswählen]**, um eine CSV-Datei von Ihrem lokalen System hochzuladen. Alternativ können Sie die CSV-Datei, die Sie hochladen möchten, per Drag-and-Drop in das Bedienfeld [!UICONTROL CSV-Datei per Drag-and-Drop ]&quot; ziehen.
 
 >[!IMPORTANT]
 >
@@ -145,4 +142,4 @@ Sie haben jetzt Ihre CSV-Datei erfolgreich in Collaboration hochgeladen. Nach Ab
 * Überprüfen Sie Zielgruppenüberschneidungen und Einblicke. Siehe [Messen der Kampagnenleistung](../../guide/collaborate/measure.md).
 * Verwalten Sie Ihre Zielgruppeneinstellungen und Sichtbarkeit. Siehe [Source und Zielgruppen verwalten](./onboard-audiences.md).
 
-Weitere Informationen zu anderen Zielgruppen-Beschaffungsmethoden finden Sie unter [Konfigurieren von AWS S3 für Zielgruppen-Beschaffung](./configure-aws-s3-audience-sourcing.md) oder [Source-Zielgruppen aus Experience Platform](./onboard-audiences.md).
+Weitere Informationen zu allen verfügbaren Quellen in Collaboration finden Sie unter [Quellen - Übersicht](./source-overview.md).
