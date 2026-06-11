@@ -2,9 +2,9 @@
 title: RTCDP Collaboration - Starter - Übersicht
 description: Erfahren Sie, wie Sie mit Adobe Real-Time CDP Collaboration Starter die datenschutzorientierte Zusammenarbeit mit einem lizenzierten Partner erweitern und verbessern können, ohne eine eigene vollständige Real-Time CDP-Lizenz zu benötigen.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Geben Sie Ihrem lizenzierten Partner die folgenden Informationen, um die Einladu
 * Rolle (Advertiser/Publisher): Advertiser
 * Branche
 
-Nachdem Sie die Einladung erhalten und angenommen haben, muss Ihr Unternehmen einen kostenlosen Kundenauftrag mit Adobe prüfen und unterzeichnen, um auf Collaboration [!DNL Starter] zugreifen zu können. Weitere Informationen zum Einladungsprozess finden Sie im Handbuch [Einladen eines Mitarbeiters zu Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
+Nachdem Sie die Einladung erhalten und angenommen haben, muss Ihr Unternehmen einen kostenlosen Kundenauftrag mit Adobe prüfen und unterzeichnen, um auf Collaboration [!DNL Starter] zugreifen zu können. Weitere Informationen zum Einladungsprozess finden Sie im Handbuch [Einladen eines Mitarbeiters zu Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator).
 
 ## Leitlinien {#guardrails}
 
@@ -53,7 +53,7 @@ In der folgenden Tabelle finden Sie die wichtigsten Leitplanken für Ihr [!DNL S
 
 ## Erste Schritte {#getting-started}
 
-Nachdem Sie [&#x200B; Einladung angenommen und den Bedingungen zugestimmt haben](../connect/establishing-connections.md#accept-invitation-sign-terms) melden Sie sich mit Ihren Anmeldeinformationen bei [&#128279;](https://experience.adobe.com/){target="_blank"}2&rbrace;Adobe Experience Cloud an. Bevor Sie Collaboration verwenden können, müssen Sie Ihrem Konto den entsprechenden Zugriff und die entsprechenden Rollen gewähren.
+Nachdem Sie [ Einladung angenommen und den Bedingungen zugestimmt haben](../connect/establishing-connections.md#accept-invitation-sign-terms) melden Sie sich mit Ihren Anmeldeinformationen bei [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} an. Bevor Sie Collaboration verwenden können, müssen Sie Ihrem Konto den entsprechenden Zugriff und die entsprechenden Rollen gewähren.
 
 Verwenden Sie diesen Workflow, um Ihr [!DNL Starter] Konto einzurichten und mit Ihrem Partner zusammenzuarbeiten.
 
