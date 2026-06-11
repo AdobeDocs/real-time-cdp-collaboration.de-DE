@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 9%
 
 ---
@@ -25,6 +25,13 @@ ht-degree: 9%
 {{limited-availability-release-note}}
 
 Bevor Mitwirkende an Kampagnen zusammenarbeiten können, müssen sie eine Verbindung herstellen. Diese Verbindung ermöglicht es ihnen, Zielgruppen zu aktivieren, Projekte zu erstellen und Berichte über die Kampagnenleistung zu erstellen.
+
+Collaboration unterstützt die folgenden Einladungsmethoden:
+
+- [Öffentliche Verbindungseinladung](#discover-collaborators): Stellen Sie über den Arbeitsbereich **[!UICONTROL Entdecken Sie Partner]** eine Verbindung mit einem anderen lizenzierten Kunden her.
+- [Einladung zur privaten Verbindung](#private-connection-invite): Stellen Sie mithilfe eines Verbindungs-Codes eine direkte Verbindung zu einem anderen lizenzierten Kunden her.
+- [Einladung starten](#invite-non-licensed-collaborator): Stellen Sie eine Verbindung zu einer Organisation her, die keine Lizenz hat.
+- [Authentifizierung](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): Herstellen einer Verbindung mit einer unterstützten Werbeplattform eines Drittanbieters.
 
 Verbindungen werden basierend auf Ihrem ausgewählten Kooperationsmuster hergestellt. Collaboration unterstützt zwei wichtige Kooperationsmuster: „Advertiser-to-Publisher“ und „Brand-to-Brand“. Weitere Informationen zu diesen Mustern finden Sie im Handbuch [Anwendungsfälle](/help/guide/overview/use-cases.md) .
 
@@ -55,9 +62,6 @@ Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung herge
 
 ![Allgemeine Abbildung des Verbindungsprozesses zwischen Marken.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->In diesem Handbuch wird der Verbindungsprozess für die Kollaborationsmuster zwischen Werbetreibenden und Verlegern sowie zwischen Marken behandelt. Informationen zum Verbinden mit Werbeplattformen finden Sie im Abschnitt [Verbindung zwischen Advertiser und Werbeplattform](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) im Handbuch [Verbindungen - Übersicht](/help/guide/connect/overview.md).
 
 ## Verbinden {#connect}
 
@@ -314,9 +318,9 @@ Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt
 
 Wählen Sie als Nächstes **[!UICONTROL Akzeptieren]** aus, um mit der Verbindung fortzufahren. Der Verbindungsstatus ändert sich in **[!UICONTROL Aktiv]** und Sie können jetzt mit der Zusammenarbeit an Projekten beginnen.
 
-## Mitwirkende Person einladen {#invite-collaborator}
+## Einladen eines nicht lizenzierten Mitarbeiters (Starter) {#invite-non-licensed-collaborator}
 
-Gehen Sie wie folgt vor, um Ihren Partner zur Teilnahme an Real-Time CDP Collaboration [!DNL Starter] einzuladen. Weitere Informationen zu Collaboration [!DNL Starter] und eine schrittweise Übersicht über den Prozess finden Sie in der [[!DNL Starter] Übersichtsdokumentation](../overview/starter-overview.md).
+Gehen Sie wie folgt vor, um Ihren nicht lizenzierten Partner zur Teilnahme an Real-Time CDP Collaboration [!DNL Starter] einzuladen. Weitere Informationen zu Collaboration [!DNL Starter] und eine schrittweise Übersicht über den Prozess finden Sie in der [[!DNL Starter] Übersichtsdokumentation](../overview/starter-overview.md).
 
 Bevor Sie den Einladungsprozess starten, erfassen Sie die folgenden Informationen von Ihrem Mitarbeiter:
 
