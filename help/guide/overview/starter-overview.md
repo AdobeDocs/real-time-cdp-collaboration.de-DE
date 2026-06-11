@@ -53,7 +53,7 @@ In der folgenden Tabelle finden Sie die wichtigsten Leitplanken für Ihr [!DNL S
 
 ## Erste Schritte {#getting-started}
 
-Nachdem Sie [ Einladung angenommen und den Bedingungen zugestimmt haben](../connect/establishing-connections.md#accept-invitation-sign-terms) melden Sie sich mit Ihren Anmeldeinformationen bei [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} an. Bevor Sie Collaboration verwenden können, müssen Sie Ihrem Konto den entsprechenden Zugriff und die entsprechenden Rollen gewähren.
+Nachdem Sie [&#x200B; Einladung angenommen und den Bedingungen zugestimmt haben](../connect/establishing-connections.md#accept-invitation-sign-terms) melden Sie sich mit Ihren Anmeldeinformationen bei [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} an. Bevor Sie Collaboration verwenden können, müssen Sie Ihrem Konto den entsprechenden Zugriff und die entsprechenden Rollen gewähren.
 
 Verwenden Sie diesen Workflow, um Ihr [!DNL Starter] Konto einzurichten und mit Ihrem Partner zusammenzuarbeiten.
 
