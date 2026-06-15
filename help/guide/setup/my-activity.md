@@ -2,7 +2,7 @@
 title: Verfolgen Ihrer Kreditnutzungsaktivität
 description: Erfahren Sie, wie Sie die Credit Wallet Ihres Unternehmens anzeigen und die Aktivität zur Kreditaufnahme in Real-Time CDP Collaboration verfolgen können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
 product_v2:
@@ -88,6 +88,6 @@ Die Spalte **[!UICONTROL Aktivität]** zeigt verschiedene Arten von kreditverbra
 
 So verwalten Sie Ihren Kreditverbrauch effektiv:
 
-1. **Verstehen** den mit jeder Aktivität verbundenen Kreditverbrauch. Die [Collaboration-Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} enthält eine Tabelle mit den Guthaben, die pro Aktivität verwendet werden.
+1. **Verstehen** den mit jeder Aktivität verbundenen Kreditverbrauch. Die [Collaboration-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} enthält eine Tabelle mit den Guthaben, die pro Aktivität verwendet werden.
 2. **Nutzung regelmäßig überwachen**: Überprüfen Sie Ihre verfügbaren Credits und Aktivitätstabellen, um die Nutzungsmuster bei Audience-Management-, Audience-Zugriff-, Audience-Ausgangs- und Messaktivitäten zu verstehen.
 3. **Nach Verbindung verfolgen**: Verwenden Sie den Verbindungsnamen, um zu ermitteln, welche Verbindungen die meisten Credits verbrauchen.
