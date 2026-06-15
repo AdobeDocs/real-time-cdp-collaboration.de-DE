@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 2%
 
 ---
@@ -75,9 +75,11 @@ Das **[!UICONTROL Bearbeiten von Übereinstimmungsschlüsseln]** wird geöffnet,
 
 ### Häufigkeit der Zielgruppenaktualisierung festlegen {#set-audience-refresh-frequency}
 
-Legen Sie abschließend die gewünschte Häufigkeit und den gewünschten Datumsbereich für die Aktualisierung der Zielgruppe fest. In der aktuellen Version ist die einzige unterstützte Häufigkeitsoption **[!UICONTROL Einmal]**. Die Häufigkeit **[!UICONTROL Einmal]** bedeutet, dass die Zielgruppen ein einziges Mal aktiviert und nicht aktualisiert werden. Die **[!UICONTROL Datum]**-Option wird automatisch mit dem aktuellen Datum ausgefüllt.
+Legen Sie abschließend die gewünschte Häufigkeit und den gewünschten Datumsbereich für die Zielgruppenaktivierung fest. Verwenden Sie das **[!UICONTROL Häufigkeit]**-Dropdown, um auszuwählen, ob die Zielgruppe einmal aktiviert oder in einem wiederkehrenden Zeitplan aktualisiert werden soll. Wählen Sie **[!UICONTROL Einmal]** aus, um die Zielgruppe ein einziges Mal zu aktivieren, oder wählen Sie eine wiederkehrende Häufigkeit aus, z. B. **[!UICONTROL Täglich]**, **[!UICONTROL Alle 2 Tage]**, **[!UICONTROL Alle 3 Tage]**, **[!UICONTROL Alle 4 Tage]**, **[!UICONTROL Alle 5 Tage]**, **[!UICONTROL Alle 6 Tage]**&#x200B;**[!UICONTROL Alle 2 Wochen]**, **[!UICONTROL Alle 3 Wochen]** oder **[!UICONTROL Monatlich]**.
 
-![Der Workflow zur Zielgruppenaktivierung mit hervorgehobenem Abschnitt „Häufigkeit“.](/help/assets/collaborate/activate/audience-frequency.png)
+![Die Dropdown-Liste „Häufigkeit“ im Zielgruppen-Aktivierungs-Workflow, in der die verfügbaren Optionen angezeigt werden, einschließlich „Einmal, Täglich“, „Alle 2 bis 6 Tage“, „Alle 2 bis 3 Wochen“ und „Monatlich“.](/help/assets/collaborate/activate/activation-frequency.png)
+
+Verwenden Sie das Feld **[!UICONTROL Datumsbereich]**, um festzulegen, wann der Aktivierungsplan beginnt und endet.
 
 Wenn Sie mit Ihrer Auswahl zufrieden sind, wählen Sie **[!UICONTROL Aktivieren]** aus, um den Workflow abzuschließen.
 
@@ -100,7 +102,7 @@ Innerhalb jeder gesendeten Zielgruppe werden die folgenden Metriken angezeigt:
 | **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der Identitäten in der Zielgruppe. |
 | **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der Identitäten mit Überschneidungen zwischen dieser Zielgruppe und der Gesamtpopulation der Profile im Inventar des Mitarbeiters. |
 | **[!UICONTROL Erstellt]** | Das Datum, an dem die Zielgruppe ursprünglich gesendet wurde. |
-| **[!UICONTROL Zuletzt gesendet]** | Das Datum, an dem die Zielgruppe zuletzt an Ihren Mitarbeiter gesendet wurde. |
+| **[!UICONTROL Zuletzt gesendet]** | Das Datum, an dem die Zielgruppe Ihrem Mitarbeiter zuletzt über den Aktivierungs-Workflow zur Verfügung gestellt wurde, entweder aus einer einmaligen Aktivierung oder einem wiederkehrenden Zeitplan. |
 | **[!UICONTROL Übereinstimmungsschlüssel]** | Gibt den für die Zielgruppe verwendeten Übereinstimmungsschlüssel an. |
 
 ## Aktivierte Zielgruppen anzeigen {#view-activated-audiences}
@@ -115,7 +117,7 @@ Innerhalb jeder aktivierten Zielgruppe können Sie die folgenden Metriken sehen:
 | **[!UICONTROL Status]** | Der Status der aktivierten Zielgruppe. |
 | **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der Identitäten, die aktiviert wurden, basierend auf den sich überschneidenden Identitäten, als Ihr Mitarbeiter die Zielgruppe gesendet hat. |
 | **[!UICONTROL Erstellt]** | Das Datum, an dem die Zielgruppe aktiviert wurde. |
-| **[!UICONTROL Zuletzt aktualisiert]** | Das Datum, an dem die Zielgruppe zuletzt aktualisiert wurde, basierend auf dem bei der Aktivierung ausgewählten Aktualisierungszeitplan. |
+| **[!UICONTROL Zuletzt aktualisiert]** | Das Datum, an dem die Zielgruppe zuletzt aktualisiert wurde, basierend auf der während der Aktivierung ausgewählten Häufigkeit. |
 | **[!UICONTROL Ziel]** | Das Ziel, für das die Zielgruppe aktiviert wurde. |
 | **[!UICONTROL Übereinstimmungsschlüssel]** | Gibt den für die Zielgruppe verwendeten Übereinstimmungsschlüssel an. |
 
