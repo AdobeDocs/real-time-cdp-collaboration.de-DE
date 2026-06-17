@@ -2,20 +2,15 @@
 title: Herstellen von Verbindungen zu Partnern
 description: Erfahren Sie, wie Sie nach der Entdeckung potenzieller Mitarbeiter Verbindungen herstellen und Projekte gemeinsam bearbeiten können.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
+source-wordcount: 3459
 ht-degree: 9%
 
 ---
@@ -56,7 +51,7 @@ Um eine Verbindung zwischen einem Advertiser und einem Publisher herzustellen, s
 1. [Verbindungseinstellungen konfigurieren](#configure-connection-settings): Der Advertiser konfiguriert die Verbindungseinstellungen und sendet sie zur Überprüfung an den Publisher.
 1. [Verbindungseinstellungen bestätigen](#establish-connection): Der Herausgeber prüft die Verbindungseinstellungen und akzeptiert oder lehnt sie ab. Wenn akzeptiert, wird die Verbindung hergestellt. Bei Ablehnung kann der Herausgeber Feedback für Revisionen außerhalb des Produkts geben. Der Werbetreibende kann dann die Einstellungen überarbeiten und zur Überprüfung erneut senden.
 
-Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [&#x200B; Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
+Sobald die Verbindungseinstellungen akzeptiert wurden, wird die Verbindung hergestellt und die Mitarbeiter können [ Projekt erstellen](/help/guide/collaborate/manage-projects.md#create-project) um mit der Zusammenarbeit bei Kampagnen zu beginnen.
 
 ## Marke-zu-Marke-Verbindung {#brand-to-brand-connection}
 
@@ -71,7 +66,7 @@ Im **[!UICONTROL Connect]**-Arbeitsbereich können Sie Ihre Verbindungen mit Mit
 
 >[!IMPORTANT]
 >
->Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [&#x200B; Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
+>Nur Werbetreibende können Publisher mithilfe des Arbeitsbereichs **[!UICONTROL Entdecken von]**&quot; entdecken. Informationen zur Verbindung mit Partnern unabhängig von ihrer Rolle finden Sie [ Abschnitt „Marke-zu-Marke-Verbindung](#brand-to-brand-connection).
 
 Um Publisher zu finden, navigieren Sie auf der Registerkarte „Verbinden **[!UICONTROL zum Arbeitsbereich]** Mitarbeiter **[!UICONTROL Entdecken]**. Hier können Sie die Liste der verfügbaren Herausgeber mithilfe der Steuerelemente für die Paginierung unten im Arbeitsbereich durchsuchen. Weitere Informationen zum Arbeitsbereich **[!UICONTROL Discover Collaborators]** finden Sie im Handbuch [Discover Collaborators](/help/guide/connect/discover-collaborators.md) .
 
@@ -105,7 +100,7 @@ Private Verbindungseinladungen ermöglichen es Ihnen, sich mit Mitarbeitern, mit
 
 #### Verbindungs-Code {#connect-code}
 
-Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]**&#x200B;**[!UICONTROL Codes im**&#x200B;[!UICONTROL -Arbeitsbereich zur &#x200B;]&#x200B;**Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
+Bevor Sie eine private Verbindungseinladung senden können, muss Ihr gewünschter Mitarbeiter Ihnen seinen eindeutigen **[!UICONTROL Connect-Code]** bereitstellen. Navigieren Sie zum Suchen und Kopieren Ihres **[!UICONTROL Verbindungs]****[!UICONTROL Codes im**[!UICONTROL -Arbeitsbereich zur ]**Mein Konto]** . Der **[!UICONTROL Connect-Code]** wird in Ihren Kontodetails angezeigt.
 
 ![Die Registerkarte „Mein Konto“ im Arbeitsbereich „Setup“ mit hervorgehobenem Verbindungs-Code.](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
@@ -244,7 +239,7 @@ Um Ihre Anwendungsfälle anzupassen, wählen Sie **[!UICONTROL Bearbeiten]** im 
 >
 >Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen, keine Zielgruppengröße oder einen Schwellenwert unterschreiten. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
 
-Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt &#x200B;](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
+Übereinstimmungsschlüssel werden automatisch mit den allgemeinen Übereinstimmungsschlüsseln ausgefüllt, die Sie und Ihr Mitarbeiter beim [Einrichten Ihrer Konten“ ausgewählt ](/help/guide/setup/onboard-account.md#set-up-match-keys). Es werden nur Übereinstimmungsschlüssel angezeigt, die sowohl von Ihnen als auch **ausgewählten** gemeinsam haben.
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“, in dem die allgemeinen Übereinstimmungsschlüssel angezeigt werden.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
@@ -260,7 +255,7 @@ Um Ihre Übereinstimmungsschlüssel anzupassen, wählen **[!UICONTROL Bearbeiten
 
 ##### Kostenaufteilung {#credit-split}
 
-Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von &#x200B;](/help/guide/setup/my-activity.md#types-of-activities)).
+Verwenden Sie den Abschnitt „Kreditaufteilung“, um zu bestimmen, welche der beiden kooperierenden Parteien die Kosten für die Aktivitäten deckt. Die Optionen für die Kreditaufteilung werden durch die ausgewählten Anwendungsfälle für die Verbindung bestimmt. Während im **[!UICONTROL Measurement]**-Anwendungsfall eine Partei die Kosten decken muss, bietet der **[!UICONTROL Activation - Matching]**-Anwendungsfall eine zusätzliche Option, damit jede Partei ihre eigenen Kosten übernimmt. Informationen zur Kostenaufschlüsselung finden Sie im Handbuch [Arten von ](/help/guide/setup/my-activity.md#types-of-activities)).
 
 >[!NOTE]
 >
@@ -310,7 +305,7 @@ Als Nächstes muss der Empfänger die vom Eigentümer vorgeschlagenen Verbindung
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit hervorgehobener Option „Akzeptieren“ und „Ablehnen“.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [&#x200B; Abschnitt &quot;](#connection-settings)&quot;.
+Wenn Sie ein Herausgeber sind, der eine Verbindung zu einem Advertiser herstellt, können Sie jetzt Advertiser-Namen in den Verbindungseinstellungen hinzufügen. Weitere Informationen zu diesem Prozess finden Sie [ Abschnitt &quot;](#connection-settings)&quot;.
 
 >[!NOTE]
 >
@@ -320,7 +315,7 @@ Wählen Sie als Nächstes **[!UICONTROL Akzeptieren]** aus, um mit der Verbindun
 
 ## Einladen eines nicht lizenzierten Mitarbeiters (Starter) {#invite-non-licensed-collaborator}
 
-Gehen Sie wie folgt vor, um Ihren nicht lizenzierten Partner zur Teilnahme an Real-Time CDP Collaboration [!DNL Starter] einzuladen. Weitere Informationen zu Collaboration [!DNL Starter] und eine schrittweise Übersicht über den Prozess finden Sie in der [[!DNL Starter] Übersichtsdokumentation](../overview/starter-overview.md).
+Gehen Sie wie folgt vor, um Ihren nicht lizenzierten Partner zur Teilnahme an Real-Time CDP Collaboration [!DNL Starter] einzuladen. Einladungen werden direkt an die E-Mail-Adresse des Mitarbeiters gesendet und müssen akzeptiert werden, bevor eine Verbindung hergestellt werden kann. Weitere Informationen zu Collaboration [!DNL Starter] und eine schrittweise Übersicht über den Prozess finden Sie in der [[!DNL Starter] Übersichtsdokumentation](../overview/starter-overview.md).
 
 Bevor Sie den Einladungsprozess starten, erfassen Sie die folgenden Informationen von Ihrem Mitarbeiter:
 
@@ -357,7 +352,7 @@ Das **[!UICONTROL Invite a Collaborator]** wird angezeigt, in dem Sie aufgeforde
 >
 >Einladungen sind **an die angegebene E-Mail-Adresse gebunden**. Stellen Sie sicher, dass die E-Mail-Adresse korrekt ist, da der eingeladene Benutzer genau diese E-Mail verwenden muss, um die Einladung anzunehmen und auf das Produkt zuzugreifen.
 
-Verwenden Sie als Nächstes das Dropdown-Menü, um die entsprechende Rolle für Ihren Partner auszuwählen. Weitere Informationen zu den verfügbaren [&#x200B; in Collaboration finden &#x200B;](../overview/roles.md) in der Dokumentation zu Kontorollen .
+Verwenden Sie als Nächstes das Dropdown-Menü, um die entsprechende Rolle für Ihren Partner auszuwählen. Weitere Informationen zu den verfügbaren [ in Collaboration finden ](../overview/roles.md) in der Dokumentation zu Kontorollen .
 
 ![Das Dialogfeld „Mitarbeiter einladen“ mit hervorgehobenem Dropdown-Menü „Rolle“.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
 
@@ -369,9 +364,14 @@ In einem Bestätigungsdialogfeld wird bestätigt, dass die Einladung erfolgreich
 
 ![Das Bestätigungsdialogfeld bestätigt, dass die Einladung erfolgreich gesendet wurde.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+Nachdem Sie die Einladung gesendet haben, erhält Ihr Partnerunternehmen eine E-Mail mit Anweisungen zum Überprüfen und Unterschreiben der Geschäftsbedingungen von Real-Time Collaboration.
+
 ### Annahme der Einladung und Unterzeichnung der Bedingungen {#accept-invitation-sign-terms}
 
-Nachdem Sie die Einladung gesendet haben, erhält Ihre Partnerorganisation eine E-Mail mit Anweisungen zum Überprüfen und Akzeptieren der Geschäftsbedingungen von Real-Time Collaboration. Sie können auch die Funktionen von Collaboration erkunden, bevor sie sie akzeptieren.
+Um fortzufahren, muss die Organisation des eingeladenen Partners:
+
+- Öffnen Sie die Einladungs-E-Mail.
+- Folgen Sie dem Link, um die Nutzungsbedingungen von Real-Time CDP Collaboration zu überprüfen und zu unterzeichnen.
 
 ![Die Einladungs-E-Mail, um Collaboration Starter beizutreten.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +379,11 @@ Sobald Ihr Partnerunternehmen die Nutzungsbedingungen akzeptiert hat, beginnt Ad
 
 ### Bestätigung der Bereitstellung {#provisioning-confirmation}
 
-Wenn der Bereitstellungsprozess abgeschlossen ist, wird eine Begrüßungs-E-Mail an die eingeladene Organisation gesendet, in der bestätigt wird, dass Collaboration [!DNL Starter] einsatzbereit ist. Diese E-Mail enthält Anweisungen zu folgenden Themen:
+Wenn der Bereitstellungsprozess abgeschlossen ist, wird eine zweite E-Mail an die eingeladene Organisation gesendet, in der bestätigt wird, dass Collaboration [!DNL Starter] einsatzbereit ist. Diese Begrüßungs-E-Mail enthält Anweisungen zu folgenden Themen:
 
 - [Konfigurieren des Admin- und Benutzerzugriffs](../setup/starter-admin-access.md)
 - [Einrichten von Berechtigungen für den Zugriff auf Collaboration](../setup/starter-permission-controls.md)
+- [Herstellen einer Verbindung mit dem einladenden Mitarbeiter](#connect)
 
 ![Die Begrüßungs-E-Mail, die an die eingeladene Organisation gesendet wurde, mit Anweisungen zum Einrichten des erforderlichen Zugriffs und der erforderlichen Berechtigungen.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +391,4 @@ Sobald Ihr Partner Zugriff auf Collaboration hat, können Sie und das eingeladen
 
 ## Nächste Schritte
 
-Nachdem Sie eine Verbindung mit Ihrem Mitarbeiter hergestellt haben, können Sie und Ihr Mitarbeiter jetzt [Projekte erstellen](/help/guide/collaborate/manage-projects.md#create-project).
+Nachdem Sie eine Verbindung hergestellt haben, können [ mit Ihrem ](/help/guide/collaborate/manage-projects.md#create-project) Projekte erstellen.
