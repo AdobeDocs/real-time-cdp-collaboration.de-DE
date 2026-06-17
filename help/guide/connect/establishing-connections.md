@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
+source-wordcount: 3459
 ht-degree: 9%
 
 ---
@@ -320,7 +320,7 @@ Wählen Sie als Nächstes **[!UICONTROL Akzeptieren]** aus, um mit der Verbindun
 
 ## Einladen eines nicht lizenzierten Mitarbeiters (Starter) {#invite-non-licensed-collaborator}
 
-Gehen Sie wie folgt vor, um Ihren nicht lizenzierten Partner zur Teilnahme an Real-Time CDP Collaboration [!DNL Starter] einzuladen. Weitere Informationen zu Collaboration [!DNL Starter] und eine schrittweise Übersicht über den Prozess finden Sie in der [[!DNL Starter] Übersichtsdokumentation](../overview/starter-overview.md).
+Gehen Sie wie folgt vor, um Ihren nicht lizenzierten Partner zur Teilnahme an Real-Time CDP Collaboration [!DNL Starter] einzuladen. Einladungen werden direkt an die E-Mail-Adresse des Mitarbeiters gesendet und müssen akzeptiert werden, bevor eine Verbindung hergestellt werden kann. Weitere Informationen zu Collaboration [!DNL Starter] und eine schrittweise Übersicht über den Prozess finden Sie in der [[!DNL Starter] Übersichtsdokumentation](../overview/starter-overview.md).
 
 Bevor Sie den Einladungsprozess starten, erfassen Sie die folgenden Informationen von Ihrem Mitarbeiter:
 
@@ -369,9 +369,14 @@ In einem Bestätigungsdialogfeld wird bestätigt, dass die Einladung erfolgreich
 
 ![Das Bestätigungsdialogfeld bestätigt, dass die Einladung erfolgreich gesendet wurde.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+Nachdem Sie die Einladung gesendet haben, erhält Ihr Partnerunternehmen eine E-Mail mit Anweisungen zum Überprüfen und Unterschreiben der Geschäftsbedingungen von Real-Time Collaboration.
+
 ### Annahme der Einladung und Unterzeichnung der Bedingungen {#accept-invitation-sign-terms}
 
-Nachdem Sie die Einladung gesendet haben, erhält Ihre Partnerorganisation eine E-Mail mit Anweisungen zum Überprüfen und Akzeptieren der Geschäftsbedingungen von Real-Time Collaboration. Sie können auch die Funktionen von Collaboration erkunden, bevor sie sie akzeptieren.
+Um fortzufahren, muss die Organisation des eingeladenen Partners:
+
+- Öffnen Sie die Einladungs-E-Mail.
+- Folgen Sie dem Link, um die Nutzungsbedingungen von Real-Time CDP Collaboration zu überprüfen und zu unterzeichnen.
 
 ![Die Einladungs-E-Mail, um Collaboration Starter beizutreten.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +384,11 @@ Sobald Ihr Partnerunternehmen die Nutzungsbedingungen akzeptiert hat, beginnt Ad
 
 ### Bestätigung der Bereitstellung {#provisioning-confirmation}
 
-Wenn der Bereitstellungsprozess abgeschlossen ist, wird eine Begrüßungs-E-Mail an die eingeladene Organisation gesendet, in der bestätigt wird, dass Collaboration [!DNL Starter] einsatzbereit ist. Diese E-Mail enthält Anweisungen zu folgenden Themen:
+Wenn der Bereitstellungsprozess abgeschlossen ist, wird eine zweite E-Mail an die eingeladene Organisation gesendet, in der bestätigt wird, dass Collaboration [!DNL Starter] einsatzbereit ist. Diese Begrüßungs-E-Mail enthält Anweisungen zu folgenden Themen:
 
 - [Konfigurieren des Admin- und Benutzerzugriffs](../setup/starter-admin-access.md)
 - [Einrichten von Berechtigungen für den Zugriff auf Collaboration](../setup/starter-permission-controls.md)
+- [Herstellen einer Verbindung mit dem einladenden Mitarbeiter](#connect)
 
 ![Die Begrüßungs-E-Mail, die an die eingeladene Organisation gesendet wurde, mit Anweisungen zum Einrichten des erforderlichen Zugriffs und der erforderlichen Berechtigungen.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +396,4 @@ Sobald Ihr Partner Zugriff auf Collaboration hat, können Sie und das eingeladen
 
 ## Nächste Schritte
 
-Nachdem Sie eine Verbindung mit Ihrem Mitarbeiter hergestellt haben, können Sie und Ihr Mitarbeiter jetzt [Projekte erstellen](/help/guide/collaborate/manage-projects.md#create-project).
+Nachdem Sie eine Verbindung hergestellt haben, können [&#x200B; mit Ihrem &#x200B;](/help/guide/collaborate/manage-projects.md#create-project) Projekte erstellen.
