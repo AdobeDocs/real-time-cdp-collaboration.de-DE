@@ -51,7 +51,7 @@ Zu den wichtigsten Anforderungen gehören:
 * **Hash-Anforderungen:** Alle Übereinstimmungsschlüsselwerte müssen vor dem Hochladen gekürzt, in Kleinbuchstaben geschrieben und SHA256-gehasht werden. Collaboration hasht oder normalisiert Daten nicht vor der Aufnahme.
 * **Spaltenkonsistenz:** Alle Dateien unter Ihrem konfigurierten Pfad müssen identische Spaltenstrukturen verwenden.
 
-Alle Übereinstimmungsschlüssel, die in Ihren Zielgruppendateien vorhanden sind, müssen auch für Ihr Collaboration-Konto aktiviert werden. Eine Anleitung [ Sie unter „Einrichten ](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys) Übereinstimmungsschlüsseln“.
+Alle Übereinstimmungsschlüssel, die in Ihren Zielgruppendateien vorhanden sind, müssen auch für Ihr Collaboration-Konto aktiviert werden. Eine Anleitung [&#x200B; Sie unter „Einrichten &#x200B;](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys) Übereinstimmungsschlüsseln“.
 
 >[!IMPORTANT]
 >
