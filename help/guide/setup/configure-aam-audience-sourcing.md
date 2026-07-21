@@ -2,7 +2,7 @@
 title: Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Adobe Audience Manager als Datenquelle verbinden, um geeignete First-Party-Zielgruppen in Real-Time CDP Collaboration zu beschaffen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
 workflow-type: tm+mt
 source-wordcount: '1901'
