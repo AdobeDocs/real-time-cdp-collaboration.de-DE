@@ -2,7 +2,7 @@
 title: Zielgruppen – Überblick
 description: Erfahren Sie mehr über Audiences in Real-Time CDP Collaboration, einschließlich der Bezugsquellen für diese.
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 topic_v2:

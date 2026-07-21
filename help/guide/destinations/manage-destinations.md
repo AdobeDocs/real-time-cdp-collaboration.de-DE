@@ -2,7 +2,7 @@
 title: Konfigurieren und Verwalten eines Ziels
 description: Erfahren Sie, wie Sie ein Ziel in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 topic_v2:
