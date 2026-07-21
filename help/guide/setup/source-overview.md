@@ -11,7 +11,7 @@ ht-degree: 7%
 
 # Quellen – Übersicht
 
-In Adobe Real-Time CDP Collaboration stammen Ihre Zielgruppendaten aus einer Quelle (oder Datenverbindung). Sie können eine Verbindung zu verschiedenen Quelltypen herstellen, z. B. zu Adobe-Programmen, Cloud-basierten Datenspeichern oder Dateien aus Ihrem lokalen System, um Zielgruppen für Ihre Collaboration[Projekte zu ](./onboard-audiences.md) und zu verwalten. Während des Zielgruppen-Beschaffungs-Workflows können Sie Ihre bevorzugte Quelle basierend auf den Anforderungen Ihres Unternehmens auswählen und einrichten.
+In Adobe Real-Time CDP Collaboration stammen Ihre Zielgruppendaten aus einer Quelle (oder Datenverbindung). Sie können eine Verbindung zu verschiedenen Quelltypen herstellen, z. B. zu Adobe-Programmen, Cloud-basierten Datenspeichern oder Dateien aus Ihrem lokalen System, um Zielgruppen für Ihre Collaboration[Projekte zu &#x200B;](./onboard-audiences.md) und zu verwalten. Während des Zielgruppen-Beschaffungs-Workflows können Sie Ihre bevorzugte Quelle basierend auf den Anforderungen Ihres Unternehmens auswählen und einrichten.
 
 ## Mit Quelle verbinden {#connect-a-source}
 
@@ -21,7 +21,7 @@ Wählen Sie das Symbol zum Hinzufügen aus ![Symbol hinzufügen.](/help/assets/i
 
 ![Mein Zielgruppen-Arbeitsbereich mit hervorgehobener Option „Hinzufügen“ und hervorgehobener Option „Zielgruppen“.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
-Während des Workflows werden Sie aufgefordert, eine neue Datenverbindung hinzuzufügen, indem Sie eine Quelle auswählen. Die ausgewählte Quelle bestimmt, wie Ihre Zielgruppendaten in Collaboration importiert werden. Eine Liste [ unterstützten Quellen finden Sie ](#available-sources) der Tabelle „Verfügbare Quellen“.
+Während des Workflows werden Sie aufgefordert, eine neue Datenverbindung hinzuzufügen, indem Sie eine Quelle auswählen. Die ausgewählte Quelle bestimmt, wie Ihre Zielgruppendaten in Collaboration importiert werden. Eine Liste [&#x200B; unterstützten Quellen finden Sie &#x200B;](#available-sources) der Tabelle „Verfügbare Quellen“.
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
 

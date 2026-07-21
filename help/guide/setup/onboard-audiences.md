@@ -5,8 +5,12 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 3752
@@ -47,7 +51,7 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL 
 
 Eine Datenverbindung ist die Quelle, aus der Sie Zielgruppen in Collaboration aufnehmen. Weitere Informationen zu allen verfügbaren Quellen finden Sie unter [Quellen - Übersicht](./source-overview.md).
 
-In den folgenden Abschnitten wird beschrieben, wie Sie **Adobe Experience Platform** auswählen und die Experience Platform-spezifischen Schritte (Sandbox, Governance und Einverständnis) ausführen. Wenn Sie CSV, [!DNL Amazon S3], [!DNL Snowflake] oder [!DNL Google Cloud Storage] auswählen, verwenden Sie das unter „Datenquelle auswählen[ für ](#select-data-source) Option verlinkte Handbuch.
+In den folgenden Abschnitten wird beschrieben, wie Sie **Adobe Experience Platform** auswählen und die Experience Platform-spezifischen Schritte (Sandbox, Governance und Einverständnis) ausführen. Wenn Sie CSV, [!DNL Amazon S3], [!DNL Snowflake] oder [!DNL Google Cloud Storage] auswählen, verwenden Sie das unter „Datenquelle auswählen[&#x200B; für &#x200B;](#select-data-source) Option verlinkte Handbuch.
 
 Alle Einstellungen, die Sie für eine Experience Platform-Datenverbindung konfigurieren, werden auf alle Zielgruppen angewendet, die von dieser Verbindung bezogen werden.
 
@@ -64,11 +68,11 @@ Um mit dem Hinzufügen Ihrer Datenverbindung zu beginnen, wählen Sie **[!UICONT
 Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügbaren Quellen gehören:
 
 * **Adobe Experience Platform**: Wählen Sie diese Option, um Ihre Zielgruppen aus Adobe Experience Platform einzubringen.
-* **CSV-Datei**: Laden Sie eine CSV-Datei hoch, die Ihre Zielgruppendaten enthält, um Daten schnell und einfach aufzunehmen. Informationen zu den ersten [ finden Sie im Handbuch ](./upload-csv-audience-sourcing.md) Hochladen einer CSV-Datei für die Zielgruppen-Beschaffung .
-* **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [ Anleitung finden Sie ](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
-* **Snowflake**: Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen. Weitere Informationen finden Sie [ Handbuch  [!DNL Snowflake] Konfigurieren für die Zielgruppen-](./configure-snowflake-audience-sourcing.md)).
-* **Google Cloud-Speicher**: Stellen Sie eine Verbindung zu Ihren GCS-Buckets her, um Zielgruppendaten zu beziehen. Eine schrittweise Anleitung finden [ im Handbuch ](./configure-gcs-audience-sourcing.md) Konfigurieren von GCS für die Zielgruppen-Beschaffung .
-* **Adobe Audience Manager**: Source erstellt Zielgruppensegmente aus Adobe Audience Manager. Erste Schritte finden [ im Handbuch zum Konfigurieren ](./configure-aam-audience-sourcing.md) Adobe Audience Manager für die Zielgruppen-Beschaffung .
+* **CSV-Datei**: Laden Sie eine CSV-Datei hoch, die Ihre Zielgruppendaten enthält, um Daten schnell und einfach aufzunehmen. Informationen zu den ersten [&#x200B; finden Sie im Handbuch &#x200B;](./upload-csv-audience-sourcing.md) Hochladen einer CSV-Datei für die Zielgruppen-Beschaffung .
+* **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [&#x200B; Anleitung finden Sie &#x200B;](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
+* **Snowflake**: Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen. Weitere Informationen finden Sie [&#x200B; Handbuch  [!DNL Snowflake] Konfigurieren für die Zielgruppen-](./configure-snowflake-audience-sourcing.md)).
+* **Google Cloud-Speicher**: Stellen Sie eine Verbindung zu Ihren GCS-Buckets her, um Zielgruppendaten zu beziehen. Eine schrittweise Anleitung finden [&#x200B; im Handbuch &#x200B;](./configure-gcs-audience-sourcing.md) Konfigurieren von GCS für die Zielgruppen-Beschaffung .
+* **Adobe Audience Manager**: Source erstellt Zielgruppensegmente aus Adobe Audience Manager. Erste Schritte finden [&#x200B; im Handbuch zum Konfigurieren &#x200B;](./configure-aam-audience-sourcing.md) Adobe Audience Manager für die Zielgruppen-Beschaffung .
 
 Wählen Sie Ihre Datenquelle und dann **[!UICONTROL Weiter]** aus.
 
@@ -139,7 +143,7 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
 
-Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt ](./onboard-account.md#set-up-match-keys).
+Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt &#x200B;](./onboard-account.md#set-up-match-keys).
 
 Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimmungsschlüssel ausgewählt haben, wird der [!DNL Demdex ID] automatisch aus ECID extrahiert und zugeordnet und Sie müssen keine Maßnahmen ergreifen. Weitere Informationen zu [!DNL Demdex IDs] finden Sie im [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
@@ -151,7 +155,7 @@ Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimm
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
+**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
 
 Source-Felder werden den in Collaboration definierten Zielfeldern zugeordnet.
 
@@ -351,7 +355,7 @@ Die Sichtbarkeit von Metadaten gibt die Sichtbarkeit der Metadaten einer Zielgru
 
 Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sichtbarkeitseinstellungen für die Zielgruppe konfigurieren können. Es gibt zwei Einstellungen für die Sichtbarkeit von Metadaten, die Sie für jede Zielgruppe konfigurieren können:
 
-**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb ](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
+**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb &#x200B;](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
 
 **[!UICONTROL Zielgruppenüberschneidung anzeigen %]**: Diese Einstellung steuert, ob Mitwirkende in der Lage sind, [Überschneidungsprozentsätze zu ermitteln](/help/guide/collaborate/discover.md#compare-audiences) zwischen ihren Zielgruppen und Ihren Zielgruppen.
 
