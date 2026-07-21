@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und stellt in Echtzeit Erkenntnisse zu Zielgruppen und personalisierte Marketing-Strategien bereit.
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 38%
+source-wordcount: '238'
+ht-degree: 37%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 38%
 * Setup {#setup}
   * [Überblick über den Einrichtungsabschnitt](./setup/setup-overview.md)
   * [Onboarding und Verwalten Ihres Kontos](./setup/onboard-account.md)
+  * {hide-from-toc}[Zielgruppen - Übersicht](./setup/audiences-overview.md)
   * Source und Verwalten von Audiences {#source-audiences}
     * [Quellen – Übersicht](./setup/source-overview.md)
     * [Konfigurieren von AEP für die Zielgruppen-Beschaffung](./setup/onboard-audiences.md)
@@ -65,6 +66,7 @@ ht-degree: 38%
     * {hide-from-toc}[Erstellen von AMC-Messberichten](./collaborate/advertising-platforms/amc-measure.md)
 * Ziele {#destinations}
   * [Überblick](/help/guide/destinations/overview.md)
+  * {hide-from-toc}[Konfigurieren und Verwalten eines Ziels](./destinations/manage-destinations.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Berechtigungen {#permissions}
   * [Überblick](/help/guide/permissions/overview.md)
