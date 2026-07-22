@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL 
 
 Eine Datenverbindung ist die Quelle, aus der Sie Zielgruppen in Collaboration aufnehmen. Weitere Informationen zu allen verfügbaren Quellen finden Sie unter [Quellen - Übersicht](./source-overview.md).
 
-In den folgenden Abschnitten wird beschrieben, wie Sie **Adobe Experience Platform** auswählen und die Experience Platform-spezifischen Schritte (Sandbox, Governance und Einverständnis) ausführen. Wenn Sie CSV, [!DNL Amazon S3], [!DNL Snowflake] oder [!DNL Google Cloud Storage] auswählen, verwenden Sie das unter „Datenquelle auswählen[&#x200B; für &#x200B;](#select-data-source) Option verlinkte Handbuch.
+In den folgenden Abschnitten wird beschrieben, wie Sie **Adobe Experience Platform** auswählen und die Experience Platform-spezifischen Schritte (Sandbox, Governance und Einverständnis) ausführen. Wenn Sie CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager oder [!DNL Databricks Delta Share] auswählen, verwenden Sie das unter [Datenquelle auswählen](#select-data-source) für diese Option verlinkte Handbuch.
 
 Alle Einstellungen, die Sie für eine Experience Platform-Datenverbindung konfigurieren, werden auf alle Zielgruppen angewendet, die von dieser Verbindung bezogen werden.
 
@@ -72,7 +72,8 @@ Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügba
 * **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [&#x200B; Anleitung finden Sie &#x200B;](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
 * **Snowflake**: Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen. Weitere Informationen finden Sie [&#x200B; Handbuch  [!DNL Snowflake] Konfigurieren für die Zielgruppen-](./configure-snowflake-audience-sourcing.md)).
 * **Google Cloud-Speicher**: Stellen Sie eine Verbindung zu Ihren GCS-Buckets her, um Zielgruppendaten zu beziehen. Eine schrittweise Anleitung finden [&#x200B; im Handbuch &#x200B;](./configure-gcs-audience-sourcing.md) Konfigurieren von GCS für die Zielgruppen-Beschaffung .
-* **Adobe Audience Manager** (_in Kürze verfügbar_: Source erstellt Zielgruppensegmente aus Adobe Audience Manager.
+* **[!DNL Databricks Delta Share]**: Stellen Sie eine Verbindung zu Ihrem [!DNL Databricks Delta Share] her, um First-Party-Zielgruppendaten aus Ihrer [!DNL Databricks]-Umgebung zu beziehen. Siehe das [Konfigurieren [!DNL Databricks Delta Share]  für Zielgruppen-](./configure-databricks-audience-sourcing.md).
+* **Adobe Audience Manager**: Source erstellt Zielgruppensegmente aus Adobe Audience Manager. Erste Schritte finden [&#x200B; im Handbuch zum Konfigurieren &#x200B;](./configure-aam-audience-sourcing.md) Adobe Audience Manager für die Zielgruppen-Beschaffung .
 
 Wählen Sie Ihre Datenquelle und dann **[!UICONTROL Weiter]** aus.
 

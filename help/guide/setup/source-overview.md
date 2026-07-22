@@ -2,10 +2,10 @@
 title: Quellen – Übersicht
 description: Informationen zu Quell-Connectoren in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
+source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,8 @@ Die folgenden Quellen sind in Collaboration verfügbar. Um die schrittweise Anle
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | Verbinden Sie Ihre [!DNL Snowflake Secure Data Share], um umfangreiche Zielgruppendaten aufzunehmen. | Verfügbar |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Verbinden Sie Ihre GCS-Buckets, um in Ihrer [!DNL Google Cloud]-Umgebung gespeicherte Zielgruppendaten einzubringen. | Verfügbar |
 | [CSV-Datei hochladen](./upload-csv-audience-sourcing.md) | Laden Sie eine formatierte CSV-Datei direkt von Ihrem lokalen System hoch. | Verfügbar |
-| Adobe Audience Manager | Übertragen Sie vorhandene Audience Manager-Segmente in Ihre Collaboration-Projekte. | *Bald verfügbar* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | Übertragen Sie vorhandene Audience Manager-Segmente in Ihre Collaboration-Projekte. | Verfügbar |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | Verbinden Sie Ihre [!DNL Databricks Delta Share], um umfangreiche Zielgruppendaten aus Ihrer [!DNL Databricks]-Umgebung zu importieren. | Verfügbar |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | Verbinden Sie Ihre [!DNL Azure Blob Storage]-Container mit Erstanbieter-Datensätzen aus Ihrer [!DNL Microsoft Azure]. | Verfügbar |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | Verbinden Sie Ihr [!DNL Azure Data Lake Storage Gen 2]-Konto, um Zielgruppendaten einzubringen, die in Ihrem [!DNL Azure] Data Lake gespeichert sind. | Verfügbar |
 
