@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
+source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
 workflow-type: tm+mt
-source-wordcount: 1903
+source-wordcount: 1968
 ht-degree: 3%
 
 ---
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Letzte Aktualisierung**: April 2026.
+**Letzte Aktualisierung**: Juli 2026.
 
 In diesen Versionshinweisen werden die in Adobe Real-Time CDP Collaboration veröffentlichten Funktionen beschrieben. Collaboration-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Diese Versionshinweise werden häufig aktualisiert. Überprüfen Sie sie daher regelmäßig.
+
+## Juli 2026 {#july-2026}
+
+Real-Time CDP Collaboration unterstützt jetzt zusätzliche Self-Service-Optionen zur Zielgruppenbeschaffung.
+
+**Neue oder aktualisierte Funktionen**
+
+| Funktion | Beschreibung |
+| ------- | ----------- |
+| Self-Service-Zielgruppenbeschaffung aus [!DNL Databricks Delta Share] und Adobe Audience Manager | Sie können jetzt Erstanbieter-Zielgruppen direkt aus Ihrer [!DNL Databricks Delta Share] beziehen oder geeignete Adobe Audience Manager-Segmente in Collaboration importieren. Anweisungen zum Einrichten finden Sie in den folgenden Handbüchern: <ul><li>[Konfigurieren [!DNL Databricks Delta Share]  für Zielgruppen-Sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## April 2026 {#april-2026}
 
@@ -91,12 +103,12 @@ Real-Time CDP Collaboration ist jetzt für Kunden in **Europa, dem Nahen Osten u
 Real-Time CDP Collaboration ist jetzt für Kunden in **Kanada** verfügbar. Sie ist für Kunden von Real-Time CDP Prime und Ultimate in diesen Regionen automatisch verfügbar.
 
 * Collaboration unterstützt jetzt die folgenden [Übereinstimmungsschlüssel](../setup/onboard-account.md#supported-match-keys):
-   * Gehashte E-Mail
-   * Hash-Telefonnummer
-   * CRM-ID
-   * Treue-ID
-   * Gehashtes IPv4
-   * AdFixus-ID
+  * Gehashte E-Mail
+  * Hash-Telefonnummer
+  * CRM-ID
+  * Treue-ID
+  * Gehashtes IPv4
+  * AdFixus-ID
 * In Collaboration sind jetzt mehrere Übereinstimmungsschlüssel verfügbar, mit denen Sie Ihre Zielgruppengröße erweitern und die Übereinstimmungsraten verbessern können. Beim Sourcing von Audiences, Herstellen von Verbindungen und Aktivieren von Audiences können mehrere Übereinstimmungsschlüssel verwendet werden. Weitere Informationen zur Verwendung mehrerer Übereinstimmungsschlüssel finden Sie in den Handbüchern [Einrichten von Übereinstimmungsschlüsseln](../setup/onboard-account.md) und [Sourcing-Zielgruppen](../setup/onboard-audiences.md#map-fields).
 
 >[!IMPORTANT]
@@ -120,7 +132,7 @@ Real-Time CDP Collaboration unterstützt jetzt die Zusammenarbeit zwischen Marke
 
 * Real-Time CDP Collaboration ist jetzt für Kunden in **Australien** und **Neuseeland** verfügbar. Sie ist für Kunden von Real-Time CDP Prime und Ultimate in diesen Regionen automatisch verfügbar.
 * Real-Time CDP Collaboration bietet jetzt [Selbstbedienungsziele](../setup/manage-destinations.md) über die Registerkarte **[!UICONTROL Meine Ziele]** im Abschnitt **[!UICONTROL Setup]** an. Mit Zielen können Sie Zielgruppen in Drittanbieterplattformen wie Werbenetzwerken oder Datenverwaltungsplattformen aktivieren, um Ihre Kundinnen und Kunden über verschiedene Kanäle zu erreichen. Derzeit werden nur Adobe Experience Platform-Ziele unterstützt. Wenn Sie ein anderes Ziel konfigurieren möchten, wenden Sie sich an Ihren Adobe-Support-Mitarbeiter. Weitere Informationen zu Zielen finden Sie im Handbuch [Ziele - Übersicht](../destinations/overview.md) .
-   * Ziele unterstützen auch die Anzeige von Collaboration-Zielgruppen im Zielgruppenportal [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+  * Ziele unterstützen auch die Anzeige von Collaboration-Zielgruppen im Zielgruppenportal [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * Sie können jetzt die Aktualisierungshäufigkeit der Zielgruppe für bestehende Datenverbindungen in Collaboration bearbeiten. Derzeit können Sie Ihre Zielgruppen täglich oder alle zwei bis sechs Tage aktualisieren. Weitere Informationen zum Bearbeiten der Aktualisierungshäufigkeit für Zielgruppen finden Sie im Handbuch [Datenverbindungen verwalten](../setup/manage-data-connection.md#scheduling).
 * Für jeden innerhalb der Verbindung ausgewählten Anwendungsfall werden jetzt Credit-Splits zwischen Partnern festgelegt. Sie können für jeden Anwendungsfall unterschiedliche Regeln für den Kreditverbrauch festlegen, um die Verwendung Ihrer Gutschriften besser steuern zu können. Weitere Informationen zur Funktion der Kreditaufteilung finden Sie im Handbuch [Verbindungseinstellungen](../connect/establishing-connections.md#connection-settings) . Weitere Informationen zum Konsum von Guthaben finden Sie im Handbuch [Typen von &#x200B;](../setup/my-activity.md#types-of-activities)). <br> ![Bildschirm mit den Verbindungseinstellungen mit der Funktion der Kreditaufteilung.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * Publisher können jetzt Advertiser-Namen und -IDs festlegen, bevor sie die Verbindungseinstellungen von einem Advertiser akzeptieren. Publisher können Namen und IDs festlegen, die mit ihren internen Systemen übereinstimmen, die sich von den Namen und IDs des Advertisers unterscheiden können. Weitere Informationen zum Hinzufügen von Advertiser-Namen und IDs finden Sie im Handbuch [Verbindungseinstellungen](../connect/establishing-connections.md#connection-settings.md) . <br> ![Bildschirm „Verbindungseinstellungen“ mit den Herausgebereinstellungen für Advertiser-Namen und -IDs.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -134,9 +146,9 @@ Real-Time CDP Collaboration unterstützt jetzt die Zusammenarbeit zwischen Marke
 
 * Beim [&#x200B; von Zielgruppen &#x200B;](/help/guide/setup/onboard-audiences.md) Collaboration können Sie jetzt eine Aktualisierungshäufigkeit für Zielgruppen von **alle ein bis sechs Tage)**, um die Kreditaktivität [Zielgruppenverwaltung“ besser zu &#x200B;](/help/guide/setup/my-activity.md#types-of-activities). Weitere Informationen finden Sie im Handbuch [Verwalten &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences) Zielgruppen“. <br> ![Bildschirm „Zeitplan“ mit verschiedenen Häufigkeitsintervallen zur Aktualisierung der Zielgruppenzugehörigkeit.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Bildschirm „Zeitplan“ mit verschiedenen Häufigkeitsintervallen zur Aktualisierung der Zielgruppenzugehörigkeit."){width="250" align="center" zoomable="yes"}
 * Beim Herstellen einer Verbindung mit einem Mitarbeiter können Sie jetzt aus vordefinierten **Anwendungsfällen** auswählen. Der ausgewählte Anwendungsfall bestimmt, welche Projektabschnitte und Produktfunktionen verfügbar werden. Weitere Informationen finden Sie im Handbuch [Verwalten von Projekten](/help/guide/collaborate/manage-projects.md#project-use-cases).
-   * *Messung* aktiviert den Projektabschnitt **Messen**.
-   * *Zielgruppenerkennung* aktiviert den Projektabschnitt **Entdecken**.
-   * *Zielgruppenaktivierung* aktiviert die **Aktivieren**-Projektabschnitte <br>
+  * *Messung* aktiviert den Projektabschnitt **Messen**.
+  * *Zielgruppenerkennung* aktiviert den Projektabschnitt **Entdecken**.
+  * *Zielgruppenaktivierung* aktiviert die **Aktivieren**-Projektabschnitte <br>
 * Sie können jetzt Verbindungen mit Mitarbeitern löschen, mit denen Sie nicht mehr arbeiten möchten. Informationen zum Löschen von Verbindungen finden Sie im Handbuch [Löschen von Verbindungen](/help/guide/connect/establishing-connections.md#delete-connections) .
 
 ## Februar 2025 {#february-2025}
