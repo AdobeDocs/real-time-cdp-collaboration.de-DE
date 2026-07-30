@@ -3,8 +3,11 @@ title: Konfigurieren und Verwalten von Cloud-Speicher-Zielen
 description: Erfahren Sie, wie Sie ein Cloud-Speicher-Ziel in Real-Time CDP Collaboration konfigurieren, anzeigen und löschen.
 audience: admin, publisher
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 60124235569ca9b17b3bb1cef502d57d39e82e1f
 workflow-type: tm+mt
 source-wordcount: 885
@@ -31,7 +34,7 @@ Bevor Sie ein Ziel konfigurieren, stellen Sie Folgendes sicher:
 * Sie haben Zugriff auf den Arbeitsbereich **[!UICONTROL Aktivierung]**.
 * Sie verfügen über die Verbindungsinformationen, die von Ihrem Cloud-Speicheranbieter benötigt werden.
 * Wenn Sie ein Konto erstellen müssen, verfügen Sie über die erforderlichen Anmeldeinformationen oder Berechtigungen.
-* Sie haben die [Anforderungen für Ihr Cloud-Speicherziel“ ](./cloud-storage-destination-requirements.md).
+* Sie haben die [Anforderungen für Ihr Cloud-Speicherziel“ &#x200B;](./cloud-storage-destination-requirements.md).
 
 ## Konfigurieren eines Ziels {#configure-destination}
 
@@ -65,7 +68,7 @@ Nachdem das Konto erfolgreich validiert wurde, klicken Sie auf **[!UICONTROL Wei
 
 Der **[!UICONTROL Ziel erstellen]** definiert, wo und wie Zielgruppenexportdateien bereitgestellt werden.
 
-Geben Sie einen Zielnamen ein und füllen Sie die erforderlichen Speicher- und Exporteinstellungen aus. Die verfügbaren Felder hängen vom ausgewählten Zielanbieter ab. Definitionen und Connector-spezifische Anforderungen finden Sie in der Zieldokumentation, die unter [Cloud-Speicherzielanforderungen“ ](./cloud-storage-destination-requirements.md) ist.
+Geben Sie einen Zielnamen ein und füllen Sie die erforderlichen Speicher- und Exporteinstellungen aus. Die verfügbaren Felder hängen vom ausgewählten Zielanbieter ab. Definitionen und Connector-spezifische Anforderungen finden Sie in der Zieldokumentation, die unter [Cloud-Speicherzielanforderungen“ &#x200B;](./cloud-storage-destination-requirements.md) ist.
 
 Nachdem Sie alle erforderlichen Felder ausgefüllt haben, klicken Sie auf **[!UICONTROL Weiter]**. Die geführte Einrichtung geht zum Schritt der Feldzuordnung über.
 

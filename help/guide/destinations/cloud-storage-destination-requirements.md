@@ -72,4 +72,4 @@ Informationen zum Zugriff auf eine von AWS bereitgestellte [!DNL Data Landing Zo
 
 ## Nächste Schritte {#next-steps}
 
-Nachdem Sie die erforderlichen Verbindungsinformationen erhalten haben, [ Sie „ein Ziel konfigurieren und verwalten](./manage-destinations.md).
+Nachdem Sie die erforderlichen Verbindungsinformationen erhalten haben, [&#x200B; Sie „ein Ziel konfigurieren und verwalten](./manage-destinations.md).
