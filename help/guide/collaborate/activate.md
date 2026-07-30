@@ -1,140 +1,203 @@
 ---
 title: Zielgruppen aktivieren
-description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration aktivieren.
-audience: admin, publisher
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+description: Erfahren Sie, wie Sie Zielgruppen an Mitwirkende senden und die empfangenen Zielgruppen manuell aktivieren können, um Ziele in Adobe Real-Time CDP Collaboration zu erreichen.
+audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4b38559f30c55f4cb1607d373fb1318416382c32
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1565
 ht-degree: 2%
 
 ---
 
 # Zielgruppen aktivieren
 
-{{limited-availability-release-note}}
+Verwenden Sie die **[!UICONTROL Aktivieren]**-Registerkarte innerhalb eines Projekts, um Zielgruppen an Ihren Mitarbeiter zu senden, die von Ihrem Mitarbeiter empfangenen Zielgruppen zu überprüfen und die empfangenen Zielgruppen für die Bereitstellung an ein konfiguriertes Ziel zu aktivieren. Informationen zum Konfigurieren und Verwalten von Zielen im Arbeitsbereich der obersten Ebene **[!UICONTROL Aktivierung]** finden Sie in der [Ziele - Übersicht](../destinations/overview.md).
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Aktivieren]**-Arbeitsbereich ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [&#x200B; Verbindungsprozesses aktiviert &#x200B;](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./manage-projects.md#project-use-cases)&quot;.
+>Die **[!UICONTROL Aktivieren]**-Registerkarte ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie unter [Verwalten von Projekten](./manage-projects.md#project-use-cases).
 
-Sie können die Zielgruppenaktivierung verwenden, um die Zielgruppe für Kampagnenzwecke zu aktivieren. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [&#x200B; Mitarbeiter &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings). Nachdem Sie [die besten Audiences für Ihre Kampagne entdeckt haben](./discover.md) aktivieren Sie die Audiences, um sie für die Verwendung verfügbar zu machen. Wenn Sie eine Zielgruppe aktivieren, wird sie an das vorkonfigurierte Ziel Ihres Mitarbeiters gesendet, z. B. an Adobe Experience Platform, wo sie für die Verwendung in Kampagnen verfügbar wird. Weitere Informationen zum Einrichten von Zielen finden Sie im Handbuch [Ziele - Übersicht](../destinations/overview.md).
+Verwenden Sie die [Entdecken](./discover.md), um die Zielgruppen zu identifizieren, die Ihrer Kampagne am besten entsprechen, und senden Sie sie dann an Ihren Mitarbeiter. Der empfangende Mitarbeiter wählt ein konfiguriertes Ziel aus und plant die empfangene Audience für die Aktivierung.
 
-Eine konzeptionelle Erklärung, wo die Aktivierung in unterstützte Workflows passt, finden Sie unter [Zielgruppen - Übersicht](../setup/audiences-overview.md).
+Senden und Aktivieren sind separate Aktionen. Durch das Senden erhält der/die Mitwirkende Zugriff auf eine Zielgruppe. Der empfangende Mitarbeiter wählt dann ein Ziel aus und aktiviert die empfangene Zielgruppe manuell.
 
-## Neue Zielgruppen aktivieren {#activate-new-audiences}
+Die verfügbaren Abschnitte und Aktionen hängen davon ab, ob Ihre Organisation Zielgruppen im Projekt sendet oder empfängt. Die **[!UICONTROL Aktivieren]**-Registerkarte enthält die folgenden Abschnitte:
 
-Um mit der Aktivierung von Zielgruppen zu beginnen, navigieren Sie **[!UICONTROL Registerkarte]** Aktivieren“ in Ihrem Projektarbeitsbereich.
+| Abschnitt | Beschreibung |
+|---|---|
+| **[!UICONTROL Zielgruppen an &quot;[&quot;]]** | Zielgruppen, die Sie an Ihren Mitarbeiter gesendet haben. |
+| **[!UICONTROL Empfangene Zielgruppen]** | Zielgruppen, die Ihr Mitarbeiter an Sie gesendet hat und die zur Aktivierung verfügbar sind. |
+| **[!UICONTROL Aktivierte Zielgruppen]** | Sie haben Zielgruppen erhalten, die Sie für ein Ziel aktiviert haben. |
+
+![Die Registerkarte Aktivieren auf Projektebene mit Zusammenfassungszahlen oben und erweiterten Abschnitten Gesendete Zielgruppen, Empfangene Zielgruppen und Aktivierte Zielgruppen . In jedem Abschnitt werden Statuszählungen und eine Tabelle mit Zielgruppendetails angezeigt.](/help/assets/collaborate/activate/activate-dashboard.png)
+
+## Voraussetzungen {#prerequisites}
+
+Stellen Sie vor dem Senden oder Aktivieren von Zielgruppen Folgendes sicher:
+
+- Zielgruppen werden bezogen und stehen zum Senden zur Verfügung. Weitere Informationen finden Sie unter [Source und Zielgruppen verwalten](../setup/onboard-audiences.md).
+- Es ist mindestens ein Ziel konfiguriert, wenn Sie die empfangenen Zielgruppen aktivieren müssen. Weitere Informationen finden Sie unter [Ziele - Übersicht](../destinations/overview.md).
+
+## Zielgruppen senden {#send-audiences}
+
+Senden Sie eine Zielgruppe, um Ihrem Mitarbeiter Zugriff darauf zu gewähren. Nachdem Sie die Zielgruppe gesendet haben, wird sie im Abschnitt **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]** und im Abschnitt **[!UICONTROL Empfangene Zielgruppen]** Ihres Mitarbeiters angezeigt.
+
+Navigieren Sie zu **[!UICONTROL Zusammenarbeiten]** öffnen Sie ein Projekt und wählen Sie dann die Registerkarte **[!UICONTROL Aktivieren]** aus.
+
+Wählen Sie **[!UICONTROL Abschnitt „Gesendete Zielgruppen an [Mitarbeiter]]** das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)). Wenn keine Zielgruppen gesendet wurden, wählen Sie stattdessen **[!UICONTROL Zielgruppe senden]** aus der leeren Anzeige aus.
+
+![Die Registerkarte Aktivieren auf Projektebene, wenn keine Zielgruppen gesendet wurden. Die leere Meldung „Zielgruppe senden“ erklärt, dass Sie keine Zielgruppe gesendet haben, und zeigt die Schaltfläche „Zielgruppe senden“ an.](/help/assets/collaborate/activate/activate-new-audiences.png)
+
+Der **[!UICONTROL Zielgruppen senden]** wird geöffnet. Verwenden Sie den Zielgruppenselektor, um eine Zielgruppe zu finden, oder wählen Sie **[!UICONTROL Zielgruppen durchsuchen]** aus, um die verfügbaren Zielgruppen zu vergleichen.
+
+![Der Workflow zum Senden von Zielgruppen mit einem Zielgruppenselektor und der Schaltfläche „Zielgruppen durchsuchen“. Der Workflow ermöglicht es dem Absender, eine Zielgruppe auszuwählen, bevor Übereinstimmungsschlüssel und Zugriffseinstellungen konfiguriert werden.](/help/assets/collaborate/activate/audience-activation.png)
+
+Überprüfen Sie im **[!UICONTROL Zielgruppen durchsuchen]** für jede Zielgruppe die **[!UICONTROL Identitätsanzahl]**, **[!UICONTROL Identitäten überschneiden]** und **[!UICONTROL Überschneidung %]**.
+
+![Das Dialogfeld „Zielgruppen durchsuchen“ listet die verfügbaren Zielgruppen mit ihrer Identitätsanzahl, der Anzahl überlappender Identitäten und dem Überschneidungsprozentsatz auf.](/help/assets/collaborate/activate/browse-audiences.png)
 
 >[!IMPORTANT]
 >
->**Bevor** eine Zielgruppe aktivieren können, muss **Mitarbeiter** Ziel konfigurieren. Wenn Sie eine Zielgruppe aktivieren, wird sie automatisch an das konfigurierte Ziel Ihres Mitarbeiters gesendet. Wenn kein Ziel eingerichtet ist, können keine Zielgruppen aktiviert werden.
->
->![Aktivieren des Arbeitsbereichs, wenn für den Mitwirkenden kein Ziel konfiguriert ist.](/help/assets/collaborate/activate/no-destination-configured.png)
+>Wenn eine Zielgruppe mehrere Übereinstimmungsschlüssel verwendet, muss jeder ausgewählte Übereinstimmungsschlüssel den erforderlichen Überschneidungsschwellenwert erreichen. Verwenden Sie die [Entdecken](./discover.md), um vor dem Versand zu bestätigen, dass die Zielgruppe die Überschneidungsanforderungen erfüllt.
 
-Wählen Sie das Symbol hinzufügen ![Symbol hinzufügen.](/help/assets/icons/plus.png)) oder die Option **[!UICONTROL Zielgruppe aktivieren]** aus, wenn keine vorherigen Zielgruppen zur Aktivierung gesendet wurden.
+Wählen Sie die zu sendende Audience aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-![Der Arbeitsbereich „Aktivieren“ in einem Projekt ohne hinzugefügte Zielgruppen.](/help/assets/collaborate/activate/activate-new-audiences.png)
+Die ausgewählte Zielgruppe wird im Workflow mit ihren Identitäts- und Überschneidungsinformationen angezeigt.
 
-Der Workflow zum Aktivieren von Zielgruppen wird geöffnet. Dort können Sie die Zielgruppe auswählen, die Sie an Ihren Mitarbeiter senden möchten. Verwenden Sie das Dropdown-Menü, um eine Audience auszuwählen, oder suchen Sie nach einer bestimmten Audience. Um vor der Auswahl weitere Informationen zu den Zielgruppen anzuzeigen, wählen Sie **[!UICONTROL Zielgruppen durchsuchen]**
-
-![Der Workflow für die Zielgruppenaktivierung mit hervorgehobener Dropdown-Liste und hervorgehobenen Optionen zum Durchsuchen von Zielgruppen.](/help/assets/collaborate/activate/audience-activation.png)
-
-In **[!UICONTROL Zielgruppen durchsuchen]** werden für jede Zielgruppe die **[!UICONTROL Identitätsanzahl]**, **[!UICONTROL Identitäten überschneiden]** und **[!UICONTROL Überschneidung %]** angezeigt.
-
-![Das Dialogfeld „Zielgruppen durchsuchen“ mit den verfügbaren Zielgruppen.](/help/assets/collaborate/activate/browse-audiences.png)
-
->[!IMPORTANT]
->
->Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen, keine Zielgruppengröße oder einen Schwellenwert unterschreiten. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
-
-Wählen Sie die Zielgruppe aus, die Sie in Kampagnen aktivieren möchten, und klicken Sie auf **[!UICONTROL Speichern]**. Die Zielgruppe wird jetzt angezeigt und Sie können die **[!UICONTROL Identitätsanzahl]**, **[!UICONTROL Überschneidende Identitäten]** und **[!UICONTROL Überschneidung %]** für die ausgewählte Zielgruppe sehen.
-
-![Der Zielgruppen-Aktivierungs-Workflow mit der ausgewählten Zielgruppe wird angezeigt.](/help/assets/collaborate/activate/audience-selected.png)
+![Der Workflow zum Senden von Zielgruppen mit einer ausgewählten Zielgruppe zeigt die Optionen Identitätsanzahl, Anzahl der sich überschneidenden Identitäten, Überschneidungsprozentsatz, Übereinstimmungsschlüssel und Übereinstimmungsschlüssel bearbeiten an.](/help/assets/collaborate/activate/audience-selected.png)
 
 ### Übereinstimmungsschlüssel bearbeiten {#edit-match-keys}
 
-Als Nächstes können Sie die Übereinstimmungsschlüssel der Zielgruppe bearbeiten, indem Sie in der ausgewählten Zielgruppe **[!UICONTROL Übereinstimmungsschlüssel bearbeiten]** auswählen. Diese Optionen werden von den ausgewählten Übereinstimmungsschlüsseln übernommen, wenn die Verbindung zwischen den Partnern eingerichtet wurde. Sie können ausgewählte Übereinstimmungsschlüssel entfernen, wenn sie nicht für eine bestimmte Kampagne gelten. Sie können jedoch keine neuen Übereinstimmungsschlüssel hinzufügen.
+Verwenden Sie die für die Collaborator-Verbindung konfigurierten Übereinstimmungsschlüssel oder entfernen Sie Übereinstimmungsschlüssel, die nicht für die Zielgruppe gelten.
 
-![Der Zielgruppen-Aktivierungs-Workflow mit der hervorgehobenen Option „Übereinstimmungsschlüssel bearbeiten“.](/help/assets/collaborate/activate/edit-match-keys.png)
+Wählen Sie **[!UICONTROL Übereinstimmungsschlüssel bearbeiten]** in der ausgewählten Zielgruppe aus.
 
-Das **[!UICONTROL Bearbeiten von Übereinstimmungsschlüsseln]** wird geöffnet, in dem Sie die Übereinstimmungsschlüssel, die Sie nicht verwenden möchten, deaktivieren können. Klicken Sie **[!UICONTROL Speichern]**, um Ihre Änderungen zu speichern.
+![Die ausgewählte Zielgruppe im Workflow „Zielgruppen senden“ mit hervorgehobener Option „Übereinstimmungsschlüssel bearbeiten“.](/help/assets/collaborate/activate/edit-match-keys.png)
+
+Das **[!UICONTROL Bearbeiten von Übereinstimmungsschlüsseln]** wird angezeigt. Deaktivieren Sie alle Übereinstimmungsschlüssel, die Sie nicht verwenden möchten, und wählen Sie dann **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
->Es muss mindestens ein Übereinstimmungsschlüssel ausgewählt werden.
+>Mindestens ein Übereinstimmungsschlüssel muss ausgewählt bleiben.
 
-![Das Dialogfeld „Übereinstimmungsschlüssel bearbeiten“ im Zielgruppen-Aktivierungs-Workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![Das Dialogfeld Übereinstimmungsschlüssel bearbeiten mit Umschalter-Steuerelementen für die Übereinstimmungsschlüssel, die über die Collaborator-Verbindung und eine Schaltfläche Speichern verfügbar sind.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### Häufigkeit der Zielgruppenaktualisierung festlegen {#set-audience-refresh-frequency}
+### Zielgruppenzugriff konfigurieren {#configure-audience-access}
 
-Legen Sie abschließend die gewünschte Häufigkeit und den gewünschten Datumsbereich für die Zielgruppenaktivierung fest. Verwenden Sie das **[!UICONTROL Häufigkeit]**-Dropdown, um auszuwählen, ob die Zielgruppe einmal aktiviert oder in einem wiederkehrenden Zeitplan aktualisiert werden soll. Wählen Sie **[!UICONTROL Einmal]** aus, um die Zielgruppe ein einziges Mal zu aktivieren, oder wählen Sie eine wiederkehrende Häufigkeit aus, z. B. **[!UICONTROL Täglich]**, **[!UICONTROL Alle 2 Tage]**, **[!UICONTROL Alle 3 Tage]**, **[!UICONTROL Alle 4 Tage]**, **[!UICONTROL Alle 5 Tage]**, **[!UICONTROL Alle 6 Tage]**&#x200B;**[!UICONTROL Alle 2 Wochen]**, **[!UICONTROL Alle 3 Wochen]** oder **[!UICONTROL Monatlich]**.
+Konfigurieren Sie, wie die Zielgruppe gesendet wird und wie lange Ihr Mitarbeiter darauf zugreifen kann.
 
-![Die Dropdown-Liste „Häufigkeit“ im Zielgruppen-Aktivierungs-Workflow, in der die verfügbaren Optionen angezeigt werden, einschließlich „Einmal, Täglich“, „Alle 2 bis 6 Tage“, „Alle 2 bis 3 Wochen“ und „Monatlich“.](/help/assets/collaborate/activate/activation-frequency.png)
+Wählen Sie mit **[!UICONTROL Steuerung]** Zugriffsdauer) eine der folgenden Optionen aus:
 
-Verwenden Sie das Feld **[!UICONTROL Datumsbereich]**, um festzulegen, wann der Aktivierungsplan beginnt und endet.
+- **[!UICONTROL Jetzt senden (einmal)]**: Die Zielgruppe einmal senden. Der empfangende Mitwirkende kann ihn einmal aktivieren.
+- **[!UICONTROL Planen eines wiederkehrenden Audience-]**: Aktualisieren Sie die Audience während eines bestimmten Zugriffszeitraums. Verwenden Sie das Steuerelement **[!UICONTROL Datumsbereich]**, um das Start- und Enddatum auszuwählen.
 
-Wenn Sie mit Ihrer Auswahl zufrieden sind, wählen Sie **[!UICONTROL Aktivieren]** aus, um den Workflow abzuschließen.
+![Der Schritt Zugriffsdauer im Workflow Zielgruppen senden mit Optionen zum einmaligen Senden der Zielgruppe oder zum Planen eines wiederkehrenden Audience-Versands. Die Option „Wiederkehrend“ zeigt Datumssteuerelemente zum Definieren des Zugriffszeitraums an.](/help/assets/collaborate/activate/activation-frequency.png)
 
-## Dashboard aktivieren {#activate-dashboard}
+Wenn die Zielgruppe und die Zugriffseinstellungen abgeschlossen sind, wählen Sie **[!UICONTROL Senden]** aus.
 
-Auf der Registerkarte **[!UICONTROL Aktivieren]** können Sie alle Zielgruppen anzeigen, die an Ihren Mitarbeiter gesendet wurden, sowie alle Zielgruppen, die Ihr Mitarbeiter für Ihr Ziel aktiviert hat.
-
-![Das Dashboard „Aktivieren“ mit den Abschnitten Gesendete Zielgruppen und Aktivierte Zielgruppen.](/help/assets/collaborate/activate/activate-dashboard.png)
+Die Zielgruppe wird im Abschnitt **[!UICONTROL An [ gesendete Zielgruppen]]** angezeigt. Ihr Mitarbeiter kann sie im Abschnitt **[!UICONTROL Empfangene Zielgruppen]** überprüfen.
 
 ## Gesendete Zielgruppen anzeigen {#view-sent-audiences}
 
-Im Abschnitt **[!UICONTROL Gesendete Zielgruppen an]** Mitarbeiter werden alle von Ihnen gesendeten Zielgruppen aufgelistet. Derzeit werden Zielgruppen automatisch an das konfigurierte Ziel Ihres Mitarbeiters gesendet, nachdem Sie sie gesendet haben. In der Ansicht Ihres Mitarbeiters werden diese Zielgruppen im Abschnitt **[!UICONTROL Aktivierte Zielgruppen]** angezeigt.
+Verwenden Sie den Abschnitt **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]**, um von Ihnen gesendete Zielgruppen zu überprüfen und ihren aktuellen Zugriffsstatus zu überwachen.
 
-Innerhalb jeder gesendeten Zielgruppe werden die folgenden Metriken angezeigt:
+Für jede gesendete Zielgruppe werden die folgenden Informationen angezeigt:
 
-| Metrik | Beschreibung |
-|---------|----------|
-| **[!UICONTROL Name]** | Der Name der Zielgruppe. |
-| **[!UICONTROL Status]** | Der Status der gesendeten Zielgruppe. |
+| Spalte | Beschreibung |
+|---|---|
+| **[!UICONTROL Zielgruppenname]** | Der Name der gesendeten Zielgruppe. |
+| **[!UICONTROL Status]** | Der aktuelle Zugriffsstatus der Zielgruppe. |
 | **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der Identitäten in der Zielgruppe. |
-| **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der Identitäten mit Überschneidungen zwischen dieser Zielgruppe und der Gesamtpopulation der Profile im Inventar des Mitarbeiters. |
-| **[!UICONTROL Erstellt]** | Das Datum, an dem die Zielgruppe ursprünglich gesendet wurde. |
-| **[!UICONTROL Zuletzt gesendet]** | Das Datum, an dem die Zielgruppe Ihrem Mitarbeiter zuletzt über den Aktivierungs-Workflow zur Verfügung gestellt wurde, entweder aus einer einmaligen Aktivierung oder einem wiederkehrenden Zeitplan. |
-| **[!UICONTROL Übereinstimmungsschlüssel]** | Gibt den für die Zielgruppe verwendeten Übereinstimmungsschlüssel an. |
+| **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der Identitäten, die sich mit dem Inventar Ihres Mitarbeiters überschneiden. |
+| **[!UICONTROL Erstellt]** | Datum und Uhrzeit des ersten Versands der Zielgruppe. |
+| **[!UICONTROL Zuletzt gesendet]** | Das Datum und die Uhrzeit, zu der Zielgruppendaten zuletzt an Ihren Mitarbeiter gesendet wurden. |
+| **[!UICONTROL Zugriffsdauer]** | Die Zugriffseinstellung, die beim Senden der Zielgruppe konfiguriert wurde. |
+| **[!UICONTROL Übereinstimmungsschlüssel]** | Die beim Senden der Zielgruppe verwendeten Übereinstimmungsschlüssel. |
 
-## Aktivierte Zielgruppen anzeigen {#view-activated-audiences}
+### Gesendete Zielgruppe löschen {#delete-sent-audience}
 
-Im Abschnitt **[!UICONTROL Aktivierte Zielgruppen]** können Sie alle Zielgruppen sehen, die für Ihr Ziel aktiviert wurden.
+Löschen Sie eine gesendete Zielgruppe, um sie aus der Liste der gesendeten Zielgruppen zu entfernen und den Zugriff Ihres Mitarbeiters zu widerrufen.
 
-Innerhalb jeder aktivierten Zielgruppe können Sie die folgenden Metriken sehen:
+Wählen Sie das Löschsymbol (![Löschsymbol.](/help/assets/icons/delete.png)) neben der Audience im Abschnitt **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]**.
 
-| Metrik | Beschreibung |
-|---------|----------|
-| **[!UICONTROL Name]** | Der Name der Zielgruppe. |
-| **[!UICONTROL Status]** | Der Status der aktivierten Zielgruppe. |
-| **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der Identitäten, die aktiviert wurden, basierend auf den sich überschneidenden Identitäten, als Ihr Mitarbeiter die Zielgruppe gesendet hat. |
-| **[!UICONTROL Erstellt]** | Das Datum, an dem die Zielgruppe aktiviert wurde. |
-| **[!UICONTROL Zuletzt aktualisiert]** | Das Datum, an dem die Zielgruppe zuletzt aktualisiert wurde, basierend auf der während der Aktivierung ausgewählten Häufigkeit. |
-| **[!UICONTROL Ziel]** | Das Ziel, für das die Zielgruppe aktiviert wurde. |
-| **[!UICONTROL Übereinstimmungsschlüssel]** | Gibt den für die Zielgruppe verwendeten Übereinstimmungsschlüssel an. |
+![Der Abschnitt Gesendete Zielgruppen mit dem Löschsymbol neben einer Zielgruppenzeile.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-## Gesendete Zielgruppen löschen {#delete-sent-audiences}
+Ein Bestätigungsdialogfeld wird angezeigt. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
 
-Gesendete Zielgruppen, die nicht mehr aktiviert werden sollen, können gelöscht werden. Wenn Sie eine gesendete Zielgruppe löschen, wird sie aus dem Abschnitt **[!UICONTROL Gesendete Zielgruppen an]** entfernt und nicht mehr für das Ziel Ihres Mitarbeiters aktiviert.
+![Bestätigungsdialogfeld zum Löschen der gesendeten Zielgruppe, in dem erklärt wird, dass die Zielgruppe entfernt wird und der Mitarbeiter den Zugriff verliert, einschließlich der Schaltflächen Abbrechen und Löschen.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
-Um eine gesendete Zielgruppe zu löschen, wählen Sie das Symbol **[!UICONTROL Löschen]** aus (![Löschsymbol.](/help/assets/icons/delete.png)) neben der Audience im Abschnitt **[!UICONTROL Gesendet an]**.
+Die Zielgruppe wird aus dem Abschnitt entfernt, und Ihr Mitarbeiter verliert den Zugriff darauf.
 
-![Die Option Löschen im Abschnitt Gesendete Zielgruppen an.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+## Empfangene Zielgruppen anzeigen {#received-audiences}
 
-Ein Bestätigungsdialogfeld wird geöffnet, in dem Sie aufgefordert werden, den Löschvorgang zu bestätigen. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
+Verwenden Sie den Abschnitt **[!UICONTROL Empfangene Zielgruppen]**, um die Zielgruppen zu überprüfen, die Ihr Mitarbeiter an Sie gesendet hat. Eine empfangene Zielgruppe muss manuell aktiviert werden, bevor ihre Daten an ein Ziel gesendet werden.
 
-![Bestätigungsdialog für das Löschen.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+Jede empfangene Zielgruppe zeigt die folgenden Informationen an:
+
+| Spalte | Beschreibung |
+|---|---|
+| **[!UICONTROL Zielgruppenname]** | Der Name der empfangenen Zielgruppe. |
+| **[!UICONTROL Status]** | Der aktuelle Zugriffsstatus der Zielgruppe. |
+| **[!UICONTROL Anzahl der Identitäten]** | Die Anzahl der Identitäten in der Zielgruppe. |
+| **[!UICONTROL Identitäten überschneiden sich]** | Die Anzahl der Identitäten, die sich mit Ihrem Inventar überschneiden. |
+| **[!UICONTROL Letzte Datenflussausführung]** | Datum und Uhrzeit der letzten Datenflussausführung für die Zielgruppe. |
+| **[!UICONTROL Zugriffsdauer]** | Die Zugriffseinstellung, die vom Mitarbeiter konfiguriert wurde, der die Zielgruppe gesendet hat. |
+| **[!UICONTROL Übereinstimmungsschlüssel]** | Die für die Zielgruppe verwendeten Übereinstimmungsschlüssel. |
+
+![Der Abschnitt Empfangene Zielgruppen mit aktiven und abgelaufenen Zielgruppengröße. In jeder Zeile für die Zielgruppe werden Name, Status, Identitätsinformationen, letzte Ausführung des Datenflusses, Zugriffsdauer, Übereinstimmungsschlüssel und ein Hinzufügen-Symbol angezeigt, das zum Starten der Aktivierung verwendet wird.](/help/assets/collaborate/activate/received-audiences-section.png)
+
+### Aktivieren einer empfangenen Zielgruppe {#activate-received-audience}
+
+Aktivieren Sie eine empfangene Zielgruppe, um ihre Daten an eines Ihrer konfigurierten Ziele zu senden.
+
+Klicken Sie **[!UICONTROL Abschnitt „Empfangene]**&quot; auf das Symbol zum Hinzufügen (![Symbol hinzufügen.](/help/assets/icons/plus.png)) neben der Zielgruppe, die Sie aktivieren möchten.
+
+Das **[!UICONTROL Zielgruppe aktivieren]** wird angezeigt.
+
+Verwenden Sie **[!UICONTROL Ziel]**, um das Ziel auszuwählen, das die Zielgruppendaten erhält. Wenn die Zielliste leer ist, konfigurieren Sie ein Ziel, bevor Sie fortfahren. Anweisungen finden Sie unter [Ziele - Übersicht](../destinations/overview.md).
+
+Wählen Sie **[!UICONTROL Datum]** das Datum aus, an dem die Aktivierung ausgeführt wird, und wählen Sie dann **[!UICONTROL Aktivieren]** aus.
+
+![Das Dialogfeld „Zielgruppe aktivieren“ wurde von einer empfangenen Zielgruppe aus geöffnet. Das Dialogfeld enthält ein Ziel-Dropdown-Menü zur Auswahl eines konfigurierten Ziels, ein Datumsfeld mit einem Kalendersteuerelement sowie die Schaltflächen Abbrechen und Aktivieren ](/help/assets/collaborate/activate/activate-received-audience.png)
+
+Das Dialogfeld wird geschlossen und die Aktivierung wird im Abschnitt **[!UICONTROL Aktivierte Zielgruppen]** angezeigt. Die empfangene Zielgruppe bleibt im Abschnitt **[!UICONTROL Empfangene Zielgruppen]** verfügbar, während ihr Zugriff aktiv bleibt.
+
+## Aktivierte Zielgruppen anzeigen {#activated-audiences}
+
+Verwenden Sie den Abschnitt **[!UICONTROL Aktivierte Zielgruppen]**, um zu bestätigen, welche empfangenen Zielgruppen aktiviert wurden, und um ihren Ziel- und Versandstatus zu überprüfen.
+
+Jede aktivierte Zielgruppe zeigt die folgenden Informationen an:
+
+| Spalte | Beschreibung |
+|---|---|
+| **[!UICONTROL Zielgruppenname]** | Der Name der aktivierten Zielgruppe. |
+| **[!UICONTROL Status]** | Der aktuelle Aktivierungsstatus. |
+| **[!UICONTROL Anzahl aktiviert]** | Die Anzahl der für das Ziel aktivierten Identitäten. |
+| **[!UICONTROL Zuletzt aktualisiert]** | Datum und Uhrzeit der letzten Aktualisierung der aktivierten Zielgruppe. |
+| **[!UICONTROL Ziel]** | Das Ziel, das die Zielgruppendaten erhält. |
+| **[!UICONTROL Häufigkeit]** | Die Aktivierungsfrequenz. Manuelle Aktivierungen werden **[!UICONTROL einmal]** angezeigt. |
+| **[!UICONTROL Datum]** | Das Datum, an dem die Aktivierung ausgeführt wird. |
+| **[!UICONTROL Übereinstimmungsschlüssel]** | Die in der aktivierten Zielgruppe enthaltenen Übereinstimmungsschlüssel. |
+
+![Der Abschnitt Aktivierte Zielgruppen mit den Zahlen für aktive, archivierte und angehaltene Aktivierungen. Jede Zeile enthält den Zielgruppennamen, den Status, die aktivierte Anzahl, das Datum der letzten Aktualisierung, das Ziel, die Häufigkeit, das Aktivierungsdatum, Übereinstimmungsschlüssel und ein Löschsymbol.](/help/assets/collaborate/activate/activated-audiences-section.png)
+
+### Löschen einer aktivierten Zielgruppe {#delete-activated-audience}
+
+Löschen Sie eine aktivierte Zielgruppe, um die Aktivierung aus dem Abschnitt **[!UICONTROL Aktivierte Zielgruppen]** zu entfernen.
+
+Wählen Sie das Löschsymbol (![Löschsymbol.](/help/assets/icons/delete.png)) neben der aktivierten Zielgruppe.
+
+Ein Bestätigungsdialogfeld wird angezeigt. Klicken Sie zur Bestätigung auf **[!UICONTROL Löschen]**.
+
+![Das Bestätigungsdialogfeld zum Löschen aktivierter Zielgruppen , in dem erklärt wird, dass die Zielgruppe aus der Liste aktivierter Zielgruppen entfernt wird und später mit den Schaltflächen Abbrechen und Löschen erneut aktiviert werden kann.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png)
+
+Die Aktivierung wird aus der Liste entfernt. Sie können die empfangene Zielgruppe erneut aktivieren, während ihr Zugriff aktiv bleibt.
 
 ## Nächste Schritte {#next-steps}
 
-Arbeiten Sie nach der Aktivierung von Zielgruppen und der Durchführung von Kampagnen mit dem Adobe-Aktivierungs- und -Engineering-Team zusammen, um Messdaten hochzuladen und die entsprechenden [Messberichte“ &#x200B;](/help/guide/collaborate/measure.md).
+Überwachen Sie nach dem Senden oder Aktivieren von Zielgruppen deren Status in den Abschnitten **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]** und **[!UICONTROL Aktivierte Zielgruppen]** . Wenn die Kampagnen abgeschlossen sind, wenden Sie sich an das Adobe-Aktivierungs- und -Engineering-Team, um Messdaten hochzuladen und die entsprechenden [Messberichte“ ](./measure.md).

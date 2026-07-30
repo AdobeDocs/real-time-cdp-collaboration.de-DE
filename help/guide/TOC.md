@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und stellt in Echtzeit Erkenntnisse zu Zielgruppen und personalisierte Marketing-Strategien bereit.
-source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
+source-git-commit: 3e31c6bc68a516698ee9b4e24ab4773afae5551b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 37%
+source-wordcount: '243'
+ht-degree: 35%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 37%
     * [Konfigurieren der Datenblöcke-Delta-Freigabe für die Zielgruppen-Beschaffung](./setup/configure-databricks-audience-sourcing.md)
     * [Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung](./setup/configure-aam-audience-sourcing.md)
   * [Datenverbindungen verwalten](./setup/manage-data-connection.md)
-  * [Konfigurieren und Verwalten von Zielen](./setup/manage-destinations.md)
   * [Verfolgen Ihrer Kreditnutzungsaktivität](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Identity-Überleitungen](./setup/identity-crosswalk.md)
   * [Hinzufügen und Verwalten von Messdaten](./setup/onboard-measurement-data.md)
@@ -66,8 +65,9 @@ ht-degree: 37%
     * {hide-from-toc}[Erstellen von AMC-Messberichten](./collaborate/advertising-platforms/amc-measure.md)
 * Ziele {#destinations}
   * [Überblick](/help/guide/destinations/overview.md)
-  * {hide-from-toc}[Konfigurieren und Verwalten eines Ziels](./destinations/manage-destinations.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [Konfigurieren und Verwalten von Cloud-Speicher-Zielen](./destinations/manage-destinations.md)
+  * [Cloud-Speicher-Zielanforderungen](./destinations/cloud-storage-destination-requirements.md)
+  * [Konfigurieren von Adobe Experience Platform als Ziel](./destinations/experience-platform.md)
 * Berechtigungen {#permissions}
   * [Überblick](/help/guide/permissions/overview.md)
   * [Verwalten des Benutzerzugriffs](./permissions/manage-user-access.md)
