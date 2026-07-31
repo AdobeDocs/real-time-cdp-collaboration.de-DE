@@ -18,9 +18,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 934
 ht-degree: 3%
 
 ---
@@ -32,6 +32,14 @@ ht-degree: 3%
 Dieses Glossar enthält Definitionen zu Schlüsselbegriffen, die in der Produktdokumentation und Dokumentation von Adobe Real-Time CDP Collaboration aufgeführt sind. Wenn Sie diese Begriffe verstehen, können Sie das Produkt und seine Funktionen besser nutzen.
 
 ## A
+
+### Aktivieren (für einen Mitwirkenden)
+
+Bezieht sich auf die Aktion, bei der eine Zielgruppe an einen anderen Mitwirkenden innerhalb eines freigegebenen Projekts gesendet wird. Wenn Sie eine Zielgruppe für einen Mitwirkenden aktivieren, wird sie an das vorkonfigurierte Ziel dieses Mitwirkenden gesendet, wo sie zur Verwendung in Kampagnen verfügbar wird. Anweisungen finden Sie unter [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md). Nicht zu verwechseln mit **Aktivieren (für ein Ziel)**.
+
+### Aktivieren (für ein Ziel)
+
+Bezieht sich auf das Ziel, in dem eine aktivierte Zielgruppe landet, z. B. eine Cloud-Speicherplattform oder Adobe Experience Platform, und auf den Arbeitsbereich, in dem Ziele konfiguriert, durchsucht und überwacht werden. Zielgruppen erreichen ein Ziel weiterhin durch die Aktion [Zielgruppen aktivieren](/help/guide/collaborate/activate.md) innerhalb eines Projekts. Dieser Arbeitsbereich steuert, welche Ziele verfügbar sind und wie sie eingerichtet werden. Anweisungen finden Sie unter [Ziele - Übersicht](/help/guide/destinations/overview.md). Nicht zu verwechseln mit **Aktivieren (für einen Mitwirkenden)**.
 
 ### Advertiser
 

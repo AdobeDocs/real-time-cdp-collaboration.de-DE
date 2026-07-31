@@ -11,7 +11,7 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 4dba099a1bf484d9e2dfa71d5ad21a1ac076d794
 workflow-type: tm+mt
 source-wordcount: 1738
 ht-degree: 0%
@@ -29,11 +29,11 @@ In Adobe Real-Time CDP Collaboration variiert der End-to-End-Workflow je nach au
 Bevor Sie beginnen, stellen Sie sicher, dass Sie über ein solides Verständnis dieser Schlüsselkonzepte verfügen:
 
 - **Collaboration-Muster**: Diese Muster definieren, wie Kollaborateure zusammenarbeiten. Es gibt fünf verschiedene Muster:
-   - [Advertiser-zu-Publisher](./collaboration-patterns.md#advertiser-to-publisher)
-   - [Marke-zu-Marke](./collaboration-patterns.md#brand-to-brand)
-   - [Advertiser-to-Data-Partner](./collaboration-patterns.md#advertiser-to-data-partner)
-   - [Agentur-Verlag](./collaboration-patterns.md#agency-to-publisher)
-   - [Advertiser-to-Agency-Plattform](./collaboration-patterns.md#advertiser-to-agency-platform)
+  - [Advertiser-zu-Publisher](./collaboration-patterns.md#advertiser-to-publisher)
+  - [Marke-zu-Marke](./collaboration-patterns.md#brand-to-brand)
+  - [Advertiser-to-Data-Partner](./collaboration-patterns.md#advertiser-to-data-partner)
+  - [Agentur-Verlag](./collaboration-patterns.md#agency-to-publisher)
+  - [Advertiser-to-Agency-Plattform](./collaboration-patterns.md#advertiser-to-agency-platform)
 - **Kontorollen**: Kontorollen bestimmen Ihre Funktionen innerhalb der Plattform. Sie sollten mit den Zielen, der Marke und den Zielen Ihres Unternehmens übereinstimmen. Es gibt vier Kontorollen: [Advertiser](./roles.md#advertiser), [Publisher](./roles.md#publisher), [Agency](./roles.md#agency) und [data partner](./roles.md#data-partner).
 - **Anwendungsfälle**: Anwendungsfälle definieren, wie Sie Collaboration zum Erreichen Ihrer Marketing-Ziele nutzen können. Es gibt drei Anwendungsfälle für die Zusammenarbeit: [Entdecken](./use-cases.md#discover), [Aktivieren](./use-cases.md#activate) und [Messen](./use-cases.md#measure).
 
@@ -52,7 +52,7 @@ In diesem Handbuch werden drei Pseudo-Kollaborateure verwendet, um den End-to-En
 
 Zunächst muss [!UICONTROL Luma] mit der Advertiser[&#128279;](../setup/onboard-account.md)Rolle Konto erstellen, während [!UICONTROL TV Tube] ein Konto mit der Publisher-Rolle erstellt.
 
-Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Luma] als auch [!UICONTROL TV Tube] eine [Datenverbindung und Quell-Zielgruppen) &#x200B;](../setup/onboard-audiences.md). Nur [!UICONTROL TV Tube] aktiviert Zielgruppen für Marketing-Kampagnen. Daher müssen sie [ein Ziel konfigurieren](../setup/manage-destinations.md).
+Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Luma] als auch [!UICONTROL TV Tube] eine [Datenverbindung und Quell-Zielgruppen) &#x200B;](../setup/onboard-audiences.md). Nur [!UICONTROL TV Tube] aktiviert Zielgruppen für Marketing-Kampagnen. Daher müssen sie [ein Ziel konfigurieren](../destinations/manage-destinations.md).
 
 Sobald die Konten beider Mitarbeiter eingerichtet sind, können sie innerhalb der Plattform [eine Verbindung &#x200B;](../connect/establishing-connections.md). [!UICONTROL Luma] verwendet die [Discover Collaborators](../connect/discover-collaborators.md)-Funktion, um [!UICONTROL TV Tube] zu finden und eine Verbindungsanfrage zu initiieren. Nachdem [!UICONTROL TV Tube] die Verbindungsanfrage akzeptiert hat, konfiguriert [!UICONTROL Luma] die Verbindungseinstellungen, um zu definieren, wie sie zusammenarbeiten werden. [!UICONTROL TV Tube] akzeptiert die Verbindungsanfrage, um eine sichere Verbindung zwischen den beiden Marken herzustellen.
 
@@ -66,7 +66,7 @@ Nach der Aktivierung der Zielgruppen führt [!UICONTROL TV Tube] zielgerichtete 
 
 [!UICONTROL Fit Apparel], eine Sportbekleidungsmarke, möchte mit [!UICONTROL Luma], einer anderen Sportbekleidungsmarke, zusammenarbeiten, um Zielgruppendaten und Einblicke für verbesserte Marketing-Maßnahmen zu teilen.
 
-Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Fit Apparel] als [!UICONTROL Luma] eine [&#x200B; und eine Quellzielgruppe &#x200B;](../setup/onboard-audiences.md). Sowohl [!UICONTROL Fit Apparel] als [!UICONTROL Luma] werden Zielgruppen für Marketing-Kampagnen aktivieren, sodass beide [Ziel konfigurieren](../setup/manage-destinations.md).
+Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Fit Apparel] als [!UICONTROL Luma] eine [&#x200B; und eine Quellzielgruppe &#x200B;](../setup/onboard-audiences.md). Sowohl [!UICONTROL Fit Apparel] als [!UICONTROL Luma] werden Zielgruppen für Marketing-Kampagnen aktivieren, sodass beide [Ziel konfigurieren](../destinations/manage-destinations.md).
 
 Nachdem sie ihre Zielgruppen abgerufen haben, [!UICONTROL Fit Apparel] und [!UICONTROL Luma] [eine Verbindung &#x200B;](../connect/establishing-connections.md) der Plattform, um Zielgruppendaten sicher freizugeben. Dazu müssen sie die Funktion „Einladung zur privaten [&quot; &#x200B;](../connect/establishing-connections.md#private-connection-invite). [!UICONTROL Luma] gibt ihren Verbindungs-Code an [!UICONTROL Fit Apparel] weiter, der ihn dann verwendet, um eine Verbindungsanfrage zu initiieren. Nachdem [!UICONTROL Luma] die Verbindungsanfrage akzeptiert hat, konfiguriert [!UICONTROL Fit Apparel] die Verbindungseinstellungen, um zu definieren, wie sie zusammenarbeiten werden. In der Konfiguration gibt [!UICONTROL Bekleidung anpassen] an, dass beide Mitarbeiter Zielgruppen für Marketing-Kampagnen aktivieren können. Um die Verbindung abzuschließen, [!UICONTROL Luma] akzeptiert die Anfrage, eine sichere Verbindung zwischen den beiden Marken herzustellen.
 
@@ -80,7 +80,7 @@ Schließlich laden beide Marken nach der Durchführung ihrer Kampagnen Daten in 
 
 [!UICONTROL Luma], ein Sporteinzelhandelsunternehmen, möchte eine Verbindung zu [!DNL Amazon Marketing Cloud] ([!DNL AMC]) herstellen, um seine Marketing-Funktionen zu verbessern, indem es die Identitätsauflösungs- und Targeting-Tools von [!DNL AMC] nutzt. Luma hat bereits ein aktives [!DNL Amazon Advertising]-Konto und ist für die Verwendung von [!DNL AMC] zugelassen.
 
-Zunächst muss [!UICONTROL Luma] ein [-Konto &#x200B;](../setup/onboard-account.md) der Rolle des Advertisers erstellen. Nach der Einrichtung des Kontos [!UICONTROL Luma] muss [eine Datenverbindung und Quellzielgruppen erstellen](../setup/onboard-audiences.md). Da [!UICONTROL Luma] Zielgruppen für Marketing-Kampagnen aktiviert, müssen sie [ein Ziel konfigurieren](../setup/manage-destinations.md).
+Zunächst muss [!UICONTROL Luma] ein [-Konto &#x200B;](../setup/onboard-account.md) der Rolle des Advertisers erstellen. Nach der Einrichtung des Kontos [!UICONTROL Luma] muss [eine Datenverbindung und Quellzielgruppen erstellen](../setup/onboard-audiences.md). Da [!UICONTROL Luma] Zielgruppen für Marketing-Kampagnen aktiviert, müssen sie [ein Ziel konfigurieren](../destinations/manage-destinations.md).
 
 Sobald [!UICONTROL Luma] ihr Konto eingerichtet hat, können sie mit [!DNL AMC] innerhalb der Plattform [eine Verbindung &#x200B;](../connect/establishing-connections.md). [!UICONTROL Luma] verwendet die [Discover Collaborators](../connect/discover-collaborators.md)-Funktion, um [!UICONTROL Amazon Marketing Cloud] zu finden und [eine Verbindungsanfrage zu starten](../connect/advertising-platforms/amc.md). Nach der Authentifizierung und Autorisierung der Verbindung über die [!DNL Amazon] Anmeldeseite wird die Verbindung mit [!DNL AMC] hergestellt.
 
@@ -94,7 +94,7 @@ Nachdem die Verbindung hergestellt wurde, [!UICONTROL Luma] [erstellt ein Projek
 
 Zunächst muss [!UICONTROL Luma] mit der Advertiser[&#128279;](../setup/onboard-account.md)Rolle Konto erstellen, während [!UICONTROL DataM8] ein Konto mit der Datenpartnerrolle erstellt.
 
-Nach der Einrichtung der Konten müssen sowohl [!UICONTROL Luma] als [!UICONTROL DataM8] eine [&#x200B; und Quell-Zielgruppen &#x200B;](../setup/onboard-audiences.md). Beide Mitarbeiter können Zielgruppen für Marketing-Kampagnen aktivieren, sodass sie jeweils ein [&#x200B; konfigurieren &#x200B;](../setup/manage-destinations.md).
+Nach der Einrichtung der Konten müssen sowohl [!UICONTROL Luma] als [!UICONTROL DataM8] eine [&#x200B; und Quell-Zielgruppen &#x200B;](../setup/onboard-audiences.md). Beide Mitarbeiter können Zielgruppen für Marketing-Kampagnen aktivieren, sodass sie jeweils ein [&#x200B; konfigurieren &#x200B;](../destinations/manage-destinations.md).
 
 Sobald die Konten beider Mitarbeiter eingerichtet sind, können sie innerhalb der Plattform [eine Verbindung &#x200B;](../connect/establishing-connections.md). [!UICONTROL Luma] verwendet die [Discover Collaborators](../collaborate/discover.md)-Funktion, um [!UICONTROL DataM8] zu finden und eine Verbindungsanfrage zu initiieren. Nachdem [!UICONTROL DataM8] die Verbindungsanfrage akzeptiert hat, konfiguriert [!UICONTROL Luma] die Verbindungseinstellungen, um zu definieren, wie sie zusammenarbeiten werden. [!UICONTROL DataM8] akzeptiert die Verbindungsanfrage, um eine sichere Verbindung zwischen den beiden Partnern herzustellen.
 
@@ -110,7 +110,7 @@ Nachdem die Verbindung hergestellt wurde, [!UICONTROL Luma] [erstellt ein Projek
 
 Zunächst muss [!UICONTROL Agency99] mit der Agenturrolle [Konto erstellen](../setup/onboard-account.md) während [!UICONTROL TV Tube] ein Konto mit der Publisher-Rolle erstellt.
 
-Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Agency99] als [!UICONTROL TV Tube] eine [Datenverbindung und Quell-Zielgruppen) &#x200B;](../setup/onboard-audiences.md). [!UICONTROL Agency99] wird in seinem Arbeitsbereich Client-Unterkonten und Client-Quelldaten einrichten. Nur [!UICONTROL TV Tube] aktiviert Zielgruppen für Marketing-Kampagnen. Daher müssen sie [ein Ziel konfigurieren](../setup/manage-destinations.md).
+Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Agency99] als [!UICONTROL TV Tube] eine [Datenverbindung und Quell-Zielgruppen) &#x200B;](../setup/onboard-audiences.md). [!UICONTROL Agency99] wird in seinem Arbeitsbereich Client-Unterkonten und Client-Quelldaten einrichten. Nur [!UICONTROL TV Tube] aktiviert Zielgruppen für Marketing-Kampagnen. Daher müssen sie [ein Ziel konfigurieren](../destinations/manage-destinations.md).
 
 Sobald die Konten beider Mitarbeiter eingerichtet sind, können sie innerhalb der Plattform [eine Verbindung &#x200B;](../connect/establishing-connections.md). [!UICONTROL Agency99] verwendet die [Discover Collaborators](../collaborate/discover.md)-Funktion, um [!UICONTROL TV Tube] zu finden und eine Verbindungsanfrage zu initiieren. [!UICONTROL Agency99] wird dies für einen oder mehrere Kunden tun, die mit (TV Tube[!UICONTROL &#x200B; zusammenarbeiten &#x200B;]. Nachdem [!UICONTROL TV Tube] die Verbindungsanfrage(n) akzeptiert hat, konfiguriert [!UICONTROL Agency99] die Verbindungseinstellungen, um festzulegen, wie jede Zusammenarbeit funktioniert. [!UICONTROL TV Tube] akzeptiert die Verbindungsanfrage(n), um eine sichere Verbindung zwischen den beiden Marken herzustellen.
 
@@ -126,7 +126,7 @@ Nach der Aktivierung der Zielgruppen führt [!UICONTROL TV Tube] zielgerichtete 
 
 Zunächst muss [!UICONTROL Luma] ein [Konto erstellen](../setup/onboard-account.md) mit der Rolle des Advertisers erstellen, während [!UICONTROL Holdco] ein Konto mit der Rolle der Agentur erstellt. 
 
-Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Luma] als [!UICONTROL Holdco] [eine Datenverbindung und Quellzielgruppen erstellen](../setup/onboard-audiences.md). Beide Mitarbeiter können Zielgruppen für Marketing-Kampagnen aktivieren, sodass sie jeweils ein [&#x200B; konfigurieren &#x200B;](../setup/manage-destinations.md). 
+Nach der Einrichtung ihrer Konten müssen sowohl [!UICONTROL Luma] als [!UICONTROL Holdco] [eine Datenverbindung und Quellzielgruppen erstellen](../setup/onboard-audiences.md). Beide Mitarbeiter können Zielgruppen für Marketing-Kampagnen aktivieren, sodass sie jeweils ein [&#x200B; konfigurieren &#x200B;](../destinations/manage-destinations.md). 
 
 Sobald die Konten beider Mitarbeiter eingerichtet sind, können sie innerhalb der Plattform [eine Verbindung &#x200B;](../connect/establishing-connections.md). [!UICONTROL Luma] verwendet die Funktion [Discover Collaborators](../collaborate/discover.md), um [!UICONTROL Holdco] zu finden und eine Verbindungsanfrage zu initiieren. Nachdem [!UICONTROL Holdco] die Verbindungsanfrage akzeptiert hat, konfiguriert [!UICONTROL Luma] die Verbindungseinstellungen, um zu definieren, wie sie zusammenarbeiten werden.
 

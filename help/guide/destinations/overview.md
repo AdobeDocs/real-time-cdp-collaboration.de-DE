@@ -1,6 +1,6 @@
 ---
-title: Desintations overview
-description: Learn about destinations in Real-Time CDP Collaboration.
+title: Ziele - Übersicht
+description: Erfahren Sie mehr über Ziele in Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
@@ -10,10 +10,10 @@ product_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7ab1bc21a4d644e2e6a481d8de594d6a509a92a5
 workflow-type: tm+mt
-source-wordcount: 360
-ht-degree: 3%
+source-wordcount: 273
+ht-degree: 6%
 
 ---
 
@@ -21,44 +21,36 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
+>[!NOTE]
+>
+>Auf dieser Seite werden Ziele behandelt, für die Zielgruppen aktiviert **&#x200B;**, z. B. Cloud-Speicherplattformen. Informationen zum Aktivieren von Zielgruppen **für einen Mitwirkenden** in einem freigegebenen Projekt finden Sie im [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
+
 Ziele sind Integrationen, die zum Senden zielgerichteter Zielgruppen an externe Plattformen verwendet werden. Mit diesen Integrationen können Sie Zielgruppen über verschiedene Marketing-Kanäle und Plattformen hinweg aktivieren, um sie in Kampagnen und bei der Kundeninteraktion zu verwenden.
 
-Mitwirkende können Ziele konfigurieren, um Zielgruppen zur Verwendung in Kampagnen an externe Plattformen wie Adobe Experience Platform zu senden. Mitwirkende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel ihrer Verbindung gesendet werden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [&#x200B; Mitarbeiter &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings).
+Mitwirkende können Ziele konfigurieren, um Zielgruppen an externe Plattformen wie Adobe Experience Platform oder eine Cloud-Speicherplattform zur Verwendung in Kampagnen zu senden. Mitwirkende können dann [Zielgruppen innerhalb eines Projekts aktivieren](../collaborate/activate.md) die an das konfigurierte Ziel ihrer Verbindung gesendet werden. Die Aktivierung kann je nach den in der Verbindung konfigurierten Zielgruppen-Aktivierungseinstellungen [&#x200B; Mitarbeiter &#x200B;](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->Currently, when collaborators activate audiences within a project, they are automatically sent to their connection&#39;s configured destination. You **must** configure a destination before your collaborator can activate audiences within a project.
+>Wenn Mitwirkende Zielgruppen in einem Projekt aktivieren, werden sie derzeit automatisch an das konfigurierte Ziel ihrer Verbindung gesendet. Sie **müssen** ein Ziel konfigurieren, bevor Ihr Mitarbeiter Zielgruppen innerhalb eines Projekts aktivieren kann.
 
-## Konfigurieren von Zielen {#configure-destinations}
+## Verfügbare Ziele {#available-destinations}
 
-Um ein Ziel zu konfigurieren, navigieren Sie zu **[!UICONTROL Setup]** und wählen Sie dann die Registerkarte **[!UICONTROL Meine Ziele]** aus. Hier können Sie alle verfügbaren Ziele anzeigen.
-
->[!NOTE]
->
-> Currently, only Adobe Experience Platform is available as a self-serve destination within Collaboration. If you are interested in configuring a destination such as Amazon S3 or Snowflake, please contact your Adobe representative.
-
-![Auf der Registerkarte „Meine Ziele“ im Setup-Arbeitsbereich werden die verfügbaren Ziele angezeigt.](/help/assets/destinations/overview/my-destinations-overview.png)
-
-To begin configuring a destination, select the **[!UICONTROL Set up]** option within the destination of your choice. For information on configuring specific destinations, refer to the guides in the [available destinations](#available-destinations) table.
-
-![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform desintation.](/help/assets/destinations/overview/my-destinations-set-up.png)
-
-### Available destinations {#available-destinations}
-
-The following destinations are available for configuration in Collaboration. To view the configuration guide for that destination, select the destination name in the table below. If you are interested in configuring a destination that is not currently available, please contact your Adobe representative.
+Die folgenden Ziele sind für die Konfiguration in Collaboration verfügbar. Um das Konfigurationshandbuch für dieses Ziel anzuzeigen, wählen Sie den Zielnamen in der folgenden Tabelle aus.
 
 | Ziel | Verfügbarkeit |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Verfügbar |
-| [!DNL Amazon S3] | Bald verfügbar. |
-| [!DNL Snowflake] | Bald verfügbar. |
-| [!DNL Google Cloud Storage] | Bald verfügbar. |
-| [!DNL Azure Blob Storage] | Bald verfügbar. |
+| [[!DNL Amazon S3]](./manage-destinations.md) | Verfügbar |
+| [[!DNL Snowflake]](./manage-destinations.md) | Verfügbar |
+| [[!DNL Google Cloud Storage]](./manage-destinations.md) | Verfügbar |
+| [[!DNL Azure Blob Storage]](./manage-destinations.md) | Verfügbar |
+| [[!DNL SFTP]](./manage-destinations.md) | Verfügbar |
+| [[!DNL Data Landing Zone]](./manage-destinations.md) | Verfügbar |
 
 >[!NOTE]
 >
->**[!DNL Google Cloud Storage]** in this table refers to **destinations** (where Collaboration sends audiences during activation). To **source audiences from** a GCS bucket in the **[!UICONTROL Setup]** workspace, see [Configure GCS for audience sourcing](../setup/configure-gcs-audience-sourcing.md).
+>**[!DNL Google Cloud Storage]** dieser Tabelle bezieht sich auf **Ziele** (bei denen Collaboration Zielgruppen während der Aktivierung sendet). Informationen **„Beschaffung von Zielgruppen** einem GCS-Bucket im **[!UICONTROL Setup]**-Arbeitsbereich finden Sie unter [Konfigurieren von GCS für die Zielgruppen-Beschaffung](../setup/configure-gcs-audience-sourcing.md).
 
 ## Nächste Schritte
 
-Once you&#39;ve configured your destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects.
+Informationen zum Konfigurieren eines Ziels finden Sie im [Konfigurieren und Verwalten eines Ziels](./manage-destinations.md). Nachdem Sie Ihr Ziel konfiguriert haben, können Sie mit der [Aktivierung zielgerichteter Zielgruppen](../collaborate/activate.md) in Ihren Projekten beginnen.
