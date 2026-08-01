@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
+source-wordcount: 2054
 ht-degree: 3%
 
 ---
@@ -32,13 +32,15 @@ In diesen Versionshinweisen werden die in Adobe Real-Time CDP Collaboration ver�
 
 ## Juli 2026 {#july-2026}
 
-Real-Time CDP Collaboration unterstützt jetzt zusätzliche Self-Service-Optionen zur Zielgruppenbeschaffung.
+Real-Time CDP Collaboration unterstützt jetzt zusätzliche Self-Service-Optionen für die Zielgruppenbeschaffung sowie einfachere Aktivierungs- und Ziel-Setup-Workflows.
 
 **Neue oder aktualisierte Funktionen**
 
 | Funktion | Beschreibung |
 | ------- | ----------- |
 | Self-Service-Zielgruppenbeschaffung aus [!DNL Databricks Delta Share] und Adobe Audience Manager | Sie können jetzt Erstanbieter-Zielgruppen direkt aus Ihrer [!DNL Databricks Delta Share] beziehen oder geeignete Adobe Audience Manager-Segmente in Collaboration importieren. Anweisungen zum Einrichten finden Sie in den folgenden Handbüchern: <ul><li>[Konfigurieren [!DNL Databricks Delta Share]  für Zielgruppen-Sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Manuelle Aktivierung der empfangenen Zielgruppen | Sie können jetzt von einem Mitwirkenden empfangene Zielgruppen manuell für ein konfiguriertes Ziel aktivieren und auswählen, wann die Aktivierung ausgeführt werden soll. Dadurch erhalten Empfängerinnen und Empfänger mehr Kontrolle über die Bereitstellung der Zielgruppe. Eine [&#x200B; Anleitung finden &#x200B;](../collaborate/activate.md) unter Aktivieren von Zielgruppen . |
+| Self-Service-Cloud-Speicherziele | Sie können jetzt unterstützte Cloud-Speicher-Ziele direkt im Aktivierungsarbeitsbereich konfigurieren und verwalten und sie zum Aktivieren der empfangenen Zielgruppen verwenden. Siehe [Konfigurieren und Verwalten von Cloud-Speicher](../destinations/manage-destinations.md) für Einrichtungsanweisungen. |
 
 {style="table-layout:auto"}
 
