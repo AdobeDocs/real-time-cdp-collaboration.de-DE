@@ -4,9 +4,13 @@ description: Erfahren Sie, wie Sie Zielgruppen an Mitwirkende senden und die emp
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
 source-wordcount: 1589
@@ -20,7 +24,7 @@ Verwenden Sie die **[!UICONTROL Aktivieren]**-Registerkarte innerhalb eines Proj
 
 >[!IMPORTANT]
 >
->Die **[!UICONTROL Aktivieren]**-Registerkarte ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie unter [Verwalten von Projekten](./manage-projects.md#project-use-cases).
+>Die **[!UICONTROL Aktivieren]**-Registerkarte ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [&#x200B; Verbindungsprozesses aktiviert &#x200B;](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie unter [Verwalten von Projekten](./manage-projects.md#project-use-cases).
 
 Verwenden Sie die [Entdecken](./discover.md), um die Zielgruppen zu identifizieren, die Ihrer Kampagne am besten entsprechen, und senden Sie sie dann an Ihren Mitarbeiter. Der empfangende Mitarbeiter wählt ein konfiguriertes Ziel aus und plant die empfangene Audience für die Aktivierung.
 
@@ -167,7 +171,7 @@ Verwenden Sie **[!UICONTROL Ziel]**, um das Ziel auszuwählen, das die Zielgrupp
 
 Wählen Sie **[!UICONTROL Datum]** das Datum aus, an dem die Aktivierung ausgeführt wird, und wählen Sie dann **[!UICONTROL Aktivieren]** aus.
 
-![Das Dialogfeld „Zielgruppe aktivieren“ wurde von einer empfangenen Zielgruppe aus geöffnet. Das Dialogfeld enthält ein Ziel-Dropdown-Menü zur Auswahl eines konfigurierten Ziels, ein Datumsfeld mit einem Kalendersteuerelement sowie die Schaltflächen Abbrechen und Aktivieren ](/help/assets/collaborate/activate/activate-received-audience.png)
+![Das Dialogfeld „Zielgruppe aktivieren“ wurde von einer empfangenen Zielgruppe aus geöffnet. Das Dialogfeld enthält ein Ziel-Dropdown-Menü zur Auswahl eines konfigurierten Ziels, ein Datumsfeld mit einem Kalendersteuerelement sowie die Schaltflächen Abbrechen und Aktivieren &#x200B;](/help/assets/collaborate/activate/activate-received-audience.png)
 
 Das Dialogfeld wird geschlossen und die Aktivierung wird im Abschnitt **[!UICONTROL Aktivierte Zielgruppen]** angezeigt. Die empfangene Zielgruppe bleibt im Abschnitt **[!UICONTROL Empfangene Zielgruppen]** verfügbar, während ihr Zugriff aktiv bleibt.
 
@@ -204,4 +208,4 @@ Die Aktivierung wird aus der Liste entfernt. Sie können die empfangene Zielgrup
 
 ## Nächste Schritte {#next-steps}
 
-Überwachen Sie nach dem Senden oder Aktivieren von Zielgruppen deren Status in den Abschnitten **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]** und **[!UICONTROL Aktivierte Zielgruppen]** . Wenn die Kampagnen abgeschlossen sind, wenden Sie sich an das Adobe-Aktivierungs- und -Engineering-Team, um Messdaten hochzuladen und die entsprechenden [Messberichte“ ](./measure.md).
+Überwachen Sie nach dem Senden oder Aktivieren von Zielgruppen deren Status in den Abschnitten **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]** und **[!UICONTROL Aktivierte Zielgruppen]** . Wenn die Kampagnen abgeschlossen sind, wenden Sie sich an das Adobe-Aktivierungs- und -Engineering-Team, um Messdaten hochzuladen und die entsprechenden [Messberichte“ &#x200B;](./measure.md).
