@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
-source-wordcount: 2120
-ht-degree: 17%
+source-wordcount: 2132
+ht-degree: 16%
 
 ---
 
@@ -51,6 +51,10 @@ Um die Registerkarte **[!UICONTROL Entdecken]** in Ihrem Projekt verwenden zu k�
 
 Sobald diese Voraussetzungen erfüllt sind, können Sie beginnen, Überschneidungen zwischen Ihnen und den Zielgruppen Ihrer Mitwirkenden zu untersuchen und zu vergleichen.
 
+>[!IMPORTANT]
+>
+>Zielgruppenvergleiche mit weniger als 1.000 sich überschneidenden Identitäten liefern keine Ergebnisse.
+
 >[!NOTE]
 >
 >Dieser **[!UICONTROL Discover]**-Arbeitsbereich ist für die Zusammenarbeit mit Werbeplattformen nicht relevant. Derzeit ist Amazon Marketing Cloud die einzige verfügbare Werbeplattform in Real-Time CDP Collaboration. Weitere Informationen zum Arbeitsbereich [!DNL AMC]Entdecken **[!UICONTROL finden]** im Handbuch zu [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
@@ -85,6 +89,8 @@ Sobald diese Voraussetzungen erfüllt sind, können Sie beginnen, Überschneidun
 Im Abschnitt „Zielgruppen vergleichen“ erhalten Sie ausführliche Informationen über die Überschneidung zwischen Ihren und den Zielgruppen Ihrer Mitwirkenden. Um die Zielgruppenauswahl zu ändern, verwenden Sie die Dropdown-Auswahl oben im Abschnitt **[!UICONTROL Zielgruppen vergleichen]**. Sie können eine oder alle Zielgruppen Ihres Mitarbeiters und eine oder alle Zielgruppen Ihres Mitarbeiters auswählen, um sie miteinander zu vergleichen.
 
 ![Der Arbeitsbereich „Entdecken“ mit hervorgehobenem Zielgruppen-Selektor im Abschnitt „Zielgruppen vergleichen“.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 Im Abschnitt Vergleichen von Zielgruppen werden die folgenden Metriken angezeigt, die auf den Übereinstimmungsschlüsseln basieren, die Sie und Ihr Mitarbeiter für das Projekt vereinbart haben:
 

@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ Wählen Sie **[!UICONTROL Abschnitt „Gesendete Zielgruppen an [Mitarbeiter]]**
 ![Die Registerkarte Aktivieren auf Projektebene, wenn keine Zielgruppen gesendet wurden. Die leere Meldung „Zielgruppe senden“ erklärt, dass Sie keine Zielgruppe gesendet haben, und zeigt die Schaltfläche „Zielgruppe senden“ an.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 Der **[!UICONTROL Zielgruppen senden]** wird geöffnet. Verwenden Sie den Zielgruppenselektor, um eine Zielgruppe zu finden, oder wählen Sie **[!UICONTROL Zielgruppen durchsuchen]** aus, um die verfügbaren Zielgruppen zu vergleichen.
+
+>[!IMPORTANT]
+>
+>Nur Zielgruppen mit mehr als 1000 sich überschneidenden Identitäten können aktiviert werden. Wenn sich die Zielgruppenüberschneidungen nahe dem Identitätsschwellenwert von 1.000 befinden, kann die Aktivierung fehlschlagen.
 
 ![Der Workflow zum Senden von Zielgruppen mit einem Zielgruppenselektor und der Schaltfläche „Zielgruppen durchsuchen“. Der Workflow ermöglicht es dem Absender, eine Zielgruppe auszuwählen, bevor Übereinstimmungsschlüssel und Zugriffseinstellungen konfiguriert werden.](/help/assets/collaborate/activate/audience-activation.png)
 
