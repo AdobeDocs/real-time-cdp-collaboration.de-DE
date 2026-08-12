@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 20%
+source-wordcount: 699
+ht-degree: 9%
 
 ---
 
@@ -23,11 +23,7 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-Nachdem Sie eine Verbindung mit [!DNL Amazon Marketing Cloud] ([!DNL AMC]) hergestellt haben, können Advertiser [ein Projekt erstellen](../manage-projects.md#create-project) um mit [!DNL AMC] zusammenzuarbeiten und so die erweiterten Analysefunktionen von zu nutzen. Nachdem Sie ein Projekt erstellt haben, können Sie den Abschnitt **[!UICONTROL Entdecken]** verwenden, um Zielgruppeneinblicke zu vergleichen und relevante Zielgruppen für Ihre Kampagnen zu ermitteln.
-
->[!IMPORTANT]
->
->Die einzigen von [!DNL AMC] unterstützten Anwendungsfälle sind **Zielgruppenerkennung** und **Messung**. Derzeit ist in Ihrem Projekt **[!UICONTROL nur der]** „Entdecken“ mit [!DNL AMC] verfügbar.
+Nachdem eine Verbindung mit [!DNL Amazon Marketing Cloud] ([!DNL AMC]) hergestellt wurde, können Advertiser [ein Projekt erstellen](../manage-projects.md#create-project) um mit [!DNL AMC] zusammenzuarbeiten. In einem [!DNL AMC]-Projekt werden zwei Anwendungsfälle unterstützt: **Zielgruppenerkennung** im Abschnitt **[!UICONTROL Entdecken]** und **Messen** auf der Registerkarte **[!UICONTROL Messen]**.
 
 ## Entdecken {#discover}
 
@@ -44,22 +40,22 @@ Nachdem Sie eine Verbindung mit [!DNL Amazon Marketing Cloud] ([!DNL AMC]) herge
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="Aufgelöste IDs"
->abstract="Die Anzahl der IDs, die die Identitätsauflösung von Amazon mithilfe Ihrer Zielgruppendaten auflösen konnte."
+>abstract="Die Anzahl der IDs, die die Amazon-Identitätsauflösung mithilfe Ihrer Zielgruppendaten auflösen konnte."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="Überlappende IDs, die Anzeigen sehen"
->abstract="Dies stellt die Anzahl der IDs unter „Aufgelöste IDs“ aus der hochgeladenen Zielgruppe dar, die ebenfalls über Amazon Ads eine Anzeige gesehen haben."
+>abstract="Dies stellt die Anzahl der „aufgelösten IDs“ aus der hochgeladenen Zielgruppe dar, die auch einer Anzeige über Amazon Ads bereitgestellt wurden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="Überschneidung in %"
->abstract="Der Anteil der IDs unter „Aufgelöste IDs“, die über Amazon Ads eine Anzeige gesehen haben."
+>abstract="Der Anteil der „aufgelösten IDs“, die einer Anzeige über Amazon Ads bereitgestellt wurden."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Aufschlüsselung nach Amazon Ad-Produkt"
->abstract="Die Aufschlüsselung der IDs unter „Überlappende IDs, die Anzeigen sehen“ erfolgt entweder über Amazon Ads Sponsored Product und/oder über Amazon Ads DSP."
+>abstract="Aufschlüsselung der „Überschneidenden Anzeigen-offen gelegten IDs“, die entweder von Amazon Ads gesponsert und/oder von Amazon Ads DSP erreicht wurde."
 
 Im Abschnitt **[!UICONTROL Entdecken]** können Sie Ihre AMC-Zielgruppe mit allen Verbrauchern vergleichen, die von Ihren Amazon-Anzeigen erreicht werden. Sie können auch Zielgruppensegmente für Amazon anzeigen, mit denen Ihre Zielgruppe die größten Überschneidungen aufweist, wobei nur DSP-Impressions berücksichtigt werden (diese Segmente können nur in der DSP angesprochen werden).
 
@@ -75,7 +71,7 @@ Der Abschnitt **[!UICONTROL Zielgruppen vergleichen]** bietet Einblicke in die �
 
 | Metrik | Beschreibung |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Aufgelöste IDs] | Die Anzahl der IDs, die [!DNL Amazon’s Identity Resolution] mithilfe Ihrer Zielgruppendaten auflösen konnte. |
+| [!UICONTROL Aufgelöste IDs] | Die Anzahl der IDs, die [!DNL Amazon's Identity Resolution] mithilfe Ihrer Zielgruppendaten auflösen konnte. |
 | [!UICONTROL Überlappende Anzeigen-offen gelegte IDs] | Die Anzahl [!UICONTROL aufgelösten IDs] aus der hochgeladenen Zielgruppe, die auch einer Anzeige über [!DNL Amazon Ads] bereitgestellt wurden. |
 | [!UICONTROL Überschneidung %] | Der Anteil der [!UICONTROL aufgelösten IDs], die über [!DNL Amazon Ads] einer Anzeige bereitgestellt wurden. |
 | [!UICONTROL Aufschlüsselung nach Amazon-Anzeigenprodukt] | Aufschlüsselung der [!UICONTROL sich überschneidenden und offen gelegten IDs], erreicht entweder [!UICONTROL Sponsored Product] und/oder [!UICONTROL DSP]. Jeder wird als einzelner Prozentsatz der Gesamtzahl der angezeigten Werbe-IDs dargestellt. Da eine ID sowohl zu [!UICONTROL gesponserten Produkten] als auch zu [!UICONTROL DSP] gehören kann, dürfen sich die Prozentsätze nicht auf 100 % summieren. |
@@ -87,7 +83,7 @@ Der Abschnitt **[!UICONTROL Relevante Zielgruppen]** bietet Einblicke in [!DNL A
 
 | Metrik | Beschreibung |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Aufgelöste IDs] | Die Anzahl der IDs, die [!DNL Amazon’s Identity Resolution] mithilfe Ihrer Zielgruppendaten auflösen konnte. |
+| [!UICONTROL Aufgelöste IDs] | Die Anzahl der IDs, die [!DNL Amazon's Identity Resolution] mithilfe Ihrer Zielgruppendaten auflösen konnte. |
 | [!UICONTROL Überlappende Anzeigen-offen gelegte IDs] | Dies stellt die Anzahl der [!UICONTROL aufgelösten IDs] aus der hochgeladenen Zielgruppe dar, die auch einer Anzeige über [!DNL Amazon Ads] bereitgestellt wurden. Hierbei werden nur DSP-Impressions berücksichtigt. |
 | [!UICONTROL Überschneidung %] | Der Anteil der [!UICONTROL aufgelösten IDs], die über [!DNL Amazon Ads] einer Anzeige bereitgestellt wurden. |
 | [!UICONTROL Kategorien] | Die Kategorie(n), zu der die Zielgruppe gehört. Eine Zielgruppe kann mehreren Kategorien angehören. |
@@ -98,6 +94,12 @@ Der Abschnitt **[!UICONTROL Entdecken Sie Überschneidungen mit Amazon Marketing
 
 | Metrik | Beschreibung |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Aufgelöste IDs] | Die Anzahl der IDs, die [!DNL Amazon’s Identity Resolution] mithilfe Ihrer Zielgruppendaten auflösen konnte. |
+| [!UICONTROL Aufgelöste IDs] | Die Anzahl der IDs, die [!DNL Amazon's Identity Resolution] mithilfe Ihrer Zielgruppendaten auflösen konnte. |
 | [!UICONTROL Überlappende Anzeigen-offen gelegte IDs] | Dies stellt die Anzahl der [!UICONTROL aufgelösten IDs] aus der hochgeladenen Zielgruppe dar, die auch einer Anzeige über [!DNL Amazon Ads] bereitgestellt wurden. Hierbei werden nur DSP-Impressions berücksichtigt. |
 | [!UICONTROL Überschneidung %] | Der Anteil der [!UICONTROL aufgelösten IDs], die über [!DNL Amazon Ads] einer Anzeige bereitgestellt wurden. |
+
+## Maßnahme {#measure}
+
+Die Registerkarte **[!UICONTROL Kennzahlen]** ist verfügbar, wenn Ihre [!DNL AMC] Kampagnen-IDs enthält. Wenn Sie ein Projekt erstellen, führt Real-Time CDP Collaboration Hintergrundabfragen für Ihre [!DNL AMC] aus, um sowohl den Abschnitt [!UICONTROL Entdecken] als auch die Kampagnen- und Konversionsereignislisten zu füllen, die zum Konfigurieren von Messberichten verwendet werden.
+
+Eine schrittweise Anleitung zur Erstellung und Auswertung [!DNL AMC] Messberichte finden Sie im Handbuch [Erstellen von AMC-](./amc-measure.md)).
