@@ -2,19 +2,15 @@
 title: Leistung messen
 description: Messen Sie die Leistung Ihrer Kampagnen über verschiedene Kanäle hinweg. Erfahren Sie, wie Sie verschiedene Berichte verwenden und interpretieren.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2776
 ht-degree: 5%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **Measurement**-Anwendungsfall [während des Verbindungsprozesses) &#x200B;](../connect/establishing-connections.md#connection-settings) wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von &#x200B;](./manage-projects.md#project-use-cases)&quot;.
+>Der **[!UICONTROL Measure]**-Arbeitsbereich ist nur verfügbar, wenn der **Measurement**-Anwendungsfall [während des Verbindungsprozesses) ](../connect/establishing-connections.md#connection-settings) wurde. Weitere Informationen zu Anwendungsfällen finden Sie im Handbuch [Verwalten von ](./manage-projects.md#project-use-cases)&quot;.
 
 Erfahren Sie mehr über die verfügbaren Berichte in Adobe Real-Time CDP Collaboration und lernen Sie, wie Sie die Leistung Ihrer Marketing-Kampagnen kanalübergreifend messen und analysieren können.
 
@@ -34,11 +30,11 @@ Erfahren Sie mehr über die verfügbaren Berichte in Adobe Real-Time CDP Collabo
 Bevor Sie auf die Messberichte in Collaboration zugreifen können, müssen Sie:
 
 * [Verbinden](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter mit aktiviertem **Measurement**-Anwendungsfall
-* Zusammenarbeit an mindestens einem Projekt mit dem Mitarbeiter. Erfahren Sie, wie [&#x200B; ein Projekt erstellen &#x200B;](/help/guide/collaborate/manage-projects.md#create-project).
-* Führen Sie Ihre Kampagne aus und stellen Sie sicher[&#x200B; dass eine (Kampagnen-ID) für die Kampagne angegeben &#x200B;](../collaborate/manage-projects.md#manage-campaign-id):
-   * Wenn Sie ein Publisher sind, geben Sie die Kampagnen-ID ein, die mit der Kampagne Ihres Advertisers verknüpft ist.
-   * Wenn Sie ein Advertiser sind, bitten Sie Ihren Partner (Publisher), die Kampagnen-ID anzugeben. Dies ist erforderlich, um [Berichte im Messarbeitsbereich zu erstellen](#create-measurement-report).
-* [Laden Sie &#x200B;](/help/guide/setup/onboard-measurement-data.md) in Collaboration hoch, wenn Sie [Attributionsberichte erstellen](#create-attribution-report).
+* Zusammenarbeit an mindestens einem Projekt mit dem Mitarbeiter. Erfahren Sie, wie [ ein Projekt erstellen ](/help/guide/collaborate/manage-projects.md#create-project).
+* Führen Sie Ihre Kampagne aus und stellen Sie sicher[ dass eine (Kampagnen-ID) für die Kampagne angegeben ](../collaborate/manage-projects.md#manage-campaign-id):
+  * Wenn Sie ein Publisher sind, geben Sie die Kampagnen-ID ein, die mit der Kampagne Ihres Advertisers verknüpft ist.
+  * Wenn Sie ein Advertiser sind, bitten Sie Ihren Partner (Publisher), die Kampagnen-ID anzugeben. Dies ist erforderlich, um [Berichte im Messarbeitsbereich zu erstellen](#create-measurement-report).
+* [Laden Sie ](/help/guide/setup/onboard-measurement-data.md) in Collaboration hoch, wenn Sie [Attributionsberichte erstellen](#create-attribution-report).
 
 ## Anzeigen von Berichten {#view-reports}
 
@@ -109,11 +105,11 @@ Erfahren Sie, welches Medium Eindrücke für Ihre Kreativen hervorruft. Dies kan
 
 ### Kumulative Konversionen {#cumulative-conversions}
 
-Diese Ansicht bietet eine detaillierte Aufschlüsselung der Konversionsereignisse, die Sie messen möchten, im Tabellenformat. Die Tabelle enthält:
+Diese Ansicht bietet eine detaillierte Aufschlüsselung der Konversionsereignisse, die Sie messen möchten, im Tabellenformat. Die Ergebnisse werden auf der Ebene **Kampagnen-ID** berechnet. Die Tabelle enthält:
 
 * **Konversionsereignis**: Name jedes Konversionsereignisses, das verfolgt wird.
-* **Konversionsanzahl**: Gesamtanzahl der Konversionen, die für jedes Ereignis aufgetreten sind.
-* **Geschätzter Umsatz**: Geschätzter Wert, der jedem Konversionsereignis zugeordnet wird.
+* **Konversionsanzahl**: Gesamtanzahl der Konversionen, die für jedes Ereignis aufgetreten sind, für die Kampagnen-ID.
+* **Konversionswert(e)**: Wert, der jedem Konversionsereignis für die Kampagnen-ID zugewiesen wird.
 
 Überprüfen Sie diese Tabelle, um die Effektivität Ihrer Kampagne bei der Unterstützung der gewünschten Aktionen zu bewerten.
 
@@ -124,6 +120,16 @@ Diese Ansicht bietet eine detaillierte Aufschlüsselung der Konversionsereigniss
 Dieses Diagramm enthält eine tägliche Aufschlüsselung der Konversionen für jedes Ereignis, das beim Erstellen eines Attributionsberichts eingerichtet wird. In dieser Ansicht können Sie tägliche Muster erkennen, Zeiten mit hoher oder geringer Konversionsaktivität identifizieren und die Leistung verschiedener Konversionsereignisse in Ihrer Kampagnenzeitleiste vergleichen.
 
 ![Konversionen nach Tag.](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+### Konversionen nach Platzierung {#conversions-by-placement}
+
+Diese Tabelle enthält eine Aufschlüsselung **Platzierungs-ID-Ebene** der für den Attributionsbericht ausgewählten Konversionsereignisse. Eine einzelne Kampagnen-ID kann mehrere Platzierungs-IDs enthalten. Verwenden Sie diese Ansicht, um zu sehen, wie Konversionen innerhalb einer Kampagne aufgeschlüsselt werden. Für jedes ausgewählte Konversionsereignis zeigt die Tabelle die jeder Platzierung zugewiesenen Konversionen und den entsprechenden Konversionswert an. Die Tabelle enthält:
+
+* **Name oder ID der Platzierung**: Die Kennung für die Platzierung, an der der Kreative gearbeitet hat.
+* **Konversionsanzahl**: Die Anzahl der Konversionen, die dieser Platzierung für jedes bei der Berichterstellung ausgewählte Konversionsereignis zugeordnet wurden. Eine Platzierung kann bis zu drei Konversionsereignisse anzeigen, die mit der maximal zulässigen Anzahl von Konversionsereignissen pro Bericht übereinstimmen.
+* **Konversionswert**: Der Wert, der jedem Konversionsereignis für diese bestimmte Platzierung zugewiesen wird.
+
+![Konversionen nach Platzierung.](/help/assets/collaborate/measure/conversions-by-placement.png)
 
 ## Messbericht erstellen {#create-measurement-report}
 
@@ -152,11 +158,11 @@ In diesem Abschnitt wird erläutert, wie Gutschriften bei der Erstellung von Mes
 
 #### Kampagnendetails {#campaign-details}
 
-Wählen Sie im **[!UICONTROL Kampagnendetails]** die entsprechende (Advertiser **ID) aus** die mit Ihrem Bericht verknüpft werden soll. Diese Advertiser-Namen oder IDs wurden während der [Verbindungseinrichtung“ &#x200B;](../connect/establishing-connections.md#advertiser-names). Wenn nur ein Name konfiguriert wurde, wird er standardmäßig angezeigt. Wenn kein Name eingerichtet wurde, wird das Feld **[!UICONTROL Advertiser-ID (Name)]** deaktiviert und mit dem Advertiser-Kontonamen vorausgefüllt.
+Wählen Sie im **[!UICONTROL Kampagnendetails]** die entsprechende (Advertiser **ID) aus** die mit Ihrem Bericht verknüpft werden soll. Diese Advertiser-Namen oder IDs wurden während der [Verbindungseinrichtung“ ](../connect/establishing-connections.md#advertiser-names). Wenn nur ein Name konfiguriert wurde, wird er standardmäßig angezeigt. Wenn kein Name eingerichtet wurde, wird das Feld **[!UICONTROL Advertiser-ID (Name)]** deaktiviert und mit dem Advertiser-Kontonamen vorausgefüllt.
 
 ![Der Bildschirm „Messbericht erstellen“ mit deaktivierter Option „Advertiser-ID (Name)“.](/help/assets/collaborate/measure/advertiser-id.png)
 
-Wählen Sie dann die gewünschte Kampagne aus dem Dropdown-Menü **[!UICONTROL Kampagnen-ID]** aus. In diesem Menü werden alle Kampagnen-IDs aufgelistet, die vom Publisher für Ihr Projekt eingegeben wurden. Wenn die benötigte Kampagne nicht verfügbar ist, [&#x200B; Sie sie in der Benutzeroberfläche &#x200B;](./manage-projects.md#manage-campaign-id), bevor Sie den Bericht erstellen.
+Wählen Sie dann die gewünschte Kampagne aus dem Dropdown-Menü **[!UICONTROL Kampagnen-ID]** aus. In diesem Menü werden alle Kampagnen-IDs aufgelistet, die vom Publisher für Ihr Projekt eingegeben wurden. Wenn die benötigte Kampagne nicht verfügbar ist, [ Sie sie in der Benutzeroberfläche ](./manage-projects.md#manage-campaign-id), bevor Sie den Bericht erstellen.
 
 ![Der Bildschirm Messbericht erstellen , der das Dropdown-Menü Kampagnen-ID enthält, wird erweitert.](/help/assets/collaborate/measure/campaign-id.png)
 
@@ -194,8 +200,8 @@ Als Advertiser können Sie **Attribution“-Berichte erstellen** um zu bewerten,
 
 >[!IMPORTANT]
 >
-> Sie müssen [Ihre Messdaten in Collaboration &#x200B;](../setup/onboard-measurement-data.md#add-measurement-data), bevor Sie Attributionsberichte erstellen können.
->![Die Registerkarte Kennzahl mit den Anforderungen für Messdaten und der deaktivierten Option Kennzahl &#x200B;](/help/assets/collaborate/measure/require-measurement-data.png)
+> Sie müssen [Ihre Messdaten in Collaboration ](../setup/onboard-measurement-data.md#add-measurement-data), bevor Sie Attributionsberichte erstellen können.
+>![Die Registerkarte Kennzahl mit den Anforderungen für Messdaten und der deaktivierten Option Kennzahl ](/help/assets/collaborate/measure/require-measurement-data.png)
 
 Um einen **Attributionsbericht** zu generieren, navigieren Sie vom Arbeitsbereich **[!UICONTROL Mitarbeiter]** zum Projektarbeitsbereich. Wählen Sie auf der **[!UICONTROL Kennzahl]** das Symbol zum Hinzufügen aus (![Symbol hinzufügen.](/help/assets/icons/plus.png)) und wählen Sie dann **[!UICONTROL Messen]** aus.
 
@@ -232,7 +238,7 @@ Als Advertiser können Sie **[!UICONTROL Attribution]** als Berichtstyp zusätzl
 Wenn Sie **[!UICONTROL Attribution]** als Berichtstyp auswählen, wird ein Konfigurationsabschnitt **[!UICONTROL Attribution]** mit zusätzlichen erforderlichen Einstellungen angezeigt:
 
 * **Lookback-Fenster in Tagen**: Legt fest, wie weit der Bericht vor jeder Konversion Kampagnen-Impressions berücksichtigt. Nur Impressionen innerhalb dieses Zeitraums sind für eine Attributions-Gutschrift geeignet.
-* **Konversionsereignisse**: Gibt an, welche Konversionsaktionen Sie messen möchten, z. B. Käufe oder Anmeldungen. Diese Ereignisse müssen im Voraus eingerichtet werden, wenn Sie [Ihre Messdaten &#x200B;](../setup/onboard-measurement-data.md#add-conversion-event) Collaboration beziehen.
+* **Konversionsereignisse**: Gibt an, welche Konversionsaktionen Sie messen möchten, z. B. Käufe oder Anmeldungen. Diese Ereignisse müssen im Voraus eingerichtet werden, wenn Sie [Ihre Messdaten ](../setup/onboard-measurement-data.md#add-conversion-event) Collaboration beziehen.
 
 Geben Sie zunächst einen Wert für das Feld **[!UICONTROL Lookback-Fenster in Tagen]** ein oder passen Sie ihn mit den Optionen zum Erhöhen/Verringern an.
 
@@ -293,13 +299,13 @@ Um den Bericht für ein anderes Datum zu planen, navigieren Sie zum Abschnitt **
 
 ![Das Dialogfeld „Messbericht bearbeiten“ mit Hervorhebung des Berichtsausführungs-Datumskalenders.](/help/assets/collaborate/measure/edit-report-run-date.png)
 
-Als Advertiser haben Sie die Möglichkeit, zusätzlich zur Kampagnenübersicht den Berichtstyp **[!UICONTROL Attribution]** auszuwählen oder **[!UICONTROL entfernen]**. Wenn Sie **[!UICONTROL Attribution]** wählen, enthält Ihr Attributionsbericht sowohl standardmäßige Kampagnenzusammenfassungsmetriken als auch detaillierte Attributionserkenntnisse. Weitere Informationen zu den Berichtstypen **Kampagnenübersicht** und **Attribution** finden Sie im Abschnitt [Erstellen eines &#x200B;](#create-measurement-report).
+Als Advertiser haben Sie die Möglichkeit, zusätzlich zur Kampagnenübersicht den Berichtstyp **[!UICONTROL Attribution]** auszuwählen oder **[!UICONTROL entfernen]**. Wenn Sie **[!UICONTROL Attribution]** wählen, enthält Ihr Attributionsbericht sowohl standardmäßige Kampagnenzusammenfassungsmetriken als auch detaillierte Attributionserkenntnisse. Weitere Informationen zu den Berichtstypen **Kampagnenübersicht** und **Attribution** finden Sie im Abschnitt [Erstellen eines ](#create-measurement-report).
 
 >[!IMPORTANT]
 >
 >Wenn Sie ein **Publisher** sind, ist der standardmäßige Berichtstyp **[!UICONTROL Kampagnenübersicht]** und kann derzeit nicht geändert werden.
 
-* Wenn Sie **[!UICONTROL Berichtstyp &quot;]**&quot; wählen, müssen Sie die erforderlichen Felder im Abschnitt &quot;**[!UICONTROL &quot;]**. Anweisungen zur Einrichtung finden Sie [&#x200B; Abschnitt „Details &#x200B;](#report-details-attribution) Attributionsberichts“.
+* Wenn Sie **[!UICONTROL Berichtstyp &quot;]**&quot; wählen, müssen Sie die erforderlichen Felder im Abschnitt &quot;**[!UICONTROL &quot;]**. Anweisungen zur Einrichtung finden Sie [ Abschnitt „Details ](#report-details-attribution) Attributionsberichts“.
 * Wenn Sie beim Erstellen des Berichts zuvor Attributionseinstellungen konfiguriert haben, können Sie das Lookback-Fenster (gemessen in Tagen) bearbeiten und auswählen, über welche Konversionsereignisse berichtet werden soll.
 
 Um das **[!UICONTROL Lookback-Fenster in Tagen]** zu aktualisieren, geben Sie einen numerischen Wert ein oder passen Sie ihn mit den Optionen zum Erhöhen/Verringern an. Wählen Sie als Nächstes die Konversionsereignisse aus, zu denen Sie einen Bericht erstellen möchten. Sie können aus der verfügbaren Liste bis zu **3** Konvertierungen auswählen.
