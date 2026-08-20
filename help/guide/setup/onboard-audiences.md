@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -172,7 +172,23 @@ Um mit der Zuordnung von Feldern zu beginnen, wählen Sie das leere Quellfeld ne
 
 ![Das Dialogfeld „Quellfeld auswählen“ mit den angezeigten E-Mail-Optionen.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Um die Beschaffung eines nicht gehashten Felds in ein gehashtes Zielfeld zu verarbeiten, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]**. Um beispielsweise ein zweites E-Mail-Feld hinzuzufügen, wählen Sie die Option **[!UICONTROL Feld hinzufügen]** aus, um eine neue Zeile hinzuzufügen, und wählen Sie dann **[!UICONTROL gehashte E-Mail]** für das Zielfeld aus. Wählen Sie ein nicht gehashtes E-Mail-Quellfeld aus und dann **[!UICONTROL Umwandlung anwenden]**.
+Einige Profilattribute werden innerhalb einer Liste modelliert, die ein Array von Objekten ist (wie im Dialogfeld `Object[]` angezeigt). In diesen sich wiederholenden Datensätzen leben häufig Schlüsselkennungen oder Attribute, wie z. B. eine Kontonummer oder eine Fahrzeugkennung.
+
+Erweitern Sie unter **[!UICONTROL Profilattribute]** das Listenfeld im Dialogfeld **[!UICONTROL Quellfeld auswählen]** und wählen Sie dann das verschachtelte Feld aus, das Sie einem Übereinstimmungsschlüssel zuordnen möchten. Erweitern Sie beispielsweise `devices` und wählen Sie `Device ID` aus. Das verschachtelte Feld füllt dann das Quellfeld für diese Zuordnungszeile und Sie ordnen es wie jedes andere Quellfeld einem Zielfeld zu.
+
+Wenn ein Profil mehrere Werte im verschachtelten Feld hat, gleicht Collaboration jeden Wert einzeln ab und zählt ihn. Sie müssen Ihre Daten nicht zuvor reduzieren oder neu strukturieren.
+
+![Das Dialogfeld „Quellfeld auswählen“ mit erweiterter Geräteliste und ausgewähltem Feld „Geräte-ID“ für die Zuordnung.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Die Auswahl eines in einer Liste verschachtelten Felds unterliegt den folgenden Einschränkungen:
+>
+>* Sie können verschachtelte Felder nur für Übereinstimmungsschlüssel auswählen. Die Auswahl eines verschachtelten Felds als Attribut wird nicht unterstützt.
+>* Sie können jeweils ein verschachteltes Feld pro Liste auswählen.
+>* Im Dialogfeld werden zwar Listen einfacher Werte anstelle von Listen von Objekten angezeigt, Sie können diese jedoch nicht auswählen.
+
+Um die Beschaffung eines nicht gehashten Felds in ein gehashtes Zielfeld zu verarbeiten, verwenden Sie die Option **[!UICONTROL Umwandlung anwenden]**. Um beispielsweise ein zweites E-Mail-Feld hinzuzufügen, wählen Sie die Option **[!UICONTROL Feld hinzufügen]**, um eine neue Zeile hinzuzufügen, und wählen Sie dann **[!UICONTROL gehashte E-Mail]** für das Zielfeld aus. Wählen Sie ein nicht gehashtes E-Mail-Quellfeld aus und dann **[!UICONTROL Umwandlung anwenden]**.
 
 ![Der Arbeitsbereich Zielgruppen hinzufügen mit den E-Mail-Quellfeldern, die dem Zielfeld zugeordnet sind, wobei Umwandlung anwenden für ein Feld aktiviert ist.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 

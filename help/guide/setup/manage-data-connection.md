@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -109,6 +109,8 @@ Wählen Sie anschließend das leere Quellfeld aus. Das Dialogfeld **[!UICONTROL 
 Wählen Sie das gewünschte Quellfeld und dann **[!UICONTROL Auswählen]** aus.
 
 ![Das Dialogfeld „Quellfeld auswählen“ mit ausgewählter GAID-Option.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+Unter der Option **[!UICONTROL Profilattribute]** werden einige Quellfelder innerhalb einer Liste modelliert, die ein Array von Objekten ist. Sie können diese Listenfelder erweitern und ein darin verschachteltes Feld auswählen, das einem Übereinstimmungsschlüssel zugeordnet werden soll. Weitere Informationen finden Sie im Handbuch [Zuordnungsfelder](./onboard-audiences.md#map-fields) .
 
 Verwenden **[!UICONTROL im Dialogfeld]**&#x200B;Übereinstimmungsschlüssel“ das Dropdown-Menü, um das neue Quellfeld einem Zielfeld zuzuordnen. Alle verfügbaren Zielfelder sind die für Ihr Mitarbeiter-Konto konfigurierten Übereinstimmungsschlüssel. Wenn das gewünschte Zielfeld nicht angezeigt wird, fügen Sie [die Übereinstimmungsschlüssel Ihres Kontos bearbeiten](./onboard-account.md#edit-match-keys) hinzu.
 
