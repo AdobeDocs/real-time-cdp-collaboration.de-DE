@@ -6,7 +6,7 @@ badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informati
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -88,12 +88,12 @@ Im Bildschirm zur Auswahl der Datenquelle werden alle verfügbaren Verbindungsty
 
 ![Der Workflow „Zielgruppe hinzufügen“ zeigt den Bildschirm zur Datenquellenauswahl mit ausgewählten Datenblöcken und hervorgehobener Option „Delta-Freigabe“ und „Weiter“.](../../assets/setup/databricks-audience-sourcing/databricks-data-source-selection.png)
 
-### [!DNL Delta Share] verbinden {#connect-delta-share}
+### Verbinden von [!DNL Delta Share] {#connect-delta-share}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="Anweisungen zum Konfigurieren Ihrer Freigabe für die Zielgruppen-Beschaffung finden Sie im Handbuch zur [!DNL Databricks Delta Share]-Beschaffung ."
+>abstract="Anweisungen zum Konfigurieren Ihrer Freigabe für Zielgruppenerfassung finden Sie im Handbuch zur Erfassung in [!DNL Databricks Delta Share]"
 
 Geben Sie die Details an, die erforderlich sind, damit Collaboration auf Ihre [!DNL Delta Share] zugreifen kann. Geben Sie den Provider, die Freigabe, das Schema und die Tabellendetails aus Ihrer [!DNL Databricks Delta Share] ein. Die erforderliche Mitgliedschaftstabelle muss im freigegebenen Schema verfügbar sein. Wenn Sie eine Metadatentabelle verwenden, muss sie auch im selben freigegebenen Schema verfügbar sein.
 Klicken Sie nach Eingabe der erforderlichen Informationen auf **[!UICONTROL Verbinden]**.

@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 3%
 
 ---
@@ -38,7 +38,9 @@ Real-Time CDP Collaboration unterstützt jetzt Messberichte für [!DNL Amazon Ma
 
 | Funktion | Beschreibung |
 | ------- | ----------- |
-| [!DNL AMC] Messberichte | Messen Sie die Leistung Ihrer Amazon Ads-Kampagnen mithilfe von [!DNL AMC]-Daten direkt in Collaboration. Auf der Registerkarte [!UICONTROL Kennzahlen] in einem [!DNL AMC] können Sie Berichte **&#x200B;**&#x200B;Kampagnenzusammenfassung) und **Attribution** erstellen, um die Kampagnenleistung auszuwerten und die Konversionsattribution zu verstehen. Weitere Informationen finden Sie unter [Erstellen von Amazon Marketing Cloud-](../collaborate/advertising-platforms/amc-measure.md). |
+| [!DNL AMC] Messberichte | Messen Sie die Leistung Ihrer Amazon Ads-Kampagnen mithilfe von [!DNL AMC]-Daten direkt in Collaboration. Auf der Registerkarte **[!UICONTROL Kennzahlen]** in einem [!DNL AMC] können Sie Berichte **&#x200B;**&#x200B;Kampagnenzusammenfassung) und **Attribution** erstellen, um die Kampagnenleistung auszuwerten und die Konversionsattribution zu verstehen. Weitere Informationen finden Sie unter [Erstellen von Amazon Marketing Cloud-](../collaborate/advertising-platforms/amc-measure.md). |
+| Schlüsselzuordnung für verschachtelte Profilattribute anpassen | Sie können jetzt Übereinstimmungsschlüssel den Feldern zuordnen, die in listenbasierten Profilfeldern verschachtelt sind, z. B. einer Geräte-ID in einem `devices`-Array, ohne Ihre Daten zuvor zu reduzieren oder neu zu strukturieren. Collaboration gleicht jeden Wert im verschachtelten Feld einzeln ab und zählt ihn. Verschachtelte Felder werden derzeit nur für Übereinstimmungsschlüssel unterstützt, nicht als Profilattribute. Weitere Informationen finden Sie unter [Felder zuordnen](../setup/onboard-audiences.md#map-fields). |
+| Konversionsberichte auf Platzierungsebene | Attributionsberichte enthalten jetzt eine Tabelle **Konversionen nach Platzierung** in der die Konversionsanzahl und der Konversionswert für jede Platzierungs-ID innerhalb einer Kampagnen-ID angezeigt werden. Dadurch erhalten Sie separate Ergebnisse für Kampagnen mit mehreren Platzierungen. Die frühere Metrikbezeichnung **[!UICONTROL Geschätzter Umsatz]** wurde aus Gründen der Klarheit in **[!UICONTROL Konversionswert]** geändert. Weitere Informationen finden Sie unter &quot;[&#x200B; nach Platzierung](../collaborate/measure.md#conversions-by-placement). |
 
 {style="table-layout:auto"}
 
