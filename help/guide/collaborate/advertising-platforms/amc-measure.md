@@ -8,10 +8,8 @@ badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informati
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 5%
-
+ht-degree: 12%
 ---
-
 
 # Erstellen [!DNL Amazon Marketing Cloud] Messberichten {#amc-measurement-reports}
 
@@ -43,12 +41,12 @@ Wenn die benötigte Kampagne nicht aufgeführt ist, stellen Sie sicher, dass sie
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Datumsbereich"
->abstract="Legen Sie das Start- und Enddatum für die Kampagnendaten fest, die in den Bericht aufgenommen werden sollen. Der Datumsbereich ist auf ein 365-tägiges Lookback-Fenster mit einer maximalen Spanne von 90 Tagen beschränkt. Sie können nur Berichte zu früheren Kampagnen erstellen."
+>abstract="Legen Sie Start- und Enddatum für die im Bericht einzuschließenden Kampagnendaten fest. Der Datumsbereich ist auf ein 365-tägiges Lookback-Fenster mit einer maximalen Spanne von 90 Tagen beschränkt. Sie können nur Berichte zu früheren Kampagnen erstellen."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="Ausführungsdatum"
->abstract="Das Datum der Berichtsausführung. Muss mindestens einen Tag nach dem Enddatum des Berichts liegen und kann bis zu 46 Tage in der Zukunft liegen."
+>abstract="Das Datum der Berichtsausführung. Muss mindestens einen Tag nach dem Enddatum des Berichts liegen und kann bis zu 46 Tage in der Zukunft liegen."
 
 >[!NOTE]
 >

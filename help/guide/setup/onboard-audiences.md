@@ -7,17 +7,19 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3970
+source-wordcount: '3970'
 ht-degree: 16%
-
 ---
-
 # Source und Verwalten von Audiences
 
 {{limited-availability-release-note}}
@@ -43,7 +45,7 @@ Wählen Sie auf der Registerkarte **[!UICONTROL Meine]**&quot; im **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing-Aktionen"
->abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die <strong>Data Collaboration</strong>-Marketing-Aktion unterstützt Datennutzungsbeschriftungen mit C4, C5, C9, S1, S2, PSPD und RHD. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
+>abstract="<p>Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Real-Time CDP Collaboration importiert werden sollen. Die Marketing-Aktion <strong>Datenzusammenarbeit</strong> unterstützt Datennutzungs-Labels vom Typ C4, C5, C9, S1, S2, PSPD und RHD. Die Marketing-Aktion <strong>Datenwissenschaft</strong> unterstützt das Datennutzungs-Label vom Typ C9.</p> <p> <ul><li> Wenn das Kontrollkästchen <em>aktiviert</em> ist, werden alle mit den oben genannten Labels in Experience Platform markierten Daten, ausgeschlossen und <strong>nicht</strong> in Real-Time CDP Collaboration übertragen.</li><li> Wenn das Kontrollkästchen <em>deaktiviert</em> ist, gibt es keine Einschränkung für Daten aus Experience Platform, die in Real-Time CDP Collaboration importiert werden können.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=de" text="Datennutzungs-Labels – Übersicht"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=de" text="Glossar der Datennutzungs-Labels"
 
@@ -91,7 +93,7 @@ Nachdem Sie Ihre Datenquelle ausgewählt haben, müssen Sie die Sandbox auswähl
 
 Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen Marketing-Aktionen festgelegt sind. Sie müssen außerdem der Verwendung von Daten aus Experience Platform für die Datenerfassung zustimmen.
 
-Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die **[!UICONTROL Data Collaboration]**-Marketing-Aktion unterstützt Datennutzungsbeschriftungen mit C4, C5, C9, S1, S2, PSPD und RHD. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
+Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Datenzusammenarbeit]** unterstützt Datennutzungs-Labels vom Typ C4, C5, C9, S1, S2, PSPD und RHD. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
 Lesen Sie mehr über die [C4, C5, C9, S1, S2, PSPD und RHD Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
