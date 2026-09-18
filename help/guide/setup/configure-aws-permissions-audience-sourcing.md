@@ -1,13 +1,12 @@
 ---
 title: Konfigurieren von AWS-Berechtigungen für die Zielgruppen-Beschaffung
-description: Erfahren Sie, wie Sie Berechtigungen für die Identitäts- und Zugriffsverwaltung (IAM) von AWS konfigurieren, um Adobe für die Zielgruppen-Beschaffung in Real-Time CDP Collaboration sicheren, schreibgeschützten Zugriff auf Ihren  [!DNL Amazon S3]  zu gewähren.
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: Erfahren Sie, wie Sie Berechtigungen für die Identitäts- und Zugriffsverwaltung (IAM) von AWS konfigurieren, um Adobe für die Zielgruppen-Beschaffung in Real-Time CDP Collaboration sicheren, schreibgeschützten Zugriff auf Ihren [!DNL Amazon S3]-Bucket zu gewähren.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren von AWS-Berechtigungen für die Zielgruppen-Beschaffung
 
 Verwenden Sie dieses Handbuch, um AWS Identity and Access Management (IAM)-Richtlinien und -Rollen zu konfigurieren, die Adobe sicheren, schreibgeschützten Zugriff auf Ihren Amazon S3-Bucket gewähren. Dieser Zugriff ermöglicht es Real-Time CDP Collaboration, Zielgruppen aus Ihrem S3-Bucket zu beziehen.
@@ -116,7 +115,7 @@ Ein Beispiel für eine Vertrauensrichtlinie:
 
 Überprüfen Sie die Richtlinie und wählen Sie **Weiter**, um fortzufahren.
 
-Suchen Sie [!DNL Step 2] Abschnitt **[!DNL Add permissions]** des [!DNL Create role]-Workflows nach der von Ihnen (zuvor[&#x200B; erstellten IAM-Richtlinie und fügen Sie sie &#x200B;](#create-policy). Wählen Sie die Richtlinie und anschließend **[!DNL Next]** aus, um fortzufahren[!DNL Step 3].
+Suchen Sie [!DNL Step 2] Abschnitt **[!DNL Add permissions]** des [!DNL Create role]-Workflows nach der von Ihnen (zuvor[ erstellten IAM-Richtlinie und fügen Sie sie ](#create-policy). Wählen Sie die Richtlinie und anschließend **[!DNL Next]** aus, um fortzufahren[!DNL Step 3].
 
 Geben Sie im Abschnitt [!DNL Step 3] **[!DNL Name review, and create - Role details]** einen Rollennamen (z. B. `s3-iam-role`) und eine optionale Beschreibung an.
 
@@ -126,7 +125,7 @@ Wählen Sie abschließend **Rolle erstellen** aus, um die Einrichtung zu bestät
 
 >[!IMPORTANT]
 >
->Sie müssen den Amazon-Ressourcennamen (ARN) aufzeichnen, nachdem Sie die Rolle erstellt haben. Sie müssen die IAM-Rollen-ARN während des Schritts **Authentifizieren Ihrer S3-Verbindung** im Workflow [Konfigurieren von AWS S3 für die &#x200B;](./configure-aws-s3-audience-sourcing.md)&quot; angeben.
+>Sie müssen den Amazon-Ressourcennamen (ARN) aufzeichnen, nachdem Sie die Rolle erstellt haben. Sie müssen die IAM-Rollen-ARN während des Schritts **Authentifizieren Ihrer S3-Verbindung** im Workflow [Konfigurieren von AWS S3 für die ](./configure-aws-s3-audience-sourcing.md)&quot; angeben.
 
 ## Nächste Schritte {#next-steps}
 
