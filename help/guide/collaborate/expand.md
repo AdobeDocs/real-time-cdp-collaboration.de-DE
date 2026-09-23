@@ -16,7 +16,7 @@ Bevor Sie die Registerkarte **[!UICONTROL Erweitern]** verwenden können, sollte
 
 * [Sourced](/help/guide/setup/onboard-audiences.md) mindestens eine Zielgruppe, die als Seed-Zielgruppe verwendet werden soll
 * [Verbunden](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter
-* [hat ein Projekt ](/help/guide/collaborate/manage-projects.md) diesem Mitarbeiter erstellt
+* [hat ein Projekt &#x200B;](/help/guide/collaborate/manage-projects.md) diesem Mitarbeiter erstellt
 * Wenn Sie eine Erweiterungszielgruppe erhalten, ein [Ziel](/help/guide/destinations/overview.md), das für den Empfang aktivierter Zielgruppen konfiguriert ist
 
 ## Übersicht erweitern {#expand-overview}
