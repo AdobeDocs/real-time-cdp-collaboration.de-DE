@@ -54,7 +54,7 @@ Nach dem Speichern des Ziels wählt der Mitarbeiter, der eine Zielgruppe sendet,
 
 ## Verbindung löschen {#delete-connection}
 
-Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um eine Verbindung zu löschen, navigieren Sie zu der Verbindung, die Sie löschen möchten, und wählen Sie dann im Arbeitsbereich Verbindung das Symbol „Löschen![ (](/help/assets/common/delete.svg)) aus.
+Sie können alle Verbindungen mit Partnern löschen, mit denen Sie nicht weiter arbeiten möchten. Um eine Verbindung zu löschen, navigieren Sie zu der Verbindung, die Sie löschen möchten, und wählen Sie dann im Arbeitsbereich Verbindung das Symbol „Löschen![&#x200B; (](/help/assets/common/delete.svg)) aus.
 
 ![Das hervorgehobene Löschsymbol im Arbeitsbereich „Verbindung“.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
 

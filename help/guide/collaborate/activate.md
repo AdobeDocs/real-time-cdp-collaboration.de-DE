@@ -26,11 +26,11 @@ Verwenden Sie die **[!UICONTROL Aktivieren]**-Registerkarte innerhalb eines Proj
 
 >[!IMPORTANT]
 >
->Die **[!UICONTROL Aktivieren]**-Registerkarte ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [ Verbindungsprozesses aktiviert ](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie unter [Verwalten von Projekten](./manage-projects.md#project-use-cases).
+>Die **[!UICONTROL Aktivieren]**-Registerkarte ist nur verfügbar, wenn der Anwendungsfall **Zielgruppenaktivierung** während [&#x200B; Verbindungsprozesses aktiviert &#x200B;](../connect/establishing-connections.md#connection-settings). Weitere Informationen zu Anwendungsfällen finden Sie unter [Verwalten von Projekten](./manage-projects.md#project-use-cases).
 
 Verwenden Sie die [Entdecken](./discover.md), um die Zielgruppen zu identifizieren, die Ihrer Kampagne am besten entsprechen, und senden Sie sie dann an Ihren Mitarbeiter.
 
-Wenn der Empfänger in den Verbindungseinstellungen ein Ziel für die automatische Aktivierung konfiguriert, wählt der Absender beim Senden der Zielgruppe einen Aktivierungsplan aus. Das Ziel ist für den Absender schreibgeschützt. Wenn die Zielgruppe empfangen wird, wird sie automatisch für das konfigurierte Ziel des Empfängers im Aktivierungsplan des Absenders aktiviert. Anweisungen zum Einrichten der Verbindung finden [ unter „Konfigurieren eines Ziels für die automatische Aktivierung](../connect/manage-connections.md#configure-auto-activation-destination).
+Wenn der Empfänger in den Verbindungseinstellungen ein Ziel für die automatische Aktivierung konfiguriert, wählt der Absender beim Senden der Zielgruppe einen Aktivierungsplan aus. Das Ziel ist für den Absender schreibgeschützt. Wenn die Zielgruppe empfangen wird, wird sie automatisch für das konfigurierte Ziel des Empfängers im Aktivierungsplan des Absenders aktiviert. Anweisungen zum Einrichten der Verbindung finden [&#x200B; unter „Konfigurieren eines Ziels für die automatische Aktivierung](../connect/manage-connections.md#configure-auto-activation-destination).
 
 Wenn der Empfänger kein Ziel für die automatische Aktivierung konfiguriert hat, bleiben das Senden und Aktivieren separate Aktionen. Durch das Senden erhält der Empfänger Zugriff auf eine Zielgruppe, und der Empfänger wählt bei der manuellen Aktivierung ein Ziel und einen Zeitplan aus. Es können nur vorkonfigurierte Ziele für die Aktivierung innerhalb eines Projekts ausgewählt werden. Anweisungen zur Zielkonfiguration finden Sie unter [Verwalten von Zielen](../destinations/manage-destinations.md).
 
@@ -164,7 +164,7 @@ Die Zielgruppe wird aus dem Abschnitt entfernt, und Ihr Mitarbeiter verliert den
 
 ## Empfangene Zielgruppen anzeigen {#received-audiences}
 
-Verwenden Sie den Abschnitt **[!UICONTROL Empfangene Zielgruppen]**, um die Zielgruppen zu überprüfen, die Ihr Mitarbeiter an Sie gesendet hat. Wenn vor dem Versand der Zielgruppe ein Ziel für die automatische Aktivierung konfiguriert wurde, erstellt Collaboration automatisch eine Aktivierung, wenn die Zielgruppe empfangen wird. Für wiederkehrende automatische Aktivierungen können Sie auch eine zusätzliche manuelle Aktivierung für ein anderes Ziel erstellen. Weitere [ finden Sie unter „Manuelles Aktivieren ](#activate-received-audience) empfangenen Zielgruppe“. Wenn kein Ziel für die automatische Aktivierung konfiguriert wurde, aktivieren Sie die Zielgruppe manuell.
+Verwenden Sie den Abschnitt **[!UICONTROL Empfangene Zielgruppen]**, um die Zielgruppen zu überprüfen, die Ihr Mitarbeiter an Sie gesendet hat. Wenn vor dem Versand der Zielgruppe ein Ziel für die automatische Aktivierung konfiguriert wurde, erstellt Collaboration automatisch eine Aktivierung, wenn die Zielgruppe empfangen wird. Für wiederkehrende automatische Aktivierungen können Sie auch eine zusätzliche manuelle Aktivierung für ein anderes Ziel erstellen. Weitere [&#x200B; finden Sie unter „Manuelles Aktivieren &#x200B;](#activate-received-audience) empfangenen Zielgruppe“. Wenn kein Ziel für die automatische Aktivierung konfiguriert wurde, aktivieren Sie die Zielgruppe manuell.
 
 Jede empfangene Zielgruppe zeigt die folgenden Informationen an:
 
@@ -237,4 +237,4 @@ Die Aktivierung wird aus der Liste entfernt. Sie können die empfangene Zielgrup
 
 ## Nächste Schritte {#next-steps}
 
-Überwachen Sie nach dem Senden oder Aktivieren von Zielgruppen deren Status in den Abschnitten **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]** und **[!UICONTROL Aktivierte Zielgruppen]** . Wenn die Kampagnen abgeschlossen sind, wenden Sie sich an das Adobe-Aktivierungs- und -Engineering-Team, um Messdaten hochzuladen und die entsprechenden [Messberichte“ ](./measure.md).
+Überwachen Sie nach dem Senden oder Aktivieren von Zielgruppen deren Status in den Abschnitten **[!UICONTROL Gesendete Zielgruppen an [Mitarbeiter]]** und **[!UICONTROL Aktivierte Zielgruppen]** . Wenn die Kampagnen abgeschlossen sind, wenden Sie sich an das Adobe-Aktivierungs- und -Engineering-Team, um Messdaten hochzuladen und die entsprechenden [Messberichte“ &#x200B;](./measure.md).
