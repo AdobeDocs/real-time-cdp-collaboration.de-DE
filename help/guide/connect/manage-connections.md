@@ -1,21 +1,21 @@
 ---
 title: Verwalten von Verbindungen
-description: Erfahren Sie, wie Sie Ihre Verbindungen in Real-Time CDP Collaboration verwalten.
+description: Erfahren Sie, wie Sie Verbindungen verwalten und die automatische Aktivierung in Real-Time CDP Collaboration konfigurieren.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 1%
-
 ---
-
 # Verwalten von Verbindungen {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ Der Arbeitsbereich „Verbindungsübersicht“ wird mit Details zur Verbindung u
 Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem die Verbindungsdetails zwischen Ihnen und Ihrem Mitarbeiter angezeigt werden. Hier können Sie alle während des Verbindungsprozesses ausgewählten Einstellungen, den aktuellen Status der Verbindung, den Verbindungseigentümer und die Kontaktinformationen für Ihren Mitarbeiter anzeigen. Informationen zu bestimmten Verbindungseinstellungen finden Sie im [Verbindungseinstellungen](/help/guide/connect/establishing-connections.md#connection-settings).
 
 ![Der Arbeitsbereich „Verbindungseinstellungen“ mit Verbindungsdetails.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### Konfigurieren eines Ziels für die automatische Aktivierung {#configure-auto-activation-destination}
+
+Als empfangender Mitarbeiter können Sie ein Ziel auswählen, das Collaboration verwendet, um automatisch Zielgruppen zu aktivieren, die über die Verbindung an Sie gesendet werden. Bevor Sie beginnen, stellen Sie sicher, dass Sie mindestens ein aktives Ziel besitzen. Anweisungen zum Konfigurieren von Zielen finden Sie unter [Ziele - Übersicht](../destinations/overview.md).
+
+Wechseln Sie im Arbeitsbereich Verbindungseinstellungen zu **[!UICONTROL Aktivierungssteuerung]** und wählen Sie **[!UICONTROL BEARBEITEN]**. Wählen Sie als Nächstes ein **[!UICONTROL Ziel für die automatische Aktivierung]** aus dem Dropdown-Menü aus und wählen Sie **[!UICONTROL Speichern]**, um zu bestätigen.
+
+>[!NOTE]
+>
+>Die automatische Aktivierung ist für alle Ziele verfügbar.
+
+![Das Dialogfeld „Aktivierungssteuerung“ mit Northstar-Zielgruppenexporten als Ziel für die automatische Aktivierung ausgewählt und der Schaltfläche „Speichern“ hervorgehoben.](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+Nach dem Speichern des Ziels wählt der Mitarbeiter, der eine Zielgruppe sendet, den Aktivierungsplan aus. Ihr Ziel wird in seinem Versand-Workflow als schreibgeschützte Auswahl angezeigt. Nach Erhalt der Audience erstellt Collaboration die Aktivierung für Sie gemäß diesem Zeitplan. Das heißt, der Empfänger wählt das Ziel aus, der Absender wählt den Zeitplan aus und Collaboration erstellt die Aktivierung.
+
+Änderungen am automatischen Aktivierungsziel gelten nur für Audiences, die nach der Änderung freigegeben wurden. Vorhandene automatisch erstellte Aktivierungen verwenden weiterhin ihr ursprüngliches Ziel. Um die automatische Aktivierung für zukünftige Freigaben zu deaktivieren, löschen Sie das Ziel der automatischen Aktivierung und speichern Sie Ihre Änderungen.
 
 ## Verbindung löschen {#delete-connection}
 
@@ -127,22 +143,22 @@ Die Einstellungen für die Kreditaufteilung geben an, welcher Mitarbeiter für d
 
 Wählen Sie **[!UICONTROL Dialogfeld]** Kreditaufteilung“ die bevorzugten Einstellungen für [!UICONTROL Activation-Matching] und [!UICONTROL Measurement]. Wählen Sie dann zur Bestätigung **[!UICONTROL Speichern]** aus.
 
-![The Credit split dialog showing the credit split settings and the Save option.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
+![Das Dialogfeld „Kreditaufteilung“ mit den Einstellungen für die Kreditaufteilung und der Option „Speichern“.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
 
-### Review and submit changes {#review-and-submit-changes}
+### Änderungen überprüfen und übermitteln {#review-and-submit-changes}
 
-When you complete editing the connection settings, review and select **[!UICONTROL Submit changes]**. The connection settings updates will be sent to your collaborator for review.
+Wenn Sie die Bearbeitung der Verbindungseinstellungen abgeschlossen haben, überprüfen Sie und wählen Sie **[!UICONTROL Änderungen übermitteln]**. Die Aktualisierungen der Verbindungseinstellungen werden zur Überprüfung an Ihren Mitarbeiter gesendet.
 
-![The edit connection settings screen displaying the updates and the Submit changes option.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
+![Der Bildschirm „Verbindungseinstellungen bearbeiten“ mit den Optionen Aktualisierungen und Änderungen übermitteln.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
 
-#### Save connection settings changes as draft
+#### Änderungen der Verbindungseinstellungen als Entwurf speichern
 
-You can save the connection settings changes as a draft and return to finish updating the connection settings at any time.
+Sie können die Änderungen an den Verbindungseinstellungen als Entwurf speichern und jederzeit zur Fertigstellung der Aktualisierung der Verbindungseinstellungen zurückkehren.
 
-To save the changes as a draft, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
+Um die Änderungen als Entwurf zu speichern, klicken Sie auf **[!UICONTROL Abbrechen]** neben **[!UICONTROL Änderungen übermitteln]**. Wählen Sie dann im Dialogfeld **[!UICONTROL Nicht übermittelte Änderungen]** die Option **[!UICONTROL Später fortfahren]** zur Bestätigung aus.
 
-![The edit connection settings screen.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
+![Der Bildschirm „Verbindungseinstellungen bearbeiten“](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
 
-Your changes are now saved as a draft. In the connection settings workspace, you can see a notification indicating that there are unsubmitted changes. To make further updates, select **[!UICONTROL Continue editing]**.
+Ihre Änderungen werden jetzt als Entwurf gespeichert. Im Arbeitsbereich Verbindungseinstellungen wird eine Benachrichtigung angezeigt, die darauf hinweist, dass es nicht übermittelte Änderungen gibt. Um weitere Aktualisierungen vorzunehmen, wählen Sie **[!UICONTROL Bearbeitung fortsetzen]**.
 
-![A notification in the connection settings workspace showing there are unsubmitted changes pending review and submission.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
+![Eine Benachrichtigung im Arbeitsbereich „Verbindungseinstellungen“, die anzeigt, dass es nicht gesendete Änderungen gibt, die auf Überprüfung und Übermittlung warten.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
