@@ -1,7 +1,10 @@
 ---
 title: Erstellen von Erweiterungszielgruppen in „Erweitern“
 description: Erfahren Sie, wie Sie mithilfe der Zielgruppenpopulation eines Mitarbeiters in Adobe Real-Time CDP Collaboration Erweiterungszielgruppen aus einer Seed-Zielgruppe erstellen.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
@@ -16,7 +19,7 @@ Bevor Sie die Registerkarte **[!UICONTROL Erweitern]** verwenden können, sollte
 
 * [Sourced](/help/guide/setup/onboard-audiences.md) mindestens eine Zielgruppe, die als Seed-Zielgruppe verwendet werden soll
 * [Verbunden](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter
-* [hat ein Projekt &#x200B;](/help/guide/collaborate/manage-projects.md) diesem Mitarbeiter erstellt
+* [hat ein Projekt ](/help/guide/collaborate/manage-projects.md) diesem Mitarbeiter erstellt
 * Wenn Sie eine Erweiterungszielgruppe erhalten, ein [Ziel](/help/guide/destinations/overview.md), das für den Empfang aktivierter Zielgruppen konfiguriert ist
 
 ## Übersicht erweitern {#expand-overview}

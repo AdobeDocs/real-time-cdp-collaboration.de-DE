@@ -1,15 +1,16 @@
 ---
-title: Konfigurieren  [!DNL Databricks Delta Share]  Zielgruppen-Beschaffung
-description: Erfahren Sie, wie Sie die Zielgruppen [!DNL Databricks Delta Share] Beschaffung in Real-Time CDP Collaboration konfigurieren und verbinden.
+title: Konfigurieren von [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung
+description: Erfahren Sie, wie Sie [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung in Real-Time CDP Collaboration konfigurieren und verbinden.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2816'
+source-wordcount: '2818'
 ht-degree: 2%
-
 ---
-
 
 # Konfigurieren von [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung
 

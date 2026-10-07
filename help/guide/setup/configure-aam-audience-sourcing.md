@@ -2,14 +2,15 @@
 title: Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung
 description: Erfahren Sie, wie Sie Adobe Audience Manager als Datenquelle verbinden, um geeignete First-Party-Zielgruppen in Real-Time CDP Collaboration zu beschaffen.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 0%
-
 ---
-
 
 # Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung
 
@@ -21,7 +22,7 @@ Erfahren Sie, wie Sie Ihre Adobe Audience Manager (AAM)-Instanz mit Adobe Real-T
 
 ## Voraussetzungen {#prerequisites}
 
-Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Unvollständige Voraussetzungen sind der häufigste Grund dafür, dass die Einrichtung fehlschlägt oder Zielgruppen nach der Beschaffung nicht angezeigt werden. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ &#x200B;](./onboard-account.md) haben.
+Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Unvollständige Voraussetzungen sind der häufigste Grund dafür, dass die Einrichtung fehlschlägt oder Zielgruppen nach der Beschaffung nicht angezeigt werden. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ ](./onboard-account.md) haben.
 
 ### Zugriff auf Adobe Audience Manager und Berechtigungen {#aam-access-and-permissions}
 
@@ -161,7 +162,7 @@ Während Collaboration Ihre AAM-Segmentdaten abruft, zeigt ein Banner oben im Ar
 
 Nach Abschluss der Beschaffung werden Ihre AAM-Segmente auf der Registerkarte **[!UICONTROL Meine Zielgruppen]** angezeigt. Die Spalte **[!UICONTROL Source]** identifiziert sie als **[!UICONTROL Adobe Audience Manager]**.
 
-![&#x200B; Registerkarte „Meine Zielgruppen“ im Setup-Arbeitsbereich zeigt eine Tabelle mit Zielgruppen, einschließlich der aus Adobe Audience Manager stammenden Zielgruppen, wobei auswählbare Kontrollkästchen und Zeilenaktionen verfügbar sind](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience.png)
+![ Registerkarte „Meine Zielgruppen“ im Setup-Arbeitsbereich zeigt eine Tabelle mit Zielgruppen, einschließlich der aus Adobe Audience Manager stammenden Zielgruppen, wobei auswählbare Kontrollkästchen und Zeilenaktionen verfügbar sind](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience.png)
 
 Wählen Sie eine Zeile oder die Option **[!UICONTROL Zielgruppe anzeigen]** aus, um die Detailansicht einer bestimmten Zielgruppe zu öffnen.
 
@@ -210,7 +211,7 @@ Bestätigen Sie, dass das Segment:
 
 * Bestätigen Sie, dass sich die IMS-Organisationsbeziehung zwischen Ihrer AAM-Instanz und dem Collaboration-Konto nicht geändert hat.
 * Bestätigen Sie, dass die ausgewählten Segmente weiterhin in AAM vorhanden sind und nicht gelöscht wurden.
-* Wenn das Problem weiterhin besteht[&#x200B; (löschen Sie die Verbindung](./manage-data-connection.md#delete-data-connection) und erstellen Sie eine neue oder wenden Sie sich an den Kunden-Support von Adobe.
+* Wenn das Problem weiterhin besteht[ (löschen Sie die Verbindung](./manage-data-connection.md#delete-data-connection) und erstellen Sie eine neue oder wenden Sie sich an den Kunden-Support von Adobe.
 
 ## Nächste Schritte {#next-steps}
 

@@ -1,15 +1,16 @@
 ---
-title: Source-Zielgruppen aus  [!DNL Azure] -Speicher in Real-Time CDP Collaboration
+title: Source-Zielgruppen aus dem [!DNL Azure] in Real-Time CDP Collaboration
 description: Source-First-Party-Zielgruppendaten aus Azure Blob Storage oder Azure Data Lake Storage Gen2 in Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; Zielgruppen-Sourcing; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2051'
 ht-degree: 3%
-
 ---
-
 # Source-Zielgruppen aus dem Azure-Speicher
 
 Verbinden Sie [!DNL Azure Blob Storage] oder [!DNL Azure Data Lake Storage] (ADLS) Gen2 mit Adobe Real-Time CDP Collaboration, um First-Party-Zielgruppendaten für die Aktivierung und Überschneidungsanalyse zu beziehen.
@@ -51,7 +52,7 @@ Zu den wichtigsten Anforderungen gehören:
 * **Hash-Anforderungen:** Alle Übereinstimmungsschlüsselwerte müssen vor dem Hochladen gekürzt, in Kleinbuchstaben geschrieben und SHA256-gehasht werden. Collaboration hasht oder normalisiert Daten nicht vor der Aufnahme.
 * **Spaltenkonsistenz:** Alle Dateien unter Ihrem konfigurierten Pfad müssen identische Spaltenstrukturen verwenden.
 
-Alle Übereinstimmungsschlüssel, die in Ihren Zielgruppendateien vorhanden sind, müssen auch für Ihr Collaboration-Konto aktiviert werden. Eine Anleitung [&#x200B; Sie unter „Einrichten &#x200B;](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys) Übereinstimmungsschlüsseln“.
+Alle Übereinstimmungsschlüssel, die in Ihren Zielgruppendateien vorhanden sind, müssen auch für Ihr Collaboration-Konto aktiviert werden. Eine Anleitung [ Sie unter „Einrichten ](https://experienceleague.adobe.com/de/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys) Übereinstimmungsschlüsseln“.
 
 >[!IMPORTANT]
 >

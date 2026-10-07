@@ -2,9 +2,12 @@
 title: Verwalten von Messdatenverbindungen
 description: Erfahren Sie, wie Sie Messdatenverbindungen verwalten, einschließlich Details und Übereinstimmungsschlüsseln in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
-source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 3%
@@ -13,7 +16,7 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-## Überblick
+## Übersicht
 
 Verwenden Sie Messdatenverbindungen in Real-Time CDP Collaboration, um Ihre Konversionsdaten von verschiedenen Plattformen zu beziehen. Erfahren Sie, wie Sie Details verwalten und Schlüssel für Ihre vorhandenen Datenverbindungen abgleichen.
 
@@ -44,13 +47,13 @@ In diesem Abschnitt werden die folgenden Details der Datenverbindung angezeigt:
 
 ### Übereinstimmungsschlüssel {#match-keys}
 
-Übereinstimmungsschlüssel sind die Zielfelder, denen Sie Ihre Quellfelder zugeordnet haben, wenn [&#x200B; Ihre Messdaten beziehen](./onboard-measurement-data.md). Weitere Informationen zur Funktionsweise von Übereinstimmungsschlüsseln finden Sie im Handbuch [Übereinstimmungsschlüssel](./onboard-account.md#set-up-match-keys) .
+Übereinstimmungsschlüssel sind die Zielfelder, denen Sie Ihre Quellfelder zugeordnet haben, wenn [ Ihre Messdaten beziehen](./onboard-measurement-data.md). Weitere Informationen zur Funktionsweise von Übereinstimmungsschlüsseln finden Sie im Handbuch [Übereinstimmungsschlüssel](./onboard-account.md#set-up-match-keys) .
 
 ![Ein Arbeitsbereich für die Messdatenverbindung mit hervorgehobenem Abschnitt „Übereinstimmungsschlüssel“.](/help/assets/setup/manage-measurement-data-connection/view-match-keys.png){zoomable="yes"}
 
 ### Konversionsereignisse {#conversion-events}
 
-Unten im Arbeitsbereich wird eine Liste der Konversionsereignisse angezeigt, die an die Datenverbindung angehängt sind. Die Liste zeigt einen kurzen Überblick über jedes Ereignis an, einschließlich Status, Konvertierungstyp und Quelle. Sie können den Ereignisnamen auswählen, um die Konfigurationen anzuzeigen und zu bearbeiten, oder das Konversionsereignis mit der Löschoption entfernen (![Löschsymbol](/help/assets/common/delete.svg)). Eine vollständige Anleitung zum Verwalten eines Konversionsereignisses finden Sie im Handbuch [Hinzufügen und Verwalten von &#x200B;](./onboard-measurement-data.md)&quot;.
+Unten im Arbeitsbereich wird eine Liste der Konversionsereignisse angezeigt, die an die Datenverbindung angehängt sind. Die Liste zeigt einen kurzen Überblick über jedes Ereignis an, einschließlich Status, Konvertierungstyp und Quelle. Sie können den Ereignisnamen auswählen, um die Konfigurationen anzuzeigen und zu bearbeiten, oder das Konversionsereignis mit der Löschoption entfernen (![Löschsymbol](/help/assets/common/delete.svg)). Eine vollständige Anleitung zum Verwalten eines Konversionsereignisses finden Sie im Handbuch [Hinzufügen und Verwalten von ](./onboard-measurement-data.md)&quot;.
 
 ![Ein Arbeitsbereich für die Messdatenverbindung mit hervorgehobenem Abschnitt „Konversionsereignisse“.](/help/assets/setup/manage-measurement-data-connection/view-conversion-events.png){zoomable="yes"}
 
@@ -93,7 +96,7 @@ Im Dialogfeld **[!UICONTROL Übereinstimmungsschlüssel]** können Sie die Anrei
 
 #### Anreicherung {#enrichment}
 
-Wenn die Anreicherung beim [&#x200B; Ihrer Messdaten nicht aktiviert &#x200B;](./onboard-measurement-data.md), haben Sie die Möglichkeit, Ihren Ereignisdatensatz mit Attributen aus dem Echtzeit-Kundenprofil anzureichern. Beachten Sie, dass die Anreicherung für Messdaten nicht mehr deaktiviert werden kann, sobald sie aktiviert wurde. Sie können die Join-Schlüssel der Anreicherung weiterhin nach Bedarf aktualisieren.
+Wenn die Anreicherung beim [ Ihrer Messdaten nicht aktiviert ](./onboard-measurement-data.md), haben Sie die Möglichkeit, Ihren Ereignisdatensatz mit Attributen aus dem Echtzeit-Kundenprofil anzureichern. Beachten Sie, dass die Anreicherung für Messdaten nicht mehr deaktiviert werden kann, sobald sie aktiviert wurde. Sie können die Join-Schlüssel der Anreicherung weiterhin nach Bedarf aktualisieren.
 
 Wenn Sie die Anreicherung im Dialogfeld **[!UICONTROL Übereinstimmungsschlüssel]** aktivieren, wird die Benutzeroberfläche erweitert, um weitere Konfigurationsoptionen unter dem Abschnitt **[!UICONTROL Anreichern Ihrer Ereignisdaten mit IDs aus Profilen]** anzuzeigen.
 
@@ -137,7 +140,7 @@ Ein Bestätigungsdialogfeld bestätigt, dass die Übereinstimmungsschlüssel erf
 
 Durch das Löschen einer Datenverbindung werden alle zugrunde liegenden Konversionen, zugehörigen Einstellungen und die Verwendung in Collaboration entfernt. Diese Aktion kann nicht rückgängig gemacht werden.
 
-Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) &#x200B;](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
+Um eine vorhandene Datenverbindung zu löschen, wählen Sie das Löschsymbol (![Löschsymbol) ](/help/assets/common/delete.svg) Arbeitsbereich einer einzelnen Datenverbindung aus.
 
 ![Ein Arbeitsbereich für Datenverbindungen mit hervorgehobener Löschoption.](/help/assets/setup/manage-measurement-data-connection/delete-measurement-data-connection.png){zoomable="yes"}
 
@@ -151,5 +154,5 @@ Ein Bestätigungsdialogfeld bestätigt, dass die Datenverbindung erfolgreich gel
 
 Nach der Verwaltung Ihrer Messdatenverbindungen haben Sie folgende Möglichkeiten:
 
-* Fügen Sie bei Bedarf weitere Konversionsereignisse hinzu, die mit Ihrer Datenverbindung verknüpft sind. Ausführliche Anweisungen finden Sie in der Dokumentation [Hinzufügen und Verwalten von &#x200B;](./onboard-measurement-data.md)&quot;.
+* Fügen Sie bei Bedarf weitere Konversionsereignisse hinzu, die mit Ihrer Datenverbindung verknüpft sind. Ausführliche Anweisungen finden Sie in der Dokumentation [Hinzufügen und Verwalten von ](./onboard-measurement-data.md)&quot;.
 * Erzeugen von Messberichten, um Einblicke in die Leistung und Wirkung Ihrer Kampagne zu erhalten. Weitere Informationen zu den verfügbaren Berichtstypen und deren Erstellung finden Sie im Handbuch [Leistung messen](/help/guide/collaborate/measure.md) .

@@ -2,15 +2,16 @@
 title: RTCDP Collaboration - Starter - Übersicht
 description: Erfahren Sie, wie Sie mit Adobe Real-Time CDP Collaboration Starter die datenschutzorientierte Zusammenarbeit mit einem lizenzierten Partner erweitern und verbessern können, ohne eine eigene vollständige Real-Time CDP-Lizenz zu benötigen.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
-
 ---
-
 # Übersicht über Adobe Real-Time CDP Collaboration [!DNL Starter]
 
 Verwenden Sie Adobe Real-Time CDP Collaboration [!DNL Starter], um mit einem lizenzierten Partner an datenschutzorientierten Datenprojekten zusammenzuarbeiten. Sie benötigen keine eigene Collaboration-Lizenz, um teilzunehmen.
@@ -53,7 +54,7 @@ In der folgenden Tabelle finden Sie die wichtigsten Leitplanken für Ihr [!DNL S
 
 ## Erste Schritte {#getting-started}
 
-Nachdem Sie [&#x200B; Einladung angenommen und den Bedingungen zugestimmt haben](../connect/establishing-connections.md#accept-invitation-sign-terms) melden Sie sich mit Ihren Anmeldeinformationen bei [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} an. Bevor Sie Collaboration verwenden können, müssen Sie Ihrem Konto den entsprechenden Zugriff und die entsprechenden Rollen gewähren.
+Nachdem Sie [ Einladung angenommen und den Bedingungen zugestimmt haben](../connect/establishing-connections.md#accept-invitation-sign-terms) melden Sie sich mit Ihren Anmeldeinformationen bei [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} an. Bevor Sie Collaboration verwenden können, müssen Sie Ihrem Konto den entsprechenden Zugriff und die entsprechenden Rollen gewähren.
 
 Verwenden Sie diesen Workflow, um Ihr [!DNL Starter] Konto einzurichten und mit Ihrem Partner zusammenzuarbeiten.
 
@@ -91,6 +92,6 @@ Sie haben jetzt die Ersteinrichtung abgeschlossen und Ihr Unternehmen für eine 
 
 * [Source und Verwalten von Audiences](../setup/onboard-audiences.md)
 * [Projektanwendungsfälle](../collaborate/overview.md#project-use-cases):
-   * [Überschneidungen erkennen und Zielgruppen vergleichen](../collaborate/discover.md)
-   * [Zielgruppen aktivieren](../collaborate/activate.md)
-   * [Kampagnenleistung messen](../collaborate/measure.md)
+  * [Überschneidungen erkennen und Zielgruppen vergleichen](../collaborate/discover.md)
+  * [Zielgruppen aktivieren](../collaborate/activate.md)
+  * [Kampagnenleistung messen](../collaborate/measure.md)
