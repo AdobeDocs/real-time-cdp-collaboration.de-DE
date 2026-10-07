@@ -2,7 +2,7 @@
 title: Konfigurieren des Administratorzugriffs für das Onboarding von Collaboration-[!DNL Starter]
 description: Erfahren Sie, wie Sie den Administratorzugriff für Adobe Real-Time CDP Collaboration [!DNL Starter] mithilfe der Admin Console in Adobe Experience Cloud konfigurieren.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10

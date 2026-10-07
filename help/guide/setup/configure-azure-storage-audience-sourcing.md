@@ -2,7 +2,7 @@
 title: Source-Zielgruppen aus dem [!DNL Azure] in Real-Time CDP Collaboration
 description: Source-First-Party-Zielgruppendaten aus Azure Blob Storage oder Azure Data Lake Storage Gen2 in Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; Zielgruppen-Sourcing; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform

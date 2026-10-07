@@ -2,7 +2,7 @@
 title: Berechnung der Überschneidungszahlen und -prozentsätze
 description: Erfahren Sie, wie die Anzahl der Überschneidungen und die Prozentsätze in verschiedenen Bereichen von Adobe Real-Time CDP Collaboration berechnet werden
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
