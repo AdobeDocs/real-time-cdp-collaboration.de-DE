@@ -42,7 +42,7 @@ Lesen Sie diesen Abschnitt, um sich selbst Administratorrechte zu gewähren und 
 
 #### Zugriff auf Admin Console {#access-admin-console}
 
-Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [Adobe Experience ](https://experience.adobe.com/){target="_blank"}) an. Eine Liste Ihrer verfügbaren Produkte finden Sie im Abschnitt **[!UICONTROL Schnellzugriff]** . Wählen Sie **[!UICONTROL Admin Console]** aus.
+Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [Adobe Experience &#x200B;](https://experience.adobe.com/){target="_blank"}) an. Eine Liste Ihrer verfügbaren Produkte finden Sie im Abschnitt **[!UICONTROL Schnellzugriff]** . Wählen Sie **[!UICONTROL Admin Console]** aus.
 
 ![Startseite von Adobe Experience Cloud mit hervorgehobener Admin Console-Benutzeroberfläche.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Der Arbeitsbereich [Admin Console](https://adminconsole.adobe.com/) wird auf ein
 
 #### Produkt-Admin hinzufügen {#add-product-admin}
 
-Navigieren Sie im Produkt ]**Dashboard von**[!UICONTROL  Adobe Experience Platform zur Registerkarte **[!UICONTROL Admins]**. Wählen Sie dann **[!UICONTROL Admin hinzufügen]** aus.
+Navigieren Sie im Produkt **Dashboard von** Adobe Experience Platform zur Registerkarte **[!UICONTROL Admins]**. Wählen Sie dann **[!UICONTROL Admin hinzufügen]** aus.
 
 ![Produkt-Dashboard von Adobe Experience Platform mit hervorgehobener Registerkarte „Administratoren“ und hervorgehobener Option „Administrator hinzufügen“](../../assets/setup/starter/admin-access/add-admin.png){zoomable="yes"}
 
@@ -74,12 +74,12 @@ Um Collaboration-Berechtigungen verwalten zu können, benötigen Sie **Benutzerz
 
 Führen Sie die folgenden Schritte aus, um mit der Konfiguration Ihres Benutzerzugriffs zu beginnen:
 
-1. [Rufen Sie die Admin Console über die Adobe Experience Cloud-Startseite ](#access-admin-console).
+1. [Rufen Sie die Admin Console über die Adobe Experience Cloud-Startseite &#x200B;](#access-admin-console).
 2. [Navigieren Sie zum Adobe Experience Platform-Produkt-Dashboard](#access-adobe-experience-platform).
 
 #### Benutzer zum Produkt hinzufügen {#add-user}
 
-Sie befinden sich jetzt im Produkt-Dashboard {]**}Adobe Experience Platform.**[!UICONTROL  Navigieren Sie zur Registerkarte **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
+Sie befinden sich jetzt im Produkt-Dashboard {**}Adobe Experience Platform.** Navigieren Sie zur Registerkarte **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
 
 ![Produkt-Dashboard von Adobe Experience Platform mit hervorgehobener Registerkarte „Benutzer“ und hervorgehobener Option „Benutzer hinzufügen“](../../assets/setup/starter/admin-access/add-user.png){zoomable="yes"}
 

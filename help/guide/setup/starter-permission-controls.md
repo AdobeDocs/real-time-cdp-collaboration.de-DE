@@ -24,7 +24,7 @@ Stellen Sie sicher, dass Sie sowohl **Administratorrechte** als auch **Benutzerz
 
 ## Berechtigungen einrichten {#setup-permissions}
 
-Gehen Sie wie folgt vor, um die für Collaboration erforderlichen Berechtigungen einzurichten. Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [Adobe Experience ](https://experience.adobe.com/)) an.
+Gehen Sie wie folgt vor, um die für Collaboration erforderlichen Berechtigungen einzurichten. Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [Adobe Experience &#x200B;](https://experience.adobe.com/)) an.
 
 ### Zugriffsberechtigungen {#access-permissions}
 
