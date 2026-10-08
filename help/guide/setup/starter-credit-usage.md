@@ -1,16 +1,17 @@
 ---
-title: Kreditverwendung und -verbrauch in Real-Time CDP Collaboration [!DNL Starter]
-description: Erfahren Sie, wie die Verwendung und der Verbrauch von Krediten in Adobe Real-Time CDP Collaboration  [!DNL Starter].
+title: Kreditnutzung und -nutzung in Real-Time CDP Collaboration [!DNL Starter]
+description: Erfahren Sie, wie die Kreditverwendung und der Verbrauch in Adobe Real-Time CDP Collaboration [!DNL Starter] funktionieren.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
-source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 1%
-
 ---
-
 # Kreditnutzung und -nutzung in Real-Time CDP Collaboration [!DNL Starter]
 
 Diese Dokumentation enthält Details zur Verwendung von Credits, wenn Sie als eingeladener Benutzer an Adobe Real-Time CDP Collaboration [!DNL Starter] teilnehmen. Erfahren Sie mehr darüber, wer für die Kreditnutzung verantwortlich ist, und lernen Sie wichtige Überlegungen zu Zugriff und Verwaltung kennen.
@@ -27,8 +28,8 @@ Collaboration erzwingt **nicht** automatisch die Kreditverwendung oder -verfügb
 
 * Als eingeladener Benutzer müssen Sie sich direkt mit der Organisation oder dem Partner abstimmen, die bzw. der Sie eingeladen hat, um die Verwendung von Guthaben zu besprechen.
 * Die einladende Organisation entscheidet über Folgendes:
-   * Wann Sie auf Collaboration-Funktionen zugreifen und diese verwenden können
-   * Welche Beschränkungen, Beschränkungen oder Governance gelten für den Kreditverbrauch?
+  * Wann Sie auf Collaboration-Funktionen zugreifen und diese verwenden können
+  * Welche Beschränkungen, Beschränkungen oder Governance gelten für den Kreditverbrauch?
 
 >[!IMPORTANT]
 >

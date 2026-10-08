@@ -4,13 +4,14 @@ description: Erfahren Sie, wie Sie mit Adobe Real-Time CDP Collaboration Starter
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 3%
-
 ---
-
 # Übersicht über Adobe Real-Time CDP Collaboration [!DNL Starter]
 
 Verwenden Sie Adobe Real-Time CDP Collaboration [!DNL Starter], um mit einem lizenzierten Partner an datenschutzorientierten Datenprojekten zusammenzuarbeiten. Sie benötigen keine eigene Collaboration-Lizenz, um teilzunehmen.
@@ -91,6 +92,6 @@ Sie haben jetzt die Ersteinrichtung abgeschlossen und Ihr Unternehmen für eine 
 
 * [Source und Verwalten von Audiences](../setup/onboard-audiences.md)
 * [Projektanwendungsfälle](../collaborate/overview.md#project-use-cases):
-   * [Überschneidungen erkennen und Zielgruppen vergleichen](../collaborate/discover.md)
-   * [Zielgruppen aktivieren](../collaborate/activate.md)
-   * [Kampagnenleistung messen](../collaborate/measure.md)
+  * [Überschneidungen erkennen und Zielgruppen vergleichen](../collaborate/discover.md)
+  * [Zielgruppen aktivieren](../collaborate/activate.md)
+  * [Kampagnenleistung messen](../collaborate/measure.md)

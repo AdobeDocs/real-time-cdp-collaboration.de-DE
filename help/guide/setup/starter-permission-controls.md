@@ -1,19 +1,20 @@
 ---
-title: Konfigurieren von Berechtigungskontrollen für Collaboration [!DNL Starter] Onboarding
-description: Erfahren Sie, wie Sie Berechtigungen für Adobe Real-Time CDP Collaboration  [!DNL Starter]  die Berechtigungen in Adobe Experience Cloud konfigurieren.
+title: Konfigurieren von Berechtigungskontrollen für das Onboarding von Collaboration-[!DNL Starter]
+description: Erfahren Sie, wie Sie Berechtigungen für Adobe Real-Time CDP Collaboration [!DNL Starter] mithilfe der Berechtigungen in Adobe Experience Cloud konfigurieren.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
-source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 2%
-
 ---
-
 # Konfigurieren von Berechtigungskontrollen für das Onboarding von Collaboration-[!DNL Starter]
 
-Nachdem Sie den Administrator- und Benutzerzugriff auf die Adobe Experience Platform-Produkte eingerichtet haben, müssen Sie sich selbst Rollen mit den entsprechenden Berechtigungen für Real-Time CDP Collaboration zuweisen. Lesen Sie dieses Handbuch, um zu erfahren, wie Sie Ihrem Konto über die Experience Cloud-Berechtigungsschnittstelle die richtigen Rollen hinzufügen, damit Sie auf die Collaboration-Funktionen zugreifen und den Benutzerzugriff verwalten können.
+Nachdem Sie den Administrator- und Benutzerzugriff auf die Adobe Experience Platform-Produkte eingerichtet haben, müssen Sie sich selbst Rollen mit den entsprechenden Berechtigungen für Real-Time CDP Collaboration zuweisen. Lesen Sie dieses Handbuch, um zu erfahren, wie Sie Ihrem Konto über die Experience Cloud-Benutzeroberfläche „Berechtigungen“ die richtigen Rollen hinzufügen, damit Sie auf die Collaboration-Funktionen zugreifen und den Benutzerzugriff verwalten können.
 
 Weitere Informationen zu Standardrollen und verfügbaren Berechtigungen in der Collaboration-Ressource finden Sie im [Handbuch zum Verwalten von Rollen](../permissions/manage-roles.md).
 
@@ -23,7 +24,7 @@ Stellen Sie sicher, dass Sie sowohl **Administratorrechte** als auch **Benutzerz
 
 ## Berechtigungen einrichten {#setup-permissions}
 
-Gehen Sie wie folgt vor, um die für Collaboration erforderlichen Berechtigungen einzurichten. Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [&#128279;](https://experience.adobe.com/)0&rbrace;Adobe Experience Cloud an.
+Gehen Sie wie folgt vor, um die für Collaboration erforderlichen Berechtigungen einzurichten. Melden Sie sich zunächst mit Ihren Anmeldeinformationen bei [Adobe Experience &#x200B;](https://experience.adobe.com/)) an.
 
 ### Zugriffsberechtigungen {#access-permissions}
 
@@ -66,7 +67,7 @@ Eine ausführliche Übersicht über eine bestimmte Rolle und die zugehörigen Be
 
 Ein Bestätigungsdialogfeld bestätigt, dass neue Rollen erfolgreich hinzugefügt wurden.
 
-Um sicherzustellen, dass Ihre Berechtigungen korrekt eingerichtet sind, kehren Sie zur Homepage von [Experience Cloud](https://experience.adobe.com/) zurück. Wählen Sie **[!UICONTROL Real-Time CDP Collaboration]** in **[!UICONTROL Schnellzugriff]** aus. Sie sollten in der Lage sein, auf Collaboration Workspace zuzugreifen und die Funktionen nutzen, die für Ihr [!DNL Starter]-Konto verfügbar sind.
+Um sicherzustellen, dass Ihre Berechtigungen korrekt eingerichtet sind, kehren Sie zur Startseite von [Experience Cloud](https://experience.adobe.com/) zurück. Wählen Sie **[!UICONTROL Real-Time CDP Collaboration]** in **[!UICONTROL Schnellzugriff]** aus. Sie sollten in der Lage sein, auf Collaboration Workspace zuzugreifen und die Funktionen nutzen, die für Ihr [!DNL Starter]-Konto verfügbar sind.
 
 ## Nächste Schritte {#next-steps}
 

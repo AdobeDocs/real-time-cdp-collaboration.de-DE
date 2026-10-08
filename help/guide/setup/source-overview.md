@@ -2,13 +2,14 @@
 title: Quellen – Übersicht
 description: Informationen zu Quell-Connectoren in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 6%
-
 ---
-
 # Quellen – Übersicht
 
 In Adobe Real-Time CDP Collaboration stammen Ihre Zielgruppendaten aus einer Quelle (oder Datenverbindung). Sie können eine Verbindung zu verschiedenen Quelltypen herstellen, z. B. zu Adobe-Programmen, Cloud-basierten Datenspeichern oder Dateien aus Ihrem lokalen System, um Zielgruppen für Ihre Collaboration[Projekte zu &#x200B;](./onboard-audiences.md) und zu verwalten. Während des Zielgruppen-Beschaffungs-Workflows können Sie Ihre bevorzugte Quelle basierend auf den Anforderungen Ihres Unternehmens auswählen und einrichten.

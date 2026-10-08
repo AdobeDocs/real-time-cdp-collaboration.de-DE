@@ -1,16 +1,17 @@
 ---
-title: Konfigurieren  [!DNL Snowflake]  Zielgruppen-Beschaffung
-description: Erfahren Sie, wie Sie Ihre  [!DNL Snowflake Secure Data Share] -as-a-Self-Service-Datenquelle konfigurieren und verbinden, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
+title: Konfigurieren von [!DNL Snowflake] für die Zielgruppen-Beschaffung
+description: Erfahren Sie, wie Sie Ihre [!DNL Snowflake Secure Data Share] als Self-Service-Datenquelle konfigurieren und verbinden, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 6%
-
 ---
-
 # Konfigurieren von [!DNL Snowflake] für die Zielgruppen-Beschaffung
 
 Erfahren Sie, wie Sie Ihre [!DNL Snowflake Secure Data Share] in der Adobe Real-Time CDP Collaboration-Benutzeroberfläche konfigurieren und verbinden, um Zielgruppendaten für die Aktivierung und Überschneidungsanalyse zu beziehen.
@@ -28,10 +29,10 @@ Bevor Sie Ihre [!DNL Snowflake]-Verbindung konfigurieren, stellen Sie sicher, da
 * Sie haben ein [!DNL Snowflake Share] erstellt und in Ihrem [!DNL Snowflake]-Konto die erforderlichen Berechtigungen eingerichtet, um Adobe Zugriff auf Ihre [!DNL Snowflake Secure Data Share] zu gewähren. Erfahren Sie [Konfigurieren von  [!DNL Snowflake] -Berechtigungen](#set-up-snowflake-permissions).
 * Sie haben die folgenden [!DNL Snowflake Share]:
 
-   * **Freigabename**
-   * **Kontokennung**
-   * **Schema**
-   * **Ansicht**
+  * **Freigabename**
+  * **Kontokennung**
+  * **Schema**
+  * **Ansicht**
 
 * Die Zielgruppendaten in Ihrem [!DNL Snowflake Secure Data Share] müssen die Formatanforderungen erfüllen, die im Handbuch [Zielgruppen-Beschaffungsspezifikation (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)beschrieben sind.
 * Alle Übereinstimmungsschlüssel in Ihrer [!DNL Snowflake] Zielgruppendatei müssen auch für Ihr Collaboration-Konto aktiviert werden. Erfahren Sie, wie [Übereinstimmungsschlüssel aktivieren](./onboard-account.md#set-up-match-keys) oder [neue Übereinstimmungsschlüssel hinzufügen](./onboard-account.md#edit-match-keys) zu Ihrem Konto hinzufügen.
@@ -166,7 +167,7 @@ In diesem Schritt müssen Sie die erforderlichen [!DNL Snowflake Share]-Anmeldei
 | Freigabename | Der Name Ihres [!DNL Snowflake Share]. | `ADOBE_DATA_SHARE` |
 | Kontokennung | Die eindeutige Kennung Ihres Snowflake-Kontos. | `CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT` |
 | Schema | Das Schema in Ihrer [!DNL Snowflake Share], das Ihre Zielgruppendaten enthält. | `CUSTOMER_SCHEMA` |
-| Ansicht | Der tatsächliche Datensatz, den Collaboration Zielgruppendaten abruft. | `SECURE_VIEW_FOR_ADOBE` |
+| Anzeigen | Der tatsächliche Datensatz, den Collaboration Zielgruppendaten abruft. | `SECURE_VIEW_FOR_ADOBE` |
 
 {style="table-layout:auto"}
 

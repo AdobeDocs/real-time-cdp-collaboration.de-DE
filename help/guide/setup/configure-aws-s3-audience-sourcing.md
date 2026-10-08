@@ -1,14 +1,15 @@
 ---
-title: Konfigurieren  [!DNL Amazon S3]  Zielgruppen-Beschaffung
-description: Erfahren Sie, wie Sie Ihren - [!DNL Amazon S3]  als Self-Service-Datenquelle konfigurieren und verbinden können, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
+title: Konfigurieren von [!DNL Amazon S3] für die Zielgruppen-Beschaffung
+description: Erfahren Sie, wie Sie Ihren [!DNL Amazon S3]-Speicher als Self-Service-Datenquelle konfigurieren und verbinden, um Zielgruppendaten in Real-Time CDP Collaboration aufzunehmen.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # Konfigurieren von [!DNL Amazon S3] für die Zielgruppen-Beschaffung
 
 Erfahren Sie, wie Sie Ihren [!DNL Amazon S3] in der Benutzeroberfläche von Adobe Real-Time CDP Collaboration konfigurieren und verbinden, um Zielgruppendaten für Aktivierungs- und Überschneidungsanalysen zu beziehen.
@@ -31,15 +32,15 @@ Stellen Sie vor dem Konfigurieren Ihrer S3-Datenverbindung Folgendes sicher:
 * Sie haben Zugriff auf einen aktiven **[!DNL Amazon S3]-Bucket** der Zielgruppendateien enthält, die der **[Zielgruppen-Beschaffungsspezifikation (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 * Sie haben eine **IAM-Rolle** in AWS erstellt, die Adobe die Berechtigung zum Zugriff auf Ihren Bucket mithilfe der Methode **Angenommene Rolle** (keine Zugriffs-/Geheimschlüssel) gewährt. Detaillierte **[finden Sie unter „Konfigurieren von AWS](./configure-aws-permissions-audience-sourcing.md)** Berechtigungen für die Zielgruppen-Beschaffung“. Die IAM-Rolle muss die folgenden Berechtigungen enthalten:
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * Sie haben die folgenden Werte bereit:
 
-   * **IAM-Rolle Amazon Resource Name (ARN)**
-   * **S3-Bucket-Name**
-   * **Ordnerpfad** (das Ordnerpräfix, das Ihre Zielgruppendateien enthält)
+  * **IAM-Rolle Amazon Resource Name (ARN)**
+  * **S3-Bucket-Name**
+  * **Ordnerpfad** (das Ordnerpräfix, das Ihre Zielgruppendateien enthält)
 
 >[!NOTE]
 >
