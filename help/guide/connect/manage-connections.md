@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 1%
 ---
 # Verwalten von Verbindungen {#manage-connections}
@@ -38,7 +38,9 @@ Der Arbeitsbereich Verbindungseinstellungen wird angezeigt, in dem die Verbindun
 
 ### Konfigurieren eines Ziels für die automatische Aktivierung {#configure-auto-activation-destination}
 
-Als empfangender Mitarbeiter können Sie ein Ziel auswählen, das Collaboration verwendet, um automatisch Zielgruppen zu aktivieren, die über die Verbindung an Sie gesendet werden. Bevor Sie beginnen, stellen Sie sicher, dass Sie mindestens ein aktives Ziel besitzen. Anweisungen zum Konfigurieren von Zielen finden Sie unter [Ziele - Übersicht](../destinations/overview.md).
+Als empfangender Mitarbeiter können Sie ein Ziel auswählen, das Collaboration verwendet, um automatisch Zielgruppen zu aktivieren, die über die Verbindung an Sie gesendet werden. Wenn Sie kein Ziel für die automatische Aktivierung konfigurieren, müssen Sie die empfangenen Zielgruppen manuell aktivieren.
+
+Bevor Sie beginnen, stellen Sie sicher, dass Sie mindestens ein aktives Ziel besitzen. Anweisungen zum Konfigurieren von Zielen finden Sie unter [Ziele - Übersicht](../destinations/overview.md).
 
 Wechseln Sie im Arbeitsbereich Verbindungseinstellungen zu **[!UICONTROL Aktivierungssteuerung]** und wählen Sie **[!UICONTROL BEARBEITEN]**. Wählen Sie als Nächstes ein **[!UICONTROL Ziel für die automatische Aktivierung]** aus dem Dropdown-Menü aus und wählen Sie **[!UICONTROL Speichern]**, um zu bestätigen.
 
