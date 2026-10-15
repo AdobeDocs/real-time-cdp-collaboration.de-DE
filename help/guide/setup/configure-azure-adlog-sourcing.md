@@ -2,7 +2,7 @@
 title: Konfigurieren [!DNL Azure] Datenspeichers für die Beschaffung von Werbeeinblendungen
 description: Daten zu Source Advertising Exposure (Ad-Log) aus Azure Data Lake Storage oder Blob Storage in Real-Time CDP Collaboration für eine datenschutzorientierte Messung.
 keywords: Real-Time CDP Collaboration; Ad-Log-Beschaffung; [!DNL Azure Data Lake Storage]; [!DNL Azure Blob Storage]
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'

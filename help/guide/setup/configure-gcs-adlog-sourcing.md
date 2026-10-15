@@ -2,7 +2,7 @@
 title: Konfigurieren von [!DNL Google Cloud Storage] für die Beschaffung von Werbematerialien
 description: Erfahren Sie, wie Sie einen [!DNL Google Cloud Storage] Bucket als Self-Service-Anzeigenprotokollquelle für Werberisiken in Real-Time CDP Collaboration Measurement verbinden.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'
