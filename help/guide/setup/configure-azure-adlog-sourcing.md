@@ -25,7 +25,7 @@ Die Governance- und Datenbehandlungsregeln für Anzeigenprotokolle, die von [!DN
 
 ## Voraussetzungen {#prerequisites}
 
-Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ ](./onboard-account.md) haben.
+Füllen Sie alle Elemente in diesem Abschnitt aus, bevor Sie den Konfigurations-Workflow starten. Bevor Sie dieses Handbuch befolgen, müssen Sie das [Onboarding und Einrichten von Konten“ &#x200B;](./onboard-account.md) haben.
 
 ### [!DNL Azure] und Berechtigungen {#azure-access-and-permissions}
 
@@ -37,7 +37,7 @@ Sie oder Ihr [!DNL Azure]-Administrator müssen in der Lage sein, die Rolle **[!
 Ihre Ad-Log-Dateien müssen dem [Ad-Log-Schema](#ad-log-schema) entsprechen, bevor die Beschaffung beginnt. Zu den wichtigsten Anforderungen gehören:
 
 * **Dateiformat: Nur** CSV.
-* **Kanonische Spaltenüberschriften:** Dateien müssen die kanonischen Spaltenüberschriften verwenden, die im [Anzeigenprotokollschema“ definiert ](#ad-log-schema). Diese Version unterstützt keine Neuzuordnung pro Spalte oder automatisierte Schemazuordnung.
+* **Kanonische Spaltenüberschriften:** Dateien müssen die kanonischen Spaltenüberschriften verwenden, die im [Anzeigenprotokollschema“ definiert &#x200B;](#ad-log-schema). Diese Version unterstützt keine Neuzuordnung pro Spalte oder automatisierte Schemazuordnung.
 * **Erforderliche Felder** Alle erforderlichen Felder müssen zusammen mit mindestens einem Übereinstimmungsschlüssel vorhanden sein.
 * **Hashing der Übereinstimmungsschlüssel:** Hashwerte für Übereinstimmungsschlüssel müssen im Hexadezimalsystem SHA-256 in Kleinbuchstaben angegeben werden.
 * **Spaltenkonsistenz:** Jede Datei in Ihrem konfigurierten Pfad muss ein identisches Spalten-Layout aufweisen.
