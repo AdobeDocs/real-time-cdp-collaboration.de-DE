@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und stellt in Echtzeit Erkenntnisse zu Zielgruppen und personalisierte Marketing-Strategien bereit.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 35%
+source-wordcount: '263'
+ht-degree: 33%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -37,6 +37,9 @@ ht-degree: 35%
   * [Verfolgen Ihrer Kreditnutzungsaktivität](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Identity-Überleitungen](./setup/identity-crosswalk.md)
   * [Hinzufügen und Verwalten von Messdaten](./setup/onboard-measurement-data.md)
+  * Source-Werbegefährdungen (Anzeigenprotokolle) {#source-adlogs}
+    * [Konfigurieren von GCS für die Beschaffung von Werbematerialien](./setup/configure-gcs-adlog-sourcing.md)
+    * [Konfigurieren des Azure-Speichers für die Beschaffung von Werbematerialien](./setup/configure-azure-adlog-sourcing.md)
   * [Verwalten der Messdatenverbindung](./setup/manage-measurement-data-connection.md)
   * [Auditprotokolle](./setup/audit-logs.md)
   * Real-Time CDP Collaboration-Starteinrichtung {#starter-setup}
@@ -63,7 +66,7 @@ ht-degree: 35%
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [Erstellen von AMC-Messberichten](./collaborate/advertising-platforms/amc-measure.md)
 * Ziele {#destinations}
-  * [Überblick](/help/guide/destinations/overview.md)
+  * [Übersicht](/help/guide/destinations/overview.md)
   * [Konfigurieren und Verwalten von Cloud-Speicher-Zielen](./destinations/manage-destinations.md)
   * [Cloud-Speicher-Zielanforderungen](./destinations/cloud-storage-destination-requirements.md)
   * [Konfigurieren von Adobe Experience Platform als Ziel](./destinations/experience-platform.md)
