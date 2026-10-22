@@ -18,9 +18,9 @@ Verwenden Sie die **[!UICONTROL Erweitern]** in einem Projekt, um eine Erweiteru
 Bevor Sie die Registerkarte **[!UICONTROL Erweitern]** verwenden, müssen Sie die folgenden Voraussetzungen erfüllen:
 
 * [Mindestens eine Source-](/help/guide/setup/onboard-audiences.md), die als Seed-Zielgruppe verwendet werden soll.
-* [Verbinden Sie sich mit einem ](/help/guide/connect/establishing-connections.md).
+* [Verbinden Sie sich mit einem &#x200B;](/help/guide/connect/establishing-connections.md).
 * [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md) mit diesem Mitarbeiter.
-* Wenn Sie Erweiterungszielgruppen erhalten, [ Sie für die Verbindung ](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)ein automatisches Aktivierungsziel konfigurieren“. Sie müssen über ein aktives Ziel verfügen, bevor Sie die automatische Aktivierung konfigurieren.
+* Wenn Sie Erweiterungszielgruppen erhalten, [&#x200B; Sie für die Verbindung &#x200B;](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)ein automatisches Aktivierungsziel konfigurieren“. Sie müssen über ein aktives Ziel verfügen, bevor Sie die automatische Aktivierung konfigurieren.
 
 Einzelheiten zum Senden von Zielgruppen und Aktivieren empfangener Zielgruppen finden Sie unter [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
 
