@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie mithilfe der Zielgruppenpopulation eines Mita
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 2%
 ---
 # (Beta) Erstellen von Erweiterungszielgruppen unter „Erweitern“
@@ -15,12 +15,14 @@ Verwenden Sie die **[!UICONTROL Erweitern]** in einem Projekt, um eine Erweiteru
 
 ## Voraussetzungen {#prerequisites}
 
-Bevor Sie die Registerkarte **[!UICONTROL Erweitern]** verwenden können, sollten Sie über Folgendes verfügen:
+Bevor Sie die Registerkarte **[!UICONTROL Erweitern]** verwenden, müssen Sie die folgenden Voraussetzungen erfüllen:
 
-* [Sourced](/help/guide/setup/onboard-audiences.md) mindestens eine Zielgruppe, die als Seed-Zielgruppe verwendet werden soll
-* [Verbunden](/help/guide/connect/establishing-connections.md) mit einem Mitarbeiter
-* [hat ein Projekt &#x200B;](/help/guide/collaborate/manage-projects.md) diesem Mitarbeiter erstellt
-* Wenn Sie eine Erweiterungszielgruppe erhalten, ein [Ziel](/help/guide/destinations/overview.md), das für den Empfang aktivierter Zielgruppen konfiguriert ist
+* [Mindestens eine Source-](/help/guide/setup/onboard-audiences.md), die als Seed-Zielgruppe verwendet werden soll.
+* [Verbinden Sie sich mit einem &#x200B;](/help/guide/connect/establishing-connections.md).
+* [Erstellen eines Projekts](/help/guide/collaborate/manage-projects.md) mit diesem Mitarbeiter.
+* Wenn Sie Erweiterungszielgruppen erhalten, [&#x200B; Sie für die Verbindung &#x200B;](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)ein automatisches Aktivierungsziel konfigurieren“. Sie müssen über ein aktives Ziel verfügen, bevor Sie die automatische Aktivierung konfigurieren.
+
+Einzelheiten zum Senden von Zielgruppen und Aktivieren empfangener Zielgruppen finden Sie unter [Aktivieren von Zielgruppen](/help/guide/collaborate/activate.md).
 
 ## Übersicht erweitern {#expand-overview}
 
