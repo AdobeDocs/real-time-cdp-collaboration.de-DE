@@ -2,7 +2,7 @@
 title: Konfigurieren und Verwalten Ihres Kontos
 description: Erfahren Sie, wie Sie verschiedene Aspekte Ihres Kontos in Real-Time CDP Collaboration konfigurieren und verwalten
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 13%
-
 ---
-
 # Konfigurieren und Verwalten Ihres Kontos
 
 {{limited-availability-release-note}}
@@ -38,7 +36,7 @@ Um weitere Organisationen hinzuzufügen, gehen Sie in der linken Leiste zu **[!U
 
 ![Der Arbeitsbereich „Setup“ mit hervorgehobener Registerkarte „Mein Konto“ und hervorgehobener Option „Konto“](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
-### Einrichten von Details {#set-up-details}
+### Einrichtung von Details {#set-up-details}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
@@ -56,10 +54,10 @@ Um mit der Konfiguration Ihres Kontos zu beginnen, müssen Sie zunächst die Kon
 * Fügen Sie eine **[!UICONTROL Beschreibung]** über Ihre Marke hinzu. Dies ist optional, hilft anderen Mitwirkenden jedoch, Ihre Marke besser zu verstehen.
 * Wählen Sie Ihre **[!UICONTROL Rolle]** aus. Sie können zwischen **[!UICONTROL Advertiser]** und **[!UICONTROL Publisher]** wählen. Lesen Sie das [Rollen](/help/guide/overview/roles.md)-Handbuch, um Ähnlichkeiten und leichte Unterschiede im Workflow zwischen den beiden Kontorollentypen zu sehen.
 * Wählen Sie die **[!UICONTROL Branche]** für Ihr Konto aus. Einige Beispiele sind **[!UICONTROL Einzelhandel]**, **[!UICONTROL Telekommunikation]** oder **[!UICONTROL Finanzdienstleistungen]**.
-* Die **[!UICONTROL Region]** wird automatisch anhand Ihres Adobe Experience Cloud-Kontos festgelegt. Dies kann nicht jederzeit geändert werden.
+* Die **[!UICONTROL Region]** wird automatisch basierend auf Ihrem Adobe Experience Cloud-Konto festgelegt. Dies kann nicht jederzeit geändert werden.
 * Fügen Sie eine **[!UICONTROL Kontakt-E-Mail]** für Ihr Konto hinzu. Dies sollte eine Team- oder rollenbasierte E-Mail-Adresse sein. Persönliche E-Mail-Adressen sollten nicht angegeben werden.
 * Laden Sie ein **[!UICONTROL Logo]** für Ihr Konto hoch. Derzeit werden Bilder vom Typ SVG unterstützt. Dies ist optional, aber das Hochladen eines Logos hilft Ihnen, Ihre Marke in der Collaboration-Benutzeroberfläche visuell darzustellen
-* Wählen Sie ein Bild für die Kopfzeile Ihres Kontos aus.
+* Bild für das Kopfzeilenbild des Kontos auswählen.
 
 >[!NOTE]
 >
@@ -105,11 +103,15 @@ In der folgenden Tabelle werden die unterstützten Übereinstimmungsschlüssel i
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>Die Felder Name und Postanschrift, die für [!DNL Epsilon Core ID] Identitätsauflösung verwendet werden, sind nicht als Übereinstimmungsschlüssel auf Kontoebene konfiguriert. Ordnen Sie diese Felder beim Einrichten einer Audience-Datenverbindung zu. Weitere Informationen finden Sie unter [Felder zuordnen](./onboard-audiences.md#map-fields).
+
 >[!IMPORTANT]
 >
 >Die Übereinstimmungsschlüssel, die Sie während der Kontoeinrichtung auswählen, bestimmen die verfügbaren Übereinstimmungsschlüssel innerhalb Ihrer Verbindungen. Während Sie [unerwünschte Übereinstimmungsschlüssel entfernen](../connect/establishing-connections.md#connection-settings) während der Verbindungseinrichtung können Übereinstimmungsschlüssel nicht hinzugefügt werden, nachdem eine Verbindung hergestellt wurde. Es ist wichtig, dass Sie **alle** Übereinstimmungsschlüssel auswählen, die Sie in zukünftigen Kampagnen während der Kontoeinrichtung verwenden möchten.
 
-Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [&#x200B; Felder &#x200B;](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
+Match-Schlüssel helfen Mitarbeitern bei der Zusammenarbeit, indem sie eine genaue und datenschutzorientierte Datensynchronisation ermöglichen, was eine präzisere Zielgruppenbestimmung und -messung ermöglicht. Die bei der Kontoeinrichtung ausgewählten Übereinstimmungsschlüssel bestimmen, welche Übereinstimmungsschlüssel in zukünftigen Verbindungen verfügbar sind. Sie werden auch verwendet, [ Felder ](./onboard-audiences.md#map-fields) Ihrer Datenverbindung den Zielfeldern in Collaboration beim Sourcing von Zielgruppen zuzuordnen.
 
 Wählen Sie die Übereinstimmungsschlüssel aus, die Sie zum Abstimmen der Zielgruppenprofile verwenden möchten. Planen Sie für die Zukunft und fügen Sie alle Übereinstimmungsschlüssel hinzu, mit denen Sie arbeiten können und die Sie in zukünftigen Kampagnen voraussichtlich verwenden werden. Wenn Sie zu einem späteren Zeitpunkt zusätzliche Übereinstimmungsschlüssel für Ihr Konto auswählen müssen, können Sie dies im Workflow [Konto bearbeiten](#edit-account) tun. Übereinstimmungsschlüssel, die nach der Ersteinrichtung hinzugefügt wurden, stehen jedoch nicht zur Verwendung in vorhandenen Verbindungen zur Verfügung.
 
@@ -130,7 +132,6 @@ Personen-IDs sind direkt mit einem einzelnen Profil verbunden. Derzeit unterstü
 * **[!UICONTROL Hash-Telefon]**
 * **[!UICONTROL CRM-IDs]**
 * **[!UICONTROL Treue-IDs]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### Geräte-IDs
 
@@ -151,13 +152,9 @@ Partner-IDs sind Kennungen, die von externen Partnern zur Abstimmung von Zielgru
 >
 >Die Integration von Adobe mit [!DNL AdFixus] ordnet die eindeutigen [!UICONTROL AdFixus-IDs] für jedes Konto einem gemeinsamen Adobe-kodierten Format zu. Diese Zuordnungen werden verwendet, um Überschneidungen zwischen Partnern zu identifizieren. Beim Aktivieren von Zielgruppen mit **[!UICONTROL AdFixus ID]** werden die ursprünglichen IDs verwendet. Das Adobe-kodierte Format verlässt Collaboration nie.
 
-Bei Auswahl von **[!UICONTROL AdFixus ID]** müssen Sie im Abschnitt **[!UICONTROL Kontoanmeldeinformationen]** die entsprechende ID von Ihrem externen Partner angeben. Diese Option ist nur nach *Umschalten auf „AdFixus **[!UICONTROL ID* verfügbar]**. Geben Sie Ihre AdFixus-ID in das Feld **[!UICONTROL Konto-ID]** ein. Achten Sie darauf, den Wert auf Genauigkeit zu überprüfen.
+Bei Auswahl von **[!UICONTROL AdFixus ID]** müssen Sie im Abschnitt **[!UICONTROL Kontoanmeldeinformationen]** die entsprechende ID von Ihrem externen Partner angeben. Diese Option ist nur nach *Umschalten auf „AdFixus **[!UICONTROL ID* verfügbar]**. Geben Sie Ihre AdFixus-ID in das Feld **[!UICONTROL Konto-ID]** ein. Achten Sie darauf, den Wert auf Genauigkeit zu überprüfen. Nachdem Sie alle gewünschten Übereinstimmungsschlüssel ausgewählt haben, klicken Sie auf **[!UICONTROL Abschließen]**, um den Workflow zur Kontoeinrichtung abzuschließen.
 
 ![Das Dialogfeld „Schlüssel abgleichen“ mit aktivierter AdFixus-ID und hervorgehobenem Abschnitt „Kontoanmeldeinformationen“.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-Nachdem Sie alle gewünschten Übereinstimmungsschlüssel ausgewählt haben, klicken Sie auf **[!UICONTROL Abschließen]**, um den Workflow zur Kontoeinrichtung abzuschließen.
-
-![Der Arbeitsbereich Konto einrichten , wobei der Abschnitt Übereinstimmungsschlüssel angezeigt wird.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Konto bearbeiten {#edit-account}
 
@@ -165,7 +162,7 @@ Nachdem Sie Ihr Konto eingerichtet haben, können Sie die Details bearbeiten und
 
 ### Details bearbeiten {#edit-details}
 
-Sie können die meisten Details Ihres Kontos jederzeit bearbeiten, mit Ausnahme der **[!UICONTROL Rolle]**. Die Region wird automatisch auf Grundlage Ihres Adobe Experience Cloud-Kontos festgelegt und kann nicht geändert werden.
+Sie können die meisten Details Ihres Kontos jederzeit bearbeiten, mit Ausnahme der **[!UICONTROL Rolle]**. Die Region wird automatisch basierend auf Ihrem Adobe Experience Cloud-Konto festgelegt und kann nicht geändert werden.
 
 Um Ihr Konto zu bearbeiten, wählen **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL Mein Konto]** des Arbeitsbereichs **[!UICONTROL Setup]** aus.
 

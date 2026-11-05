@@ -2,7 +2,7 @@
 title: Source und Verwalten von Audiences
 description: Erfahren Sie, wie Sie Zielgruppen in Adobe Real-Time CDP Collaboration beschaffen und verwalten.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Source und Verwalten von Audiences
 
@@ -67,17 +67,17 @@ Um mit dem Hinzufügen Ihrer Datenverbindung zu beginnen, wählen Sie **[!UICONT
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Datenquelle auswählen {#select-data-source}
+#### Wählen Sie die Datenquelle aus {#select-data-source}
 
 Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügbaren Quellen gehören:
 
 * **Adobe Experience Platform**: Wählen Sie diese Option, um Ihre Zielgruppen aus Adobe Experience Platform einzubringen.
-* **CSV-Datei**: Laden Sie eine CSV-Datei hoch, die Ihre Zielgruppendaten enthält, um Daten schnell und einfach aufzunehmen. Informationen zu den ersten [&#x200B; finden Sie im Handbuch &#x200B;](./upload-csv-audience-sourcing.md) Hochladen einer CSV-Datei für die Zielgruppen-Beschaffung .
-* **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [&#x200B; Anleitung finden Sie &#x200B;](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
-* **Snowflake**: Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen. Weitere Informationen finden Sie [&#x200B; Handbuch  [!DNL Snowflake] Konfigurieren für die Zielgruppen-](./configure-snowflake-audience-sourcing.md)).
-* **Google Cloud-Speicher**: Stellen Sie eine Verbindung zu Ihren GCS-Buckets her, um Zielgruppendaten zu beziehen. Eine schrittweise Anleitung finden [&#x200B; im Handbuch &#x200B;](./configure-gcs-audience-sourcing.md) Konfigurieren von GCS für die Zielgruppen-Beschaffung .
+* **CSV-Datei**: Laden Sie eine CSV-Datei hoch, die Ihre Zielgruppendaten enthält, um Daten schnell und einfach aufzunehmen. Informationen zu den ersten [ finden Sie im Handbuch ](./upload-csv-audience-sourcing.md) Hochladen einer CSV-Datei für die Zielgruppen-Beschaffung .
+* **Amazon Web Services**: Stellen Sie eine Verbindung zu Ihrem Amazon S3-Speicher her, um Zielgruppendaten direkt aus Ihren S3-Buckets zu beziehen. Eine [ Anleitung finden Sie ](./configure-aws-s3-audience-sourcing.md) Handbuch zum Konfigurieren von AWS S3 für die Zielgruppen-Beschaffung .
+* **Snowflake**: Verwenden Sie Ihr Snowflake Data Warehouse, um Zielgruppendaten nahtlos abzurufen. Weitere Informationen finden Sie [ Handbuch  [!DNL Snowflake] Konfigurieren für die Zielgruppen-](./configure-snowflake-audience-sourcing.md)).
+* **Google Cloud-Speicher**: Stellen Sie eine Verbindung zu Ihren GCS-Buckets her, um Zielgruppendaten zu beziehen. Eine schrittweise Anleitung finden [ im Handbuch ](./configure-gcs-audience-sourcing.md) Konfigurieren von GCS für die Zielgruppen-Beschaffung .
 * **[!DNL Databricks Delta Share]**: Stellen Sie eine Verbindung zu Ihrem [!DNL Databricks Delta Share] her, um First-Party-Zielgruppendaten aus Ihrer [!DNL Databricks]-Umgebung zu beziehen. Siehe das [Konfigurieren [!DNL Databricks Delta Share]  für Zielgruppen-](./configure-databricks-audience-sourcing.md).
-* **Adobe Audience Manager**: Source erstellt Zielgruppensegmente aus Adobe Audience Manager. Erste Schritte finden [&#x200B; im Handbuch zum Konfigurieren &#x200B;](./configure-aam-audience-sourcing.md) Adobe Audience Manager für die Zielgruppen-Beschaffung .
+* **Adobe Audience Manager**: Source erstellt Zielgruppensegmente aus Adobe Audience Manager. Erste Schritte finden [ im Handbuch zum Konfigurieren ](./configure-aam-audience-sourcing.md) Adobe Audience Manager für die Zielgruppen-Beschaffung .
 
 Wählen Sie Ihre Datenquelle und dann **[!UICONTROL Weiter]** aus.
 
@@ -95,7 +95,7 @@ Als Nächstes müssen Sie sicherstellen, dass für die Quelldaten die richtigen 
 
 Verwenden Sie Marketing-Aktionen, um zu steuern, welche Zielgruppendaten aus Experience Platform in Collaboration importiert werden sollen. Die Marketing-Aktion **[!UICONTROL Datenzusammenarbeit]** unterstützt Datennutzungs-Labels vom Typ C4, C5, C9, S1, S2, PSPD und RHD. Die Marketing-Aktion **[!UICONTROL Datenwissenschaft]** unterstützt das Datennutzungs-Label vom Typ C9.
 
-Lesen Sie mehr über die [C4, C5, C9, S1, S2, PSPD und RHD Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Lesen Sie mehr über die [C4, C5, C9, S1, S2, PSPD und RHD Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Wenn das Kontrollkästchen ***aktiviert*** wird, werden alle Daten, die wie oben beschrieben in Experience Platform gekennzeichnet sind, ausgeschlossen und **nicht** in Collaboration importiert.
 * Wenn das Kontrollkästchen ***deaktiviert*** aktiviert ist, gibt es keine Einschränkung für Daten, die aus Experience Platform bezogen werden.
@@ -124,12 +124,12 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Quellfelder"
->abstract="Quellfelder sind Identity-Namespaces und Attribute aus Ihrer Implementierung von Experience Platform. Sie können diese Zielfeldern zuordnen, die in Collaboration definiert sind."
+>abstract="Quellfelder sind Identity-Namespaces und Attribute aus Ihrer Implementierung von Experience Platform. Sie können diese den in Collaboration definierten Zielfeldern zuordnen."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Zielfelder"
->abstract="Zielfelder sind die Übereinstimmungsschlüssel, die bei der Kontoeinrichtung ausgewählt wurden. Standardmäßig sind alle ausgewählten Übereinstimmungsschlüssel verfügbar."
+>abstract="Zielfelder geben an, wie zugeordnete Quelldaten in Collaboration verwendet werden. Übereinstimmungsschlüssel auf Kontoebene sind standardmäßig verfügbar. Die Felder Name und Postanschrift, die für die Identitätsauflösung verwendet werden, sind während der Einrichtung der Datenverbindung verfügbar und erfordern keine Aktivierung auf Kontoebene."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -145,12 +145,25 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribute"
->abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
+>abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profil“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
 
-Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt &#x200B;](./onboard-account.md#set-up-match-keys).
+Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt ](./onboard-account.md#set-up-match-keys). [!UICONTROL Name] und [!UICONTROL Postanschrift] Felder für die Identitätsauflösung sind bei der Einrichtung der Datenverbindung verfügbar und müssen nicht auf Kontoebene aktiviert werden.
 
-Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimmungsschlüssel ausgewählt haben, wird der [!DNL Demdex ID] automatisch aus ECID extrahiert und zugeordnet und Sie müssen keine Maßnahmen ergreifen. Weitere Informationen zu [!DNL Demdex IDs] finden Sie im [[!DNL Demdex ID]](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/unified-identity-support).
+#### Felder für Zuordnungsnamen und Postanschrift für die Epsilon Core ID {#map-name-postal-address}
+
+Um **[!UICONTROL Name]** und **[!UICONTROL Postanschrift]** für die Identitätsauflösung zu verwenden, ordnen Sie mindestens eine Unterkomponente unter beiden Feldern zu:
+
+* **[!UICONTROL Name]:** [!UICONTROL Vorname], [!UICONTROL Nachname] oder [!UICONTROL Vollständiger Name].
+* **[!UICONTROL Postanschrift]:** [!UICONTROL Straßenadresse], [!UICONTROL Stadt], [!UICONTROL Bundesland], [!UICONTROL Postleitzahl] oder [!UICONTROL Land].
+
+Wenn Adobe Experience Platform die Datenquelle ist, ordnet Collaboration automatisch verfügbare Profilattribute aus der ausgewählten Sandbox den Unterkomponenten [!UICONTROL Name] und [!UICONTROL Postanschrift] zu. Überprüfen Sie die vorgeschlagenen Zuordnungen und korrigieren Sie alle fehlenden oder falsch zugeordneten Felder.
+
+Es ist nicht erforderlich, jede Unterkomponente zuzuordnen. Um eine Unterkomponente auszuschließen, für die keine Daten vorhanden sind, löschen Sie die zugehörige Zuordnungszeile. [!UICONTROL Name] und [!UICONTROL Postanschrift] werden nicht gehasht.
+
+Weitere Informationen zur Verwendung dieser Felder finden Sie unter [Einrichten und Verwalten der Identitätsauflösung](./identity-resolution.md).
+
+Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimmungsschlüssel ausgewählt haben, wird der [!DNL Demdex ID] automatisch aus ECID extrahiert und zugeordnet und Sie müssen keine Maßnahmen ergreifen. Weitere Informationen zu [!DNL Demdex IDs] finden Sie im [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit der Option, Quellfelder Zielfeldern zuzuordnen.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -160,13 +173,13 @@ Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimm
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=de#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
+**[!UICONTROL Source-Felder]** sind Identitäts-Namespaces und -Attribute aus Experience Platform. Dazu gehören sowohl [standardmäßige](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} als [benutzerdefinierte](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} Identitäts-Namespaces. Sie enthalten auch Profilattribute, die im [Vereinigungsschema“ vorhanden sind ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema){target="_blank"} zur Klasse „XDM Individual Profile“ gehören.
 
 Source-Felder werden den in Collaboration definierten Zielfeldern zugeordnet.
 
-**[!UICONTROL Zielfelder]** geben an, wie die Identitäten in Collaboration referenziert werden. Zielfelder sind die Übereinstimmungsschlüssel, die bei der Kontoeinrichtung ausgewählt wurden. Standardmäßig sind alle ausgewählten Übereinstimmungsschlüssel verfügbar.
+**[!UICONTROL Zielfelder]** geben an, wie zugeordnete Quelldaten in Collaboration verwendet werden. Die meisten Zielfelder sind Übereinstimmungsschlüssel, die während der Kontoeinrichtung ausgewählt werden. **[!UICONTROL Name]** und **[!UICONTROL Postanschrift]** Felder für die Identitätsauflösung werden bei der Einrichtung der Datenverbindung bereitgestellt und erfordern keine Aktivierung auf Kontoebene.
 
-Verwenden Sie die **[!UICONTROL Umwandlung anwenden]**, wenn Sie (*gehashte) Felder* Hash-Feldern beziehen. Collaboration wendet den Hash an und wandelt die Felder um. Der von Adobe verwendete Hash-Algorithmus ist SHA256.
+Verwenden Sie die **[!UICONTROL Umwandlung anwenden]**, wenn Sie nicht gehashte Felder in Hash-Felder beziehen. Collaboration wendet SHA256-Hashing an, um die Felder zu transformieren. [!UICONTROL Name] und [!UICONTROL Postanschrift] werden nicht gehasht.
 
 >[!ENDSHADEBOX]
 
@@ -376,7 +389,7 @@ Die Sichtbarkeit von Metadaten gibt die Sichtbarkeit der Metadaten einer Zielgru
 
 Das **[!UICONTROL Metadaten-Sichtbarkeit]** wird angezeigt, in dem Sie die Sichtbarkeitseinstellungen für die Zielgruppe konfigurieren können. Es gibt zwei Einstellungen für die Sichtbarkeit von Metadaten, die Sie für jede Zielgruppe konfigurieren können:
 
-**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb &#x200B;](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
+**[!UICONTROL Anzahl der Identitäten anzeigen]** Mit dieser Einstellung steuern Sie, ob Ihr Mitarbeiter beim Anzeigen von Überschneidungsberichten auf der Registerkarte &quot;[&quot; innerhalb ](/help/guide/collaborate/discover.md#discover-overlaps) Projekts Identitätszahlen für Ihre Zielgruppen anzeigen kann.
 
 **[!UICONTROL Zielgruppenüberschneidung anzeigen %]**: Diese Einstellung steuert, ob Mitwirkende in der Lage sind, [Überschneidungsprozentsätze zu ermitteln](/help/guide/collaborate/discover.md#compare-audiences) zwischen ihren Zielgruppen und Ihren Zielgruppen.
 
