@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und stellt in Echtzeit Erkenntnisse zu Zielgruppen und personalisierte Marketing-Strategien bereit.
-source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
+source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 33%
+source-wordcount: '269'
+ht-degree: 32%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -33,7 +33,8 @@ ht-degree: 33%
     * [Konfigurieren von Snowflake für die Zielgruppen-Beschaffung](./setup/configure-snowflake-audience-sourcing.md)
     * [Konfigurieren der Datenblöcke-Delta-Freigabe für die Zielgruppen-Beschaffung](./setup/configure-databricks-audience-sourcing.md)
     * [Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung](./setup/configure-aam-audience-sourcing.md)
-  * [Datenverbindungen verwalten](./setup/manage-data-connection.md)
+  * [Verwalten von Datenverbindungen](./setup/manage-data-connection.md)
+  * [Einrichten und Verwalten der Identitätsauflösung](./setup/identity-resolution.md)
   * [Verfolgen Ihrer Kreditnutzungsaktivität](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Identity-Überleitungen](./setup/identity-crosswalk.md)
   * [Hinzufügen und Verwalten von Messdaten](./setup/onboard-measurement-data.md)
@@ -66,7 +67,7 @@ ht-degree: 33%
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [Erstellen von AMC-Messberichten](./collaborate/advertising-platforms/amc-measure.md)
 * Ziele {#destinations}
-  * [Übersicht](/help/guide/destinations/overview.md)
+  * [Überblick](/help/guide/destinations/overview.md)
   * [Konfigurieren und Verwalten von Cloud-Speicher-Zielen](./destinations/manage-destinations.md)
   * [Cloud-Speicher-Zielanforderungen](./destinations/cloud-storage-destination-requirements.md)
   * [Konfigurieren von Adobe Experience Platform als Ziel](./destinations/experience-platform.md)

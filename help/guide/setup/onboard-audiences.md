@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Source und Verwalten von Audiences
 
@@ -67,7 +67,7 @@ Um mit dem Hinzufügen Ihrer Datenverbindung zu beginnen, wählen Sie **[!UICONT
 
 ![Der Arbeitsbereich „Zielgruppen hinzufügen“ mit hervorgehobener Option „Neue Datenverbindung hinzufügen“.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Datenquelle auswählen {#select-data-source}
+#### Wählen Sie die Datenquelle aus {#select-data-source}
 
 Als Nächstes wählen Sie die Quelle für Ihre Datenverbindung. Zu den verfügbaren Quellen gehören:
 
@@ -124,12 +124,12 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Quellfelder"
->abstract="Quellfelder sind Identity-Namespaces und Attribute aus Ihrer Implementierung von Experience Platform. Sie können diese Zielfeldern zuordnen, die in Collaboration definiert sind."
+>abstract="Quellfelder sind Identity-Namespaces und Attribute aus Ihrer Implementierung von Experience Platform. Sie können diese den in Collaboration definierten Zielfeldern zuordnen."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Zielfelder"
->abstract="Zielfelder sind die Übereinstimmungsschlüssel, die bei der Kontoeinrichtung ausgewählt wurden. Standardmäßig sind alle ausgewählten Übereinstimmungsschlüssel verfügbar."
+>abstract="Zielfelder geben an, wie zugeordnete Quelldaten in Collaboration verwendet werden. Übereinstimmungsschlüssel auf Kontoebene sind standardmäßig verfügbar. Die Felder Name und Postanschrift, die für die Identitätsauflösung verwendet werden, sind während der Einrichtung der Datenverbindung verfügbar und erfordern keine Aktivierung auf Kontoebene."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -145,10 +145,23 @@ Geben Sie als Nächstes einen Namen und eine Beschreibung für Ihre Datenverbind
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profilattribute"
->abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profile“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
+>abstract="Wählen Sie Attribute aus dem Vereinigungsschema für die Klasse „Profil“ in Experience Platform aus. Diese Ansicht zeigt Attribute an, die im Vereinigungsschema vorhanden sind und zur Klasse „XDM-Profil für Kontakt“ gehören."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/profile/union-schemas/union-schema" text="Vereinigungsschema in Experience Platform"
 
-Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt &#x200B;](./onboard-account.md#set-up-match-keys).
+Als Nächstes wählen Sie Quellfelder aus, die Zielfeldern in Collaboration zugeordnet werden sollen. Die verfügbaren Zielfelder basieren auf den Übereinstimmungsschlüsseln, die Sie bei der [Kontoeinrichtung“ ausgewählt &#x200B;](./onboard-account.md#set-up-match-keys). [!UICONTROL Name] und [!UICONTROL Postanschrift] Felder für die Identitätsauflösung sind bei der Einrichtung der Datenverbindung verfügbar und müssen nicht auf Kontoebene aktiviert werden.
+
+#### Felder für Zuordnungsnamen und Postanschrift für die Epsilon Core ID {#map-name-postal-address}
+
+Um **[!UICONTROL Name]** und **[!UICONTROL Postanschrift]** für die Identitätsauflösung zu verwenden, ordnen Sie mindestens eine Unterkomponente unter beiden Feldern zu:
+
+* **[!UICONTROL Name]:** [!UICONTROL Vorname], [!UICONTROL Nachname] oder [!UICONTROL Vollständiger Name].
+* **[!UICONTROL Postanschrift]:** [!UICONTROL Straßenadresse], [!UICONTROL Stadt], [!UICONTROL Bundesland], [!UICONTROL Postleitzahl] oder [!UICONTROL Land].
+
+Wenn Adobe Experience Platform die Datenquelle ist, ordnet Collaboration automatisch verfügbare Profilattribute aus der ausgewählten Sandbox den Unterkomponenten [!UICONTROL Name] und [!UICONTROL Postanschrift] zu. Überprüfen Sie die vorgeschlagenen Zuordnungen und korrigieren Sie alle fehlenden oder falsch zugeordneten Felder.
+
+Es ist nicht erforderlich, jede Unterkomponente zuzuordnen. Um eine Unterkomponente auszuschließen, für die keine Daten vorhanden sind, löschen Sie die zugehörige Zuordnungszeile. [!UICONTROL Name] und [!UICONTROL Postanschrift] werden nicht gehasht.
+
+Weitere Informationen zur Verwendung dieser Felder finden Sie unter [Einrichten und Verwalten der Identitätsauflösung](./identity-resolution.md).
 
 Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimmungsschlüssel ausgewählt haben, wird der [!DNL Demdex ID] automatisch aus ECID extrahiert und zugeordnet und Sie müssen keine Maßnahmen ergreifen. Weitere Informationen zu [!DNL Demdex IDs] finden Sie im [[!DNL Demdex ID]](https://experienceleague.adobe.com/de/docs/experience-platform/collection/identity/unified-identity-support).
 
@@ -164,9 +177,9 @@ Wenn Sie [!DNL Demdex ID (ECID)] während der Kontoeinrichtung als Übereinstimm
 
 Source-Felder werden den in Collaboration definierten Zielfeldern zugeordnet.
 
-**[!UICONTROL Zielfelder]** geben an, wie die Identitäten in Collaboration referenziert werden. Zielfelder sind die Übereinstimmungsschlüssel, die bei der Kontoeinrichtung ausgewählt wurden. Standardmäßig sind alle ausgewählten Übereinstimmungsschlüssel verfügbar.
+**[!UICONTROL Zielfelder]** geben an, wie zugeordnete Quelldaten in Collaboration verwendet werden. Die meisten Zielfelder sind Übereinstimmungsschlüssel, die während der Kontoeinrichtung ausgewählt werden. **[!UICONTROL Name]** und **[!UICONTROL Postanschrift]** Felder für die Identitätsauflösung werden bei der Einrichtung der Datenverbindung bereitgestellt und erfordern keine Aktivierung auf Kontoebene.
 
-Verwenden Sie die **[!UICONTROL Umwandlung anwenden]**, wenn Sie (*gehashte) Felder* Hash-Feldern beziehen. Collaboration wendet den Hash an und wandelt die Felder um. Der von Adobe verwendete Hash-Algorithmus ist SHA256.
+Verwenden Sie die **[!UICONTROL Umwandlung anwenden]**, wenn Sie nicht gehashte Felder in Hash-Felder beziehen. Collaboration wendet SHA256-Hashing an, um die Felder zu transformieren. [!UICONTROL Name] und [!UICONTROL Postanschrift] werden nicht gehasht.
 
 >[!ENDSHADEBOX]
 
