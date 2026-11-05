@@ -2,13 +2,13 @@
 title: Einrichten und Verwalten der Identitätsauflösung
 description: Erfahren Sie, wie Sie die Identitätsauflösung in Real-Time CDP Collaboration konfigurieren und verwalten.
 audience: admin, publisher, advertiser, agency
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: ff233017fb78a63b2e911dc0dc94d67f2b18af04
+source-git-commit: 7554535fc7e29879d982b928e1b78d8ebb9c61f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1095'
 ht-degree: 1%
 ---
 # Einrichten und Verwalten der Identitätsauflösung
@@ -19,11 +19,7 @@ Mit der Identitätsauflösung können Sie Kundinnen und Kunden identifizieren, d
 
 >[!NOTE]
 >
->Die Schritte und Screenshots in diesem Handbuch verwenden [!DNL Epsilon Core ID] als Beispiel. Die Anforderungen und verfügbaren Optionen können je nach Identitätsanbieter unterschiedlich sein.
-
->[!AVAILABILITY]
->
->Beim Start steht nur [!DNL Epsilon Core ID] zur Konfiguration zur Verfügung. Die Identitätsauflösung der Epsilon Core ID ist nur für Real-Time CDP Collaboration-Konten verfügbar, die in den USA bereitgestellt werden.
+>Derzeit ist nur die Epsilon Core ID zur Konfiguration verfügbar und nur für Real-Time CDP Collaboration-Konten, die in den Vereinigten Staaten bereitgestellt werden. Die Schritte und Screenshots in diesem Handbuch verwenden die Epsilon Core ID.
 
 ## Voraussetzungen {#prerequisites}
 
