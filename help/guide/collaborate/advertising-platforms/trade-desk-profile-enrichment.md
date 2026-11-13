@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Paid-Media-Anreicherungsattribute exportieren
 audience: advertiser
 hide: true
 badge: Alpha
-source-git-commit: d090aff6ea091f60c9b3bbaf2ca72fcf8017d7d1
+source-git-commit: 303d7185169962ad7398adfffcc732bf86336a74
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 1%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Verwenden Sie den Impression-Log-Daten-Feed des Raw-Ereignis-Datenstroms (REDS) von [!DNL The Trade Desk], um Anreicherungsattribute und Paid-Media-Kontext in Ihre Erstanbieterprofile zu exportieren.
 
-Nachdem die CSV-Datei in Ihrem [!DNL Amazon S3] Exportziel eintrifft, nehmen Sie sie in [!DNL Adobe Real-Time CDP] auf. In dieser Version werden beim Exportieren der Datei nicht automatisch Profile aktualisiert oder Erlebnisse aktiviert. Die automatische Profilanreicherung zurück zu [!DNL Adobe Real-Time CDP] wird in einer späteren Version eine Funktion sein.
+Nachdem die CSV-Datei in Ihrem [!DNL Amazon S3] Exportziel eintrifft, nehmen Sie sie in [!DNL Adobe Real-Time CDP] auf. In dieser Version werden beim Exportieren der Datei nicht automatisch Profile aktualisiert oder Erlebnisse aktiviert. Die automatisierte Profilanreicherung in [!DNL Adobe Real-Time CDP] ist für eine nachfolgende Version geplant.
 
 Durch Anzeigen wird Kontext zu Kundenprofilen hinzugefügt. Sie bestätigt nicht die Interaktion, Kaufabsicht oder langfristige Interessen.
 
@@ -30,7 +30,7 @@ Bevor Sie beginnen, arbeiten Sie mit Ihrem Administrator-, Medien- und Daten-Tea
 
 ### Autorisieren des Quell-Feeds {#authorize-source-feed}
 
-Füllen Sie das von [!DNL The Trade Desk] bereitgestellte Zugriffsschreiben aus, um [!DNL The Trade Desk] zu autorisieren, REDS-Protokolle direkt an Adobe zu senden.
+Um die Bereitstellung von REDS-Protokollen direkt an Adobe zu autorisieren, füllen Sie den von [!DNL The Trade Desk] bereitgestellten Zugriffsbrief aus.
 
 [!DNL The Trade Desk] stellt den Quell-Feed bereit, und Adobe konfiguriert den Zugriff und die Aufnahme. Bevor Sie ein Projekt erstellen, überprüfen Sie, ob die Verbindung aktiv und der Feed bereit ist.
 
@@ -46,49 +46,53 @@ Füllen Sie den Zugriffsbrief im Verbindungsdialogfeld aus und speichern Sie Ihr
 
 ### Verbinden mit dem Partner {#connect-partner}
 
-Verbinden Sie sich mit [!DNL The Trade Desk] und fügen Sie Ihre Advertiser-Informationen hinzu:
+Um eine Verbindung mit [!DNL The Trade Desk] herzustellen, öffnen Sie **[!UICONTROL Partner]**) in **[!UICONTROL Verbinden]** und suchen Sie nach dem Partner.
 
-1. Öffnen Sie **[!UICONTROL Verbinden]** die Option **[!UICONTROL Mitarbeiter entdecken]**.
-1. Suchen Sie nach [!DNL The Trade Desk].
-   ![Der Collaborator-Katalog listet [!DNL The Trade Desk] und die zugehörige [!UICONTROL Verbinden]-Option auf.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. Wählen Sie **[!UICONTROL Verbinden]** für die [!DNL The Trade Desk] aus und befolgen Sie die Anweisungen im Verbindungsdialogfeld.
-   ![Im Verbindungsdialogfeld werden die REDS-Autorisierung und die Partner-ID-Einrichtung für [!DNL The Trade Desk] erläutert.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. Nachdem die Verbindung aktiv ist, öffnen Sie **[!UICONTROL Verbindungseinstellungen]**. Wählen Sie **[!UICONTROL Advertiser-]**) die Option **[!UICONTROL Bearbeiten]** aus, um vorhandene Informationen zu aktualisieren, oder **[!UICONTROL Hinzufügen]**, um neue Informationen einzugeben.
-   ![Die aktiven Verbindungseinstellungen zeigen [!UICONTROL Advertiser-]) und das [!UICONTROL Bearbeiten]-Steuerelement.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. Geben Sie Ihre Partner-ID und Ihren Partnernamen in **[!UICONTROL Partner-ID]** und **[!UICONTROL Partnername]** ein und klicken Sie dann auf **[!UICONTROL Speichern]**. Finden Sie Ihre Partner-ID in Ihrem [!DNL The Trade Desk]-Konto unter **[!UICONTROL Sitzkennungen]**.
-   ![Das Dialogfeld mit den Advertiser-Informationen enthält die erforderlichen Felder für die Partner-ID und den Partnernamen sowie ein [!UICONTROL Speichern]-Steuerelement.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![Der Collaborator-Katalog listet [!DNL The Trade Desk] und die zugehörige [!UICONTROL Verbinden]-Option auf.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-Nachdem die Verbindung aktiv ist und Sie die Advertiser-Informationen gespeichert haben, warten Sie auf die Bestätigung, dass Adobe Ihre REDS-Protokolle erhalten hat. Erstellen Sie dann ein Projekt.
+Wählen Sie **[!UICONTROL Verbinden]** für die [!DNL The Trade Desk] aus und befolgen Sie die Anweisungen im Verbindungsdialogfeld.
+
+![Im Verbindungsdialogfeld werden die REDS-Autorisierung und die Partner-ID-Einrichtung für [!DNL The Trade Desk] erläutert.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+Nachdem die Verbindung aktiv ist, öffnen Sie **[!UICONTROL Verbindungseinstellungen]** und navigieren Sie zu **[!UICONTROL Advertiser-Informationen]**. Um vorhandene Informationen zu aktualisieren, wählen Sie **[!UICONTROL Bearbeiten]** aus. Um neue Informationen einzugeben, klicken Sie auf **[!UICONTROL Hinzufügen]**.
+
+![Die aktiven Verbindungseinstellungen zeigen [!UICONTROL Advertiser-]) und das [!UICONTROL Bearbeiten]-Steuerelement.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+Um Ihre Advertiser-Informationen zu speichern, geben Sie die ID und den Partnernamen in **[!UICONTROL Partner-ID]** und **[!UICONTROL Partnernamen]** ein und klicken Sie dann auf **[!UICONTROL Speichern]**. Ihre Partner-ID wird unter **[!UICONTROL Sitzkennungen]** in Ihrem [!DNL The Trade Desk]-Konto angezeigt.
+
+![Das Dialogfeld mit den Advertiser-Informationen enthält die erforderlichen Felder für die Partner-ID und den Partnernamen sowie ein [!UICONTROL Speichern]-Steuerelement.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+Warten Sie nach dem Speichern der Advertiser-Informationen, bis Adobe den Empfang Ihrer REDS-Protokolle bestätigt hat, bevor Sie ein Projekt erstellen.
 
 ### Erstellen eines Projekts {#create-project}
 
-Erstellen Sie ein Projekt für die Verbindung:
+Um ein Projekt zu erstellen, gehen Sie zu **[!UICONTROL Zusammenarbeiten]** und wählen Sie **[!UICONTROL Meine Projekte]** und dann **[!UICONTROL Projekt erstellen]** oder das Symbol Hinzufügen (![Projekt hinzufügen.](/help/assets/icons/plus.png)) aus.
 
-1. Wählen **[!UICONTROL in &quot;]**&quot; die Option **[!UICONTROL Meine Projekte]** aus.
-1. Wählen Sie **[!UICONTROL Projekt erstellen]** oder das Symbol Hinzufügen (![Projekt hinzufügen.](/help/assets/icons/plus.png)) aus.
-1. Wählen **[!UICONTROL in Projekt]** die Option [!DNL The Trade Desk] aus **[!UICONTROL Collaborator]**.
-   ![Das Formular [!UICONTROL Projekt erstellen] listet [!DNL The Trade Desk] auf und enthält Felder für Projektname, Beschreibung und Bild.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. Geben Sie einen **[!UICONTROL Projektnamen]** und **[!UICONTROL Beschreibung]** ein und wählen Sie dann ein Bild aus, um das Projekt zu identifizieren.
-1. Wählen Sie **[!UICONTROL Erstellen]** aus.
+Wählen **[!UICONTROL in Projekt]** die Option [!DNL The Trade Desk] aus **[!UICONTROL Collaborator]**.
 
-Informationen zum allgemeinen Projekt-Management finden Sie [&#x200B; Handbuch zum Erstellen und Verwalten von Projekten &#x200B;](/help/guide/collaborate/manage-projects.md).
+![Das Formular [!UICONTROL Projekt erstellen] listet [!DNL The Trade Desk] auf und enthält Felder für Projektname, Beschreibung und Bild.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+Geben Sie zur Identifizierung des Projekts einen **[!UICONTROL Projektnamen]** und **[!UICONTROL Beschreibung]** ein und wählen Sie dann ein Bild aus. Wenn die Projektdetails abgeschlossen sind, wählen Sie **[!UICONTROL Erstellen]** aus.
+
+Informationen zum allgemeinen Projekt-Management finden Sie [ Handbuch zum Erstellen und Verwalten von Projekten ](/help/guide/collaborate/manage-projects.md).
 
 ## Auswählen und Exportieren von Attributen {#select-export-attributes}
 
-Exportieren Sie Anreicherungsattribute aus Ihrem Projekt:
+Um Anreicherungsattribute für den Export auszuwählen, öffnen Sie das Projekt und wählen Sie **[!UICONTROL Anreichern]** aus. Um die Signalverfügbarkeit zu verstehen, überprüfen Sie die Abdeckungswerte für jedes Attribut, bevor Sie die Attribute auswählen, die Sie verwenden möchten.
+
+![Die Seite [!UICONTROL Anreichern] gruppiert auswählbare Signale nach Kategorie und zeigt Abdeckungswerte an.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. Öffnen Sie das Projekt und wählen Sie **[!UICONTROL Anreichern]**.
-1. Überprüfen Sie die Abdeckungswerte für jedes Attribut, um die Signalverfügbarkeit zu verstehen.
-1. Wählen Sie die Attribute aus, die Sie für die Anreicherung verwenden möchten.
-   ![Die Seite [!UICONTROL Anreichern] gruppiert auswählbare Signale nach Kategorie und zeigt Abdeckungswerte an.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. Wählen Sie das [!DNL Amazon S3] Exportziel aus, das für die Anreicherungsausgabe konfiguriert ist. Informationen zum Konfigurieren eines Ziels finden Sie [Konfigurieren und Verwalten von Cloud-Speicher-Zielen](/help/guide/destinations/manage-destinations.md).
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. Überprüfen Sie die ausgewählten Attribute und das Ziel und wählen Sie dann **[!UICONTROL Attribute exportieren]** aus.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+Wählen Sie das [!DNL Amazon S3] Exportziel aus, das für die Anreicherungsausgabe konfiguriert ist. Wenn Sie ein Ziel konfigurieren müssen, finden Sie weitere Informationen unter [Konfigurieren und Verwalten von Cloud-Speicher-Zielen](/help/guide/destinations/manage-destinations.md).
 
-Beim Senden eines Exports wird der Versand gestartet, wenn Ihr Ziel richtig konfiguriert ist. Überprüfen einer erfolgreichen Dateibereitstellung außerhalb von [!DNL Adobe Real-Time CDP Collaboration].
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+Überprüfen Sie die ausgewählten Attribute und das Ziel und wählen Sie dann **[!UICONTROL Attribute exportieren]** aus.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+Beim Senden eines Exports wird der Versand gestartet, wenn Ihr Ziel richtig konfiguriert ist. Nachdem Sie den Export übermittelt haben, überprüfen Sie, ob die Dateibereitstellung außerhalb von [!DNL Adobe Real-Time CDP Collaboration] erfolgreich war.
 
 Adobe verarbeitet Anreicherungsattribute, wenn Sie ein Projekt erstellen und dann wöchentlich. Bei jedem Durchlauf werden die letzten 90 Tage der verfügbaren [!DNL The Trade Desk] verwendet. Jeder Export enthält Ihre ausgewählten Attribute aus der zuletzt abgeschlossenen Ausführung. Um aktualisierte Attribute zu exportieren, fordern Sie nach Abschluss einer späteren Ausführung einen weiteren Export an.
 
@@ -127,7 +131,7 @@ Identitätsabgleich, Verfügbarkeit von Quellsignalen und Aufnahme wirken sich a
 
 ### Workflow-Umfang {#workflow-scope}
 
-Verwenden Sie den kuratierten Katalog, um Daten aus [!DNL The Trade Desk] anzureichern. Sie können keine Rohprotokolle exportieren oder benutzerdefinierte Attributausdrücke erstellen. Andere Integrationen mit Demand-Side-Platform (DSP) und Supply-Side-Platform (SSP) werden nicht unterstützt.
+Um Daten aus [!DNL The Trade Desk] anzureichern, verwenden Sie den kuratierten Katalog. Sie können keine Rohprotokolle exportieren oder benutzerdefinierte Attributausdrücke erstellen. Andere Integrationen mit Demand-Side-Platform (DSP) und Supply-Side-Platform (SSP) werden nicht unterstützt.
 
 Dieser Workflow unterstützt nicht die Erkennung von Anreicherungsmöglichkeiten, die Analyse von Zielgruppenüberschneidungen oder die Attribution und die Messung der Inkrementalität.
 
@@ -154,11 +158,11 @@ Do not treat example formats or supported input match keys as confirmed output r
 1. Nehmen Sie die Datei mithilfe der bestätigten Identitäts- und Schemazuordnungen für die Ziel-Sandbox und den Datensatz auf.
 1. Überprüfen Sie die Aufnahmeergebnisse und stellen Sie sicher, dass ein Beispiel für erwartete Profile die Anreicherungsattribute enthält.
 
-Der Export einer Datei bestätigt nicht, dass die Aufnahme die Profile aktualisiert hat. Nehmen Sie jeden späteren Export separat auf, um Profile zu aktualisieren.
+Der Export einer Datei bestätigt nicht, dass die Aufnahme die Profile aktualisiert hat. Um Profile zu aktualisieren, nehmen Sie jeden späteren Export separat auf.
 
 ## Fehlerbehebung bei der Anreicherung {#troubleshoot-enrichment}
 
-Verwenden Sie diese Prüfungen, um Probleme mit Quelldaten, Export und Aufnahme zu beheben:
+Verwenden Sie die folgenden Prüfungen, um Probleme mit Quelldaten, Export und Aufnahme zu beheben:
 
 | Problem | Was zu überprüfen ist |
 | --- | --- |
@@ -174,6 +178,6 @@ Verwenden Sie diese Prüfungen, um Probleme mit Quelldaten, Export und Aufnahme 
 
 ## Nächste Schritte {#next-steps}
 
-Erstellen Sie nach der Aufnahme und Validierung der Attribute Zielgruppen in [!DNL Adobe Real-Time CDP], indem Sie Anreicherungssignale mit First-Party-Daten kombinieren. Weitere Informationen finden Sie im &quot;[&#x200B; Builder-Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Erstellen Sie nach der Aufnahme und Validierung der Attribute Zielgruppen in [!DNL Adobe Real-Time CDP], indem Sie Anreicherungssignale mit First-Party-Daten kombinieren. Weitere Informationen finden Sie im &quot;[ Builder-Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Informationen zum Aktivieren von Zielgruppen für Ziele, Personalisierung oder Kunden-Journey finden Sie im [Handbuch zur Zielgruppenaktivierung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Informationen zum Aktivieren von Zielgruppen für Ziele, Personalisierung oder Kunden-Journey finden Sie im [Handbuch zur Zielgruppenaktivierung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
