@@ -74,7 +74,7 @@ Wählen **[!UICONTROL in Projekt]** die Option [!DNL The Trade Desk] aus **[!UIC
 
 Geben Sie zur Identifizierung des Projekts einen **[!UICONTROL Projektnamen]** und **[!UICONTROL Beschreibung]** ein und wählen Sie dann ein Bild aus. Wenn die Projektdetails abgeschlossen sind, wählen Sie **[!UICONTROL Erstellen]** aus.
 
-Informationen zum allgemeinen Projekt-Management finden Sie [ Handbuch zum Erstellen und Verwalten von Projekten ](/help/guide/collaborate/manage-projects.md).
+Informationen zum allgemeinen Projekt-Management finden Sie [&#x200B; Handbuch zum Erstellen und Verwalten von Projekten &#x200B;](/help/guide/collaborate/manage-projects.md).
 
 ## Auswählen und Exportieren von Attributen {#select-export-attributes}
 
@@ -178,6 +178,6 @@ Verwenden Sie die folgenden Prüfungen, um Probleme mit Quelldaten, Export und A
 
 ## Nächste Schritte {#next-steps}
 
-Erstellen Sie nach der Aufnahme und Validierung der Attribute Zielgruppen in [!DNL Adobe Real-Time CDP], indem Sie Anreicherungssignale mit First-Party-Daten kombinieren. Weitere Informationen finden Sie im &quot;[ Builder-Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Erstellen Sie nach der Aufnahme und Validierung der Attribute Zielgruppen in [!DNL Adobe Real-Time CDP], indem Sie Anreicherungssignale mit First-Party-Daten kombinieren. Weitere Informationen finden Sie im &quot;[&#x200B; Builder-Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
 Informationen zum Aktivieren von Zielgruppen für Ziele, Personalisierung oder Kunden-Journey finden Sie im [Handbuch zur Zielgruppenaktivierung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
