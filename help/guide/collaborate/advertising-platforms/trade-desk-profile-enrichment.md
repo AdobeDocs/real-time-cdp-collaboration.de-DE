@@ -178,6 +178,6 @@ Verwenden Sie die folgenden Prüfungen, um Probleme mit Quelldaten, Export und A
 
 ## Nächste Schritte {#next-steps}
 
-Erstellen Sie nach der Aufnahme und Validierung der Attribute Zielgruppen in [!DNL Adobe Real-Time CDP], indem Sie Anreicherungssignale mit First-Party-Daten kombinieren. Weitere Informationen finden Sie im &quot;[&#x200B; Builder-Handbuch](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Erstellen Sie nach der Aufnahme und Validierung der Attribute Zielgruppen in [!DNL Adobe Real-Time CDP], indem Sie Anreicherungssignale mit First-Party-Daten kombinieren. Weitere Informationen finden Sie im &quot;[&#x200B; Builder-Handbuch](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Informationen zum Aktivieren von Zielgruppen für Ziele, Personalisierung oder Kunden-Journey finden Sie im [Handbuch zur Zielgruppenaktivierung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Informationen zum Aktivieren von Zielgruppen für Ziele, Personalisierung oder Kunden-Journey finden Sie im [Handbuch zur Zielgruppenaktivierung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
