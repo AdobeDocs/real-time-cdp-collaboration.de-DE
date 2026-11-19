@@ -270,7 +270,7 @@ ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
 ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
 ```
 
-Nachdem Sie die Tabelle erneut hinzugefügt haben, [ Sie sicher, dass die Verlaufsfreigabe aktiviert ist](#enable-history-sharing).
+Nachdem Sie die Tabelle erneut hinzugefügt haben, [&#x200B; Sie sicher, dass die Verlaufsfreigabe aktiviert ist](#enable-history-sharing).
 
 **Die Datenverbindung zeigt nach anfänglichem Erfolg den Status Fehlgeschlagen an**
 
