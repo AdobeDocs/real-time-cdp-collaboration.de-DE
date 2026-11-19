@@ -1,15 +1,15 @@
 ---
 title: Konfigurieren von [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung
-description: Erfahren Sie, wie Sie [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung in Real-Time CDP Collaboration konfigurieren und verbinden.
+description: Erfahren Sie, wie Sie [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung in Real-Time CDP Collaboration konfigurieren und verbinden, einschließlich der Freigabe des Verlaufs.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label=„Eingeschränkte Verfügbarkeit“ type=„Informative“ url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 2%
+source-wordcount: '3294'
+ht-degree: 1%
 ---
 
 # Konfigurieren von [!DNL Databricks Delta Share] für die Zielgruppen-Beschaffung
@@ -18,7 +18,7 @@ Verwenden Sie dieses Handbuch, um [!DNL Databricks Delta Share] über die Benutz
 
 Wenn Sie [!DNL Databricks Delta Share] verbinden, liest Collaboration Zielgruppendaten direkt aus Ihrer Unity-Katalogfreigabe. Nach Abschluss der Beschaffung können Sie die Zielgruppen für die Aktivierung und Überschneidungsanalyse in Kooperationsprojekten verwenden.
 
-In diesem Handbuch wird erläutert, wie Sie Voraussetzungen vorbereiten, Ihre [!DNL Delta Share] verbinden, Quelltabellen angeben, Identitätsfelder zuordnen und überprüfen, ob die Zielgruppen-Beschaffung erfolgreich gestartet wird.
+In diesem Handbuch wird erläutert, wie Sie Voraussetzungen erfüllen, Ihre [!DNL Delta Share] verbinden, Quelltabellen angeben, Identitätsfelder zuordnen und überprüfen, ob die Zielgruppen-Beschaffung erfolgreich gestartet wird.
 
 Zielgruppen, die von [!DNL Databricks] bezogen werden, folgen denselben Governance- und Datenverarbeitungsregeln wie Zielgruppen, die von Adobe Experience Platform und anderen unterstützten Cloud-Quellen bezogen werden.
 
@@ -44,17 +44,18 @@ Eine schrittweise Anleitung zum Veröffentlichen einer Freigabe in Adobe finden 
 
 Strukturieren Sie Ihre Zielgruppentabellen so, dass Collaboration Zielgruppen erkennen und Identitäten korrekt zuordnen kann.
 
-* **Mitgliedschaftstabelle (erforderlich):** Eine Tabelle innerhalb Ihres freigegebenen Schemas, die eine Zeile pro Profil-Zielgruppen-Paar enthält. Diese Tabelle muss eine Spalte enthalten, die `AUDIENCE_ID` zugeordnet werden kann, und mindestens eine unterstützte Spalte für Übereinstimmungsschlüssel. Collaboration verwendet diese Tabelle für die Vorschau von Quelldaten und die Feldzuordnung.
+* **Mitgliedschaftstabelle (erforderlich):** Eine Tabelle innerhalb Ihres freigegebenen Schemas, die eine Zeile pro Profil-Zielgruppen-Paar enthält. Diese Tabelle muss eine `AUDIENCE_ID` und mindestens eine unterstützte Übereinstimmungsschlüsselspalte enthalten. Collaboration verwendet diese Tabelle für die Vorschau von Quelldaten und die Feldzuordnung.
 * **Metadatentabelle (optional):** Wenn Sie einen separaten Zielgruppenkatalog verwalten (eine Zeile pro Zielgruppe mit der Zielgruppen-ID, dem Namen, der Anzahl oder ähnlichen Metadaten), können Sie diese Tabelle bereitstellen, damit Collaboration Zielgruppendefinitionen daraus liest, anstatt einzelne Zielgruppen-IDs nur aus der Mitgliedschaftstabelle abzuleiten.
 * **Unterstützte Übereinstimmungsschlüssel:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID` und andere Übereinstimmungsschlüssel, die für Ihr Collaboration-Konto aktiviert sind.
 * **Hash-Anforderungen:** Alle Übereinstimmungsschlüsselwerte müssen gekürzt, in Kleinbuchstaben geschrieben und SHA256-gehasht werden, bevor sie in [!DNL Databricks] gespeichert werden. Collaboration hasht oder normalisiert Daten nicht vor der Aufnahme.
 * **Spaltenkonsistenz:** Die Mitgliedschaftstabelle muss stabile Spaltennamen bereitstellen, die Collaboration Ihren aktivierten Übereinstimmungsschlüsseln zuordnen kann.
+* **Verlaufsfreigabe (empfohlen):** Zur Verbesserung der Quellenleistung, insbesondere bei großen Tabellen, aktivieren Sie die Verlaufsfreigabe bei der Freigabe von Zielgruppentabellen. Die Freigabe des Verlaufs ermöglicht es Collaboration, Daten parallel mit einer konsistenten Tabellenversion zu lesen. Ohne Freigabe des Verlaufs wird die Zielgruppen-Beschaffung mit einem langsameren Prozess mit einer einzigen Abfrage abgeschlossen. Weitere Informationen finden Sie unter [Verlaufsfreigabe aktivieren](#enable-history-sharing).
 
 Alle in Ihrer Mitgliedschaftstabelle vorhandenen Übereinstimmungsschlüssel müssen auch für Ihr Collaboration-Konto aktiviert werden. Informationen zum Hinzufügen oder Aktivieren von Übereinstimmungsschlüsseln finden Sie [Einrichten von Übereinstimmungsschlüsseln](./onboard-account.md#set-up-match-keys).
 
 ### Vor dem Start erforderliche Werte {#required-values}
 
-Halten Sie die folgenden Werte bereit, bevor Sie den Konfigurationsassistenten starten.
+Halten Sie die folgenden Werte bereit, bevor Sie den Konfigurations-Workflow starten.
 
 
 | Wert | Beschreibung |
@@ -69,7 +70,7 @@ Halten Sie die folgenden Werte bereit, bevor Sie den Konfigurationsassistenten s
 
 ## Konfigurieren der [!DNL Databricks] {#configure-databricks-connection}
 
-Der Konfigurations-Workflow ist ein mehrstufiger Assistent im **[!UICONTROL Setup]**-Arbeitsbereich. Führen Sie die einzelnen Schritte nacheinander aus.
+Der Konfigurations-Workflow umfasst mehrere Schritte im **[!UICONTROL Setup]**-Arbeitsbereich. Führen Sie die einzelnen Schritte nacheinander aus.
 
 ### Neue Datenverbindung hinzufügen {#add-data-connection}
 
@@ -106,11 +107,11 @@ Collaboration validiert die Freigabe und mountet sie in Adobe Workspace. Dieser 
 | **[!UICONTROL Anbietername]** | Der Name des Unity-Kataloganbieters, den Adobe verwendet, um Ihre Freigabe zu nutzen. Siehe [Vor Beginn erforderliche Werte](#required-values). |
 | **[!UICONTROL Freigabename]** | Der Name des in Adobe veröffentlichten [!DNL Delta Share]. |
 | **[!UICONTROL Schema]** | Das Schema innerhalb der Freigabe, das Ihre Zielgruppentabellen enthält. |
-| **[!UICONTROL Datentabelle]** | Der Tabellenname innerhalb des Schemas, das Zeilen zur Zielgruppenzugehörigkeit enthält (eine Zeile pro Profil in einer Zielgruppe). |
+| **[!UICONTROL Mitgliedschaftstabelle]** | Der Tabellenname innerhalb des Schemas, das Zeilen zur Zielgruppenzugehörigkeit enthält (eine Zeile pro Profil in einer Zielgruppe). |
 | **[!UICONTROL Metadatentabelle]** | Die Tabelle, die Zielgruppen auflistet (eine Zeile pro Zielgruppe). |
 
 
-![Der Workflow „Zielgruppe hinzufügen“ zeigt das Databricks-Formular „Verbinden-Freigeben“ mit den Feldern Anbietername, Freigabename, Schema, Datentabelle und Metadatentabelle sowie die verfügbare Schaltfläche „Weiter“.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![Der Workflow Zielgruppe hinzufügen , der das Databricks-Formular „Verbinden-Freigeben“ mit den Feldern Anbietername, Freigabename, Schema, Mitgliedschaftstabelle und Metadatentabelle sowie die Schaltfläche Weiter zeigt.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 Wenn die Freigabe nicht gefunden werden kann oder das Schema noch nicht sichtbar ist, wird eine Fehlermeldung angezeigt. Überprüfen Sie die Werte mit Ihrem [!DNL Databricks] und versuchen Sie es erneut.
 
@@ -171,7 +172,7 @@ Es wird ein Bestätigungsdialogfeld angezeigt, das angibt, dass Collaboration di
 
 ## Überprüfen der Quellzielgruppen {#review-sourced-audiences}
 
-Nach Abschluss des Konfigurationsassistenten beginnt Collaboration mit der asynchronen Beschaffung von Zielgruppen aus Ihren [!DNL Databricks]. Navigieren Sie zu **[!UICONTROL Setup] > [!UICONTROL Meine Zielgruppen]**, um den Fortschritt zu überwachen. Die Beschaffung wird nicht sofort abgeschlossen. Der Zeitaufwand hängt von der Größe Ihrer Daten ab.
+Nach Abschluss des Konfigurations-Workflows beginnt Collaboration mit der asynchronen Beschaffung von Zielgruppen aus Ihren [!DNL Databricks]. Navigieren Sie zu **[!UICONTROL Setup] > [!UICONTROL Meine Zielgruppen]**, um den Fortschritt zu überwachen. Die Beschaffung wird nicht sofort abgeschlossen. Der Zeitaufwand hängt von der Größe Ihrer Daten ab.
 
 ### Fortschritt der Zielgruppenbeschaffung überwachen {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Während Collaboration Ihre Zielgruppendaten abruft, zeigt ein Banner oben im Ar
 
 >[!TIP]
 >
->Die Zeit für die Zielgruppen-Beschaffung hängt von der Größe Ihrer Mitgliedschaftstabelle und davon ab, ob Sie eine Metadatentabelle zur Zielgruppenerkennung verwenden. Es kann länger dauern, bis größere Datensätze im Arbeitsbereich &quot;**[!UICONTROL Zielgruppen“]** werden.
+>Zur Verbesserung der Zielgruppen-Sourcing-Leistung, insbesondere bei großen Tabellen, aktivieren Sie die Verlaufsfreigabe. Dadurch kann Collaboration Daten parallel aus einer konsistenten Tabellenversion lesen. Cloud-übergreifende Freigaben verwenden jedoch einen Einzelabfrageprozess, selbst wenn die Verlaufsfreigabe aktiviert ist.
+>
+>Die Zeit bis zur Zielgruppenbeschaffung hängt auch von Faktoren wie der Größe der Mitgliedschaftstabelle und der metadatengesteuerten Zielgruppenerkennung ab. Es kann länger dauern, bis größere Datensätze in &quot;**[!UICONTROL Zielgruppen“]**. Weitere Informationen finden Sie unter [Verlaufsfreigabe aktivieren](#enable-history-sharing).
 
 ### Anzeigen von Details zur Quellzielgruppe {#view-audience-details}
 
@@ -216,11 +219,13 @@ Um die Verbindung selbst einschließlich ihrer Übereinstimmungsschlüssel zu ü
 
 Beachten Sie die folgenden Einschränkungen bei der Konfiguration und Verwendung [!DNL Databricks Delta Share] Zielgruppen-Sourcing:
 
-* **Nur native Freigabe:** Die Benutzeroberfläche unterstützt nur native Datenblöcke-zu-Datenblöcke-[!DNL Delta Sharing]. Die Authentifizierungsflüsse für Bearer-Token und OIDC sind im Konfigurationsassistenten nicht verfügbar.
-* **Kein Tabellen-Browser im Assistenten:** Sie müssen Tabellennamen manuell eingeben. Collaboration validiert Tabellennamen, wenn Sie Tabellen in der Vorschau anzeigen. Nicht alle Tabellen in Ihrer Freigabe werden automatisch aufgelistet.
+* **Nur native Freigabe:** Die Benutzeroberfläche unterstützt nur native Datenblöcke-zu-Datenblöcke-[!DNL Delta Sharing]. Die Bearer-Token- und OIDC-Authentifizierungsabläufe sind im Konfigurations-Workflow nicht verfügbar.
+* **Manuelle Tabellennameneingabe:** Sie müssen Tabellennamen manuell eingeben. Collaboration validiert Tabellennamen, wenn Sie Tabellen in der Vorschau anzeigen. Nicht alle Tabellen in Ihrer Freigabe werden automatisch aufgelistet.
 * **Zeilenbeschränkung für Metadatentabellen:** Wenn Sie eine Metadatentabelle zur Zielgruppenerkennung verwenden, importiert Collaboration bis zu 100.000 Zielgruppenzeilen aus dieser Tabelle. Wenden Sie sich an den Adobe-Support, wenn Ihr Katalog dieses Limit überschreitet.
 * **Einschränkungen für Übereinstimmungsschlüssel:** Sobald ein Übereinstimmungsschlüssel für eine Datenverbindung aktiviert ist, kann er nicht mehr entfernt werden. Sie können Übereinstimmungsschlüssel zu einer vorhandenen Verbindung hinzufügen, sie jedoch nicht deaktivieren oder löschen. Um die aktiven Übereinstimmungsschlüssel zu ändern, müssen [die Datenverbindung löschen](./manage-data-connection.md#delete-data-connection) und eine neue erstellen.
 * **Mitgliedschaftstabelle erforderlich:** Selbst wenn Sie eine Metadatentabelle zur Zielgruppenerkennung verwenden, müssen Sie eine Mitgliedschaftstabelle angeben. Collaboration liest Identitätszeilen während der Aufnahme aus der Mitgliedschaftstabelle.
+* **Verlaufsfreigabe für große Tabellen empfohlen:** Aktivieren Sie die Verlaufsfreigabe, um die Quellleistung für große Tabellen zu verbessern. Dadurch kann Collaboration Daten parallel lesen. Ohne die Freigabe des Verlaufs verwendet die Beschaffung einen langsameren Prozess mit einer einzigen Abfrage. Weitere Informationen finden Sie unter [Verlaufsfreigabe aktivieren](#enable-history-sharing).
+* **Cloud-übergreifende Freigaben:** Wenn Ihr [!DNL Databricks] und der Adobe-Arbeitsbereich unterschiedliche Cloud-Umgebungen verwenden, erfolgt die Beschaffung über einen einzigen Abfrageprozess, unabhängig davon, ob die Verlaufsfreigabe aktiviert ist. Dies gilt beispielsweise, wenn Ihr Provider [!DNL Azure] und der Adobe-Arbeitsbereich AWS verwendet. Es ist keine zusätzliche Konfiguration erforderlich.
 
 ## Fehlerbehebung {#troubleshooting}
 
@@ -240,16 +245,32 @@ Verwenden Sie diesen Abschnitt, um Probleme zu beheben, die während oder nach d
 
 **Die Validierung der Feldzuordnung blockiert den Fortschritt**
 
-* Bestätigen Sie, dass Ihre Mitgliedschaftstabelle eine Spalte enthält, die **`AUDIENCE_ID`** zugeordnet werden kann.
-* Stellen Sie sicher, dass mindestens zwei Identitätsfelder vollständig zugeordnet sind (Quelle und Ziel).
+* Bestätigen Sie, dass Ihre Mitgliedschaftstabelle eine `AUDIENCE_ID` Spalte und mindestens eine unterstützte Spalte für Übereinstimmungsschlüssel enthält.
+* Vergewissern Sie sich, dass mindestens einem unterstützten Übereinstimmungsschlüssel sowohl ein Quellfeld als auch ein Zielfeld zugeordnet sind.
 * Verwenden Sie **[!UICONTROL Vorschau der Quelldaten]**, um zu überprüfen, ob die Spaltennamen mit den aktivierten Übereinstimmungsschlüsseln übereinstimmen.
 
 **Zielgruppen werden nicht angezeigt oder die Beschaffung dauert länger als erwartet**
 
+* Bestätigen Sie, dass Ihre Tabellen mit dem Verlauf geteilt werden. Führen Sie `SHOW ALL IN SHARE <share_name>;` aus und überprüfen Sie, ob `history_sharing` `ENABLED` ist. Wenn die Freigabe des Verlaufs deaktiviert ist, fügen Sie die Tabelle mit `WITH HISTORY` erneut hinzu. Weitere Informationen finden Sie unter [Verlaufsfreigabe aktivieren](#enable-history-sharing).
 * Die Beschaffungszeit skaliert mit dem Datenvolumen. Bei großen Mitgliedstabellen wird eine längere Verarbeitungszeit erwartet.
 * Wenn Zielgruppen nicht innerhalb von 24 Stunden angezeigt werden, überprüfen Sie die Registerkarte **[!UICONTROL Meine Datenverbindungen]** auf Fehleranzeigen für die Verbindung.
 * Stellen Sie sicher, dass die Struktur Ihrer Mitgliedschaftstabelle und die Feldzuordnungen den Anforderungen in [Vorbereiten Ihrer Zielgruppendaten](#prepare-audience-data) entsprechen.
 * Wenn das Problem weiterhin besteht, wenden Sie sich an den Kunden-Support von Adobe und geben Sie den Namen der Datenverbindung und die Tabellendetails an.
+
+**Die Aktivierung der Verlaufsfreigabe schlägt fehl**
+
+Wenn Ihr Arbeitsbereich den Befehl `ALTER TABLE` ablehnt, entfernen Sie die Tabelle aus der Freigabe und fügen Sie die Tabelle mit dem Verlauf hinzu. Ersetzen Sie `<share_name>`, `<catalog>`, `<schema>` und `<table>` durch Ihren Freigabenamen und Ihre Tabellenkennungen.
+
+>[!IMPORTANT]
+>
+> Entfernen Sie keine Tabelle und fügen Sie sie nicht erneut hinzu, während eine Adobe-Sourcing-Ausführung läuft.
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Nachdem Sie die Tabelle erneut hinzugefügt haben, [&#x200B; Sie sicher, dass die Verlaufsfreigabe aktiviert ist](#enable-history-sharing).
 
 **Die Datenverbindung zeigt nach anfänglichem Erfolg den Status Fehlgeschlagen an**
 
@@ -273,28 +294,62 @@ Bereiten Sie in Ihrem [!DNL Databricks]-Arbeitsbereich Folgendes vor:
 * Ein [!DNL Delta Share], das das Schema und die Tabellen enthält, die Collaboration lesen wird.
 * Eine Mitgliedschaftstabelle mit einer Zeile pro Profil-Zielgruppen-Paar und Spalten für **`AUDIENCE_ID`** und Übereinstimmungsschlüssel.
 * Eine optionale Metadatentabelle, wenn Sie die metadatengesteuerte Zielgruppenerkennung verwenden möchten.
+* Freigabe des Verlaufs für jede Tabelle in der Freigabe aktiviert (empfohlen).
 
 ### Freigabe veröffentlichen {#publish}
 
 Befolgen Sie die [!DNL Databricks Delta Sharing] Ihres Unternehmens, um dem Adobe-Verbraucherkonto Zugriff auf die Freigabe zu gewähren. Die genauen Schritte hängen von Ihrem [!DNL Databricks] Bereitstellungs- und Governance-Modell ab. Im Allgemeinen:
 
 1. Erstellen oder identifizieren Sie im Unity-Katalog die Freigabe, die Ihr Zielgruppenschema und Ihre Tabellen enthält.
-2. Fügen Sie das Schema (oder einzelne Tabellen) zur Freigabe hinzu.
+2. Fügen Sie das Schema oder einzelne Tabellen zu Ihrer Datenblock-Freigabe hinzu. Adobe empfiehlt, die Verlaufsfreigabe für jede Tabelle zu aktivieren. Weitere Informationen finden Sie unter [Verlaufsfreigabe aktivieren](#enable-history-sharing).
 3. Gewähren Sie die Freigabe für das [!DNL Databricks]-Verbraucherkonto von Adobe mithilfe der nativen Datenblöcke-zu-Datenblöcke-Freigabe.
-4. Bestätigen Sie mit Ihrem Adobe-Kontakt, dass die Freigabe auf der Verbraucherseite sichtbar ist, und notieren Sie sich den Anbieternamen und den Freigabenamen für den Collaboration-Konfigurationsassistenten.
-5. [!DNL Databricks] Produktdokumentation zu [!DNL Delta Sharing] finden Sie unter [Databricks-Delta-Freigabe-Dokumentation](https://docs.databricks.com/aws/en/delta-sharing).
+4. Bestätigen Sie mit Ihrem Adobe-Kontakt, dass die Freigabe auf der Verbraucherseite sichtbar ist, und notieren Sie den Anbieternamen und den Freigabenamen für den Collaboration-Konfigurations-Workflow.
+
+>[!NOTE]
+>
+> Produktanweisungen finden Sie in der [Databricks-Delta-Sharing-Dokumentation](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}.
+
+### Verlaufsfreigabe aktivieren {#enable-history-sharing}
+
+Um die Sourcing-Leistung bei großen Tabellen zu verbessern, aktivieren Sie die Verlaufsfreigabe für jede Audience-Tabelle. Dadurch kann Collaboration Daten parallel lesen, indem eine konsistente Tabellenversion verwendet wird. Ohne die Freigabe des Verlaufs verwendet Collaboration einen langsameren Prozess mit einer einzigen Abfrage.
+
+Cloud-übergreifende Freigaben verwenden das Lesen einer einzelnen Abfrage auch bei aktiviertem Verlauf. Weitere Informationen finden Sie unter [Bekannte Einschränkungen](#known-limitations).
+
+Die Verlaufsfreigabe ermöglicht Adobe Zugriff auf frühere Versionen der von Ihnen freigegebenen Tabellen, jedoch nicht auf andere Tabellen. Sie müssen keinen zusätzlichen Zugriff gewähren, wenn Sie die Verlaufsfreigabe für eine Tabelle aktivieren, die Sie bereits für Adobe freigeben.
+
+Verwenden Sie die folgenden SQL-Befehle in Ihrem [!DNL Databricks] Workspace. Ersetzen Sie `<share_name>`, `<catalog>`, `<schema>` und `<table>` durch Ihren Freigabenamen und Ihre Tabellenkennungen.
+
+Um eine Tabelle mit Verlauf hinzuzufügen, führen Sie Folgendes aus:
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Um die Verlaufsfreigabe für eine Tabelle zu aktivieren, die sich bereits in der Freigabe befindet, führen Sie Folgendes aus:
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Um die Freigabe des Verlaufs zu überprüfen, führen Sie Folgendes aus:
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+Vergewissern Sie sich, dass `history_sharing` für jede Zielgruppentabelle `ENABLED` ist, einschließlich der Metadatentabelle, falls Sie eine solche verwenden. Die Freigabe des Verlaufs wird bei der nächsten Sourcing-Ausführung wirksam.
 
 ### Erfassen von [!DNL Databricks] für Collaboration {#collect-databricks-details}
 
 Nachdem Sie die Freigabe veröffentlicht haben, stellen Sie sicher, dass der Anbietername, der Freigabename, das Schema und die Tabellennamen für den Collaboration-Konfigurations-Workflow verfügbar sind.
 
-Sammeln Sie die folgenden Details, bevor Sie den Collaboration-Konfigurationsassistenten starten.
+Sammeln Sie die folgenden Details, bevor Sie den Collaboration-Konfigurations-Workflow starten.
 
 | Feld | Beschreibung | Beispiel |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | Anbietername | Provider-Kennung im Metastore des Adobe-Unity-Katalogs (beim Adobe-Onboarding) | `your_org_provider` |
 | Freigabename | Name der veröffentlichten [!DNL Delta Share] | `audience_share_prod` |
-| Schema | Schema | `collaboration_audiences` |
+| Schema | Schema innerhalb der Freigabe, die Ihre Zielgruppentabellen enthält. | `collaboration_audiences` |
 | Mitgliedstabelle | Tabelle mit Zeilen zur Zugehörigkeit zu Profil und Zielgruppe | `audience_members` |
 | Metadatentabelle (optional) | Tabellenauflistung von Zielgruppen (eine Zeile pro Zielgruppe) | `audience_catalog` |
 
