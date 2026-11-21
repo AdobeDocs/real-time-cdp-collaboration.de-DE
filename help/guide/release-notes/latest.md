@@ -2,7 +2,7 @@
 title: Aktuelle Versionshinweise zu Real-Time CDP Collaboration
 description: Folgen Sie den neuesten Versionen für Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label=„Eingeschränkte Verfügbarkeit“ type=„Informative“ url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -22,20 +22,41 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
+source-git-commit: c5031db11e6dd8d965439f0f5860a0710d2a56d1
 workflow-type: tm+mt
-source-wordcount: 2255
+source-wordcount: '2587'
 ht-degree: 3%
-
 ---
-
 # Aktuelle Versionshinweise zu Real-Time CDP Collaboration
 
 {{limited-availability-release-note}}
 
-**Letzte Aktualisierung**: August 2026.
+**Letzte Aktualisierung**: November 2026.
 
 In diesen Versionshinweisen werden die in Adobe Real-Time CDP Collaboration veröffentlichten Funktionen beschrieben. Collaboration-Versionen basieren auf einem kontinuierlichen Bereitstellungsmodell, das einen ungefähren monatlichen Veröffentlichungsintervall ermöglicht. Diese Versionshinweise werden häufig aktualisiert. Überprüfen Sie sie daher regelmäßig.
+
+## November 2026 {#november-2026}
+
+Sie können jetzt bezahlten Medienkontext aus [!DNL The Trade Desk] zu Erstanbieterprofilen hinzufügen und die Beschaffungsleistung für große [!DNL Databricks]-Zielgruppentabellen verbessern.
+
+| Funktion | Beschreibung |
+| ------- | ----------- |
+| [!BADGE Alpha]{type=Informative} [!DNL The Trade Desk] Profilanreicherung | Sie können jetzt Paid-Media-Kontext aus [!DNL The Trade Desk] zu Erstanbieterprofilen hinzufügen, um Zielgruppen zu erstellen und zu personalisieren. Weitere Informationen finden Sie unter [The Trade Desk Profile Enrichment](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md). |
+| Freigabe des Verlaufs für die [!DNL Databricks] Zielgruppen-Beschaffung | Sie können jetzt die Zielgruppen-Sourcing-Leistung für große [!DNL Databricks] verbessern, indem Sie die Verlaufsfreigabe aktivieren. Diese Leistungsverbesserung gilt nicht für Cloud-übergreifende Freigaben. Weitere Informationen finden Sie unter [Verlaufsfreigabe aktivieren](../setup/configure-databricks-audience-sourcing.md#enable-history-sharing). |
+
+{style="table-layout:auto"}
+
+## Oktober 2026 {#october-2026}
+
+Sie können jetzt die Identitätsauflösung verwalten, Erweiterungszielgruppen erstellen und die Self-Service-Anzeigenprotokollbeschaffung in Real-Time CDP Collaboration verwenden.
+
+| Funktion | Beschreibung |
+| ------- | ----------- |
+| Identitätsauflösung für Epsilon Core ID | Sie können jetzt Personen identifizieren, die mit Mitarbeitern gemeinsam haben, auch wenn Ihre Organisationen unterschiedliche Kennungen verwenden. Verwenden Sie die Epsilon Core ID, um Identitäten über geeignete Zielgruppendaten-Verbindungen hinweg aufzulösen, ohne benutzerdefinierte Integrationen für jeden Partner zu erstellen. Diese Funktion ist nur für Collaboration-Konten verfügbar, die in den USA bereitgestellt werden. Weitere Informationen finden Sie unter [Einrichten und Verwalten der Identitätsauflösung](../setup/identity-resolution.md). |
+| Self-Service-Anzeigenprotokoll-Beschaffung | Sie können jetzt Daten zur Werbegefährdung (Ad-Log) direkt aus [!DNL Google Cloud Storage], [!DNL Azure Blob Storage] oder [!DNL Azure Data Lake Storage Gen2] beziehen, um die Kampagnenleistung zu messen. Dadurch entfällt die Notwendigkeit, Anzeigen-Protokolle zuerst über Adobe Experience Platform zu beziehen. Weitere Informationen finden Sie unter [Einrichten von Google Cloud Storage](../setup/configure-gcs-adlog-sourcing.md) und [Einrichten von Azure Storage](../setup/configure-azure-adlog-sourcing.md). |
+| [!BADGE Beta]{type=Informative} Zielgruppenerweiterung | Sie können jetzt Profile in einer Mitarbeiter-Population finden, die Ihrer Quellzielgruppe ähnlich sind, ohne die zugrunde liegenden Zielgruppendaten verfügbar zu machen. Verwenden Sie diese Profile, um Audiences für neue Interessenten zu erstellen. Weitere Informationen finden Sie unter [Erstellen von Audiences](../collaborate/expand.md). |
+
+{style="table-layout:auto"}
 
 ## August 2026 {#august-2026}
 
@@ -45,6 +66,7 @@ Real-Time CDP Collaboration unterstützt jetzt Messberichte für [!DNL Amazon Ma
 
 | Funktion | Beschreibung |
 | ------- | ----------- |
+| Zusätzliche Datennutzungskennzeichnungen für [!UICONTROL Data Collaboration] | Sie können jetzt Datennutzungsbeschränkungen während der Zielgruppen-Beschaffung anwenden, um zu verhindern, dass gekennzeichnete vertrauliche und regulierte Gesundheitsdaten in Collaboration aufgenommen werden. Die [!UICONTROL Data Collaboration]-Marketing-Aktion unterstützt jetzt S1-, S2-, PSPD- und RHD-Datennutzungsbeschriftungen. Die bestehende Unterstützung für C4-, C5- und C9-Bezeichnungen bleibt unverändert. Weitere Informationen finden Sie unter [Verwaltung der Zielgruppenbeschaffung](../setup/onboard-audiences.md#governance-policy-and-enforcement-actions). |
 | [!DNL AMC] Messberichte | Messen Sie die Leistung Ihrer Amazon Ads-Kampagnen mithilfe von [!DNL AMC]-Daten direkt in Collaboration. Auf der Registerkarte **[!UICONTROL Kennzahlen]** in einem [!DNL AMC] können Sie Berichte **&#x200B;**&#x200B;Kampagnenzusammenfassung) und **Attribution** erstellen, um die Kampagnenleistung auszuwerten und die Konversionsattribution zu verstehen. Weitere Informationen finden Sie unter [Erstellen von Amazon Marketing Cloud-](../collaborate/advertising-platforms/amc-measure.md). |
 | Schlüsselzuordnung für verschachtelte Profilattribute anpassen | Sie können jetzt Übereinstimmungsschlüssel den Feldern zuordnen, die in listenbasierten Profilfeldern verschachtelt sind, z. B. einer Geräte-ID in einem `devices`-Array, ohne Ihre Daten zuvor zu reduzieren oder neu zu strukturieren. Collaboration gleicht jeden Wert im verschachtelten Feld einzeln ab und zählt ihn. Verschachtelte Felder werden derzeit nur für Übereinstimmungsschlüssel unterstützt, nicht als Profilattribute. Weitere Informationen finden Sie unter [Felder zuordnen](../setup/onboard-audiences.md#map-fields). |
 | Konversionsberichte auf Platzierungsebene | Attributionsberichte enthalten jetzt eine Tabelle **Konversionen nach Platzierung** in der die Konversionsanzahl und der Konversionswert für jede Platzierungs-ID innerhalb einer Kampagnen-ID angezeigt werden. Dadurch erhalten Sie separate Ergebnisse für Kampagnen mit mehreren Platzierungen. Die frühere Metrikbezeichnung **[!UICONTROL Geschätzter Umsatz]** wurde aus Gründen der Klarheit in **[!UICONTROL Konversionswert]** geändert. Weitere Informationen finden Sie unter &quot;[&#x200B; nach Platzierung](../collaborate/measure.md#conversions-by-placement). |
@@ -138,7 +160,7 @@ Real-Time CDP Collaboration ist jetzt für Kunden in **Kanada** verfügbar. Sie 
 >
 >Beim Aktivieren von Zielgruppen, für die mehrere Übereinstimmungsschlüssel verwendet werden, schlägt die gesamte Aktivierung fehl, wenn ein (oder mehrere) Übereinstimmungsschlüssel keine Überschneidungen, keine Zielgruppengröße oder einen Schwellenwert unterschreiten. Stellen Sie vor der Aktivierung sicher, dass sich Ihre Zielgruppen ausreichend überschneiden und der Mindestschwellenwert von 1.000 IDs für alle Übereinstimmungsschlüssel erreicht wird.
 
-* Das Adobe Experience Platform-Ziel unterstützt jetzt das Aktivieren von Zielgruppen mit mehreren Übereinstimmungsschlüsseln. Darüber hinaus können Sie jetzt einen verknüpften Schlüssel verwenden, wenn Sie die Zuordnung Ihres Ziels konfigurieren, um anzugeben, welcher Übereinstimmungsschlüssel während der Aktivierung gesendet wird. Weitere Informationen finden Sie im [Experience Platform-Ziel](../destinations/experience-platform.md#linked-keys)-Handbuch.
+* Das Adobe Experience Platform-Ziel unterstützt jetzt das Aktivieren von Zielgruppen mit mehreren Übereinstimmungsschlüsseln. Darüber hinaus können Sie jetzt beim Konfigurieren der Zielzuordnung einen verknüpften Schlüssel verwenden, um anzugeben, welcher Übereinstimmungsschlüssel während der Aktivierung gesendet wird. Weitere Informationen finden Sie im [Experience Platform-Ziel](../destinations/experience-platform.md#linked-keys)-Handbuch.
 * Mitwirkende können jetzt mehrere Zielgruppen gleichzeitig bearbeiten. Mit dem Tool zur Massenbearbeitung können Sie jetzt Zielgruppen-Metadaten, Verbindungszugriff, Namen, Beschreibungen und Kategorien für mehrere Zielgruppen bearbeiten. Weitere Informationen zum Bearbeiten von Zielgruppen finden Sie im Handbuch [Verwalten &#x200B;](../setup/onboard-audiences.md#edit-audiences) Zielgruppen“.
 
 ## Juli 2025 {#july-2025}
