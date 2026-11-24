@@ -38,7 +38,7 @@ Informationen zum Aktivieren von Zielgruppen über ein vorhandenes Kooperationsp
 
 Bevor Sie den Zugriff auf virtuelle Zielgruppen gewähren oder verwenden, stellen Sie sicher, dass Sie die folgenden Anforderungen erfüllen.
 
-* Für Zuschüsse für virtuelle Zielgruppen stellen Sie eine aktive [Verbindung mit Ihrem Mitarbeiter“ ](/help/guide/connect/establishing-connections.md).
+* Für Zuschüsse für virtuelle Zielgruppen stellen Sie eine aktive [Verbindung mit Ihrem Mitarbeiter“ &#x200B;](/help/guide/connect/establishing-connections.md).
 * Wenn Sie eine Zielgruppe bereitstellen, vergewissern Sie sich, dass die Zielgruppe zur Freigabe verfügbar ist.
 * Um zu überprüfen, welche Aktionen verfügbar sind, überprüfen Sie die Gewähren von Berechtigungen für Zielgruppen, die für Sie freigegeben wurden.
 
