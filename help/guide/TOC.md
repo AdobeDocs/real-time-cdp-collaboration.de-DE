@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration ermöglicht eine nahtlose und sichere Datenfreigabe und Zusammenarbeit zwischen Werbetreibenden und Publishern und stellt in Echtzeit Erkenntnisse zu Zielgruppen und personalisierte Marketing-Strategien bereit.
-source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
+source-git-commit: 5ad6bc22bc2070de9adc9ce6256113aaeeac8fce
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 31%
+source-wordcount: '283'
+ht-degree: 32%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -33,6 +33,7 @@ ht-degree: 31%
     * [Konfigurieren von Snowflake für die Zielgruppen-Beschaffung](./setup/configure-snowflake-audience-sourcing.md)
     * [Konfigurieren der Datenblöcke-Delta-Freigabe für die Zielgruppen-Beschaffung](./setup/configure-databricks-audience-sourcing.md)
     * [Konfigurieren von Adobe Audience Manager für die Zielgruppen-Beschaffung](./setup/configure-aam-audience-sourcing.md)
+  * {hide-from-toc}[Zielgruppenzugriff und Gewährungen](./setup/virtual-audience-access.md)
   * [Verwalten von Datenverbindungen](./setup/manage-data-connection.md)
   * [Einrichten und Verwalten der Identitätsauflösung](./setup/identity-resolution.md)
   * [Verfolgen Ihrer Kreditnutzungsaktivität](/help/guide/setup/my-activity.md)
@@ -68,10 +69,11 @@ ht-degree: 31%
     * [Erstellen von AMC-Messberichten](./collaborate/advertising-platforms/amc-measure.md)
     * {hide-from-toc}[The Trade Desk Profile Enrichment (Alpha)](./collaborate/advertising-platforms/trade-desk-profile-enrichment.md)
 * Ziele {#destinations}
-  * [Überblick](/help/guide/destinations/overview.md)
+  * [Übersicht](/help/guide/destinations/overview.md)
   * [Konfigurieren und Verwalten von Cloud-Speicher-Zielen](./destinations/manage-destinations.md)
   * [Cloud-Speicher-Zielanforderungen](./destinations/cloud-storage-destination-requirements.md)
   * [Konfigurieren von Adobe Experience Platform als Ziel](./destinations/experience-platform.md)
+  * {hide-from-toc}[Zielgruppen direkt aktivieren (1P)](./destinations/direct-audience-activation.md)
 * Berechtigungen {#permissions}
   * [Überblick](/help/guide/permissions/overview.md)
   * [Verwalten des Benutzerzugriffs](./permissions/manage-user-access.md)
