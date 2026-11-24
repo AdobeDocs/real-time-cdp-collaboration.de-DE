@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Erfahren Sie mehr über die Zusammenarbeit mit Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/de/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Eingeschränkte Verfügbarkeit" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
 product_v2:
@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 19%
+ht-degree: 20%
 ---
 # Amazon Marketing Cloud
 
@@ -46,7 +46,7 @@ Nachdem eine Verbindung mit [!DNL Amazon Marketing Cloud] ([!DNL AMC]) hergestel
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Überlappende IDs, die Anzeigen sehen"
+>title="Überschneidende IDs mit Anzeigenkontakt"
 >abstract="Dies stellt die Anzahl der IDs unter „Aufgelöste IDs“ aus der hochgeladenen Zielgruppe dar, die ebenfalls über Amazon Ads eine Anzeige gesehen haben."
 
 >[!CONTEXTUALHELP]
@@ -56,14 +56,14 @@ Nachdem eine Verbindung mit [!DNL Amazon Marketing Cloud] ([!DNL AMC]) hergestel
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Aufschlüsselung nach Amazon Ad-Produkt"
+>title="Aufschlüsselung nach Amazon-Anzeigenprodukt"
 >abstract="Die Aufschlüsselung der IDs unter „Überschneidende, für Anzeigen offengelegte IDs“ erfolgt entweder über Amazon Ads Sponsored Product und/oder über Amazon Ads DSP."
 
 Im Abschnitt **[!UICONTROL Entdecken]** können Sie Ihre AMC-Zielgruppe mit allen Verbrauchern vergleichen, die von Ihren Amazon-Anzeigen erreicht werden. Sie können auch Zielgruppensegmente für Amazon anzeigen, mit denen Ihre Zielgruppe die größten Überschneidungen aufweist, wobei nur DSP-Impressions berücksichtigt werden (diese Segmente können nur in der DSP angesprochen werden).
 
 >[!IMPORTANT]
 >
->Zielgruppendaten werden aus den Zielgruppen verarbeitet, die in Ihr [!DNL Amazon Ads]-Konto hochgeladen wurden. Um zu erfahren, wie Sie mit der Funktion „Ziele“ von Experience Platform Ihre Zielgruppen an Ihr [!DNL Amazon Ads]-Konto senden können, lesen Sie das Handbuch [Amazon Ads-Verbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>Zielgruppendaten werden aus den Zielgruppen verarbeitet, die in Ihr [!DNL Amazon Ads]-Konto hochgeladen wurden. Um zu erfahren, wie Sie mit der Funktion „Ziele“ von Experience Platform Ihre Zielgruppen an Ihr [!DNL Amazon Ads]-Konto senden können, lesen Sie das Handbuch [Amazon Ads-Verbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![Der Abschnitt „Entdecken“ in einem Projekt mit Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
